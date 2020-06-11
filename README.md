@@ -1,7 +1,36 @@
-如何使用资源
-
-
+## 如何使用资源
 
 比如
 
-https://github.com/Leon406/jsdelivr/blob/master/apk/app-V0.996.country.release-20200610-2040-release.apk
+```
+https://github.com/Leon406/jsdelivr/blob/master/apk/adbwireless.apk
+
+https://raw.githubusercontent.com/ 或者https://github.com/ 替换成 https://cdn.jsdelivr.net/gh/
+
+/blob 和/master 替换成 空
+
+https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/apk/adbwireless.apk
+```
+
+
+
+:warning:jsdelivr单文件大小限制20M
+
+
+
+各个文件的路径前缀如下
+
+| github目录 | jsdelivr前缀                                      |
+| ---------- | ------------------------------------------------- |
+| apk        | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/apk/ |
+|            |                                                   |
+|            |                                                   |
+
+
+
+
+
+### 参考
+
+[jsdelivr](https://www.jsdelivr.com/?docs=gh)
+
