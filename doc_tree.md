@@ -6,4 +6,5 @@ C:\USERS\LEON\DESKTOP\±Ê¼Ç\JSDELIVR
 ©¦  
 ©¸©¤apk
         adbwireless.apk
+        call-release.apk
         
