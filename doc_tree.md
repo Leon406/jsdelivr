@@ -6,5 +6,4 @@ C:\USERS\LEON\DESKTOP\±Ê¼Ç\JSDELIVR
 ©¦  
 ©¸©¤apk
         adbwireless.apk
-        app-V0.996.country.release-20200610-2040-release.apk
         
