@@ -1,0 +1,233 @@
+//  android artifact was unmaintained from year 2018, the last version of support lib is 28.0.0 ,
+// refer https://developer.android.google.cn/jetpack/androidx/migrate
+//  so you have to switch to androidx !!!
+//  If you need the latest androidx , plz refer at https://developer.android.google.cn/jetpack/androidx/versions
+
+
+ext {
+    kotlin_version = '1.3.61'
+    versions = [
+            activity                  : '1.1.0',
+            android_gradle_plugin     : '3.6.0',
+            annotations               : "1.0.0",
+            apache_commons            : "2.5",
+            appcompat                 : "1.2.0-alpha02",
+            arch_core                 : "2.1.0",
+            atsl_core                 : "1.2.0",
+            atsl_junit                : "1.1.1",
+            atsl_rules                : "1.2.0",
+            atsl_runner               : "1.2.0",
+            benchmark                 : "1.0.0",
+            cardview                  : "1.0.0",
+            constraint_layout         : "2.0.0-alpha2",
+            core_ktx                  : "1.1.0",
+            coroutines                : "1.3.3",
+            dagger                    : "2.16",
+            dexmaker                  : "2.2.0",
+            espresso                  : "3.2.0",
+            fragment                  : "1.2.1",
+            glide                     : "4.8.0",
+            hamcrest                  : "1.3",
+            junit                     : "4.12",
+            kotlin                    : kotlin_version,
+            lifecycle                 : "2.2.0",
+            material                  : "1.0.0",
+            mockito                   : "2.25.0",
+            mockito_all               : "1.10.19",
+            mockito_android           : "2.25.0",
+            mockwebserver             : "3.8.1",
+            navigation                : "2.3.0-alpha01",
+            okhttp_logging_interceptor: "3.9.0",
+            paging                    : "2.1.1",
+            recyclerview              : "1.0.0",
+            retrofit                  : "2.3.0",
+            robolectric               : "4.2",
+            room                      : "2.2.3",
+            rx_android                : "2.0.1",
+            rxjava2                   : "2.1.3",
+            timber                    : "4.7.1",
+            transition                : "1.3.0",
+            truth                     : "1.0.1",
+            work                      : "2.2.0"
+    ]
+    build_versions = [
+            target_sdk : 29,
+            compile_sdk: 29,
+            min_sdk    : 21,
+            build_tools: "29.0.2"
+    ]
+
+
+    // jdk8 contains jdk7
+    kt = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    // ktx contains kotlin-stdlib androidx.core(annotation,ifecycle-runtime,versionedparcelable,collection)
+    ktx = "androidx.core:core-ktx:${versions.core_ktx}"
+    kttest = "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin"
+    ktallopen = "org.jetbrains.kotlin:kotlin-allopen:$versions.kotlin"
+//    kts = [
+//            stdlib : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin",
+//            test : "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin",
+//            plugin : "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin",
+//            allopen : "org.jetbrains.kotlin:kotlin-allopen:$versions.kotlin"
+//    ]
+
+    arch_core = [:]
+    arch_core.runtime = "androidx.arch.core:core-runtime:$versions.arch_core"
+    arch_core.testing = "androidx.arch.core:core-testing:$versions.arch_core"
+
+    activity_ktx = "androidx.activity:activity-ktx:$versions.activity"
+//----------------------------------------  Architecture -------------------------------------------
+//****************************************  lifecycle   ********************************************
+
+
+    lifecycleXPak = "androidx.lifecycle"
+    lifecycle = [
+            extensions: buildDepend(lifecycleXPak, 'lifecycle-extensions', versions.lifecycle),
+            compiler  : buildDepend(lifecycleXPak, 'lifecycle-compiler',  versions.lifecycle),
+            //alternatively
+            runtime   : buildDepend(lifecycleXPak, 'lifecycle-runtime',  versions.lifecycle),
+            livedata  : buildDepend(lifecycleXPak, 'lifecycle-livedata',  versions.lifecycle),
+            livedata_ktx  : buildDepend(lifecycleXPak, 'lifecycle-livedata-ktx',  versions.lifecycle),
+            viewmodel : buildDepend(lifecycleXPak, 'lifecycle-viewmodel',  versions.lifecycle),
+            viewmodel_ktx : buildDepend(lifecycleXPak, 'lifecycle-viewmodel-ktx',  versions.lifecycle),
+            //optional
+            rx        : buildDepend(lifecycleXPak, 'lifecycle-reactivestreams',  versions.lifecycle),
+            rx_ktx    : buildDepend(lifecycleXPak, 'lifecycle-reactivestreams-ktx',  versions.lifecycle),
+            java8     : buildDepend(lifecycleXPak, 'lifecycle-common-java8',  versions.lifecycle),
+            test      : buildDepend('android.arch.core', 'core-testing',  versions.lifecycle)
+
+    ]
+//****************************************     Room    *********************************************
+
+    roomXPak = "androidx.room"
+
+    room = [
+
+            runtime : buildDepend(roomXPak, 'room-runtime', versions.room),
+            compiler: buildDepend(roomXPak, 'room-compiler', versions.room),
+            //optional
+            rx      : buildDepend(roomXPak, 'room-rxjava2', versions.room),
+            guava   : buildDepend(roomXPak, 'room-guava', versions.room),
+
+            testing    : buildDepend(roomXPak, 'room-testing', versions.room)
+
+    ]
+//****************************************     Paging    *********************************************
+
+    pagingXPak = "androidx.paging"
+    paging = [
+
+            runtime: buildDepend(pagingXPak, 'paging-runtime', versions.paging),
+            runtime_ktx: buildDepend(pagingXPak, 'paging-runtime-ktx', versions.paging),
+            //optional
+            rx     : buildDepend(pagingXPak, 'paging-rxjava2', versions.paging),
+            // alternatively - without Android dependencies for testing
+            test   : buildDepend(pagingXPak, 'paging-common', versions.paging)
+
+    ]
+//*************************************     Navigation    ******************************************
+    navigationXPak = "androidx.navigation"
+
+
+    navigation = [
+
+            runtime    : buildDepend(navigationXPak, 'navigation-runtime', versions.navigation),
+            runtime_ktx    : buildDepend(navigationXPak, 'navigation-runtime-ktx', versions.navigation),
+            fragment    : buildDepend(navigationXPak, 'navigation-fragment', versions.navigation),
+            fragment_ktx: buildDepend(navigationXPak, 'navigation-fragment-ktx', versions.navigation),
+            ui          : buildDepend(navigationXPak, 'navigation-ui', versions.navigation),
+            ui_ktx      : buildDepend(navigationXPak, 'navigation-ui-ktx', versions.navigation),
+            safe_args_plugin      : buildDepend(navigationXPak, 'navigation-safe-args-gradle-plugin', versions.navigation),
+            //optional
+            testing        : buildDepend(navigationXPak, 'navigation-testing', versions.navigation),
+            test_ktx    : buildDepend(navigationXPak, 'navigation-testing-ktx', versions.navigation)
+
+    ]
+//****************************************     WorkManager    **************************************
+
+    workXPak = "androidx.work"
+    work = [
+
+            runtime : buildDepend(workXPak, 'work-runtime', versions.work),
+            runtime_ktx : buildDepend(workXPak, 'work-runtime-ktx', versions.work),
+            //optional
+            firebase: buildDepend(workXPak, 'work-firebase', versions.work),
+            testing    : buildDepend(workXPak, 'work-testing', versions.work)
+
+    ]
+
+//----------------------------------------  Foundation -------------------------------------------
+
+    supX = [
+
+            //app compact contains annotation  core fragment live data drawerlayout
+            appcompat         : buildDepend('androidx.appcompat', 'appcompat', versions.appcompat),
+            design            : buildDepend("com.google.android.material", 'material', "1.2.0-alpha04"),
+            recyclerview      : buildDepend("androidx.recyclerview", 'recyclerview', "1.1.0"),
+            constraint        : buildDepend("androidx.constraintlayout", 'constraintlayout', versions.constraint_layout),
+            swiperefreshlayout: buildDepend("androidx.swiperefreshlayout", 'swiperefreshlayout', "1.0.0"),
+            webkit            : buildDepend("androidx.webkit", 'webkit', "1.0.0")
+    ]
+
+    // quick config for dep
+    quickDep = [kt, ktx, supX.appcompat, supX.design,supX.swiperefreshlayout]
+
+
+    coroutines = [
+            android: "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines",
+            test   : "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutines"]
+
+    dagger = [
+            runtime                 : "com.google.dagger:dagger:$versions.dagger",
+            android                 : "com.google.dagger:dagger-android:$versions.dagger",
+            android_support         : "com.google.dagger:dagger-android-support:$versions.dagger",
+            compiler                : "com.google.dagger:dagger-compiler:$versions.dagger",
+            android_support_compiler: "com.google.dagger:dagger-android-processor:$versions.dagger"]
+    dexmaker = "com.linkedin.dexmaker:dexmaker-mockito:$versions.dexmaker"
+
+    fragment = [
+            runtime    : "androidx.fragment:fragment:${versions.fragment}",
+            runtime_ktx: "androidx.fragment:fragment-ktx:${versions.fragment}",
+            testing    : "androidx.fragment:fragment-testing:${versions.fragment}"]
+
+
+    retrofit = [
+            runtime: "com.squareup.retrofit2:retrofit:$versions.retrofit",
+            gson   : "com.squareup.retrofit2:converter-gson:$versions.retrofit",
+            mock   : "com.squareup.retrofit2:retrofit-mock:$versions.retrofit"]
+    okhttp_logging_interceptor = "com.squareup.okhttp3:logging-interceptor:${versions.okhttp_logging_interceptor}"
+
+    glide = [:]
+    glide.runtime = "com.github.bumptech.glide:glide:$versions.glide"
+    glide.compiler = "com.github.bumptech.glide:compiler:$versions.glide"
+//----------------------------------------  Test -------------------------------------------
+    atsl = [
+            core     : "androidx.test:core:$versions.atsl_core",
+            ext_junit: "androidx.test.ext:junit:$versions.atsl_junit",
+            runner   : "androidx.test:runner:$versions.atsl_runner",
+            rules    : "androidx.test:rules:$versions.atsl_rules"]
+
+    junit = "junit:junit:$versions.junit"
+    espresso = [
+            core   : "androidx.test.espresso:espresso-core:$versions.espresso",
+            contrib: "androidx.test.espresso:espresso-contrib:$versions.espresso",
+            intents: "androidx.test.espresso:espresso-intents:$versions.espresso"]
+
+    robolectric = "org.robolectric:robolectric:$versions.robolectric"
+    mockito = [:]
+    mockito.core = "org.mockito:mockito-core:$versions.mockito"
+    mockito.all = "org.mockito:mockito-all:$versions.mockito_all"
+    mockito.android = "org.mockito:mockito-android:$versions.mockito_android"
+    hamcrest = "org.hamcrest:hamcrest-all:$versions.hamcrest"
+    truth = "com.google.truth:truth:$versions.truth"
+    rx_android = "io.reactivex.rxjava2:rxandroid:$versions.rx_android"
+    rxjava2 = "io.reactivex.rxjava2:rxjava:$versions.rxjava2"
+    mock_web_server = "com.squareup.okhttp3:mockwebserver:$versions.mockwebserver"
+    timber = "com.jakewharton.timber:timber:$versions.timber"
+    transition = "androidx.transition:transition:$versions.transition"
+}
+
+
+static String buildDepend(String pack, String dependency, String version) {
+    return "${pack}:${dependency}:${version}"
+}

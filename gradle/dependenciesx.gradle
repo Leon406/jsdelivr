@@ -1,0 +1,89 @@
+static String getDate() {
+    Date date = new Date()
+    String dates = "\"" + date.format("yyyy-MM-dd HH:mm:ss", TimeZone.getTimeZone("GMT+08:00")) + "\""
+    return dates
+}
+
+static String releaseTime() {
+    return new Date().format("yyyyMMdd-HHmm", TimeZone.getTimeZone("GMT+08:00"))
+}
+
+ext {
+// ext function
+    date = getDate()
+    releaseTime = releaseTime()
+//--------------------------------------------  IDE ------------------------------------------------
+
+    config = [
+            target_sdk : 29,
+            min_sdk : 21  ,
+            build_tools: "29.0.2"
+    ]
+
+
+
+    //---------------------------------------------Rx --------------------------------------------------
+    reactivePackage = 'io.reactivex.rxjava2'
+    //rx
+    rxAndroidVersion = '2.1.1'
+    rxJavaVersion = '2.2.10'
+    rxLifeCycleVersion = '2.2.1'
+    rxBindVersion = '3.0.0'
+    rxPermissionVersion = '0.9.4'
+
+    rx = [
+            android     : buildDepend(reactivePackage, 'rxandroid', rxAndroidVersion),
+            java        : buildDepend(reactivePackage, 'rxjava', rxJavaVersion),
+            life        : "com.trello.rxlifecycle2:rxlifecycle:$rxLifeCycleVersion",
+            lifeAndroid : "com.trello.rxlifecycle2:rxlifecycle-android:$rxLifeCycleVersion",
+            lifeCmp     : "com.trello.rxlifecycle2:rxlifecycle-components:$rxLifeCycleVersion",
+            permission  : "com.tbruyelle.rxpermissions2:rxpermissions:${rxPermissionVersion}@aar",
+            binding     : "com.jakewharton.rxbinding2:rxbinding:$rxBindVersion",
+            bindSup     : "com.jakewharton.rxbinding2:rxbinding-support-v4:$rxBindVersion",
+            bindCompat  : "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:$rxBindVersion",
+            bindDesign  : "com.jakewharton.rxbinding2:rxbinding-design:$rxBindVersion",
+            bindRecycler: "com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:$rxBindVersion",
+            bindLean    : "com.jakewharton.rxbinding2:rxbinding-leanback-v17:$rxBindVersion"
+
+    ]
+
+    rxDep = [rx.android,rx.java]
+    brahx_version = "2.9.49-androidx"
+
+    brvahx = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$brahx_version"
+
+
+
+
+}
+
+
+static String buildDepend(String pack, String dependency, String version) {
+    return "${pack}:${dependency}:${version}"
+}
+
+def addRepos(RepositoryHandler handler) {
+
+	handler.mavenLocal()
+//    阿里云库(https://maven.aliyun.com/mvn/view) 包含mavenCentral    google   jcenter  spring  spring-plugin gradle-plugin
+    handler.maven { url 'https://maven.aliyun.com/repository/public' }
+    handler.maven { url 'https://maven.aliyun.com/repository/google' }
+    //handler.mavenCentral()
+  //  handler.google()
+//    handler.jcenter()
+    handler.maven { url 'https://www.jitpack.io' }
+    handler.maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+   
+//    private maven
+    handler.maven { url 'http://127.0.0.1:8081/repository/maven-public/' }
+    handler.maven {
+        url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
+    }
+}
+
+def aliyun(RepositoryHandler handler) {
+    handler.maven { url 'https://maven.aliyun.com/repository/public' }
+}
+
+ext.addRepos = this.&addRepos
+ext.aliyun = this.&aliyun
