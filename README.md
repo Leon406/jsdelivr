@@ -24,7 +24,7 @@ https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/apk/adbwireless.apk
 | ---------- | ---------------------------------------------------- |
 | apk        | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/apk/    |
 | gradle     | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/gradle/ |
-|            |                                                      |
+| adp        | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/adp/    |
 
 
 
