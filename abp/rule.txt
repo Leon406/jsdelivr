@@ -100,5 +100,3 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 */preroll/$media,domain=91porn.com
 ||91p20.space^
 ||waust.at^
-
-52pojie.cn###ft
