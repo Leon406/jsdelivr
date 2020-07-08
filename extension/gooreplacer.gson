@@ -1,0 +1,76 @@
+{
+    "createBy": "http://liujiacai.net/gooreplacer/",
+    "createAt": "Wed Dec 05 2018 21:53:22 GMT+0800 (China Standard Time)",
+    "rules": {
+        "www.npmjs.com": {
+            "dstURL": "npm.mirrors.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+		"registry.npmjs.org": {
+            "dstURL": "npmreg.mirrors.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+		"registry-1.docker.io": {
+            "dstURL": "docker.mirrors.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+		"downloads.openwrt.org": {
+            "dstURL": "openwrt.mirrors.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+		"secure.gravatar.com": {
+            "dstURL": "gravatar.lug.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+		"ajax.googleapis.com": {
+            "dstURL": "ajax.lug.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+        "fonts.googleapis.com": {
+            "dstURL": "fonts.lug.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": false
+        },
+        "storage.googleapis.com": {
+            "dstURL": "storage-googleapis.lug.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+        "gerrit.googlesource.com": {
+            "dstURL": "gerrit-googlesource.lug.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+        "themes.googleusercontent.com": {
+            "dstURL": "google-themes.lug.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": true
+        },
+        "fonts.gstatic.com": {
+            "dstURL": "fonts-gstatic.lug.ustc.edu.cn",
+            "kind": "wildcard",
+            "enable": false
+        },
+        "platform.twitter.com/widgets.js": {
+            "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/widgets.js",
+            "kind": "wildcard",
+            "enable": true
+        },
+        "apis.google.com/js/api.js": {
+            "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/api.js",
+            "kind": "wildcard",
+            "enable": true
+        },
+        "apis.google.com/js/plusone.js": {
+            "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/plusone.js",
+            "kind": "wildcard",
+            "enable": true
+        }
+    }
+}

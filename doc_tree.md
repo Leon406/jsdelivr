@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  doc_tree.md
 │  README.md
 │  up.bat
@@ -11,6 +12,9 @@ E:\GITHUB\JSDELIVR
 ├─apk
 │      adbwireless.apk
 │      call-release.apk
+│      
+├─extension
+│      gooreplacer.gson
 │      
 ├─gradle
 │      andres.gradle
