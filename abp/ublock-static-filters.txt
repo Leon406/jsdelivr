@@ -1,0 +1,3 @@
+www.cnbeta.com##.pageFooter
+www.cnbeta.com##.cnbeta-article-comments-postbox
+www.cnbeta.com##.cnbeta-article-vote-tags

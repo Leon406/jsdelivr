@@ -9,6 +9,7 @@ E:\GITHUB\JSDELIVR
 ©À©¤abp
 ©¦      mv.txt
 ©¦      rule.txt
+©¦      ublock-static-filters.txt
 ©¦      
 ©À©¤apk
 ©¦      adbwireless.apk
