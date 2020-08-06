@@ -1,6 +1,5 @@
 E:\GITHUB\JSDELIVR
 ©¦  delete_big_file.bat
-©¦  delete_big_file.txt
 ©¦  doc_tree.md
 ©¦  pull.bat
 ©¦  pull.sh
