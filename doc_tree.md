@@ -4,7 +4,7 @@ E:\GITHUB\JSDELIVR
 ©¦  pull.bat
 ©¦  pull.sh
 ©¦  README.md
-©¦  recycle_storage.bat
+©¦  recycle_storage.sh
 ©¦  up.bat
 ©¦  up.sh
 ©¦  
