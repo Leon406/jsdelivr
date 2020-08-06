@@ -82,7 +82,6 @@ E:\GITHUB\JSDELIVR
         sequenceEqual.png
         sig.jpg
         sig1.jpg
-        sig2.gif
         sig22.gif
         sig_full_1.jpg
         sig_validate.jpg
