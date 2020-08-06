@@ -1,8 +1,10 @@
 E:\GITHUB\JSDELIVR
+│  delete_big_file.txt
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
 │  README.md
+│  recycle_storage.bat
 │  up.bat
 │  up.sh
 │  
@@ -27,10 +29,7 @@ E:\GITHUB\JSDELIVR
 │      uptest.html
 │      
 └─img
-        1.png
         1571887687153.png
-        23.png
-        2322.png
         360截图184307056511999.png
         all.png
         amb.png
@@ -51,6 +50,7 @@ E:\GITHUB\JSDELIVR
         first.png
         flatMap.png
         fragment.png
+        git删除多余的大文件.jpg
         groupBy.png
         ignoreElements.png
         image-20200701150539249.png
@@ -83,7 +83,10 @@ E:\GITHUB\JSDELIVR
         sig.jpg
         sig1.jpg
         sig2.gif
+        sig22.gif
+        sig_full_1.jpg
         sig_validate.jpg
+        sig_zoom_01.jpg
         skip.png
         skipLast.png
         skipUntil.png
@@ -93,10 +96,11 @@ E:\GITHUB\JSDELIVR
         takeLast.png
         takeUntil.png
         takeWhile.png
-        typora-icon.png
         vertex.png
         viewmodel-lifecycle.png
         zip.png
+        回收资源.jpg
+        推送git.jpg
         文档更改后.jpg
         校验.webp.jpg
         签名.webp.jpg
