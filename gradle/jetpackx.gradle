@@ -54,7 +54,7 @@ ext {
             target_sdk : 29,
             compile_sdk: 29,
             min_sdk    : 21,
-            build_tools: "29.0.2"
+            build_tools: "29.0.3"
     ]
 
 
