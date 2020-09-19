@@ -65,6 +65,7 @@ E:\GITHUB\JSDELIVR
 ©¦      image-20200712195925866.png
 ©¦      image-20200712202607014.png
 ©¦      image-20200716164754585.png
+©¦      image-20200908204643379.png
 ©¦      invalidate-sig.jpg
 ©¦      invalidate_sig.jpg
 ©¦      JetPack.png
@@ -105,5 +106,6 @@ E:\GITHUB\JSDELIVR
 ©¦      Ç©Ãû.webp.jpg
 ©¦      
 ©¸©¤subscribe
+        pac.txt
         v2ray.txt
         
