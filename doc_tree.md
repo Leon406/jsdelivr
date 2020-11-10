@@ -108,6 +108,7 @@ E:\GITREPO\JSDELIVR
 ©¦      Ç©Ãû.webp.jpg
 ©¦      
 ©¸©¤subscribe
+        gfwlist.txt
         pac.js
         pac.txt
         v2ray.txt
