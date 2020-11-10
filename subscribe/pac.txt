@@ -1,13 +1,16 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2020-10-01 11:22:01 GMT+8
+ * GFWList Last-Modified: 2020-10-30 13:51:41 GMT+8
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1080';
 var rules = [
     [
         [], 
-        []
+        [
+			"rsshub.app", 
+            "ohmyrss.com", 
+		]
     ], 
     [
         [
@@ -147,6 +150,7 @@ var rules = [
             "21sextury.com", 
             "228.net.tw", 
             "233abc.com", 
+            "233v2.com", 
             "24hrs.ca", 
             "24smile.org", 
             "25u.com", 
@@ -1159,6 +1163,8 @@ var rules = [
             "dessci.com", 
             "destroy-china.jp", 
             "deutsche-welle.de", 
+            "deviantart.com", 
+            "deviantart.net", 
             "devio.us", 
             "devpn.com", 
             "dfas.mil", 
@@ -2836,6 +2842,7 @@ var rules = [
             "latibet.org", 
             "law.com", 
             "lbank.info", 
+            "lbyczf.com", 
             "le-vpn.com", 
             "leafyvpn.net", 
             "lecloud.net", 
@@ -3051,6 +3058,7 @@ var rules = [
             "meripet.biz", 
             "meripet.com", 
             "merit-times.com.tw", 
+            "merlinblog.xyz", 
             "meshrep.com", 
             "mesotw.com", 
             "messenger.com", 
@@ -3153,6 +3161,7 @@ var rules = [
             "morningsun.org", 
             "moroneta.com", 
             "mos.ru", 
+            "mosucloud.site", 
             "motherless.com", 
             "motiyun.com", 
             "motor4ik.ru", 
@@ -3273,6 +3282,7 @@ var rules = [
             "naver.jp", 
             "navy.mil", 
             "naweeklytimes.com", 
+            "nbcnews.com", 
             "nbtvpn.com", 
             "nchrd.org", 
             "ncn.org", 
@@ -3385,6 +3395,8 @@ var rules = [
             "ntdtv.ca", 
             "ntdtv.co.kr", 
             "ntdtv.com", 
+            "ntdtv.com.tw", 
+            "ntdtv.jp", 
             "ntdtv.org", 
             "ntdtv.ru", 
             "ntdtvla.com", 
@@ -3725,6 +3737,7 @@ var rules = [
             "privatetunnel.com", 
             "privatevpn.com", 
             "procopytips.com", 
+            "prosciana.com", 
             "prosiben.de", 
             "protonvpn.com", 
             "provideocoalition.com", 
@@ -3943,6 +3956,7 @@ var rules = [
             "rxhj.net", 
             "s-cute.com", 
             "s-dragon.org", 
+            "s-nbcnews.com", 
             "s1heng.com", 
             "s1s1s1.com", 
             "s4miniarchive.com", 
@@ -4131,6 +4145,7 @@ var rules = [
             "sjrt.org", 
             "sjum.cn", 
             "sketchappsources.com", 
+            "skimresources.com", 
             "skimtube.com", 
             "skybet.com", 
             "skyking.com.tw", 
@@ -5349,6 +5364,7 @@ var rules = [
             "yangjianli.com", 
             "yasni.co.uk", 
             "yayabay.com", 
+            "ycombinator.com", 
             "ydy.com", 
             "yeahteentube.com", 
             "yecl.net", 
@@ -5495,11 +5511,8 @@ var rules = [
             "zyzc9.com", 
             "zzcartoon.com", 
             "zzcloud.me", 
-            "zzux.com",
-		    "rsshub.app", 
-            "ohmyrss.com", 
-        ],
-		
+            "zzux.com"
+        ]
     ]
 ];
 
