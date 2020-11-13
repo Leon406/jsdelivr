@@ -294,90 +294,99 @@ E:\GITREPO\JSDELIVR
 ©¦      ©¦      V.bcmap
 ©¦      ©¦      WP-Symbol.bcmap
 ©¦      ©¦      
-©¦      ©¸©¤images
-©¦              annotation-check.svg
-©¦              annotation-comment.svg
-©¦              annotation-help.svg
-©¦              annotation-insert.svg
-©¦              annotation-key.svg
-©¦              annotation-newparagraph.svg
-©¦              annotation-noicon.svg
-©¦              annotation-note.svg
-©¦              annotation-paragraph.svg
-©¦              findbarButton-next.png
-©¦              findbarButton-next@2x.png
-©¦              findbarButton-previous.png
-©¦              findbarButton-previous@2x.png
-©¦              grab.cur
-©¦              grabbing.cur
-©¦              loading-icon.gif
-©¦              loading-small.png
-©¦              loading-small@2x.png
-©¦              secondaryToolbarButton-documentProperties.png
-©¦              secondaryToolbarButton-documentProperties@2x.png
-©¦              secondaryToolbarButton-firstPage.png
-©¦              secondaryToolbarButton-firstPage@2x.png
-©¦              secondaryToolbarButton-handTool.png
-©¦              secondaryToolbarButton-handTool@2x.png
-©¦              secondaryToolbarButton-lastPage.png
-©¦              secondaryToolbarButton-lastPage@2x.png
-©¦              secondaryToolbarButton-rotateCcw.png
-©¦              secondaryToolbarButton-rotateCcw@2x.png
-©¦              secondaryToolbarButton-rotateCw.png
-©¦              secondaryToolbarButton-rotateCw@2x.png
-©¦              secondaryToolbarButton-scrollHorizontal.png
-©¦              secondaryToolbarButton-scrollHorizontal@2x.png
-©¦              secondaryToolbarButton-scrollVertical.png
-©¦              secondaryToolbarButton-scrollVertical@2x.png
-©¦              secondaryToolbarButton-scrollWrapped.png
-©¦              secondaryToolbarButton-scrollWrapped@2x.png
-©¦              secondaryToolbarButton-selectTool.png
-©¦              secondaryToolbarButton-selectTool@2x.png
-©¦              secondaryToolbarButton-spreadEven.png
-©¦              secondaryToolbarButton-spreadEven@2x.png
-©¦              secondaryToolbarButton-spreadNone.png
-©¦              secondaryToolbarButton-spreadNone@2x.png
-©¦              secondaryToolbarButton-spreadOdd.png
-©¦              secondaryToolbarButton-spreadOdd@2x.png
-©¦              shadow.png
-©¦              texture.png
-©¦              toolbarButton-bookmark.png
-©¦              toolbarButton-bookmark@2x.png
-©¦              toolbarButton-download.png
-©¦              toolbarButton-download@2x.png
-©¦              toolbarButton-menuArrows.png
-©¦              toolbarButton-menuArrows@2x.png
-©¦              toolbarButton-openFile.png
-©¦              toolbarButton-openFile@2x.png
-©¦              toolbarButton-pageDown.png
-©¦              toolbarButton-pageDown@2x.png
-©¦              toolbarButton-pageUp.png
-©¦              toolbarButton-pageUp@2x.png
-©¦              toolbarButton-presentationMode.png
-©¦              toolbarButton-presentationMode@2x.png
-©¦              toolbarButton-print.png
-©¦              toolbarButton-print@2x.png
-©¦              toolbarButton-search.png
-©¦              toolbarButton-search@2x.png
-©¦              toolbarButton-secondaryToolbarToggle.png
-©¦              toolbarButton-secondaryToolbarToggle@2x.png
-©¦              toolbarButton-sidebarToggle.png
-©¦              toolbarButton-sidebarToggle@2x.png
-©¦              toolbarButton-viewAttachments.png
-©¦              toolbarButton-viewAttachments@2x.png
-©¦              toolbarButton-viewOutline.png
-©¦              toolbarButton-viewOutline@2x.png
-©¦              toolbarButton-viewThumbnail.png
-©¦              toolbarButton-viewThumbnail@2x.png
-©¦              toolbarButton-zoomIn.png
-©¦              toolbarButton-zoomIn@2x.png
-©¦              toolbarButton-zoomOut.png
-©¦              toolbarButton-zoomOut@2x.png
-©¦              treeitem-collapsed.png
-©¦              treeitem-collapsed@2x.png
-©¦              treeitem-expanded.png
-©¦              treeitem-expanded@2x.png
-©¦              
+©¦      ©À©¤images
+©¦      ©¦      annotation-check.svg
+©¦      ©¦      annotation-comment.svg
+©¦      ©¦      annotation-help.svg
+©¦      ©¦      annotation-insert.svg
+©¦      ©¦      annotation-key.svg
+©¦      ©¦      annotation-newparagraph.svg
+©¦      ©¦      annotation-noicon.svg
+©¦      ©¦      annotation-note.svg
+©¦      ©¦      annotation-paragraph.svg
+©¦      ©¦      findbarButton-next.png
+©¦      ©¦      findbarButton-next@2x.png
+©¦      ©¦      findbarButton-previous.png
+©¦      ©¦      findbarButton-previous@2x.png
+©¦      ©¦      grab.cur
+©¦      ©¦      grabbing.cur
+©¦      ©¦      loading-icon.gif
+©¦      ©¦      loading-small.png
+©¦      ©¦      loading-small@2x.png
+©¦      ©¦      secondaryToolbarButton-documentProperties.png
+©¦      ©¦      secondaryToolbarButton-documentProperties@2x.png
+©¦      ©¦      secondaryToolbarButton-firstPage.png
+©¦      ©¦      secondaryToolbarButton-firstPage@2x.png
+©¦      ©¦      secondaryToolbarButton-handTool.png
+©¦      ©¦      secondaryToolbarButton-handTool@2x.png
+©¦      ©¦      secondaryToolbarButton-lastPage.png
+©¦      ©¦      secondaryToolbarButton-lastPage@2x.png
+©¦      ©¦      secondaryToolbarButton-rotateCcw.png
+©¦      ©¦      secondaryToolbarButton-rotateCcw@2x.png
+©¦      ©¦      secondaryToolbarButton-rotateCw.png
+©¦      ©¦      secondaryToolbarButton-rotateCw@2x.png
+©¦      ©¦      secondaryToolbarButton-scrollHorizontal.png
+©¦      ©¦      secondaryToolbarButton-scrollHorizontal@2x.png
+©¦      ©¦      secondaryToolbarButton-scrollVertical.png
+©¦      ©¦      secondaryToolbarButton-scrollVertical@2x.png
+©¦      ©¦      secondaryToolbarButton-scrollWrapped.png
+©¦      ©¦      secondaryToolbarButton-scrollWrapped@2x.png
+©¦      ©¦      secondaryToolbarButton-selectTool.png
+©¦      ©¦      secondaryToolbarButton-selectTool@2x.png
+©¦      ©¦      secondaryToolbarButton-spreadEven.png
+©¦      ©¦      secondaryToolbarButton-spreadEven@2x.png
+©¦      ©¦      secondaryToolbarButton-spreadNone.png
+©¦      ©¦      secondaryToolbarButton-spreadNone@2x.png
+©¦      ©¦      secondaryToolbarButton-spreadOdd.png
+©¦      ©¦      secondaryToolbarButton-spreadOdd@2x.png
+©¦      ©¦      shadow.png
+©¦      ©¦      texture.png
+©¦      ©¦      toolbarButton-bookmark.png
+©¦      ©¦      toolbarButton-bookmark@2x.png
+©¦      ©¦      toolbarButton-download.png
+©¦      ©¦      toolbarButton-download@2x.png
+©¦      ©¦      toolbarButton-menuArrows.png
+©¦      ©¦      toolbarButton-menuArrows@2x.png
+©¦      ©¦      toolbarButton-openFile.png
+©¦      ©¦      toolbarButton-openFile@2x.png
+©¦      ©¦      toolbarButton-pageDown.png
+©¦      ©¦      toolbarButton-pageDown@2x.png
+©¦      ©¦      toolbarButton-pageUp.png
+©¦      ©¦      toolbarButton-pageUp@2x.png
+©¦      ©¦      toolbarButton-presentationMode.png
+©¦      ©¦      toolbarButton-presentationMode@2x.png
+©¦      ©¦      toolbarButton-print.png
+©¦      ©¦      toolbarButton-print@2x.png
+©¦      ©¦      toolbarButton-search.png
+©¦      ©¦      toolbarButton-search@2x.png
+©¦      ©¦      toolbarButton-secondaryToolbarToggle.png
+©¦      ©¦      toolbarButton-secondaryToolbarToggle@2x.png
+©¦      ©¦      toolbarButton-sidebarToggle.png
+©¦      ©¦      toolbarButton-sidebarToggle@2x.png
+©¦      ©¦      toolbarButton-viewAttachments.png
+©¦      ©¦      toolbarButton-viewAttachments@2x.png
+©¦      ©¦      toolbarButton-viewOutline.png
+©¦      ©¦      toolbarButton-viewOutline@2x.png
+©¦      ©¦      toolbarButton-viewThumbnail.png
+©¦      ©¦      toolbarButton-viewThumbnail@2x.png
+©¦      ©¦      toolbarButton-zoomIn.png
+©¦      ©¦      toolbarButton-zoomIn@2x.png
+©¦      ©¦      toolbarButton-zoomOut.png
+©¦      ©¦      toolbarButton-zoomOut@2x.png
+©¦      ©¦      treeitem-collapsed.png
+©¦      ©¦      treeitem-collapsed@2x.png
+©¦      ©¦      treeitem-expanded.png
+©¦      ©¦      treeitem-expanded@2x.png
+©¦      ©¦      
+©¦      ©¸©¤locale
+©¦          ©¦  locale.properties
+©¦          ©¦  
+©¦          ©À©¤en-US
+©¦          ©¦      viewer.properties
+©¦          ©¦      
+©¦          ©¸©¤zh-CN
+©¦                  viewer.properties
+©¦                  
 ©¸©¤subscribe
         gfwlist.txt
         pac.js
