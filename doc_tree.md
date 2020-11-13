@@ -116,12 +116,11 @@ E:\GITREPO\JSDELIVR
 ©¦      ©¦      pdf.min.js
 ©¦      ©¦      pdf.worker.js
 ©¦      ©¦      pdf.worker.min.js
-©¦      ©¦      viewer.css
 ©¦      ©¦      viewer.js
 ©¦      ©¦      viewer.min.js
+©¦      ©¦      viewer1.css
 ©¦      ©¦      viewer2.js
 ©¦      ©¦      viewer2.min.js
-©¦      ©¦      viewer3.css
 ©¦      ©¦      
 ©¦      ©À©¤cmaps
 ©¦      ©¦      78-EUC-H.bcmap
