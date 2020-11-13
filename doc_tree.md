@@ -125,6 +125,7 @@ E:\GITREPO\JSDELIVR
 ©¦              pdf.min.js
 ©¦              pdf.worker.js
 ©¦              pdf.worker.min.js
+©¦              viewer.css
 ©¦              viewer.js
 ©¦              viewer.min.js
 ©¦              
