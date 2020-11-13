@@ -109,15 +109,25 @@ E:\GITREPO\JSDELIVR
 ©¦      
 ©À©¤js
 ©¦  ©¸©¤pdfjs
-©¦          debugger.js
-©¦          debugger.min.js
-©¦          pdf.js
-©¦          pdf.min.js
-©¦          pdf.worker.js
-©¦          pdf.worker.min.js
-©¦          viewer.js
-©¦          viewer.min.js
-©¦          
+©¦      ©¦  debugger.js
+©¦      ©¦  debugger.min.js
+©¦      ©¦  pdf.js
+©¦      ©¦  pdf.min.js
+©¦      ©¦  pdf.worker.js
+©¦      ©¦  pdf.worker.min.js
+©¦      ©¦  viewer.js
+©¦      ©¦  viewer.min.js
+©¦      ©¦  
+©¦      ©¸©¤2.5
+©¦              debugger.js
+©¦              debugger.min.js
+©¦              pdf.js
+©¦              pdf.min.js
+©¦              pdf.worker.js
+©¦              pdf.worker.min.js
+©¦              viewer.js
+©¦              viewer.min.js
+©¦              
 ©¸©¤subscribe
         gfwlist.txt
         pac.js
