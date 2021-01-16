@@ -26,9 +26,6 @@ E:\GITREPO\JSDELIVR
 ©¦      jetpackx.gradle
 ©¦      README.md
 ©¦      
-©À©¤html
-©¦      uptest.html
-©¦      
 ©À©¤img
 ©¦      1571887687153.png
 ©¦      360½ØÍ¼184307056511999.png
@@ -391,5 +388,4 @@ E:\GITREPO\JSDELIVR
         gfwlist_raw.txt
         pac.txt
         regex.txt
-        v2ray.txt
         
