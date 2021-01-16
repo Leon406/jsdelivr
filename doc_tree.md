@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  delete_big_file.bat
 │  doc_tree.md
 │  pull.bat
@@ -388,7 +389,6 @@ E:\GITHUB\JSDELIVR
 └─subscribe
         gfwlist.txt
         gfwlist_raw.txt
-        pac.js
         pac.txt
         regex.txt
         v2ray.txt
