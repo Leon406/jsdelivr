@@ -12256,7 +12256,7 @@ var PDFWorker = function PDFWorkerClosure() {
 
   if (_is_node.isNodeJS && typeof require === "function") {
     isWorkerDisabled = true;
-    fallbackWorkerSrc = "./pdf.worker.js";
+    fallbackWorkerSrc = "pdf.worker.js";
   } else if ((typeof document === "undefined" ? "undefined" : _typeof(document)) === "object" && "currentScript" in document) {
     var _document$currentScri;
 
