@@ -125,19 +125,17 @@ E:\GITREPO\JSDELIVR
 ©¦      ©¦  ©¦  
 ©¦      ©¦  ©À©¤build
 ©¦      ©¦  ©¦      pdf.js
-©¦      ©¦  ©¦      pdf.js.map
 ©¦      ©¦  ©¦      pdf.sandbox.js
-©¦      ©¦  ©¦      pdf.sandbox.js.map
 ©¦      ©¦  ©¦      pdf.worker.js
-©¦      ©¦  ©¦      pdf.worker.js.map
+©¦      ©¦  ©¦      pdf.worker.min.js
 ©¦      ©¦  ©¦      
 ©¦      ©¦  ©¸©¤web
-©¦      ©¦      ©¦  compressed.tracemonkey-pldi-09.pdf
 ©¦      ©¦      ©¦  debugger.js
 ©¦      ©¦      ©¦  viewer.css
 ©¦      ©¦      ©¦  viewer.html
 ©¦      ©¦      ©¦  viewer.js
 ©¦      ©¦      ©¦  viewer.js.map
+©¦      ©¦      ©¦  viewer.min.js
 ©¦      ©¦      ©¦  
 ©¦      ©¦      ©À©¤cmaps
 ©¦      ©¦      ©¦      78-EUC-H.bcmap
