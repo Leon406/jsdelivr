@@ -399,7 +399,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.7/build/pdf.worker.js",
+    value: "../build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
