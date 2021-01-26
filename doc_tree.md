@@ -380,6 +380,7 @@ E:\GITREPO\JSDELIVR
 ©¦      ©¦      ©¦  viewer.css
 ©¦      ©¦      ©¦  viewer.html
 ©¦      ©¦      ©¦  viewer.js
+©¦      ©¦      ©¦  viewer2.js
 ©¦      ©¦      ©¦  
 ©¦      ©¦      ©À©¤cmaps
 ©¦      ©¦      ©¦      78-EUC-H.bcmap
