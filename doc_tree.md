@@ -919,4 +919,5 @@ E:\GITHUB\JSDELIVR
         gfwlist_raw.txt
         pac.txt
         regex.txt
+        v2ray.txt
         
