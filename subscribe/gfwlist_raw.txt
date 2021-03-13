@@ -7168,5 +7168,6 @@ ultrasurf
 !--------------------Custom BlackList-------------------------
 ||rsshub.app
 ||ohmyrss.com
+||github.surf
 !--------------------Custom Whitelist-------------------------
 !################ Custom  End ##################
