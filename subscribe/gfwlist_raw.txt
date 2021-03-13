@@ -3134,11 +3134,8 @@ gigporno.ru
 |http://softwaredownload.gitbooks.io
 
 !---GitHub---
-github.com/getlantern
+||github.com
 |https://gist.github.com
-!--http://cthlo.github.io/hktv
-!--hahaxixi.github.io
-!--wsgzao.github.io
 .github.io
 ||github.io
 ||githubusercontent.com
