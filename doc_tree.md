@@ -920,6 +920,7 @@ E:\GITHUB\JSDELIVR
         IPLC
         pac.txt
         regex.txt
+        ss
         ssr.txt
         v2ray.txt
         v2ray2.txt
