@@ -922,6 +922,7 @@ E:\GITHUB\JSDELIVR
         regex.txt
         ss
         ssr.txt
+        tr
         v2ray.txt
         v2ray2.txt
         
