@@ -923,7 +923,5 @@ E:\GITHUB\JSDELIVR
         pac.txt
         regex.txt
         ss
-        ssr
-        tr
         v2ray
         
