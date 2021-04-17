@@ -920,12 +920,10 @@ E:\GITHUB\JSDELIVR
         clash.yml
         gfwlist.txt
         gfwlist_raw.txt
-        IPLC
         pac.txt
         regex.txt
         ss
         ssr
         tr
         v2ray
-        v2ray2
         
