@@ -917,14 +917,15 @@ E:\GITHUB\JSDELIVR
 ©¦                  viewer.properties
 ©¦                  
 ©¸©¤subscribe
+        clash.yml
         gfwlist.txt
         gfwlist_raw.txt
         IPLC
         pac.txt
         regex.txt
         ss
-        ssr.txt
+        ssr
         tr
-        v2ray.txt
-        v2ray2.txt
+        v2ray
+        v2ray2
         
