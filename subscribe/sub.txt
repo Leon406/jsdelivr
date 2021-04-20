@@ -5,6 +5,16 @@ https://cdn.jsdelivr.net/gh/coolapijust/cxkv2-@main/surfshark
 https://cdn.jsdelivr.net/gh/coolapijust/cxkv2-@main/IPLC
 https://cdn.jsdelivr.net/gh/coolapijust/cxkv2-@main/plate
 https://cdn.jsdelivr.net/gh/JACKUSR2089/v2ray-subscribed@master/subscribed/2021-4-21
+https://cdn.jsdelivr.net/gh/deepinor/v2ray_luck@master/sub.txt
+https://cdn.jsdelivr.net/gh/likeboys/v2rayN@main/420
+https://cdn.jsdelivr.net/gh/StormragerCN/v2ray@main/v2ray
+https://cdn.jsdelivr.net/gh/shaomai11/test@main/README.md
+https://cdn.jsdelivr.net/gh/Irving022/v2ray@main/URL
+https://raw.fastgit.org/freefq/free/master/ssr
+https://raw.fastgit.org/freefq/free/master/v2
+https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.txt
+https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.yml
+https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes@master/proxy.md
 #节点池
 https://sspool.herokuapp.com/clash/proxies
 https://proxy.purel.in/clash/proxies
