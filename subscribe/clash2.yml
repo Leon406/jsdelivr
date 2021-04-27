@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 账号被封，停止使用, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 请根据之前的教程, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 替换为自己的账号密码, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 教程在youtube, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 【Youtube不良林】, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 【FASTQ_A】HK/香港_1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 【FASTQ_A】HK/香港_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 【FASTQ_A】HK/香港_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 【FASTQ_A】HK/香港_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 【FASTQ_A】HK/香港_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
   - {name: 🇭🇰 【FASTQ_G】HK/香港, server: global.ap.fastqvpn.com, port: 29980, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
   - {name: 🇦🇺 【FASTQ_G】AU/澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
   - {name: 🇨🇦 【FASTQ_G】CA/加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "438711033440239616", password: "81cd37bb-bcd1-47d0-ba00-c40779389ca9", tls: true, skip-cert-verify: false}
