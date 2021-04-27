@@ -2,7 +2,7 @@
 E:\GITREPO\JSDELIVR
 ©¦  delete_big_file.bat
 ©¦  doc_tree.md
-©¦  proxy1081.bat
+©¦  proxy7890.bat
 ©¦  pull.bat
 ©¦  pull.sh
 ©¦  README.md
