@@ -1,5 +1,4 @@
-文件夹 PATH 列表
-E:\GITREPO\JSDELIVR
+E:\GITHUB\JSDELIVR
 │  delete_big_file.bat
 │  doc_tree.md
 │  proxy7890.bat
@@ -27,6 +26,9 @@ E:\GITREPO\JSDELIVR
 │      dependenciesx.gradle
 │      jetpackx.gradle
 │      README.md
+│      
+├─hosts
+│      blacklist
 │      
 ├─img
 │      1571887687153.png
@@ -121,7 +123,6 @@ E:\GITREPO\JSDELIVR
 │      │      viewer2.js
 │      │      viewer2.min.js
 │      │      
-│      ├─2.6
 │      ├─2.7
 │      │  │  LICENSE
 │      │  │  
