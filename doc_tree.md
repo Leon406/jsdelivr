@@ -29,6 +29,7 @@ E:\GITHUB\JSDELIVR
 ©¦      
 ©À©¤hosts
 ©¦      blacklist
+©¦      whitelist
 ©¦      
 ©À©¤img
 ©¦      1571887687153.png
