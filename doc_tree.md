@@ -1,12 +1,15 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  delete_big_file.bat
 │  doc_tree.md
 │  proxy7890.bat
+│  proxy7890_global.bat
 │  pull.bat
 │  pull.sh
 │  README.md
 │  recycle_storage.sh
 │  unsetproxy.bat
+│  unsetproxy_global.bat
 │  up.bat
 │  up.sh
 │  
@@ -124,6 +127,7 @@ E:\GITHUB\JSDELIVR
 │      │      viewer2.js
 │      │      viewer2.min.js
 │      │      
+│      ├─2.6
 │      ├─2.7
 │      │  │  LICENSE
 │      │  │  
