@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: PXYWeORTv9db8/hgkhfInQ
+! Checksum: clvMDN73b08BQn4nQCqyBQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 20 Apr 2021 21:32:35 -0400
+! Last Modified: Sun, 16 May 2021 11:18:44 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1546,7 +1546,7 @@ cn.nytstyle.com
 !--steamcommunity.com/groups/LibetTibet
 !--steamcommunity.com/groups/zhonggong
 !--steamcommunity.com/id/CJT_Jackton
-|http://store.steampowered.com/app/333600
+|http://store.steampowered.com
 
 !!---Telegram---
 !!!---Domain---
@@ -1715,17 +1715,17 @@ iipdigital.usembassy.gov
 ||v2ex.com
 !--.v2ex.com
 !--Included in above rule: dns.v2ex.com
-@@|http://v2ex.com
-@@|http://cdn.v2ex.com
-@@|http://cn.v2ex.com
-@@|http://hk.v2ex.com
-@@|http://i.v2ex.com
-@@|http://lax.v2ex.com
-@@|http://neue.v2ex.com
-@@|http://pagespeed.v2ex.com
-@@|http://static.v2ex.com
-@@|http://workspace.v2ex.com
-@@|http://www.v2ex.com
+!--@@|http://v2ex.com
+!--@@|http://cdn.v2ex.com
+!--@@|http://cn.v2ex.com
+!--@@|http://hk.v2ex.com
+!--@@|http://i.v2ex.com
+!--@@|http://lax.v2ex.com
+!--@@|http://neue.v2ex.com
+!--@@|http://pagespeed.v2ex.com
+!--@@|http://static.v2ex.com
+!--@@|http://workspace.v2ex.com
+!--@@|http://www.v2ex.com
 
 !!---VOA---
 cn.voa.mobi
@@ -1851,6 +1851,7 @@ video.yahoo.com
 ||duckduckgo-owned-server.yahoo.net
 
 !------------------Numerics---------------------
+||000webhost.com
 .030buy.com
 .0rz.tw
 |http://0rz.tw
@@ -2027,6 +2028,7 @@ activpn.com
 ||activpn.com
 ||aculo.us
 ||addictedtocoffee.de
+||addyoutube.com
 .adelaidebbs.com/bbs
 .adpl.org.hk
 |http://adpl.org.hk
@@ -2141,6 +2143,7 @@ androidplus.co/apk
 .andygod.com
 |http://andygod.com
 annatam.com/chinese
+||anchor.fm
 ||anchorfree.com
 !--GHS
 ||ancsconf.org
@@ -2149,7 +2152,6 @@ annatam.com/chinese
 angelfire.com/hi/hayashi
 ||angularjs.org
 animecrazy.net
-.animeshippuuden.com
 aniscartujo.com
 ||aniscartujo.com
 ||anobii.com
@@ -2237,6 +2239,7 @@ asg.to
 .asia-gaming.com
 .asiaharvest.org
 ||asiaharvest.org
+||asianage.com
 asianews.it
 |http://japanfirst.asianfreeforum.com/
 ||asiansexdiary.com
@@ -2365,6 +2368,7 @@ beijingspring.com
 |http://bell.wiki
 bemywife.cc
 beric.me
+||berlinerbericht.de
 .berlintwitterwall.com
 ||berlintwitterwall.com
 .berm.co.nz
@@ -2716,6 +2720,7 @@ cdpwu.org
 |http://centurys.net
 .cfhks.org.hk
 .cfos.de
+||cfr.org
 .cftfc.com
 .cgst.edu
 .change.org
@@ -2727,6 +2732,7 @@ cdpwu.org
 ||channelnewsasia.com
 .chapm25.com
 .chaturbate.com
+||chaturbate.com
 .chuang-yen.org
 ||checkgfw.com
 chengmingmag.com
@@ -2924,6 +2930,7 @@ news.cnyes.com
 |http://goagent.codeplex.com
 ||codeshare.io
 ||codeskulptor.org
+||conoha.jp
 |http://tosh.comedycentral.com
 comefromchina.com
 ||comefromchina.com
@@ -3104,7 +3111,7 @@ dcmilitary.com
 .ddhw.info
 ||de-sci.org
 .de-sci.org
-packages.debian.org/zh-cn/lenny/gpass
+||deadline.com
 ||decodet.co
 
 !--Origin:cdn-i30$_
@@ -3407,6 +3414,7 @@ wiki.esu.im/%E8%9B%A4%E8%9B%A4%E8%AF%AD%E5%BD%95
 etaiwannews.com
 ||etizer.org
 ||etokki.com
+||etsy.com
 !--.ettoday.net
 .ettoday.net/news/20151216/614081
 etvonline.hk
@@ -3848,10 +3856,11 @@ geocities.jp
 ||getgom.com
 .geti2p.net
 ||geti2p.net
+getiton.com
+.getjetso.com/forum
 .getlantern.org
 ||getlantern.org
-.getjetso.com/forum
-getiton.com
+||getmalus.com
 .getsocialscope.com
 ||getsync.com
 gfbv.de
@@ -4919,6 +4928,7 @@ juziyue.com
 kanzhongguo.com
 kanzhongguo.eu
 .kaotic.com
+||kaotic.com
 ||karayou.com
 karkhung.com
 .karmapa.org
@@ -5262,6 +5272,7 @@ mcreasite.com
 ||meetup.com
 mefeedia.com
 jihadintel.meforum.org
+||mega.co.nz
 ||mega.nz
 ||megaproxy.com
 ||megarotic.com
@@ -5363,6 +5374,7 @@ mirrorbooks.com
 mitbbsau.com
 .mixero.com
 ||mixero.com
+||mixi.jp
 mixpod.com
 .mixx.com
 ||mixx.com
@@ -5545,6 +5557,7 @@ nccwatch.org.tw
 ||neowin.net
 ||nepusoku.com
 ||net-fits.pro
+||netalert.me
 !--bbsnew.netbig.com
 bbs.netbig.com
 .netbirds.com
@@ -5581,7 +5594,7 @@ newspeak.cc/story
 .newsdh.com
 ||newstamago.com
 ||newstapa.org
-newstarnet.com--NN--
+newstarnet.com
 ||newsweek.com
 .newtaiwan.com.tw
 newtalk.tw
@@ -5801,6 +5814,7 @@ xinqimeng.over-blog.com
 ||overdaily.org
 ||overplay.net
 share.ovi.com/media
+||ovpn.com
 |http://owl.li
 |http://ht.ly
 |http://htl.li
@@ -5911,7 +5925,8 @@ perfectvpn.net
 .persiankitty.com
 pfd.org.hk
 phapluan.org
-phayul.com
+.phayul.com
+||phayul.com
 philborges.com
 philly.com
 ||phncdn.com
@@ -5963,6 +5978,7 @@ piraattilahti.org
 ||playno1.com
 ||playpcesor.com
 plays.com.tw
+||plexvpn.pro
 ||m.plixi.com
 plm.org.hk
 plunder.com
@@ -6562,6 +6578,7 @@ sis001.us
 ||sjum.cn
 ||sketchappsources.com
 ||skimtube.com
+||lab.skk.moe
 ||skybet.com
 |http://users.skynet.be/reves/tibethome.html
 .skyking.com.tw
@@ -6659,6 +6676,7 @@ soundofhope.org
 !-|http://sourceforge.net
 |http://sourceforge.net/p*/shadowsocksgui/
 .sourcewadio.com
+||south-plus.org
 southnews.com.tw
 sowers.org.hk
 ||wlx.sowiki.net
@@ -6769,6 +6787,7 @@ summify.com
 .sumrando.com
 ||sumrando.com
 sun1911.com
+||sundayguardianlive.com
 .sunporno.com
 ||sunmedia.ca
 ||sunporno.com
@@ -7546,6 +7565,7 @@ uygur.org
 ||v2ray.com
 ||v2raycn.com
 ||v2raytech.com
+||valeursactuelles.com
 .van001.com
 .van698.com
 .vanemu.cn
@@ -8020,6 +8040,7 @@ xyy69.info
 ||yam.com
 ||yam.org.tw
 ||yande.re
+||disk.yandex.com
 .yanghengjun.com
 yangjianli.com
 .yasni.co.uk
@@ -8286,8 +8307,6 @@ ultrasurf
 !################Whitelist End##################
 !---------------------EOF-----------------------
 !--------------------Custom BlackList-------------------------
-||rsshub.app
-||ohmyrss.com
 ||github.surf
-!--------------------Custom Whitelist-------------------------
+!--------------------Custom BlackList-------------------------
 !################ Custom  End ##################
