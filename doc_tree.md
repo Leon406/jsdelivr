@@ -932,6 +932,9 @@ E:\GITHUB\JSDELIVR
         ss
         ss2
         ssr
+        ssr2
         sub.txt
+        tr2
+        v22
         v2ray
         
