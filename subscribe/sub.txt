@@ -20,6 +20,7 @@ https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ss2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ssr2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/tr2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/v22
+https://cdn.staticaly.com/gh/FGCl0ud/Share/Sub/Sub/SUB
 https://corecdn.ykmbbs.top/api/v1/client/subscribe?token=16c1f9c9c56a4d038a89bf371120ffcd
 https://fg666.coding.net/p/fq/d/1/git/raw/master/%E8%8A%82%E7%94%B5%E6%B1%A0.txt
 https://fg666.coding.net/p/fq/d/1/git/raw/master/613s.txt
