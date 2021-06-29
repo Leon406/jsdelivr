@@ -931,12 +931,9 @@ E:\GITREPO\JSDELIVR
         gfwlist_raw.txt
         pac.txt
         regex.txt
-        ss
         ss2
-        ssr
         ssr2
         sub.txt
         tr2
         v22
-        v2ray
         
