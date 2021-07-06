@@ -918,8 +918,6 @@ E:\GITHUB\JSDELIVR
 ©¦                  
 ©¸©¤subscribe
         clash.yml
-        clash2.yml
-        clash3.yml
         gfwlist.txt
         gfwlist_raw.txt
         pac.txt
