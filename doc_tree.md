@@ -916,6 +916,10 @@ E:\GITHUB\JSDELIVR
 ©¦          ©¸©¤zh-CN
 ©¦                  viewer.properties
 ©¦                  
+©À©¤software
+©¦      Android App.md
+©¦      PC.md
+©¦      
 ©¸©¤subscribe
         clash.yml
         gfwlist.txt
