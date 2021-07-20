@@ -1,4 +1,4 @@
-2021年7月15日 22:36:32
+2021年7月20日 19:15:49
 
 ## 下载
 
@@ -62,8 +62,8 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.4.8  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.25 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.58.1 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html)              |  5.3.4  | 接口测试                              |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.58.2 | 编辑器                                |
+| [ApiPost](https://www.apipost.cn/download.html)              |  5.3.5  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  2.9.0  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.0  | github 桌面端                         |
