@@ -1,5 +1,4 @@
-文件夹 PATH 列表
-E:\GITREPO\JSDELIVR
+E:\GITHUB\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -121,7 +120,6 @@ E:\GITREPO\JSDELIVR
 │      │      viewer2.js
 │      │      viewer2.min.js
 │      │      
-│      ├─2.6
 │      ├─2.7
 │      │  │  LICENSE
 │      │  │  

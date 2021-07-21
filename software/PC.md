@@ -1,4 +1,4 @@
-2021年7月20日 19:15:49
+2021年7月21日 22:07:57
 
 ## 下载
 
@@ -8,7 +8,7 @@
 | [PanDownload](https://kurukurumi.tk/) |  2.7.1  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) 手动打包 |  0.4.0  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘提取码         |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.1 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.2 | 下载工具           |
 | [kindown](https://kinhdown.kinh.cc/) [自动更新](https://uallenqbit.lanzoux.com/s/KinhDownUpdateData) | 2.6.06 | 百度网盘工具       |
 |  |  |                    |
 |                                                           |         |                    |
@@ -20,7 +20,7 @@
 | 软件                                                         |      版本      | 链接                 |
 | ------------------------------------------------------------ | :------------: | -------------------- |
 | [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.2.0      | Android反编译        |
-| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.2      | 二进制查看编辑       |
+| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.3      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [010Editor](https://www.sweetscape.com/010editor/)           |     11.0.1     | 二进制查看编辑       |
@@ -39,7 +39,7 @@
 | 软件                                                         |  版本  | 链接          |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.4  | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.8.10 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.8.11 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41 | v2ray工具     |
@@ -56,7 +56,7 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.2   | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.1  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.2  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.3.7  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.7.0  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
@@ -64,7 +64,7 @@
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.25 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.58.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.3.5  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  2.9.0  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  2.9.1  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.0  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.0  | 接口测试                              |
@@ -93,9 +93,9 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          4.0           | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
-| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) [版本](https://tools.shuax.com/edge/) |      91.0.864.70      | 浏览器          |
+| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) [版本](https://tools.shuax.com/edge/) |      91.0.864.71      | 浏览器          |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
-| [Chrome 增强版](https://shuax.com/project/chrome/)   [版本](https://tools.shuax.com/chrome/) |      91.0.4472.164      | 浏览器          |
+| [Chrome 增强版](https://shuax.com/project/chrome/)   [版本](https://tools.shuax.com/chrome/) |      92.0.4515.107      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.2.0          | 右键管理器      |
 |  |  |  |
@@ -108,9 +108,9 @@
 | 软件                                                         |  版本   | 链接                 |
 | ------------------------------------------------------------ | :-----: | -------------------- |
 | [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  | 1.90.0  | 图片格式转换汉化工具 |
-| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) | 5.7.1.0 | 音视频格式转换       |
+| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) | 5.7.5.0 | 音视频格式转换       |
 | 小丸工具箱                                                   |   236   |                      |
-| [ShanaEncoder](https://shana.pe.kr/)                         | 5.2.1.2 |                      |
+| [ShanaEncoder](https://shana.pe.kr/)                         | 5.2.2.2 |                      |
 
 
 
@@ -148,7 +148,7 @@
 | [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [*auto3ptr9top*](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A35   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
-| [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.3 | 付费无损音乐下载工具 |
+| [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.5 | 付费无损音乐下载工具 |
 | [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.4  | 开源影视聚合播放器   |
 | [魔音](http://www.huanghunxiao.com/)                         | 2.5.5.0 | 音乐助手             |
 |                                                              |         |                      |
