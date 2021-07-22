@@ -14,22 +14,17 @@ https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.yml
 https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes@master/proxy.md
 #分享订阅
 http://120.92.132.166:8888/down/ecafFaSfovkG
-https://bigairport.icu/api/v1/client/subscribe?token=7405c4f810cfd0787e1f0319ceca17ba
 https://biteb.club/link/W6M2EMlMUv5XUtnI?sub=3&extend=1
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ss2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ssr2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/tr2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/v22
 https://cdn.staticaly.com/gh/FGCl0ud/Share/Sub/Sub/SUB
-https://corecdn.ykmbbs.top/api/v1/client/subscribe?token=16c1f9c9c56a4d038a89bf371120ffcd
 https://fg666.coding.net/p/fq/d/1/git/raw/master/%E8%8A%82%E7%94%B5%E6%B1%A0.txt
 https://fg666.coding.net/p/fq/d/1/git/raw/master/613s.txt
-https://gist.githubusercontent.com/turboceo/c076f5b57566301cfd4836a9400dd4e3/raw
-https://gitee.com/bujilangren/warehouse/raw/master/0613.txt
-https://gitee.com/bujilangren/warehouse/raw/master/0625.txt
+https://gitee.com/bujilangren/warehouse/raw/master/update.txt
 https://gitee.com/ljc6b/sub/raw/Clash/tw254.yaml
 https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcnhoYkNPczBnMTlnekJsdWZ0THBQdDgtTVlFP2U9bTF1cDJi
-https://linn.ink/api/v1/client/subscribe?token=dd4d86b299e1001744b82ed665b4fa6b
 https://nbyun.org/api/v1/client/subscribe?token=28c6a4d4822f23b3430c317fdcb68fab
 https://paste.gg/p/anonymous/0802d103bbf144aca1e626b1b96d7a4b/files/1e800f3bc16d47709a582276618909b1/raw
 https://paste.gg/p/anonymous/7c35d4eeaaee4dd5ab970e421db82c33/files/7d00c59c3b244907a40caa25ed5c4d23/raw
@@ -37,8 +32,5 @@ https://renzhesub.com/link/87DY7to5dANoiWxA?sub=1
 https://smallairport.icu/api/v1/client/subscribe?token=82c2d3d4731279b733c624efd00d1b6b
 https://smallairport.icu/api/v1/client/subscribe?token=d8c60cb0e3b6e00dd40beebd10daa4bc
 https://sub.juzicloud.vip/link/ww0CsfS3uRv4YJgH?clash=2
-https://t.xxl123.fun/api/v1/client/subscribe?token=ab5eaf10fde5596dc409b6cd9afdce70
-https://v2b.xyttk.cn/api/v1/client/subscribe?token=7911e2b1a524112d8d694847860a2636
-https://v2b.xyttk.cn/api/v1/client/subscribe?token=84c006c94c915ec932ecebfe4b756203
 https://xtaolabs.com/uwork.yaml
 
