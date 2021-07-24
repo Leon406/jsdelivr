@@ -1,4 +1,4 @@
-2021年7月21日 22:07:57
+2021年7月24日 10:45:45
 
 ## 下载
 
@@ -9,7 +9,6 @@
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) 手动打包 |  0.4.0  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘提取码         |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.2 | 下载工具           |
-| [kindown](https://kinhdown.kinh.cc/) [自动更新](https://uallenqbit.lanzoux.com/s/KinhDownUpdateData) | 2.6.06 | 百度网盘工具       |
 |  |  |                    |
 |                                                           |         |                    |
 
@@ -27,7 +26,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpy](https://github.com/0xd4d/dnSpy)  github              |     6.1.8      | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.6     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.7     | 抓包工具             |
 | ExeinfoPe | 0.0.6.5 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -39,12 +38,12 @@
 | 软件                                                         |  版本  | 链接          |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.4  | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.8.11 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.8.13 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.16.3  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.16.4  |               |
 |  |  | |
 
 
@@ -64,10 +63,10 @@
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.25 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.58.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.3.5  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  2.9.1  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  2.9.2  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.0  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.0  | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.3  | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -93,9 +92,9 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          4.0           | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
-| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) [版本](https://tools.shuax.com/edge/) |      91.0.864.71      | 浏览器          |
+| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.55      | 浏览器          |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
-| [Chrome 增强版](https://shuax.com/project/chrome/)   [版本](https://tools.shuax.com/chrome/) |      92.0.4515.107      | 浏览器          |
+| [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.107      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.2.0          | 右键管理器      |
 |  |  |  |
@@ -148,8 +147,8 @@
 | [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [*auto3ptr9top*](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A35   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
-| [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.5 | 付费无损音乐下载工具 |
-| [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.4  | 开源影视聚合播放器   |
+| [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.3 | 付费无损音乐下载工具 |
+| [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5  | 开源影视聚合播放器   |
 | [魔音](http://www.huanghunxiao.com/)                         | 2.5.5.0 | 音乐助手             |
 |                                                              |         |                      |
 |                                                              |         |                      |
