@@ -1,10 +1,10 @@
-2021年7月21日 22:16:03
+2021年7月26日 23:31:45
 
 ## 系统管理
 
 | 软件名称                                                     | 版本    | 描述                         |
 | ------------------------------------------------------------ | ------- | ---------------------------- |
-| ES文件浏览器 [下载](https://pan.lanzoux.com/b0f1d7s2h)       | 4.2.6.5 | 文件管理工具                 |
+| ES文件浏览器 [下载](https://pan.lanzoux.com/b0f1d7s2h)       | 4.2.6.6 | 文件管理工具                 |
 | [Solid Explorer](https://pan.lanzoux.com/b0f19gdfa)          | 2.8.15  | 本地文件管理器，云服务管理器 |
 | [N.P管理器](https://pan.lanzoux.com/b06m0cevg)  aji6         | 3.0.23  |                              |
 | [Root Explorer](https://pan.lanzoux.com/b06ll1dfi)  [2](https://pan.lanzoui.com/b0f19kmud) | 4.10.1  | 文件管理                     |

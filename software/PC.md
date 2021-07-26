@@ -66,7 +66,7 @@
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  2.9.2  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.0  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.3  | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.4  | 接口测试                              |
 |                                                              |         |                                       |
 
 
