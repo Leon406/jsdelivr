@@ -1,6 +1,5 @@
 #github分享
 https://cdn.jsdelivr.net/gh/ssrsub/ssr@master/Clash.yml
-https://cdn.jsdelivr.net/gh/coolapijust/cxkv2-@main/plate
 https://cdn.jsdelivr.net/gh/JACKUSR2089/v2ray-subscribed@master/subscribed/2021-6-20
 https://cdn.jsdelivr.net/gh/deepinor/v2ray_luck@master/sub.txt
 https://cdn.jsdelivr.net/gh/likeboys/v2rayN@main/420
@@ -14,7 +13,6 @@ https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.yml
 https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes@master/proxy.md
 #分享订阅
 http://120.92.132.166:8888/down/ecafFaSfovkG
-https://biteb.club/link/W6M2EMlMUv5XUtnI?sub=3&extend=1
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ss2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ssr2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/tr2
@@ -25,12 +23,12 @@ https://fg666.coding.net/p/fq/d/1/git/raw/master/613s.txt
 https://gitee.com/bujilangren/warehouse/raw/master/update.txt
 https://gitee.com/ljc6b/sub/raw/Clash/tw254.yaml
 https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBcnhoYkNPczBnMTlnekJsdWZ0THBQdDgtTVlFP2U9bTF1cDJi
-https://nbyun.org/api/v1/client/subscribe?token=28c6a4d4822f23b3430c317fdcb68fab
 https://paste.gg/p/anonymous/0802d103bbf144aca1e626b1b96d7a4b/files/1e800f3bc16d47709a582276618909b1/raw
 https://paste.gg/p/anonymous/7c35d4eeaaee4dd5ab970e421db82c33/files/7d00c59c3b244907a40caa25ed5c4d23/raw
 https://renzhesub.com/link/87DY7to5dANoiWxA?sub=1
 https://smallairport.icu/api/v1/client/subscribe?token=82c2d3d4731279b733c624efd00d1b6b
-https://smallairport.icu/api/v1/client/subscribe?token=d8c60cb0e3b6e00dd40beebd10daa4bc
 https://sub.juzicloud.vip/link/ww0CsfS3uRv4YJgH?clash=2
 https://xtaolabs.com/uwork.yaml
+https://www.mfyun.org/link/G1xFoqtfb81fR0WJ?clash=1
+https://www.cxkv2.xyz/link/rE8729fsD6hl43It?mu=2
 
