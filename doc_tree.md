@@ -923,9 +923,9 @@ E:\GITREPO\JSDELIVR
 ©¦      PC.md
 ©¦      
 ©¸©¤subscribe
-        clash.yml
         gfwlist.txt
         gfwlist_raw.txt
+        mysub.txt
         pac.txt
         regex.txt
         ss2
