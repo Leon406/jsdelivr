@@ -1,4 +1,4 @@
-2021年7月24日 10:45:45
+2021年7月31日 10:41:51
 
 ## 下载
 
@@ -38,12 +38,12 @@
 | 软件                                                         |  版本  | 链接          |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.4  | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.8.13 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41 | v2ray工具     |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.16.4  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.17  |               |
 |  |  | |
 
 
@@ -84,7 +84,6 @@
 | [TreeSizeFree](https://www.jam-software.com/treesize_free)   |       8.0.3.1507       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.49          | 注册表查找工具  |
-| [鲁大师单文件](https://wuaipojie.lanzoux.com/b00neqhef)      |       5.20.1285        | 硬件检测        |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.53.1         | ftp工具         |
 | [Listary](https://www.listary.com/)                          |       5.00.2843        | 启动器          |
 | [Xmind2021](https://www.xmind.cn/xmind2020/) [破解文件](https://pan.lanzoux.com/b0f1fqazi#) |         11.0.1         | 脑图            |
@@ -92,7 +91,7 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          4.0           | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
-| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.55      | 浏览器          |
+| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.62      | 浏览器          |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
 | [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.107      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
@@ -144,7 +143,7 @@
 | Short URL                                                    |  2.8.3  | 短网址工具           |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
-| [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [*auto3ptr9top*](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A35   | 翻译                 |
+| [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [*auto3ptr9top*](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A36   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
 | [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.3 | 付费无损音乐下载工具 |
