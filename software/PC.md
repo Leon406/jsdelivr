@@ -1,4 +1,4 @@
-2021年7月31日 10:41:51
+2021年8月3日 19:17:37
 
 ## 下载
 
@@ -93,7 +93,7 @@
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.62      | 浏览器          |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
-| [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.107      | 浏览器          |
+| [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.131      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.2.0          | 右键管理器      |
 |  |  |  |
@@ -146,7 +146,7 @@
 | [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [*auto3ptr9top*](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A36   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
-| [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.3 | 付费无损音乐下载工具 |
+| [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.5 | 付费无损音乐下载工具 |
 | [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5  | 开源影视聚合播放器   |
 | [魔音](http://www.huanghunxiao.com/)                         | 2.5.5.0 | 音乐助手             |
 |                                                              |         |                      |
