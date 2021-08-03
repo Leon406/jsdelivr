@@ -922,7 +922,6 @@ E:\GITHUB\JSDELIVR
 ©¦      
 ©¸©¤subscribe
         gfwlist.txt
-        gfwlist_raw.txt
         mysub.txt
         pac.txt
         regex.txt
