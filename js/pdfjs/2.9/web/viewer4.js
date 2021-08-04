@@ -2768,10 +2768,6 @@ var validateFileURL;
       var _URL = new URL(file, window.location.href),
           origin = _URL.origin,
           protocol = _URL.protocol;
-
-      if (origin !== viewerOrigin && protocol !== "blob:") {
-        throw new Error("file origin does not match viewer's");
-      }
     } catch (ex) {
       PDFViewerApplication.l10n.get("loading_error").then(function (msg) {
         PDFViewerApplication._documentError(msg, {
