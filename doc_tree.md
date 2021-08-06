@@ -1495,6 +1495,7 @@ E:\GITREPO\JSDELIVR
         gfwlist.txt
         mysub.txt
         pac.txt
+        pac7890.txt
         regex.txt
         ss2
         ssr2
