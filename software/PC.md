@@ -4,7 +4,7 @@
 
 | 软件                                                      |  版本   | 链接               |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [xdown](https://xdown.org) 自动更新                       | 2.0.2.8 | 下载工具  自动升级 |
+| [xdown](https://xdown.org) 自动更新                       | 2.0.3.0 | 下载工具  自动升级 |
 | [PanDownload](https://kurukurumi.tk/) |  2.7.3  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) 手动打包 |  0.4.0  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘提取码         |
@@ -37,7 +37,7 @@
 
 | 软件                                                         |  版本  | 链接          |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.4  | 科学上网      |
+| [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
