@@ -16,7 +16,6 @@ http://120.92.132.166:8888/down/ecafFaSfovkG
 http://91io.cn/s/dd965tM/clash.yaml
 https://a.subcat.link/v2Merlintls.php?token=0eb804c87aac0d3a75d388c4535ca812
 https://biteb.club/link/QJSr8UgsXiMs6eWX?list=clash&extend=1
-https://biteb.club/link/SrkP0yMWAngWcWoI?clash=3&extend=1
 https://caofei.me/api/v1/client/subscribe?token=a790d6e7880c04f6b1c99c7c6860e598
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ss2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ssr2
@@ -40,4 +39,3 @@ https://www.xn--fjqzfu8n.xyz/api/v1/client/subscribe?token=20067669d7582e1a57449
 https://xtaolabs.com/uwork.yaml
 https://yigedingyue.com/api/v1/client/subscribe?token=42479c0881d560fc5d056380e8440fa4
 https://youyun666.site/link/VKDX8HuuLI4klU2D?sub=3
-https://zeroyyds.cc/api/v1/client/subscribe?token=9dc0c2722abe714f3f1632bf95c0da46
