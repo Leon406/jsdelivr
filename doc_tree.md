@@ -1493,6 +1493,7 @@ E:\GITHUB\JSDELIVR
 ©¸©¤subscribe
         gfwlist.txt
         mysub.txt
+        mysub2.txt
         pac.txt
         pac7890.txt
         regex.txt

@@ -38,7 +38,7 @@
 | 软件                                                         |  版本  | 链接          |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9.2 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41.1 | v2ray工具     |
@@ -63,7 +63,7 @@
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.25 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.59 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  2.9.2  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.0.0  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.0  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.4  | 接口测试                              |
