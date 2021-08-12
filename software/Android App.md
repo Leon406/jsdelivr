@@ -1,4 +1,4 @@
-2021年8月9日 20:53:07
+2021年8月12日 20:20:40
 
 ## 系统管理
 
@@ -6,7 +6,7 @@
 | ------------------------------------------------------------ | ------- | ---------------------------- |
 | ES文件浏览器 [下载](https://pan.lanzoux.com/b0f1d7s2h)       | 4.2.6.7 | 文件管理工具                 |
 | [Solid Explorer](https://pan.lanzoux.com/b0f19gdfa)          | 2.8.16  | 本地文件管理器，云服务管理器 |
-| [N.P管理器](https://pan.lanzoux.com/b06m0cevg)  aji6         | 3.0.26  |                              |
+| [N.P管理器](https://pan.lanzoux.com/b06m0cevg)  [aji6](https://healer.lanzoui.com/iass2sjnzza) | 3.0.28  |                              |
 | [Root Explorer](https://pan.lanzoux.com/b06ll1dfi)  [2](https://pan.lanzoui.com/b0f19kmud) | 4.10.1  | 文件管理                     |
 
 
@@ -15,7 +15,7 @@
 
 | 软件名称                                                   | 版本     | 描述                       |
 | ---------------------------------------------------------- | -------- | -------------------------- |
-| [Ookla Speedtest](https://pan.lanzoux.com/b0f19i6af)       | 4.6.3    | 手机网速测试工具           |
+| [Ookla Speedtest](https://pan.lanzoux.com/b0f19i6af)       | 4.6.4    | 手机网速测试工具           |
 | [泰尔网测](https://myqqjd.lanzoui.com/b06ml2iaf)           | 1.2.04   | 手机网速测试工具           |
 | [一指禅](https://estar.lanzoux.com/11o#)                   | 3.1.101  | 闪屏跳过                   |
 | [QR](https://www.lanzoux.com/b06lnskqf)  8qxr              | 2.7\.0-P | 扫码                       |
@@ -34,7 +34,7 @@
 | 软件名称                                              | 版本        | 描述 |
 | ----------------------------------------------------- | ----------- | ---- |
 | [xmind](https://pan.lanzoux.com/b06lkjpah)   i592     | 1.7.8       |      |
-| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666) | 1.39.3      |      |
+| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666) | 1.39.4      |      |
 | [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 5.4.0808.11 |      |
 | [阅读](https://www.coolapk.com/apk/256030)            | 3.21.080816 | 小说 |
 | [异次元](https://www.lanzoui.com/b595600)             | 2.2.7       | 漫画 |

@@ -138,7 +138,7 @@
 
 | 软件                                                         |  版本   | 链接                 |
 | :----------------------------------------------------------- | :-----: | -------------------- |
-| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.12.1  | 音乐助手             |
+| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.12.2  | 音乐助手             |
 | [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      | 1.10.2  | 音乐助手             |
 | Short URL                                                    |  2.8.3  | 短网址工具           |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
