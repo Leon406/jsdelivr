@@ -23,7 +23,7 @@
 | [设备信息](https://pan.lanzoux.com/b06mcp2le) DevInfo e5gl | 2.6.8    |                            |
 | [AIDA](https://www.lanzoux.com/b06lo9kqh)  6mif            | 1.79     |                            |
 | [apkpure](https://www.lanzoux.com/b06ljuo9a)  gjb2         | 3.17.22  |                            |
-| [隐秘参数](https://myqqjd.lanzoux.com/b06mhavbi)  el5k     | 2.6.0    | 提供手机硬件检测和性能测试 |
+| [隐秘参数](https://myqqjd.lanzoux.com/b06mhavbi)  el5k     | 2.6.2    | 提供手机硬件检测和性能测试 |
 | [GPS status](https://myqqjd.lanzoux.com/b06ltxx5i)  7dcw   | 11.0.307 |                            |
 | [开发助手](https://pan.lanzoux.com/b06lmdxmd)              | 6.3.6    |                            |
 
