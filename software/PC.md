@@ -19,12 +19,12 @@
 | 软件                                                         |      版本      | 链接                 |
 | ------------------------------------------------------------ | :------------: | -------------------- |
 | [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.2.0      | Android反编译        |
-| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.3      | 二进制查看编辑       |
+| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.3 SR2      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [010Editor](https://www.sweetscape.com/010editor/)           |     11.0.1     | 二进制查看编辑       |
 | PEiD                                                         |      0.95      | 查壳工具             |
-| [dnSpy](https://github.com/0xd4d/dnSpy)  github              |     6.1.8      | .Net 逆向工具        |
+| [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived)  |     6.1.8      | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
 | [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.7     | 抓包工具             |
 | ExeinfoPe | 0.0.6.5 | 查壳工具 |
@@ -43,7 +43,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.17  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.17.1  |               |
 |  |  | |
 
 
@@ -60,7 +60,7 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.7.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.4.8  | redis工具                             |
-| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.25 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.26 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.59 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.0.1  | 编辑器 支持大文件                     |
@@ -80,11 +80,11 @@
 | [AnyDesk](https://anydesk.com/zhs/downloads)                 |         6.3.2         | 远程控制        |
 | [todesk](https://www.todesk.com/download.html)               | 3.2.1 软件内升级 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.483        | 全文文本搜索    |
-| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.33         | gif 制作工具    |
+| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.33.1         | gif 制作工具    |
 | [TreeSizeFree](https://www.jam-software.com/treesize_free)   |       8.0.3.1507       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.49          | 注册表查找工具  |
-| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.53.1         | ftp工具         |
+| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.55.1         | ftp工具         |
 | [Listary](https://www.listary.com/)                          |       5.00.2843        | 启动器          |
 | [Xmind2021](https://www.xmind.cn/xmind2020/) [破解文件](https://pan.lanzoux.com/b0f1fqazi#) |         11.0.2         | 脑图            |
 | [冰点文库下载器](http://www.bingdian001.com/?p=30)           |         3.2.16         | 文档下载        |
@@ -93,7 +93,7 @@
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.73      | 浏览器          |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
-| [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.131      | 浏览器          |
+| [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.159      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.2.0          | 右键管理器      |
 |  |  |  |
@@ -128,7 +128,7 @@
 | 软件                                                         | 版本  | 链接            |
 | ------------------------------------------------------------ | :---: | --------------- |
 | GearNT                                                       | 0.4.6 | 变速齿轮        |
-| [CheatEngine ](https://github.com/cheat-engine/cheat-engine/releases)  github |  7.2  | 内存修改 + 变速 |
+| [CheatEngine ](https://github.com/cheat-engine/cheat-engine/releases)  github |  7.3  | 内存修改 + 变速 |
 |                                                              |       |                 |
 |                                                              |       |                 |
 
