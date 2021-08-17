@@ -1,6 +1,7 @@
 #github分享
 https://cdn.jsdelivr.net/gh/Irving022/v2ray@main/URL
-https://cdn.jsdelivr.net/gh/JACKUSR2089/v2ray-subscribed@master/subscribed/2021-6-20
+https://cdn.staticaly.com/gh/JACKUSR2089/v2ray-subscribed/master/2021-8-17
+https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2/master/0817.txt
 https://cdn.jsdelivr.net/gh/StormragerCN/v2ray@main/v2ray
 https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.txt
 https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.yml
@@ -12,20 +13,17 @@ https://cdn.jsdelivr.net/gh/ssrsub/ssr@master/Clash.yml
 https://raw.fastgit.org/freefq/free/master/ssr
 https://raw.fastgit.org/freefq/free/master/v2
 #分享订阅
-http://120.92.132.166:8888/down/ecafFaSfovkG
 http://91io.cn/s/dd965tM/clash.yaml
 https://a.subcat.link/v2Merlintls.php?token=0eb804c87aac0d3a75d388c4535ca812
 https://biteb.club/link/QJSr8UgsXiMs6eWX?list=clash&extend=1
-https://caofei.me/api/v1/client/subscribe?token=a790d6e7880c04f6b1c99c7c6860e598
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ss2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ssr2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/tr2
 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/v22
 https://cdn.staticaly.com/gh/FGCl0ud/Share/Sub/Sub/SUB
-https://fg666.azurewebsites.net/A1/tc/%E4%B8%B4%E6%97%B6%E8%8A%82%E7%82%B9/1.txt
 https://fg666.coding.net/p/fq/d/1/git/raw/master/%E8%8A%82%E7%94%B5%E6%B1%A0.txt
-https://fg666.coding.net/p/fq/d/1/git/raw/master/613s.txt
 https://gitee.com/bujilangren/warehouse/raw/master/update.txt
+https://gitee.com/bujilangren/warehouse/raw/master/0804.txt
 https://gitee.com/ljc6b/sub/raw/Clash/tw254.yaml
 https://gitee.com/xiaoku666/daima/raw/master/%E7%99%BD%E5%AB%96iplc.txt
 https://paste.gg/p/anonymous/0802d103bbf144aca1e626b1b96d7a4b/files/1e800f3bc16d47709a582276618909b1/raw
@@ -40,3 +38,4 @@ https://www.xn--fjqzfu8n.xyz/api/v1/client/subscribe?token=20067669d7582e1a57449
 https://xtaolabs.com/uwork.yaml
 https://yigedingyue.com/api/v1/client/subscribe?token=42479c0881d560fc5d056380e8440fa4
 https://youyun666.site/link/VKDX8HuuLI4klU2D?sub=3
+https://sub.cm/ayXQpet
