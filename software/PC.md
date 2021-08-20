@@ -38,7 +38,7 @@
 | 软件                                                         |  版本  | 链接          |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9.2 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9.4 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41.1 | v2ray工具     |
@@ -55,13 +55,13 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.2   | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.2  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.3  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.0  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.7.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.4.8  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.26 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.59 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.59.1 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.0.1  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
@@ -91,7 +91,7 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          4.0           | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
-| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.73      | 浏览器          |
+| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.78      | 浏览器          |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
 | [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.159      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
@@ -106,7 +106,7 @@
 | 软件                                                         |  版本   | 链接                 |
 | ------------------------------------------------------------ | :-----: | -------------------- |
 | [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  | 1.92.0  | 图片格式转换汉化工具 |
-| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) | 5.7.5.0 | 音视频格式转换       |
+| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) |  5.8.0  | 音视频格式转换       |
 | 小丸工具箱                                                   |   236   |                      |
 | [ShanaEncoder](https://shana.pe.kr/)                         | 5.2.2.2 |                      |
 
