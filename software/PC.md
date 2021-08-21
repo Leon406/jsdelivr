@@ -1,11 +1,11 @@
-2021年8月16日 23:17:48
+2021年8月21日 22:49:22
 
 ## 下载
 
 | 软件                                                      |  版本   | 链接               |
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.3.0 | 下载工具  自动升级 |
-| [PanDownload](https://kurukurumi.tk/) |  2.7.3  | 百度网盘工具       |
+| [PanDownload](https://kurukurumi.tk/) |  2.7.5  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) 手动打包 |  0.4.0  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘提取码         |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.2 | 下载工具           |
@@ -38,7 +38,7 @@
 | 软件                                                         |  版本  | 链接          |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9.4 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 2.9.5 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.41.1 | v2ray工具     |
@@ -143,7 +143,7 @@
 | Short URL                                                    |  2.8.3  | 短网址工具           |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
-| [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [*auto3ptr9top*](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A36   | 翻译                 |
+| [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [*auto3ptr9top*](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A3As  | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
 | [MusicTools](https://pan.lanzoux.com/b0104asfe)              | 1.9.5.5 | 付费无损音乐下载工具 |
