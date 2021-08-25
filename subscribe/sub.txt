@@ -13,6 +13,7 @@ https://cdn.jsdelivr.net/gh/ssrsub/ssr@master/Clash.yml
 https://raw.fastgit.org/freefq/free/master/ssr
 https://raw.fastgit.org/freefq/free/master/v2
 #分享订阅
+http://1.15.119.250:8888/down/FBWN94OtFuoS
 http://91io.cn/s/dd965tM/clash.yaml
 https://a.subcat.link/v2Merlintls.php?token=0eb804c87aac0d3a75d388c4535ca812
 https://biteb.club/link/QJSr8UgsXiMs6eWX?list=clash&extend=1
