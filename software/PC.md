@@ -26,7 +26,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived)  |     6.1.8      | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.7     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.8     | 抓包工具             |
 | ExeinfoPe | 0.0.6.5 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -65,8 +65,8 @@
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.0.1  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.0  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.4  | 接口测试                              |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.2  | github 桌面端                         |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.5  | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -77,8 +77,7 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.6          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         0.98.4         | 图片查看        |
-| [AnyDesk](https://anydesk.com/zhs/downloads)                 |         6.3.2         | 远程控制        |
-| [todesk](https://www.todesk.com/download.html)               | 3.2.1 软件内升级 | 远程控制 速度快 |
+| [todesk](https://www.todesk.com/download.html)               | 3.3.0 软件内升级 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.483        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.33.1         | gif 制作工具    |
 | [TreeSizeFree](https://www.jam-software.com/treesize_free)   |       8.0.3.1507       | 硬盘空间分析    |
@@ -91,7 +90,7 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          4.0           | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
-| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.78      | 浏览器          |
+| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      92.0.902.84      | 浏览器          |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
 | [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.159      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
@@ -143,7 +142,7 @@
 | Short URL                                                    |  2.8.3  | 短网址工具           |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
-| [Golden Dict](https://github.com/nonwill/nwDeployed)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A3C   | 翻译                 |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A3C   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
 | [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.5 | 付费无损音乐下载工具 |
