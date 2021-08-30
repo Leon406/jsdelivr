@@ -52,7 +52,7 @@
 
 | 软件                                                         |  版本   | 链接                                  |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
-| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.2   | 终端工具                              |
+| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.3   | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.3  | 文本编辑                              |
@@ -94,7 +94,7 @@
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php)|           1.2                                   |          1.1           |
 | [Chrome 增强版](https://shuax.com/project/chrome/) |      92.0.4515.159      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
-| [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.0          | 右键管理器      |
+| [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.18 |  |
 |  |  |  |
 
@@ -145,7 +145,7 @@
 | [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A3C   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
-| [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.5 | 付费无损音乐下载工具 |
+| [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.6 | 付费无损音乐下载工具 |
 | [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5  | 开源影视聚合播放器   |
 | [魔音](http://www.huanghunxiao.com/)                         | 2.5.8.5 | 音乐助手             |
 |                                                              |         |                      |
