@@ -31,13 +31,13 @@
 
 ## 影音娱乐
 
-| 软件名称                                              | 版本   | 描述 |
-| ----------------------------------------------------- | ------ | ---- |
-| [xmind](https://pan.lanzoux.com/b06lkjpah)   i592     | 1.7.8  |      |
-| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666) | 1.39.9 |      |
-| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 5.6    |      |
-| [阅读](https://www.coolapk.com/apk/256030)            | 3.21   | 小说 |
-| [异次元](https://www.lanzoui.com/b595600)             | 2.2.8  | 漫画 |
+| 软件名称                                              | 版本    | 描述 |
+| ----------------------------------------------------- | ------- | ---- |
+| [xmind](https://pan.lanzoux.com/b06lkjpah)   i592     | 1.7.10  |      |
+| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666) | 1.39.11 |      |
+| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 5.6     |      |
+| [阅读](https://www.coolapk.com/apk/256030)            | 3.21    | 小说 |
+| [异次元](https://www.lanzoui.com/b595600)             | 2.2.8   | 漫画 |
 
 
 
