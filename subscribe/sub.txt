@@ -39,4 +39,4 @@ https://suo.yt/r6RuDSh
 https://api.flgwls.com/link/vYu7bJeRAbPZbhxl?clash=1
 https://cdn.staticaly.com/gh/juzi5914/v2ray/main/juziyyds1
 https://suo.yt/qgimxx7
-https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/quark.txt
+https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
