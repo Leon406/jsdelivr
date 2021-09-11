@@ -1496,6 +1496,7 @@ E:\GITHUB\JSDELIVR
         mysub2.txt
         pac.txt
         pac7890.txt
+        quark.txt
         regex.txt
         ss2
         ssr2

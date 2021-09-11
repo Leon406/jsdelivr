@@ -2,7 +2,7 @@
 
 ## 下载
 
-| 软件                                                      |  版本   | 链接               |
+| 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.3.0 | 下载工具  自动升级 |
 | [PanDownload](https://kurukurumi.tk/) |  2.7.7  | 百度网盘工具       |
@@ -16,7 +16,7 @@
 
 ## 逆向
 
-| 软件                                                         |      版本      | 链接                 |
+| 软件                                                         |      版本      | 说明               |
 | ------------------------------------------------------------ | :------------: | -------------------- |
 | [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.2.0      | Android反编译        |
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.3 SR2      | 二进制查看编辑       |
@@ -31,11 +31,18 @@
 |  |  |  |
 |  |  |  |
 
+## HackerTools
 
+| 软件                                                         | 版本 | 说明 |
+| ------------------------------------------------------------ | :--: | ---- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |      |      |
+|                                                              |      |      |
+|                                                              |      |      |
+|                                                              |      |      |
 
 ## 科学
 
-| 软件                                                         |  版本  | 链接          |
+| 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.0.1 | 聊天          |
@@ -50,7 +57,7 @@
 
 ## 开发
 
-| 软件                                                         |  版本   | 链接                                  |
+| 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.3   | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
@@ -73,7 +80,7 @@
 
 ## 工具
 
-| 软件                                                         |          版本          | 链接            |
+| 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.6          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         0.98.4         | 图片查看        |
@@ -102,7 +109,7 @@
 
 ## 格式转换
 
-| 软件                                                         |  版本   | 链接                 |
+| 软件                                                         |  版本   | 说明                 |
 | ------------------------------------------------------------ | :-----: | -------------------- |
 | [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  | 1.92.0  | 图片格式转换汉化工具 |
 | [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e) |  5.8.1  | 音视频格式转换       |
@@ -113,7 +120,7 @@
 
 ## **汉化**
 
-| 软件             |     版本      | 链接     |
+| 软件             |     版本      | 说明     |
 | ---------------- | :-----------: | -------- |
 | Sisulizer 4      | 4.0(build374) | 汉化工具 |
 | SDL Passolo 2018 |    18.0.97    | 汉化工具 |
@@ -124,7 +131,7 @@
 
 ## 游戏
 
-| 软件                                                         | 版本  | 链接            |
+| 软件                                                         | 版本  | 说明            |
 | ------------------------------------------------------------ | :---: | --------------- |
 | GearNT                                                       | 0.4.6 | 变速齿轮        |
 | [CheatEngine ](https://github.com/cheat-engine/cheat-engine/releases)  github |  7.3  | 内存修改 + 变速 |
@@ -135,7 +142,7 @@
 
 ## 其他
 
-| 软件                                                         |  版本   | 链接                 |
+| 软件                                                         |  版本   | 说明                 |
 | :----------------------------------------------------------- | :-----: | -------------------- |
 | [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.13.0  | 音乐助手             |
 | [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      | 1.10.2  | 音乐助手             |
