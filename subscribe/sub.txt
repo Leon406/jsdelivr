@@ -13,7 +13,6 @@ https://cdn.jsdelivr.net/gh/ssrsub/ssr@master/Clash.yml
 https://raw.fastgit.org/freefq/free/master/ssr
 https://raw.fastgit.org/freefq/free/master/v2
 #分享订阅
-http://1.15.119.250:8888/down/FBWN94OtFuoS
 http://91io.cn/s/dd965tM/clash.yaml
 https://a.subcat.link/v2Merlintls.php?token=0eb804c87aac0d3a75d388c4535ca812
 https://biteb.club/link/QJSr8UgsXiMs6eWX?list=clash&extend=1
@@ -28,7 +27,6 @@ https://gitee.com/ljc6b/sub/raw/Clash/tw254.yaml
 https://gitee.com/xiaoku666/daima/raw/master/%E7%99%BD%E5%AB%96iplc.txt
 https://paste.gg/p/anonymous/0802d103bbf144aca1e626b1b96d7a4b/files/1e800f3bc16d47709a582276618909b1/raw
 https://smallairport.icu/api/v1/client/subscribe?token=82c2d3d4731279b733c624efd00d1b6b
-https://sub.joker007.top/api/v1/client/subscribe?token=c416299ad7fcd3a4dc073f57f4586818
 https://v1.mk/ZpE8RQI
 https://suo.yt/gj9NYV9
 https://xn--9kq018c4i8a.xyz/link/H5WmLMt8AAE4qinU?sub=3
@@ -38,5 +36,4 @@ https://yigedingyue.com/api/v1/client/subscribe?token=42479c0881d560fc5d056380e8
 https://suo.yt/r6RuDSh
 https://api.flgwls.com/link/vYu7bJeRAbPZbhxl?clash=1
 https://cdn.staticaly.com/gh/juzi5914/v2ray/main/juziyyds1
-https://suo.yt/qgimxx7
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
