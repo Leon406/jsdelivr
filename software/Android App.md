@@ -1,4 +1,4 @@
-2021年9月19日 17:34:23
+2021年9月24日 22:24:48
 
 ## 系统管理
 
@@ -38,7 +38,7 @@
 | [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 5.9     |      |
 | [阅读](https://www.coolapk.com/apk/256030)            | 3.21    | 小说 |
 | [异次元](https://www.lanzoui.com/b595600)             | 2.2.8   | 漫画 |
-| [PureTure](https://pan.lanzoui.com/b0f2lkrab)         | 2.15.26 | 油管 |
+| [PureTure](https://pan.lanzoui.com/b0f2lkrab)         | 3.0.102 | 油管 |
 
 
 
