@@ -1,10 +1,10 @@
-2021年9月28日 22:38:56
+2021年10月2日 10:18:48
 
 ## 下载
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [xdown](https://xdown.org) 自动更新                       | 2.0.3.1 | 下载工具  自动升级 |
+| [xdown](https://xdown.org) 自动更新                       | 2.0.3.4 | 下载工具  自动升级 |
 | [PanDownload]() |  2.7.7  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.1  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
@@ -45,12 +45,12 @@
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.1.4 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.1.5S | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.3 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.42.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.2  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.3  |               |
 |  |  | |
 
 
@@ -98,8 +98,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      93.0.961.47      | 浏览器          |
-| [Chrome 增强版](https://shuax.com/project/chrome/) |      94.0.4606.61      | 浏览器          |
+| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      94.0.992.38      | 浏览器          |
+| [Chrome 增强版](https://shuax.com/project/chrome/) |      94.0.4606.71      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.18 |  |
