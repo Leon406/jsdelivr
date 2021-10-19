@@ -4,11 +4,11 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [xdown](https://xdown.org) 自动更新                       | 2.0.3.4 | 下载工具  自动升级 |
+| [xdown](https://xdown.org) 自动更新                       | 2.0.4.0 | 下载工具  自动升级 |
 | [PanDownload]() |  2.7.7  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.1  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.2 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.3 | 下载工具           |
 |  |  |                    |
 |                                                           |         |                    |
 
@@ -45,12 +45,12 @@
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.1.5S | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.1.8 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.3 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.20  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.42.1 | v2ray工具     |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.23  | v2ray ss工具  |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.43 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.3  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.4  |               |
 |  |  | |
 
 
@@ -72,7 +72,7 @@
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.1.4  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.3  | github 桌面端                         |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.4  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.7  | 接口测试                              |
 |                                                              |         |                                       |
 
