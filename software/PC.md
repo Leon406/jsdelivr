@@ -26,7 +26,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived)  |     6.1.8      | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.8     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.9     | 抓包工具             |
 | ExeinfoPe | 0.0.6.6 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -37,21 +37,8 @@
 | ------------------------------------------------------------ | :--: | ---- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) | 7.92 |      |
 |                                                              |      |      |
-|                                                              |      |      |
-|                                                              |      |      |
 
 ## 科学
-
-| 软件                                                         |  版本  | 说明        |
-| ------------------------------------------------------------ | :----: | ------------- |
-| [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.1.8 | 聊天          |
-| [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.3 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.23  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.43 | v2ray工具     |
-| **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.4  |               |
-|  |  | |
 
 
 
@@ -62,7 +49,7 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.3   | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.5  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.7  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.0  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.7.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
@@ -144,8 +131,8 @@
 
 | 软件                                                         |  版本   | 说明                 |
 | :----------------------------------------------------------- | :-----: | -------------------- |
-| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.13.0  | 音乐助手             |
-| [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      | 1.10.2  | 音乐助手             |
+| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.14.1  | 音乐助手             |
+| [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      | 1.14.1  | 音乐助手             |
 | Short URL                                                    |  2.8.3  | 短网址工具           |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
