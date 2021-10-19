@@ -1,4 +1,4 @@
-2021年10月10日 16:27:56
+2021年10月19日 19:21:23
 
 ## 下载
 
@@ -8,7 +8,7 @@
 | [PanDownload]() |  2.7.7  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.1  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.2 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.3 | 下载工具           |
 |  |  |                    |
 |                                                           |         |                    |
 
@@ -37,8 +37,6 @@
 | ------------------------------------------------------------ | :--: | ---- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) | 7.92 |      |
 |                                                              |      |      |
-|                                                              |      |      |
-|                                                              |      |      |
 
 ## 科学
 
@@ -50,10 +48,8 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.21  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.43 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.3  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.4  |               |
 |  |  | |
-
-
 
 ## 开发
 
@@ -62,7 +58,7 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.4   | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.5  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.7  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.0  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.7.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
@@ -142,21 +138,21 @@
 
 ## 其他
 
-| 软件                                                         |   版本   | 说明                 |
-| :----------------------------------------------------------- | :------: | -------------------- |
-| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github |  1.14.1  | 音乐助手             |
-| [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      |  1.14.1  | 音乐助手             |
-| Short URL                                                    |  2.8.3   | 短网址工具           |
-| FolderPainter                                                |   1.2    | 文件夹图标修改       |
-| [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |   2A41   | 翻译                 |
-| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2   | RSS阅读              |
-| [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |  1.0.11  | 屏幕共享             |
-| [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.10 | 付费无损音乐下载工具 |
-| [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5   | 开源影视聚合播放器   |
-| [魔音](http://www.huanghunxiao.com/)                         | 2.6.0.0  | 音乐助手             |
-|                                                              |          |                      |
-|                                                              |          |                      |
+| 软件                                                         |  版本   | 说明                 |
+| :----------------------------------------------------------- | :-----: | -------------------- |
+| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.14.1  | 音乐助手             |
+| [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      | 1.14.1  | 音乐助手             |
+| Short URL                                                    |  2.8.3  | 短网址工具           |
+| FolderPainter                                                |   1.2   | 文件夹图标修改       |
+| [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |  2A42   | 翻译                 |
+| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2  | RSS阅读              |
+| [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
+| [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.8 | 付费无损音乐下载工具 |
+| [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5  | 开源影视聚合播放器   |
+| [魔音](http://www.huanghunxiao.com/)                         | 2.5.8.5 | 音乐助手             |
+|                                                              |         |                      |
+|                                                              |         |                      |
 
 
 

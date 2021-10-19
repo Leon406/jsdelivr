@@ -1,5 +1,5 @@
-2021年10月10日 16:22:08
 
+2021年10月19日 15:45:58
 ## 系统管理
 
 | 软件名称                                                     | 版本    | 描述                         |
@@ -17,7 +17,7 @@
 | ---------------------------------------------------------- | -------- | -------------------------- |
 | [Ookla Speedtest](https://pan.lanzoux.com/b0f19i6af)       | 4.6.9    | 手机网速测试工具           |
 | [泰尔网测](https://myqqjd.lanzoui.com/b06ml2iaf)           | 1.2.04   | 手机网速测试工具           |
-| [一指禅](https://estar.lanzoux.com/11o#)                   | 3.1.3    | 闪屏跳过                   |
+| [一指禅](https://estar.lanzoux.com/11o#)                   | 3.1.305  | 闪屏跳过                   |
 | [QR](https://www.lanzoux.com/b06lnskqf)  8qxr              | 2.7\.0-P | 扫码                       |
 | [讯飞语记](https://pan.lanzoux.com/b06llc0sj) e86t         | 6.0.1333 |                            |
 | [设备信息DevInfo](https://pan.lanzoux.com/b06mcp2le)  e5gl | 2.7.2    |                            |
@@ -33,11 +33,11 @@
 
 | 软件名称                                              | 版本    | 描述 |
 | ----------------------------------------------------- | ------- | ---- |
-| [xmind](https://pan.lanzoux.com/b06lkjpah)   i592     | 1.8.5   |      |
+| [xmind](https://pan.lanzoux.com/b06lkjpah)   i592     | 1.8.6   |      |
 | [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666) | 1.39.13 |      |
-| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 5.12    |      |
+| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 5.13    |      |
 | [阅读](https://www.coolapk.com/apk/256030)            | 3.21    | 小说 |
-| [异次元](https://www.lanzoui.com/b595600)             | 2.2.8   | 漫画 |
+| [异次元](https://www.lanzoui.com/b595600)             | 2.3.0   | 漫画 |
 | [PureTure](https://pan.lanzoui.com/b0f2lkrab)         | 3.0.103 | 油管 |
 
 
