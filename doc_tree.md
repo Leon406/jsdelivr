@@ -107,1386 +107,1389 @@ E:\GITREPO\JSDELIVR
 ©¦      Ç©Ãû.webp.jpg
 ©¦      
 ©À©¤js
-©¦  ©¸©¤pdfjs
-©¦      ©¦  viewer2.5.html
-©¦      ©¦  viewer2.7.html
-©¦      ©¦  viewer2.9.html
-©¦      ©¦  
-©¦      ©À©¤2.5
-©¦      ©¦      debugger.js
-©¦      ©¦      debugger.min.js
-©¦      ©¦      pdf.js
-©¦      ©¦      pdf.min.js
-©¦      ©¦      pdf.worker.js
-©¦      ©¦      pdf.worker.min.js
-©¦      ©¦      viewer.js
-©¦      ©¦      viewer.min.js
-©¦      ©¦      viewer02.css
-©¦      ©¦      viewer2.js
-©¦      ©¦      viewer2.min.js
-©¦      ©¦      
-©¦      ©À©¤2.7
-©¦      ©¦  ©¦  LICENSE
-©¦      ©¦  ©¦  
-©¦      ©¦  ©À©¤build
-©¦      ©¦  ©¦      pdf.js
-©¦      ©¦  ©¦      pdf.sandbox.js
-©¦      ©¦  ©¦      pdf.worker.js
-©¦      ©¦  ©¦      
-©¦      ©¦  ©¸©¤web
-©¦      ©¦      ©¦  debugger.js
-©¦      ©¦      ©¦  viewer.css
-©¦      ©¦      ©¦  viewer.html
-©¦      ©¦      ©¦  viewer.js
-©¦      ©¦      ©¦  viewer.js.map
-©¦      ©¦      ©¦  
-©¦      ©¦      ©À©¤cmaps
-©¦      ©¦      ©¦      78-EUC-H.bcmap
-©¦      ©¦      ©¦      78-EUC-V.bcmap
-©¦      ©¦      ©¦      78-H.bcmap
-©¦      ©¦      ©¦      78-RKSJ-H.bcmap
-©¦      ©¦      ©¦      78-RKSJ-V.bcmap
-©¦      ©¦      ©¦      78-V.bcmap
-©¦      ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦      ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦      ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦      ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦      ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Add-H.bcmap
-©¦      ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦      ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Add-V.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦      ©¦      ©¦      B5-H.bcmap
-©¦      ©¦      ©¦      B5-V.bcmap
-©¦      ©¦      ©¦      B5pc-H.bcmap
-©¦      ©¦      ©¦      B5pc-V.bcmap
-©¦      ©¦      ©¦      CNS-EUC-H.bcmap
-©¦      ©¦      ©¦      CNS-EUC-V.bcmap
-©¦      ©¦      ©¦      CNS1-H.bcmap
-©¦      ©¦      ©¦      CNS1-V.bcmap
-©¦      ©¦      ©¦      CNS2-H.bcmap
-©¦      ©¦      ©¦      CNS2-V.bcmap
-©¦      ©¦      ©¦      ETen-B5-H.bcmap
-©¦      ©¦      ©¦      ETen-B5-V.bcmap
-©¦      ©¦      ©¦      ETenms-B5-H.bcmap
-©¦      ©¦      ©¦      ETenms-B5-V.bcmap
-©¦      ©¦      ©¦      ETHK-B5-H.bcmap
-©¦      ©¦      ©¦      ETHK-B5-V.bcmap
-©¦      ©¦      ©¦      EUC-H.bcmap
-©¦      ©¦      ©¦      EUC-V.bcmap
-©¦      ©¦      ©¦      Ext-H.bcmap
-©¦      ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦      ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Ext-V.bcmap
-©¦      ©¦      ©¦      GB-EUC-H.bcmap
-©¦      ©¦      ©¦      GB-EUC-V.bcmap
-©¦      ©¦      ©¦      GB-H.bcmap
-©¦      ©¦      ©¦      GB-V.bcmap
-©¦      ©¦      ©¦      GBK-EUC-H.bcmap
-©¦      ©¦      ©¦      GBK-EUC-V.bcmap
-©¦      ©¦      ©¦      GBK2K-H.bcmap
-©¦      ©¦      ©¦      GBK2K-V.bcmap
-©¦      ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦      ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦      ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦      ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦      ©¦      ©¦      GBT-EUC-H.bcmap
-©¦      ©¦      ©¦      GBT-EUC-V.bcmap
-©¦      ©¦      ©¦      GBT-H.bcmap
-©¦      ©¦      ©¦      GBT-V.bcmap
-©¦      ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦      ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦      ©¦      ©¦      H.bcmap
-©¦      ©¦      ©¦      Hankaku.bcmap
-©¦      ©¦      ©¦      Hiragana.bcmap
-©¦      ©¦      ©¦      HKdla-B5-H.bcmap
-©¦      ©¦      ©¦      HKdla-B5-V.bcmap
-©¦      ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦      ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦      ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦      ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦      ©¦      ©¦      HKm314-B5-H.bcmap
-©¦      ©¦      ©¦      HKm314-B5-V.bcmap
-©¦      ©¦      ©¦      HKm471-B5-H.bcmap
-©¦      ©¦      ©¦      HKm471-B5-V.bcmap
-©¦      ©¦      ©¦      HKscs-B5-H.bcmap
-©¦      ©¦      ©¦      HKscs-B5-V.bcmap
-©¦      ©¦      ©¦      Katakana.bcmap
-©¦      ©¦      ©¦      KSC-EUC-H.bcmap
-©¦      ©¦      ©¦      KSC-EUC-V.bcmap
-©¦      ©¦      ©¦      KSC-H.bcmap
-©¦      ©¦      ©¦      KSC-Johab-H.bcmap
-©¦      ©¦      ©¦      KSC-Johab-V.bcmap
-©¦      ©¦      ©¦      KSC-V.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦      ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦      ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦      ©¦      ©¦      LICENSE
-©¦      ©¦      ©¦      NWP-H.bcmap
-©¦      ©¦      ©¦      NWP-V.bcmap
-©¦      ©¦      ©¦      RKSJ-H.bcmap
-©¦      ©¦      ©¦      RKSJ-V.bcmap
-©¦      ©¦      ©¦      Roman.bcmap
-©¦      ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦      ©¦      ©¦      V.bcmap
-©¦      ©¦      ©¦      WP-Symbol.bcmap
-©¦      ©¦      ©¦      
-©¦      ©¦      ©À©¤images
-©¦      ©¦      ©¦      annotation-check.svg
-©¦      ©¦      ©¦      annotation-comment.svg
-©¦      ©¦      ©¦      annotation-help.svg
-©¦      ©¦      ©¦      annotation-insert.svg
-©¦      ©¦      ©¦      annotation-key.svg
-©¦      ©¦      ©¦      annotation-newparagraph.svg
-©¦      ©¦      ©¦      annotation-noicon.svg
-©¦      ©¦      ©¦      annotation-note.svg
-©¦      ©¦      ©¦      annotation-paragraph.svg
-©¦      ©¦      ©¦      findbarButton-next.svg
-©¦      ©¦      ©¦      findbarButton-previous.svg
-©¦      ©¦      ©¦      grab.cur
-©¦      ©¦      ©¦      grabbing.cur
-©¦      ©¦      ©¦      loading-dark.svg
-©¦      ©¦      ©¦      loading-icon.gif
-©¦      ©¦      ©¦      loading.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦      ©¦      ©¦      shadow.png
-©¦      ©¦      ©¦      toolbarButton-bookmark.svg
-©¦      ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦      ©¦      ©¦      toolbarButton-download.svg
-©¦      ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦      ©¦      ©¦      toolbarButton-openFile.svg
-©¦      ©¦      ©¦      toolbarButton-pageDown.svg
-©¦      ©¦      ©¦      toolbarButton-pageUp.svg
-©¦      ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦      ©¦      ©¦      toolbarButton-print.svg
-©¦      ©¦      ©¦      toolbarButton-search.svg
-©¦      ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦      ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦      ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦      ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦      ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦      ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦      ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦      ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦      ©¦      ©¦      treeitem-collapsed.svg
-©¦      ©¦      ©¦      treeitem-expanded.svg
-©¦      ©¦      ©¦      
-©¦      ©¦      ©¸©¤locale
-©¦      ©¦          ©¦  locale.properties
-©¦      ©¦          ©¦  
-©¦      ©¦          ©À©¤en-US
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©¸©¤zh-CN
-©¦      ©¦                  viewer.properties
-©¦      ©¦                  
-©¦      ©À©¤2.71
-©¦      ©¦  ©¦  LICENSE
-©¦      ©¦  ©¦  
-©¦      ©¦  ©À©¤build
-©¦      ©¦  ©¦      pdf.js
-©¦      ©¦  ©¦      pdf.sandbox.js
-©¦      ©¦  ©¦      pdf.worker.js
-©¦      ©¦  ©¦      
-©¦      ©¦  ©¸©¤web
-©¦      ©¦      ©¦  debugger.js
-©¦      ©¦      ©¦  viewer.css
-©¦      ©¦      ©¦  viewer.html
-©¦      ©¦      ©¦  viewer.js
-©¦      ©¦      ©¦  viewer2.js
-©¦      ©¦      ©¦  viewer3.js
-©¦      ©¦      ©¦  
-©¦      ©¦      ©À©¤cmaps
-©¦      ©¦      ©¦      78-EUC-H.bcmap
-©¦      ©¦      ©¦      78-EUC-V.bcmap
-©¦      ©¦      ©¦      78-H.bcmap
-©¦      ©¦      ©¦      78-RKSJ-H.bcmap
-©¦      ©¦      ©¦      78-RKSJ-V.bcmap
-©¦      ©¦      ©¦      78-V.bcmap
-©¦      ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦      ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦      ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦      ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦      ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Add-H.bcmap
-©¦      ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦      ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Add-V.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦      ©¦      ©¦      B5-H.bcmap
-©¦      ©¦      ©¦      B5-V.bcmap
-©¦      ©¦      ©¦      B5pc-H.bcmap
-©¦      ©¦      ©¦      B5pc-V.bcmap
-©¦      ©¦      ©¦      CNS-EUC-H.bcmap
-©¦      ©¦      ©¦      CNS-EUC-V.bcmap
-©¦      ©¦      ©¦      CNS1-H.bcmap
-©¦      ©¦      ©¦      CNS1-V.bcmap
-©¦      ©¦      ©¦      CNS2-H.bcmap
-©¦      ©¦      ©¦      CNS2-V.bcmap
-©¦      ©¦      ©¦      ETen-B5-H.bcmap
-©¦      ©¦      ©¦      ETen-B5-V.bcmap
-©¦      ©¦      ©¦      ETenms-B5-H.bcmap
-©¦      ©¦      ©¦      ETenms-B5-V.bcmap
-©¦      ©¦      ©¦      ETHK-B5-H.bcmap
-©¦      ©¦      ©¦      ETHK-B5-V.bcmap
-©¦      ©¦      ©¦      EUC-H.bcmap
-©¦      ©¦      ©¦      EUC-V.bcmap
-©¦      ©¦      ©¦      Ext-H.bcmap
-©¦      ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦      ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Ext-V.bcmap
-©¦      ©¦      ©¦      GB-EUC-H.bcmap
-©¦      ©¦      ©¦      GB-EUC-V.bcmap
-©¦      ©¦      ©¦      GB-H.bcmap
-©¦      ©¦      ©¦      GB-V.bcmap
-©¦      ©¦      ©¦      GBK-EUC-H.bcmap
-©¦      ©¦      ©¦      GBK-EUC-V.bcmap
-©¦      ©¦      ©¦      GBK2K-H.bcmap
-©¦      ©¦      ©¦      GBK2K-V.bcmap
-©¦      ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦      ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦      ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦      ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦      ©¦      ©¦      GBT-EUC-H.bcmap
-©¦      ©¦      ©¦      GBT-EUC-V.bcmap
-©¦      ©¦      ©¦      GBT-H.bcmap
-©¦      ©¦      ©¦      GBT-V.bcmap
-©¦      ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦      ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦      ©¦      ©¦      H.bcmap
-©¦      ©¦      ©¦      Hankaku.bcmap
-©¦      ©¦      ©¦      Hiragana.bcmap
-©¦      ©¦      ©¦      HKdla-B5-H.bcmap
-©¦      ©¦      ©¦      HKdla-B5-V.bcmap
-©¦      ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦      ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦      ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦      ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦      ©¦      ©¦      HKm314-B5-H.bcmap
-©¦      ©¦      ©¦      HKm314-B5-V.bcmap
-©¦      ©¦      ©¦      HKm471-B5-H.bcmap
-©¦      ©¦      ©¦      HKm471-B5-V.bcmap
-©¦      ©¦      ©¦      HKscs-B5-H.bcmap
-©¦      ©¦      ©¦      HKscs-B5-V.bcmap
-©¦      ©¦      ©¦      Katakana.bcmap
-©¦      ©¦      ©¦      KSC-EUC-H.bcmap
-©¦      ©¦      ©¦      KSC-EUC-V.bcmap
-©¦      ©¦      ©¦      KSC-H.bcmap
-©¦      ©¦      ©¦      KSC-Johab-H.bcmap
-©¦      ©¦      ©¦      KSC-Johab-V.bcmap
-©¦      ©¦      ©¦      KSC-V.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦      ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦      ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦      ©¦      ©¦      LICENSE
-©¦      ©¦      ©¦      NWP-H.bcmap
-©¦      ©¦      ©¦      NWP-V.bcmap
-©¦      ©¦      ©¦      RKSJ-H.bcmap
-©¦      ©¦      ©¦      RKSJ-V.bcmap
-©¦      ©¦      ©¦      Roman.bcmap
-©¦      ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦      ©¦      ©¦      V.bcmap
-©¦      ©¦      ©¦      WP-Symbol.bcmap
-©¦      ©¦      ©¦      
-©¦      ©¦      ©À©¤images
-©¦      ©¦      ©¦      annotation-check.svg
-©¦      ©¦      ©¦      annotation-comment.svg
-©¦      ©¦      ©¦      annotation-help.svg
-©¦      ©¦      ©¦      annotation-insert.svg
-©¦      ©¦      ©¦      annotation-key.svg
-©¦      ©¦      ©¦      annotation-newparagraph.svg
-©¦      ©¦      ©¦      annotation-noicon.svg
-©¦      ©¦      ©¦      annotation-note.svg
-©¦      ©¦      ©¦      annotation-paragraph.svg
-©¦      ©¦      ©¦      findbarButton-next.svg
-©¦      ©¦      ©¦      findbarButton-previous.svg
-©¦      ©¦      ©¦      grab.cur
-©¦      ©¦      ©¦      grabbing.cur
-©¦      ©¦      ©¦      loading-dark.svg
-©¦      ©¦      ©¦      loading-icon.gif
-©¦      ©¦      ©¦      loading.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦      ©¦      ©¦      shadow.png
-©¦      ©¦      ©¦      toolbarButton-bookmark.svg
-©¦      ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦      ©¦      ©¦      toolbarButton-download.svg
-©¦      ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦      ©¦      ©¦      toolbarButton-openFile.svg
-©¦      ©¦      ©¦      toolbarButton-pageDown.svg
-©¦      ©¦      ©¦      toolbarButton-pageUp.svg
-©¦      ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦      ©¦      ©¦      toolbarButton-print.svg
-©¦      ©¦      ©¦      toolbarButton-search.svg
-©¦      ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦      ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦      ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦      ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦      ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦      ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦      ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦      ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦      ©¦      ©¦      treeitem-collapsed.svg
-©¦      ©¦      ©¦      treeitem-expanded.svg
-©¦      ©¦      ©¦      
-©¦      ©¦      ©¸©¤locale
-©¦      ©¦          ©¦  locale.properties
-©¦      ©¦          ©¦  
-©¦      ©¦          ©À©¤en-US
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©¸©¤zh-CN
-©¦      ©¦                  viewer.properties
-©¦      ©¦                  
-©¦      ©À©¤2.9
-©¦      ©¦  ©¦  LICENSE
-©¦      ©¦  ©¦  
-©¦      ©¦  ©À©¤build
-©¦      ©¦  ©¦      pdf.js
-©¦      ©¦  ©¦      pdf.js.map
-©¦      ©¦  ©¦      pdf.sandbox.js
-©¦      ©¦  ©¦      pdf.sandbox.js.map
-©¦      ©¦  ©¦      pdf.worker.js
-©¦      ©¦  ©¦      pdf.worker.js.map
-©¦      ©¦  ©¦      
-©¦      ©¦  ©¸©¤web
-©¦      ©¦      ©¦  debugger.js
-©¦      ©¦      ©¦  viewer.css
-©¦      ©¦      ©¦  viewer.html
-©¦      ©¦      ©¦  viewer.js
-©¦      ©¦      ©¦  viewer.js.map
-©¦      ©¦      ©¦  viewer4.js
-©¦      ©¦      ©¦  
-©¦      ©¦      ©À©¤cmaps
-©¦      ©¦      ©¦      78-EUC-H.bcmap
-©¦      ©¦      ©¦      78-EUC-V.bcmap
-©¦      ©¦      ©¦      78-H.bcmap
-©¦      ©¦      ©¦      78-RKSJ-H.bcmap
-©¦      ©¦      ©¦      78-RKSJ-V.bcmap
-©¦      ©¦      ©¦      78-V.bcmap
-©¦      ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦      ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦      ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦      ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦      ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦      ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Add-H.bcmap
-©¦      ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦      ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Add-V.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦      ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦      ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦      ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦      ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦      ©¦      ©¦      B5-H.bcmap
-©¦      ©¦      ©¦      B5-V.bcmap
-©¦      ©¦      ©¦      B5pc-H.bcmap
-©¦      ©¦      ©¦      B5pc-V.bcmap
-©¦      ©¦      ©¦      CNS-EUC-H.bcmap
-©¦      ©¦      ©¦      CNS-EUC-V.bcmap
-©¦      ©¦      ©¦      CNS1-H.bcmap
-©¦      ©¦      ©¦      CNS1-V.bcmap
-©¦      ©¦      ©¦      CNS2-H.bcmap
-©¦      ©¦      ©¦      CNS2-V.bcmap
-©¦      ©¦      ©¦      ETen-B5-H.bcmap
-©¦      ©¦      ©¦      ETen-B5-V.bcmap
-©¦      ©¦      ©¦      ETenms-B5-H.bcmap
-©¦      ©¦      ©¦      ETenms-B5-V.bcmap
-©¦      ©¦      ©¦      ETHK-B5-H.bcmap
-©¦      ©¦      ©¦      ETHK-B5-V.bcmap
-©¦      ©¦      ©¦      EUC-H.bcmap
-©¦      ©¦      ©¦      EUC-V.bcmap
-©¦      ©¦      ©¦      Ext-H.bcmap
-©¦      ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦      ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦      ©¦      ©¦      Ext-V.bcmap
-©¦      ©¦      ©¦      GB-EUC-H.bcmap
-©¦      ©¦      ©¦      GB-EUC-V.bcmap
-©¦      ©¦      ©¦      GB-H.bcmap
-©¦      ©¦      ©¦      GB-V.bcmap
-©¦      ©¦      ©¦      GBK-EUC-H.bcmap
-©¦      ©¦      ©¦      GBK-EUC-V.bcmap
-©¦      ©¦      ©¦      GBK2K-H.bcmap
-©¦      ©¦      ©¦      GBK2K-V.bcmap
-©¦      ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦      ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦      ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦      ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦      ©¦      ©¦      GBT-EUC-H.bcmap
-©¦      ©¦      ©¦      GBT-EUC-V.bcmap
-©¦      ©¦      ©¦      GBT-H.bcmap
-©¦      ©¦      ©¦      GBT-V.bcmap
-©¦      ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦      ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦      ©¦      ©¦      H.bcmap
-©¦      ©¦      ©¦      Hankaku.bcmap
-©¦      ©¦      ©¦      Hiragana.bcmap
-©¦      ©¦      ©¦      HKdla-B5-H.bcmap
-©¦      ©¦      ©¦      HKdla-B5-V.bcmap
-©¦      ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦      ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦      ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦      ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦      ©¦      ©¦      HKm314-B5-H.bcmap
-©¦      ©¦      ©¦      HKm314-B5-V.bcmap
-©¦      ©¦      ©¦      HKm471-B5-H.bcmap
-©¦      ©¦      ©¦      HKm471-B5-V.bcmap
-©¦      ©¦      ©¦      HKscs-B5-H.bcmap
-©¦      ©¦      ©¦      HKscs-B5-V.bcmap
-©¦      ©¦      ©¦      Katakana.bcmap
-©¦      ©¦      ©¦      KSC-EUC-H.bcmap
-©¦      ©¦      ©¦      KSC-EUC-V.bcmap
-©¦      ©¦      ©¦      KSC-H.bcmap
-©¦      ©¦      ©¦      KSC-Johab-H.bcmap
-©¦      ©¦      ©¦      KSC-Johab-V.bcmap
-©¦      ©¦      ©¦      KSC-V.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦      ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦      ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦      ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦      ©¦      ©¦      LICENSE
-©¦      ©¦      ©¦      NWP-H.bcmap
-©¦      ©¦      ©¦      NWP-V.bcmap
-©¦      ©¦      ©¦      RKSJ-H.bcmap
-©¦      ©¦      ©¦      RKSJ-V.bcmap
-©¦      ©¦      ©¦      Roman.bcmap
-©¦      ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦      ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦      ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦      ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦      ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦      ©¦      ©¦      V.bcmap
-©¦      ©¦      ©¦      WP-Symbol.bcmap
-©¦      ©¦      ©¦      
-©¦      ©¦      ©À©¤images
-©¦      ©¦      ©¦      annotation-check.svg
-©¦      ©¦      ©¦      annotation-comment.svg
-©¦      ©¦      ©¦      annotation-help.svg
-©¦      ©¦      ©¦      annotation-insert.svg
-©¦      ©¦      ©¦      annotation-key.svg
-©¦      ©¦      ©¦      annotation-newparagraph.svg
-©¦      ©¦      ©¦      annotation-noicon.svg
-©¦      ©¦      ©¦      annotation-note.svg
-©¦      ©¦      ©¦      annotation-paragraph.svg
-©¦      ©¦      ©¦      findbarButton-next.svg
-©¦      ©¦      ©¦      findbarButton-previous.svg
-©¦      ©¦      ©¦      grab.cur
-©¦      ©¦      ©¦      grabbing.cur
-©¦      ©¦      ©¦      loading-dark.svg
-©¦      ©¦      ©¦      loading-icon.gif
-©¦      ©¦      ©¦      loading.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦      ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦      ©¦      ©¦      shadow.png
-©¦      ©¦      ©¦      toolbarButton-bookmark.svg
-©¦      ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦      ©¦      ©¦      toolbarButton-download.svg
-©¦      ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦      ©¦      ©¦      toolbarButton-openFile.svg
-©¦      ©¦      ©¦      toolbarButton-pageDown.svg
-©¦      ©¦      ©¦      toolbarButton-pageUp.svg
-©¦      ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦      ©¦      ©¦      toolbarButton-print.svg
-©¦      ©¦      ©¦      toolbarButton-search.svg
-©¦      ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦      ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦      ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦      ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦      ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦      ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦      ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦      ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦      ©¦      ©¦      treeitem-collapsed.svg
-©¦      ©¦      ©¦      treeitem-expanded.svg
-©¦      ©¦      ©¦      
-©¦      ©¦      ©¸©¤locale
-©¦      ©¦          ©¦  locale.properties
-©¦      ©¦          ©¦  
-©¦      ©¦          ©À©¤ach
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤af
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤an
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ar
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ast
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤az
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤be
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤bg
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤bn
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤bo
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤br
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤brx
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤bs
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ca
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤cak
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ckb
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤cs
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤cy
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤da
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤de
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤dsb
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤el
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤en-CA
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤en-GB
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤en-US
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤eo
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤es-AR
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤es-CL
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤es-ES
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤es-MX
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤et
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤eu
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤fa
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ff
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤fi
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤fr
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤fy-NL
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ga-IE
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤gd
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤gl
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤gn
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤gu-IN
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤he
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤hi-IN
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤hr
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤hsb
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤hu
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤hy-AM
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤hye
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ia
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤id
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤is
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤it
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ja
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ka
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤kab
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤kk
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤km
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤kn
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ko
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤lij
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤lo
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤lt
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ltg
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤lv
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤meh
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤mk
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤mr
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ms
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤my
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤nb-NO
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ne-NP
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤nl
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤nn-NO
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤oc
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤pa-IN
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤pl
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤pt-BR
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤pt-PT
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤rm
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ro
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ru
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤scn
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤sco
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤si
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤sk
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤sl
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤son
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤sq
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤sr
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤sv-SE
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤szl
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ta
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤te
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤tg
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤th
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤tl
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤tr
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤trs
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤uk
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤ur
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤uz
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤vi
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤wo
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤xh
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©À©¤zh-CN
-©¦      ©¦          ©¦      viewer.properties
-©¦      ©¦          ©¦      
-©¦      ©¦          ©¸©¤zh-TW
-©¦      ©¦                  viewer.properties
-©¦      ©¦                  
-©¦      ©À©¤cmaps
-©¦      ©¦      78-EUC-H.bcmap
-©¦      ©¦      78-EUC-V.bcmap
-©¦      ©¦      78-H.bcmap
-©¦      ©¦      78-RKSJ-H.bcmap
-©¦      ©¦      78-RKSJ-V.bcmap
-©¦      ©¦      78-V.bcmap
-©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦      ©¦      Add-H.bcmap
-©¦      ©¦      Add-RKSJ-H.bcmap
-©¦      ©¦      Add-RKSJ-V.bcmap
-©¦      ©¦      Add-V.bcmap
-©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦      ©¦      Adobe-GB1-0.bcmap
-©¦      ©¦      Adobe-GB1-1.bcmap
-©¦      ©¦      Adobe-GB1-2.bcmap
-©¦      ©¦      Adobe-GB1-3.bcmap
-©¦      ©¦      Adobe-GB1-4.bcmap
-©¦      ©¦      Adobe-GB1-5.bcmap
-©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦      ©¦      B5-H.bcmap
-©¦      ©¦      B5-V.bcmap
-©¦      ©¦      B5pc-H.bcmap
-©¦      ©¦      B5pc-V.bcmap
-©¦      ©¦      CNS-EUC-H.bcmap
-©¦      ©¦      CNS-EUC-V.bcmap
-©¦      ©¦      CNS1-H.bcmap
-©¦      ©¦      CNS1-V.bcmap
-©¦      ©¦      CNS2-H.bcmap
-©¦      ©¦      CNS2-V.bcmap
-©¦      ©¦      ETen-B5-H.bcmap
-©¦      ©¦      ETen-B5-V.bcmap
-©¦      ©¦      ETenms-B5-H.bcmap
-©¦      ©¦      ETenms-B5-V.bcmap
-©¦      ©¦      ETHK-B5-H.bcmap
-©¦      ©¦      ETHK-B5-V.bcmap
-©¦      ©¦      EUC-H.bcmap
-©¦      ©¦      EUC-V.bcmap
-©¦      ©¦      Ext-H.bcmap
-©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦      ©¦      Ext-V.bcmap
-©¦      ©¦      GB-EUC-H.bcmap
-©¦      ©¦      GB-EUC-V.bcmap
-©¦      ©¦      GB-H.bcmap
-©¦      ©¦      GB-V.bcmap
-©¦      ©¦      GBK-EUC-H.bcmap
-©¦      ©¦      GBK-EUC-V.bcmap
-©¦      ©¦      GBK2K-H.bcmap
-©¦      ©¦      GBK2K-V.bcmap
-©¦      ©¦      GBKp-EUC-H.bcmap
-©¦      ©¦      GBKp-EUC-V.bcmap
-©¦      ©¦      GBpc-EUC-H.bcmap
-©¦      ©¦      GBpc-EUC-V.bcmap
-©¦      ©¦      GBT-EUC-H.bcmap
-©¦      ©¦      GBT-EUC-V.bcmap
-©¦      ©¦      GBT-H.bcmap
-©¦      ©¦      GBT-V.bcmap
-©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦      ©¦      H.bcmap
-©¦      ©¦      Hankaku.bcmap
-©¦      ©¦      Hiragana.bcmap
-©¦      ©¦      HKdla-B5-H.bcmap
-©¦      ©¦      HKdla-B5-V.bcmap
-©¦      ©¦      HKdlb-B5-H.bcmap
-©¦      ©¦      HKdlb-B5-V.bcmap
-©¦      ©¦      HKgccs-B5-H.bcmap
-©¦      ©¦      HKgccs-B5-V.bcmap
-©¦      ©¦      HKm314-B5-H.bcmap
-©¦      ©¦      HKm314-B5-V.bcmap
-©¦      ©¦      HKm471-B5-H.bcmap
-©¦      ©¦      HKm471-B5-V.bcmap
-©¦      ©¦      HKscs-B5-H.bcmap
-©¦      ©¦      HKscs-B5-V.bcmap
-©¦      ©¦      Katakana.bcmap
-©¦      ©¦      KSC-EUC-H.bcmap
-©¦      ©¦      KSC-EUC-V.bcmap
-©¦      ©¦      KSC-H.bcmap
-©¦      ©¦      KSC-Johab-H.bcmap
-©¦      ©¦      KSC-Johab-V.bcmap
-©¦      ©¦      KSC-V.bcmap
-©¦      ©¦      KSCms-UHC-H.bcmap
-©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦      ©¦      KSCms-UHC-V.bcmap
-©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦      ©¦      LICENSE
-©¦      ©¦      NWP-H.bcmap
-©¦      ©¦      NWP-V.bcmap
-©¦      ©¦      RKSJ-H.bcmap
-©¦      ©¦      RKSJ-V.bcmap
-©¦      ©¦      Roman.bcmap
-©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦      ©¦      V.bcmap
-©¦      ©¦      WP-Symbol.bcmap
-©¦      ©¦      
-©¦      ©À©¤images
-©¦      ©¦      annotation-check.svg
-©¦      ©¦      annotation-comment.svg
-©¦      ©¦      annotation-help.svg
-©¦      ©¦      annotation-insert.svg
-©¦      ©¦      annotation-key.svg
-©¦      ©¦      annotation-newparagraph.svg
-©¦      ©¦      annotation-noicon.svg
-©¦      ©¦      annotation-note.svg
-©¦      ©¦      annotation-paragraph.svg
-©¦      ©¦      findbarButton-next.png
-©¦      ©¦      findbarButton-next.svg
-©¦      ©¦      findbarButton-next@2x.png
-©¦      ©¦      findbarButton-previous.png
-©¦      ©¦      findbarButton-previous.svg
-©¦      ©¦      findbarButton-previous@2x.png
-©¦      ©¦      grab.cur
-©¦      ©¦      grabbing.cur
-©¦      ©¦      loading-dark.svg
-©¦      ©¦      loading-icon.gif
-©¦      ©¦      loading-small.png
-©¦      ©¦      loading-small@2x.png
-©¦      ©¦      loading.svg
-©¦      ©¦      secondaryToolbarButton-documentProperties.png
-©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦      ©¦      secondaryToolbarButton-documentProperties@2x.png
-©¦      ©¦      secondaryToolbarButton-firstPage.png
-©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦      ©¦      secondaryToolbarButton-firstPage@2x.png
-©¦      ©¦      secondaryToolbarButton-handTool.png
-©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦      ©¦      secondaryToolbarButton-handTool@2x.png
-©¦      ©¦      secondaryToolbarButton-lastPage.png
-©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦      ©¦      secondaryToolbarButton-lastPage@2x.png
-©¦      ©¦      secondaryToolbarButton-rotateCcw.png
-©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦      ©¦      secondaryToolbarButton-rotateCcw@2x.png
-©¦      ©¦      secondaryToolbarButton-rotateCw.png
-©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦      ©¦      secondaryToolbarButton-rotateCw@2x.png
-©¦      ©¦      secondaryToolbarButton-scrollHorizontal.png
-©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦      ©¦      secondaryToolbarButton-scrollHorizontal@2x.png
-©¦      ©¦      secondaryToolbarButton-scrollVertical.png
-©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦      ©¦      secondaryToolbarButton-scrollVertical@2x.png
-©¦      ©¦      secondaryToolbarButton-scrollWrapped.png
-©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦      ©¦      secondaryToolbarButton-scrollWrapped@2x.png
-©¦      ©¦      secondaryToolbarButton-selectTool.png
-©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦      ©¦      secondaryToolbarButton-selectTool@2x.png
-©¦      ©¦      secondaryToolbarButton-spreadEven.png
-©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦      ©¦      secondaryToolbarButton-spreadEven@2x.png
-©¦      ©¦      secondaryToolbarButton-spreadNone.png
-©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦      ©¦      secondaryToolbarButton-spreadNone@2x.png
-©¦      ©¦      secondaryToolbarButton-spreadOdd.png
-©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦      ©¦      secondaryToolbarButton-spreadOdd@2x.png
-©¦      ©¦      shadow.png
-©¦      ©¦      texture.png
-©¦      ©¦      toolbarButton-bookmark.png
-©¦      ©¦      toolbarButton-bookmark.svg
-©¦      ©¦      toolbarButton-bookmark@2x.png
-©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦      ©¦      toolbarButton-download.png
-©¦      ©¦      toolbarButton-download.svg
-©¦      ©¦      toolbarButton-download@2x.png
-©¦      ©¦      toolbarButton-menuArrow.svg
-©¦      ©¦      toolbarButton-menuArrows.png
-©¦      ©¦      toolbarButton-menuArrows@2x.png
-©¦      ©¦      toolbarButton-openFile.png
-©¦      ©¦      toolbarButton-openFile.svg
-©¦      ©¦      toolbarButton-openFile@2x.png
-©¦      ©¦      toolbarButton-pageDown.png
-©¦      ©¦      toolbarButton-pageDown.svg
-©¦      ©¦      toolbarButton-pageDown@2x.png
-©¦      ©¦      toolbarButton-pageUp.png
-©¦      ©¦      toolbarButton-pageUp.svg
-©¦      ©¦      toolbarButton-pageUp@2x.png
-©¦      ©¦      toolbarButton-presentationMode.png
-©¦      ©¦      toolbarButton-presentationMode.svg
-©¦      ©¦      toolbarButton-presentationMode@2x.png
-©¦      ©¦      toolbarButton-print.png
-©¦      ©¦      toolbarButton-print.svg
-©¦      ©¦      toolbarButton-print@2x.png
-©¦      ©¦      toolbarButton-search.png
-©¦      ©¦      toolbarButton-search.svg
-©¦      ©¦      toolbarButton-search@2x.png
-©¦      ©¦      toolbarButton-secondaryToolbarToggle.png
-©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦      ©¦      toolbarButton-secondaryToolbarToggle@2x.png
-©¦      ©¦      toolbarButton-sidebarToggle.png
-©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦      ©¦      toolbarButton-sidebarToggle@2x.png
-©¦      ©¦      toolbarButton-viewAttachments.png
-©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦      ©¦      toolbarButton-viewAttachments@2x.png
-©¦      ©¦      toolbarButton-viewLayers.svg
-©¦      ©¦      toolbarButton-viewOutline.png
-©¦      ©¦      toolbarButton-viewOutline.svg
-©¦      ©¦      toolbarButton-viewOutline@2x.png
-©¦      ©¦      toolbarButton-viewThumbnail.png
-©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦      ©¦      toolbarButton-viewThumbnail@2x.png
-©¦      ©¦      toolbarButton-zoomIn.png
-©¦      ©¦      toolbarButton-zoomIn.svg
-©¦      ©¦      toolbarButton-zoomIn@2x.png
-©¦      ©¦      toolbarButton-zoomOut.png
-©¦      ©¦      toolbarButton-zoomOut.svg
-©¦      ©¦      toolbarButton-zoomOut@2x.png
-©¦      ©¦      treeitem-collapsed.png
-©¦      ©¦      treeitem-collapsed.svg
-©¦      ©¦      treeitem-collapsed@2x.png
-©¦      ©¦      treeitem-expanded.png
-©¦      ©¦      treeitem-expanded.svg
-©¦      ©¦      treeitem-expanded@2x.png
-©¦      ©¦      
-©¦      ©¸©¤locale
-©¦          ©¦  locale.properties
-©¦          ©¦  
-©¦          ©À©¤en-US
-©¦          ©¦      viewer.properties
-©¦          ©¦      
-©¦          ©¸©¤zh-CN
-©¦                  viewer.properties
-©¦                  
+©¦  ©À©¤pdfjs
+©¦  ©¦  ©¦  viewer2.5.html
+©¦  ©¦  ©¦  viewer2.7.html
+©¦  ©¦  ©¦  viewer2.9.html
+©¦  ©¦  ©¦  
+©¦  ©¦  ©À©¤2.5
+©¦  ©¦  ©¦      debugger.js
+©¦  ©¦  ©¦      debugger.min.js
+©¦  ©¦  ©¦      pdf.js
+©¦  ©¦  ©¦      pdf.min.js
+©¦  ©¦  ©¦      pdf.worker.js
+©¦  ©¦  ©¦      pdf.worker.min.js
+©¦  ©¦  ©¦      viewer.js
+©¦  ©¦  ©¦      viewer.min.js
+©¦  ©¦  ©¦      viewer02.css
+©¦  ©¦  ©¦      viewer2.js
+©¦  ©¦  ©¦      viewer2.min.js
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤2.7
+©¦  ©¦  ©¦  ©¦  LICENSE
+©¦  ©¦  ©¦  ©¦  
+©¦  ©¦  ©¦  ©À©¤build
+©¦  ©¦  ©¦  ©¦      pdf.js
+©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
+©¦  ©¦  ©¦  ©¦      pdf.worker.js
+©¦  ©¦  ©¦  ©¦      
+©¦  ©¦  ©¦  ©¸©¤web
+©¦  ©¦  ©¦      ©¦  debugger.js
+©¦  ©¦  ©¦      ©¦  viewer.css
+©¦  ©¦  ©¦      ©¦  viewer.html
+©¦  ©¦  ©¦      ©¦  viewer.js
+©¦  ©¦  ©¦      ©¦  viewer.js.map
+©¦  ©¦  ©¦      ©¦  
+©¦  ©¦  ©¦      ©À©¤cmaps
+©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      78-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      78-V.bcmap
+©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Add-H.bcmap
+©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Add-V.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
+©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
+©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GB-H.bcmap
+©¦  ©¦  ©¦      ©¦      GB-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      H.bcmap
+©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
+©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
+©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      Katakana.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      LICENSE
+©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
+©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
+©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Roman.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      V.bcmap
+©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
+©¦  ©¦  ©¦      ©¦      
+©¦  ©¦  ©¦      ©À©¤images
+©¦  ©¦  ©¦      ©¦      annotation-check.svg
+©¦  ©¦  ©¦      ©¦      annotation-comment.svg
+©¦  ©¦  ©¦      ©¦      annotation-help.svg
+©¦  ©¦  ©¦      ©¦      annotation-insert.svg
+©¦  ©¦  ©¦      ©¦      annotation-key.svg
+©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
+©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
+©¦  ©¦  ©¦      ©¦      annotation-note.svg
+©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
+©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
+©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
+©¦  ©¦  ©¦      ©¦      grab.cur
+©¦  ©¦  ©¦      ©¦      grabbing.cur
+©¦  ©¦  ©¦      ©¦      loading-dark.svg
+©¦  ©¦  ©¦      ©¦      loading-icon.gif
+©¦  ©¦  ©¦      ©¦      loading.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
+©¦  ©¦  ©¦      ©¦      shadow.png
+©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
+©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
+©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
+©¦  ©¦  ©¦      ©¦      
+©¦  ©¦  ©¦      ©¸©¤locale
+©¦  ©¦  ©¦          ©¦  locale.properties
+©¦  ©¦  ©¦          ©¦  
+©¦  ©¦  ©¦          ©À©¤en-US
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©¸©¤zh-CN
+©¦  ©¦  ©¦                  viewer.properties
+©¦  ©¦  ©¦                  
+©¦  ©¦  ©À©¤2.71
+©¦  ©¦  ©¦  ©¦  LICENSE
+©¦  ©¦  ©¦  ©¦  
+©¦  ©¦  ©¦  ©À©¤build
+©¦  ©¦  ©¦  ©¦      pdf.js
+©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
+©¦  ©¦  ©¦  ©¦      pdf.worker.js
+©¦  ©¦  ©¦  ©¦      
+©¦  ©¦  ©¦  ©¸©¤web
+©¦  ©¦  ©¦      ©¦  debugger.js
+©¦  ©¦  ©¦      ©¦  viewer.css
+©¦  ©¦  ©¦      ©¦  viewer.html
+©¦  ©¦  ©¦      ©¦  viewer.js
+©¦  ©¦  ©¦      ©¦  viewer2.js
+©¦  ©¦  ©¦      ©¦  viewer3.js
+©¦  ©¦  ©¦      ©¦  
+©¦  ©¦  ©¦      ©À©¤cmaps
+©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      78-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      78-V.bcmap
+©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Add-H.bcmap
+©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Add-V.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
+©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
+©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GB-H.bcmap
+©¦  ©¦  ©¦      ©¦      GB-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      H.bcmap
+©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
+©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
+©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      Katakana.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      LICENSE
+©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
+©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
+©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Roman.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      V.bcmap
+©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
+©¦  ©¦  ©¦      ©¦      
+©¦  ©¦  ©¦      ©À©¤images
+©¦  ©¦  ©¦      ©¦      annotation-check.svg
+©¦  ©¦  ©¦      ©¦      annotation-comment.svg
+©¦  ©¦  ©¦      ©¦      annotation-help.svg
+©¦  ©¦  ©¦      ©¦      annotation-insert.svg
+©¦  ©¦  ©¦      ©¦      annotation-key.svg
+©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
+©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
+©¦  ©¦  ©¦      ©¦      annotation-note.svg
+©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
+©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
+©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
+©¦  ©¦  ©¦      ©¦      grab.cur
+©¦  ©¦  ©¦      ©¦      grabbing.cur
+©¦  ©¦  ©¦      ©¦      loading-dark.svg
+©¦  ©¦  ©¦      ©¦      loading-icon.gif
+©¦  ©¦  ©¦      ©¦      loading.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
+©¦  ©¦  ©¦      ©¦      shadow.png
+©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
+©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
+©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
+©¦  ©¦  ©¦      ©¦      
+©¦  ©¦  ©¦      ©¸©¤locale
+©¦  ©¦  ©¦          ©¦  locale.properties
+©¦  ©¦  ©¦          ©¦  
+©¦  ©¦  ©¦          ©À©¤en-US
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©¸©¤zh-CN
+©¦  ©¦  ©¦                  viewer.properties
+©¦  ©¦  ©¦                  
+©¦  ©¦  ©À©¤2.9
+©¦  ©¦  ©¦  ©¦  LICENSE
+©¦  ©¦  ©¦  ©¦  
+©¦  ©¦  ©¦  ©À©¤build
+©¦  ©¦  ©¦  ©¦      pdf.js
+©¦  ©¦  ©¦  ©¦      pdf.js.map
+©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
+©¦  ©¦  ©¦  ©¦      pdf.sandbox.js.map
+©¦  ©¦  ©¦  ©¦      pdf.worker.js
+©¦  ©¦  ©¦  ©¦      pdf.worker.js.map
+©¦  ©¦  ©¦  ©¦      
+©¦  ©¦  ©¦  ©¸©¤web
+©¦  ©¦  ©¦      ©¦  debugger.js
+©¦  ©¦  ©¦      ©¦  viewer.css
+©¦  ©¦  ©¦      ©¦  viewer.html
+©¦  ©¦  ©¦      ©¦  viewer.js
+©¦  ©¦  ©¦      ©¦  viewer.js.map
+©¦  ©¦  ©¦      ©¦  viewer4.js
+©¦  ©¦  ©¦      ©¦  
+©¦  ©¦  ©¦      ©À©¤cmaps
+©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      78-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      78-V.bcmap
+©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Add-H.bcmap
+©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Add-V.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
+©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
+©¦  ©¦  ©¦      ©¦      B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
+©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
+©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
+©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GB-H.bcmap
+©¦  ©¦  ©¦      ©¦      GB-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
+©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      H.bcmap
+©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
+©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
+©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
+©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
+©¦  ©¦  ©¦      ©¦      Katakana.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
+©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
+©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
+©¦  ©¦  ©¦      ©¦      LICENSE
+©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
+©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
+©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
+©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
+©¦  ©¦  ©¦      ©¦      Roman.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
+©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
+©¦  ©¦  ©¦      ©¦      V.bcmap
+©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
+©¦  ©¦  ©¦      ©¦      
+©¦  ©¦  ©¦      ©À©¤images
+©¦  ©¦  ©¦      ©¦      annotation-check.svg
+©¦  ©¦  ©¦      ©¦      annotation-comment.svg
+©¦  ©¦  ©¦      ©¦      annotation-help.svg
+©¦  ©¦  ©¦      ©¦      annotation-insert.svg
+©¦  ©¦  ©¦      ©¦      annotation-key.svg
+©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
+©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
+©¦  ©¦  ©¦      ©¦      annotation-note.svg
+©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
+©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
+©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
+©¦  ©¦  ©¦      ©¦      grab.cur
+©¦  ©¦  ©¦      ©¦      grabbing.cur
+©¦  ©¦  ©¦      ©¦      loading-dark.svg
+©¦  ©¦  ©¦      ©¦      loading-icon.gif
+©¦  ©¦  ©¦      ©¦      loading.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
+©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
+©¦  ©¦  ©¦      ©¦      shadow.png
+©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
+©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
+©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
+©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
+©¦  ©¦  ©¦      ©¦      
+©¦  ©¦  ©¦      ©¸©¤locale
+©¦  ©¦  ©¦          ©¦  locale.properties
+©¦  ©¦  ©¦          ©¦  
+©¦  ©¦  ©¦          ©À©¤ach
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤af
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤an
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ar
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ast
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤az
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤be
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤bg
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤bn
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤bo
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤br
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤brx
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤bs
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ca
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤cak
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ckb
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤cs
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤cy
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤da
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤de
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤dsb
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤el
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤en-CA
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤en-GB
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤en-US
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤eo
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤es-AR
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤es-CL
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤es-ES
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤es-MX
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤et
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤eu
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤fa
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ff
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤fi
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤fr
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤fy-NL
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ga-IE
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤gd
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤gl
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤gn
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤gu-IN
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤he
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤hi-IN
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤hr
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤hsb
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤hu
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤hy-AM
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤hye
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ia
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤id
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤is
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤it
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ja
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ka
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤kab
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤kk
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤km
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤kn
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ko
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤lij
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤lo
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤lt
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ltg
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤lv
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤meh
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤mk
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤mr
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ms
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤my
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤nb-NO
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ne-NP
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤nl
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤nn-NO
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤oc
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤pa-IN
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤pl
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤pt-BR
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤pt-PT
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤rm
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ro
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ru
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤scn
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤sco
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤si
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤sk
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤sl
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤son
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤sq
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤sr
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤sv-SE
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤szl
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ta
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤te
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤tg
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤th
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤tl
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤tr
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤trs
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤uk
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤ur
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤uz
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤vi
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤wo
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤xh
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©À©¤zh-CN
+©¦  ©¦  ©¦          ©¦      viewer.properties
+©¦  ©¦  ©¦          ©¦      
+©¦  ©¦  ©¦          ©¸©¤zh-TW
+©¦  ©¦  ©¦                  viewer.properties
+©¦  ©¦  ©¦                  
+©¦  ©¦  ©À©¤cmaps
+©¦  ©¦  ©¦      78-EUC-H.bcmap
+©¦  ©¦  ©¦      78-EUC-V.bcmap
+©¦  ©¦  ©¦      78-H.bcmap
+©¦  ©¦  ©¦      78-RKSJ-H.bcmap
+©¦  ©¦  ©¦      78-RKSJ-V.bcmap
+©¦  ©¦  ©¦      78-V.bcmap
+©¦  ©¦  ©¦      78ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      78ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      83pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      90ms-RKSJ-H.bcmap
+©¦  ©¦  ©¦      90ms-RKSJ-V.bcmap
+©¦  ©¦  ©¦      90msp-RKSJ-H.bcmap
+©¦  ©¦  ©¦      90msp-RKSJ-V.bcmap
+©¦  ©¦  ©¦      90pv-RKSJ-H.bcmap
+©¦  ©¦  ©¦      90pv-RKSJ-V.bcmap
+©¦  ©¦  ©¦      Add-H.bcmap
+©¦  ©¦  ©¦      Add-RKSJ-H.bcmap
+©¦  ©¦  ©¦      Add-RKSJ-V.bcmap
+©¦  ©¦  ©¦      Add-V.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-0.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-1.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-2.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-3.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-4.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-5.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-6.bcmap
+©¦  ©¦  ©¦      Adobe-CNS1-UCS2.bcmap
+©¦  ©¦  ©¦      Adobe-GB1-0.bcmap
+©¦  ©¦  ©¦      Adobe-GB1-1.bcmap
+©¦  ©¦  ©¦      Adobe-GB1-2.bcmap
+©¦  ©¦  ©¦      Adobe-GB1-3.bcmap
+©¦  ©¦  ©¦      Adobe-GB1-4.bcmap
+©¦  ©¦  ©¦      Adobe-GB1-5.bcmap
+©¦  ©¦  ©¦      Adobe-GB1-UCS2.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-0.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-1.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-2.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-3.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-4.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-5.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-6.bcmap
+©¦  ©¦  ©¦      Adobe-Japan1-UCS2.bcmap
+©¦  ©¦  ©¦      Adobe-Korea1-0.bcmap
+©¦  ©¦  ©¦      Adobe-Korea1-1.bcmap
+©¦  ©¦  ©¦      Adobe-Korea1-2.bcmap
+©¦  ©¦  ©¦      Adobe-Korea1-UCS2.bcmap
+©¦  ©¦  ©¦      B5-H.bcmap
+©¦  ©¦  ©¦      B5-V.bcmap
+©¦  ©¦  ©¦      B5pc-H.bcmap
+©¦  ©¦  ©¦      B5pc-V.bcmap
+©¦  ©¦  ©¦      CNS-EUC-H.bcmap
+©¦  ©¦  ©¦      CNS-EUC-V.bcmap
+©¦  ©¦  ©¦      CNS1-H.bcmap
+©¦  ©¦  ©¦      CNS1-V.bcmap
+©¦  ©¦  ©¦      CNS2-H.bcmap
+©¦  ©¦  ©¦      CNS2-V.bcmap
+©¦  ©¦  ©¦      ETen-B5-H.bcmap
+©¦  ©¦  ©¦      ETen-B5-V.bcmap
+©¦  ©¦  ©¦      ETenms-B5-H.bcmap
+©¦  ©¦  ©¦      ETenms-B5-V.bcmap
+©¦  ©¦  ©¦      ETHK-B5-H.bcmap
+©¦  ©¦  ©¦      ETHK-B5-V.bcmap
+©¦  ©¦  ©¦      EUC-H.bcmap
+©¦  ©¦  ©¦      EUC-V.bcmap
+©¦  ©¦  ©¦      Ext-H.bcmap
+©¦  ©¦  ©¦      Ext-RKSJ-H.bcmap
+©¦  ©¦  ©¦      Ext-RKSJ-V.bcmap
+©¦  ©¦  ©¦      Ext-V.bcmap
+©¦  ©¦  ©¦      GB-EUC-H.bcmap
+©¦  ©¦  ©¦      GB-EUC-V.bcmap
+©¦  ©¦  ©¦      GB-H.bcmap
+©¦  ©¦  ©¦      GB-V.bcmap
+©¦  ©¦  ©¦      GBK-EUC-H.bcmap
+©¦  ©¦  ©¦      GBK-EUC-V.bcmap
+©¦  ©¦  ©¦      GBK2K-H.bcmap
+©¦  ©¦  ©¦      GBK2K-V.bcmap
+©¦  ©¦  ©¦      GBKp-EUC-H.bcmap
+©¦  ©¦  ©¦      GBKp-EUC-V.bcmap
+©¦  ©¦  ©¦      GBpc-EUC-H.bcmap
+©¦  ©¦  ©¦      GBpc-EUC-V.bcmap
+©¦  ©¦  ©¦      GBT-EUC-H.bcmap
+©¦  ©¦  ©¦      GBT-EUC-V.bcmap
+©¦  ©¦  ©¦      GBT-H.bcmap
+©¦  ©¦  ©¦      GBT-V.bcmap
+©¦  ©¦  ©¦      GBTpc-EUC-H.bcmap
+©¦  ©¦  ©¦      GBTpc-EUC-V.bcmap
+©¦  ©¦  ©¦      H.bcmap
+©¦  ©¦  ©¦      Hankaku.bcmap
+©¦  ©¦  ©¦      Hiragana.bcmap
+©¦  ©¦  ©¦      HKdla-B5-H.bcmap
+©¦  ©¦  ©¦      HKdla-B5-V.bcmap
+©¦  ©¦  ©¦      HKdlb-B5-H.bcmap
+©¦  ©¦  ©¦      HKdlb-B5-V.bcmap
+©¦  ©¦  ©¦      HKgccs-B5-H.bcmap
+©¦  ©¦  ©¦      HKgccs-B5-V.bcmap
+©¦  ©¦  ©¦      HKm314-B5-H.bcmap
+©¦  ©¦  ©¦      HKm314-B5-V.bcmap
+©¦  ©¦  ©¦      HKm471-B5-H.bcmap
+©¦  ©¦  ©¦      HKm471-B5-V.bcmap
+©¦  ©¦  ©¦      HKscs-B5-H.bcmap
+©¦  ©¦  ©¦      HKscs-B5-V.bcmap
+©¦  ©¦  ©¦      Katakana.bcmap
+©¦  ©¦  ©¦      KSC-EUC-H.bcmap
+©¦  ©¦  ©¦      KSC-EUC-V.bcmap
+©¦  ©¦  ©¦      KSC-H.bcmap
+©¦  ©¦  ©¦      KSC-Johab-H.bcmap
+©¦  ©¦  ©¦      KSC-Johab-V.bcmap
+©¦  ©¦  ©¦      KSC-V.bcmap
+©¦  ©¦  ©¦      KSCms-UHC-H.bcmap
+©¦  ©¦  ©¦      KSCms-UHC-HW-H.bcmap
+©¦  ©¦  ©¦      KSCms-UHC-HW-V.bcmap
+©¦  ©¦  ©¦      KSCms-UHC-V.bcmap
+©¦  ©¦  ©¦      KSCpc-EUC-H.bcmap
+©¦  ©¦  ©¦      KSCpc-EUC-V.bcmap
+©¦  ©¦  ©¦      LICENSE
+©¦  ©¦  ©¦      NWP-H.bcmap
+©¦  ©¦  ©¦      NWP-V.bcmap
+©¦  ©¦  ©¦      RKSJ-H.bcmap
+©¦  ©¦  ©¦      RKSJ-V.bcmap
+©¦  ©¦  ©¦      Roman.bcmap
+©¦  ©¦  ©¦      UniCNS-UCS2-H.bcmap
+©¦  ©¦  ©¦      UniCNS-UCS2-V.bcmap
+©¦  ©¦  ©¦      UniCNS-UTF16-H.bcmap
+©¦  ©¦  ©¦      UniCNS-UTF16-V.bcmap
+©¦  ©¦  ©¦      UniCNS-UTF32-H.bcmap
+©¦  ©¦  ©¦      UniCNS-UTF32-V.bcmap
+©¦  ©¦  ©¦      UniCNS-UTF8-H.bcmap
+©¦  ©¦  ©¦      UniCNS-UTF8-V.bcmap
+©¦  ©¦  ©¦      UniGB-UCS2-H.bcmap
+©¦  ©¦  ©¦      UniGB-UCS2-V.bcmap
+©¦  ©¦  ©¦      UniGB-UTF16-H.bcmap
+©¦  ©¦  ©¦      UniGB-UTF16-V.bcmap
+©¦  ©¦  ©¦      UniGB-UTF32-H.bcmap
+©¦  ©¦  ©¦      UniGB-UTF32-V.bcmap
+©¦  ©¦  ©¦      UniGB-UTF8-H.bcmap
+©¦  ©¦  ©¦      UniGB-UTF8-V.bcmap
+©¦  ©¦  ©¦      UniJIS-UCS2-H.bcmap
+©¦  ©¦  ©¦      UniJIS-UCS2-HW-H.bcmap
+©¦  ©¦  ©¦      UniJIS-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      UniJIS-UCS2-V.bcmap
+©¦  ©¦  ©¦      UniJIS-UTF16-H.bcmap
+©¦  ©¦  ©¦      UniJIS-UTF16-V.bcmap
+©¦  ©¦  ©¦      UniJIS-UTF32-H.bcmap
+©¦  ©¦  ©¦      UniJIS-UTF32-V.bcmap
+©¦  ©¦  ©¦      UniJIS-UTF8-H.bcmap
+©¦  ©¦  ©¦      UniJIS-UTF8-V.bcmap
+©¦  ©¦  ©¦      UniJIS2004-UTF16-H.bcmap
+©¦  ©¦  ©¦      UniJIS2004-UTF16-V.bcmap
+©¦  ©¦  ©¦      UniJIS2004-UTF32-H.bcmap
+©¦  ©¦  ©¦      UniJIS2004-UTF32-V.bcmap
+©¦  ©¦  ©¦      UniJIS2004-UTF8-H.bcmap
+©¦  ©¦  ©¦      UniJIS2004-UTF8-V.bcmap
+©¦  ©¦  ©¦      UniJISPro-UCS2-HW-V.bcmap
+©¦  ©¦  ©¦      UniJISPro-UCS2-V.bcmap
+©¦  ©¦  ©¦      UniJISPro-UTF8-V.bcmap
+©¦  ©¦  ©¦      UniJISX0213-UTF32-H.bcmap
+©¦  ©¦  ©¦      UniJISX0213-UTF32-V.bcmap
+©¦  ©¦  ©¦      UniJISX02132004-UTF32-H.bcmap
+©¦  ©¦  ©¦      UniJISX02132004-UTF32-V.bcmap
+©¦  ©¦  ©¦      UniKS-UCS2-H.bcmap
+©¦  ©¦  ©¦      UniKS-UCS2-V.bcmap
+©¦  ©¦  ©¦      UniKS-UTF16-H.bcmap
+©¦  ©¦  ©¦      UniKS-UTF16-V.bcmap
+©¦  ©¦  ©¦      UniKS-UTF32-H.bcmap
+©¦  ©¦  ©¦      UniKS-UTF32-V.bcmap
+©¦  ©¦  ©¦      UniKS-UTF8-H.bcmap
+©¦  ©¦  ©¦      UniKS-UTF8-V.bcmap
+©¦  ©¦  ©¦      V.bcmap
+©¦  ©¦  ©¦      WP-Symbol.bcmap
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤images
+©¦  ©¦  ©¦      annotation-check.svg
+©¦  ©¦  ©¦      annotation-comment.svg
+©¦  ©¦  ©¦      annotation-help.svg
+©¦  ©¦  ©¦      annotation-insert.svg
+©¦  ©¦  ©¦      annotation-key.svg
+©¦  ©¦  ©¦      annotation-newparagraph.svg
+©¦  ©¦  ©¦      annotation-noicon.svg
+©¦  ©¦  ©¦      annotation-note.svg
+©¦  ©¦  ©¦      annotation-paragraph.svg
+©¦  ©¦  ©¦      findbarButton-next.png
+©¦  ©¦  ©¦      findbarButton-next.svg
+©¦  ©¦  ©¦      findbarButton-next@2x.png
+©¦  ©¦  ©¦      findbarButton-previous.png
+©¦  ©¦  ©¦      findbarButton-previous.svg
+©¦  ©¦  ©¦      findbarButton-previous@2x.png
+©¦  ©¦  ©¦      grab.cur
+©¦  ©¦  ©¦      grabbing.cur
+©¦  ©¦  ©¦      loading-dark.svg
+©¦  ©¦  ©¦      loading-icon.gif
+©¦  ©¦  ©¦      loading-small.png
+©¦  ©¦  ©¦      loading-small@2x.png
+©¦  ©¦  ©¦      loading.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-documentProperties.png
+©¦  ©¦  ©¦      secondaryToolbarButton-documentProperties.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-documentProperties@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-firstPage.png
+©¦  ©¦  ©¦      secondaryToolbarButton-firstPage.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-firstPage@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-handTool.png
+©¦  ©¦  ©¦      secondaryToolbarButton-handTool.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-handTool@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-lastPage.png
+©¦  ©¦  ©¦      secondaryToolbarButton-lastPage.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-lastPage@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-rotateCcw.png
+©¦  ©¦  ©¦      secondaryToolbarButton-rotateCcw.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-rotateCcw@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-rotateCw.png
+©¦  ©¦  ©¦      secondaryToolbarButton-rotateCw.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-rotateCw@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollHorizontal.png
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollHorizontal.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollHorizontal@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollVertical.png
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollVertical.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollVertical@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollWrapped.png
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollWrapped.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-scrollWrapped@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-selectTool.png
+©¦  ©¦  ©¦      secondaryToolbarButton-selectTool.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-selectTool@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadEven.png
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadEven.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadEven@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadNone.png
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadNone.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadNone@2x.png
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadOdd.png
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadOdd.svg
+©¦  ©¦  ©¦      secondaryToolbarButton-spreadOdd@2x.png
+©¦  ©¦  ©¦      shadow.png
+©¦  ©¦  ©¦      texture.png
+©¦  ©¦  ©¦      toolbarButton-bookmark.png
+©¦  ©¦  ©¦      toolbarButton-bookmark.svg
+©¦  ©¦  ©¦      toolbarButton-bookmark@2x.png
+©¦  ©¦  ©¦      toolbarButton-currentOutlineItem.svg
+©¦  ©¦  ©¦      toolbarButton-download.png
+©¦  ©¦  ©¦      toolbarButton-download.svg
+©¦  ©¦  ©¦      toolbarButton-download@2x.png
+©¦  ©¦  ©¦      toolbarButton-menuArrow.svg
+©¦  ©¦  ©¦      toolbarButton-menuArrows.png
+©¦  ©¦  ©¦      toolbarButton-menuArrows@2x.png
+©¦  ©¦  ©¦      toolbarButton-openFile.png
+©¦  ©¦  ©¦      toolbarButton-openFile.svg
+©¦  ©¦  ©¦      toolbarButton-openFile@2x.png
+©¦  ©¦  ©¦      toolbarButton-pageDown.png
+©¦  ©¦  ©¦      toolbarButton-pageDown.svg
+©¦  ©¦  ©¦      toolbarButton-pageDown@2x.png
+©¦  ©¦  ©¦      toolbarButton-pageUp.png
+©¦  ©¦  ©¦      toolbarButton-pageUp.svg
+©¦  ©¦  ©¦      toolbarButton-pageUp@2x.png
+©¦  ©¦  ©¦      toolbarButton-presentationMode.png
+©¦  ©¦  ©¦      toolbarButton-presentationMode.svg
+©¦  ©¦  ©¦      toolbarButton-presentationMode@2x.png
+©¦  ©¦  ©¦      toolbarButton-print.png
+©¦  ©¦  ©¦      toolbarButton-print.svg
+©¦  ©¦  ©¦      toolbarButton-print@2x.png
+©¦  ©¦  ©¦      toolbarButton-search.png
+©¦  ©¦  ©¦      toolbarButton-search.svg
+©¦  ©¦  ©¦      toolbarButton-search@2x.png
+©¦  ©¦  ©¦      toolbarButton-secondaryToolbarToggle.png
+©¦  ©¦  ©¦      toolbarButton-secondaryToolbarToggle.svg
+©¦  ©¦  ©¦      toolbarButton-secondaryToolbarToggle@2x.png
+©¦  ©¦  ©¦      toolbarButton-sidebarToggle.png
+©¦  ©¦  ©¦      toolbarButton-sidebarToggle.svg
+©¦  ©¦  ©¦      toolbarButton-sidebarToggle@2x.png
+©¦  ©¦  ©¦      toolbarButton-viewAttachments.png
+©¦  ©¦  ©¦      toolbarButton-viewAttachments.svg
+©¦  ©¦  ©¦      toolbarButton-viewAttachments@2x.png
+©¦  ©¦  ©¦      toolbarButton-viewLayers.svg
+©¦  ©¦  ©¦      toolbarButton-viewOutline.png
+©¦  ©¦  ©¦      toolbarButton-viewOutline.svg
+©¦  ©¦  ©¦      toolbarButton-viewOutline@2x.png
+©¦  ©¦  ©¦      toolbarButton-viewThumbnail.png
+©¦  ©¦  ©¦      toolbarButton-viewThumbnail.svg
+©¦  ©¦  ©¦      toolbarButton-viewThumbnail@2x.png
+©¦  ©¦  ©¦      toolbarButton-zoomIn.png
+©¦  ©¦  ©¦      toolbarButton-zoomIn.svg
+©¦  ©¦  ©¦      toolbarButton-zoomIn@2x.png
+©¦  ©¦  ©¦      toolbarButton-zoomOut.png
+©¦  ©¦  ©¦      toolbarButton-zoomOut.svg
+©¦  ©¦  ©¦      toolbarButton-zoomOut@2x.png
+©¦  ©¦  ©¦      treeitem-collapsed.png
+©¦  ©¦  ©¦      treeitem-collapsed.svg
+©¦  ©¦  ©¦      treeitem-collapsed@2x.png
+©¦  ©¦  ©¦      treeitem-expanded.png
+©¦  ©¦  ©¦      treeitem-expanded.svg
+©¦  ©¦  ©¦      treeitem-expanded@2x.png
+©¦  ©¦  ©¦      
+©¦  ©¦  ©¸©¤locale
+©¦  ©¦      ©¦  locale.properties
+©¦  ©¦      ©¦  
+©¦  ©¦      ©À©¤en-US
+©¦  ©¦      ©¦      viewer.properties
+©¦  ©¦      ©¦      
+©¦  ©¦      ©¸©¤zh-CN
+©¦  ©¦              viewer.properties
+©¦  ©¦              
+©¦  ©¸©¤tampermonkey
+©¦          netdiskLinkChecker.js
+©¦          
 ©À©¤software
 ©¦      Android App.md
 ©¦      PC.md
