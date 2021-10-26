@@ -16,7 +16,6 @@ https://raw.fastgit.org/freefq/free/master/v2
 https://a.subcat.link/v2Merlintls.php?token=0eb804c87aac0d3a75d388c4535ca812
 https://cdn.staticaly.com/gh/FGCl0ud/Share/Sub/Sub/SUB
 https://fg666.coding.net/p/fq/d/1/git/raw/master/%E8%8A%82%E7%94%B5%E6%B1%A0.txt
-https://gitee.com/bujilangren/warehouse/raw/master/0827.txt
 https://gitee.com/ljc6b/sub/raw/Clash/tw254.yaml
 https://gitee.com/xiaoku666/daima/raw/master/%E7%99%BD%E5%AB%96iplc.txt
 https://paste.gg/p/anonymous/0802d103bbf144aca1e626b1b96d7a4b/files/1e800f3bc16d47709a582276618909b1/raw
@@ -32,5 +31,4 @@ https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/vpn.txt
 https://paolu886.ml/api/v1/client/subscribe?token=36b51efe4de22124ebe55f4c8c17ae19
 https://gitee.com/chenx58/clash/raw/master/10.19
 https://proxy.shmily.ga/clash/20211018
-https://paste.gg/p/anonymous/a0ceda71b6264ed389f0c9b4f9574d63/files/e3ada468ca4c4f15abe6248d0d01cc05/raw
 https://freemycloud.site/link/ZVrYyyHzR6Hza9Sr?sub=3
