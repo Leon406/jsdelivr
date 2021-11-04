@@ -4,11 +4,11 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [xdown](https://xdown.org) 自动更新                       | 2.0.4.0 | 下载工具  自动升级 |
+| [xdown](https://xdown.org) 自动更新                       | 2.0.4.4 | 下载工具  自动升级 |
 | [PanDownload]() |  2.7.7  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.1  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.3 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.8 | 下载工具           |
 |  |  |                    |
 |                                                           |         |                    |
 
@@ -43,12 +43,12 @@
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.1.9 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.2.1 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.3 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.21  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.23  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.43 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.4  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.6  |               |
 |  |  | |
 
 ## 开发
@@ -58,18 +58,18 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  21.4   | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.7  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.9  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.0  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.7.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.4.9  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.26 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.61 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.61.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.1.4  | 编辑器 支持大文件                     |
-| [AnLink](https://anl.ink/changelog)                          |  2.2.5  | Android 投屏电脑                      |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.2.1  | 编辑器 支持大文件                     |
+| [AnLink](https://anl.ink/changelog)                          |  3.1  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.4  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.7  | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.10  | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -80,7 +80,7 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         0.99.1         | 图片查看        |
-| [todesk](https://www.todesk.com/download.html)               | 3.3.2 软件内升级 | 远程控制 速度快 |
+| [todesk](https://www.todesk.com/download.html)               | 3.3.3 软件内升级 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.483        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.34         | gif 制作工具    |
 | [TreeSizeFree](https://www.jam-software.com/treesize_free)   |       8.0.3.1507       | 硬盘空间分析    |
@@ -94,8 +94,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      94.0.992.38      | 浏览器          |
-| [Chrome 增强版](https://shuax.com/project/chrome/) |      94.0.4606.81      | 浏览器          |
+| [edge 增强版](https://shuax.com/project/edge/)  [网盘](https://assets.shuax.com/) |      95.0.1020.40      | 浏览器          |
+| [Chrome 增强版](https://shuax.com/project/chrome/) |      95.0.4638.69      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.18 |  |
@@ -140,7 +140,7 @@
 
 | 软件                                                         |  版本   | 说明                 |
 | :----------------------------------------------------------- | :-----: | -------------------- |
-| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.14.1  | 音乐助手             |
+| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github |  1.15   | 音乐助手             |
 | [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      | 1.14.1  | 音乐助手             |
 | Short URL                                                    |  2.8.3  | 短网址工具           |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
@@ -150,7 +150,7 @@
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github | 1.0.11  | 屏幕共享             |
 | [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.8 | 付费无损音乐下载工具 |
 | [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5  | 开源影视聚合播放器   |
-| [魔音](http://www.huanghunxiao.com/)                         | 2.5.8.5 | 音乐助手             |
+| [魔音](http://www.huanghunxiao.com/)                         |  2.6.2  | 音乐助手             |
 |                                                              |         |                      |
 |                                                              |         |                      |
 
