@@ -1,10 +1,10 @@
-2021年11月14日 09:52:10
+2021年11月21日 14:38:39
 
 ## 下载
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [xdown](https://xdown.org) 自动更新                       | 2.0.4.4 | 下载工具  自动升级 |
+| [xdown](https://xdown.org) 自动更新                       | 2.0.4.5 | 下载工具  自动升级 |
 | [PanDownload]() |  2.7.7  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.1  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
@@ -18,7 +18,7 @@
 
 | 软件                                                         |      版本      | 说明               |
 | ------------------------------------------------------------ | :------------: | -------------------- |
-| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.2.0      | Android反编译        |
+| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.3.0.1     | Android反编译        |
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.3 SR5      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
@@ -26,7 +26,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived)  |     6.1.8      | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.9     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.10     | 抓包工具             |
 | ExeinfoPe | 0.0.6.6 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -43,12 +43,12 @@
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.2.4 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.2.5 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.3 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.23  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.24  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.43 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.8  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.9  |               |
 |  |  | |
 
 ## 开发
@@ -67,7 +67,7 @@
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.61.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.2.1  | 编辑器 支持大文件                     |
-| [AnLink](https://anl.ink/changelog)                          |  3.1  | Android 投屏电脑                      |
+| [AnLink](https://anl.ink/changelog)                          |  3.4  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.4  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.10  | 接口测试                              |
 |                                                              |         |                                       |
@@ -80,22 +80,22 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         0.99.1         | 图片查看        |
-| [todesk](https://www.todesk.com/download.html)               | 4.0.0 | 远程控制 速度快 |
-| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.483        | 全文文本搜索    |
+| [todesk](https://www.todesk.com/download.html)               | 4.0.1 | 远程控制 速度快 |
+| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.540        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.34.1         | gif 制作工具    |
 | [TreeSizeFree](https://www.jam-software.com/treesize_free)   |       8.0.3.1507       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.49          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.55.1         | ftp工具         |
 | [Listary](https://www.listary.com/)                          |       5.00.2843        | 启动器          |
-| [Xmind2021](https://www.xmind.cn/xmind2020/) [破解文件](https://pan.lanzoux.com/b0f1fqazi#) |         11.1.0         | 脑图            |
+| [Xmind2021](https://www.xmind.cn/xmind2020/) [破解文件](https://pan.lanzoux.com/b0f1fqazi#) |         11.1.2         | 脑图            |
 | [冰点文库下载器](http://www.bingdian001.com/?p=30)           |         3.2.16         | 文档下载        |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          4.0           | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版](https://shuax.com/project/edge/) |      95.0.1020.53      | 浏览器          |
-| [Chrome 增强版](https://shuax.com/project/chrome/) |      95.0.4638.69      | 浏览器          |
+| [edge 增强版]() |      95.0.1020.53      | 浏览器          |
+| [Chrome 增强版]() |      95.0.4638.69      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.18 |  |
@@ -108,7 +108,7 @@
 | 软件                                                         |  版本   | 说明                 |
 | ------------------------------------------------------------ | :-----: | -------------------- |
 | [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  |  1.94   | 图片格式转换汉化工具 |
-| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e) |  5.8.1  | 音视频格式转换       |
+| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e) |  5.9.0  | 音视频格式转换       |
 | 小丸工具箱                                                   |   236   |                      |
 | [ShanaEncoder](https://shana.pe.kr/)                         | 5.2.2.3 |                      |
 
@@ -140,7 +140,7 @@
 
 | 软件                                                         |   版本   | 说明                 |
 | :----------------------------------------------------------- | :------: | -------------------- |
-| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github |  1.15.2  | 音乐助手             |
+| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github |  1.15.3  | 音乐助手             |
 | [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      |  1.14.1  | 音乐助手             |
 | Short URL                                                    |  2.8.3   | 短网址工具           |
 | FolderPainter                                                |   1.2    | 文件夹图标修改       |
