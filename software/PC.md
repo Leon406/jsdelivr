@@ -1,4 +1,4 @@
-2021年11月21日 14:38:39
+2021年12月4日 10:30:15
 
 ## 下载
 
@@ -26,7 +26,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived)  |     6.1.8      | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.4.10     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.6.0     | 抓包工具             |
 | ExeinfoPe | 0.0.6.6 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -43,12 +43,12 @@
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.2.5 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.2.8 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.3 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.24  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.25  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.43 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.9  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.10  |               |
 |  |  | |
 
 ## 开发
@@ -66,9 +66,9 @@
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.26 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.61.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.2.1  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.3.0  | 编辑器 支持大文件                     |
 | [AnLink](https://anl.ink/changelog)                          |  3.4  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.4  | github 桌面端                         |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.5  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.10  | 接口测试                              |
 |                                                              |         |                                       |
 
@@ -79,8 +79,8 @@
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         0.99.1         | 图片查看        |
-| [todesk](https://www.todesk.com/download.html)               | 4.0.1 | 远程控制 速度快 |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         0.99.4         | 图片查看        |
+| [todesk](https://www.todesk.com/download.html)               | 4.0.3 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.540        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.34.1         | gif 制作工具    |
 | [TreeSizeFree](https://www.jam-software.com/treesize_free)   |       8.0.3.1507       | 硬盘空间分析    |
@@ -94,8 +94,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版]() |      95.0.1020.53      | 浏览器          |
-| [Chrome 增强版]() |      95.0.4638.69      | 浏览器          |
+| [edge 增强版]() |      96.0.1054.43      | 浏览器          |
+| [Chrome 增强版]() |      96.0.4664.45      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.18 |  |
@@ -145,10 +145,10 @@
 | Short URL                                                    |  2.8.3   | 短网址工具           |
 | FolderPainter                                                |   1.2    | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |   2A45   | 翻译                 |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |   3A00   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2   | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |  1.0.11  | 屏幕共享             |
-| [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.12 | 付费无损音乐下载工具 |
+| [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.13 | 付费无损音乐下载工具 |
 | [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5   | 开源影视聚合播放器   |
 | [魔音](http://www.huanghunxiao.com/)                         |  2.6.2   | 音乐助手             |
 |                                                              |          |                      |
