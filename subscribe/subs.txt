@@ -26,3 +26,4 @@ https://paolu886.ml/api/v1/client/subscribe?token=36b51efe4de22124ebe55f4c8c17ae
 https://gitee.com/chenx58/clash/raw/V2R/V2R
 https://gitee.com/chenx58/clash/raw/V2R/12.11
 https://proxy.shmily.ga/clash/20211018
+https://hi.moon365.workers.dev/free
