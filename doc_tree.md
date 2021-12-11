@@ -1,5 +1,4 @@
-文件夹 PATH 列表
-E:\GITREPO\JSDELIVR
+E:\GITHUB\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -1501,6 +1500,6 @@ E:\GITREPO\JSDELIVR
         pac7890.txt
         quark.txt
         regex.txt
-        sub001.txt
-        vpn.txt
+        subs.txt
+        tmp.txt
         
