@@ -1,4 +1,4 @@
-2021年12月11日 10:30:15
+2021年12月21日 20:05:42
 
 ## 下载
 
@@ -8,7 +8,7 @@
 | [PanDownload]() |  2.7.7  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.1  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.39.8 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://pan.lanzoux.com/b0f1997eb#) | 6.40.2 | 下载工具           |
 |  |  |                    |
 |                                                           |         |                    |
 
@@ -18,8 +18,8 @@
 
 | 软件                                                         |      版本      | 说明               |
 | ------------------------------------------------------------ | :------------: | -------------------- |
-| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.3.0.1     | Android反编译        |
-| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.3 SR5      | 二进制查看编辑       |
+| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.3.1     | Android反编译        |
+| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.4      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [010Editor](https://www.sweetscape.com/010editor/)           |     12.0.1     | 二进制查看编辑       |
@@ -44,11 +44,11 @@
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.3.0 | 聊天          |
-| [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.0.3 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.25  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.43 | v2ray工具     |
+| [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.0 | hosts切换工具 |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.26  | v2ray ss工具  |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.44 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.18.11  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.2  |               |
 |  |  | |
 
 ## 开发
@@ -59,17 +59,17 @@
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.1.9.3  | 文本编辑                              |
-| [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.0  | 文件比对同步工具                      |
+| [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.1  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.7.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.120 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.0  | redis工具                             |
-| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.27 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.27<br/>16.0.5 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.63 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.3.0  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.4  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.5  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.10  | 接口测试                              |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.6  | github 桌面端                         |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  1.4.14  | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -80,7 +80,7 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         0.99.6         | 图片查看        |
-| [todesk](https://www.todesk.com/download.html)               | 4.0.3 | 远程控制 速度快 |
+| [todesk](https://www.todesk.com/download.html)               | 4.1.0 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.540        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.34.1         | gif 制作工具    |
 | [TreeSizeFree](https://www.jam-software.com/treesize_free)   |       8.0.3.1507       | 硬盘空间分析    |
@@ -94,8 +94,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版]() |      96.0.1054.43      | 浏览器          |
-| [Chrome 增强版]() |      96.0.4664.45      | 浏览器          |
+| [edge 增强版]() |      96.0.1054.62      | 浏览器          |
+| [Chrome 增强版]() |      96.0.4664.110      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.18 |  |
@@ -107,7 +107,7 @@
 
 | 软件                                                         |  版本   | 说明                 |
 | ------------------------------------------------------------ | :-----: | -------------------- |
-| [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  |  1.94   | 图片格式转换汉化工具 |
+| [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  |  1.95   | 图片格式转换汉化工具 |
 | [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e) |  5.9.0  | 音视频格式转换       |
 | 小丸工具箱                                                   |   236   |                      |
 | [ShanaEncoder](https://shana.pe.kr/)                         | 5.2.2.3 |                      |
@@ -145,8 +145,8 @@
 | Short URL                                                    |  2.8.3   | 短网址工具           |
 | FolderPainter                                                |   1.2    | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |   3A00   | 翻译                 |
-| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.0.2   | RSS阅读              |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**8autoptrtop1**](http://files.autoptr.top/d/31968491-43314173-bda923) |   3A4B   | 翻译                 |
+| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.1.0   | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |  1.0.11  | 屏幕共享             |
 | [MusicTools](https://tool.yijingying.com/musictools/)        | 1.9.5.13 | 付费无损音乐下载工具 |
 | [ZY-Player](https://github.com/cuiocean/ZY-Player/releases/) github |  2.8.5   | 开源影视聚合播放器   |
