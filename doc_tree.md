@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -107,10 +108,601 @@ E:\GITHUB\JSDELIVR
 │      
 ├─js
 │  ├─pdfjs
+│  │  │  viewer2.12.html
 │  │  │  viewer2.5.html
 │  │  │  viewer2.7.html
 │  │  │  viewer2.9.html
 │  │  │  
+│  │  ├─2.12
+│  │  │  │  LICENSE
+│  │  │  │  
+│  │  │  ├─build
+│  │  │  │      pdf.js
+│  │  │  │      pdf.sandbox.js
+│  │  │  │      pdf.worker.js
+│  │  │  │      
+│  │  │  └─web
+│  │  │      │  debugger.js
+│  │  │      │  viewer.css
+│  │  │      │  viewer.html
+│  │  │      │  viewer.js
+│  │  │      │  
+│  │  │      ├─cmaps
+│  │  │      │      78-EUC-H.bcmap
+│  │  │      │      78-EUC-V.bcmap
+│  │  │      │      78-H.bcmap
+│  │  │      │      78-RKSJ-H.bcmap
+│  │  │      │      78-RKSJ-V.bcmap
+│  │  │      │      78-V.bcmap
+│  │  │      │      78ms-RKSJ-H.bcmap
+│  │  │      │      78ms-RKSJ-V.bcmap
+│  │  │      │      83pv-RKSJ-H.bcmap
+│  │  │      │      90ms-RKSJ-H.bcmap
+│  │  │      │      90ms-RKSJ-V.bcmap
+│  │  │      │      90msp-RKSJ-H.bcmap
+│  │  │      │      90msp-RKSJ-V.bcmap
+│  │  │      │      90pv-RKSJ-H.bcmap
+│  │  │      │      90pv-RKSJ-V.bcmap
+│  │  │      │      Add-H.bcmap
+│  │  │      │      Add-RKSJ-H.bcmap
+│  │  │      │      Add-RKSJ-V.bcmap
+│  │  │      │      Add-V.bcmap
+│  │  │      │      Adobe-CNS1-0.bcmap
+│  │  │      │      Adobe-CNS1-1.bcmap
+│  │  │      │      Adobe-CNS1-2.bcmap
+│  │  │      │      Adobe-CNS1-3.bcmap
+│  │  │      │      Adobe-CNS1-4.bcmap
+│  │  │      │      Adobe-CNS1-5.bcmap
+│  │  │      │      Adobe-CNS1-6.bcmap
+│  │  │      │      Adobe-CNS1-UCS2.bcmap
+│  │  │      │      Adobe-GB1-0.bcmap
+│  │  │      │      Adobe-GB1-1.bcmap
+│  │  │      │      Adobe-GB1-2.bcmap
+│  │  │      │      Adobe-GB1-3.bcmap
+│  │  │      │      Adobe-GB1-4.bcmap
+│  │  │      │      Adobe-GB1-5.bcmap
+│  │  │      │      Adobe-GB1-UCS2.bcmap
+│  │  │      │      Adobe-Japan1-0.bcmap
+│  │  │      │      Adobe-Japan1-1.bcmap
+│  │  │      │      Adobe-Japan1-2.bcmap
+│  │  │      │      Adobe-Japan1-3.bcmap
+│  │  │      │      Adobe-Japan1-4.bcmap
+│  │  │      │      Adobe-Japan1-5.bcmap
+│  │  │      │      Adobe-Japan1-6.bcmap
+│  │  │      │      Adobe-Japan1-UCS2.bcmap
+│  │  │      │      Adobe-Korea1-0.bcmap
+│  │  │      │      Adobe-Korea1-1.bcmap
+│  │  │      │      Adobe-Korea1-2.bcmap
+│  │  │      │      Adobe-Korea1-UCS2.bcmap
+│  │  │      │      B5-H.bcmap
+│  │  │      │      B5-V.bcmap
+│  │  │      │      B5pc-H.bcmap
+│  │  │      │      B5pc-V.bcmap
+│  │  │      │      CNS-EUC-H.bcmap
+│  │  │      │      CNS-EUC-V.bcmap
+│  │  │      │      CNS1-H.bcmap
+│  │  │      │      CNS1-V.bcmap
+│  │  │      │      CNS2-H.bcmap
+│  │  │      │      CNS2-V.bcmap
+│  │  │      │      ETen-B5-H.bcmap
+│  │  │      │      ETen-B5-V.bcmap
+│  │  │      │      ETenms-B5-H.bcmap
+│  │  │      │      ETenms-B5-V.bcmap
+│  │  │      │      ETHK-B5-H.bcmap
+│  │  │      │      ETHK-B5-V.bcmap
+│  │  │      │      EUC-H.bcmap
+│  │  │      │      EUC-V.bcmap
+│  │  │      │      Ext-H.bcmap
+│  │  │      │      Ext-RKSJ-H.bcmap
+│  │  │      │      Ext-RKSJ-V.bcmap
+│  │  │      │      Ext-V.bcmap
+│  │  │      │      GB-EUC-H.bcmap
+│  │  │      │      GB-EUC-V.bcmap
+│  │  │      │      GB-H.bcmap
+│  │  │      │      GB-V.bcmap
+│  │  │      │      GBK-EUC-H.bcmap
+│  │  │      │      GBK-EUC-V.bcmap
+│  │  │      │      GBK2K-H.bcmap
+│  │  │      │      GBK2K-V.bcmap
+│  │  │      │      GBKp-EUC-H.bcmap
+│  │  │      │      GBKp-EUC-V.bcmap
+│  │  │      │      GBpc-EUC-H.bcmap
+│  │  │      │      GBpc-EUC-V.bcmap
+│  │  │      │      GBT-EUC-H.bcmap
+│  │  │      │      GBT-EUC-V.bcmap
+│  │  │      │      GBT-H.bcmap
+│  │  │      │      GBT-V.bcmap
+│  │  │      │      GBTpc-EUC-H.bcmap
+│  │  │      │      GBTpc-EUC-V.bcmap
+│  │  │      │      H.bcmap
+│  │  │      │      Hankaku.bcmap
+│  │  │      │      Hiragana.bcmap
+│  │  │      │      HKdla-B5-H.bcmap
+│  │  │      │      HKdla-B5-V.bcmap
+│  │  │      │      HKdlb-B5-H.bcmap
+│  │  │      │      HKdlb-B5-V.bcmap
+│  │  │      │      HKgccs-B5-H.bcmap
+│  │  │      │      HKgccs-B5-V.bcmap
+│  │  │      │      HKm314-B5-H.bcmap
+│  │  │      │      HKm314-B5-V.bcmap
+│  │  │      │      HKm471-B5-H.bcmap
+│  │  │      │      HKm471-B5-V.bcmap
+│  │  │      │      HKscs-B5-H.bcmap
+│  │  │      │      HKscs-B5-V.bcmap
+│  │  │      │      Katakana.bcmap
+│  │  │      │      KSC-EUC-H.bcmap
+│  │  │      │      KSC-EUC-V.bcmap
+│  │  │      │      KSC-H.bcmap
+│  │  │      │      KSC-Johab-H.bcmap
+│  │  │      │      KSC-Johab-V.bcmap
+│  │  │      │      KSC-V.bcmap
+│  │  │      │      KSCms-UHC-H.bcmap
+│  │  │      │      KSCms-UHC-HW-H.bcmap
+│  │  │      │      KSCms-UHC-HW-V.bcmap
+│  │  │      │      KSCms-UHC-V.bcmap
+│  │  │      │      KSCpc-EUC-H.bcmap
+│  │  │      │      KSCpc-EUC-V.bcmap
+│  │  │      │      LICENSE
+│  │  │      │      NWP-H.bcmap
+│  │  │      │      NWP-V.bcmap
+│  │  │      │      RKSJ-H.bcmap
+│  │  │      │      RKSJ-V.bcmap
+│  │  │      │      Roman.bcmap
+│  │  │      │      UniCNS-UCS2-H.bcmap
+│  │  │      │      UniCNS-UCS2-V.bcmap
+│  │  │      │      UniCNS-UTF16-H.bcmap
+│  │  │      │      UniCNS-UTF16-V.bcmap
+│  │  │      │      UniCNS-UTF32-H.bcmap
+│  │  │      │      UniCNS-UTF32-V.bcmap
+│  │  │      │      UniCNS-UTF8-H.bcmap
+│  │  │      │      UniCNS-UTF8-V.bcmap
+│  │  │      │      UniGB-UCS2-H.bcmap
+│  │  │      │      UniGB-UCS2-V.bcmap
+│  │  │      │      UniGB-UTF16-H.bcmap
+│  │  │      │      UniGB-UTF16-V.bcmap
+│  │  │      │      UniGB-UTF32-H.bcmap
+│  │  │      │      UniGB-UTF32-V.bcmap
+│  │  │      │      UniGB-UTF8-H.bcmap
+│  │  │      │      UniGB-UTF8-V.bcmap
+│  │  │      │      UniJIS-UCS2-H.bcmap
+│  │  │      │      UniJIS-UCS2-HW-H.bcmap
+│  │  │      │      UniJIS-UCS2-HW-V.bcmap
+│  │  │      │      UniJIS-UCS2-V.bcmap
+│  │  │      │      UniJIS-UTF16-H.bcmap
+│  │  │      │      UniJIS-UTF16-V.bcmap
+│  │  │      │      UniJIS-UTF32-H.bcmap
+│  │  │      │      UniJIS-UTF32-V.bcmap
+│  │  │      │      UniJIS-UTF8-H.bcmap
+│  │  │      │      UniJIS-UTF8-V.bcmap
+│  │  │      │      UniJIS2004-UTF16-H.bcmap
+│  │  │      │      UniJIS2004-UTF16-V.bcmap
+│  │  │      │      UniJIS2004-UTF32-H.bcmap
+│  │  │      │      UniJIS2004-UTF32-V.bcmap
+│  │  │      │      UniJIS2004-UTF8-H.bcmap
+│  │  │      │      UniJIS2004-UTF8-V.bcmap
+│  │  │      │      UniJISPro-UCS2-HW-V.bcmap
+│  │  │      │      UniJISPro-UCS2-V.bcmap
+│  │  │      │      UniJISPro-UTF8-V.bcmap
+│  │  │      │      UniJISX0213-UTF32-H.bcmap
+│  │  │      │      UniJISX0213-UTF32-V.bcmap
+│  │  │      │      UniJISX02132004-UTF32-H.bcmap
+│  │  │      │      UniJISX02132004-UTF32-V.bcmap
+│  │  │      │      UniKS-UCS2-H.bcmap
+│  │  │      │      UniKS-UCS2-V.bcmap
+│  │  │      │      UniKS-UTF16-H.bcmap
+│  │  │      │      UniKS-UTF16-V.bcmap
+│  │  │      │      UniKS-UTF32-H.bcmap
+│  │  │      │      UniKS-UTF32-V.bcmap
+│  │  │      │      UniKS-UTF8-H.bcmap
+│  │  │      │      UniKS-UTF8-V.bcmap
+│  │  │      │      V.bcmap
+│  │  │      │      WP-Symbol.bcmap
+│  │  │      │      
+│  │  │      ├─images
+│  │  │      │      annotation-check.svg
+│  │  │      │      annotation-comment.svg
+│  │  │      │      annotation-help.svg
+│  │  │      │      annotation-insert.svg
+│  │  │      │      annotation-key.svg
+│  │  │      │      annotation-newparagraph.svg
+│  │  │      │      annotation-noicon.svg
+│  │  │      │      annotation-note.svg
+│  │  │      │      annotation-paragraph.svg
+│  │  │      │      findbarButton-next.svg
+│  │  │      │      findbarButton-previous.svg
+│  │  │      │      grab.cur
+│  │  │      │      grabbing.cur
+│  │  │      │      loading-dark.svg
+│  │  │      │      loading-icon.gif
+│  │  │      │      loading.svg
+│  │  │      │      secondaryToolbarButton-documentProperties.svg
+│  │  │      │      secondaryToolbarButton-firstPage.svg
+│  │  │      │      secondaryToolbarButton-handTool.svg
+│  │  │      │      secondaryToolbarButton-lastPage.svg
+│  │  │      │      secondaryToolbarButton-rotateCcw.svg
+│  │  │      │      secondaryToolbarButton-rotateCw.svg
+│  │  │      │      secondaryToolbarButton-scrollHorizontal.svg
+│  │  │      │      secondaryToolbarButton-scrollPage.svg
+│  │  │      │      secondaryToolbarButton-scrollVertical.svg
+│  │  │      │      secondaryToolbarButton-scrollWrapped.svg
+│  │  │      │      secondaryToolbarButton-selectTool.svg
+│  │  │      │      secondaryToolbarButton-spreadEven.svg
+│  │  │      │      secondaryToolbarButton-spreadNone.svg
+│  │  │      │      secondaryToolbarButton-spreadOdd.svg
+│  │  │      │      shadow.png
+│  │  │      │      toolbarButton-bookmark.svg
+│  │  │      │      toolbarButton-currentOutlineItem.svg
+│  │  │      │      toolbarButton-download.svg
+│  │  │      │      toolbarButton-menuArrow.svg
+│  │  │      │      toolbarButton-openFile.svg
+│  │  │      │      toolbarButton-pageDown.svg
+│  │  │      │      toolbarButton-pageUp.svg
+│  │  │      │      toolbarButton-presentationMode.svg
+│  │  │      │      toolbarButton-print.svg
+│  │  │      │      toolbarButton-search.svg
+│  │  │      │      toolbarButton-secondaryToolbarToggle.svg
+│  │  │      │      toolbarButton-sidebarToggle.svg
+│  │  │      │      toolbarButton-viewAttachments.svg
+│  │  │      │      toolbarButton-viewLayers.svg
+│  │  │      │      toolbarButton-viewOutline.svg
+│  │  │      │      toolbarButton-viewThumbnail.svg
+│  │  │      │      toolbarButton-zoomIn.svg
+│  │  │      │      toolbarButton-zoomOut.svg
+│  │  │      │      treeitem-collapsed.svg
+│  │  │      │      treeitem-expanded.svg
+│  │  │      │      
+│  │  │      ├─locale
+│  │  │      │  │  locale.properties
+│  │  │      │  │  
+│  │  │      │  ├─ach
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─af
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─an
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ar
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ast
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─az
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─be
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─bg
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─bn
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─bo
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─br
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─brx
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─bs
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ca
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─cak
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ckb
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─cs
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─cy
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─da
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─de
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─dsb
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─el
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─en-CA
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─en-GB
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─en-US
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─eo
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─es-AR
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─es-CL
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─es-ES
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─es-MX
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─et
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─eu
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─fa
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ff
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─fi
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─fr
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─fy-NL
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ga-IE
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─gd
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─gl
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─gn
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─gu-IN
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─he
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─hi-IN
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─hr
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─hsb
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─hu
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─hy-AM
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─hye
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ia
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─id
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─is
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─it
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ja
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ka
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─kab
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─kk
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─km
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─kn
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ko
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─lij
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─lo
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─lt
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ltg
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─lv
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─meh
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─mk
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─mr
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ms
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─my
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─nb-NO
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ne-NP
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─nl
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─nn-NO
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─oc
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─pa-IN
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─pl
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─pt-BR
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─pt-PT
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─rm
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ro
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ru
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sat
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sc
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─scn
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sco
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─si
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sk
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sl
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─son
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sq
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sr
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─sv-SE
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─szl
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ta
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─te
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─tg
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─th
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─tl
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─tr
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─trs
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─uk
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─ur
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─uz
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─vi
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─wo
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─xh
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  ├─zh-CN
+│  │  │      │  │      viewer.properties
+│  │  │      │  │      
+│  │  │      │  └─zh-TW
+│  │  │      │          viewer.properties
+│  │  │      │          
+│  │  │      └─standard_fonts
+│  │  │              FoxitDingbats.pfb
+│  │  │              FoxitFixed.pfb
+│  │  │              FoxitFixedBold.pfb
+│  │  │              FoxitFixedBoldItalic.pfb
+│  │  │              FoxitFixedItalic.pfb
+│  │  │              FoxitSans.pfb
+│  │  │              FoxitSansBold.pfb
+│  │  │              FoxitSansBoldItalic.pfb
+│  │  │              FoxitSansItalic.pfb
+│  │  │              FoxitSerif.pfb
+│  │  │              FoxitSerifBold.pfb
+│  │  │              FoxitSerifBoldItalic.pfb
+│  │  │              FoxitSerifItalic.pfb
+│  │  │              FoxitSymbol.pfb
+│  │  │              LiberationSans-Bold.ttf
+│  │  │              LiberationSans-BoldItalic.ttf
+│  │  │              LiberationSans-Italic.ttf
+│  │  │              LiberationSans-Regular.ttf
+│  │  │              LICENSE_FOXIT
+│  │  │              LICENSE_LIBERATION
+│  │  │              
 │  │  ├─2.5
 │  │  │      debugger.js
 │  │  │      debugger.min.js
@@ -624,18 +1216,14 @@ E:\GITHUB\JSDELIVR
 │  │  │  │  
 │  │  │  ├─build
 │  │  │  │      pdf.js
-│  │  │  │      pdf.js.map
 │  │  │  │      pdf.sandbox.js
-│  │  │  │      pdf.sandbox.js.map
 │  │  │  │      pdf.worker.js
-│  │  │  │      pdf.worker.js.map
 │  │  │  │      
 │  │  │  └─web
 │  │  │      │  debugger.js
 │  │  │      │  viewer.css
 │  │  │      │  viewer.html
 │  │  │      │  viewer.js
-│  │  │      │  viewer.js.map
 │  │  │      │  viewer4.js
 │  │  │      │  
 │  │  │      ├─cmaps
