@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -2073,6 +2074,9 @@ E:\GITHUB\JSDELIVR
 │  │      └─zh-CN
 │  │              viewer.properties
 │  │              
+│  ├─sd
+│  │      unibodymachine.js
+│  │      
 │  └─tampermonkey
 │          netdiskLinkChecker.js
 │          
