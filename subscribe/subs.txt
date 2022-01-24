@@ -1,7 +1,7 @@
 #github分享
 https://cdn.jsdelivr.net/gh/Irving022/v2ray@main/URL
 https://cdn.staticaly.com/gh/JACKUSR2089/v2ray-subscribed/master/2022.1-7
-https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2/master/0111.txt
+https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2/master/0124.txt
 https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.txt
 https://cdn.jsdelivr.net/gh/adiwzx/freenode@main/adispeed.yml
 https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes@master/proxy.md
@@ -9,6 +9,10 @@ https://cdn.jsdelivr.net/gh/deepinor/v2ray_luck@master/sub.txt
 https://cdn.jsdelivr.net/gh/ssrsub/ssr@master/Clash.yml
 https://raw.fastgit.org/freefq/free/master/ssr
 https://raw.fastgit.org/freefq/free/master/v2
+https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
 #分享订阅
 https://v1.mk/ZpE8RQI
 https://suo.yt/gj9NYV9
@@ -19,6 +23,6 @@ https://cdn.staticaly.com/gh/juzi5914/v2ray/main/juziyyds1
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
 https://gitee.com/chenx58/clash/raw/V2R/V2R
-https://gitee.com/chenx58/clash/raw/V2R/1.12
+https://gitee.com/chenx58/clash/raw/V2R/1.23
 https://proxy.shmily.ga/clash/20211018
 https://hi.moon365.workers.dev/free
