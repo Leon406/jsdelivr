@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    http://go.newday.me/s/link-home
-// @version      0.2.4
+// @version      0.2.5
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
 // @author       哩呵, modified by Leon406
-// @description  自动识别并标记百度云、蓝奏云、腾讯微云、天翼云盘和阿里云的链接状态
+// @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
 // @match        *://**/*
 // @connect      lanzou.com
 // @connect      lanzous.com
@@ -948,7 +948,7 @@
             sources: {
                 BAIDU: "baidu",
                 WEIYUN: "weiyun",
-                LANZOUS: "lanzous",
+                LANZOUS: "lanzoux",
                 ALIYUN: "aliyun",
                 TY189: "ty189"
             },
@@ -1039,7 +1039,6 @@
 
     container.define("api", ["http", "manifest", "oneData", "constant", "svgCrypt"], function (http, manifest, oneData, constant, svgCrypt) {
         var obj = {};
-
         obj.versionQuery = function (callback) {
             oneData.requestOneApi(manifest.getApi("version"), {}, callback);
         };
@@ -1119,7 +1118,7 @@
         obj.checkLinkLanzous = function (shareId, callback) {
             var url;
             if (shareId.indexOf("http") < 0) {
-                url = "https://www.lanzous.com/" + shareId;
+                url = "https://www.lanzoux.com/" + shareId;
             }
             else {
                 url = shareId;
@@ -1162,7 +1161,7 @@
 					if(response['code']){
 						state = -1;
 					}
-                  
+
                     callback && callback({
                         state: state
                     });
@@ -1207,24 +1206,18 @@
         };
 
         obj.checkLinkTy189 = function (shareId, callback) {
-            var url;
-            if (shareId.indexOf("http") < 0) {
-                url = "https://cloud.189.cn/t/" + shareId;
-            }
-            else {
-                url = shareId;
-            }
-            http.ajax({
-                type: "get",
-                url: url,
+
+			http.ajax({
+                type: "post",
+                url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
+                data: {shareCode:shareId},
                 success: function (response) {
-                    var state = 1;
-                    if (response.indexOf("页面地址有误") > 0 || response.indexOf("页面不存在") > 0 || response.indexOf("此外链不存在") > 0) {
+					console.log("checkLinkTy189---",shareId ,response);
+					var state = 1;
+                    if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
                         state = -1;
                     }
-                    else if (response.indexOf("私密分享") > 0) {
-                        state = 2;
-                    }
+
                     callback && callback({
                         state: state
                     });
@@ -1418,7 +1411,7 @@
             index: 0,
             prefixs: {
                 BAIDU: "https://pan.baidu.com/s/1",
-                LANZOUS: "https://www.lanzous.com/",
+                LANZOUS: "https://www.lanzoux.com/",
                 WEIYUN: "https://share.weiyun.com/",
                 ALIYUN: "https://www.aliyundrive.com/",
                 TY189: "https://cloud.189.cn/t/"
@@ -1487,7 +1480,7 @@
             });
 
             // 蓝奏云补SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?www\.lanzous\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.LANZOUS, function (match) {
+            obj.replaceTextAsLink(/(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.LANZOUS, function (match) {
                 return match[1];
             });
 			// 阿里云云SPAN
