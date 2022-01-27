@@ -2078,7 +2078,7 @@ E:\GITREPO\JSDELIVR
 ©¦  ©¦      unibodymachine.js
 ©¦  ©¦      
 ©¦  ©¸©¤tampermonkey
-©¦          netdiskLinkChecker.js
+©¦          netdiskLinkChecker.user.js
 ©¦          
 ©À©¤software
 ©¦      Android App.md
