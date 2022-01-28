@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘链接检查
-// @namespace    http://go.newday.me/s/link-home
-// @version      0.2.6
+// @namespace    https://github.com/Leon406
+// @version      0.2.6.1
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
 // @author       哩呵, modified by Leon406
 // @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
@@ -28,6 +28,7 @@
 // @grant        GM_openInTab
 // @grant        GM_notification
 // @grant        GM_xmlhttpRequest
+// @license      GPL-3.0 License
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @noframes
 // ==/UserScript==
@@ -1045,20 +1046,11 @@
         };
 
         obj.checkLinkBatch = function (linkList, callback) {
-            var data = Object.assign(svgCrypt.getReqData(), {
-                link_json: JSON.stringify(linkList)
-            });
-            oneData.requestOneApi(manifest.getApi("valid"), data, callback);
+			//nop
         };
 
         obj.reportLink = function (shareSource, shareId, checkState, callback) {
-            var data = {
-                share_source: shareSource,
-                share_id: shareId,
-                share_point: svgCrypt.getStrPoint(shareId),
-                check_state: checkState
-            };
-            oneData.requestOneApi(manifest.getApi("report"), data, callback);
+           //nop
         };
 
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
