@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         网盘链接可用性检测
-// @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.2.6.1
+// @name         网盘链接检查
+// @namespace    http://go.newday.me/s/link-home
+// @version      0.2.6
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
-// @author       Leon406 (modify from 哩呵)
+// @author       哩呵, modified by Leon406
 // @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
 // @match        *://**/*
 // @connect      lanzou.com
@@ -28,7 +28,6 @@
 // @grant        GM_openInTab
 // @grant        GM_notification
 // @grant        GM_xmlhttpRequest
-// @license      GPL-3.0 License
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @noframes
 // ==/UserScript==
@@ -40,6 +39,8 @@
         "urls": {},
         "apis": {
             "version": "https://api.newday.me/share/link/version",
+            "valid": "https://api.newday.me/share/link/valid",
+            "report": "https://api.newday.me/share/link/report"
         },
         "logger_level": 3,
         "options_page": "http://go.newday.me/s/link-option"
@@ -1044,7 +1045,20 @@
         };
 
         obj.checkLinkBatch = function (linkList, callback) {
-			//nop
+            var data = Object.assign(svgCrypt.getReqData(), {
+                link_json: JSON.stringify(linkList)
+            });
+            oneData.requestOneApi(manifest.getApi("valid"), data, callback);
+        };
+
+        obj.reportLink = function (shareSource, shareId, checkState, callback) {
+            var data = {
+                share_source: shareSource,
+                share_id: shareId,
+                share_point: svgCrypt.getStrPoint(shareId),
+                check_state: checkState
+            };
+            oneData.requestOneApi(manifest.getApi("report"), data, callback);
         };
 
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
@@ -1133,8 +1147,7 @@
             });
         };
 		obj.checkLinkAliYun = function (shareId, callback) {
-			console.log("checkLinkAliYun id", shareId)
-			console.log("checkLinkAliYun id", JSON.stringify({share_id:shareId}))
+		   console.log("checkLinkAliYun id", shareId)
            http.ajax({
                 type: "post",
                 url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
@@ -1287,7 +1300,8 @@
             else {
                 api.checkLinkLocal(shareSource, shareId, function (item) {
                     if (item instanceof Object && item.state != 0) {
-                        obj.setItem(shareSource, shareId, item.state);  
+                        obj.setItem(shareSource, shareId, item.state);
+                        api.reportLink(shareSource, shareId, item.state);
                     }
                     callback && callback(item);
                 });
