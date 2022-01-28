@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         网盘链接检查
-// @namespace    http://go.newday.me/s/link-home
+// @namespace    https://github.com/Leon406/netdiskChecker
 // @version      0.2.6
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
-// @author       哩呵, modified by Leon406
+// @author       Leon406，哩呵
 // @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
 // @match        *://**/*
 // @connect      lanzou.com
@@ -40,7 +40,6 @@
         "apis": {
             "version": "https://api.newday.me/share/link/version",
             "valid": "https://api.newday.me/share/link/valid",
-            "report": "https://api.newday.me/share/link/report"
         },
         "logger_level": 3,
         "options_page": "http://go.newday.me/s/link-option"
@@ -1051,16 +1050,6 @@
             oneData.requestOneApi(manifest.getApi("valid"), data, callback);
         };
 
-        obj.reportLink = function (shareSource, shareId, checkState, callback) {
-            var data = {
-                share_source: shareSource,
-                share_id: shareId,
-                share_point: svgCrypt.getStrPoint(shareId),
-                check_state: checkState
-            };
-            oneData.requestOneApi(manifest.getApi("report"), data, callback);
-        };
-
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
             console.log("checkLinkLocal", shareSource,shareId);
             if (shareSource == constant.sources.BAIDU) {
@@ -1301,7 +1290,6 @@
                 api.checkLinkLocal(shareSource, shareId, function (item) {
                     if (item instanceof Object && item.state != 0) {
                         obj.setItem(shareSource, shareId, item.state);
-                        api.reportLink(shareSource, shareId, item.state);
                     }
                     callback && callback(item);
                 });
