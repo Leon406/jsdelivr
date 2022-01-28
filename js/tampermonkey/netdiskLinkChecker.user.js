@@ -28,6 +28,7 @@
 // @grant        GM_openInTab
 // @grant        GM_notification
 // @grant        GM_xmlhttpRequest
+// @license      GPL-3.0 License
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @noframes
 // ==/UserScript==
