@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.2.6
+// @version      0.2.7
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
 // @author       Leon406，哩呵
 // @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
@@ -38,10 +38,6 @@
     var manifest = {
         "name": "ljjc",
         "urls": {},
-        "apis": {
-            "version": "https://api.newday.me/share/link/version",
-            "valid": "https://api.newday.me/share/link/valid",
-        },
         "logger_level": 3,
         "options_page": "http://go.newday.me/s/link-option"
     };
@@ -424,12 +420,7 @@
             return urls[name];
         };
 
-        obj.getApi = function (name) {
-            var apis = obj.getItem("apis");
-            (apis instanceof Object) || (apis = {});
-            return apis[name];
-        };
-
+      
         obj.getOptionsPage = function () {
             if (GM_info.script.optionUrl) {
                 return GM_info.script.optionUrl;
@@ -1040,17 +1031,7 @@
 
     container.define("api", ["http", "manifest", "oneData", "constant", "svgCrypt"], function (http, manifest, oneData, constant, svgCrypt) {
         var obj = {};
-        obj.versionQuery = function (callback) {
-            oneData.requestOneApi(manifest.getApi("version"), {}, callback);
-        };
-
-        obj.checkLinkBatch = function (linkList, callback) {
-            var data = Object.assign(svgCrypt.getReqData(), {
-                link_json: JSON.stringify(linkList)
-            });
-            oneData.requestOneApi(manifest.getApi("valid"), data, callback);
-        };
-
+    
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
             console.log("checkLinkLocal", shareSource,shareId);
             if (shareSource == constant.sources.BAIDU) {
@@ -1302,23 +1283,7 @@
             items.forEach(function (item) {
                 linkList.push(obj.buildShareKey(item.share_source, item.share_id));
             });
-            api.checkLinkBatch(linkList, function (response) {
-                if (response instanceof Object && response.code == 1) {
-                    for (var i in response.data) {
-                        try {
-                            var item = response.data[i];
-                            var localItem = obj.getItem(item.share_source, item.share_id);
-                            if (item.check_state != 0 && (!localItem || item.check_time > localItem.check_time)) {
-                                obj.setItem(item.share_source, item.share_id, item.check_state);
-                            }
-                        }
-                        catch (err) {
-                            logger.error(err);
-                        }
-                    }
-                }
-                callback && callback();
-            });
+           callback && callback();
         };
 
         obj.getItem = function (shareSource, shareId) {
@@ -1349,33 +1314,8 @@
         return obj;
     });
 
-    container.define("runtime", ["calendar", "storage", "api"], function (calendar, storage, api) {
-        var obj = {};
-
-        obj.initVersion = function () {
-            var versionDate = parseInt(storage.getValue("version_date"));
-            var currentDate = calendar.formatTime("Ymd");
-            if (!versionDate || versionDate < currentDate) {
-                api.versionQuery(function (response) {
-                    storage.setValue("version_date", currentDate);
-
-                    if (response && response.code == 1 && response.data instanceof Object) {
-                        var versionPayload = response.data;
-                        storage.setValue("version_payload", versionPayload);
-                        storage.setValue("version_latest", versionPayload.version);
-                    }
-                });
-            }
-        };
-
-        obj.initRuntime = function () {
-            obj.initVersion();
-        };
-
-        return obj;
-    });
-
-    container.define("core", ["resource", "runtime", "$"], function (resource, runtime, $) {
+   
+    container.define("core", ["resource",  "$"], function (resource,  $) {
         var obj = {};
 
         obj.appendStyle = function () {
@@ -1384,8 +1324,7 @@
         };
 
         obj.ready = function (callback) {
-            runtime.initRuntime();
-
+       
             obj.appendStyle();
 
             callback && callback();
