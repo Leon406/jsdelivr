@@ -1,21 +1,17 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.2.7
+// @version      0.2.9
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
 // @author       Leon406，哩呵
 // @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
 // @match        *://**/*
-// @connect      lanzou.com
-// @connect      lanzous.com
 // @connect      lanzoux.com
 // @connect      lanzoui.com
 // @connect      pan.baidu.com
 // @connect      share.weiyun.com
 // @connect      aliyundrive.com
 // @connect      cloud.189.cn
-// @connect      newday.me
-// @connect      likestyle.cn
 // @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
 // @require      https://cdn.staticfile.org/snap.svg/0.5.1/snap.svg-min.js
 // @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -564,7 +560,7 @@
         return obj;
     });
 
-    container.define("http", [], function () {
+    container.define("http", ["logger"], function (logger) {
         var obj = {};
 
         obj.ajax = function (option) {
@@ -607,7 +603,7 @@
                 details.timeout = option.timeout;
             }
 
-            console.log("ajax data", details)
+            logger.debug("xmlhttpRequest: "+ details)
             GM_xmlhttpRequest(details);
         };
 
@@ -1029,11 +1025,11 @@
         return obj;
     });
 
-    container.define("api", ["http", "manifest", "oneData", "constant", "svgCrypt"], function (http, manifest, oneData, constant, svgCrypt) {
+    container.define("api", ["logger","http", "manifest", "oneData", "constant", "svgCrypt"], function (logger, http, manifest, oneData, constant, svgCrypt) {
         var obj = {};
     
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
-            console.log("checkLinkLocal", shareSource,shareId);
+            logger.info("checkLinkLocal " + shareSource + " " +shareId);
             if (shareSource == constant.sources.BAIDU) {
                 obj.checkLinkBaidu(shareId, callback);
             }
@@ -1118,7 +1114,7 @@
             });
         };
 		obj.checkLinkAliYun = function (shareId, callback) {
-		   console.log("checkLinkAliYun id", shareId)
+		   logger.info("checkLinkAliYun id "  +shareId);
            http.ajax({
                 type: "post",
                 url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
@@ -1126,7 +1122,7 @@
 				headers: {"Content-Type" : "application/json"},
 				dataType:"json",
                 success: function (response) {
-					console.log("aliyun", response);
+				    logger.debug("aliyun response " + response);
                     var state = 1;
 					// 密码  state = 2  错误 state = -1
 					if(response['code']){
@@ -1183,7 +1179,7 @@
                 url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
                 data: {shareCode:shareId},
                 success: function (response) {
-					console.log("checkLinkTy189---",shareId ,response);
+					logger.debug("checkLinkTy189 " + shareId + " " +response);
 					var state = 1;
                     if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
                         state = -1;
@@ -1446,7 +1442,6 @@
                         oneId = href;
                         oneSource = constant.sources.WEIYUN;
                     } else if ((match = /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
-                        console.log("aliyundrive",href);
                         oneId = href;
                         oneSource = constant.sources.ALIYUN;
                     } else if ((match = /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
