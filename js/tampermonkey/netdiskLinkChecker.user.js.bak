@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    http://go.newday.me/s/link-home
-// @version      0.2.6
+// @version      0.2.5
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
 // @author       哩呵, modified by Leon406
 // @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
@@ -1062,7 +1062,6 @@
         };
 
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
-            console.log("checkLinkLocal", shareSource,shareId);
             if (shareSource == constant.sources.BAIDU) {
                 obj.checkLinkBaidu(shareId, callback);
             }
@@ -1148,6 +1147,7 @@
         };
 		obj.checkLinkAliYun = function (shareId, callback) {
 			console.log("checkLinkAliYun id", shareId)
+			shareId = /\/s\/(\w+)/.exec(shareId)[1]
 			console.log("checkLinkAliYun id", JSON.stringify({share_id:shareId}))
            http.ajax({
                 type: "post",
@@ -1414,7 +1414,7 @@
                 BAIDU: "https://pan.baidu.com/s/1",
                 LANZOUS: "https://www.lanzoux.com/",
                 WEIYUN: "https://share.weiyun.com/",
-                ALIYUN: "https://www.aliyundrive.com/s/",
+                ALIYUN: "https://www.aliyundrive.com/",
                 TY189: "https://cloud.189.cn/t/"
             }
         };
@@ -1485,7 +1485,7 @@
                 return match[1];
             });
 			// 阿里云云SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.ALIYUN, function (match) {
+            obj.replaceTextAsLink(/(?:https?:\/\/)?www\.aliyundrive\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.ALIYUN, function (match) {
                 return match[1];
             });
 
@@ -1519,7 +1519,6 @@
                         oneId = href;
                         oneSource = constant.sources.WEIYUN;
                     } else if ((match = /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
-                        console.log("aliyundrive",href);
                         oneId = href;
                         oneSource = constant.sources.ALIYUN;
                     } else if ((match = /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
@@ -1675,8 +1674,6 @@
                 shareUrl = obj.prefixs.WEIYUN + shareId;
             } else if (shareSource == constant.sources.TY189) {
                 shareUrl = obj.prefixs.TY189 + shareId;
-            }else if (shareSource == constant.sources.ALIYUN) {
-                shareUrl = obj.prefixs.ALIYUN + shareId;
             }
             return shareUrl;
         };
