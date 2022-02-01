@@ -1,4 +1,4 @@
-2022年1月28日 12:32:44
+2022年2月1日 14:21:31
 
 ## 下载
 
@@ -140,7 +140,7 @@
 
 | 软件                                                         |  版本  | 说明                 |
 | :----------------------------------------------------------- | :----: | -------------------- |
-| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.17.0 | 音乐助手             |
+| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github | 1.17.1 | 音乐助手             |
 | [五音助手](https://www.lanzoui.com/b00o23ssb#6ps8) 6ps8      | 1.14.1 | 音乐助手             |
 | Short URL                                                    | 2.8.3  | 短网址工具           |
 | FolderPainter                                                |  1.2   | 文件夹图标修改       |
