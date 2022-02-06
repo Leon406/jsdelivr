@@ -23,6 +23,7 @@ https://cdn.staticaly.com/gh/juzi5914/v2ray/main/juziyyds1
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
 https://gitee.com/chenx58/clash/raw/V2R/V2R
-https://gitee.com/chenx58/clash/raw/V2R/1.23
+https://gitee.com/chenx58/clash/raw/V2R/02.05
 https://proxy.shmily.ga/clash/20211018
 https://hi.moon365.workers.dev/free
+https://www.abrnya.com/ssr/clash.yaml
