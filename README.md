@@ -7,11 +7,11 @@
 ```
 https://github.com/Leon406/jsdelivr/blob/master/apk/adbwireless.apk
 
-https://raw.githubusercontent.com/ 或者https://github.com/ 替换成 https://cdn.jsdelivr.net/gh/
+https://raw.githubusercontent.com/ 或者https://github.com/ 替换成 https://fastly.jsdelivr.net/gh/
 
 /blob 和/master 替换成 空
 
-https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/apk/adbwireless.apk
+https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/apk/adbwireless.apk
 ```
 
 
@@ -24,10 +24,10 @@ https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/apk/adbwireless.apk
 
 | github目录 | jsdelivr前缀                                                 |
 | ---------- | ------------------------------------------------------------ |
-| apk        | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/apk/            |
-| gradle     | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/gradle/         |
-| adp        | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr/adp/            |
-| subscribe  | https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ |
+| apk        | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/apk/         |
+| gradle     | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/gradle/      |
+| adp        | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/adp/         |
+| subscribe  | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ |
 |            |                                                              |
 
 
