@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.2.9
+// @version      0.3.0
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
 // @author       Leon406，哩呵
-// @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘和天翼云盘的链接状态
+// @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘、123网盘和天翼云盘的链接状态
 // @match        *://**/*
 // @connect      lanzoux.com
 // @connect      lanzoui.com
@@ -12,6 +12,7 @@
 // @connect      share.weiyun.com
 // @connect      aliyundrive.com
 // @connect      cloud.189.cn
+// @connect      www.123pan.com
 // @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
 // @require      https://cdn.staticfile.org/snap.svg/0.5.1/snap.svg-min.js
 // @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -34,7 +35,7 @@
     var manifest = {
         "name": "ljjc",
         "urls": {},
-        "logger_level": 3,
+        "logger_level": 0,
         "options_page": "http://go.newday.me/s/link-option"
     };
 
@@ -936,8 +937,9 @@
             sources: {
                 BAIDU: "baidu",
                 WEIYUN: "weiyun",
-                LANZOUS: "lanzoux",
+                LANZOU: "lanzoux",
                 ALIYUN: "aliyun",
+                PAN123: "123pan",
                 TY189: "ty189"
             },
             options: {
@@ -962,18 +964,26 @@
                     value: "yes"
                 },
                  ALIYUN_TRANS: {
-                    name: "weiyun_trans",
+                    name: "aliyun_trans",
                     value: "yes"
                 },
                 ALIYUN_CHECK: {
-                    name: "weiyun_check",
+                    name: "aliyun_check",
                     value: "yes"
                 },
-                LANZOUS_TRANS: {
+                 PAN123_TRANS: {
+                    name: "123pan_trans",
+                    value: "yes"
+                },
+                PAN123_CHECK: {
+                    name: "123pan_check",
+                    value: "yes"
+                },
+                LANZOU_TRANS: {
                     name: "lanzous_trans",
                     value: "yes"
                 },
-                LANZOUS_CHECK: {
+                LANZOU_CHECK: {
                     name: "lanzous_check",
                     value: "yes"
                 },
@@ -1033,8 +1043,8 @@
             if (shareSource == constant.sources.BAIDU) {
                 obj.checkLinkBaidu(shareId, callback);
             }
-            else if (shareSource == constant.sources.LANZOUS) {
-                obj.checkLinkLanzous(shareId, callback);
+            else if (shareSource == constant.sources.LANZOU) {
+                obj.checkLinkLanzou(shareId, callback);
             }
             else if (shareSource == constant.sources.WEIYUN) {
                 obj.checkLinkWeiyun(shareId, callback);
@@ -1042,6 +1052,9 @@
                 obj.checkLinkTy189(shareId, callback);
             }else if (shareSource == constant.sources.ALIYUN) {
                 obj.checkLinkAliYun(shareId, callback);
+            }
+            else if (shareSource == constant.sources.PAN123) {
+                obj.checkPan123(shareId, callback);
             }
             else {
                 callback({
@@ -1084,7 +1097,7 @@
             });
         };
 
-        obj.checkLinkLanzous = function (shareId, callback) {
+        obj.checkLinkLanzou = function (shareId, callback) {
             var url;
             if (shareId.indexOf("http") < 0) {
                 url = "https://www.lanzoux.com/" + shareId;
@@ -1127,6 +1140,34 @@
 					// 密码  state = 2  错误 state = -1
 					if(response['code']){
 						state = -1;
+					}
+
+                    callback && callback({
+                        state: state
+                    });
+                },
+                error: function () {
+                    callback && callback({
+                        state: 0
+                    });
+                }
+            });
+        };
+
+        obj.checkPan123 = function (shareId, callback) {
+		   logger.info("checkPan123 id "  +shareId);
+           http.ajax({
+			    type: "get",
+                url: "https://www.123pan.com/api/share/info?shareKey="+shareId,
+                success: function (response) {
+				    logger.debug("checkPan123 response " + response);
+					var rsp = JSON.parse(response);
+                    var state = 1;
+					// 密码  state = 2  错误 state = -1
+					if(response.indexOf("分享页面不存在")> 0||rsp.code !=0){
+						state = -1;
+					}else if(rsp.data.HasPwd){
+						state = 2;
 					}
 
                     callback && callback({
@@ -1335,9 +1376,10 @@
             index: 0,
             prefixs: {
                 BAIDU: "https://pan.baidu.com/s/1",
-                LANZOUS: "https://www.lanzoux.com/",
+                LANZOU: "https://www.lanzoux.com/",
                 WEIYUN: "https://share.weiyun.com/",
                 ALIYUN: "https://www.aliyundrive.com/s/",
+                PAN123: "https://www.123pan.com/s/",
                 TY189: "https://cloud.189.cn/t/"
             }
         };
@@ -1404,11 +1446,16 @@
             });
 
             // 蓝奏云补SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.LANZOUS, function (match) {
+            obj.replaceTextAsLink(/(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.LANZOU, function (match) {
                 return match[1];
             });
 			// 阿里云云SPAN
             obj.replaceTextAsLink(/(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.ALIYUN, function (match) {
+                return match[1];
+            });
+
+            // 123pan SPAN
+            obj.replaceTextAsLink(/(?:https?:\/\/)?www\.123pan\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.PAN123, function (match) {
                 return match[1];
             });
 
@@ -1436,7 +1483,7 @@
                         oneSource = constant.sources.BAIDU;
                     } else if ((match = /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
                         oneId = href;
-                        oneSource = constant.sources.LANZOUS;
+                        oneSource = constant.sources.LANZOU;
                     }
                     else if ((match = /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
                         oneId = href;
@@ -1448,6 +1495,10 @@
                         oneId = href;
                         oneSource = constant.sources.TY189;
                     }
+				    else if ((match = /(?:https?:\/\/)?www\.pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
+						oneId = href;
+						oneSource = constant.sources.PAN123;
+					}
                 }
 
                 if (match && $this.find(".one-pan-tip").length == 0) {
@@ -1520,7 +1571,7 @@
             if (shareSource == constant.sources.BAIDU && option.isOptionActive(option.constants.BAIDU_TRANS)) {
                 return true;
             }
-            else if (shareSource == constant.sources.LANZOUS && option.isOptionActive(option.constants.LANZOUS_TRANS)) {
+            else if (shareSource == constant.sources.LANZOU && option.isOptionActive(option.constants.LANZOU_TRANS)) {
                 return true;
             }
             else if (shareSource == constant.sources.WEIYUN && option.isOptionActive(option.constants.WEIYUN_TRANS)) {
@@ -1532,6 +1583,9 @@
             else if (shareSource == constant.sources.TY189 && option.isOptionActive(option.constants.TY189_TRANS)) {
                 return true;
             }
+            else if (shareSource == constant.sources.PAN123 && option.isOptionActive(option.constants.PAN123_TRANS)) {
+                return true;
+            }
             else {
                 return false;
             }
@@ -1541,7 +1595,7 @@
             if (shareSource == constant.sources.BAIDU && option.isOptionActive(option.constants.BAIDU_CHECK)) {
                 return true;
             }
-            else if (shareSource == constant.sources.LANZOUS && option.isOptionActive(option.constants.LANZOUS_CHECK)) {
+            else if (shareSource == constant.sources.LANZOU && option.isOptionActive(option.constants.LANZOU_CHECK)) {
                 return true;
             }
             else if (shareSource == constant.sources.WEIYUN && option.isOptionActive(option.constants.WEIYUN_CHECK)) {
@@ -1551,6 +1605,9 @@
                 return true;
             }
             else if (shareSource == constant.sources.TY189 && option.isOptionActive(option.constants.TY189_CHECK)) {
+                return true;
+            }
+            else if (shareSource == constant.sources.PAN123 && option.isOptionActive(option.constants.PAN123_CHECK)) {
                 return true;
             }
             else {
@@ -1590,13 +1647,15 @@
             if (shareSource == constant.sources.BAIDU) {
                 shareUrl = obj.prefixs.BAIDU + shareId;
             }
-            else if (shareSource == constant.sources.LANZOUS) {
-                shareUrl = obj.prefixs.LANZOUS + shareId;
+            else if (shareSource == constant.sources.LANZOU) {
+                shareUrl = obj.prefixs.LANZOU + shareId;
             }
             else if (shareSource == constant.sources.WEIYUN) {
                 shareUrl = obj.prefixs.WEIYUN + shareId;
             } else if (shareSource == constant.sources.TY189) {
                 shareUrl = obj.prefixs.TY189 + shareId;
+            } else if (shareSource == constant.sources.PAN123) {
+                shareUrl = obj.prefixs.PAN123 + shareId;
             }else if (shareSource == constant.sources.ALIYUN) {
                 shareUrl = obj.prefixs.ALIYUN + shareId;
             }
