@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.3.0
+// @version      0.3.1
 // @icon         http://cdn.newday.me/addon/link/favicon.ico
 // @author       Leon406，哩呵
 // @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘、123网盘和天翼云盘的链接状态
@@ -35,7 +35,7 @@
     var manifest = {
         "name": "ljjc",
         "urls": {},
-        "logger_level": 0,
+        "logger_level": 3,
         "options_page": "http://go.newday.me/s/link-option"
     };
 
@@ -312,79 +312,6 @@
 
         obj.getDao = function () {
             return factory.getStorageDao();
-        };
-
-        return obj;
-    });
-
-    container.define("option", ["config", "constant"], function (config, constant) {
-        var obj = {
-            name: "option",
-            constants: constant.options
-        };
-
-        obj.isOptionActive = function (item) {
-            var name = item.name;
-            var option = obj.getOption();
-            return option.indexOf(name) >= 0 ? true : false;
-        };
-
-        obj.setOptionActive = function (item) {
-            var name = item.name;
-            var option = obj.getOption();
-            if (option.indexOf(name) < 0) {
-                option.push(name);
-                obj.setOption(option);
-            }
-        };
-
-        obj.setOptionUnActive = function (item) {
-            var name = item.name;
-            var option = obj.getOption();
-            var index = option.indexOf(name);
-            if (index >= 0) {
-                delete option[index];
-                obj.setOption(option);
-            }
-        };
-
-        obj.getOption = function () {
-            var option = [];
-            var optionList = obj.getOptionList();
-            Object.values(obj.constants).forEach(function (item) {
-                var name = item.name;
-                if (optionList.hasOwnProperty(name)) {
-                    if (optionList[name] != "no") {
-                        option.push(name);
-                    }
-                }
-                else if (item.value != "no") {
-                    option.push(name);
-                }
-            });
-            return option;
-        };
-
-        obj.setOption = function (option) {
-            var optionList = {};
-            Object.values(obj.constants).forEach(function (item) {
-                var name = item.name;
-                if (option.indexOf(name) >= 0) {
-                    optionList[name] = "yes";
-                } else {
-                    optionList[name] = "no";
-                }
-            });
-            obj.setOptionList(optionList);
-        };
-
-        obj.getOptionList = function () {
-            var optionList = config.getConfig(obj.name);
-            return optionList ? optionList : {};
-        };
-
-        obj.setOptionList = function (optionList) {
-            config.setConfig(obj.name, optionList);
         };
 
         return obj;
@@ -942,64 +869,7 @@
                 PAN123: "123pan",
                 TY189: "ty189"
             },
-            options: {
-                BAIDU_COMPLETE: {
-                    name: "baidu_complete",
-                    value: "yes"
-                },
-                BAIDU_TRANS: {
-                    name: "baidu_trans",
-                    value: "yes"
-                },
-                BAIDU_CHECK: {
-                    name: "baidu_check",
-                    value: "yes"
-                },
-                WEIYUN_TRANS: {
-                    name: "weiyun_trans",
-                    value: "yes"
-                },
-                WEIYUN_CHECK: {
-                    name: "weiyun_check",
-                    value: "yes"
-                },
-                 ALIYUN_TRANS: {
-                    name: "aliyun_trans",
-                    value: "yes"
-                },
-                ALIYUN_CHECK: {
-                    name: "aliyun_check",
-                    value: "yes"
-                },
-                 PAN123_TRANS: {
-                    name: "123pan_trans",
-                    value: "yes"
-                },
-                PAN123_CHECK: {
-                    name: "123pan_check",
-                    value: "yes"
-                },
-                LANZOU_TRANS: {
-                    name: "lanzous_trans",
-                    value: "yes"
-                },
-                LANZOU_CHECK: {
-                    name: "lanzous_check",
-                    value: "yes"
-                },
-                TY189_COMPLETE: {
-                    name: "ty189_complete",
-                    value: "yes"
-                },
-                TY189_TRANS: {
-                    name: "ty189_trans",
-                    value: "yes"
-                },
-                TY189_CHECK: {
-                    name: "ty189_check",
-                    value: "yes"
-                }
-            }
+            options: {}
         };
     });
 
@@ -1042,18 +912,15 @@
             logger.info("checkLinkLocal " + shareSource + " " +shareId);
             if (shareSource == constant.sources.BAIDU) {
                 obj.checkLinkBaidu(shareId, callback);
-            }
-            else if (shareSource == constant.sources.LANZOU) {
+            }else if (shareSource == constant.sources.LANZOU) {
                 obj.checkLinkLanzou(shareId, callback);
-            }
-            else if (shareSource == constant.sources.WEIYUN) {
+            }else if (shareSource == constant.sources.WEIYUN) {
                 obj.checkLinkWeiyun(shareId, callback);
             } else if (shareSource == constant.sources.TY189) {
                 obj.checkLinkTy189(shareId, callback);
             }else if (shareSource == constant.sources.ALIYUN) {
                 obj.checkLinkAliYun(shareId, callback);
-            }
-            else if (shareSource == constant.sources.PAN123) {
+            }else if (shareSource == constant.sources.PAN123) {
                 obj.checkPan123(shareId, callback);
             }
             else {
@@ -1421,24 +1288,24 @@
 
         obj.runMatch = function () {
             // 百度网盘补全链接
-            if (option.isOptionActive(option.constants.BAIDU_COMPLETE)) {
-                findAndReplaceDOMText(document.body, {
-                    find: /([ ])(\/?s\/1[a-zA-Z0-9_\-]{5,22})/gi,
-                    replace: function (portion, match) {
-                        return " https://pan.baidu.com" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
-                    }
-                });
-            }
+     
+			findAndReplaceDOMText(document.body, {
+				find: /([ ])(\/?s\/1[a-zA-Z0-9_\-]{5,22})/gi,
+				replace: function (portion, match) {
+					return " https://pan.baidu.com" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
+				}
+			});
+		
 
             // 天翼云盘补全链接
-            if (option.isOptionActive(option.constants.TY189_COMPLETE)) {
-                findAndReplaceDOMText(document.body, {
-                    find: /([ ])(\/?t\/[a-zA-Z0-9_\-]{8,14})/gi,
-                    replace: function (portion, match) {
-                        return " https://cloud.189.cn" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
-                    }
-                });
-            }
+       
+			findAndReplaceDOMText(document.body, {
+				find: /([ ])(\/?t\/[a-zA-Z0-9_\-]{8,14})/gi,
+				replace: function (portion, match) {
+					return " https://cloud.189.cn" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
+				}
+			});
+            
 
             // 百度网盘补SPAN
             obj.replaceTextAsLink(/(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi, constant.sources.BAIDU, function (match) {
@@ -1519,27 +1386,27 @@
                 var parentNode = this.parentNode;
                 if (parentNode.nodeName != "A") {
                     // 转超链接
-                    if (obj.isTransEnable(shareSource)) {
-                        $this.wrap('<a href="' + this.textContent + '" target="_blank"></a>');
-                    }
+                  
+                    $this.wrap('<a href="' + this.textContent + '" target="_blank"></a>');
+                    
                 }
 
-                if (obj.isCheckEnable(shareSource)) {
-                    checkManage.checkLinkAsync(shareSource, shareId, 0, function (response) {
-                        if (response.state == 2) {
-                            $this.addClass("one-pan-tip-lock");
-                        }
-                        else if (response.state == 1) {
-                            $this.addClass("one-pan-tip-success");
-                        }
-                        else if (response.state == -1) {
-                            $this.addClass("one-pan-tip-error");
-                        }
-                        else {
-                            $this.addClass("one-pan-tip-other");
-                        }
+                
+				checkManage.checkLinkAsync(shareSource, shareId, 0, function (response) {
+					if (response.state == 2) {
+						$this.addClass("one-pan-tip-lock");
+					}
+					else if (response.state == 1) {
+						$this.addClass("one-pan-tip-success");
+					}
+					else if (response.state == -1) {
+						$this.addClass("one-pan-tip-error");
+					}
+					else {
+						$this.addClass("one-pan-tip-other");
+					}
                     });
-                }
+                
             });
 
             var checkTimes = obj.getCheckTimes();
@@ -1567,54 +1434,7 @@
             });
         };
 
-        obj.isTransEnable = function (shareSource) {
-            if (shareSource == constant.sources.BAIDU && option.isOptionActive(option.constants.BAIDU_TRANS)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.LANZOU && option.isOptionActive(option.constants.LANZOU_TRANS)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.WEIYUN && option.isOptionActive(option.constants.WEIYUN_TRANS)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.ALIYUN && option.isOptionActive(option.constants.ALIYUN_TRANS)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.TY189 && option.isOptionActive(option.constants.TY189_TRANS)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.PAN123 && option.isOptionActive(option.constants.PAN123_TRANS)) {
-                return true;
-            }
-            else {
-                return false;
-            }
-        };
-
-        obj.isCheckEnable = function (shareSource) {
-            if (shareSource == constant.sources.BAIDU && option.isOptionActive(option.constants.BAIDU_CHECK)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.LANZOU && option.isOptionActive(option.constants.LANZOU_CHECK)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.WEIYUN && option.isOptionActive(option.constants.WEIYUN_CHECK)) {
-                return true;
-            }
-             else if (shareSource == constant.sources.ALIYUN && option.isOptionActive(option.constants.ALIYUN_CHECK)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.TY189 && option.isOptionActive(option.constants.TY189_CHECK)) {
-                return true;
-            }
-            else if (shareSource == constant.sources.PAN123 && option.isOptionActive(option.constants.PAN123_CHECK)) {
-                return true;
-            }
-            else {
-                return false;
-            }
-        };
-
+ 
         obj.getCheckTimes = function () {
             var checkTimes = parseInt(config.getConfig("check_times"));
             if (isNaN(checkTimes)) {
@@ -1644,17 +1464,15 @@
 
         obj.buildShareUrl = function (shareId, shareSource) {
             var shareUrl = shareId;
-            if (shareSource == constant.sources.BAIDU) {
+            if(shareSource == constant.sources.BAIDU) {
                 shareUrl = obj.prefixs.BAIDU + shareId;
-            }
-            else if (shareSource == constant.sources.LANZOU) {
+            }else if (shareSource == constant.sources.LANZOU) {
                 shareUrl = obj.prefixs.LANZOU + shareId;
-            }
-            else if (shareSource == constant.sources.WEIYUN) {
+            }else if (shareSource == constant.sources.WEIYUN) {
                 shareUrl = obj.prefixs.WEIYUN + shareId;
-            } else if (shareSource == constant.sources.TY189) {
+            }else if (shareSource == constant.sources.TY189) {
                 shareUrl = obj.prefixs.TY189 + shareId;
-            } else if (shareSource == constant.sources.PAN123) {
+            }else if (shareSource == constant.sources.PAN123) {
                 shareUrl = obj.prefixs.PAN123 + shareId;
             }else if (shareSource == constant.sources.ALIYUN) {
                 shareUrl = obj.prefixs.ALIYUN + shareId;
