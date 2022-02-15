@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.3.1
-// @icon         http://cdn.newday.me/addon/link/favicon.ico
-// @author       Leon406，哩呵
-// @description  自动识别并标记百度云、蓝奏云、腾讯微云、阿里云盘、123网盘和天翼云盘的链接状态
+// @version      0.3.2
+// @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
+// @author       Leon406
+// @description  自动识别并检查网盘的链接状态,同时生成超链接
+// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘
+// @note         22-02-15 0.3.2 支持123网盘,精简代码
+// @note         22-01-27 0.2.9 支持阿里云盘,精简代码
 // @match        *://**/*
-// @connect      lanzoux.com
-// @connect      lanzoui.com
+// @connect      lanzouw.com
 // @connect      pan.baidu.com
 // @connect      share.weiyun.com
 // @connect      aliyundrive.com
@@ -118,8 +120,7 @@
         obj.ready = function (callback) {
             if (typeof GM_getValue != "undefined") {
                 callback && callback();
-            }
-            else {
+            } else {
                 setTimeout(function () {
                     obj.ready(callback);
                 }, 100);
@@ -269,7 +270,8 @@
                 return scope;
             };
 
-            return obj.init(), obj;
+            return obj.init(),
+            obj;
         };
     });
 
@@ -344,12 +346,10 @@
             return urls[name];
         };
 
-      
         obj.getOptionsPage = function () {
             if (GM_info.script.optionUrl) {
                 return GM_info.script.optionUrl;
-            }
-            else {
+            } else {
                 return obj.getItem("options_page");
             }
         };
@@ -389,8 +389,7 @@
         obj.getMode = function () {
             if (GM_info.mode) {
                 return GM_info.mode;
-            }
-            else {
+            } else {
                 return obj.modes.SCRIPT;
             }
         };
@@ -398,8 +397,7 @@
         obj.getAid = function () {
             if (GM_info.scriptHandler) {
                 return GM_info.scriptHandler.toLowerCase();
-            }
-            else {
+            } else {
                 return "unknown";
             }
         };
@@ -508,18 +506,17 @@
             if (option.data instanceof Object) {
                 if (option.data instanceof FormData) {
                     details.data = option.data;
-                }
-                else {
+                } else {
                     var formData = new FormData();
                     for (var i in option.data) {
                         formData.append(i, option.data[i]);
                     }
                     details.data = formData;
                 }
-            }else {
-				 details.data = option.data;
-				 details.dataType = "json";
-			}
+            } else {
+                details.data = option.data;
+                details.dataType = "json";
+            }
 
             // 自定义头
             if (option.headers) {
@@ -531,7 +528,7 @@
                 details.timeout = option.timeout;
             }
 
-            logger.debug("xmlhttpRequest: "+ details)
+            logger.debug("xmlhttpRequest: " + details)
             GM_xmlhttpRequest(details);
         };
 
@@ -559,22 +556,22 @@
 
         obj.jumpLink = function (jumpUrl, jumpMode) {
             switch (jumpMode) {
-                case 9:
-                    // self
-                    obj.goUrl(jumpUrl);
-                    break;
-                case 6:
-                    // new
-                    obj.openUrl(jumpUrl);
-                    break;
-                case 3:
-                    // new & not active
-                    obj.openTab(jumpUrl, false);
-                    break;
-                case 1:
-                    // new & active
-                    obj.openTab(jumpUrl, true);
-                    break;
+            case 9:
+                // self
+                obj.goUrl(jumpUrl);
+                break;
+            case 6:
+                // new
+                obj.openUrl(jumpUrl);
+                break;
+            case 3:
+                // new & not active
+                obj.openTab(jumpUrl, false);
+                break;
+            case 1:
+                // new & active
+                obj.openTab(jumpUrl, true);
+                break;
             }
         };
 
@@ -582,8 +579,7 @@
             var param = obj.parseUrlParam(obj.getUrl());
             if (name) {
                 return param.hasOwnProperty(name) ? param[name] : null;
-            }
-            else {
+            } else {
                 return param;
             }
         };
@@ -650,8 +646,7 @@
             name = obj.processName(name);
             if ($("meta[name='" + name + "']").length) {
                 return true;
-            }
-            else {
+            } else {
                 return false;
             }
         };
@@ -672,8 +667,7 @@
     container.define("unsafeWindow", [], function () {
         if (typeof unsafeWindow == "undefined") {
             return window;
-        }
-        else {
+        } else {
             return unsafeWindow;
         }
     });
@@ -696,7 +690,8 @@
             }
 
             var path = "";
-            var current, last = str[0].charCodeAt();
+            var current,
+            last = str[0].charCodeAt();
             var sum = last;
             for (var i = 1; i < str.length; i++) {
                 current = str[i].charCodeAt();
@@ -784,8 +779,7 @@
             var metaName = "status";
             if (meta.existMeta(metaName)) {
                 logger.info("setup already");
-            }
-            else {
+            } else {
                 // 添加meta
                 meta.appendMeta(metaName);
 
@@ -869,6 +863,14 @@
                 PAN123: "123pan",
                 TY189: "ty189"
             },
+            prefixs: {
+                BAIDU: "https://pan.baidu.com/s/1",
+                LANZOU: "https://www.lanzouw.com/",
+                WEIYUN: "https://share.weiyun.com/",
+                ALIYUN: "https://www.aliyundrive.com/s/",
+                PAN123: "https://www.123pan.com/s/",
+                TY189: "https://cloud.189.cn/t/"
+            },
             options: {}
         };
     });
@@ -894,36 +896,34 @@
 
         obj.getStyleText = function () {
             return ".one-pan-tip { cursor: pointer;}" +
-                ".one-pan-tip::before {background-position: center;background-size: 100% 100%;background-repeat: no-repeat;box-sizing: border-box;width: 1em;height: 1em;margin: 0 1px .15em 1px;vertical-align: middle;display: inline-block;}" +
-                ".one-pan-tip-success::before {content: '';background-image: url(" + obj.getSuccessIcon() + ")}" +
-                ".one-pan-tip-error {text-decoration: line-through;}" +
-                ".one-pan-tip-error::before {content: '';background-image: url(" + obj.getErrorIcon() + ")}" +
-                ".one-pan-tip-other::before {content: '';background-image: url(" + obj.getOtherIcon() + ")}" +
-                ".one-pan-tip-lock::before{content: '';background-image: url(" + obj.getLockIcon() + ")}";
+            ".one-pan-tip::before {background-position: center;background-size: 100% 100%;background-repeat: no-repeat;box-sizing: border-box;width: 1em;height: 1em;margin: 0 1px .15em 1px;vertical-align: middle;display: inline-block;}" +
+            ".one-pan-tip-success::before {content: '';background-image: url(" + obj.getSuccessIcon() + ")}" +
+            ".one-pan-tip-error {text-decoration: line-through;}" +
+            ".one-pan-tip-error::before {content: '';background-image: url(" + obj.getErrorIcon() + ")}" +
+            ".one-pan-tip-other::before {content: '';background-image: url(" + obj.getOtherIcon() + ")}" +
+            ".one-pan-tip-lock::before{content: '';background-image: url(" + obj.getLockIcon() + ")}";
         };
-
         return obj;
     });
 
-    container.define("api", ["logger","http", "manifest", "oneData", "constant", "svgCrypt"], function (logger, http, manifest, oneData, constant, svgCrypt) {
+    container.define("api", ["logger", "http", "manifest", "oneData", "constant", "svgCrypt"], function (logger, http, manifest, oneData, constant, svgCrypt) {
         var obj = {};
-    
+
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
-            logger.info("checkLinkLocal " + shareSource + " " +shareId);
+            logger.info("checkLinkLocal " + shareSource + " " + shareId);
             if (shareSource == constant.sources.BAIDU) {
                 obj.checkLinkBaidu(shareId, callback);
-            }else if (shareSource == constant.sources.LANZOU) {
+            } else if (shareSource == constant.sources.LANZOU) {
                 obj.checkLinkLanzou(shareId, callback);
-            }else if (shareSource == constant.sources.WEIYUN) {
+            } else if (shareSource == constant.sources.WEIYUN) {
                 obj.checkLinkWeiyun(shareId, callback);
             } else if (shareSource == constant.sources.TY189) {
                 obj.checkLinkTy189(shareId, callback);
-            }else if (shareSource == constant.sources.ALIYUN) {
+            } else if (shareSource == constant.sources.ALIYUN) {
                 obj.checkLinkAliYun(shareId, callback);
-            }else if (shareSource == constant.sources.PAN123) {
+            } else if (shareSource == constant.sources.PAN123) {
                 obj.checkPan123(shareId, callback);
-            }
-            else {
+            } else {
                 callback({
                     state: 0
                 });
@@ -934,8 +934,7 @@
             var url;
             if (shareId.indexOf("http") < 0) {
                 url = "https://pan.baidu.com/s/1" + shareId;
-            }
-            else {
+            } else {
                 url = shareId;
             }
             http.ajax({
@@ -945,11 +944,9 @@
                     var state = 1;
                     if (response.indexOf("输入提取码") > 0) {
                         state = 2;
-                    }
-                    else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0) {
+                    } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0) {
                         state = -1;
-                    }
-                    else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
+                    } else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
                         state = -1;
                     }
                     callback && callback({
@@ -967,9 +964,8 @@
         obj.checkLinkLanzou = function (shareId, callback) {
             var url;
             if (shareId.indexOf("http") < 0) {
-                url = "https://www.lanzoux.com/" + shareId;
-            }
-            else {
+                url = "https://www.lanzouw.com/" + shareId;
+            } else {
                 url = shareId;
             }
             http.ajax({
@@ -979,7 +975,7 @@
                     var state = 1;
                     if (response.indexOf("输入密码") > 0) {
                         state = 2;
-                    }else if (response.indexOf("来晚啦") > 0 || response.indexOf("不存在")>0) {
+                    } else if (response.indexOf("来晚啦") > 0 || response.indexOf("不存在") > 0) {
                         state = -1;
                     }
                     callback && callback({
@@ -993,21 +989,25 @@
                 }
             });
         };
-		obj.checkLinkAliYun = function (shareId, callback) {
-		   logger.info("checkLinkAliYun id "  +shareId);
-           http.ajax({
+        obj.checkLinkAliYun = function (shareId, callback) {
+            logger.info("checkLinkAliYun id " + shareId);
+            http.ajax({
                 type: "post",
                 url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
-				data: JSON.stringify({share_id:shareId}),
-				headers: {"Content-Type" : "application/json"},
-				dataType:"json",
+                data: JSON.stringify({
+                    share_id: shareId
+                }),
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                dataType: "json",
                 success: function (response) {
-				    logger.debug("aliyun response " + response);
+                    logger.debug("aliyun response " + response);
                     var state = 1;
-					// 密码  state = 2  错误 state = -1
-					if(response['code']){
-						state = -1;
-					}
+                    // 密码  state = 2  错误 state = -1
+                    if (response['code']) {
+                        state = -1;
+                    }
 
                     callback && callback({
                         state: state
@@ -1022,20 +1022,20 @@
         };
 
         obj.checkPan123 = function (shareId, callback) {
-		   logger.info("checkPan123 id "  +shareId);
-           http.ajax({
-			    type: "get",
-                url: "https://www.123pan.com/api/share/info?shareKey="+shareId,
+            logger.info("checkPan123 id " + shareId);
+            http.ajax({
+                type: "get",
+                url: "https://www.123pan.com/api/share/info?shareKey=" + shareId,
                 success: function (response) {
-				    logger.debug("checkPan123 response " + response);
-					var rsp = JSON.parse(response);
+                    logger.debug("checkPan123 response " + response);
+                    var rsp = JSON.parse(response);
                     var state = 1;
-					// 密码  state = 2  错误 state = -1
-					if(response.indexOf("分享页面不存在")> 0||rsp.code !=0){
-						state = -1;
-					}else if(rsp.data.HasPwd){
-						state = 2;
-					}
+                    // 密码  state = 2  错误 state = -1
+                    if (response.indexOf("分享页面不存在") > 0 || rsp.code != 0) {
+                        state = -1;
+                    } else if (rsp.data.HasPwd) {
+                        state = 2;
+                    }
 
                     callback && callback({
                         state: state
@@ -1053,8 +1053,7 @@
             var url;
             if (shareId.indexOf("http") < 0) {
                 url = "https://share.weiyun.com/" + shareId;
-            }
-            else {
+            } else {
                 url = shareId;
             }
             http.ajax({
@@ -1064,8 +1063,7 @@
                     var state = 1;
                     if (response.indexOf("链接已删除") > 0 || response.indexOf("违反相关法规") > 0) {
                         state = -1;
-                    }
-                    else if (response.indexOf('"share_key":null') > 0) {
+                    } else if (response.indexOf('"share_key":null') > 0) {
                         state = 2;
                     }
                     callback && callback({
@@ -1081,14 +1079,15 @@
         };
 
         obj.checkLinkTy189 = function (shareId, callback) {
-
-			http.ajax({
+            http.ajax({
                 type: "post",
                 url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
-                data: {shareCode:shareId},
+                data: {
+                    shareCode: shareId
+                },
                 success: function (response) {
-					logger.debug("checkLinkTy189 " + shareId + " " +response);
-					var state = 1;
+                    logger.debug("checkLinkTy189 " + shareId + " " + response);
+                    var state = 1;
                     if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
                         state = -1;
                     }
@@ -1104,7 +1103,6 @@
                 }
             });
         };
-
         return obj;
     });
 
@@ -1131,8 +1129,7 @@
                     items.push(obj.queues.shift());
                 }
                 obj.checkLinkBatch(items, obj.consumeQueue);
-            }
-            else {
+            } else {
                 obj.active = false;
                 obj.timer = setTimeout(obj.consumeQueue, 1000);
             }
@@ -1145,7 +1142,6 @@
                 bear_time: bearTime,
                 callback: callback
             });
-
             obj.activeQueue();
         };
 
@@ -1156,8 +1152,7 @@
                 items.forEach(function (item) {
                     try {
                         obj.checkLink(item.share_source, item.share_id, item.bear_time, item.callback);
-                    }
-                    catch (err) {
+                    } catch (err) {
                         logger.error(err);
                     }
                 });
@@ -1171,8 +1166,7 @@
                 callback && callback({
                     state: item.check_state
                 });
-            }
-            else {
+            } else {
                 api.checkLinkLocal(shareSource, shareId, function (item) {
                     if (item instanceof Object && item.state != 0) {
                         obj.setItem(shareSource, shareId, item.state);
@@ -1187,7 +1181,7 @@
             items.forEach(function (item) {
                 linkList.push(obj.buildShareKey(item.share_source, item.share_id));
             });
-           callback && callback();
+            callback && callback();
         };
 
         obj.getItem = function (shareSource, shareId) {
@@ -1210,27 +1204,21 @@
         obj.buildShareKey = function (shareSource, shareId) {
             return shareSource + "#" + shareId;
         };
-
         obj.getDao = function () {
             return factory.getCheckDao();
         };
-
         return obj;
     });
 
-   
-    container.define("core", ["resource",  "$"], function (resource,  $) {
+    container.define("core", ["resource", "$"], function (resource, $) {
         var obj = {};
-
         obj.appendStyle = function () {
             var styleText = resource.getStyleText();
             $("<style></style>").text(styleText).appendTo($("head"));
         };
 
         obj.ready = function (callback) {
-       
             obj.appendStyle();
-
             callback && callback();
         };
 
@@ -1240,15 +1228,7 @@
     /** app **/
     container.define("app_check_url", ["router", "constant", "config", "option", "checkManage", "findAndReplaceDOMText", "$"], function (router, constant, config, option, checkManage, findAndReplaceDOMText, $) {
         var obj = {
-            index: 0,
-            prefixs: {
-                BAIDU: "https://pan.baidu.com/s/1",
-                LANZOU: "https://www.lanzoux.com/",
-                WEIYUN: "https://share.weiyun.com/",
-                ALIYUN: "https://www.aliyundrive.com/s/",
-                PAN123: "https://www.123pan.com/s/",
-                TY189: "https://cloud.189.cn/t/"
-            }
+            index: 0
         };
 
         obj.run = function () {
@@ -1288,24 +1268,19 @@
 
         obj.runMatch = function () {
             // 百度网盘补全链接
-     
-			findAndReplaceDOMText(document.body, {
-				find: /([ ])(\/?s\/1[a-zA-Z0-9_\-]{5,22})/gi,
-				replace: function (portion, match) {
-					return " https://pan.baidu.com" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
-				}
-			});
-		
-
+            findAndReplaceDOMText(document.body, {
+                find: /([ ])(\/?s\/1[a-zA-Z0-9_\-]{5,22})/gi,
+                replace: function (portion, match) {
+                    return " https://pan.baidu.com" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
+                }
+            });
             // 天翼云盘补全链接
-       
-			findAndReplaceDOMText(document.body, {
-				find: /([ ])(\/?t\/[a-zA-Z0-9_\-]{8,14})/gi,
-				replace: function (portion, match) {
-					return " https://cloud.189.cn" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
-				}
-			});
-            
+            findAndReplaceDOMText(document.body, {
+                find: /([ ])(\/?t\/[a-zA-Z0-9_\-]{8,14})/gi,
+                replace: function (portion, match) {
+                    return " https://cloud.189.cn" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
+                }
+            });
 
             // 百度网盘补SPAN
             obj.replaceTextAsLink(/(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi, constant.sources.BAIDU, function (match) {
@@ -1316,7 +1291,7 @@
             obj.replaceTextAsLink(/(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.LANZOU, function (match) {
                 return match[1];
             });
-			// 阿里云云SPAN
+            // 阿里云云SPAN
             obj.replaceTextAsLink(/(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.ALIYUN, function (match) {
                 return match[1];
             });
@@ -1342,7 +1317,9 @@
 
                 $this.attr("one-link-mark", "yes");
 
-                var match, oneId, oneSource;
+                var match,
+                oneId,
+                oneSource;
                 var href = $this.attr("href");
                 if (href) {
                     if ((match = /(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi.exec(href))) {
@@ -1351,8 +1328,7 @@
                     } else if ((match = /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
                         oneId = href;
                         oneSource = constant.sources.LANZOU;
-                    }
-                    else if ((match = /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
+                    } else if ((match = /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
                         oneId = href;
                         oneSource = constant.sources.WEIYUN;
                     } else if ((match = /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
@@ -1361,11 +1337,10 @@
                     } else if ((match = /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
                         oneId = href;
                         oneSource = constant.sources.TY189;
+                    } else if ((match = /(?:https?:\/\/)?www\.pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
+                        oneId = href;
+                        oneSource = constant.sources.PAN123;
                     }
-				    else if ((match = /(?:https?:\/\/)?www\.pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
-						oneId = href;
-						oneSource = constant.sources.PAN123;
-					}
                 }
 
                 if (match && $this.find(".one-pan-tip").length == 0) {
@@ -1386,27 +1361,21 @@
                 var parentNode = this.parentNode;
                 if (parentNode.nodeName != "A") {
                     // 转超链接
-                  
                     $this.wrap('<a href="' + this.textContent + '" target="_blank"></a>');
-                    
                 }
 
-                
-				checkManage.checkLinkAsync(shareSource, shareId, 0, function (response) {
-					if (response.state == 2) {
-						$this.addClass("one-pan-tip-lock");
-					}
-					else if (response.state == 1) {
-						$this.addClass("one-pan-tip-success");
-					}
-					else if (response.state == -1) {
-						$this.addClass("one-pan-tip-error");
-					}
-					else {
-						$this.addClass("one-pan-tip-other");
-					}
-                    });
-                
+                checkManage.checkLinkAsync(shareSource, shareId, 0, function (response) {
+                    if (response.state == 2) {
+                        $this.addClass("one-pan-tip-lock");
+                    } else if (response.state == 1) {
+                        $this.addClass("one-pan-tip-success");
+                    } else if (response.state == -1) {
+                        $this.addClass("one-pan-tip-error");
+                    } else {
+                        $this.addClass("one-pan-tip-other");
+                    }
+                });
+
             });
 
             var checkTimes = obj.getCheckTimes();
@@ -1423,8 +1392,7 @@
                     var parentNode = portion.node.parentNode;
                     if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
                         return portion.text;
-                    }
-                    else {
+                    } else {
                         var shareId = getShareId(match);
                         var node = obj.createOnePanNode(shareId, shareSource);
                         node.textContent = obj.buildShareUrl(shareId, shareSource);
@@ -1434,7 +1402,6 @@
             });
         };
 
- 
         obj.getCheckTimes = function () {
             var checkTimes = parseInt(config.getConfig("check_times"));
             if (isNaN(checkTimes)) {
@@ -1447,8 +1414,7 @@
             var checkInterval = parseInt(config.getConfig("check_interval"));
             if (isNaN(checkInterval)) {
                 checkInterval = 2;
-            }
-            else if (checkInterval < 1) {
+            } else if (checkInterval < 1) {
                 checkInterval = 1;
             }
             return checkInterval;
@@ -1464,18 +1430,18 @@
 
         obj.buildShareUrl = function (shareId, shareSource) {
             var shareUrl = shareId;
-            if(shareSource == constant.sources.BAIDU) {
-                shareUrl = obj.prefixs.BAIDU + shareId;
-            }else if (shareSource == constant.sources.LANZOU) {
-                shareUrl = obj.prefixs.LANZOU + shareId;
-            }else if (shareSource == constant.sources.WEIYUN) {
-                shareUrl = obj.prefixs.WEIYUN + shareId;
-            }else if (shareSource == constant.sources.TY189) {
-                shareUrl = obj.prefixs.TY189 + shareId;
-            }else if (shareSource == constant.sources.PAN123) {
-                shareUrl = obj.prefixs.PAN123 + shareId;
-            }else if (shareSource == constant.sources.ALIYUN) {
-                shareUrl = obj.prefixs.ALIYUN + shareId;
+            if (shareSource == constant.sources.BAIDU) {
+                shareUrl = constant.prefixs.BAIDU + shareId;
+            } else if (shareSource == constant.sources.LANZOU) {
+                shareUrl = constant.prefixs.LANZOU + shareId;
+            } else if (shareSource == constant.sources.WEIYUN) {
+                shareUrl = constant.prefixs.WEIYUN + shareId;
+            } else if (shareSource == constant.sources.TY189) {
+                shareUrl = constant.prefixs.TY189 + shareId;
+            } else if (shareSource == constant.sources.PAN123) {
+                shareUrl = constant.prefixs.PAN123 + shareId;
+            } else if (shareSource == constant.sources.ALIYUN) {
+                shareUrl = constant.prefixs.ALIYUN + shareId;
             }
             return shareUrl;
         };
@@ -1500,20 +1466,14 @@
         var obj = {};
 
         obj.run = function () {
-            appRunner.run([
-                {
-                    name: "app_check_url",
-                    matchs: [
-                        "*"
-                    ]
-                },
-                {
-                    name: "app_manage",
-                    matchs: [
-                        "*"
-                    ]
-                }
-            ]);
+            appRunner.run([{
+                        name: "app_check_url",
+                        matchs: ["*"]
+                    }, {
+                        name: "app_manage",
+                        matchs: ["*"]
+                    }
+                ]);
         };
 
         return obj;
@@ -1526,16 +1486,14 @@
     container.define("Snap", [], function () {
         if (typeof Snap != "undefined") {
             return Snap;
-        }
-        else {
+        } else {
             return window.Snap;
         }
     });
     container.define("findAndReplaceDOMText", [], function () {
         if (typeof findAndReplaceDOMText != "undefined") {
             return findAndReplaceDOMText;
-        }
-        else {
+        } else {
             return window.findAndReplaceDOMText;
         }
     });
