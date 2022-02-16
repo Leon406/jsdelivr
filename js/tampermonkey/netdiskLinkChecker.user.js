@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.3.2
+// @version      0.3.3
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘
-// @note         22-02-15 0.3.2 支持123网盘,精简代码
+// @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
 // @note         22-01-27 0.2.9 支持阿里云盘,精简代码
 // @match        *://**/*
 // @connect      lanzouw.com
@@ -1267,21 +1267,6 @@
         };
 
         obj.runMatch = function () {
-            // 百度网盘补全链接
-            findAndReplaceDOMText(document.body, {
-                find: /([ ])(\/?s\/1[a-zA-Z0-9_\-]{5,22})/gi,
-                replace: function (portion, match) {
-                    return " https://pan.baidu.com" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
-                }
-            });
-            // 天翼云盘补全链接
-            findAndReplaceDOMText(document.body, {
-                find: /([ ])(\/?t\/[a-zA-Z0-9_\-]{8,14})/gi,
-                replace: function (portion, match) {
-                    return " https://cloud.189.cn" + (match[2].indexOf("/") == 0 ? "" : "/") + match[2];
-                }
-            });
-
             // 百度网盘补SPAN
             obj.replaceTextAsLink(/(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi, constant.sources.BAIDU, function (match) {
                 return match[2].slice(1);
@@ -1297,7 +1282,7 @@
             });
 
             // 123pan SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?www\.123pan\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.PAN123, function (match) {
+            obj.replaceTextAsLink(/(?:https?:\/\/)?(?:www\.)?123pan\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.PAN123, function (match) {
                 return match[1];
             });
 
@@ -1337,7 +1322,7 @@
                     } else if ((match = /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
                         oneId = href;
                         oneSource = constant.sources.TY189;
-                    } else if ((match = /(?:https?:\/\/)?www\.pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
+                    } else if ((match = /(?:https?:\/\/)?(?:www\.)?pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
                         oneId = href;
                         oneSource = constant.sources.PAN123;
                     }
@@ -1393,12 +1378,16 @@
                     if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
                         return portion.text;
                     } else {
+                        //console.log("findAndReplaceDOMText",portion)
                         var shareId = getShareId(match);
                         var node = obj.createOnePanNode(shareId, shareSource);
                         node.textContent = obj.buildShareUrl(shareId, shareSource);
                         return node;
                     }
-                }
+                },
+                forceContext: function(el) {
+                    return true;
+                 }
             });
         };
 
