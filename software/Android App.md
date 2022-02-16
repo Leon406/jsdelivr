@@ -17,7 +17,7 @@
 | ------------------------------------------------------------ | -------- | -------------------------- |
 | [Ookla Speedtest](https://pan.lanzoux.com/b0f19i6af)         | 4.6.18   | 手机网速测试工具           |
 | [泰尔网测](https://www.coolapk.com/apk/com.knowyou.perception) | 1.2.42   | 手机网速测试工具           |
-| [一指禅](https://estar.lanzoux.com/11o#)                     | 3.3.06   | 闪屏跳过                   |
+| [一指禅](https://estar.lanzoux.com/11o#)                     | 3.3.1    | 闪屏跳过                   |
 | [QR](https://www.lanzoux.com/b06lnskqf)  8qxr                | 2.7\.3-P | 扫码                       |
 | [讯飞语记](https://pan.lanzoux.com/b06llc0sj) e86t           | 6.0.1333 |                            |
 | [设备信息DevInfo](https://pan.lanzoux.com/b06mcp2le)  e5gl   | 2.7.8    |                            |
@@ -33,9 +33,9 @@
 
 | 软件名称                                              | 版本      | 描述 |
 | ----------------------------------------------------- | --------- | ---- |
-| [xmind](https://pan.lanzoux.com/b06lkjpah)   i592     | 1.8.13    |      |
-| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666) | 1.39.13   |      |
-| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 6.12      |      |
+| [xmind](https://pan.lanzoux.com/b06lkjpah)   i592     | 1.8.14    |      |
+| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666) | 1.42.11   |      |
+| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)    | 6.14      |      |
 | [阅读](https://www.coolapk.com/apk/256030)            | 3.22      | 小说 |
 | [异次元](https://www.lanzoui.com/b595600)             | 2.3.6     | 漫画 |
 | [PureTure](https://pan.lanzoui.com/b0f2lkrab)         | 3.3.8.104 | 油管 |
@@ -48,5 +48,5 @@
 | ------------------------------------------------------- | ------- | ------ |
 | [开发助手](https://pan.lanzoux.com/b06m5xvtc#g5pn) g5pn | 2.1.5   |        |
 | [谷歌套件]( https://pan.lanzoui.com/b0f195fyf)          | 28.3.18 |        |
-| [adguard](https://pan.lanzoui.com/b0f19420h)            | 3.6.38  | 去广告 |
+| [adguard](https://pan.lanzoui.com/b0f19420h)            | 3.6.41  | 去广告 |
 
