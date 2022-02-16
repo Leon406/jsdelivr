@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.3.3
+// @version      0.4.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘
+// @note         22-02-17 0.4.0 配置化改造,适配其他网盘
 // @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
 // @note         22-01-27 0.2.9 支持阿里云盘,精简代码
 // @match        *://**/*
@@ -751,27 +752,6 @@
         return obj;
     });
 
-    container.define("oneData", ["env", "http"], function (env, http) {
-        var obj = {};
-
-        obj.requestOneApi = function (url, data, callback) {
-            http.ajax({
-                type: "post",
-                url: url,
-                dataType: "json",
-                data: Object.assign(env.getInfo(), data),
-                success: function (response) {
-                    callback && callback(response);
-                },
-                error: function () {
-                    callback && callback("");
-                }
-            });
-        };
-
-        return obj;
-    });
-
     container.define("appRunner", ["router", "logger", "meta", "$"], function (router, logger, meta, $, require) {
         var obj = {};
 
@@ -852,26 +832,214 @@
 
         return obj;
     });
-
-    container.define("constant", [], function () {
+    /**
+     *  配置网盘参数 网盘名
+     *  reg 匹配正则
+     *  replaceReg dom替换正则
+     *  prefix shareId前缀
+     *  checkFun 有效性检测函数
+     **/
+    container.define("constant", ["logger", "http"], function (logger, http) {
         return {
-            sources: {
-                BAIDU: "baidu",
-                WEIYUN: "weiyun",
-                LANZOU: "lanzoux",
-                ALIYUN: "aliyun",
-                PAN123: "123pan",
-                TY189: "ty189"
+            baidu: {
+                reg: /(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
+                prefix: "https://pan.baidu.com/s/",
+                checkFun: function (shareId, callback) {
+                    var url;
+                    if (shareId.indexOf("http") < 0) {
+                        url = "https://pan.baidu.com/s/" + shareId;
+                    } else {
+                        url = shareId;
+                    }
+                    http.ajax({
+                        type: "get",
+                        url: url,
+                        success: function (response) {
+                            var state = 1;
+                            if (response.indexOf("输入提取码") > 0) {
+                                state = 2;
+                            } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0) {
+                                state = -1;
+                            } else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
+                                state = -1;
+                            }
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
             },
-            prefixs: {
-                BAIDU: "https://pan.baidu.com/s/1",
-                LANZOU: "https://www.lanzouw.com/",
-                WEIYUN: "https://share.weiyun.com/",
-                ALIYUN: "https://www.aliyundrive.com/s/",
-                PAN123: "https://www.123pan.com/s/",
-                TY189: "https://cloud.189.cn/t/"
+            weiyun: {
+                reg: /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
+                prefix: "https://share.weiyun.com/",
+                checkFun: function (shareId, callback) {
+                    var url;
+                    if (shareId.indexOf("http") < 0) {
+                        url = "https://share.weiyun.com/" + shareId;
+                    } else {
+                        url = shareId;
+                    }
+                    http.ajax({
+                        type: "get",
+                        url: url,
+                        success: function (response) {
+                            var state = 1;
+                            if (response.indexOf("链接已删除") > 0 || response.indexOf("违反相关法规") > 0) {
+                                state = -1;
+                            } else if (response.indexOf('"share_key":null') > 0) {
+                                state = 2;
+                            }
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
             },
-            options: {}
+            lanzou: {
+                reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
+                prefix: "https://www.lanzouw.com/",
+                checkFun: function (shareId, callback) {
+                    var url;
+                    if (shareId.indexOf("http") < 0) {
+                        url = "https://www.lanzouw.com/" + shareId;
+                    } else {
+                        url = shareId;
+                    }
+                    http.ajax({
+                        type: "get",
+                        url: url,
+                        success: function (response) {
+                            var state = 1;
+                            if (response.indexOf("输入密码") > 0) {
+                                state = 2;
+                            } else if (response.indexOf("来晚啦") > 0 || response.indexOf("不存在") > 0) {
+                                state = -1;
+                            }
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            aliyun: {
+                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi,
+                prefix: "https://www.aliyundrive.com/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("checkLinkAliYun id " + shareId);
+                    http.ajax({
+                        type: "post",
+                        url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
+                        data: JSON.stringify({
+                            share_id: shareId
+                        }),
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        dataType: "json",
+                        success: function (response) {
+                            logger.debug("aliyun response " + response);
+                            var state = 1;
+                            // 密码  state = 2  错误 state = -1
+                            if (response['code']) {
+                                state = -1;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            pan123: {
+                reg: /(?:https?:\/\/)?(?:www\.)?pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:www\.)?123pan\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi,
+                prefix: "https://www.123pan.com/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("checkPan123 id " + shareId);
+                    http.ajax({
+                        type: "get",
+                        url: "https://www.123pan.com/api/share/info?shareKey=" + shareId,
+                        success: function (response) {
+                            logger.debug("checkPan123 response " + response);
+                            var rsp = JSON.parse(response);
+                            var state = 1;
+                            // 密码  state = 2  错误 state = -1
+                            if (response.indexOf("分享页面不存在") > 0 || rsp.code != 0) {
+                                state = -1;
+                            } else if (rsp.data.HasPwd) {
+                                state = 2;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            ty189: {
+                reg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})/gi,
+                replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})\b/gi,
+                prefix: "https://cloud.189.cn/t/",
+                checkFun: function (shareId, callback) {
+                    http.ajax({
+                        type: "post",
+                        url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
+                        data: {
+                            shareCode: shareId
+                        },
+                        success: function (response) {
+                            logger.debug("checkLinkTy189 " + shareId + " " + response);
+                            var state = 1;
+                            if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
+                                state = -1;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            }
         };
     });
 
@@ -906,202 +1074,21 @@
         return obj;
     });
 
-    container.define("api", ["logger", "http", "manifest", "oneData", "constant", "svgCrypt"], function (logger, http, manifest, oneData, constant, svgCrypt) {
+    //检测网盘链接
+    container.define("api", ["logger", "manifest", "constant", "svgCrypt"], function (logger, manifest, constant, svgCrypt) {
         var obj = {};
 
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
             logger.info("checkLinkLocal " + shareSource + " " + shareId);
-            if (shareSource == constant.sources.BAIDU) {
-                obj.checkLinkBaidu(shareId, callback);
-            } else if (shareSource == constant.sources.LANZOU) {
-                obj.checkLinkLanzou(shareId, callback);
-            } else if (shareSource == constant.sources.WEIYUN) {
-                obj.checkLinkWeiyun(shareId, callback);
-            } else if (shareSource == constant.sources.TY189) {
-                obj.checkLinkTy189(shareId, callback);
-            } else if (shareSource == constant.sources.ALIYUN) {
-                obj.checkLinkAliYun(shareId, callback);
-            } else if (shareSource == constant.sources.PAN123) {
-                obj.checkPan123(shareId, callback);
+
+            var rule = constant[shareSource];
+            if (rule) {
+                rule["checkFun"](shareId, callback)
             } else {
                 callback({
                     state: 0
                 });
             }
-        };
-
-        obj.checkLinkBaidu = function (shareId, callback) {
-            var url;
-            if (shareId.indexOf("http") < 0) {
-                url = "https://pan.baidu.com/s/1" + shareId;
-            } else {
-                url = shareId;
-            }
-            http.ajax({
-                type: "get",
-                url: url,
-                success: function (response) {
-                    var state = 1;
-                    if (response.indexOf("输入提取码") > 0) {
-                        state = 2;
-                    } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0) {
-                        state = -1;
-                    } else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
-                        state = -1;
-                    }
-                    callback && callback({
-                        state: state
-                    });
-                },
-                error: function () {
-                    callback && callback({
-                        state: 0
-                    });
-                }
-            });
-        };
-
-        obj.checkLinkLanzou = function (shareId, callback) {
-            var url;
-            if (shareId.indexOf("http") < 0) {
-                url = "https://www.lanzouw.com/" + shareId;
-            } else {
-                url = shareId;
-            }
-            http.ajax({
-                type: "get",
-                url: url,
-                success: function (response) {
-                    var state = 1;
-                    if (response.indexOf("输入密码") > 0) {
-                        state = 2;
-                    } else if (response.indexOf("来晚啦") > 0 || response.indexOf("不存在") > 0) {
-                        state = -1;
-                    }
-                    callback && callback({
-                        state: state
-                    });
-                },
-                error: function () {
-                    callback && callback({
-                        state: 0
-                    });
-                }
-            });
-        };
-        obj.checkLinkAliYun = function (shareId, callback) {
-            logger.info("checkLinkAliYun id " + shareId);
-            http.ajax({
-                type: "post",
-                url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
-                data: JSON.stringify({
-                    share_id: shareId
-                }),
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                dataType: "json",
-                success: function (response) {
-                    logger.debug("aliyun response " + response);
-                    var state = 1;
-                    // 密码  state = 2  错误 state = -1
-                    if (response['code']) {
-                        state = -1;
-                    }
-
-                    callback && callback({
-                        state: state
-                    });
-                },
-                error: function () {
-                    callback && callback({
-                        state: 0
-                    });
-                }
-            });
-        };
-
-        obj.checkPan123 = function (shareId, callback) {
-            logger.info("checkPan123 id " + shareId);
-            http.ajax({
-                type: "get",
-                url: "https://www.123pan.com/api/share/info?shareKey=" + shareId,
-                success: function (response) {
-                    logger.debug("checkPan123 response " + response);
-                    var rsp = JSON.parse(response);
-                    var state = 1;
-                    // 密码  state = 2  错误 state = -1
-                    if (response.indexOf("分享页面不存在") > 0 || rsp.code != 0) {
-                        state = -1;
-                    } else if (rsp.data.HasPwd) {
-                        state = 2;
-                    }
-
-                    callback && callback({
-                        state: state
-                    });
-                },
-                error: function () {
-                    callback && callback({
-                        state: 0
-                    });
-                }
-            });
-        };
-
-        obj.checkLinkWeiyun = function (shareId, callback) {
-            var url;
-            if (shareId.indexOf("http") < 0) {
-                url = "https://share.weiyun.com/" + shareId;
-            } else {
-                url = shareId;
-            }
-            http.ajax({
-                type: "get",
-                url: url,
-                success: function (response) {
-                    var state = 1;
-                    if (response.indexOf("链接已删除") > 0 || response.indexOf("违反相关法规") > 0) {
-                        state = -1;
-                    } else if (response.indexOf('"share_key":null') > 0) {
-                        state = 2;
-                    }
-                    callback && callback({
-                        state: state
-                    });
-                },
-                error: function () {
-                    callback && callback({
-                        state: 0
-                    });
-                }
-            });
-        };
-
-        obj.checkLinkTy189 = function (shareId, callback) {
-            http.ajax({
-                type: "post",
-                url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
-                data: {
-                    shareCode: shareId
-                },
-                success: function (response) {
-                    logger.debug("checkLinkTy189 " + shareId + " " + response);
-                    var state = 1;
-                    if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
-                        state = -1;
-                    }
-
-                    callback && callback({
-                        state: state
-                    });
-                },
-                error: function () {
-                    callback && callback({
-                        state: 0
-                    });
-                }
-            });
         };
         return obj;
     });
@@ -1267,34 +1254,11 @@
         };
 
         obj.runMatch = function () {
-            // 百度网盘补SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi, constant.sources.BAIDU, function (match) {
-                return match[2].slice(1);
-            });
-
-            // 蓝奏云补SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.LANZOU, function (match) {
-                return match[1];
-            });
-            // 阿里云云SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.ALIYUN, function (match) {
-                return match[1];
-            });
-
-            // 123pan SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?(?:www\.)?123pan\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.PAN123, function (match) {
-                return match[1];
-            });
-
-            // 腾讯微云补SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi, constant.sources.WEIYUN, function (match) {
-                return match[1];
-            });
-
-            // 天翼云盘补SPAN
-            obj.replaceTextAsLink(/(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})\b/gi, constant.sources.TY189, function (match) {
-                return match[1];
-            });
+            for (var rule in constant) {
+                obj.replaceTextAsLink(constant[rule]["replaceReg"], rule, function (match) {
+                    return match[1];
+                });
+            }
 
             // 补超链接ATTR
             $("a:not([one-link-mark])").each(function () {
@@ -1307,27 +1271,13 @@
                 oneSource;
                 var href = $this.attr("href");
                 if (href) {
-                    if ((match = /(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi.exec(href))) {
-                        oneId = href;
-                        oneSource = constant.sources.BAIDU;
-                    } else if ((match = /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
-                        oneId = href;
-                        oneSource = constant.sources.LANZOU;
-                    } else if ((match = /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
-                        oneId = href;
-                        oneSource = constant.sources.WEIYUN;
-                    } else if ((match = /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})/gi.exec(href))) {
-                        oneId = href;
-                        oneSource = constant.sources.ALIYUN;
-                    } else if ((match = /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
-                        oneId = href;
-                        oneSource = constant.sources.TY189;
-                    } else if ((match = /(?:https?:\/\/)?(?:www\.)?pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi.exec(href))) {
-                        oneId = href;
-                        oneSource = constant.sources.PAN123;
+                    for (var rule in constant) {
+                        if ((match = constant[rule]["reg"].exec(href))) {
+                            oneId = href;
+                            oneSource = rule;
+                        }
                     }
                 }
-
                 if (match && $this.find(".one-pan-tip").length == 0) {
                     var node = obj.createOnePanNode(oneId, oneSource);
                     $this.wrapInner(node);
@@ -1385,9 +1335,9 @@
                         return node;
                     }
                 },
-                forceContext: function(el) {
+                forceContext: function (el) {
                     return true;
-                 }
+                }
             });
         };
 
@@ -1418,20 +1368,7 @@
         };
 
         obj.buildShareUrl = function (shareId, shareSource) {
-            var shareUrl = shareId;
-            if (shareSource == constant.sources.BAIDU) {
-                shareUrl = constant.prefixs.BAIDU + shareId;
-            } else if (shareSource == constant.sources.LANZOU) {
-                shareUrl = constant.prefixs.LANZOU + shareId;
-            } else if (shareSource == constant.sources.WEIYUN) {
-                shareUrl = constant.prefixs.WEIYUN + shareId;
-            } else if (shareSource == constant.sources.TY189) {
-                shareUrl = constant.prefixs.TY189 + shareId;
-            } else if (shareSource == constant.sources.PAN123) {
-                shareUrl = constant.prefixs.PAN123 + shareId;
-            } else if (shareSource == constant.sources.ALIYUN) {
-                shareUrl = constant.prefixs.ALIYUN + shareId;
-            }
+            var shareUrl = constant[shareSource]["prefix"] + shareId;
             return shareUrl;
         };
 
