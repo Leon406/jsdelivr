@@ -846,12 +846,7 @@
                 replaceReg: /(?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: function (shareId, callback) {
-                    var url;
-                    if (shareId.indexOf("http") < 0) {
-                        url = "https://pan.baidu.com/s/" + shareId;
-                    } else {
-                        url = shareId;
-                    }
+					var url = shareId.indexOf("http") > -1?shareId : "https://pan.baidu.com/s/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
@@ -881,12 +876,7 @@
                 replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
                 prefix: "https://share.weiyun.com/",
                 checkFun: function (shareId, callback) {
-                    var url;
-                    if (shareId.indexOf("http") < 0) {
-                        url = "https://share.weiyun.com/" + shareId;
-                    } else {
-                        url = shareId;
-                    }
+					var url = shareId.indexOf("http") > -1?shareId : "https://share.weiyun.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
@@ -914,12 +904,7 @@
                 replaceReg: /(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
                 prefix: "https://www.lanzouw.com/",
                 checkFun: function (shareId, callback) {
-                    var url;
-                    if (shareId.indexOf("http") < 0) {
-                        url = "https://www.lanzouw.com/" + shareId;
-                    } else {
-                        url = shareId;
-                    }
+                    var url = shareId.indexOf("http") > -1?shareId : "https://www.lanzouw.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
