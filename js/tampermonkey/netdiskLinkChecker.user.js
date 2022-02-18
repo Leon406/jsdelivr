@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘链接检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.4.0
+// @version      0.5.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
-// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘
+// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘
+// @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
 // @note         22-02-17 0.4.0 配置化改造,适配其他网盘
 // @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
 // @note         22-01-27 0.2.9 支持阿里云盘,精简代码
@@ -16,6 +17,8 @@
 // @connect      aliyundrive.com
 // @connect      cloud.189.cn
 // @connect      www.123pan.com
+// @connect      pan.quark.cn
+// @connect      drive.quark.cn
 // @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
 // @require      https://cdn.staticfile.org/snap.svg/0.5.1/snap.svg-min.js
 // @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -38,7 +41,7 @@
     var manifest = {
         "name": "ljjc",
         "urls": {},
-        "logger_level": 3,
+        "logger_level": 0,
         "options_page": "http://go.newday.me/s/link-option"
     };
 
@@ -530,6 +533,7 @@
             }
 
             logger.debug("xmlhttpRequest: " + details)
+            logger.debug(details)
             GM_xmlhttpRequest(details);
         };
 
@@ -846,7 +850,7 @@
                 replaceReg: /(?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: function (shareId, callback) {
-					var url = shareId.indexOf("http") > -1?shareId : "https://pan.baidu.com/s/" + shareId;
+                    var url = shareId.indexOf("http") > -1 ? shareId : "https://pan.baidu.com/s/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
@@ -876,7 +880,7 @@
                 replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
                 prefix: "https://share.weiyun.com/",
                 checkFun: function (shareId, callback) {
-					var url = shareId.indexOf("http") > -1?shareId : "https://share.weiyun.com/" + shareId;
+                    var url = shareId.indexOf("http") > -1 ? shareId : "https://share.weiyun.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
@@ -901,10 +905,10 @@
             },
             lanzou: {
                 reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?\w+\.lanzou[a-z]\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
+                replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
                 prefix: "https://www.lanzouw.com/",
                 checkFun: function (shareId, callback) {
-                    var url = shareId.indexOf("http") > -1?shareId : "https://www.lanzouw.com/" + shareId;
+                    var url = shareId.indexOf("http") > -1 ? shareId : "https://www.lanzouw.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
@@ -1024,7 +1028,56 @@
                         }
                     });
                 }
+            },
+            quark: {
+                reg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([a-zA-Z0-9_\-]{8,14})/gi,
+                replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([a-zA-Z0-9_\-]{8,14})\b/gi,
+                prefix: "https://pan.quark.cn/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("checkPan123 id " + shareId);
+                    http.ajax({
+                        type: "post",
+						data: JSON.stringify({pwd_id:shareId,passcode:""}),
+                        url: "https://drive.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=pc",
+                        success: function (response) {
+                            logger.debug("Quark token response " + response);
+                            var rsp = JSON.parse(response);
+							var token  = rsp.data?rsp.data.stoken :
+							"A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D";
+                            http.ajax({
+                                type: "get",
+                                url: "https://drive.quark.cn/1/clouddrive/share/sharepage/detail?pwd_id=" + shareId + "&force=0&stoken=" + encodeURIComponent(token),
+                                success: function (response) {
+                                    logger.debug("Quark detail response " + response);
+                                    var rsp = JSON.parse(response);
+
+                                    var state = 1;
+                                    // 密码  state = 2  错误 state = -1
+                                    if (rsp.code != 0) {
+                                        state = -1;
+                                    }
+
+                                    callback && callback({
+                                        state: state
+                                    });
+                                },
+                                error: function () {
+                                    callback && callback({
+                                        state: 0
+                                    });
+                                }
+
+                            })
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
             }
+
         };
     });
 
