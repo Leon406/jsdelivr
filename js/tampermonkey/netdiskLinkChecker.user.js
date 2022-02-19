@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.6.0
+// @version      0.6.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘
-// @note         22-02-19 0.6.0 支持迅雷网盘
+// @note         22-02-19 0.6.1 支持迅雷网盘
 // @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
 // @note         22-02-17 0.4.0 配置化改造,适配其他网盘
 // @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
@@ -218,7 +218,7 @@
                 replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://www.aliyundrive.com/s/",
                 checkFun: function (shareId, callback) {
-                    logger.info("checkLinkAliYun id " + shareId);
+                    logger.info("aliyun id " + shareId);
                     http.ajax({
                         type: "post",
                         url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
@@ -254,12 +254,12 @@
                 replaceReg: /(?:https?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://www.123pan.com/s/",
                 checkFun: function (shareId, callback) {
-                    logger.info("checkPan123 id " + shareId);
+                    logger.info("Pan123 check id " + shareId);
                     http.ajax({
                         type: "get",
                         url: "https://www.123pan.com/api/share/info?shareKey=" + shareId,
                         success: function (response) {
-                            logger.debug("checkPan123 response " + response);
+                            logger.debug("Pan123 check response " + response);
                             var rsp = JSON.parse(response);
                             var state = 1;
                             // 密码  state = 2  错误 state = -1
@@ -293,7 +293,7 @@
                             shareCode: shareId
                         },
                         success: function (response) {
-                            logger.debug("checkLinkTy189 " + shareId + " " + response);
+                            logger.debug("Ty189 chec " + shareId + " " + response);
                             var state = 1;
                             if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
                                 state = -1;
@@ -316,7 +316,7 @@
                 replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,14})\b/gi,
                 prefix: "https://pan.quark.cn/s/",
                 checkFun: function (shareId, callback) {
-                    logger.info("checkPan123 id " + shareId);
+                    logger.info("Quark check id " + shareId);
                     http.ajax({
                         type: "post",
                         data: JSON.stringify({
@@ -388,7 +388,7 @@
                             var token = rsp.captcha_token;
                             http.ajax({
                                 type: "get",
-                                url: "https://api-pan.xunlei.com/drive/v1/share?share_id=" + shareId,
+                                url: "https://api-pan.xunlei.com/drive/v1/share?share_id=" + shareId.replace("https://pan.xunlei.com/s/",""),
                                 headers: {
 									"x-captcha-token":token,
 									"x-client-id":"Xqp0kJBXWhwaTpB6",
