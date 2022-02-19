@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.6.1
+// @version      0.6.2
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘
-// @note         22-02-19 0.6.1 支持迅雷网盘
+// @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
 // @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
 // @note         22-02-17 0.4.0 配置化改造,适配其他网盘
 // @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
@@ -188,6 +188,7 @@
             lanzou: {
                 reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([\w\-]{5,22})\b/gi,
+				aTagRepalce: ["lanzous","lanzouw"],
                 prefix: "https://www.lanzouw.com/",
                 checkFun: function (shareId, callback) {
                     var url = shareId.indexOf("http") > -1 ? shareId : "https://www.lanzouw.com/" + shareId;
@@ -1403,7 +1404,11 @@
                 if (parentNode.nodeName != "A") {
                     // 转超链接
                     $this.wrap('<a href="' + this.textContent + '" target="_blank"></a>');
-                }
+                }else if(constant[shareSource]["aTagRepalce"]){
+					var replacePair = constant[shareSource]["aTagRepalce"];
+					// 失效域名替换
+					parentNode.href = parentNode.href.replace(replacePair[0],replacePair[1])
+				}
 
                 checkManage.checkLinkAsync(shareSource, shareId, 0, function (response) {
                     if (response.state == 2) {
