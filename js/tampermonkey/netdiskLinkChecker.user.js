@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         网盘链接检查
+// @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.5.0
+// @version      0.6.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
-// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘
+// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘
+// @note         22-02-19 0.6.0 支持迅雷网盘
 // @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
 // @note         22-02-17 0.4.0 配置化改造,适配其他网盘
 // @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
@@ -17,8 +18,8 @@
 // @connect      aliyundrive.com
 // @connect      cloud.189.cn
 // @connect      www.123pan.com
-// @connect      pan.quark.cn
-// @connect      drive.quark.cn
+// @connect      quark.cn
+// @connect      xunlei.com
 // @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
 // @require      https://cdn.staticfile.org/snap.svg/0.5.1/snap.svg-min.js
 // @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -41,10 +42,9 @@
     var manifest = {
         "name": "ljjc",
         "urls": {},
-        "logger_level": 0,
+        "logger_level": 3,
         "options_page": "http://go.newday.me/s/link-option"
     };
-
     var container = (function () {
         var obj = {
             defines: {},
@@ -117,6 +117,319 @@
             modules: obj.modules
         };
     })();
+
+    /**
+     *  配置网盘参数 网盘名
+     *  reg 匹配正则
+     *  replaceReg dom替换正则
+     *  prefix shareId前缀
+     *  checkFun 有效性检测函数
+     **/
+    container.define("constant", ["logger", "http"], function (logger, http) {
+        return {
+            baidu: {
+                reg: /(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
+                prefix: "https://pan.baidu.com/s/",
+                checkFun: function (shareId, callback) {
+                    var url = shareId.indexOf("http") > -1 ? shareId : "https://pan.baidu.com/s/" + shareId;
+                    http.ajax({
+                        type: "get",
+                        url: url,
+                        success: function (response) {
+                            var state = 1;
+                            if (response.indexOf("输入提取码") > 0) {
+                                state = 2;
+                            } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0) {
+                                state = -1;
+                            } else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
+                                state = -1;
+                            }
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            weiyun: {
+                reg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{5,22})\b/gi,
+                prefix: "https://share.weiyun.com/",
+                checkFun: function (shareId, callback) {
+                    var url = shareId.indexOf("http") > -1 ? shareId : "https://share.weiyun.com/" + shareId;
+                    http.ajax({
+                        type: "get",
+                        url: url,
+                        success: function (response) {
+                            var state = 1;
+                            if (response.indexOf("链接已删除") > 0 || response.indexOf("违反相关法规") > 0) {
+                                state = -1;
+                            } else if (response.indexOf('"share_key":null') > 0) {
+                                state = 2;
+                            }
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            lanzou: {
+                reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([\w\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([\w\-]{5,22})\b/gi,
+                prefix: "https://www.lanzouw.com/",
+                checkFun: function (shareId, callback) {
+                    var url = shareId.indexOf("http") > -1 ? shareId : "https://www.lanzouw.com/" + shareId;
+                    http.ajax({
+                        type: "get",
+                        url: url,
+                        success: function (response) {
+                            var state = 1;
+                            if (response.indexOf("输入密码") > 0) {
+                                state = 2;
+                            } else if (response.indexOf("来晚啦") > 0 || response.indexOf("不存在") > 0) {
+                                state = -1;
+                            }
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            aliyun: {
+                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{5,22})\b/gi,
+                prefix: "https://www.aliyundrive.com/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("checkLinkAliYun id " + shareId);
+                    http.ajax({
+                        type: "post",
+                        url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
+                        data: JSON.stringify({
+                            share_id: shareId
+                        }),
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        dataType: "json",
+                        success: function (response) {
+                            logger.debug("aliyun response " + response);
+                            var state = 1;
+                            // 密码  state = 2  错误 state = -1
+                            if (response['code']) {
+                                state = -1;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            pan123: {
+                reg: /(?:https?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,14})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{5,22})\b/gi,
+                prefix: "https://www.123pan.com/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("checkPan123 id " + shareId);
+                    http.ajax({
+                        type: "get",
+                        url: "https://www.123pan.com/api/share/info?shareKey=" + shareId,
+                        success: function (response) {
+                            logger.debug("checkPan123 response " + response);
+                            var rsp = JSON.parse(response);
+                            var state = 1;
+                            // 密码  state = 2  错误 state = -1
+                            if (response.indexOf("分享页面不存在") > 0 || rsp.code != 0) {
+                                state = -1;
+                            } else if (rsp.data.HasPwd) {
+                                state = 2;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            ty189: {
+                reg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([\w\-]{8,14})/gi,
+                replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([\w\-]{8,14})\b/gi,
+                prefix: "https://cloud.189.cn/t/",
+                checkFun: function (shareId, callback) {
+                    http.ajax({
+                        type: "post",
+                        url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
+                        data: {
+                            shareCode: shareId
+                        },
+                        success: function (response) {
+                            logger.debug("checkLinkTy189 " + shareId + " " + response);
+                            var state = 1;
+                            if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
+                                state = -1;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            quark: {
+                reg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,14})/gi,
+                replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,14})\b/gi,
+                prefix: "https://pan.quark.cn/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("checkPan123 id " + shareId);
+                    http.ajax({
+                        type: "post",
+                        data: JSON.stringify({
+                            pwd_id: shareId,
+                            passcode: ""
+                        }),
+                        url: "https://drive.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=pc",
+                        success: function (response) {
+                            logger.debug("Quark token response " + response);
+                            var rsp = JSON.parse(response);
+                            var token = rsp.data ? rsp.data.stoken :
+                                "A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D";
+                            http.ajax({
+                                type: "get",
+                                url: "https://drive.quark.cn/1/clouddrive/share/sharepage/detail?pwd_id=" + shareId + "&force=0&stoken=" + encodeURIComponent(token),
+                                success: function (response) {
+                                    logger.debug("Quark detail response " + response);
+                                    var rsp = JSON.parse(response);
+
+                                    var state = 1;
+                                    // 密码  state = 2  错误 state = -1
+                                    if (rsp.code != 0) {
+                                        state = -1;
+                                    }
+
+                                    callback && callback({
+                                        state: state
+                                    });
+                                },
+                                error: function () {
+                                    callback && callback({
+                                        state: 0
+                                    });
+                                }
+
+                            })
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            xunlei: {
+                reg: /(?:https?:\/\/)?pan.xunlei\.com\/s\/([\w\-]{25,})/gi,
+                replaceReg: /(?:https?:\/\/)?pan.xunlei\.com\/s\/([\w\-]{25,})\b/gi,
+                prefix: "https://pan.xunlei.com/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("checkXunlei id " + shareId);
+                    http.ajax({
+                        type: "post",
+                        data: JSON.stringify({
+                            client_id: "Xqp0kJBXWhwaTpB6",
+                            device_id: "925b7631473a13716b791d7f28289cad",
+                            action: "get:/drive/v1/share",
+							meta: {
+							    package_name: "pan.xunlei.com",
+							    client_version: "1.45.0",
+							    captcha_sign: "1.fe2108ad808a74c9ac0243309242726c",
+							    timestamp: "1645241033384"
+							}
+                        }),
+                        url: "https://xluser-ssl.xunlei.com/v1/shield/captcha/init",
+                        success: function (response) {
+                            logger.debug("xunlei token response " + response);
+                            var rsp = JSON.parse(response);
+                            var token = rsp.captcha_token;
+                            http.ajax({
+                                type: "get",
+                                url: "https://api-pan.xunlei.com/drive/v1/share?share_id=" + shareId,
+                                headers: {
+									"x-captcha-token":token,
+									"x-client-id":"Xqp0kJBXWhwaTpB6",
+									"x-device-id":"925b7631473a13716b791d7f28289cad",
+								},
+								success: function (response) {
+                                    logger.debug("checkXunlei detail response " + response);
+                                    var state = 1;
+                                    // 密码  state = 2  错误 state = -1
+                                    if (response.indexOf("NOT_FOUND")>0
+									||response.indexOf("SENSITIVE_RESOURCE")>0
+									||response.indexOf("EXPIRED")>0
+									) {
+                                        state = -1;
+                                    }else if(response.indexOf("PASS_CODE_EMPTY")>0){
+										state = 2;
+									}
+
+                                    callback && callback({
+                                        state: state
+                                    });
+                                },
+                                error: function () {
+                                    callback && callback({
+                                        state: 0
+                                    });
+                                }
+
+                            })
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+					}
+
+        };
+    });
 
     container.define("gm", [], function () {
         var obj = {};
@@ -836,251 +1149,6 @@
 
         return obj;
     });
-    /**
-     *  配置网盘参数 网盘名
-     *  reg 匹配正则
-     *  replaceReg dom替换正则
-     *  prefix shareId前缀
-     *  checkFun 有效性检测函数
-     **/
-    container.define("constant", ["logger", "http"], function (logger, http) {
-        return {
-            baidu: {
-                reg: /(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
-                prefix: "https://pan.baidu.com/s/",
-                checkFun: function (shareId, callback) {
-                    var url = shareId.indexOf("http") > -1 ? shareId : "https://pan.baidu.com/s/" + shareId;
-                    http.ajax({
-                        type: "get",
-                        url: url,
-                        success: function (response) {
-                            var state = 1;
-                            if (response.indexOf("输入提取码") > 0) {
-                                state = 2;
-                            } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0) {
-                                state = -1;
-                            } else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
-                                state = -1;
-                            }
-                            callback && callback({
-                                state: state
-                            });
-                        },
-                        error: function () {
-                            callback && callback({
-                                state: 0
-                            });
-                        }
-                    });
-                }
-            },
-            weiyun: {
-                reg: /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
-                prefix: "https://share.weiyun.com/",
-                checkFun: function (shareId, callback) {
-                    var url = shareId.indexOf("http") > -1 ? shareId : "https://share.weiyun.com/" + shareId;
-                    http.ajax({
-                        type: "get",
-                        url: url,
-                        success: function (response) {
-                            var state = 1;
-                            if (response.indexOf("链接已删除") > 0 || response.indexOf("违反相关法规") > 0) {
-                                state = -1;
-                            } else if (response.indexOf('"share_key":null') > 0) {
-                                state = 2;
-                            }
-                            callback && callback({
-                                state: state
-                            });
-                        },
-                        error: function () {
-                            callback && callback({
-                                state: 0
-                            });
-                        }
-                    });
-                }
-            },
-            lanzou: {
-                reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([a-zA-Z0-9_\-]{5,22})\b/gi,
-                prefix: "https://www.lanzouw.com/",
-                checkFun: function (shareId, callback) {
-                    var url = shareId.indexOf("http") > -1 ? shareId : "https://www.lanzouw.com/" + shareId;
-                    http.ajax({
-                        type: "get",
-                        url: url,
-                        success: function (response) {
-                            var state = 1;
-                            if (response.indexOf("输入密码") > 0) {
-                                state = 2;
-                            } else if (response.indexOf("来晚啦") > 0 || response.indexOf("不存在") > 0) {
-                                state = -1;
-                            }
-                            callback && callback({
-                                state: state
-                            });
-                        },
-                        error: function () {
-                            callback && callback({
-                                state: 0
-                            });
-                        }
-                    });
-                }
-            },
-            aliyun: {
-                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi,
-                prefix: "https://www.aliyundrive.com/s/",
-                checkFun: function (shareId, callback) {
-                    logger.info("checkLinkAliYun id " + shareId);
-                    http.ajax({
-                        type: "post",
-                        url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
-                        data: JSON.stringify({
-                            share_id: shareId
-                        }),
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-                        dataType: "json",
-                        success: function (response) {
-                            logger.debug("aliyun response " + response);
-                            var state = 1;
-                            // 密码  state = 2  错误 state = -1
-                            if (response['code']) {
-                                state = -1;
-                            }
-
-                            callback && callback({
-                                state: state
-                            });
-                        },
-                        error: function () {
-                            callback && callback({
-                                state: 0
-                            });
-                        }
-                    });
-                }
-            },
-            pan123: {
-                reg: /(?:https?:\/\/)?(?:www\.)?pan123\.com\/s\/([a-zA-Z0-9_\-]{8,14})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:www\.)?123pan\.com\/s\/([a-zA-Z0-9_\-]{5,22})\b/gi,
-                prefix: "https://www.123pan.com/s/",
-                checkFun: function (shareId, callback) {
-                    logger.info("checkPan123 id " + shareId);
-                    http.ajax({
-                        type: "get",
-                        url: "https://www.123pan.com/api/share/info?shareKey=" + shareId,
-                        success: function (response) {
-                            logger.debug("checkPan123 response " + response);
-                            var rsp = JSON.parse(response);
-                            var state = 1;
-                            // 密码  state = 2  错误 state = -1
-                            if (response.indexOf("分享页面不存在") > 0 || rsp.code != 0) {
-                                state = -1;
-                            } else if (rsp.data.HasPwd) {
-                                state = 2;
-                            }
-
-                            callback && callback({
-                                state: state
-                            });
-                        },
-                        error: function () {
-                            callback && callback({
-                                state: 0
-                            });
-                        }
-                    });
-                }
-            },
-            ty189: {
-                reg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})/gi,
-                replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([a-zA-Z0-9_\-]{8,14})\b/gi,
-                prefix: "https://cloud.189.cn/t/",
-                checkFun: function (shareId, callback) {
-                    http.ajax({
-                        type: "post",
-                        url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
-                        data: {
-                            shareCode: shareId
-                        },
-                        success: function (response) {
-                            logger.debug("checkLinkTy189 " + shareId + " " + response);
-                            var state = 1;
-                            if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
-                                state = -1;
-                            }
-
-                            callback && callback({
-                                state: state
-                            });
-                        },
-                        error: function () {
-                            callback && callback({
-                                state: 0
-                            });
-                        }
-                    });
-                }
-            },
-            quark: {
-                reg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([a-zA-Z0-9_\-]{8,14})/gi,
-                replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([a-zA-Z0-9_\-]{8,14})\b/gi,
-                prefix: "https://pan.quark.cn/s/",
-                checkFun: function (shareId, callback) {
-                    logger.info("checkPan123 id " + shareId);
-                    http.ajax({
-                        type: "post",
-						data: JSON.stringify({pwd_id:shareId,passcode:""}),
-                        url: "https://drive.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=pc",
-                        success: function (response) {
-                            logger.debug("Quark token response " + response);
-                            var rsp = JSON.parse(response);
-							var token  = rsp.data?rsp.data.stoken :
-							"A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D";
-                            http.ajax({
-                                type: "get",
-                                url: "https://drive.quark.cn/1/clouddrive/share/sharepage/detail?pwd_id=" + shareId + "&force=0&stoken=" + encodeURIComponent(token),
-                                success: function (response) {
-                                    logger.debug("Quark detail response " + response);
-                                    var rsp = JSON.parse(response);
-
-                                    var state = 1;
-                                    // 密码  state = 2  错误 state = -1
-                                    if (rsp.code != 0) {
-                                        state = -1;
-                                    }
-
-                                    callback && callback({
-                                        state: state
-                                    });
-                                },
-                                error: function () {
-                                    callback && callback({
-                                        state: 0
-                                    });
-                                }
-
-                            })
-                        },
-                        error: function () {
-                            callback && callback({
-                                state: 0
-                            });
-                        }
-                    });
-                }
-            }
-
-        };
-    });
-
     container.define("resource", [], function () {
         var obj = {};
 
