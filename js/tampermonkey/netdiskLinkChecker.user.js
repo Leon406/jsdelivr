@@ -43,7 +43,7 @@
         "name": "ljjc",
         "urls": {},
         "logger_level": 3,
-        "options_page": "http://go.newday.me/s/link-option"
+        "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var container = (function () {
         var obj = {
