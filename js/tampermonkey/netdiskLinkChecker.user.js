@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.6.2
+// @version      0.7.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘
+// @note         22-02-27 0.7.0 支持奶牛网盘
 // @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
 // @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
 // @note         22-02-17 0.4.0 配置化改造,适配其他网盘
@@ -20,6 +21,7 @@
 // @connect      www.123pan.com
 // @connect      quark.cn
 // @connect      xunlei.com
+// @connect      cowtransfer.com
 // @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
 // @require      https://cdn.staticfile.org/snap.svg/0.5.1/snap.svg-min.js
 // @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -188,7 +190,7 @@
             lanzou: {
                 reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([\w\-]{5,22})\b/gi,
-				aTagRepalce: ["lanzous","lanzouw"],
+                aTagRepalce: ["lanzous", "lanzouw"],
                 prefix: "https://www.lanzouw.com/",
                 checkFun: function (shareId, callback) {
                     var url = shareId.indexOf("http") > -1 ? shareId : "https://www.lanzouw.com/" + shareId;
@@ -375,12 +377,12 @@
                             client_id: "Xqp0kJBXWhwaTpB6",
                             device_id: "925b7631473a13716b791d7f28289cad",
                             action: "get:/drive/v1/share",
-							meta: {
-							    package_name: "pan.xunlei.com",
-							    client_version: "1.45.0",
-							    captcha_sign: "1.fe2108ad808a74c9ac0243309242726c",
-							    timestamp: "1645241033384"
-							}
+                            meta: {
+                                package_name: "pan.xunlei.com",
+                                client_version: "1.45.0",
+                                captcha_sign: "1.fe2108ad808a74c9ac0243309242726c",
+                                timestamp: "1645241033384"
+                            }
                         }),
                         url: "https://xluser-ssl.xunlei.com/v1/shield/captcha/init",
                         success: function (response) {
@@ -389,24 +391,23 @@
                             var token = rsp.captcha_token;
                             http.ajax({
                                 type: "get",
-                                url: "https://api-pan.xunlei.com/drive/v1/share?share_id=" + shareId.replace("https://pan.xunlei.com/s/",""),
+                                url: "https://api-pan.xunlei.com/drive/v1/share?share_id=" + shareId.replace("https://pan.xunlei.com/s/", ""),
                                 headers: {
-									"x-captcha-token":token,
-									"x-client-id":"Xqp0kJBXWhwaTpB6",
-									"x-device-id":"925b7631473a13716b791d7f28289cad",
-								},
-								success: function (response) {
+                                    "x-captcha-token": token,
+                                    "x-client-id": "Xqp0kJBXWhwaTpB6",
+                                    "x-device-id": "925b7631473a13716b791d7f28289cad",
+                                },
+                                success: function (response) {
                                     logger.debug("checkXunlei detail response " + response);
                                     var state = 1;
                                     // 密码  state = 2  错误 state = -1
-                                    if (response.indexOf("NOT_FOUND")>0
-									||response.indexOf("SENSITIVE_RESOURCE")>0
-									||response.indexOf("EXPIRED")>0
-									) {
+                                    if (response.indexOf("NOT_FOUND") > 0
+                                         || response.indexOf("SENSITIVE_RESOURCE") > 0
+                                         || response.indexOf("EXPIRED") > 0) {
                                         state = -1;
-                                    }else if(response.indexOf("PASS_CODE_EMPTY")>0){
-										state = 2;
-									}
+                                    } else if (response.indexOf("PASS_CODE_EMPTY") > 0) {
+                                        state = 2;
+                                    }
 
                                     callback && callback({
                                         state: state
@@ -427,7 +428,40 @@
                         }
                     });
                 }
-					}
+            },
+			 nainiu: {
+                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{25,})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{5,22})\b/gi,
+                prefix: "https://cowtransfer.com/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("nainiu check id " + shareId);
+                    http.ajax({
+                        type: "get",
+                        url: "https://cowtransfer.com/api/transfer/v2/transferdetail?url=" + shareId,
+                        success: function (response) {
+                            logger.debug("nainiu check response " + response);
+                            var rsp = JSON.parse(response);
+                            var state = 1;
+                            // 密码  state = 2  错误 state = -1
+                            if ( rsp.errorCode != 0) {
+                                state = -1;
+                            } else if (rsp.HasPwd) {
+                                state = 2;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            }
+            
 
         };
     });
@@ -1404,11 +1438,11 @@
                 if (parentNode.nodeName != "A") {
                     // 转超链接
                     $this.wrap('<a href="' + this.textContent + '" target="_blank"></a>');
-                }else if(constant[shareSource]["aTagRepalce"]){
-					var replacePair = constant[shareSource]["aTagRepalce"];
-					// 失效域名替换
-					parentNode.href = parentNode.href.replace(replacePair[0],replacePair[1])
-				}
+                } else if (constant[shareSource]["aTagRepalce"]) {
+                    var replacePair = constant[shareSource]["aTagRepalce"];
+                    // 失效域名替换
+                    parentNode.href = parentNode.href.replace(replacePair[0], replacePair[1])
+                }
 
                 checkManage.checkLinkAsync(shareSource, shareId, 0, function (response) {
                     if (response.state == 2) {
