@@ -1,6 +1,6 @@
 #github分享
-https://cdn.staticaly.com/gh/JACKUSR2089/v2ray-subscribed/master/2022-2-7
-https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2/master/0213.txt
+https://cdn.staticaly.com/gh/JACKUSR2089/v2ray-subscribed/master/2022-2-26
+https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2/master/0227.txt
 https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml
 https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
 https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/proxy.md
@@ -20,5 +20,5 @@ https://api.flgwls.com/link/vYu7bJeRAbPZbhxl?clash=1
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
 https://gitee.com/chenx58/clash/raw/V2R/V2R
-https://gitee.com/chenx58/clash/raw/V2R/02.13
 https://www.abrnya.com/ssr/clash.yaml
+https://v1.mk/m9SeHbU
