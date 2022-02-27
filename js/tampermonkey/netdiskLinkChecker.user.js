@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.7.0
+// @version      0.7.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
-// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘
-// @note         22-02-27 0.7.0 支持奶牛网盘
+// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘,奶牛网盘,文叔叔
+// @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
 // @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
 // @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
 // @note         22-02-17 0.4.0 配置化改造,适配其他网盘
@@ -22,6 +22,7 @@
 // @connect      quark.cn
 // @connect      xunlei.com
 // @connect      cowtransfer.com
+// @connect      wenshushu.cn
 // @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
 // @require      https://cdn.staticfile.org/snap.svg/0.5.1/snap.svg-min.js
 // @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -460,9 +461,44 @@
                         }
                     });
                 }
+            },
+			wenshushu: {
+                reg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})\b/gi,
+                prefix: "https://wss1.cn/f/",
+                checkFun: function (shareId, callback) {
+                    logger.info("wenshushu id " + shareId);
+                    http.ajax({
+                        type: "post",
+                        url: "https://www.wenshushu.cn/ap/task/mgrtask",
+                        data: JSON.stringify({
+                            tid: shareId
+                        }),
+                        headers: {
+                            "Content-Type": "application/json",
+                            "x-token": "wss:7pmakczzw6i"
+                        },
+                        dataType: "json",
+                        success: function (response) {
+                            logger.debug("wenshushu response ", response);
+                            var state = 1;
+                            if (response.code !=0) {
+                                state = -1;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
             }
             
-
         };
     });
 
