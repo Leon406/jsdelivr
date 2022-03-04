@@ -15,11 +15,11 @@
 // @note         22-01-27 0.2.9 支持阿里云盘,精简代码
 // @match        *://**/*
 // @connect      lanzouw.com
-// @connect      pan.baidu.com
-// @connect      share.weiyun.com
+// @connect      baidu.com
+// @connect      weiyun.com
 // @connect      aliyundrive.com
 // @connect      cloud.189.cn
-// @connect      www.123pan.com
+// @connect      123pan.com
 // @connect      quark.cn
 // @connect      xunlei.com
 // @connect      cowtransfer.com
