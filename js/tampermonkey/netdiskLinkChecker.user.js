@@ -136,17 +136,17 @@
                 replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: function (shareId, callback) {
-                    var url = shareId.indexOf("http") > -1 ? shareId : "https://pan.baidu.com/s/" + shareId;
+                    var url = shareId.includes("http") ? shareId : "https://pan.baidu.com/s/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
                         success: function (response) {
                             var state = 1;
-                            if (response.indexOf("输入提取") > 0) {
+                            if (response.includes("输入提取")) {
                                 state = 2;
-                            } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0 || response.indexOf("链接错误")> 0) {
+                            } else if (response.includes("页面不存在了") || response.includes("来晚了") || response.includes("链接错误")) {
                                 state = -1;
-                            } else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
+                            } else if (response.includes("可能的原因") || response.includes("分享的文件已经被取消了") || response.includes("分享内容可能因为涉及侵权")) {
                                 state = -1;
                             }
                             callback && callback({
@@ -166,15 +166,15 @@
                 replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{5,22})\b/gi,
                 prefix: "https://share.weiyun.com/",
                 checkFun: function (shareId, callback) {
-                    var url = shareId.indexOf("http") > -1 ? shareId : "https://share.weiyun.com/" + shareId;
+                    var url = shareId.includes("http") ? shareId : "https://share.weiyun.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
                         success: function (response) {
                             var state = 1;
-                            if (response.indexOf("链接已删除") > 0 || response.indexOf("违反相关法规") > 0) {
+                            if (response.includes("链接已删除") || response.includes("违反相关法规")) {
                                 state = -1;
-                            } else if (response.indexOf('"share_key":null') > 0) {
+                            } else if (response.includes('"share_key":null')) {
                                 state = 2;
                             }
                             callback && callback({
@@ -195,15 +195,15 @@
                 aTagRepalce: ["lanzous", "lanzouw"],
                 prefix: "https://www.lanzouw.com/",
                 checkFun: function (shareId, callback) {
-                    var url = shareId.indexOf("http") > -1 ? shareId : "https://www.lanzouw.com/" + shareId;
+                    var url = shareId.includes("http") ? shareId : "https://www.lanzouw.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
                         success: function (response) {
                             var state = 1;
-                            if (response.indexOf("输入密码") > 0) {
+                            if (response.includes("输入密码")) {
                                 state = 2;
-                            } else if (response.indexOf("来晚啦") > 0 || response.indexOf("不存在") > 0) {
+                            } else if (response.includes("来晚啦") || response.includes("不存在")) {
                                 state = -1;
                             }
                             callback && callback({
@@ -267,8 +267,7 @@
                             logger.debug("Pan123 check response " + response);
                             var rsp = JSON.parse(response);
                             var state = 1;
-                            // 密码  state = 2  错误 state = -1
-                            if (response.indexOf("分享页面不存在") > 0 || rsp.code != 0) {
+                            if (response.includes("分享页面不存在") || rsp.code != 0) {
                                 state = -1;
                             } else if (rsp.data.HasPwd) {
                                 state = 2;
@@ -300,7 +299,7 @@
                         success: function (response) {
                             logger.debug("Ty189 chec " + shareId + " " + response);
                             var state = 1;
-                            if (response.indexOf("ShareInfoNotFound") > 0 || response.indexOf("FileNotFound") > 0 || response.indexOf("ShareExpiredError") > 0) {
+                            if (response.includes("ShareInfoNotFound") || response.includes("FileNotFound") || response.includes("ShareExpiredError")) {
                                 state = -1;
                             }
 
@@ -402,12 +401,11 @@
                                 success: function (response) {
                                     logger.debug("checkXunlei detail response " + response);
                                     var state = 1;
-                                    // 密码  state = 2  错误 state = -1
-                                    if (response.indexOf("NOT_FOUND") > 0
-                                         || response.indexOf("SENSITIVE_RESOURCE") > 0
-                                         || response.indexOf("EXPIRED") > 0) {
+                                    if (response.includes("NOT_FOUND")
+                                         || response.includes("SENSITIVE_RESOURCE")
+                                         || response.includes("EXPIRED")) {
                                         state = -1;
-                                    } else if (response.indexOf("PASS_CODE_EMPTY") > 0) {
+                                    } else if (response.includes("PASS_CODE_EMPTY")) {
                                         state = 2;
                                     }
 
@@ -431,8 +429,8 @@
                     });
                 }
             },
-			 nainiu: {
-                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{25,})/gi,
+            nainiu: {
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{25,})/gi,
                 replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://cowtransfer.com/s/",
                 checkFun: function (shareId, callback) {
@@ -445,7 +443,7 @@
                             var rsp = JSON.parse(response);
                             var state = 1;
                             // 密码  state = 2  错误 state = -1
-                            if ( rsp.errorCode != 0) {
+                            if (rsp.errorCode != 0) {
                                 state = -1;
                             } else if (rsp.HasPwd) {
                                 state = 2;
@@ -463,7 +461,7 @@
                     });
                 }
             },
-			wenshushu: {
+            wenshushu: {
                 reg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})\b/gi,
                 prefix: "https://wss1.cn/f/",
@@ -483,7 +481,7 @@
                         success: function (response) {
                             logger.debug("wenshushu response ", response);
                             var state = 1;
-                            if (response.code !=0) {
+                            if (response.code != 0) {
                                 state = -1;
                             }
 
@@ -499,7 +497,7 @@
                     });
                 }
             }
-            
+
         };
     });
 
@@ -975,7 +973,7 @@
         };
 
         obj.parseUrlParam = function (url) {
-            if (url.indexOf("?")) {
+            if (url.includes("?")) {
                 url = url.split("?")[1];
             }
             var reg = /([^=&\s]+)[=\s]*([^=&\s]*)/g;
@@ -1178,7 +1176,7 @@
         obj.matchApp = function (url, app) {
             var match = false;
             app.matchs.forEach(function (item) {
-                if (url.indexOf(item) > 0 || item == "*") {
+                if (url.includes(item) || item == "*") {
                     match = true;
                 }
             });
@@ -1415,7 +1413,7 @@
             var passUrl = config.getConfig("pass_url");
             var passList = passUrl ? passUrl.split("\n") : [];
             for (var i in passList) {
-                if (nowUrl.indexOf(passList[i]) >= 0) {
+                if (nowUrl.includes(passList[i])) {
                     return true;
                 }
             }
@@ -1423,7 +1421,7 @@
             var ignoreUrl = config.getConfig("ignore_url");
             var ignoreList = ignoreUrl ? ignoreUrl.split("\n") : ["bilibili.com"];
             for (var j in ignoreList) {
-                if (nowUrl.indexOf(ignoreList[j]) >= 0) {
+                if (nowUrl.includes(ignoreList[j])) {
                     return false;
                 }
             }
