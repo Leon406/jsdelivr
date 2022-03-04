@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.7.1
+// @version      0.7.2
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘,奶牛网盘,文叔叔
+// @note         22-03-04 0.7.2 优化百度企业网盘识别,百度失效链接识别
 // @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
 // @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
 // @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
@@ -131,8 +132,8 @@
     container.define("constant", ["logger", "http"], function (logger, http) {
         return {
             baidu: {
-                reg: /(?:https?:\/\/)?(yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
+                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: function (shareId, callback) {
                     var url = shareId.indexOf("http") > -1 ? shareId : "https://pan.baidu.com/s/" + shareId;
@@ -143,7 +144,7 @@
                             var state = 1;
                             if (response.indexOf("输入提取码") > 0) {
                                 state = 2;
-                            } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0) {
+                            } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0 || response.indexOf("链接错误")> 0) {
                                 state = -1;
                             } else if (response.indexOf("可能的原因") > 0 || response.indexOf("分享的文件已经被取消了") > 0 || response.indexOf("分享内容可能因为涉及侵权") > 0) {
                                 state = -1;
