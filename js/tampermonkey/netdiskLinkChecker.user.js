@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.7.2
+// @version      0.7.3
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘,奶牛网盘,文叔叔
-// @note         22-03-04 0.7.2 优化百度企业网盘识别,百度失效链接识别
+// @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
 // @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
 // @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
 // @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
@@ -14,7 +14,7 @@
 // @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
 // @note         22-01-27 0.2.9 支持阿里云盘,精简代码
 // @match        *://**/*
-// @connect      lanzouw.com
+// @connect      lanzoub.com
 // @connect      baidu.com
 // @connect      weiyun.com
 // @connect      aliyundrive.com
@@ -192,10 +192,10 @@
             lanzou: {
                 reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([\w\-]{5,22})\b/gi,
-                aTagRepalce: ["lanzous", "lanzouw"],
-                prefix: "https://www.lanzouw.com/",
+                aTagRepalce: [/\w+\.lanzou.?/, "www.lanzoub"],
+                prefix: "https://www.lanzoub.com/",
                 checkFun: function (shareId, callback) {
-                    var url = shareId.includes("http") ? shareId : "https://www.lanzouw.com/" + shareId;
+                    var url = shareId.includes("http") ? shareId : "https://www.lanzoub.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
