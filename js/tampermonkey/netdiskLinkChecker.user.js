@@ -142,7 +142,7 @@
                         url: url,
                         success: function (response) {
                             var state = 1;
-                            if (response.indexOf("输入提取码") > 0) {
+                            if (response.indexOf("输入提取") > 0) {
                                 state = 2;
                             } else if (response.indexOf("页面不存在了") > 0 || response.indexOf("来晚了") > 0 || response.indexOf("链接错误")> 0) {
                                 state = -1;
