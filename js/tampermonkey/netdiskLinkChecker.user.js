@@ -255,8 +255,8 @@
                 }
             },
             pan123: {
-                reg: /(?:https?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,14})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{5,22})\b/gi,
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,14})/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://www.123pan.com/s/",
                 checkFun: function (shareId, callback) {
                     logger.info("Pan123 check id " + shareId);
