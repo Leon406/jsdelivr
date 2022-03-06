@@ -12,13 +12,9 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
+https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
 #分享订阅
-https://v1.mk/ZpE8RQI
-https://xn--9kq018c4i8a.xyz/link/H5WmLMt8AAE4qinU?sub=3
-https://xtaolabs.com/uwork.yaml
-https://api.flgwls.com/link/vYu7bJeRAbPZbhxl?clash=1
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
 https://gitee.com/chenx58/clash/raw/V2R/V2R
-https://www.abrnya.com/ssr/clash.yaml
 https://v1.mk/m9SeHbU
