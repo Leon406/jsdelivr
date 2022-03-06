@@ -172,7 +172,7 @@
                         url: url,
                         success: function (response) {
                             var state = 1;
-                            if (response.includes("链接已删除") || response.includes("违反相关法规")) {
+                            if (response.includes("链接已删除") || response.includes("违反相关法规")||response.includes("分享资源已过期")) {
                                 state = -1;
                             } else if (response.includes('"share_key":null')) {
                                 state = 2;
