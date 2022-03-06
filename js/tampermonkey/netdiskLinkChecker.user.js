@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.8.0
+// @version      0.8.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-03-06 0.8.0 支持115网盘,优化天翼云识别
+// @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
 // @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
 // @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
 // @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
