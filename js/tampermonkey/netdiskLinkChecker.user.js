@@ -171,10 +171,13 @@
                         type: "get",
                         url: url,
                         success: function (response) {
-                            var state = 1;
-                            if (response.includes("链接已删除") || response.includes("违反相关法规")||response.includes("分享资源已过期")) {
+                            var state = 0;
+							logger.info(shareId +" weiyun  " +response);
+                            if (response.includes("已删除") || response.includes("违反相关法规")||response.includes("已过期")||response.includes("已经删除")) {
                                 state = -1;
-                            } else if (response.includes('"share_key":null')) {
+                            } else if (response.includes('"need_pwd":null')&&response.includes('"pwd":""')) {
+                                state = 1;
+                            }else if (response.includes('"need_pwd":1')||response.includes('"pwd":"')) {
                                 state = 2;
                             }
                             callback && callback({
