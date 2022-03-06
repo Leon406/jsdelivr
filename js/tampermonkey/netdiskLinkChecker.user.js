@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.7.3
+// @version      0.7.4
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
-// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘,奶牛网盘,文叔叔
+// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
+// @note         22-03-06 0.8.0 支持115网盘,优化天翼云识别
 // @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
 // @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
 // @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
@@ -24,6 +25,7 @@
 // @connect      xunlei.com
 // @connect      cowtransfer.com
 // @connect      wenshushu.cn
+// @connect      115.com
 // @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
 // @require      https://cdn.staticfile.org/snap.svg/0.5.1/snap.svg-min.js
 // @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -144,9 +146,7 @@
                             var state = 1;
                             if (response.includes("输入提取")) {
                                 state = 2;
-                            } else if (response.includes("页面不存在了") || response.includes("来晚了") || response.includes("链接错误")) {
-                                state = -1;
-                            } else if (response.includes("可能的原因") || response.includes("分享的文件已经被取消了") || response.includes("分享内容可能因为涉及侵权")) {
+                            } else if (response.includes("不存在")) {
                                 state = -1;
                             }
                             callback && callback({
@@ -286,9 +286,10 @@
                 }
             },
             ty189: {
-                reg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([\w\-]{8,14})/gi,
-                replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/t\/([\w\-]{8,14})\b/gi,
+                reg: /(?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)([\w\-]{8,14})/gi,
+                replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)([\w\-]{8,14})\b/gi,
                 prefix: "https://cloud.189.cn/t/",
+                aTagRepalce: [/\/web\/share\?code=/, "/t/"],
                 checkFun: function (shareId, callback) {
                     http.ajax({
                         type: "post",
@@ -298,9 +299,12 @@
                         },
                         success: function (response) {
                             logger.debug("Ty189 chec " + shareId + " " + response);
+
                             var state = 1;
                             if (response.includes("ShareInfoNotFound") || response.includes("FileNotFound") || response.includes("ShareExpiredError")) {
                                 state = -1;
+                            } else if (response.includes("needAccessCode")) {
+                                state = 2;
                             }
 
                             callback && callback({
@@ -442,7 +446,6 @@
                             logger.debug("nainiu check response " + response);
                             var rsp = JSON.parse(response);
                             var state = 1;
-                            // 密码  state = 2  错误 state = -1
                             if (rsp.errorCode != 0) {
                                 state = -1;
                             } else if (rsp.HasPwd) {
@@ -496,8 +499,41 @@
                         }
                     });
                 }
-            }
+            },
+            pan115: {
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,14})/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{5,22})\b/gi,
+                prefix: "https://115.com/s/",
+                checkFun: function (shareId, callback) {
+                    logger.info("Pan115 check id " + shareId);
+					shareId = shareId.replace("https://115.com/s/","");
+                    http.ajax({
+                        type: "get",
+                        url: "https://webapi.115.com/share/snap?share_code=" + shareId +"&receive_code=",
+                        success: function (response) {
+                            logger.debug("115Pan check response " + response);
+                            var rsp = typeof response =="string"?  JSON.parse(response):response;
+                            var state = 0;
+                            if (rsp.state) {
+                                state = 1;
+                            } else if (rsp.error.includes("访问码")) {
+                                state = 2;
+                            }else if (rsp.error.includes("链接")){
+								state = -1;
+							}
 
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            }
         };
     });
 
