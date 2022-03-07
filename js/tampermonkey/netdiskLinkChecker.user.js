@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      0.8.1
+// @version      1.0.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
+// @note         22-03-07 1.0.0 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码
 // @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
 // @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
 // @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
@@ -135,14 +136,14 @@
                 reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi,
                 replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
                 prefix: "https://pan.baidu.com/s/",
-                checkFun: (shareId, callback)=> {
-                    var url = shareId.includes("http") ? shareId : "https://pan.baidu.com/s/" + shareId;
-                    logger.error("baiddu checkFun", url, shareId);
+                checkFun: (shareId, callback) => {
+                    let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/s/" + shareId;
+                    logger.info("baiddu checkFun", url, shareId);
                     http.ajax({
                         type: "get",
                         url: url,
                         success: (response) => {
-                            var state = 1;
+                            let state = 1;
                             if (response.includes("输入提取")) {
                                 state = 2;
                             } else if (response.includes("不存在")) {
@@ -164,14 +165,14 @@
                 reg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{5,22})\b/gi,
                 prefix: "https://share.weiyun.com/",
-                checkFun: (shareId, callback)=> {
-                    var url = shareId.includes("http") ? shareId : "https://share.weiyun.com/" + shareId;
+                checkFun: (shareId, callback) => {
+                    let url = shareId.includes("http") ? shareId : "https://share.weiyun.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
                         success: (response) => {
-                            var state = 0;
-                            logger.info(shareId + " weiyun  " + response);
+                            let state = 0;
+                            logger.info(shareId, "weiyun", response);
                             if (response.includes("已删除") || response.includes("违反相关法规") || response.includes("已过期") || response.includes("已经删除")) {
                                 state = -1;
                             } else if (response.includes('"need_pwd":null') && response.includes('"pwd":""')) {
@@ -196,13 +197,13 @@
                 replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([\w\-]{5,22})\b/gi,
                 aTagRepalce: [/\w+\.lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
-                checkFun: (shareId, callback)=> {
-                    var url = shareId.includes("http") ? shareId : "https://www.lanzoub.com/" + shareId;
+                checkFun: (shareId, callback) => {
+                    let url = shareId.includes("http") ? shareId : "https://www.lanzoub.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
                         success: (response) => {
-                            var state = 1;
+                            let state = 1;
                             if (response.includes("输入密码")) {
                                 state = 2;
                             } else if (response.includes("来晚啦") || response.includes("不存在")) {
@@ -224,8 +225,8 @@
                 reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://www.aliyundrive.com/s/",
-                checkFun: (shareId, callback)=> {
-                    logger.info("aliyun id " + shareId);
+                checkFun: (shareId, callback) => {
+                    logger.info("aliyun id ", shareId);
                     http.ajax({
                         type: "post",
                         url: "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous",
@@ -237,9 +238,8 @@
                         },
                         dataType: "json",
                         success: (response) => {
-                            logger.debug("aliyun response " + response);
-                            var state = 1;
-                            // 密码  state = 2  错误 state = -1
+                            logger.debug("aliyun response ", response);
+                            let state = 1;
                             if (response['code']) {
                                 state = -1;
                             }
@@ -260,15 +260,15 @@
                 reg: /(?:h?ttps?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,14})/gi,
                 replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://www.123pan.com/s/",
-                checkFun: (shareId, callback)=> {
+                checkFun: (shareId, callback) => {
                     logger.info("Pan123 check id " + shareId);
                     http.ajax({
                         type: "get",
                         url: "https://www.123pan.com/api/share/info?shareKey=" + shareId,
                         success: (response) => {
-                            logger.debug("Pan123 check response " + response);
-                            var rsp = JSON.parse(response);
-                            var state = 1;
+                            logger.debug("Pan123 check response", response);
+                            let rsp = typeof response == "string" ? JSON.parse(response) : response;
+                            let state = 1;
                             if (response.includes("分享页面不存在") || rsp.code != 0) {
                                 state = -1;
                             } else if (rsp.data.HasPwd) {
@@ -292,7 +292,7 @@
                 replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)([\w\-]{8,14})\b/gi,
                 prefix: "https://cloud.189.cn/t/",
                 aTagRepalce: [/\/web\/share\?code=/, "/t/"],
-                checkFun: (shareId, callback)=> {
+                checkFun: (shareId, callback) => {
                     http.ajax({
                         type: "post",
                         url: "https://api.cloud.189.cn/open/share/getShareInfoByCodeV2.action",
@@ -300,9 +300,8 @@
                             shareCode: shareId
                         },
                         success: (response) => {
-                            logger.debug("Ty189 chec " + shareId + " " + response);
-
-                            var state = 1;
+                            logger.debug("Ty189 chec", shareId, response);
+                            let state = 1;
                             if (response.includes("ShareInfoNotFound") || response.includes("FileNotFound") || response.includes("ShareExpiredError")) {
                                 state = -1;
                             } else if (response.includes("needAccessCode")) {
@@ -325,7 +324,7 @@
                 reg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,14})/gi,
                 replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,14})\b/gi,
                 prefix: "https://pan.quark.cn/s/",
-                checkFun: (shareId, callback)=> {
+                checkFun: (shareId, callback) => {
                     logger.info("Quark check id " + shareId);
                     http.ajax({
                         type: "post",
@@ -335,20 +334,18 @@
                         }),
                         url: "https://drive.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=pc",
                         success: (response) => {
-                            logger.debug("Quark token response " + response);
-                            var rsp = JSON.parse(response);
-                            var token = rsp.data ? rsp.data.stoken :
+                            logger.debug("Quark token response", response);
+                            let rsp = typeof response == "string" ? JSON.parse(response) : response;
+                            let token = rsp.data ? rsp.data.stoken :
                                 "A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D";
                             http.ajax({
                                 type: "get",
                                 url: "https://drive.quark.cn/1/clouddrive/share/sharepage/detail?pwd_id=" + shareId + "&force=0&stoken=" + encodeURIComponent(token),
                                 success: (response) => {
-                                    logger.debug("Quark detail response " + response);
-                                    var rsp = JSON.parse(response);
-
-                                    var state = 1;
-                                    // 密码  state = 2  错误 state = -1
-                                    if (rsp.code != 0) {
+                                    logger.debug("Quark detail response", response);
+                                    let rsp2 = typeof response == "string" ? JSON.parse(response) : response;
+                                    let state = 1;
+                                    if (rsp2.code != 0) {
                                         state = -1;
                                     }
 
@@ -376,8 +373,8 @@
                 reg: /(?:https?:\/\/)?pan.xunlei\.com\/s\/([\w\-]{25,})/gi,
                 replaceReg: /(?:https?:\/\/)?pan.xunlei\.com\/s\/([\w\-]{25,})\b/gi,
                 prefix: "https://pan.xunlei.com/s/",
-                checkFun: (shareId, callback)=> {
-                    logger.info("checkXunlei id " + shareId);
+                checkFun: (shareId, callback) => {
+                    logger.info("checkXunlei id", shareId);
                     http.ajax({
                         type: "post",
                         data: JSON.stringify({
@@ -393,9 +390,9 @@
                         }),
                         url: "https://xluser-ssl.xunlei.com/v1/shield/captcha/init",
                         success: (response) => {
-                            logger.debug("xunlei token response " + response);
-                            var rsp = JSON.parse(response);
-                            var token = rsp.captcha_token;
+                            logger.debug("xunlei token response", response);
+                            let rsp = JSON.parse(response);
+                            let token = rsp.captcha_token;
                             http.ajax({
                                 type: "get",
                                 url: "https://api-pan.xunlei.com/drive/v1/share?share_id=" + shareId.replace("https://pan.xunlei.com/s/", ""),
@@ -405,8 +402,8 @@
                                     "x-device-id": "925b7631473a13716b791d7f28289cad",
                                 },
                                 success: (response) => {
-                                    logger.debug("checkXunlei detail response " + response);
-                                    var state = 1;
+                                    logger.debug("checkXunlei detail response", response);
+                                    let state = 1;
                                     if (response.includes("NOT_FOUND")
                                          || response.includes("SENSITIVE_RESOURCE")
                                          || response.includes("EXPIRED")) {
@@ -439,15 +436,15 @@
                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{25,})/gi,
                 replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://cowtransfer.com/s/",
-                checkFun: (shareId, callback)=> {
-                    logger.info("nainiu check id " + shareId);
+                checkFun: (shareId, callback) => {
+                    logger.info("nainiu check id", shareId);
                     http.ajax({
                         type: "get",
                         url: "https://cowtransfer.com/api/transfer/v2/transferdetail?url=" + shareId,
                         success: (response) => {
-                            logger.debug("nainiu check response " + response);
-                            var rsp = JSON.parse(response);
-                            var state = 1;
+                            logger.debug("nainiu check response", response);
+                            let rsp = typeof response == "string" ? JSON.parse(response) : response;
+                            let state = 1;
                             if (rsp.errorCode != 0) {
                                 state = -1;
                             } else if (rsp.HasPwd) {
@@ -470,8 +467,8 @@
                 reg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})\b/gi,
                 prefix: "https://wss1.cn/f/",
-                checkFun: (shareId, callback)=> {
-                    logger.info("wenshushu id " + shareId);
+                checkFun: (shareId, callback) => {
+                    logger.info("wenshushu id", shareId);
                     http.ajax({
                         type: "post",
                         url: "https://www.wenshushu.cn/ap/task/mgrtask",
@@ -485,7 +482,7 @@
                         dataType: "json",
                         success: (response) => {
                             logger.debug("wenshushu response ", response);
-                            var state = 1;
+                            let state = 1;
                             if (response.code != 0) {
                                 state = -1;
                             }
@@ -506,16 +503,16 @@
                 reg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,14})/gi,
                 replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{5,22})\b/gi,
                 prefix: "https://115.com/s/",
-                checkFun: (shareId, callback)=> {
+                checkFun: (shareId, callback) => {
                     logger.info("Pan115 check id " + shareId);
                     shareId = shareId.replace("https://115.com/s/", "");
                     http.ajax({
                         type: "get",
                         url: "https://webapi.115.com/share/snap?share_code=" + shareId + "&receive_code=",
                         success: (response) => {
-                            logger.debug("115Pan check response " + response);
-                            var rsp = typeof response == "string" ? JSON.parse(response) : response;
-                            var state = 0;
+                            logger.debug("115Pan check response", response);
+                            let rsp = typeof response == "string" ? JSON.parse(response) : response;
+                            let state = 0;
                             if (rsp.state) {
                                 state = 1;
                             } else if (rsp.error.includes("访问码")) {
@@ -849,6 +846,7 @@
         return obj;
     });
 
+    //网络请求库 GM_xmlhttpRequest
     container.define("http", ["logger"], function (logger) {
         var obj = {};
 
@@ -891,14 +889,13 @@
                 details.timeout = option.timeout;
             }
 
-            logger.debug("xmlhttpRequest: " + details)
-            logger.debug(details)
+            logger.debug("xmlhttpRequest", details)
             GM_xmlhttpRequest(details);
         };
 
         return obj;
     });
-
+    //日志库
     container.define("logger", ["env", "manifest"], function (env, manifest) {
         var obj = {
             constant: {
@@ -920,10 +917,20 @@
             }
 
             console.group("[" + env.getName() + "]" + env.getMode());
-            console.log(message, m2, m3, m4, m5);
-            console.groupEnd();
-        };
+            if (m5) {
+                console.log(message, m2, m3, m4, m5);
+            } else if (m4) {
+                console.log(message, m2, m3, m4);
+            } else if (m3) {
+                console.log(message, m2, m3);
+            } else if (m2) {
+                console.log(message, m2);
+            } else {
+                console.log(message);
+            }
 
+        };
+        console.groupEnd();
         return obj;
     });
 
@@ -987,7 +994,7 @@
 
         obj.matchApp = function (url, app) {
             var match = false;
-            app.matchs.forEach(function (item) {
+            app.matchs && app.matchs.forEach(function (item) {
                 if (url.includes(item) || item == "*") {
                     match = true;
                 }
@@ -1004,23 +1011,9 @@
             daos: {}
         };
 
-        obj.getConfigDao = function () {
-            return obj.getDao("config", function () {
-                return ScopeDao(gmDao, "$config");
-            });
-        };
-
-        obj.getStorageDao = function () {
-            return obj.getDao("storage", function () {
-                return ScopeDao(gmDao, "$storage");
-            });
-        };
-
-        obj.getCheckDao = function () {
-            return obj.getDao("check", function () {
-                return ScopeDao(gmDao, "$check");
-            });
-        };
+        obj.getConfigDao = () => obj.getDao("config", () => ScopeDao(gmDao, "$config"));
+        obj.getStorageDao = () => obj.getDao("storage", () => ScopeDao(gmDao, "$storage"));
+        obj.getCheckDao = () => obj.getDao("check", () => ScopeDao(gmDao, "$check"));
 
         obj.getDao = function (key, createFunc) {
             if (!obj.daos.hasOwnProperty(key)) {
@@ -1051,10 +1044,8 @@
     //检测网盘链接
     container.define("api", ["logger", "manifest", "constant"], function (logger, manifest, constant) {
         var obj = {};
-
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
-            logger.info("checkLinkLocal " + shareSource + " " + shareId);
-
+            logger.info("checkLinkLocal", shareSource, shareId);
             var rule = constant[shareSource];
             if (rule) {
                 rule["checkFun"](shareId, callback)
@@ -1109,7 +1100,6 @@
         obj.checkLinkBatch = function (items, callback) {
             obj.syncLinkBatch(items, function () {
                 callback();
-
                 items.forEach(function (item) {
                     try {
                         obj.checkLink(item.share_source, item.share_id, item.bear_time, item.callback);
@@ -1122,12 +1112,20 @@
 
         obj.checkLink = function (shareSource, shareId, bearTime, callback) {
             var item = obj.getItem(shareSource, shareId);
-            bearTime || (bearTime = 86400 * 3);
-            if (item instanceof Object && item.check_time > (new Date()).getTime() - bearTime) {
+            bearTime || (bearTime = 86400 * 1000);
+            //失效链接,不再进行请求,有效及带密码链接1天内更新
+            if (item && item.check_time && (item.check_state < 0 || (new Date()).getTime() - item.check_time < bearTime)) {
+                if (item.check_state < 0) {
+                    logger.info("=====checkLink state from db=====  ","无效链接,不再进行网络请求");
+                } else {
+                    logger.info("=====checkLink state from db===== 剩余缓存时效(min) ", Math.round((bearTime - new Date().getTime() + item.check_time) / 1000 / 60));
+                }
+
                 callback && callback({
                     state: item.check_state
                 });
             } else {
+                logger.info("=====checkLink state from net=====")
                 api.checkLinkLocal(shareSource, shareId, function (item) {
                     if (item instanceof Object && item.state != 0) {
                         obj.setItem(shareSource, shareId, item.state);
@@ -1146,7 +1144,9 @@
         };
 
         obj.getItem = function (shareSource, shareId) {
-            return obj.getDao().get(obj.buildShareKey(shareSource, shareId));
+            let key = obj.buildShareKey(shareSource, shareId);
+            var conf = GM_getValue("$check");
+            return conf && conf.hasOwnProperty(key) && conf[key];
         };
 
         obj.setItem = function (shareSource, shareId, checkState) {
@@ -1306,7 +1306,6 @@
                     if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
                         return portion.text;
                     } else {
-                        //console.log("findAndReplaceDOMText",portion)
                         var shareId = getShareId(match);
                         var node = obj.createOnePanNode(shareId, shareSource);
                         node.textContent = obj.buildShareUrl(shareId, shareSource);
