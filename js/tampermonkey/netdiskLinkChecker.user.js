@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.0.0
+// @version      1.0.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-03-07 1.0.0 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码
+// @note         22-03-07 1.0.1 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码
 // @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
 // @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
 // @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
@@ -46,8 +46,9 @@
 
     var manifest = {
         "name": "ljjc",
-        "urls": {},
         "logger_level": 3,
+        "checkTimes": 3,
+        "checkInterval": 60,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var container = (function () {
@@ -75,7 +76,6 @@
             } else if (obj.defines.hasOwnProperty(name)) {
                 var requires = obj.defines[name].requires;
                 var callback = obj.defines[name].callback;
-
                 var module = obj.use(requires, callback);
                 cache && obj.register(name, module);
                 return module;
@@ -697,89 +697,7 @@
         };
     });
 
-    container.define("config", ["factory"], function (factory) {
-        var obj = {};
-
-        obj.getConfig = function (name) {
-            return obj.getDao().get(name);
-        };
-
-        obj.setConfig = function (name, value) {
-            obj.getDao().set(name, value);
-        };
-
-        obj.getAll = function () {
-            return obj.getDao().getAll();
-        };
-
-        obj.getDao = function () {
-            return factory.getConfigDao();
-        };
-
-        return obj;
-    });
-
-    container.define("storage", ["factory"], function (factory) {
-        var obj = {};
-
-        obj.getValue = function (name) {
-            return obj.getDao().get(name);
-        };
-
-        obj.setValue = function (name, value) {
-            obj.getDao().set(name, value);
-        };
-
-        obj.getAll = function () {
-            return obj.getDao().getAll();
-        };
-
-        obj.getDao = function () {
-            return factory.getStorageDao();
-        };
-
-        return obj;
-    });
-
-    container.define("manifest", [], function () {
-        var obj = {
-            manifest: manifest
-        };
-
-        obj.getItem = function (name) {
-            return obj.manifest[name];
-        };
-
-        obj.getManifest = function () {
-            return obj.manifest;
-        };
-
-        obj.getName = function () {
-            return obj.getItem("name");
-        };
-
-        obj.getAppName = function () {
-            return obj.getItem("app_name");
-        };
-
-        obj.getUrl = function (name) {
-            var urls = obj.getItem("urls");
-            (urls instanceof Object) || (urls = {});
-            return urls[name];
-        };
-
-        obj.getOptionsPage = function () {
-            if (GM_info.script.optionUrl) {
-                return GM_info.script.optionUrl;
-            } else {
-                return obj.getItem("options_page");
-            }
-        };
-
-        return obj;
-    });
-
-    container.define("env", ["config", "manifest"], function (config, manifest) {
+    container.define("env", [], function () {
         var obj = {
             modes: {
                 ADDON: "addon",
@@ -788,7 +706,7 @@
         };
 
         obj.getName = function () {
-            return manifest.getName();
+            return manifest["name"];
         };
 
         obj.getMode = function () {
@@ -807,15 +725,6 @@
             }
         };
 
-        obj.getUid = function () {
-            var uid = config.getConfig("uid");
-            if (!uid) {
-                uid = obj.randString(32);
-                config.setConfig("uid", uid);
-            }
-            return uid;
-        };
-
         obj.getVersion = function () {
             return GM_info.script.version;
         };
@@ -828,7 +737,6 @@
             return {
                 mode: obj.getMode(),
                 aid: obj.getAid(),
-                uid: obj.getUid(),
                 version: obj.getVersion(),
                 edition: obj.getEdition()
             };
@@ -896,7 +804,7 @@
         return obj;
     });
     //日志库
-    container.define("logger", ["env", "manifest"], function (env, manifest) {
+    container.define("logger", ["env"], function (env) {
         var obj = {
             constant: {
                 DEBUG: 0,
@@ -912,7 +820,7 @@
         obj.warn = (message, m2, m3, m4, m5) => obj.log(obj.constant.WARN, message, m2, m3, m4, m5);
         obj.error = (message, m2, m3, m4, m5) => obj.log(obj.constant.ERROR, message, m2, m3, m4, m5);
         obj.log = (level, message, m2, m3, m4, m5) => {
-            if (level < manifest.getItem("logger_level")) {
+            if (level < manifest["logger_level"]) {
                 return false;
             }
 
@@ -1011,7 +919,6 @@
             daos: {}
         };
 
-        obj.getConfigDao = () => obj.getDao("config", () => ScopeDao(gmDao, "$config"));
         obj.getStorageDao = () => obj.getDao("storage", () => ScopeDao(gmDao, "$storage"));
         obj.getCheckDao = () => obj.getDao("check", () => ScopeDao(gmDao, "$check"));
 
@@ -1042,7 +949,7 @@
     });
 
     //检测网盘链接
-    container.define("api", ["logger", "manifest", "constant"], function (logger, manifest, constant) {
+    container.define("api", ["logger", "constant"], function (logger, constant) {
         var obj = {};
         obj.checkLinkLocal = function (shareSource, shareId, callback) {
             logger.info("checkLinkLocal", shareSource, shareId);
@@ -1111,7 +1018,7 @@
         };
 
         obj.checkLink = function (shareSource, shareId, bearTime, callback) {
-            var item = obj.getItem(shareSource, shareId);
+            let item = obj.getItem(shareSource, shareId);
             bearTime || (bearTime = 86400 * 1000);
             //失效链接,不再进行请求,有效及带密码链接1天内更新
             if (item && item.check_time && (item.check_state < 0 || (new Date()).getTime() - item.check_time < bearTime)) {
@@ -1120,7 +1027,6 @@
                 } else {
                     logger.info("=====checkLink state from db===== 剩余缓存时效(min) ", Math.round((bearTime - new Date().getTime() + item.check_time) / 1000 / 60));
                 }
-
                 callback && callback({
                     state: item.check_state
                 });
@@ -1187,44 +1093,14 @@
     });
 
     /** app **/
-    container.define("app_check_url", ["constant", "config", "option", "checkManage", "findAndReplaceDOMText", "$"], function (constant, config, option, checkManage, findAndReplaceDOMText, $) {
+    container.define("app_check_url", ["constant",  "checkManage", "findAndReplaceDOMText", "$"], function (constant, checkManage, findAndReplaceDOMText, $) {
         var obj = {
             index: 0
         };
 
         obj.run = function () {
-            obj.isEnable() && obj.runMatch();
+            obj.runMatch();
             return false;
-        };
-
-        obj.isEnable = function () {
-            if (typeof findAndReplaceDOMText == "undefined") {
-                return false;
-            }
-
-            if (config.getConfig("check_switch") == "off") {
-                return false;
-            }
-
-            var nowUrl = location.href;
-
-            var passUrl = config.getConfig("pass_url");
-            var passList = passUrl ? passUrl.split("\n") : [];
-            for (var i in passList) {
-                if (nowUrl.includes(passList[i])) {
-                    return true;
-                }
-            }
-
-            var ignoreUrl = config.getConfig("ignore_url");
-            var ignoreList = ignoreUrl ? ignoreUrl.split("\n") : ["bilibili.com"];
-            for (var j in ignoreList) {
-                if (nowUrl.includes(ignoreList[j])) {
-                    return false;
-                }
-            }
-
-            return true;
         };
 
         obj.runMatch = function () {
@@ -1291,10 +1167,10 @@
 
             });
 
-            var checkTimes = obj.getCheckTimes();
+            var checkTimes = manifest["checkTimes"];
             if (checkTimes == 0 || obj.index < checkTimes) {
                 obj.index++;
-                setTimeout(obj.runMatch, 1000 * obj.getCheckInterval());
+                setTimeout(obj.runMatch, 1000 * manifest["checkInterval"]);
             }
         };
 
@@ -1316,24 +1192,6 @@
                     return true;
                 }
             });
-        };
-
-        obj.getCheckTimes = function () {
-            var checkTimes = parseInt(config.getConfig("check_times"));
-            if (isNaN(checkTimes)) {
-                checkTimes = 3;
-            }
-            return checkTimes;
-        };
-
-        obj.getCheckInterval = function () {
-            var checkInterval = parseInt(config.getConfig("check_interval"));
-            if (isNaN(checkInterval)) {
-                checkInterval = 2;
-            } else if (checkInterval < 1) {
-                checkInterval = 1;
-            }
-            return checkInterval;
         };
 
         obj.createOnePanNode = function (shareId, shareSource) {
