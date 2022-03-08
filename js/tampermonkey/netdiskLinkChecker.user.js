@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.0.1
+// @version      1.0.2
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-03-07 1.0.1 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码
+// @note         22-03-08 1.0.2 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码,支持百度长分享链接
 // @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
 // @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
 // @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
@@ -48,7 +48,7 @@
         "name": "ljjc",
         "logger_level": 3,
         "checkTimes": 3,
-        "checkInterval": 60,
+        "checkInterval": 30,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var container = (function () {
@@ -138,6 +138,35 @@
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/s/" + shareId;
+                    logger.info("baiddu checkFun", url, shareId);
+                    http.ajax({
+                        type: "get",
+                        url: url,
+                        success: (response) => {
+                            let state = 1;
+                            if (response.includes("输入提取")) {
+                                state = 2;
+                            } else if (response.includes("不存在")) {
+                                state = -1;
+                            }
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            baidu2: {
+                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{4,25})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{4,25})\b/gi,
+                prefix: "https://pan.baidu.com/share/init?surl=",
+                checkFun: (shareId, callback) => {
+                    let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/share/init?surl=" + shareId;
                     logger.info("baiddu checkFun", url, shareId);
                     http.ajax({
                         type: "get",
@@ -1023,7 +1052,7 @@
             //失效链接,不再进行请求,有效及带密码链接1天内更新
             if (item && item.check_time && (item.check_state < 0 || (new Date()).getTime() - item.check_time < bearTime)) {
                 if (item.check_state < 0) {
-                    logger.info("=====checkLink state from db=====  ","无效链接,不再进行网络请求");
+                    logger.info("=====checkLink state from db=====  ", "无效链接,不再进行网络请求");
                 } else {
                     logger.info("=====checkLink state from db===== 剩余缓存时效(min) ", Math.round((bearTime - new Date().getTime() + item.check_time) / 1000 / 60));
                 }
@@ -1093,7 +1122,7 @@
     });
 
     /** app **/
-    container.define("app_check_url", ["constant",  "checkManage", "findAndReplaceDOMText", "$"], function (constant, checkManage, findAndReplaceDOMText, $) {
+    container.define("app_check_url", ["constant", "checkManage", "findAndReplaceDOMText", "$"], function (constant, checkManage, findAndReplaceDOMText, $) {
         var obj = {
             index: 0
         };
