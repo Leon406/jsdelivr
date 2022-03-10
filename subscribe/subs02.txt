@@ -13,6 +13,12 @@ https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
 https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
+https://raw.githubusercontent.com/Junely/clash/main/template3.txt
+https://raw.githubusercontent.com/Junely/clash/main/template3.yaml
+https://raw.githubusercontent.com/visiti/clash-node/main/clash-node.yaml
+https://raw.githubusercontent.com/shiran588/jiedian/main/6.11.yaml
+https://raw.githubusercontent.com/amwsuhje/AiO/main/AllinOne.txt
+https://raw.githubusercontent.com/git-yusteven/openit/main/long
 #分享订阅
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
