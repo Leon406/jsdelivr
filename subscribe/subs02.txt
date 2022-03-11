@@ -19,6 +19,8 @@ https://raw.githubusercontent.com/visiti/clash-node/main/clash-node.yaml
 https://raw.githubusercontent.com/shiran588/jiedian/main/6.11.yaml
 https://raw.githubusercontent.com/amwsuhje/AiO/main/AllinOne.txt
 https://raw.githubusercontent.com/git-yusteven/openit/main/long
+https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
+https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt
 #分享订阅
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
