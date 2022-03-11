@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-01-11 07:23:31
+ * GFWList Last-Modified: 2022-03-11 07:23:31
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1080';
@@ -195,6 +195,7 @@ var rules = [
             "6parkbbs.com",
             "6parker.com",
             "6parknews.com",
+            "7-zip.org",
             "7capture.com",
             "7cow.com",
             "8-d.com",
@@ -1204,12 +1205,11 @@ var rules = [
             "dalianmeng.org",
             "daliulian.org",
             "danke4china.net",
-            "danwei.org",
             "daolan.net",
-            "daozhongxing.org",
             "darktech.org",
             "darktoy.net",
             "darpa.mil",
+            "darrenliuwei.com",
             "dastrassi.org",
             "data-vocabulary.org",
             "data.gov.tw",
@@ -3379,6 +3379,7 @@ var rules = [
             "monlamit.org",
             "monster.com",
             "moodyz.com",
+            "moon.fm",
             "moonbbs.com",
             "moonbingo.com",
             "moptt.tw",
@@ -3738,6 +3739,7 @@ var rules = [
             "okayfreedom.com",
             "okex.com",
             "okk.tw",
+            "okx.com",
             "olabloga.pl",
             "old-cat.net",
             "olevod.com",
@@ -3971,6 +3973,7 @@ var rules = [
             "po2b.com",
             "pobieramy.top",
             "podbean.com",
+            "podcast.co",
             "podictionary.com",
             "pokerstars.com",
             "pokerstars.net",
@@ -4557,6 +4560,7 @@ var rules = [
             "sonidodelaesperanza.org",
             "sopcast.com",
             "sopcast.org",
+            "sophos.com",
             "sorazone.net",
             "sorting-algorithms.com",
             "sos.org",
@@ -5068,6 +5072,7 @@ var rules = [
             "truebuddha-md.org",
             "trulyergonomic.com",
             "truthontour.org",
+            "truthsocial.com",
             "truveo.com",
             "tryheart.jp",
             "tsctv.net",
