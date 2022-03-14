@@ -1,4 +1,4 @@
-2022年3月6日 14:20:45
+2022年3月14日 23:52:05
 
 ## 下载
 
@@ -6,7 +6,7 @@
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.4.7 | 下载工具  自动升级 |
 | [PanDownload]() |  2.7.9  | 百度网盘工具       |
-| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.2  | 云盘分享           |
+| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.3  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.yijingying.com/397.html#comments) | 6.40.8 | 下载工具           |
 | [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.05 |                    |
@@ -36,19 +36,19 @@
 | 软件                                                         |   版本   | 说明       |
 | ------------------------------------------------------------ | :------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suit](https://portswigger.net/burp/releases)           | 2022.2.2 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.2.3 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.5 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.5.5 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.6.0 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.1 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.34  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  4.36  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.44 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn)** github | 0.7.1  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.11  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.12  |               |
 |  |  | |
 
 ## 开发
@@ -64,12 +64,12 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.2  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.9 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.65 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html)              |  5.4.2  | 接口测试                              |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.65.2 | 编辑器                                |
+| [ApiPost](https://www.apipost.cn/download.html)              |  6.0  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.5.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.8  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  2.9.11  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  2.0.2  | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)          |  2.0.4  | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -105,12 +105,12 @@
 
 ## 格式转换
 
-| 软件                                                         |  版本   | 说明                 |
-| ------------------------------------------------------------ | :-----: | -------------------- |
-| [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  |  1.95   | 图片格式转换汉化工具 |
-| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e) | 5.10.0  | 音视频格式转换       |
-| 小丸工具箱                                                   |   236   |                      |
-| [ShanaEncoder](https://shana.pe.kr/)                         | 5.2.2.3 |                      |
+| 软件                                                         |  版本  | 说明                 |
+| ------------------------------------------------------------ | :----: | -------------------- |
+| [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  |  1.95  | 图片格式转换汉化工具 |
+| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e) | 5.10.0 | 音视频格式转换       |
+| 小丸工具箱                                                   |  236   |                      |
+| [ShanaEncoder](https://shana.pe.kr/)                         | 5.3.1  |                      |
 
 
 
