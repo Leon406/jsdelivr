@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -2091,6 +2092,6 @@ E:\GITHUB\JSDELIVR
         pac7890.txt
         quark.txt
         regex.txt
-        subs02.txt
+        subs03.txt
         tmp.txt
         
