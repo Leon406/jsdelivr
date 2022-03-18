@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.0.3
+// @version      1.0.4
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
@@ -222,9 +222,9 @@
                 }
             },
             lanzou: {
-                reg: /(?:https?:\/\/)?(.+\.)?lanzou.?\.com\/([\w\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?\w+\.lanzou.?\.com\/([\w\-]{5,22})\b/gi,
-                aTagRepalce: [/\w+\.lanzou.?/, "www.lanzoub"],
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})\b/gi,
+                aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://www.lanzoub.com/" + shareId;
