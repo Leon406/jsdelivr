@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.0.2
+// @version      1.0.3
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
@@ -269,7 +269,7 @@
                         success: (response) => {
                             logger.debug("aliyun response ", response);
                             let state = 1;
-                            if (response['code']) {
+                            if (response['code']||response['file_infos']&&response['file_infos'].length==0) {
                                 state = -1;
                             }
 
