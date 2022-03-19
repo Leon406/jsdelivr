@@ -1383,7 +1383,12 @@
         };
         obj.findCode = function (shareId) {
             let sr = "(?<=" + shareId + "(?:\\\s*(?:提取|访问)[码碼]?\\\s*[:：﹕ ]?\\\s*|\\\?pwd=))([a-z\\d]{4,8})";
-            console.log(sr);
+            let reg = new RegExp(sr, "i");
+            let match = document.body.innerText.match(reg);
+            return match && match[0] || "";
+        };
+		 obj.findCode2 = function (shareId) {
+            let sr = "(?<=" + shareId + "\\\s*(?:提取|访问)[码碼]?\\\s*[:：﹕ ]?\\\s*)([a-z\\d]{4,8})";
             let reg = new RegExp(sr, "i");
             let match = document.body.innerText.match(reg);
             return match && match[0] || "";
@@ -1391,7 +1396,8 @@
 
         obj.buildShareUrl = function (shareId, shareSource) {
             //百度?pwd=提取码 自动跳转
-            let code = obj.findCode(shareId);
+            let code = obj.findCode2(shareId);
+			console.log("buildShareUrl",shareId);
             let shareUrl = constant[shareSource]["prefix"] + shareId + (code ? ("?pwd=" + code) : "");
             return shareUrl;
         };
