@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.1.0
+// @version      1.2.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
-// @description  自动识别并检查网盘的链接状态,同时生成超链接
+// @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-03-08 1.1.0 支持百度提取码识别,无需输入提取码,修复部分旧网盘无法识别
+// @note         22-03-19 1.2.0 支持自动输入提取码并确认,修复部分旧网盘无法识别
 // @note         22-03-08 1.0.2 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码,支持百度长分享链接
 // @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
 // @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
@@ -52,9 +52,9 @@
         "checkInterval": 30,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
-	function getQuery(param){
-		return new URLSearchParams(location.search).get('param');
-	}
+    function getQuery(param) {
+        return new URLSearchParams(location.search).get(param);
+    }
     var container = (function () {
         var obj = {
             defines: {},
@@ -569,34 +569,111 @@
         };
     });
 
-    container.define("autoFill", [], function () {
-        let obj = {
+    container.define("auto_fill", [], function () {
 
-            //自动填写密码
-            autoFillPassword() {
-                let url = location.href;
-                let query = util.parseQuery('pwd');
-                let hash = location.hash.slice(1);
-                let pwd = query || hash;
-                let panType = this.panDetect();
+        var obj = {
+            run() {
+                this.autoFillPassword();
+                return false;
+            },
+            opt: {
+                baidu: {
+                    reg: /((?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/(?:s\/\w*(((-)?\w*)*)?|share\/\S{4,}))/,
+                    host: /(pan|yun)\.baidu\.com/,
+                    input: ['#accessCode'],
+                    button: ['#submitBtn'],
+                    name: '百度网盘'
+                },
+                aliyun: {
+                    reg: /((?:https?:\/\/)?(?:(?:www\.)?aliyundrive\.com\/s|alywp\.net)\/[A-Za-z0-9]+)/,
+                    host: /www\.aliyundrive\.com|alywp\.net/,
+                    input: ['.ant-input', 'input[type="text"]'],
+                    button: ['.button--fep7l', 'button[type="submit"]'],
+                    name: '阿里云盘'
+                },
+                weiyun: {
+                    reg: /((?:https?:\/\/)?share\.weiyun\.com\/[A-Za-z0-9]+)/,
+                    host: /share\.weiyun\.com/,
+                    input: ['.mod-card-s input[type=password]'],
+                    button: ['.mod-card-s .btn-main'],
+                    name: '微云'
+                },
+                lanzou: {
+                    reg: /((?:https?:\/\/)?(?:[A-Za-z0-9\-.]+)?lanzou[a-z]\.com\/[A-Za-z0-9_\-]+)/,
+                    host: /(?:[A-Za-z0-9.]+)?lanzou[a-z]\.com/,
+                    input: ['#pwd'],
+                    button: ['.passwddiv-btn', '#sub'],
+                    name: '蓝奏云'
+                },
+                tianyi: {
+                    reg: /((?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)?[A-Za-z0-9]+)/,
+                    host: /cloud\.189\.cn/,
+                    input: ['.access-code-item #code_txt'],
+                    button: ['.access-code-item .visit'],
 
-                for (let name in opt) {
-                    let val = opt[name];
-                    if (panType === name) {
-                        if (val.storage === 'local') {
-                            pwd = util.getValue(val.storagePwdName) ? util.getValue(val.storagePwdName) : '';
-                            pwd && this.doFillAction(val.input, val.button, pwd);
-                        }
-                        if (val.storage === 'hash') {
-                            if (!/^[A-Za-z0-9]{3,8}$/.test(pwd)) { //过滤掉不正常的Hash
-                                return;
-                            }
-                            pwd && this.doFillAction(val.input, val.button, pwd);
-                        }
+                },
+                caiyun: {
+                    reg: /((?:https?:\/\/)?caiyun\.139\.com\/m\/i\?[A-Za-z0-9]+)/,
+                    host: /caiyun\.139\.com/,
+                    input: ['.token-form input[type=text]'],
+                    button: ['.token-form .btn-token'],
+                    name: '和彩云',
+                },
+                xunlei: {
+                    reg: /((?:https?:\/\/)?pan\.xunlei\.com\/s\/[\w-]{10,})/,
+                    host: /pan\.xunlei\.com/,
+                    input: ['.pass-input-wrap .td-input__inner'],
+                    button: ['.pass-input-wrap .td-button'],
+                    name: '迅雷云盘'
+                },
+                '123pan': {
+                    reg: /((?:https?:\/\/)?www\.123pan\.com\/s\/[\w-]{6,})/,
+                    host: /www\.123pan\.com/,
+                    input: ['.ca-fot input'],
+                    button: ['.ca-fot button'],
+                    name: '123云盘'
+
+                },
+                '115pan': {
+                    reg: /((?:https?:\/\/)?115\.com\/s\/[\w-]{6,})/,
+                    host: /115\.com/,
+                    input: ['.form-decode input'],
+                    button: ['.form-decode .button'],
+                    name: '115'
+                },
+            },
+            //根据域名检测网盘类型
+            panDetect() {
+                let hostname = location.hostname;
+                for (let name in this.opt) {
+                    let val = this.opt[name];
+                    if (val.host.test(hostname)) {
+                        return name;
                     }
+                }
+                return '';
+            },
+            isHidden(el) {
+                try {
+                    return el.offsetParent === null;
+                } catch (e) {
+                    return false;
                 }
             },
 
+            sleep(time) {
+                return new Promise((resolve) => setTimeout(resolve, time));
+            },
+            //自动填写密码
+            autoFillPassword() {
+                let query = getQuery('pwd');
+                let hash = location.hash.slice(1);
+                let pwd = query || hash;
+                let panType = this.panDetect();
+                let val = this.opt[panType];
+                pwd && this.doFillAction(val.input, val.button, pwd);
+
+            },
             doFillAction(inputSelector, buttonSelector, pwd) {
                 let maxTime = 10;
                 let ins = setInterval(async() => {
@@ -604,19 +681,8 @@
                     let input = document.querySelector(inputSelector[0]) || document.querySelector(inputSelector[1]);
                     let button = document.querySelector(buttonSelector[0]) || document.querySelector(buttonSelector[1]);
 
-                    if (input && !util.isHidden(input)) {
+                    if (input && !this.isHidden(input)) {
                         clearInterval(ins);
-                        Swal.fire({
-                            toast: true,
-                            position: 'top',
-                            showCancelButton: false,
-                            showConfirmButton: false,
-                            title: 'AI已识别到密码！正自动帮您填写',
-                            icon: 'success',
-                            timer: 2000,
-                            customClass
-                        });
-
                         let lastValue = input.value;
                         input.value = pwd;
                         //Vue & React 触发 input 事件
@@ -629,83 +695,14 @@
                         }
                         input.dispatchEvent(event);
 
-                        if (util.getValue('setting_auto_click_btn')) {
-                            await util.sleep(1000); //1秒后点击按钮
-                            button.click();
-                        }
+                        await this.sleep(1000); //1秒后点击按钮
+                        button.click();
+
                     } else {
                         maxTime === 0 && clearInterval(ins);
                     }
                 }, 800);
             }
-        };
-
-        obj.opt = {
-            baidu: {
-                reg: /((?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/(?:s\/\w*(((-)?\w*)*)?|share\/\S{4,}))/,
-                host: /(pan|yun)\.baidu\.com/,
-                input: ['#accessCode'],
-                button: ['#submitBtn'],
-                name: '百度网盘',
-                storage: 'hash'
-            },
-            aliyun: {
-                reg: /((?:https?:\/\/)?(?:(?:www\.)?aliyundrive\.com\/s|alywp\.net)\/[A-Za-z0-9]+)/,
-                host: /www\.aliyundrive\.com|alywp\.net/,
-                input: ['.ant-input', 'input[type="text"]'],
-                button: ['.button--fep7l', 'button[type="submit"]'],
-                name: '阿里云盘',
-                storage: 'hash'
-            },
-            weiyun: {
-                reg: /((?:https?:\/\/)?share\.weiyun\.com\/[A-Za-z0-9]+)/,
-                host: /share\.weiyun\.com/,
-                input: ['.mod-card-s input[type=password]'],
-                button: ['.mod-card-s .btn-main'],
-                name: '微云',
-                storage: 'hash'
-            },
-            lanzou: {
-                reg: /((?:https?:\/\/)?(?:[A-Za-z0-9\-.]+)?lanzou[a-z]\.com\/[A-Za-z0-9_\-]+)/,
-                host: /(?:[A-Za-z0-9.]+)?lanzou[a-z]\.com/,
-                input: ['#pwd'],
-                button: ['.passwddiv-btn', '#sub'],
-                name: '蓝奏云',
-                storage: 'hash'
-            },
-            tianyi: {
-                reg: /((?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)?[A-Za-z0-9]+)/,
-                host: /cloud\.189\.cn/,
-                input: ['.access-code-item #code_txt'],
-                button: ['.access-code-item .visit'],
-                name: '天翼云',
-                storage: 'hash'
-            },
-            caiyun: {
-                reg: /((?:https?:\/\/)?caiyun\.139\.com\/m\/i\?[A-Za-z0-9]+)/,
-                host: /caiyun\.139\.com/,
-                input: ['.token-form input[type=text]'],
-                button: ['.token-form .btn-token'],
-                name: '和彩云',
-                storage: 'local',
-                storagePwdName: 'tmp_caiyun_pwd'
-            },
-            xunlei: {
-                reg: /((?:https?:\/\/)?pan\.xunlei\.com\/s\/[\w-]{10,})/,
-                host: /pan\.xunlei\.com/,
-                input: ['.pass-input-wrap .td-input__inner'],
-                button: ['.pass-input-wrap .td-button'],
-                name: '迅雷云盘',
-                storage: 'hash'
-            },
-            '123pan': {
-                reg: /((?:https?:\/\/)?www\.123pan\.com\/s\/[\w-]{6,})/,
-                host: /www\.123pan\.com/,
-                input: ['.ca-fot input'],
-                button: ['.ca-fot button'],
-                name: '123云盘',
-                storage: 'hash'
-            },
         };
 
         return obj;
@@ -1078,7 +1075,7 @@
         obj.matchApp = function (url, app) {
             var match = false;
             app.matchs && app.matchs.forEach(function (item) {
-                if (url.includes(item) || item == "*") {
+                if (item == "*" || url.match(item)) {
                     match = true;
                 }
             });
@@ -1311,19 +1308,17 @@
 
             // 检查链接状态
             $(".one-pan-tip:not([one-tip-mark])").each(function () {
-                var $this = $(this);
-
+                let $this = $(this);
                 $this.attr("one-tip-mark", "yes");
+                let shareSource = $this.attr("one-source");
+                let shareId = $this.attr("one-id");
 
-                var shareSource = $this.attr("one-source");
-                var shareId = $this.attr("one-id");
-
-                var parentNode = this.parentNode;
+                let parentNode = this.parentNode;
                 if (parentNode.nodeName != "A") {
                     // 转超链接
                     $this.wrap('<a href="' + this.textContent + '" target="_blank"></a>');
                 } else if (constant[shareSource]["aTagRepalce"]) {
-                    var replacePair = constant[shareSource]["aTagRepalce"];
+                    let replacePair = constant[shareSource]["aTagRepalce"];
                     // 失效域名替换
                     parentNode.href = parentNode.href.replace(replacePair[0], replacePair[1])
                 }
@@ -1331,6 +1326,16 @@
                 checkManage.checkLinkAsync(shareSource, shareId, 0, (response) => {
                     if (response.state == 2) {
                         $this.addClass("one-pan-tip-lock");
+                        //替换超链接
+                        if (parentNode.nodeName == "A" && !parentNode.href.includes("pwd=")) {
+                            let code = obj.findCode(shareId);
+                            parentNode.href = parentNode.href +
+                                (
+                                    code ? ((parentNode.href.includes("?") ? "&" : "?") + "pwd=" + code) : "")
+                      console.log("checkLink parentNode ", parentNode.href);
+					   
+					   }
+
                     } else if (response.state == 1) {
                         $this.addClass("one-pan-tip-success");
                     } else if (response.state == -1) {
@@ -1342,7 +1347,7 @@
 
             });
 
-            var checkTimes = manifest["checkTimes"];
+            let checkTimes = manifest["checkTimes"];
             if (checkTimes == 0 || obj.index < checkTimes) {
                 obj.index++;
                 setTimeout(obj.runMatch, 1000 * manifest["checkInterval"]);
@@ -1353,12 +1358,12 @@
             findAndReplaceDOMText(document.body, {
                 find: shareMatch,
                 replace: function (portion, match) {
-                    var parentNode = portion.node.parentNode;
+                    let parentNode = portion.node.parentNode;
                     if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
                         return portion.text;
                     } else {
-                        var shareId = getShareId(match);
-                        var node = obj.createOnePanNode(shareId, shareSource);
+                        let shareId = getShareId(match);
+                        let node = obj.createOnePanNode(shareId, shareSource);
                         node.textContent = obj.buildShareUrl(shareId, shareSource);
                         return node;
                     }
@@ -1377,7 +1382,7 @@
             return node;
         };
         obj.findCode = function (shareId) {
-            let sr = "(?<=" + shareId + "\\\s*(?:提取|访问)[码碼]?\\\s*[:：﹕ ]?\\\s*)([a-z\\d]{4,8})";
+            let sr = "(?<=" + shareId + "(?:\\\s*(?:提取|访问)[码碼]?\\\s*[:：﹕ ]?\\\s*|\\\?pwd=))([a-z\\d]{4,8})";
             console.log(sr);
             let reg = new RegExp(sr, "i");
             let match = document.body.innerText.match(reg);
@@ -1401,6 +1406,19 @@
             appRunner.run([{
                         name: "app_check_url",
                         matchs: ["*"]
+                    }, {
+                        name: "auto_fill",
+                        matchs: [
+                            /(pan|yun)\.baidu\.com/,
+                            /www\.aliyundrive\.com|alywp\.net/,
+                            /share\.weiyun\.com/,
+                            /(?:[A-Za-z0-9.]+)?lanzou[a-z]\.com/,
+                            /cloud\.189\.cn/,
+                            /caiyun\.139\.com/,
+                            /pan\.xunlei\.com/,
+                            /www\.123pan\.com/,
+                            /115\.com/,
+                        ]
                     }
                 ]);
         };
