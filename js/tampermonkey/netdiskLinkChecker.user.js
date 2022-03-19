@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.0.4
+// @version      1.1.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
+// @note         22-03-08 1.1.0 支持百度提取码识别,无需输入提取码,修复部分旧网盘无法识别
 // @note         22-03-08 1.0.2 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码,支持百度长分享链接
 // @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
 // @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
@@ -51,6 +52,9 @@
         "checkInterval": 30,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
+	function getQuery(param){
+		return new URLSearchParams(location.search).get('param');
+	}
     var container = (function () {
         var obj = {
             defines: {},
@@ -269,7 +273,7 @@
                         success: (response) => {
                             logger.debug("aliyun response ", response);
                             let state = 1;
-                            if (response['code']||response['file_infos']&&response['file_infos'].length==0) {
+                            if (response['code'] || response['file_count'] && response['file_count'] == 0) {
                                 state = -1;
                             }
 
@@ -563,6 +567,148 @@
                 }
             }
         };
+    });
+
+    container.define("autoFill", [], function () {
+        let obj = {
+
+            //自动填写密码
+            autoFillPassword() {
+                let url = location.href;
+                let query = util.parseQuery('pwd');
+                let hash = location.hash.slice(1);
+                let pwd = query || hash;
+                let panType = this.panDetect();
+
+                for (let name in opt) {
+                    let val = opt[name];
+                    if (panType === name) {
+                        if (val.storage === 'local') {
+                            pwd = util.getValue(val.storagePwdName) ? util.getValue(val.storagePwdName) : '';
+                            pwd && this.doFillAction(val.input, val.button, pwd);
+                        }
+                        if (val.storage === 'hash') {
+                            if (!/^[A-Za-z0-9]{3,8}$/.test(pwd)) { //过滤掉不正常的Hash
+                                return;
+                            }
+                            pwd && this.doFillAction(val.input, val.button, pwd);
+                        }
+                    }
+                }
+            },
+
+            doFillAction(inputSelector, buttonSelector, pwd) {
+                let maxTime = 10;
+                let ins = setInterval(async() => {
+                    maxTime--;
+                    let input = document.querySelector(inputSelector[0]) || document.querySelector(inputSelector[1]);
+                    let button = document.querySelector(buttonSelector[0]) || document.querySelector(buttonSelector[1]);
+
+                    if (input && !util.isHidden(input)) {
+                        clearInterval(ins);
+                        Swal.fire({
+                            toast: true,
+                            position: 'top',
+                            showCancelButton: false,
+                            showConfirmButton: false,
+                            title: 'AI已识别到密码！正自动帮您填写',
+                            icon: 'success',
+                            timer: 2000,
+                            customClass
+                        });
+
+                        let lastValue = input.value;
+                        input.value = pwd;
+                        //Vue & React 触发 input 事件
+                        let event = new Event('input', {
+                            bubbles: true
+                        });
+                        let tracker = input._valueTracker;
+                        if (tracker) {
+                            tracker.setValue(lastValue);
+                        }
+                        input.dispatchEvent(event);
+
+                        if (util.getValue('setting_auto_click_btn')) {
+                            await util.sleep(1000); //1秒后点击按钮
+                            button.click();
+                        }
+                    } else {
+                        maxTime === 0 && clearInterval(ins);
+                    }
+                }, 800);
+            }
+        };
+
+        obj.opt = {
+            baidu: {
+                reg: /((?:https?:\/\/)?(?:yun|pan)\.baidu\.com\/(?:s\/\w*(((-)?\w*)*)?|share\/\S{4,}))/,
+                host: /(pan|yun)\.baidu\.com/,
+                input: ['#accessCode'],
+                button: ['#submitBtn'],
+                name: '百度网盘',
+                storage: 'hash'
+            },
+            aliyun: {
+                reg: /((?:https?:\/\/)?(?:(?:www\.)?aliyundrive\.com\/s|alywp\.net)\/[A-Za-z0-9]+)/,
+                host: /www\.aliyundrive\.com|alywp\.net/,
+                input: ['.ant-input', 'input[type="text"]'],
+                button: ['.button--fep7l', 'button[type="submit"]'],
+                name: '阿里云盘',
+                storage: 'hash'
+            },
+            weiyun: {
+                reg: /((?:https?:\/\/)?share\.weiyun\.com\/[A-Za-z0-9]+)/,
+                host: /share\.weiyun\.com/,
+                input: ['.mod-card-s input[type=password]'],
+                button: ['.mod-card-s .btn-main'],
+                name: '微云',
+                storage: 'hash'
+            },
+            lanzou: {
+                reg: /((?:https?:\/\/)?(?:[A-Za-z0-9\-.]+)?lanzou[a-z]\.com\/[A-Za-z0-9_\-]+)/,
+                host: /(?:[A-Za-z0-9.]+)?lanzou[a-z]\.com/,
+                input: ['#pwd'],
+                button: ['.passwddiv-btn', '#sub'],
+                name: '蓝奏云',
+                storage: 'hash'
+            },
+            tianyi: {
+                reg: /((?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)?[A-Za-z0-9]+)/,
+                host: /cloud\.189\.cn/,
+                input: ['.access-code-item #code_txt'],
+                button: ['.access-code-item .visit'],
+                name: '天翼云',
+                storage: 'hash'
+            },
+            caiyun: {
+                reg: /((?:https?:\/\/)?caiyun\.139\.com\/m\/i\?[A-Za-z0-9]+)/,
+                host: /caiyun\.139\.com/,
+                input: ['.token-form input[type=text]'],
+                button: ['.token-form .btn-token'],
+                name: '和彩云',
+                storage: 'local',
+                storagePwdName: 'tmp_caiyun_pwd'
+            },
+            xunlei: {
+                reg: /((?:https?:\/\/)?pan\.xunlei\.com\/s\/[\w-]{10,})/,
+                host: /pan\.xunlei\.com/,
+                input: ['.pass-input-wrap .td-input__inner'],
+                button: ['.pass-input-wrap .td-button'],
+                name: '迅雷云盘',
+                storage: 'hash'
+            },
+            '123pan': {
+                reg: /((?:https?:\/\/)?www\.123pan\.com\/s\/[\w-]{6,})/,
+                host: /www\.123pan\.com/,
+                input: ['.ca-fot input'],
+                button: ['.ca-fot button'],
+                name: '123云盘',
+                storage: 'hash'
+            },
+        };
+
+        return obj;
     });
 
     container.define("gm", [], function () {
@@ -1230,9 +1376,18 @@
             node.setAttribute("one-source", shareSource);
             return node;
         };
+        obj.findCode = function (shareId) {
+            let sr = "(?<=" + shareId + "\\\s*(?:提取|访问)[码碼]?\\\s*[:：﹕ ]?\\\s*)([a-z\\d]{4,8})";
+            console.log(sr);
+            let reg = new RegExp(sr, "i");
+            let match = document.body.innerText.match(reg);
+            return match && match[0] || "";
+        };
 
         obj.buildShareUrl = function (shareId, shareSource) {
-            var shareUrl = constant[shareSource]["prefix"] + shareId;
+            //百度?pwd=提取码 自动跳转
+            let code = obj.findCode(shareId);
+            let shareUrl = constant[shareSource]["prefix"] + shareId + (code ? ("?pwd=" + code) : "");
             return shareUrl;
         };
 
