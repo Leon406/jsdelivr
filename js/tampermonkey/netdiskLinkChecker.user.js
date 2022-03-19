@@ -992,6 +992,7 @@
         obj.info = (message, m2, m3, m4, m5) => obj.log(obj.constant.INFO, message, m2, m3, m4, m5);
         obj.warn = (message, m2, m3, m4, m5) => obj.log(obj.constant.WARN, message, m2, m3, m4, m5);
         obj.error = (message, m2, m3, m4, m5) => obj.log(obj.constant.ERROR, message, m2, m3, m4, m5);
+        obj.d = (message, m2, m3, m4, m5) => obj.log(obj.constant.NONE, message, m2, m3, m4, m5);
         obj.log = (level, message, m2, m3, m4, m5) => {
             if (level < manifest["logger_level"]) {
                 return false;
@@ -1266,7 +1267,7 @@
     });
 
     /** app **/
-    container.define("app_check_url", ["constant", "checkManage", "findAndReplaceDOMText", "$"], function (constant, checkManage, findAndReplaceDOMText, $) {
+    container.define("app_check_url", ["constant", "checkManage", "findAndReplaceDOMText", "$","logger"], function (constant, checkManage, findAndReplaceDOMText, $,logger) {
         var obj = {
             index: 0
         };
@@ -1286,7 +1287,6 @@
             // 补超链接ATTR
             $("a:not([one-link-mark])").each(function () {
                 var $this = $(this);
-
                 $this.attr("one-link-mark", "yes");
 
                 var match,
@@ -1328,7 +1328,7 @@
                     if (response.state == 2) {
                         $this.addClass("one-pan-tip-lock");
                         //替换超链接
-                        console.log("code1", this, parentNode, parentNode.children[0]);
+                        logger.d("code1", this, parentNode, parentNode.children[0]);
                         let ele = this.nodeName == "A" ? this : parentNode.nodeName == "A" ? parentNode : parentNode.children[0].nodeName == "A" ? parentNode.children[0] : "";
                         if (ele && !ele.href.includes("pwd=") && !ele.href.includes("#")) {
                             let c = obj.buildCode(shareId, shareSource, obj.findCode);
@@ -1387,12 +1387,14 @@
             let sr = "(?<=" + shareId + "(?:/?\\\s*(?:[\\(（])?(?:提取|访问|密)[码碼]?\\\s*[:：﹕ ]?\\\s*|\\\?pwd=|#))([a-z\\d]{4,8})";
             let reg = new RegExp(sr, "i");
             let match = document.body.innerText.match(reg);
+			logger.d("findCode", shareId, match);
             return match && match[0] || "";
         };
         obj.findCode2 = function (shareId) {
             let sr = "(?<=" + shareId + "/?\\\s*(?:[\\(（])?(?:提取|访问|密)[码碼]?\\\s*[:：﹕ ]?\\\s*)([a-z\\d]{4,8})";
             let reg = new RegExp(sr, "i");
             let match = document.body.innerText.match(reg);
+			logger.d("findCode2", shareId, match);
             return match && match[0] || "";
         };
 
@@ -1403,6 +1405,7 @@
         obj.buildCode = function (shareId, shareSource, fun) {
             let code = fun(shareId);
             let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
+			logger.d("buildCode", code, appendCode);
             return code ? (appendCode + code) : "";
         };
 
