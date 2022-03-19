@@ -50,7 +50,7 @@
         "logger_level": 3,
         "checkTimes": 3,
         "checkInterval": 30,
-        "showCode: false,
+        "showCode": false,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     function getQuery(param) {
@@ -1395,7 +1395,7 @@
 
         obj.buildShareUrl = function (shareId, shareSource) {
             //百度?pwd=提取码 自动跳转
-            let code =manifest.showCode ? obj.findCode2(shareId):"";
+            let code = manifest.showCode ? obj.findCode2(shareId):"";
             let shareUrl = constant[shareSource]["prefix"] + shareId + (code ? ("?pwd=" + code) : "");
             return shareUrl;
         };
