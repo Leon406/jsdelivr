@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.0
+// @version      1.2.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
@@ -50,7 +50,7 @@
         "logger_level": 3,
         "checkTimes": 3,
         "checkInterval": 30,
-        "showCode": false,
+        "showCode": true,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     function getQuery(param) {
@@ -1328,13 +1328,14 @@
                     if (response.state == 2) {
                         $this.addClass("one-pan-tip-lock");
                         //替换超链接
-                        if (parentNode.nodeName == "A" && !parentNode.href.includes("pwd=")) {
-                            let code = obj.findCode(shareId);
-                            parentNode.href = parentNode.href +
-                                (
-                                    code ? ((parentNode.href.includes("?") ? "&" : "?") + "pwd=" + code) : "")
-					   }
-
+                        console.log("code1", this, parentNode,parentNode.children[0]);
+                        let ele = this.nodeName == "A" ? this : parentNode.nodeName == "A" ?parentNode : parentNode.children[0].nodeName == "A" ? parentNode.children[0]: "";
+                        if(ele && !ele.href.includes("pwd=")){
+							let code = obj.findCode(shareId);
+                            console.log("code", code);
+                            ele.href = ele.href + (code ? ((ele.href.includes("?") ? "&" : "?") + "pwd=" + code) : "")
+						}
+	
                     } else if (response.state == 1) {
                         $this.addClass("one-pan-tip-success");
                     } else if (response.state == -1) {
@@ -1386,7 +1387,7 @@
             let match = document.body.innerText.match(reg);
             return match && match[0] || "";
         };
-		 obj.findCode2 = function (shareId) {
+        obj.findCode2 = function (shareId) {
             let sr = "(?<=" + shareId + "/?\\\s*(?:[\\(（])?(?:提取|访问|密)[码碼]?\\\s*[:：﹕ ]?\\\s*)([a-z\\d]{4,8})";
             let reg = new RegExp(sr, "i");
             let match = document.body.innerText.match(reg);
@@ -1395,7 +1396,7 @@
 
         obj.buildShareUrl = function (shareId, shareSource) {
             //百度?pwd=提取码 自动跳转
-            let code = manifest.showCode ? obj.findCode2(shareId):"";
+            let code = manifest.showCode ? obj.findCode2(shareId) : "";
             let shareUrl = constant[shareSource]["prefix"] + shareId + (code ? ("?pwd=" + code) : "");
             return shareUrl;
         };
