@@ -1332,8 +1332,6 @@
                             parentNode.href = parentNode.href +
                                 (
                                     code ? ((parentNode.href.includes("?") ? "&" : "?") + "pwd=" + code) : "")
-                      console.log("checkLink parentNode ", parentNode.href);
-					   
 					   }
 
                     } else if (response.state == 1) {
@@ -1397,7 +1395,6 @@
         obj.buildShareUrl = function (shareId, shareSource) {
             //百度?pwd=提取码 自动跳转
             let code = obj.findCode2(shareId);
-			console.log("buildShareUrl",shareId);
             let shareUrl = constant[shareSource]["prefix"] + shareId + (code ? ("?pwd=" + code) : "");
             return shareUrl;
         };
