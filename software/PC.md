@@ -1,4 +1,4 @@
-2022年4月7日 23:30:29
+2022年4月10日 10:31:22
 
 ## 下载
 
@@ -24,10 +24,10 @@
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [010Editor](https://www.sweetscape.com/010editor/)           |     12.0.1     | 二进制查看编辑       |
 | PEiD                                                         |      0.95      | 查壳工具             |
-| [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived)  |     6.1.8      | .Net 逆向工具        |
+| [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived) [dnSpyEx](https://github.com/dnSpyEx/dnSpy) |     6.1.9      | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
 | [WiresharkPortable](https://www.wireshark.org/download.html) |     3.6.3     | 抓包工具             |
-| ExeinfoPe | 0.0.6.6 | 查壳工具 |
+| ExeinfoPe | 0.0.6.9 | 查壳工具 |
 |  |  |  |
 |  |  |  |
 
@@ -36,7 +36,7 @@
 | 软件                                                         |   版本   | 说明       |
 | ------------------------------------------------------------ | :------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.3.1 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.3.3 | 渗透       |
 
 ## 科学
 
@@ -48,7 +48,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.12  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.44 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.14  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.15  |               |
 |  |  | |
 
 ## 开发
@@ -56,11 +56,11 @@
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  22.0  | 终端工具                              |
-| [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.11   | 正则工具                              |
+| [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.13s  | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.3.3  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.2  | 文件比对同步工具                      |
-| [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.8.1  | Android 投屏电脑                      |
+| [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.9.0  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.5  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.10 | 数据库工具 <br>软件内更新后重新打补丁 |
@@ -94,8 +94,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      100.0.1185.29      | 浏览器          |
-| [Chrome 增强版]() |      100.0.4896.60      | 浏览器          |
+| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      100.0.1185.36      | 浏览器          |
+| [Chrome 增强版]()  [插件](https://github.com/shuax/chrome_plus) |      100.0.4896.60      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.19 |  |
