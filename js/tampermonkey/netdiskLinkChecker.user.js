@@ -41,18 +41,21 @@
 // @license      GPL-3.0 License
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @noframes
+// @downloadURL none
 // ==/UserScript==
 (function () {
     'use strict';
 
     var manifest = {
         "name": "ljjc",
-        "logger_level": 3,
+        "logger_level": 2,
         "checkTimes": 3,
         "checkInterval": 30,
-        "showCode": true,
+        "showCode": false,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
+    var passMap = {};
+
     function getQuery(param) {
         return new URLSearchParams(location.search).get(param);
     }
@@ -1060,6 +1063,12 @@
 
         obj.runAppList = function (appList) {
             var url = location.href;
+            var rrr = document.body.innerText.match(/([\w-]+)(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
+
+            for (var s in rrr) {
+                let r = /([\w-]+).*([a-z\d]{4,8})/ig.exec(rrr[s]);
+                passMap[r[1]] = r[2];
+            }
             for (var i in appList) {
                 var app = appList[i];
 
@@ -1267,7 +1276,7 @@
     });
 
     /** app **/
-    container.define("app_check_url", ["constant", "checkManage", "findAndReplaceDOMText", "$","logger"], function (constant, checkManage, findAndReplaceDOMText, $,logger) {
+    container.define("app_check_url", ["constant", "checkManage", "findAndReplaceDOMText", "$", "logger"], function (constant, checkManage, findAndReplaceDOMText, $, logger) {
         var obj = {
             index: 0
         };
@@ -1278,6 +1287,8 @@
         };
 
         obj.runMatch = function () {
+			
+			//创建span
             for (var rule in constant) {
                 obj.replaceTextAsLink(constant[rule]["replaceReg"], rule, function (match) {
                     return match[1];
@@ -1294,15 +1305,17 @@
                 oneSource;
                 var href = $this.attr("href");
                 if (href) {
+					//匹配域名
                     for (var rule in constant) {
                         if ((match = constant[rule]["reg"].exec(href))) {
                             oneId = href;
                             oneSource = rule;
+							break;
                         }
                     }
                 }
                 if (match && $this.find(".one-pan-tip").length == 0) {
-                    var node = obj.createOnePanNode(oneId, oneSource);
+                    var node = obj.createOneSpanNode(oneId, oneSource);
                     $this.wrapInner(node);
                 }
             });
@@ -1313,31 +1326,24 @@
                 $this.attr("one-tip-mark", "yes");
                 let shareSource = $this.attr("one-source");
                 let shareId = $this.attr("one-id");
+                let pwd = $this.attr("one-pwd");
 
                 let parentNode = this.parentNode;
-                if (parentNode.nodeName != "A") {
+                if (parentNode.nodeName != "A") {	
+					
                     // 转超链接
-                    $this.wrap('<a href="' + this.textContent + '" target="_blank"></a>');
+                    $this.wrap('<a href="' + obj.buildShareUrl(shareId,shareSource,pwd) + '" target="_blank"></a>');
                 } else if (constant[shareSource]["aTagRepalce"]) {
                     let replacePair = constant[shareSource]["aTagRepalce"];
                     // 失效域名替换
-                    parentNode.href = parentNode.href.replace(replacePair[0], replacePair[1])
-                }
+                    parentNode.href = obj.buildShareUrl(shareId,shareSource,pwd).replace(replacePair[0], replacePair[1])
+                }else {
+					 parentNode.href = obj.buildShareUrl(shareId,shareSource,pwd);
+				}
 
                 checkManage.checkLinkAsync(shareSource, shareId, 0, (response) => {
                     if (response.state == 2) {
                         $this.addClass("one-pan-tip-lock");
-                        //替换超链接
-                        logger.d("code1", this, parentNode, parentNode.children[0]);
-                        let ele = this.nodeName == "A" ? this : parentNode.nodeName == "A" ? parentNode : parentNode.children[0].nodeName == "A" ? parentNode.children[0] : "";
-                        if (ele && !ele.href.includes("pwd=") && !ele.href.includes("#")) {
-                            let c = obj.buildCode(shareId, shareSource, obj.findCode);
-                            if (ele.href.includes("?")) {
-                                c = c.replace("?", "&");
-                            }
-                            ele.href = ele.href + (c ? c : "")
-                        }
-
                     } else if (response.state == 1) {
                         $this.addClass("one-pan-tip-success");
                     } else if (response.state == -1) {
@@ -1365,7 +1371,7 @@
                         return portion.text;
                     } else {
                         let shareId = getShareId(match);
-                        let node = obj.createOnePanNode(shareId, shareSource);
+                        let node = obj.createOneSpanNode(shareId, shareSource);
                         node.textContent = obj.buildShareUrl(shareId, shareSource);
                         return node;
                     }
@@ -1376,37 +1382,32 @@
             });
         };
 
-        obj.createOnePanNode = function (shareId, shareSource) {
+        obj.createOneSpanNode = function (shareId, shareSource) {
             var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
             node.setAttribute("class", "one-pan-tip");
             node.setAttribute("one-id", shareId);
+            node.setAttribute("one-pwd", passMap[shareId]);
             node.setAttribute("one-source", shareSource);
             return node;
         };
-        obj.findCode = function (shareId) {
-            let sr = "(?<=" + shareId + "(?:/?\\\s*(?:[\\(（])?(?:提取|访问|密)[码碼]?\\\s*[:：﹕ ]?\\\s*|\\\?pwd=|#))([a-z\\d]{4,8})";
-            let reg = new RegExp(sr, "i");
-            let match = document.body.innerText.match(reg);
-			logger.d("findCode", shareId, match);
-            return match && match[0] || "";
-        };
-        obj.findCode2 = function (shareId) {
-            let sr = "(?<=" + shareId + "/?\\\s*(?:[\\(（])?(?:提取|访问|密)[码碼]?\\\s*[:：﹕ ]?\\\s*)([a-z\\d]{4,8})";
-            let reg = new RegExp(sr, "i");
-            let match = document.body.innerText.match(reg);
-			logger.d("findCode2", shareId, match);
-            return match && match[0] || "";
-        };
+     
+        obj.buildShareUrl = function (shareId, shareSource,pwd) {
+			let code = pwd ||passMap[shareId];
+			if(code =="undefined") {
+			var rrr = document.body.innerText.match(/([\w-]+)(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
 
-        obj.buildShareUrl = function (shareId, shareSource) {
-            let shareUrl = constant[shareSource]["prefix"] + shareId +( manifest.showCode ? obj.buildCode(shareId, shareSource, obj.findCode2) : "");
-            return shareUrl;
-        };
-        obj.buildCode = function (shareId, shareSource, fun) {
-            let code = fun(shareId);
+            for (var s in rrr) {
+                let r = /([\w-]+).*([a-z\d]{4,8})/ig.exec(rrr[s]);
+                passMap[r[1]] = r[2];
+            }
+			code =passMap[shareId];
+			}
+			
             let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
-			logger.d("buildCode", code, appendCode);
-            return code ? (appendCode + code) : "";
+            logger.info("buildCode", code, appendCode);
+            code = code ? (appendCode + code) : "";
+            let shareUrl = constant[shareSource]["prefix"] + shareId +  code;
+                    return shareUrl;
         };
 
         return obj;
