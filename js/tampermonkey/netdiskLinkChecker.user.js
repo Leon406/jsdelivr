@@ -1372,7 +1372,7 @@
                     } else {
                         let shareId = getShareId(match);
                         let node = obj.createOneSpanNode(shareId, shareSource);
-                        node.textContent = obj.buildShareUrl(shareId, shareSource);
+                        node.textContent = obj.buildShowText(shareId, shareSource);
                         return node;
                     }
                 },
@@ -1408,6 +1408,9 @@
             code = code ? (appendCode + code) : "";
             let shareUrl = constant[shareSource]["prefix"] + shareId +  code;
                     return shareUrl;
+        };
+		obj.buildShowText = function (shareId, shareSource) {
+            return constant[shareSource]["prefix"] + shareId;
         };
 
         return obj;
