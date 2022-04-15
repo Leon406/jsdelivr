@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.2
+// @version      1.2.3
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
@@ -48,10 +48,9 @@
 
     var manifest = {
         "name": "ljjc",
-        "logger_level": 2,
+        "logger_level": 3,
         "checkTimes": 3,
         "checkInterval": 30,
-        "showCode": false,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
