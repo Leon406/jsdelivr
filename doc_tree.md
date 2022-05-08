@@ -2681,7 +2681,6 @@ E:\GITHUB\JSDELIVR
         pac.txt
         pac7890.txt
         quark.txt
-        regex.txt
         subs03.txt
         tmp.txt
         
