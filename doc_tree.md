@@ -2677,6 +2677,7 @@ E:\GITHUB\JSDELIVR
 ©¦      
 ©¸©¤subscribe
         gfwlist.txt
+        http.yml
         mysub.txt
         pac.txt
         pac7890.txt
