@@ -1,5 +1,4 @@
-文件夹 PATH 列表
-E:\GITREPO\JSDELIVR
+E:\GITHUB\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -2678,11 +2677,11 @@ E:\GITREPO\JSDELIVR
 │      
 └─subscribe
         gfwlist.txt
+        http.yml
         mysub.txt
         pac.txt
         pac7890.txt
         quark.txt
-        regex.txt
         subs03.txt
         tmp.txt
         

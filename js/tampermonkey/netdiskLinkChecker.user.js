@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.4
+// @version      1.2.5
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
@@ -1286,8 +1286,8 @@
         };
 
         obj.runMatch = function () {
-			
-			//创建span
+
+            //创建span
             for (var rule in constant) {
                 obj.replaceTextAsLink(constant[rule]["replaceReg"], rule, function (match) {
                     return match[1];
@@ -1304,12 +1304,12 @@
                 oneSource;
                 var href = $this.attr("href");
                 if (href) {
-					//匹配域名
+                    //匹配域名
                     for (var rule in constant) {
                         if ((match = constant[rule]["reg"].exec(href))) {
                             oneId = href;
                             oneSource = rule;
-							break;
+                            break;
                         }
                     }
                 }
@@ -1328,17 +1328,17 @@
                 let pwd = $this.attr("one-pwd");
 
                 let parentNode = this.parentNode;
-                if (parentNode.nodeName != "A") {	
-					
+                if (parentNode.nodeName != "A") {
+
                     // 转超链接
-                    $this.wrap('<a href="' + obj.buildShareUrl(shareId,shareSource,pwd) + '" target="_blank"></a>');
+                    $this.wrap('<a href="' + obj.buildShareUrl(shareId, shareSource, pwd) + '" target="_blank"></a>');
                 } else if (constant[shareSource]["aTagRepalce"]) {
                     let replacePair = constant[shareSource]["aTagRepalce"];
                     // 失效域名替换
-                    parentNode.href = obj.buildShareUrl(shareId,shareSource,pwd).replace(replacePair[0], replacePair[1])
-                }else {
-					 parentNode.href = obj.buildShareUrl(shareId,shareSource,pwd);
-				}
+                    parentNode.href = obj.buildShareUrl(shareId, shareSource, pwd).replace(replacePair[0], replacePair[1])
+                } else {
+                    parentNode.href = obj.buildShareUrl(shareId, shareSource, pwd);
+                }
 
                 checkManage.checkLinkAsync(shareSource, shareId, 0, (response) => {
                     if (response.state == 2) {
@@ -1382,33 +1382,35 @@
         };
 
         obj.createOneSpanNode = function (shareId, shareSource) {
-            var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
+            shareId = shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId
+                var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
             node.setAttribute("class", "one-pan-tip");
             node.setAttribute("one-id", shareId);
             node.setAttribute("one-pwd", passMap[shareId]);
             node.setAttribute("one-source", shareSource);
             return node;
         };
-     
-        obj.buildShareUrl = function (shareId, shareSource,pwd) {
-			let code = pwd ||passMap[shareId];
-			if(code =="undefined") {
-			var rrr = document.body.innerText.match(/([\w-]+)(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
 
-            for (var s in rrr) {
-                let r = /([\w-]+).*([a-z\d]{4,8})/ig.exec(rrr[s]);
-                passMap[r[1]] = r[2];
+        obj.buildShareUrl = function (shareId, shareSource, pwd) {
+            shareId = shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId
+                let code = pwd || passMap[shareId];
+            if (code == "undefined") {
+                var rrr = document.body.innerText.match(/([\w-]+)(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
+
+                for (var s in rrr) {
+                    let r = /([\w-]+).*([a-z\d]{4,8})/ig.exec(rrr[s].replace(/\s/g,""));
+                    passMap[r[1]] = r[2];
+                }
+                code = passMap[shareId];
             }
-			code =passMap[shareId];
-			}
-			
+
             let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
             logger.info("buildCode", code, appendCode);
             code = code ? (appendCode + code) : "";
-            let shareUrl = constant[shareSource]["prefix"] + shareId +  code;
-                    return shareUrl;
+            let shareUrl = constant[shareSource]["prefix"] + shareId + code;
+            return shareUrl;
         };
-		obj.buildShowText = function (shareId, shareSource) {
+        obj.buildShowText = function (shareId, shareSource) {
             return constant[shareSource]["prefix"] + shareId;
         };
 
