@@ -1,4 +1,4 @@
-2022年5月12日 22:00:38
+2022年5月22日 10:40:00
 
 ## 下载
 
@@ -18,7 +18,7 @@
 
 | 软件                                                         |      版本      | 说明               |
 | ------------------------------------------------------------ | :------------: | -------------------- |
-| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.3.5     | Android反编译        |
+| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.4.0     | Android反编译        |
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.5      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
@@ -36,19 +36,19 @@
 | 软件                                                         |   版本   | 说明       |
 | ------------------------------------------------------------ | :------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.3.7 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.3.8 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.6 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.7.4 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.7.5 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.1 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.23  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.44 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.17  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.19  |               |
 |  |  | |
 
 ## 开发
@@ -63,13 +63,13 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.9.0  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.5  | redis工具                             |
-| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.12 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.67.1 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  6.1.2  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.7.0  | 编辑器 支持大文件                     |
-| [AnLink](https://cn.anlinksoft.com/changelog/) |  3.9  | Android 投屏电脑                      |
+| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.13 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.67.2 | 编辑器                                |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  6.1.4  | 接口测试                              |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.7.1  | 编辑器 支持大文件                     |
+| [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.0  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.15 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.17 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -111,8 +111,6 @@
 |                                                       |            |          |
 
 
-
-## 
 
 ## 格式转换
 
