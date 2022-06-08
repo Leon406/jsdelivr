@@ -158,7 +158,7 @@ var defaultOptions = {
     kind: OptionKind.API
   },
   cMapUrl: {
-    value: "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/cmaps/",
+    value: "https://fastly.jsdelivr.net/npm/pdfjs-dist@2.9.359/cmaps/",
     kind: OptionKind.API
   },
   disableAutoFetch: {

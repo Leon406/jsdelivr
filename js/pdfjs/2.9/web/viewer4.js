@@ -158,7 +158,7 @@ var defaultOptions = {
     kind: OptionKind.API
   },
   cMapUrl: {
-    value: "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/cmaps/",
+    value: "https://fastly.jsdelivr.net/npm/pdfjs-dist@2.9.359/cmaps/",
     kind: OptionKind.API
   },
   disableAutoFetch: {
@@ -210,7 +210,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9/build/pdf.worker.js",
+    value: "https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9/build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
@@ -224,7 +224,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9//build/pdf.sandbox.js",
+    value: "https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9//build/pdf.sandbox.js",
     kind: OptionKind.VIEWER
   };
   defaultOptions.renderer.kind += OptionKind.PREFERENCE;
@@ -5173,7 +5173,7 @@ var pdfjsLib;
 if (typeof window !== "undefined" && window["pdfjs-dist/build/pdf"]) {
   pdfjsLib = window["pdfjs-dist/build/pdf"];
 } else {
-  pdfjsLib = require("https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9/build/pdf.js");
+  pdfjsLib = require("https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9/build/pdf.js");
 }
 
 module.exports = pdfjsLib;
@@ -19993,7 +19993,7 @@ function getViewerConfiguration() {
     errorWrapper: errorWrapper,
     printContainer: document.getElementById("printContainer"),
     openFileInputName: "fileInput",
-    debuggerScriptPath: "https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9/web/debugger.js"
+    debuggerScriptPath: "https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.9/web/debugger.js"
   };
 }
 

@@ -7,11 +7,11 @@
 							
 --web
   
-  view.js的  引用路径../ 改为在线地址 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)
+  view.js的  引用路径../ 改为在线地址 https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)
 				删除跨域限制代码						 if (origin !== viewerOrigin && protocol !== "blob:") {throw new Error("file origin does not match viewer's"); }
   view.html
-     引用路径../ 替换在线地址 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)
-	 view.js/view.css/locale/locale.properties 加上 https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)/web/
+     引用路径../ 替换在线地址 https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)
+	 view.js/view.css/locale/locale.properties 加上 https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)/web/
 	 
 	 
 	

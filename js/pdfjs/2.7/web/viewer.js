@@ -399,7 +399,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.7/build/pdf.worker.js",
+    value: "https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.7/build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
@@ -413,7 +413,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: ".https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.7/build/pdf.sandbox.js",
+    value: ".https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.7/build/pdf.sandbox.js",
     kind: OptionKind.VIEWER
   };
 }

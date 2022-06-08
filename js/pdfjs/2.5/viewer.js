@@ -4806,7 +4806,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "https://cdn.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.5/pdf.worker.min.js",
+    value: "https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/2.5/pdf.worker.min.js",
     kind: OptionKind.WORKER
   }
 };
