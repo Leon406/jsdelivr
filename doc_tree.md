@@ -1,2721 +1,2721 @@
-ÎÄ¼ş¼Ğ PATH ÁĞ±í
-E:\GITREPO\JSDELIVR
-©¦  doc_tree.md
-©¦  pull.bat
-©¦  pull.sh
-©¦  README.md
-©¦  up.bat
-©¦  up.sh
-©¦  
-©À©¤abp
-©¦      mv.txt
-©¦      rule.txt
-©¦      ublock-static-filters.txt
-©¦      
-©À©¤apk
-©¦      adbwireless.apk
-©¦      
-©À©¤cdn
-©¦  ©¦  ĞÂ½¨ ÎÄ±¾ÎÄµµ.txt
-©¦  ©¦  
-©¦  ©À©¤github
-©¦  ©¦  ©¸©¤assets
-©¦  ©¦          app_assets_modules_github_behaviors_details_ts-app_assets_modules_github_behaviors_include-fr-34e1f7-81aaed33af9b.js
-©¦  ©¦          app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-af52ef-da1b18076287.js
-©¦  ©¦          app_assets_modules_github_behaviors_pjax_ts-8ab68dc18f9f.js
-©¦  ©¦          behaviors-e98e782d99d4.js
-©¦  ©¦          command-palette-b1397c8e82f8.js
-©¦  ©¦          content.css
-©¦  ©¦          dashboard-81d167456771.css
-©¦  ©¦          dashboard-9cdb674e8292.js
-©¦  ©¦          element-registry-4a67d654fd76.js
-©¦  ©¦          environment-9693039383ed.js
-©¦  ©¦          github-8171d524d5cb.css
-©¦  ©¦          github-elements-97fffc8703a2.js
-©¦  ©¦          global-f0ee04095ee5.css
-©¦  ©¦          home-e7c62af55af3.css
-©¦  ©¦          light-92c7d381038e.css
-©¦  ©¦          notifications-global-e54b0c8c6ddc.js
-©¦  ©¦          primer-856885a5a549.css
-©¦  ©¦          runtime-fd29eeef43e0.js
-©¦  ©¦          site-7b08dc8b1766.css
-©¦  ©¦          vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-6e358f-a62225a208b7.js
-©¦  ©¦          vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-12cdb93781b2.js
-©¦  ©¦          vendors-node_modules_dompurify_dist_purify_js-0677fca37991.js
-©¦  ©¦          vendors-node_modules_github_catalyst_lib_index_js-node_modules_github_time-elements_dist_index_js-7e71a35c960d.js
-©¦  ©¦          vendors-node_modules_github_clipboard-copy-element_dist_index_esm_js-node_modules_delegated-e-e4591b-523269a764ea.js
-©¦  ©¦          vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-52e104-e9e86b38ebb9.js
-©¦  ©¦          vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-c7e9ed-96689e70e220.js
-©¦  ©¦          vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_delegated-events_dist_in-2c6780-4d8999a098b2.js
-©¦  ©¦          vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-d2bd677ffadf.js
-©¦  ©¦          vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-df2537-54ae7a774375.js
-©¦  ©¦          vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-87b1b3-eec2e761db24.js
-©¦  ©¦          vendors-node_modules_lit-html_lit-html_js-ba8ef7c9465c.js
-©¦  ©¦          vendors-node_modules_selector-observer_dist_index_esm_js-8a8fb532f817.js
-©¦  ©¦          
-©¦  ©¸©¤stackoverflow
-©À©¤extension
-©¦      gooreplacer.gson
-©¦      
-©À©¤gradle
-©¦      andres.gradle
-©¦      dependenciesx.gradle
-©¦      jetpackx.gradle
-©¦      README.md
-©¦      
-©À©¤hosts
-©¦      blacklist
-©¦      whitelist
-©¦      
-©À©¤img
-©¦      1571887687153.png
-©¦      360½ØÍ¼184307056511999.png
-©¦      all.png
-©¦      amb.png
-©¦      androidversion.png
-©¦      android_source_dir.png
-©¦      base.png
-©¦      buffer.png
-©¦      combineLatest.png
-©¦      concat.png
-©¦      contains.png
-©¦      count.png
-©¦      debounce.png
-©¦      distinct.png
-©¦      distinctUntilChanged.png
-©¦      donut.png
-©¦      elementAt.png
-©¦      filter.png
-©¦      first.png
-©¦      flatMap.png
-©¦      fragment.png
-©¦      gitÉ¾³ı¶àÓàµÄ´óÎÄ¼ş.jpg
-©¦      groupBy.png
-©¦      ignoreElements.png
-©¦      image-20200701150539249.png
-©¦      image-20200701150837688.png
-©¦      image-20200701151950539.png
-©¦      image-20200701152205827.png
-©¦      image-20200701152711132.png
-©¦      image-20200701153356749.png
-©¦      image-20200701153550052.png
-©¦      image-20200701154034484.png
-©¦      image-20200712195703122.png
-©¦      image-20200712195925866.png
-©¦      image-20200712202607014.png
-©¦      image-20200716164754585.png
-©¦      image-20200908204643379.png
-©¦      invalidate-sig.jpg
-©¦      invalidate_sig.jpg
-©¦      JetPack.png
-©¦      last.png
-©¦      lifecycles.png
-©¦      map.png
-©¦      merge.png
-©¦      onErrorResumeNext.png
-©¦      onErrorReturn.png
-©¦      openssl_env.png
-©¦      pic_1594722305997.png
-©¦      process.png
-©¦      reduce.png
-©¦      scan.png
-©¦      sequenceEqual.png
-©¦      sig.jpg
-©¦      sig1.jpg
-©¦      sig22.gif
-©¦      sig_full_1.jpg
-©¦      sig_validate.jpg
-©¦      sig_zoom_01.jpg
-©¦      skip.png
-©¦      skipLast.png
-©¦      skipUntil.png
-©¦      skipWhile.png
-©¦      startWith.png
-©¦      take.png
-©¦      takeLast.png
-©¦      takeUntil.png
-©¦      takeWhile.png
-©¦      vertex.png
-©¦      viewmodel-lifecycle.png
-©¦      zip.png
-©¦      »ØÊÕ×ÊÔ´.jpg
-©¦      ÆÁÄ»½ØÍ¼ 2020-10-23 131553.png
-©¦      ÍÆËÍgit.jpg
-©¦      ÎÄµµ¸ü¸Äºó.jpg
-©¦      Ğ£Ñé.webp.jpg
-©¦      Ç©Ãû.webp.jpg
-©¦      
-©À©¤js
-©¦  ©À©¤pdfjs
-©¦  ©¦  ©¦  viewer2.12.html
-©¦  ©¦  ©¦  viewer2.13.html
-©¦  ©¦  ©¦  viewer2.5.html
-©¦  ©¦  ©¦  viewer2.7.html
-©¦  ©¦  ©¦  viewer2.9.html
-©¦  ©¦  ©¦  ĞŞ¸Ä.txt
-©¦  ©¦  ©¦  
-©¦  ©¦  ©À©¤2.12
-©¦  ©¦  ©¦  ©¦  LICENSE
-©¦  ©¦  ©¦  ©¦  
-©¦  ©¦  ©¦  ©À©¤build
-©¦  ©¦  ©¦  ©¦      pdf.js
-©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
-©¦  ©¦  ©¦  ©¦      pdf.worker.js
-©¦  ©¦  ©¦  ©¦      
-©¦  ©¦  ©¦  ©¸©¤web
-©¦  ©¦  ©¦      ©¦  debugger.js
-©¦  ©¦  ©¦      ©¦  viewer.css
-©¦  ©¦  ©¦      ©¦  viewer.html
-©¦  ©¦  ©¦      ©¦  viewer.js
-©¦  ©¦  ©¦      ©¦  
-©¦  ©¦  ©¦      ©À©¤cmaps
-©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-V.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-V.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      H.bcmap
-©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
-©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      Katakana.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      LICENSE
-©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
-©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Roman.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      V.bcmap
-©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©À©¤images
-©¦  ©¦  ©¦      ©¦      annotation-check.svg
-©¦  ©¦  ©¦      ©¦      annotation-comment.svg
-©¦  ©¦  ©¦      ©¦      annotation-help.svg
-©¦  ©¦  ©¦      ©¦      annotation-insert.svg
-©¦  ©¦  ©¦      ©¦      annotation-key.svg
-©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
-©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
-©¦  ©¦  ©¦      ©¦      annotation-note.svg
-©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
-©¦  ©¦  ©¦      ©¦      grab.cur
-©¦  ©¦  ©¦      ©¦      grabbing.cur
-©¦  ©¦  ©¦      ©¦      loading-dark.svg
-©¦  ©¦  ©¦      ©¦      loading-icon.gif
-©¦  ©¦  ©¦      ©¦      loading.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦  ©¦  ©¦      ©¦      shadow.png
-©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
-©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©À©¤locale
-©¦  ©¦  ©¦      ©¦  ©¦  locale.properties
-©¦  ©¦  ©¦      ©¦  ©¦  
-©¦  ©¦  ©¦      ©¦  ©À©¤ach
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤af
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤an
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ar
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ast
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤az
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤be
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bg
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤br
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤brx
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bs
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ca
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤cak
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ckb
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤cs
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤cy
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤da
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤de
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤dsb
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤el
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤en-CA
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤en-GB
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤en-US
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤eo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-AR
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-CL
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-ES
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-MX
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤et
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤eu
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fa
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ff
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fi
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fy-NL
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ga-IE
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gd
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gu-IN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤he
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hi-IN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hsb
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hu
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hy-AM
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hye
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ia
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤id
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤is
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤it
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ja
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ka
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤kab
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤kk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤km
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤kn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ko
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lij
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lt
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ltg
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lv
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤meh
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤mk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤mr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ms
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤my
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤nb-NO
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ne-NP
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤nl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤nn-NO
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤oc
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pa-IN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pt-BR
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pt-PT
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤rm
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ro
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ru
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sat
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sc
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤scn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sco
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤si
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤son
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sq
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sv-SE
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤szl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ta
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤te
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤tg
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤th
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤tl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤tr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤trs
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤uk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ur
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤uz
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤vi
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤wo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤xh
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤zh-CN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©¸©¤zh-TW
-©¦  ©¦  ©¦      ©¦          viewer.properties
-©¦  ©¦  ©¦      ©¦          
-©¦  ©¦  ©¦      ©¸©¤standard_fonts
-©¦  ©¦  ©¦              FoxitDingbats.pfb
-©¦  ©¦  ©¦              FoxitFixed.pfb
-©¦  ©¦  ©¦              FoxitFixedBold.pfb
-©¦  ©¦  ©¦              FoxitFixedBoldItalic.pfb
-©¦  ©¦  ©¦              FoxitFixedItalic.pfb
-©¦  ©¦  ©¦              FoxitSans.pfb
-©¦  ©¦  ©¦              FoxitSansBold.pfb
-©¦  ©¦  ©¦              FoxitSansBoldItalic.pfb
-©¦  ©¦  ©¦              FoxitSansItalic.pfb
-©¦  ©¦  ©¦              FoxitSerif.pfb
-©¦  ©¦  ©¦              FoxitSerifBold.pfb
-©¦  ©¦  ©¦              FoxitSerifBoldItalic.pfb
-©¦  ©¦  ©¦              FoxitSerifItalic.pfb
-©¦  ©¦  ©¦              FoxitSymbol.pfb
-©¦  ©¦  ©¦              LiberationSans-Bold.ttf
-©¦  ©¦  ©¦              LiberationSans-BoldItalic.ttf
-©¦  ©¦  ©¦              LiberationSans-Italic.ttf
-©¦  ©¦  ©¦              LiberationSans-Regular.ttf
-©¦  ©¦  ©¦              LICENSE_FOXIT
-©¦  ©¦  ©¦              LICENSE_LIBERATION
-©¦  ©¦  ©¦              
-©¦  ©¦  ©À©¤2.13
-©¦  ©¦  ©¦  ©¦  LICENSE
-©¦  ©¦  ©¦  ©¦  
-©¦  ©¦  ©¦  ©À©¤build
-©¦  ©¦  ©¦  ©¦      pdf.js
-©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
-©¦  ©¦  ©¦  ©¦      pdf.worker.js
-©¦  ©¦  ©¦  ©¦      
-©¦  ©¦  ©¦  ©¸©¤web
-©¦  ©¦  ©¦      ©¦  debugger.js
-©¦  ©¦  ©¦      ©¦  viewer.css
-©¦  ©¦  ©¦      ©¦  viewer.js
-©¦  ©¦  ©¦      ©¦  
-©¦  ©¦  ©¦      ©À©¤cmaps
-©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-V.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-V.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      H.bcmap
-©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
-©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      Katakana.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      LICENSE
-©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
-©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Roman.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      V.bcmap
-©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©À©¤images
-©¦  ©¦  ©¦      ©¦      annotation-check.svg
-©¦  ©¦  ©¦      ©¦      annotation-comment.svg
-©¦  ©¦  ©¦      ©¦      annotation-help.svg
-©¦  ©¦  ©¦      ©¦      annotation-insert.svg
-©¦  ©¦  ©¦      ©¦      annotation-key.svg
-©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
-©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
-©¦  ©¦  ©¦      ©¦      annotation-note.svg
-©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
-©¦  ©¦  ©¦      ©¦      grab.cur
-©¦  ©¦  ©¦      ©¦      grabbing.cur
-©¦  ©¦  ©¦      ©¦      loading-dark.svg
-©¦  ©¦  ©¦      ©¦      loading-icon.gif
-©¦  ©¦  ©¦      ©¦      loading.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦  ©¦  ©¦      ©¦      shadow.png
-©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
-©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©À©¤locale
-©¦  ©¦  ©¦      ©¦  ©¦  locale.properties
-©¦  ©¦  ©¦      ©¦  ©¦  
-©¦  ©¦  ©¦      ©¦  ©À©¤ach
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤af
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤an
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ar
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ast
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤az
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤be
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bg
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤br
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤brx
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤bs
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ca
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤cak
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ckb
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤cs
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤cy
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤da
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤de
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤dsb
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤el
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤en-CA
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤en-GB
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤en-US
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤eo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-AR
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-CL
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-ES
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤es-MX
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤et
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤eu
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fa
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ff
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fi
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤fy-NL
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ga-IE
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gd
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤gu-IN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤he
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hi-IN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hsb
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hu
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hy-AM
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤hye
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ia
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤id
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤is
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤it
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ja
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ka
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤kab
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤kk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤km
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤kn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ko
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lij
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lt
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ltg
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤lv
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤meh
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤mk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤mr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ms
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤my
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤nb-NO
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ne-NP
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤nl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤nn-NO
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤oc
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pa-IN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pt-BR
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤pt-PT
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤rm
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ro
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ru
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sat
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sc
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤scn
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sco
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤si
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤son
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sq
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤sv-SE
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤szl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ta
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤te
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤tg
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤th
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤tl
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤tr
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤trs
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤uk
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤ur
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤uz
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤vi
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤wo
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤xh
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©À©¤zh-CN
-©¦  ©¦  ©¦      ©¦  ©¦      viewer.properties
-©¦  ©¦  ©¦      ©¦  ©¦      
-©¦  ©¦  ©¦      ©¦  ©¸©¤zh-TW
-©¦  ©¦  ©¦      ©¦          viewer.properties
-©¦  ©¦  ©¦      ©¦          
-©¦  ©¦  ©¦      ©¸©¤standard_fonts
-©¦  ©¦  ©¦              FoxitDingbats.pfb
-©¦  ©¦  ©¦              FoxitFixed.pfb
-©¦  ©¦  ©¦              FoxitFixedBold.pfb
-©¦  ©¦  ©¦              FoxitFixedBoldItalic.pfb
-©¦  ©¦  ©¦              FoxitFixedItalic.pfb
-©¦  ©¦  ©¦              FoxitSans.pfb
-©¦  ©¦  ©¦              FoxitSansBold.pfb
-©¦  ©¦  ©¦              FoxitSansBoldItalic.pfb
-©¦  ©¦  ©¦              FoxitSansItalic.pfb
-©¦  ©¦  ©¦              FoxitSerif.pfb
-©¦  ©¦  ©¦              FoxitSerifBold.pfb
-©¦  ©¦  ©¦              FoxitSerifBoldItalic.pfb
-©¦  ©¦  ©¦              FoxitSerifItalic.pfb
-©¦  ©¦  ©¦              FoxitSymbol.pfb
-©¦  ©¦  ©¦              LiberationSans-Bold.ttf
-©¦  ©¦  ©¦              LiberationSans-BoldItalic.ttf
-©¦  ©¦  ©¦              LiberationSans-Italic.ttf
-©¦  ©¦  ©¦              LiberationSans-Regular.ttf
-©¦  ©¦  ©¦              LICENSE_FOXIT
-©¦  ©¦  ©¦              LICENSE_LIBERATION
-©¦  ©¦  ©¦              
-©¦  ©¦  ©À©¤2.5
-©¦  ©¦  ©¦      debugger.js
-©¦  ©¦  ©¦      debugger.min.js
-©¦  ©¦  ©¦      pdf.js
-©¦  ©¦  ©¦      pdf.min.js
-©¦  ©¦  ©¦      pdf.worker.js
-©¦  ©¦  ©¦      pdf.worker.min.js
-©¦  ©¦  ©¦      viewer.js
-©¦  ©¦  ©¦      viewer.min.js
-©¦  ©¦  ©¦      viewer02.css
-©¦  ©¦  ©¦      viewer2.js
-©¦  ©¦  ©¦      viewer2.min.js
-©¦  ©¦  ©¦      
-©¦  ©¦  ©À©¤2.7
-©¦  ©¦  ©¦  ©¦  LICENSE
-©¦  ©¦  ©¦  ©¦  
-©¦  ©¦  ©¦  ©À©¤build
-©¦  ©¦  ©¦  ©¦      pdf.js
-©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
-©¦  ©¦  ©¦  ©¦      pdf.worker.js
-©¦  ©¦  ©¦  ©¦      
-©¦  ©¦  ©¦  ©¸©¤web
-©¦  ©¦  ©¦      ©¦  debugger.js
-©¦  ©¦  ©¦      ©¦  viewer.css
-©¦  ©¦  ©¦      ©¦  viewer.html
-©¦  ©¦  ©¦      ©¦  viewer.js
-©¦  ©¦  ©¦      ©¦  viewer.js.map
-©¦  ©¦  ©¦      ©¦  
-©¦  ©¦  ©¦      ©À©¤cmaps
-©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-V.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-V.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      H.bcmap
-©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
-©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      Katakana.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      LICENSE
-©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
-©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Roman.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      V.bcmap
-©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©À©¤images
-©¦  ©¦  ©¦      ©¦      annotation-check.svg
-©¦  ©¦  ©¦      ©¦      annotation-comment.svg
-©¦  ©¦  ©¦      ©¦      annotation-help.svg
-©¦  ©¦  ©¦      ©¦      annotation-insert.svg
-©¦  ©¦  ©¦      ©¦      annotation-key.svg
-©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
-©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
-©¦  ©¦  ©¦      ©¦      annotation-note.svg
-©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
-©¦  ©¦  ©¦      ©¦      grab.cur
-©¦  ©¦  ©¦      ©¦      grabbing.cur
-©¦  ©¦  ©¦      ©¦      loading-dark.svg
-©¦  ©¦  ©¦      ©¦      loading-icon.gif
-©¦  ©¦  ©¦      ©¦      loading.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦  ©¦  ©¦      ©¦      shadow.png
-©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
-©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©¸©¤locale
-©¦  ©¦  ©¦          ©¦  locale.properties
-©¦  ©¦  ©¦          ©¦  
-©¦  ©¦  ©¦          ©À©¤en-US
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©¸©¤zh-CN
-©¦  ©¦  ©¦                  viewer.properties
-©¦  ©¦  ©¦                  
-©¦  ©¦  ©À©¤2.71
-©¦  ©¦  ©¦  ©¦  LICENSE
-©¦  ©¦  ©¦  ©¦  
-©¦  ©¦  ©¦  ©À©¤build
-©¦  ©¦  ©¦  ©¦      pdf.js
-©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
-©¦  ©¦  ©¦  ©¦      pdf.worker.js
-©¦  ©¦  ©¦  ©¦      
-©¦  ©¦  ©¦  ©¸©¤web
-©¦  ©¦  ©¦      ©¦  debugger.js
-©¦  ©¦  ©¦      ©¦  viewer.css
-©¦  ©¦  ©¦      ©¦  viewer.html
-©¦  ©¦  ©¦      ©¦  viewer.js
-©¦  ©¦  ©¦      ©¦  viewer2.js
-©¦  ©¦  ©¦      ©¦  viewer3.js
-©¦  ©¦  ©¦      ©¦  
-©¦  ©¦  ©¦      ©À©¤cmaps
-©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-V.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-V.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      H.bcmap
-©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
-©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      Katakana.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      LICENSE
-©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
-©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Roman.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      V.bcmap
-©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©À©¤images
-©¦  ©¦  ©¦      ©¦      annotation-check.svg
-©¦  ©¦  ©¦      ©¦      annotation-comment.svg
-©¦  ©¦  ©¦      ©¦      annotation-help.svg
-©¦  ©¦  ©¦      ©¦      annotation-insert.svg
-©¦  ©¦  ©¦      ©¦      annotation-key.svg
-©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
-©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
-©¦  ©¦  ©¦      ©¦      annotation-note.svg
-©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
-©¦  ©¦  ©¦      ©¦      grab.cur
-©¦  ©¦  ©¦      ©¦      grabbing.cur
-©¦  ©¦  ©¦      ©¦      loading-dark.svg
-©¦  ©¦  ©¦      ©¦      loading-icon.gif
-©¦  ©¦  ©¦      ©¦      loading.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦  ©¦  ©¦      ©¦      shadow.png
-©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
-©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©¸©¤locale
-©¦  ©¦  ©¦          ©¦  locale.properties
-©¦  ©¦  ©¦          ©¦  
-©¦  ©¦  ©¦          ©À©¤en-US
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©¸©¤zh-CN
-©¦  ©¦  ©¦                  viewer.properties
-©¦  ©¦  ©¦                  
-©¦  ©¦  ©À©¤2.9
-©¦  ©¦  ©¦  ©¦  LICENSE
-©¦  ©¦  ©¦  ©¦  
-©¦  ©¦  ©¦  ©À©¤build
-©¦  ©¦  ©¦  ©¦      pdf.js
-©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
-©¦  ©¦  ©¦  ©¦      pdf.worker.js
-©¦  ©¦  ©¦  ©¦      
-©¦  ©¦  ©¦  ©¸©¤web
-©¦  ©¦  ©¦      ©¦  debugger.js
-©¦  ©¦  ©¦      ©¦  viewer.css
-©¦  ©¦  ©¦      ©¦  viewer.html
-©¦  ©¦  ©¦      ©¦  viewer.js
-©¦  ©¦  ©¦      ©¦  viewer4.js
-©¦  ©¦  ©¦      ©¦  
-©¦  ©¦  ©¦      ©À©¤cmaps
-©¦  ©¦  ©¦      ©¦      78-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      78-V.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      78ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      83pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90msp-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      90pv-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Add-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Add-V.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-CNS1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-GB1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-3.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-4.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-5.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-6.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Japan1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-0.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-1.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-2.bcmap
-©¦  ©¦  ©¦      ©¦      Adobe-Korea1-UCS2.bcmap
-©¦  ©¦  ©¦      ©¦      B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-H.bcmap
-©¦  ©¦  ©¦      ©¦      B5pc-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS1-V.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      CNS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETen-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETenms-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      ETHK-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Ext-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GB-H.bcmap
-©¦  ©¦  ©¦      ©¦      GB-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBK2K-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBKp-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBT-V.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      GBTpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      H.bcmap
-©¦  ©¦  ©¦      ©¦      Hankaku.bcmap
-©¦  ©¦  ©¦      ©¦      Hiragana.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdla-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKdlb-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKgccs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm314-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKm471-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-H.bcmap
-©¦  ©¦  ©¦      ©¦      HKscs-B5-V.bcmap
-©¦  ©¦  ©¦      ©¦      Katakana.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-Johab-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCms-UHC-V.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-H.bcmap
-©¦  ©¦  ©¦      ©¦      KSCpc-EUC-V.bcmap
-©¦  ©¦  ©¦      ©¦      LICENSE
-©¦  ©¦  ©¦      ©¦      NWP-H.bcmap
-©¦  ©¦  ©¦      ©¦      NWP-V.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-H.bcmap
-©¦  ©¦  ©¦      ©¦      RKSJ-V.bcmap
-©¦  ©¦  ©¦      ©¦      Roman.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniCNS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniGB-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJIS2004-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISPro-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX0213-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UCS2-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF16-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF32-V.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-H.bcmap
-©¦  ©¦  ©¦      ©¦      UniKS-UTF8-V.bcmap
-©¦  ©¦  ©¦      ©¦      V.bcmap
-©¦  ©¦  ©¦      ©¦      WP-Symbol.bcmap
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©À©¤images
-©¦  ©¦  ©¦      ©¦      annotation-check.svg
-©¦  ©¦  ©¦      ©¦      annotation-comment.svg
-©¦  ©¦  ©¦      ©¦      annotation-help.svg
-©¦  ©¦  ©¦      ©¦      annotation-insert.svg
-©¦  ©¦  ©¦      ©¦      annotation-key.svg
-©¦  ©¦  ©¦      ©¦      annotation-newparagraph.svg
-©¦  ©¦  ©¦      ©¦      annotation-noicon.svg
-©¦  ©¦  ©¦      ©¦      annotation-note.svg
-©¦  ©¦  ©¦      ©¦      annotation-paragraph.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-next.svg
-©¦  ©¦  ©¦      ©¦      findbarButton-previous.svg
-©¦  ©¦  ©¦      ©¦      grab.cur
-©¦  ©¦  ©¦      ©¦      grabbing.cur
-©¦  ©¦  ©¦      ©¦      loading-dark.svg
-©¦  ©¦  ©¦      ©¦      loading-icon.gif
-©¦  ©¦  ©¦      ©¦      loading.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-documentProperties.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-firstPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-handTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-lastPage.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-rotateCw.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-selectTool.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadEven.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadNone.svg
-©¦  ©¦  ©¦      ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦  ©¦  ©¦      ©¦      shadow.png
-©¦  ©¦  ©¦      ©¦      toolbarButton-bookmark.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-currentOutlineItem.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-download.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-menuArrow.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-openFile.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageDown.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-pageUp.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-presentationMode.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-print.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-search.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-sidebarToggle.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewAttachments.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewLayers.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewOutline.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-viewThumbnail.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomIn.svg
-©¦  ©¦  ©¦      ©¦      toolbarButton-zoomOut.svg
-©¦  ©¦  ©¦      ©¦      treeitem-collapsed.svg
-©¦  ©¦  ©¦      ©¦      treeitem-expanded.svg
-©¦  ©¦  ©¦      ©¦      
-©¦  ©¦  ©¦      ©¸©¤locale
-©¦  ©¦  ©¦          ©¦  locale.properties
-©¦  ©¦  ©¦          ©¦  
-©¦  ©¦  ©¦          ©À©¤ach
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤af
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤an
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ar
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ast
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤az
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤be
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤bg
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤bn
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤bo
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤br
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤brx
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤bs
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ca
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤cak
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ckb
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤cs
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤cy
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤da
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤de
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤dsb
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤el
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤en-CA
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤en-GB
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤en-US
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤eo
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤es-AR
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤es-CL
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤es-ES
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤es-MX
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤et
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤eu
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤fa
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ff
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤fi
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤fr
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤fy-NL
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ga-IE
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤gd
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤gl
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤gn
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤gu-IN
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤he
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤hi-IN
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤hr
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤hsb
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤hu
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤hy-AM
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤hye
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ia
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤id
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤is
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤it
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ja
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ka
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤kab
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤kk
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤km
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤kn
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ko
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤lij
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤lo
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤lt
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ltg
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤lv
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤meh
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤mk
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤mr
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ms
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤my
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤nb-NO
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ne-NP
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤nl
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤nn-NO
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤oc
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤pa-IN
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤pl
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤pt-BR
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤pt-PT
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤rm
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ro
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ru
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤scn
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤sco
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤si
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤sk
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤sl
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤son
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤sq
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤sr
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤sv-SE
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤szl
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ta
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤te
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤tg
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤th
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤tl
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤tr
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤trs
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤uk
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤ur
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤uz
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤vi
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤wo
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤xh
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©À©¤zh-CN
-©¦  ©¦  ©¦          ©¦      viewer.properties
-©¦  ©¦  ©¦          ©¦      
-©¦  ©¦  ©¦          ©¸©¤zh-TW
-©¦  ©¦  ©¦                  viewer.properties
-©¦  ©¦  ©¦                  
-©¦  ©¦  ©À©¤cmaps
-©¦  ©¦  ©¦      78-EUC-H.bcmap
-©¦  ©¦  ©¦      78-EUC-V.bcmap
-©¦  ©¦  ©¦      78-H.bcmap
-©¦  ©¦  ©¦      78-RKSJ-H.bcmap
-©¦  ©¦  ©¦      78-RKSJ-V.bcmap
-©¦  ©¦  ©¦      78-V.bcmap
-©¦  ©¦  ©¦      78ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      78ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      83pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      90ms-RKSJ-H.bcmap
-©¦  ©¦  ©¦      90ms-RKSJ-V.bcmap
-©¦  ©¦  ©¦      90msp-RKSJ-H.bcmap
-©¦  ©¦  ©¦      90msp-RKSJ-V.bcmap
-©¦  ©¦  ©¦      90pv-RKSJ-H.bcmap
-©¦  ©¦  ©¦      90pv-RKSJ-V.bcmap
-©¦  ©¦  ©¦      Add-H.bcmap
-©¦  ©¦  ©¦      Add-RKSJ-H.bcmap
-©¦  ©¦  ©¦      Add-RKSJ-V.bcmap
-©¦  ©¦  ©¦      Add-V.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-0.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-1.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-2.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-3.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-4.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-5.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-6.bcmap
-©¦  ©¦  ©¦      Adobe-CNS1-UCS2.bcmap
-©¦  ©¦  ©¦      Adobe-GB1-0.bcmap
-©¦  ©¦  ©¦      Adobe-GB1-1.bcmap
-©¦  ©¦  ©¦      Adobe-GB1-2.bcmap
-©¦  ©¦  ©¦      Adobe-GB1-3.bcmap
-©¦  ©¦  ©¦      Adobe-GB1-4.bcmap
-©¦  ©¦  ©¦      Adobe-GB1-5.bcmap
-©¦  ©¦  ©¦      Adobe-GB1-UCS2.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-0.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-1.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-2.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-3.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-4.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-5.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-6.bcmap
-©¦  ©¦  ©¦      Adobe-Japan1-UCS2.bcmap
-©¦  ©¦  ©¦      Adobe-Korea1-0.bcmap
-©¦  ©¦  ©¦      Adobe-Korea1-1.bcmap
-©¦  ©¦  ©¦      Adobe-Korea1-2.bcmap
-©¦  ©¦  ©¦      Adobe-Korea1-UCS2.bcmap
-©¦  ©¦  ©¦      B5-H.bcmap
-©¦  ©¦  ©¦      B5-V.bcmap
-©¦  ©¦  ©¦      B5pc-H.bcmap
-©¦  ©¦  ©¦      B5pc-V.bcmap
-©¦  ©¦  ©¦      CNS-EUC-H.bcmap
-©¦  ©¦  ©¦      CNS-EUC-V.bcmap
-©¦  ©¦  ©¦      CNS1-H.bcmap
-©¦  ©¦  ©¦      CNS1-V.bcmap
-©¦  ©¦  ©¦      CNS2-H.bcmap
-©¦  ©¦  ©¦      CNS2-V.bcmap
-©¦  ©¦  ©¦      ETen-B5-H.bcmap
-©¦  ©¦  ©¦      ETen-B5-V.bcmap
-©¦  ©¦  ©¦      ETenms-B5-H.bcmap
-©¦  ©¦  ©¦      ETenms-B5-V.bcmap
-©¦  ©¦  ©¦      ETHK-B5-H.bcmap
-©¦  ©¦  ©¦      ETHK-B5-V.bcmap
-©¦  ©¦  ©¦      EUC-H.bcmap
-©¦  ©¦  ©¦      EUC-V.bcmap
-©¦  ©¦  ©¦      Ext-H.bcmap
-©¦  ©¦  ©¦      Ext-RKSJ-H.bcmap
-©¦  ©¦  ©¦      Ext-RKSJ-V.bcmap
-©¦  ©¦  ©¦      Ext-V.bcmap
-©¦  ©¦  ©¦      GB-EUC-H.bcmap
-©¦  ©¦  ©¦      GB-EUC-V.bcmap
-©¦  ©¦  ©¦      GB-H.bcmap
-©¦  ©¦  ©¦      GB-V.bcmap
-©¦  ©¦  ©¦      GBK-EUC-H.bcmap
-©¦  ©¦  ©¦      GBK-EUC-V.bcmap
-©¦  ©¦  ©¦      GBK2K-H.bcmap
-©¦  ©¦  ©¦      GBK2K-V.bcmap
-©¦  ©¦  ©¦      GBKp-EUC-H.bcmap
-©¦  ©¦  ©¦      GBKp-EUC-V.bcmap
-©¦  ©¦  ©¦      GBpc-EUC-H.bcmap
-©¦  ©¦  ©¦      GBpc-EUC-V.bcmap
-©¦  ©¦  ©¦      GBT-EUC-H.bcmap
-©¦  ©¦  ©¦      GBT-EUC-V.bcmap
-©¦  ©¦  ©¦      GBT-H.bcmap
-©¦  ©¦  ©¦      GBT-V.bcmap
-©¦  ©¦  ©¦      GBTpc-EUC-H.bcmap
-©¦  ©¦  ©¦      GBTpc-EUC-V.bcmap
-©¦  ©¦  ©¦      H.bcmap
-©¦  ©¦  ©¦      Hankaku.bcmap
-©¦  ©¦  ©¦      Hiragana.bcmap
-©¦  ©¦  ©¦      HKdla-B5-H.bcmap
-©¦  ©¦  ©¦      HKdla-B5-V.bcmap
-©¦  ©¦  ©¦      HKdlb-B5-H.bcmap
-©¦  ©¦  ©¦      HKdlb-B5-V.bcmap
-©¦  ©¦  ©¦      HKgccs-B5-H.bcmap
-©¦  ©¦  ©¦      HKgccs-B5-V.bcmap
-©¦  ©¦  ©¦      HKm314-B5-H.bcmap
-©¦  ©¦  ©¦      HKm314-B5-V.bcmap
-©¦  ©¦  ©¦      HKm471-B5-H.bcmap
-©¦  ©¦  ©¦      HKm471-B5-V.bcmap
-©¦  ©¦  ©¦      HKscs-B5-H.bcmap
-©¦  ©¦  ©¦      HKscs-B5-V.bcmap
-©¦  ©¦  ©¦      Katakana.bcmap
-©¦  ©¦  ©¦      KSC-EUC-H.bcmap
-©¦  ©¦  ©¦      KSC-EUC-V.bcmap
-©¦  ©¦  ©¦      KSC-H.bcmap
-©¦  ©¦  ©¦      KSC-Johab-H.bcmap
-©¦  ©¦  ©¦      KSC-Johab-V.bcmap
-©¦  ©¦  ©¦      KSC-V.bcmap
-©¦  ©¦  ©¦      KSCms-UHC-H.bcmap
-©¦  ©¦  ©¦      KSCms-UHC-HW-H.bcmap
-©¦  ©¦  ©¦      KSCms-UHC-HW-V.bcmap
-©¦  ©¦  ©¦      KSCms-UHC-V.bcmap
-©¦  ©¦  ©¦      KSCpc-EUC-H.bcmap
-©¦  ©¦  ©¦      KSCpc-EUC-V.bcmap
-©¦  ©¦  ©¦      LICENSE
-©¦  ©¦  ©¦      NWP-H.bcmap
-©¦  ©¦  ©¦      NWP-V.bcmap
-©¦  ©¦  ©¦      RKSJ-H.bcmap
-©¦  ©¦  ©¦      RKSJ-V.bcmap
-©¦  ©¦  ©¦      Roman.bcmap
-©¦  ©¦  ©¦      UniCNS-UCS2-H.bcmap
-©¦  ©¦  ©¦      UniCNS-UCS2-V.bcmap
-©¦  ©¦  ©¦      UniCNS-UTF16-H.bcmap
-©¦  ©¦  ©¦      UniCNS-UTF16-V.bcmap
-©¦  ©¦  ©¦      UniCNS-UTF32-H.bcmap
-©¦  ©¦  ©¦      UniCNS-UTF32-V.bcmap
-©¦  ©¦  ©¦      UniCNS-UTF8-H.bcmap
-©¦  ©¦  ©¦      UniCNS-UTF8-V.bcmap
-©¦  ©¦  ©¦      UniGB-UCS2-H.bcmap
-©¦  ©¦  ©¦      UniGB-UCS2-V.bcmap
-©¦  ©¦  ©¦      UniGB-UTF16-H.bcmap
-©¦  ©¦  ©¦      UniGB-UTF16-V.bcmap
-©¦  ©¦  ©¦      UniGB-UTF32-H.bcmap
-©¦  ©¦  ©¦      UniGB-UTF32-V.bcmap
-©¦  ©¦  ©¦      UniGB-UTF8-H.bcmap
-©¦  ©¦  ©¦      UniGB-UTF8-V.bcmap
-©¦  ©¦  ©¦      UniJIS-UCS2-H.bcmap
-©¦  ©¦  ©¦      UniJIS-UCS2-HW-H.bcmap
-©¦  ©¦  ©¦      UniJIS-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      UniJIS-UCS2-V.bcmap
-©¦  ©¦  ©¦      UniJIS-UTF16-H.bcmap
-©¦  ©¦  ©¦      UniJIS-UTF16-V.bcmap
-©¦  ©¦  ©¦      UniJIS-UTF32-H.bcmap
-©¦  ©¦  ©¦      UniJIS-UTF32-V.bcmap
-©¦  ©¦  ©¦      UniJIS-UTF8-H.bcmap
-©¦  ©¦  ©¦      UniJIS-UTF8-V.bcmap
-©¦  ©¦  ©¦      UniJIS2004-UTF16-H.bcmap
-©¦  ©¦  ©¦      UniJIS2004-UTF16-V.bcmap
-©¦  ©¦  ©¦      UniJIS2004-UTF32-H.bcmap
-©¦  ©¦  ©¦      UniJIS2004-UTF32-V.bcmap
-©¦  ©¦  ©¦      UniJIS2004-UTF8-H.bcmap
-©¦  ©¦  ©¦      UniJIS2004-UTF8-V.bcmap
-©¦  ©¦  ©¦      UniJISPro-UCS2-HW-V.bcmap
-©¦  ©¦  ©¦      UniJISPro-UCS2-V.bcmap
-©¦  ©¦  ©¦      UniJISPro-UTF8-V.bcmap
-©¦  ©¦  ©¦      UniJISX0213-UTF32-H.bcmap
-©¦  ©¦  ©¦      UniJISX0213-UTF32-V.bcmap
-©¦  ©¦  ©¦      UniJISX02132004-UTF32-H.bcmap
-©¦  ©¦  ©¦      UniJISX02132004-UTF32-V.bcmap
-©¦  ©¦  ©¦      UniKS-UCS2-H.bcmap
-©¦  ©¦  ©¦      UniKS-UCS2-V.bcmap
-©¦  ©¦  ©¦      UniKS-UTF16-H.bcmap
-©¦  ©¦  ©¦      UniKS-UTF16-V.bcmap
-©¦  ©¦  ©¦      UniKS-UTF32-H.bcmap
-©¦  ©¦  ©¦      UniKS-UTF32-V.bcmap
-©¦  ©¦  ©¦      UniKS-UTF8-H.bcmap
-©¦  ©¦  ©¦      UniKS-UTF8-V.bcmap
-©¦  ©¦  ©¦      V.bcmap
-©¦  ©¦  ©¦      WP-Symbol.bcmap
-©¦  ©¦  ©¦      
-©¦  ©¦  ©À©¤images
-©¦  ©¦  ©¦      annotation-check.svg
-©¦  ©¦  ©¦      annotation-comment.svg
-©¦  ©¦  ©¦      annotation-help.svg
-©¦  ©¦  ©¦      annotation-insert.svg
-©¦  ©¦  ©¦      annotation-key.svg
-©¦  ©¦  ©¦      annotation-newparagraph.svg
-©¦  ©¦  ©¦      annotation-noicon.svg
-©¦  ©¦  ©¦      annotation-note.svg
-©¦  ©¦  ©¦      annotation-paragraph.svg
-©¦  ©¦  ©¦      findbarButton-next.png
-©¦  ©¦  ©¦      findbarButton-next.svg
-©¦  ©¦  ©¦      findbarButton-next@2x.png
-©¦  ©¦  ©¦      findbarButton-previous.png
-©¦  ©¦  ©¦      findbarButton-previous.svg
-©¦  ©¦  ©¦      findbarButton-previous@2x.png
-©¦  ©¦  ©¦      grab.cur
-©¦  ©¦  ©¦      grabbing.cur
-©¦  ©¦  ©¦      loading-dark.svg
-©¦  ©¦  ©¦      loading-icon.gif
-©¦  ©¦  ©¦      loading-small.png
-©¦  ©¦  ©¦      loading-small@2x.png
-©¦  ©¦  ©¦      loading.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-documentProperties.png
-©¦  ©¦  ©¦      secondaryToolbarButton-documentProperties.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-documentProperties@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-firstPage.png
-©¦  ©¦  ©¦      secondaryToolbarButton-firstPage.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-firstPage@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-handTool.png
-©¦  ©¦  ©¦      secondaryToolbarButton-handTool.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-handTool@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-lastPage.png
-©¦  ©¦  ©¦      secondaryToolbarButton-lastPage.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-lastPage@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-rotateCcw.png
-©¦  ©¦  ©¦      secondaryToolbarButton-rotateCcw.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-rotateCcw@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-rotateCw.png
-©¦  ©¦  ©¦      secondaryToolbarButton-rotateCw.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-rotateCw@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollHorizontal.png
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollHorizontal.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollHorizontal@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollVertical.png
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollVertical.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollVertical@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollWrapped.png
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollWrapped.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-scrollWrapped@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-selectTool.png
-©¦  ©¦  ©¦      secondaryToolbarButton-selectTool.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-selectTool@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadEven.png
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadEven.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadEven@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadNone.png
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadNone.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadNone@2x.png
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadOdd.png
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadOdd.svg
-©¦  ©¦  ©¦      secondaryToolbarButton-spreadOdd@2x.png
-©¦  ©¦  ©¦      shadow.png
-©¦  ©¦  ©¦      texture.png
-©¦  ©¦  ©¦      toolbarButton-bookmark.png
-©¦  ©¦  ©¦      toolbarButton-bookmark.svg
-©¦  ©¦  ©¦      toolbarButton-bookmark@2x.png
-©¦  ©¦  ©¦      toolbarButton-currentOutlineItem.svg
-©¦  ©¦  ©¦      toolbarButton-download.png
-©¦  ©¦  ©¦      toolbarButton-download.svg
-©¦  ©¦  ©¦      toolbarButton-download@2x.png
-©¦  ©¦  ©¦      toolbarButton-menuArrow.svg
-©¦  ©¦  ©¦      toolbarButton-menuArrows.png
-©¦  ©¦  ©¦      toolbarButton-menuArrows@2x.png
-©¦  ©¦  ©¦      toolbarButton-openFile.png
-©¦  ©¦  ©¦      toolbarButton-openFile.svg
-©¦  ©¦  ©¦      toolbarButton-openFile@2x.png
-©¦  ©¦  ©¦      toolbarButton-pageDown.png
-©¦  ©¦  ©¦      toolbarButton-pageDown.svg
-©¦  ©¦  ©¦      toolbarButton-pageDown@2x.png
-©¦  ©¦  ©¦      toolbarButton-pageUp.png
-©¦  ©¦  ©¦      toolbarButton-pageUp.svg
-©¦  ©¦  ©¦      toolbarButton-pageUp@2x.png
-©¦  ©¦  ©¦      toolbarButton-presentationMode.png
-©¦  ©¦  ©¦      toolbarButton-presentationMode.svg
-©¦  ©¦  ©¦      toolbarButton-presentationMode@2x.png
-©¦  ©¦  ©¦      toolbarButton-print.png
-©¦  ©¦  ©¦      toolbarButton-print.svg
-©¦  ©¦  ©¦      toolbarButton-print@2x.png
-©¦  ©¦  ©¦      toolbarButton-search.png
-©¦  ©¦  ©¦      toolbarButton-search.svg
-©¦  ©¦  ©¦      toolbarButton-search@2x.png
-©¦  ©¦  ©¦      toolbarButton-secondaryToolbarToggle.png
-©¦  ©¦  ©¦      toolbarButton-secondaryToolbarToggle.svg
-©¦  ©¦  ©¦      toolbarButton-secondaryToolbarToggle@2x.png
-©¦  ©¦  ©¦      toolbarButton-sidebarToggle.png
-©¦  ©¦  ©¦      toolbarButton-sidebarToggle.svg
-©¦  ©¦  ©¦      toolbarButton-sidebarToggle@2x.png
-©¦  ©¦  ©¦      toolbarButton-viewAttachments.png
-©¦  ©¦  ©¦      toolbarButton-viewAttachments.svg
-©¦  ©¦  ©¦      toolbarButton-viewAttachments@2x.png
-©¦  ©¦  ©¦      toolbarButton-viewLayers.svg
-©¦  ©¦  ©¦      toolbarButton-viewOutline.png
-©¦  ©¦  ©¦      toolbarButton-viewOutline.svg
-©¦  ©¦  ©¦      toolbarButton-viewOutline@2x.png
-©¦  ©¦  ©¦      toolbarButton-viewThumbnail.png
-©¦  ©¦  ©¦      toolbarButton-viewThumbnail.svg
-©¦  ©¦  ©¦      toolbarButton-viewThumbnail@2x.png
-©¦  ©¦  ©¦      toolbarButton-zoomIn.png
-©¦  ©¦  ©¦      toolbarButton-zoomIn.svg
-©¦  ©¦  ©¦      toolbarButton-zoomIn@2x.png
-©¦  ©¦  ©¦      toolbarButton-zoomOut.png
-©¦  ©¦  ©¦      toolbarButton-zoomOut.svg
-©¦  ©¦  ©¦      toolbarButton-zoomOut@2x.png
-©¦  ©¦  ©¦      treeitem-collapsed.png
-©¦  ©¦  ©¦      treeitem-collapsed.svg
-©¦  ©¦  ©¦      treeitem-collapsed@2x.png
-©¦  ©¦  ©¦      treeitem-expanded.png
-©¦  ©¦  ©¦      treeitem-expanded.svg
-©¦  ©¦  ©¦      treeitem-expanded@2x.png
-©¦  ©¦  ©¦      
-©¦  ©¦  ©¸©¤locale
-©¦  ©¦      ©¦  locale.properties
-©¦  ©¦      ©¦  
-©¦  ©¦      ©À©¤en-US
-©¦  ©¦      ©¦      viewer.properties
-©¦  ©¦      ©¦      
-©¦  ©¦      ©¸©¤zh-CN
-©¦  ©¦              viewer.properties
-©¦  ©¦              
-©¦  ©À©¤sd
-©¦  ©¦      unibodymachine.js
-©¦  ©¦      
-©¦  ©¸©¤tampermonkey
-©¦          netdiskLinkChecker.user.js
-©¦          ÍøÅÌÁ´½Ó²âÊÔ.md
-©¦          
-©À©¤software
-©¦      Android App.md
-©¦      PC.md
-©¦      
-©¸©¤subscribe
+Folder PATH listing for volume æ–°åŠ å·
+Volume serial number is 2476-6313
+E:\GITHUB\JSDELIVR
+â”‚   doc_tree.md
+â”‚   pull.bat
+â”‚   pull.sh
+â”‚   README.md
+â”‚   up.bat
+â”‚   up.sh
+â”‚   
+â”œâ”€â”€â”€abp
+â”‚       mv.txt
+â”‚       rule.txt
+â”‚       ublock-static-filters.txt
+â”‚       
+â”œâ”€â”€â”€apk
+â”‚       adbwireless.apk
+â”‚       
+â”œâ”€â”€â”€cdn
+â”‚   â”‚   æ–°å»º æ–‡æœ¬æ–‡æ¡£.txt
+â”‚   â”‚   
+â”‚   â””â”€â”€â”€github
+â”‚       â””â”€â”€â”€assets
+â”‚               app_assets_modules_github_behaviors_details_ts-app_assets_modules_github_behaviors_include-fr-34e1f7-81aaed33af9b.js
+â”‚               app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-af52ef-da1b18076287.js
+â”‚               app_assets_modules_github_behaviors_pjax_ts-8ab68dc18f9f.js
+â”‚               behaviors-e98e782d99d4.js
+â”‚               command-palette-b1397c8e82f8.js
+â”‚               content.css
+â”‚               dashboard-81d167456771.css
+â”‚               dashboard-9cdb674e8292.js
+â”‚               element-registry-4a67d654fd76.js
+â”‚               environment-9693039383ed.js
+â”‚               github-8171d524d5cb.css
+â”‚               github-elements-97fffc8703a2.js
+â”‚               global-f0ee04095ee5.css
+â”‚               home-e7c62af55af3.css
+â”‚               light-92c7d381038e.css
+â”‚               notifications-global-e54b0c8c6ddc.js
+â”‚               primer-856885a5a549.css
+â”‚               runtime-fd29eeef43e0.js
+â”‚               site-7b08dc8b1766.css
+â”‚               vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-6e358f-a62225a208b7.js
+â”‚               vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-12cdb93781b2.js
+â”‚               vendors-node_modules_dompurify_dist_purify_js-0677fca37991.js
+â”‚               vendors-node_modules_github_catalyst_lib_index_js-node_modules_github_time-elements_dist_index_js-7e71a35c960d.js
+â”‚               vendors-node_modules_github_clipboard-copy-element_dist_index_esm_js-node_modules_delegated-e-e4591b-523269a764ea.js
+â”‚               vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-52e104-e9e86b38ebb9.js
+â”‚               vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-c7e9ed-96689e70e220.js
+â”‚               vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_delegated-events_dist_in-2c6780-4d8999a098b2.js
+â”‚               vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-d2bd677ffadf.js
+â”‚               vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-df2537-54ae7a774375.js
+â”‚               vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-87b1b3-eec2e761db24.js
+â”‚               vendors-node_modules_lit-html_lit-html_js-ba8ef7c9465c.js
+â”‚               vendors-node_modules_selector-observer_dist_index_esm_js-8a8fb532f817.js
+â”‚               
+â”œâ”€â”€â”€extension
+â”‚       gooreplacer.gson
+â”‚       
+â”œâ”€â”€â”€gradle
+â”‚       andres.gradle
+â”‚       dependenciesx.gradle
+â”‚       jetpackx.gradle
+â”‚       README.md
+â”‚       
+â”œâ”€â”€â”€hosts
+â”‚       blacklist
+â”‚       whitelist
+â”‚       
+â”œâ”€â”€â”€img
+â”‚       1571887687153.png
+â”‚       360æˆªå›¾184307056511999.png
+â”‚       all.png
+â”‚       amb.png
+â”‚       androidversion.png
+â”‚       android_source_dir.png
+â”‚       base.png
+â”‚       buffer.png
+â”‚       combineLatest.png
+â”‚       concat.png
+â”‚       contains.png
+â”‚       count.png
+â”‚       debounce.png
+â”‚       distinct.png
+â”‚       distinctUntilChanged.png
+â”‚       donut.png
+â”‚       elementAt.png
+â”‚       filter.png
+â”‚       first.png
+â”‚       flatMap.png
+â”‚       fragment.png
+â”‚       gitåˆ é™¤å¤šä½™çš„å¤§æ–‡ä»¶.jpg
+â”‚       groupBy.png
+â”‚       ignoreElements.png
+â”‚       image-20200701150539249.png
+â”‚       image-20200701150837688.png
+â”‚       image-20200701151950539.png
+â”‚       image-20200701152205827.png
+â”‚       image-20200701152711132.png
+â”‚       image-20200701153356749.png
+â”‚       image-20200701153550052.png
+â”‚       image-20200701154034484.png
+â”‚       image-20200712195703122.png
+â”‚       image-20200712195925866.png
+â”‚       image-20200712202607014.png
+â”‚       image-20200716164754585.png
+â”‚       image-20200908204643379.png
+â”‚       invalidate-sig.jpg
+â”‚       invalidate_sig.jpg
+â”‚       JetPack.png
+â”‚       last.png
+â”‚       lifecycles.png
+â”‚       map.png
+â”‚       merge.png
+â”‚       onErrorResumeNext.png
+â”‚       onErrorReturn.png
+â”‚       openssl_env.png
+â”‚       pic_1594722305997.png
+â”‚       process.png
+â”‚       reduce.png
+â”‚       scan.png
+â”‚       sequenceEqual.png
+â”‚       sig.jpg
+â”‚       sig1.jpg
+â”‚       sig22.gif
+â”‚       sig_full_1.jpg
+â”‚       sig_validate.jpg
+â”‚       sig_zoom_01.jpg
+â”‚       skip.png
+â”‚       skipLast.png
+â”‚       skipUntil.png
+â”‚       skipWhile.png
+â”‚       startWith.png
+â”‚       take.png
+â”‚       takeLast.png
+â”‚       takeUntil.png
+â”‚       takeWhile.png
+â”‚       vertex.png
+â”‚       viewmodel-lifecycle.png
+â”‚       zip.png
+â”‚       å›æ”¶èµ„æº.jpg
+â”‚       å±å¹•æˆªå›¾ 2020-10-23 131553.png
+â”‚       æ¨é€git.jpg
+â”‚       æ–‡æ¡£æ›´æ”¹å.jpg
+â”‚       æ ¡éªŒ.webp.jpg
+â”‚       ç­¾å.webp.jpg
+â”‚       
+â”œâ”€â”€â”€js
+â”‚   â”œâ”€â”€â”€pdfjs
+â”‚   â”‚   â”‚   viewer2.12.html
+â”‚   â”‚   â”‚   viewer2.13.html
+â”‚   â”‚   â”‚   viewer2.5.html
+â”‚   â”‚   â”‚   viewer2.7.html
+â”‚   â”‚   â”‚   viewer2.9.html
+â”‚   â”‚   â”‚   ä¿®æ”¹.txt
+â”‚   â”‚   â”‚   
+â”‚   â”‚   â”œâ”€â”€â”€2.12
+â”‚   â”‚   â”‚   â”‚   LICENSE
+â”‚   â”‚   â”‚   â”‚   
+â”‚   â”‚   â”‚   â”œâ”€â”€â”€build
+â”‚   â”‚   â”‚   â”‚       pdf.js
+â”‚   â”‚   â”‚   â”‚       pdf.sandbox.js
+â”‚   â”‚   â”‚   â”‚       pdf.worker.js
+â”‚   â”‚   â”‚   â”‚       
+â”‚   â”‚   â”‚   â””â”€â”€â”€web
+â”‚   â”‚   â”‚       â”‚   debugger.js
+â”‚   â”‚   â”‚       â”‚   viewer.css
+â”‚   â”‚   â”‚       â”‚   viewer.html
+â”‚   â”‚   â”‚       â”‚   viewer.js
+â”‚   â”‚   â”‚       â”‚   
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€cmaps
+â”‚   â”‚   â”‚       â”‚       78-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       83pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       H.bcmap
+â”‚   â”‚   â”‚       â”‚       Hankaku.bcmap
+â”‚   â”‚   â”‚       â”‚       Hiragana.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Katakana.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       LICENSE
+â”‚   â”‚   â”‚       â”‚       NWP-H.bcmap
+â”‚   â”‚   â”‚       â”‚       NWP-V.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Roman.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       V.bcmap
+â”‚   â”‚   â”‚       â”‚       WP-Symbol.bcmap
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€images
+â”‚   â”‚   â”‚       â”‚       annotation-check.svg
+â”‚   â”‚   â”‚       â”‚       annotation-comment.svg
+â”‚   â”‚   â”‚       â”‚       annotation-help.svg
+â”‚   â”‚   â”‚       â”‚       annotation-insert.svg
+â”‚   â”‚   â”‚       â”‚       annotation-key.svg
+â”‚   â”‚   â”‚       â”‚       annotation-newparagraph.svg
+â”‚   â”‚   â”‚       â”‚       annotation-noicon.svg
+â”‚   â”‚   â”‚       â”‚       annotation-note.svg
+â”‚   â”‚   â”‚       â”‚       annotation-paragraph.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-next.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-previous.svg
+â”‚   â”‚   â”‚       â”‚       grab.cur
+â”‚   â”‚   â”‚       â”‚       grabbing.cur
+â”‚   â”‚   â”‚       â”‚       loading-dark.svg
+â”‚   â”‚   â”‚       â”‚       loading-icon.gif
+â”‚   â”‚   â”‚       â”‚       loading.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-documentProperties.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-firstPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-handTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-lastPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCcw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollHorizontal.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollVertical.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollWrapped.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-selectTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadEven.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadNone.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadOdd.svg
+â”‚   â”‚   â”‚       â”‚       shadow.png
+â”‚   â”‚   â”‚       â”‚       toolbarButton-bookmark.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-currentOutlineItem.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-download.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-menuArrow.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-openFile.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageDown.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageUp.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-presentationMode.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-print.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-search.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-secondaryToolbarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-sidebarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewAttachments.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewLayers.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewOutline.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewThumbnail.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomIn.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomOut.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-collapsed.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-expanded.svg
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€locale
+â”‚   â”‚   â”‚       â”‚   â”‚   locale.properties
+â”‚   â”‚   â”‚       â”‚   â”‚   
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ach
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€af
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€an
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ar
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ast
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€az
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€be
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bg
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€br
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€brx
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bs
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ca
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€cak
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ckb
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€cs
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€cy
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€da
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€de
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€dsb
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€el
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€en-CA
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€en-GB
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€en-US
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€eo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-AR
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-CL
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-ES
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-MX
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€et
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€eu
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fa
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ff
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fi
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fy-NL
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ga-IE
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gd
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gu-IN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€he
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hi-IN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hsb
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hu
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hy-AM
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hye
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ia
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€id
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€is
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€it
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ja
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ka
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€kab
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€kk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€km
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€kn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ko
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lij
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lt
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ltg
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lv
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€meh
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€mk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€mr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ms
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€my
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€nb-NO
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ne-NP
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€nl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€nn-NO
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€oc
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pa-IN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pt-BR
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pt-PT
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€rm
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ro
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ru
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sat
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sc
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€scn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sco
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€si
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€son
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sq
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sv-SE
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€szl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ta
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€te
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€tg
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€th
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€tl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€tr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€trs
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€uk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ur
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€uz
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€vi
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€wo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€xh
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€zh-CN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â””â”€â”€â”€zh-TW
+â”‚   â”‚   â”‚       â”‚           viewer.properties
+â”‚   â”‚   â”‚       â”‚           
+â”‚   â”‚   â”‚       â””â”€â”€â”€standard_fonts
+â”‚   â”‚   â”‚               FoxitDingbats.pfb
+â”‚   â”‚   â”‚               FoxitFixed.pfb
+â”‚   â”‚   â”‚               FoxitFixedBold.pfb
+â”‚   â”‚   â”‚               FoxitFixedBoldItalic.pfb
+â”‚   â”‚   â”‚               FoxitFixedItalic.pfb
+â”‚   â”‚   â”‚               FoxitSans.pfb
+â”‚   â”‚   â”‚               FoxitSansBold.pfb
+â”‚   â”‚   â”‚               FoxitSansBoldItalic.pfb
+â”‚   â”‚   â”‚               FoxitSansItalic.pfb
+â”‚   â”‚   â”‚               FoxitSerif.pfb
+â”‚   â”‚   â”‚               FoxitSerifBold.pfb
+â”‚   â”‚   â”‚               FoxitSerifBoldItalic.pfb
+â”‚   â”‚   â”‚               FoxitSerifItalic.pfb
+â”‚   â”‚   â”‚               FoxitSymbol.pfb
+â”‚   â”‚   â”‚               LiberationSans-Bold.ttf
+â”‚   â”‚   â”‚               LiberationSans-BoldItalic.ttf
+â”‚   â”‚   â”‚               LiberationSans-Italic.ttf
+â”‚   â”‚   â”‚               LiberationSans-Regular.ttf
+â”‚   â”‚   â”‚               LICENSE_FOXIT
+â”‚   â”‚   â”‚               LICENSE_LIBERATION
+â”‚   â”‚   â”‚               
+â”‚   â”‚   â”œâ”€â”€â”€2.13
+â”‚   â”‚   â”‚   â”‚   LICENSE
+â”‚   â”‚   â”‚   â”‚   
+â”‚   â”‚   â”‚   â”œâ”€â”€â”€build
+â”‚   â”‚   â”‚   â”‚       pdf.js
+â”‚   â”‚   â”‚   â”‚       pdf.sandbox.js
+â”‚   â”‚   â”‚   â”‚       pdf.worker.js
+â”‚   â”‚   â”‚   â”‚       
+â”‚   â”‚   â”‚   â””â”€â”€â”€web
+â”‚   â”‚   â”‚       â”‚   debugger.js
+â”‚   â”‚   â”‚       â”‚   viewer.css
+â”‚   â”‚   â”‚       â”‚   viewer.js
+â”‚   â”‚   â”‚       â”‚   
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€cmaps
+â”‚   â”‚   â”‚       â”‚       78-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       83pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       H.bcmap
+â”‚   â”‚   â”‚       â”‚       Hankaku.bcmap
+â”‚   â”‚   â”‚       â”‚       Hiragana.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Katakana.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       LICENSE
+â”‚   â”‚   â”‚       â”‚       NWP-H.bcmap
+â”‚   â”‚   â”‚       â”‚       NWP-V.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Roman.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       V.bcmap
+â”‚   â”‚   â”‚       â”‚       WP-Symbol.bcmap
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€images
+â”‚   â”‚   â”‚       â”‚       annotation-check.svg
+â”‚   â”‚   â”‚       â”‚       annotation-comment.svg
+â”‚   â”‚   â”‚       â”‚       annotation-help.svg
+â”‚   â”‚   â”‚       â”‚       annotation-insert.svg
+â”‚   â”‚   â”‚       â”‚       annotation-key.svg
+â”‚   â”‚   â”‚       â”‚       annotation-newparagraph.svg
+â”‚   â”‚   â”‚       â”‚       annotation-noicon.svg
+â”‚   â”‚   â”‚       â”‚       annotation-note.svg
+â”‚   â”‚   â”‚       â”‚       annotation-paragraph.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-next.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-previous.svg
+â”‚   â”‚   â”‚       â”‚       grab.cur
+â”‚   â”‚   â”‚       â”‚       grabbing.cur
+â”‚   â”‚   â”‚       â”‚       loading-dark.svg
+â”‚   â”‚   â”‚       â”‚       loading-icon.gif
+â”‚   â”‚   â”‚       â”‚       loading.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-documentProperties.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-firstPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-handTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-lastPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCcw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollHorizontal.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollVertical.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollWrapped.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-selectTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadEven.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadNone.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadOdd.svg
+â”‚   â”‚   â”‚       â”‚       shadow.png
+â”‚   â”‚   â”‚       â”‚       toolbarButton-bookmark.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-currentOutlineItem.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-download.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-menuArrow.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-openFile.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageDown.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageUp.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-presentationMode.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-print.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-search.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-secondaryToolbarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-sidebarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewAttachments.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewLayers.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewOutline.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewThumbnail.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomIn.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomOut.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-collapsed.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-expanded.svg
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€locale
+â”‚   â”‚   â”‚       â”‚   â”‚   locale.properties
+â”‚   â”‚   â”‚       â”‚   â”‚   
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ach
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€af
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€an
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ar
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ast
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€az
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€be
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bg
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€br
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€brx
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€bs
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ca
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€cak
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ckb
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€cs
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€cy
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€da
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€de
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€dsb
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€el
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€en-CA
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€en-GB
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€en-US
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€eo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-AR
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-CL
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-ES
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€es-MX
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€et
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€eu
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fa
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ff
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fi
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€fy-NL
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ga-IE
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gd
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€gu-IN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€he
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hi-IN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hsb
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hu
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hy-AM
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€hye
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ia
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€id
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€is
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€it
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ja
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ka
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€kab
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€kk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€km
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€kn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ko
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lij
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lt
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ltg
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€lv
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€meh
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€mk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€mr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ms
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€my
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€nb-NO
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ne-NP
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€nl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€nn-NO
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€oc
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pa-IN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pt-BR
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€pt-PT
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€rm
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ro
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ru
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sat
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sc
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€scn
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sco
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€si
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€son
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sq
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€sv-SE
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€szl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ta
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€te
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€tg
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€th
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€tl
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€tr
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€trs
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€uk
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€ur
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€uz
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€vi
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€wo
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€xh
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â”œâ”€â”€â”€zh-CN
+â”‚   â”‚   â”‚       â”‚   â”‚       viewer.properties
+â”‚   â”‚   â”‚       â”‚   â”‚       
+â”‚   â”‚   â”‚       â”‚   â””â”€â”€â”€zh-TW
+â”‚   â”‚   â”‚       â”‚           viewer.properties
+â”‚   â”‚   â”‚       â”‚           
+â”‚   â”‚   â”‚       â””â”€â”€â”€standard_fonts
+â”‚   â”‚   â”‚               FoxitDingbats.pfb
+â”‚   â”‚   â”‚               FoxitFixed.pfb
+â”‚   â”‚   â”‚               FoxitFixedBold.pfb
+â”‚   â”‚   â”‚               FoxitFixedBoldItalic.pfb
+â”‚   â”‚   â”‚               FoxitFixedItalic.pfb
+â”‚   â”‚   â”‚               FoxitSans.pfb
+â”‚   â”‚   â”‚               FoxitSansBold.pfb
+â”‚   â”‚   â”‚               FoxitSansBoldItalic.pfb
+â”‚   â”‚   â”‚               FoxitSansItalic.pfb
+â”‚   â”‚   â”‚               FoxitSerif.pfb
+â”‚   â”‚   â”‚               FoxitSerifBold.pfb
+â”‚   â”‚   â”‚               FoxitSerifBoldItalic.pfb
+â”‚   â”‚   â”‚               FoxitSerifItalic.pfb
+â”‚   â”‚   â”‚               FoxitSymbol.pfb
+â”‚   â”‚   â”‚               LiberationSans-Bold.ttf
+â”‚   â”‚   â”‚               LiberationSans-BoldItalic.ttf
+â”‚   â”‚   â”‚               LiberationSans-Italic.ttf
+â”‚   â”‚   â”‚               LiberationSans-Regular.ttf
+â”‚   â”‚   â”‚               LICENSE_FOXIT
+â”‚   â”‚   â”‚               LICENSE_LIBERATION
+â”‚   â”‚   â”‚               
+â”‚   â”‚   â”œâ”€â”€â”€2.5
+â”‚   â”‚   â”‚       debugger.js
+â”‚   â”‚   â”‚       debugger.min.js
+â”‚   â”‚   â”‚       pdf.js
+â”‚   â”‚   â”‚       pdf.min.js
+â”‚   â”‚   â”‚       pdf.worker.js
+â”‚   â”‚   â”‚       pdf.worker.min.js
+â”‚   â”‚   â”‚       viewer.js
+â”‚   â”‚   â”‚       viewer.min.js
+â”‚   â”‚   â”‚       viewer02.css
+â”‚   â”‚   â”‚       viewer2.js
+â”‚   â”‚   â”‚       viewer2.min.js
+â”‚   â”‚   â”‚       
+â”‚   â”‚   â”œâ”€â”€â”€2.7
+â”‚   â”‚   â”‚   â”‚   LICENSE
+â”‚   â”‚   â”‚   â”‚   
+â”‚   â”‚   â”‚   â”œâ”€â”€â”€build
+â”‚   â”‚   â”‚   â”‚       pdf.js
+â”‚   â”‚   â”‚   â”‚       pdf.sandbox.js
+â”‚   â”‚   â”‚   â”‚       pdf.worker.js
+â”‚   â”‚   â”‚   â”‚       
+â”‚   â”‚   â”‚   â””â”€â”€â”€web
+â”‚   â”‚   â”‚       â”‚   debugger.js
+â”‚   â”‚   â”‚       â”‚   viewer.css
+â”‚   â”‚   â”‚       â”‚   viewer.html
+â”‚   â”‚   â”‚       â”‚   viewer.js
+â”‚   â”‚   â”‚       â”‚   viewer.js.map
+â”‚   â”‚   â”‚       â”‚   
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€cmaps
+â”‚   â”‚   â”‚       â”‚       78-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       83pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       H.bcmap
+â”‚   â”‚   â”‚       â”‚       Hankaku.bcmap
+â”‚   â”‚   â”‚       â”‚       Hiragana.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Katakana.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       LICENSE
+â”‚   â”‚   â”‚       â”‚       NWP-H.bcmap
+â”‚   â”‚   â”‚       â”‚       NWP-V.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Roman.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       V.bcmap
+â”‚   â”‚   â”‚       â”‚       WP-Symbol.bcmap
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€images
+â”‚   â”‚   â”‚       â”‚       annotation-check.svg
+â”‚   â”‚   â”‚       â”‚       annotation-comment.svg
+â”‚   â”‚   â”‚       â”‚       annotation-help.svg
+â”‚   â”‚   â”‚       â”‚       annotation-insert.svg
+â”‚   â”‚   â”‚       â”‚       annotation-key.svg
+â”‚   â”‚   â”‚       â”‚       annotation-newparagraph.svg
+â”‚   â”‚   â”‚       â”‚       annotation-noicon.svg
+â”‚   â”‚   â”‚       â”‚       annotation-note.svg
+â”‚   â”‚   â”‚       â”‚       annotation-paragraph.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-next.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-previous.svg
+â”‚   â”‚   â”‚       â”‚       grab.cur
+â”‚   â”‚   â”‚       â”‚       grabbing.cur
+â”‚   â”‚   â”‚       â”‚       loading-dark.svg
+â”‚   â”‚   â”‚       â”‚       loading-icon.gif
+â”‚   â”‚   â”‚       â”‚       loading.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-documentProperties.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-firstPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-handTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-lastPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCcw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollHorizontal.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollVertical.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollWrapped.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-selectTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadEven.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadNone.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadOdd.svg
+â”‚   â”‚   â”‚       â”‚       shadow.png
+â”‚   â”‚   â”‚       â”‚       toolbarButton-bookmark.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-currentOutlineItem.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-download.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-menuArrow.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-openFile.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageDown.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageUp.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-presentationMode.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-print.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-search.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-secondaryToolbarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-sidebarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewAttachments.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewLayers.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewOutline.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewThumbnail.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomIn.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomOut.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-collapsed.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-expanded.svg
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â””â”€â”€â”€locale
+â”‚   â”‚   â”‚           â”‚   locale.properties
+â”‚   â”‚   â”‚           â”‚   
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€en-US
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â””â”€â”€â”€zh-CN
+â”‚   â”‚   â”‚                   viewer.properties
+â”‚   â”‚   â”‚                   
+â”‚   â”‚   â”œâ”€â”€â”€2.71
+â”‚   â”‚   â”‚   â”‚   LICENSE
+â”‚   â”‚   â”‚   â”‚   
+â”‚   â”‚   â”‚   â”œâ”€â”€â”€build
+â”‚   â”‚   â”‚   â”‚       pdf.js
+â”‚   â”‚   â”‚   â”‚       pdf.sandbox.js
+â”‚   â”‚   â”‚   â”‚       pdf.worker.js
+â”‚   â”‚   â”‚   â”‚       
+â”‚   â”‚   â”‚   â””â”€â”€â”€web
+â”‚   â”‚   â”‚       â”‚   debugger.js
+â”‚   â”‚   â”‚       â”‚   viewer.css
+â”‚   â”‚   â”‚       â”‚   viewer.html
+â”‚   â”‚   â”‚       â”‚   viewer.js
+â”‚   â”‚   â”‚       â”‚   viewer2.js
+â”‚   â”‚   â”‚       â”‚   viewer3.js
+â”‚   â”‚   â”‚       â”‚   
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€cmaps
+â”‚   â”‚   â”‚       â”‚       78-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       83pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       H.bcmap
+â”‚   â”‚   â”‚       â”‚       Hankaku.bcmap
+â”‚   â”‚   â”‚       â”‚       Hiragana.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Katakana.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       LICENSE
+â”‚   â”‚   â”‚       â”‚       NWP-H.bcmap
+â”‚   â”‚   â”‚       â”‚       NWP-V.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Roman.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       V.bcmap
+â”‚   â”‚   â”‚       â”‚       WP-Symbol.bcmap
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€images
+â”‚   â”‚   â”‚       â”‚       annotation-check.svg
+â”‚   â”‚   â”‚       â”‚       annotation-comment.svg
+â”‚   â”‚   â”‚       â”‚       annotation-help.svg
+â”‚   â”‚   â”‚       â”‚       annotation-insert.svg
+â”‚   â”‚   â”‚       â”‚       annotation-key.svg
+â”‚   â”‚   â”‚       â”‚       annotation-newparagraph.svg
+â”‚   â”‚   â”‚       â”‚       annotation-noicon.svg
+â”‚   â”‚   â”‚       â”‚       annotation-note.svg
+â”‚   â”‚   â”‚       â”‚       annotation-paragraph.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-next.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-previous.svg
+â”‚   â”‚   â”‚       â”‚       grab.cur
+â”‚   â”‚   â”‚       â”‚       grabbing.cur
+â”‚   â”‚   â”‚       â”‚       loading-dark.svg
+â”‚   â”‚   â”‚       â”‚       loading-icon.gif
+â”‚   â”‚   â”‚       â”‚       loading.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-documentProperties.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-firstPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-handTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-lastPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCcw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollHorizontal.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollVertical.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollWrapped.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-selectTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadEven.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadNone.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadOdd.svg
+â”‚   â”‚   â”‚       â”‚       shadow.png
+â”‚   â”‚   â”‚       â”‚       toolbarButton-bookmark.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-currentOutlineItem.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-download.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-menuArrow.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-openFile.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageDown.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageUp.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-presentationMode.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-print.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-search.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-secondaryToolbarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-sidebarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewAttachments.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewLayers.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewOutline.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewThumbnail.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomIn.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomOut.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-collapsed.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-expanded.svg
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â””â”€â”€â”€locale
+â”‚   â”‚   â”‚           â”‚   locale.properties
+â”‚   â”‚   â”‚           â”‚   
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€en-US
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â””â”€â”€â”€zh-CN
+â”‚   â”‚   â”‚                   viewer.properties
+â”‚   â”‚   â”‚                   
+â”‚   â”‚   â”œâ”€â”€â”€2.9
+â”‚   â”‚   â”‚   â”‚   LICENSE
+â”‚   â”‚   â”‚   â”‚   
+â”‚   â”‚   â”‚   â”œâ”€â”€â”€build
+â”‚   â”‚   â”‚   â”‚       pdf.js
+â”‚   â”‚   â”‚   â”‚       pdf.sandbox.js
+â”‚   â”‚   â”‚   â”‚       pdf.worker.js
+â”‚   â”‚   â”‚   â”‚       
+â”‚   â”‚   â”‚   â””â”€â”€â”€web
+â”‚   â”‚   â”‚       â”‚   debugger.js
+â”‚   â”‚   â”‚       â”‚   viewer.css
+â”‚   â”‚   â”‚       â”‚   viewer.html
+â”‚   â”‚   â”‚       â”‚   viewer.js
+â”‚   â”‚   â”‚       â”‚   viewer4.js
+â”‚   â”‚   â”‚       â”‚   
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€cmaps
+â”‚   â”‚   â”‚       â”‚       78-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78-V.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       78ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       83pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90msp-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       90pv-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Add-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-CNS1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-GB1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-3.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-4.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-5.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-6.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Japan1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-0.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-1.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-2.bcmap
+â”‚   â”‚   â”‚       â”‚       Adobe-Korea1-UCS2.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-H.bcmap
+â”‚   â”‚   â”‚       â”‚       B5pc-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS1-V.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       CNS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETen-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETenms-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       ETHK-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Ext-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GB-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBK2K-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBKp-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBT-V.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       GBTpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       H.bcmap
+â”‚   â”‚   â”‚       â”‚       Hankaku.bcmap
+â”‚   â”‚   â”‚       â”‚       Hiragana.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdla-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKdlb-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKgccs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm314-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKm471-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-H.bcmap
+â”‚   â”‚   â”‚       â”‚       HKscs-B5-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Katakana.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-Johab-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCms-UHC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       â”‚       KSCpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       â”‚       LICENSE
+â”‚   â”‚   â”‚       â”‚       NWP-H.bcmap
+â”‚   â”‚   â”‚       â”‚       NWP-V.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-H.bcmap
+â”‚   â”‚   â”‚       â”‚       RKSJ-V.bcmap
+â”‚   â”‚   â”‚       â”‚       Roman.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniCNS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniGB-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJIS2004-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISPro-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX0213-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniJISX02132004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       â”‚       UniKS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       â”‚       V.bcmap
+â”‚   â”‚   â”‚       â”‚       WP-Symbol.bcmap
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â”œâ”€â”€â”€images
+â”‚   â”‚   â”‚       â”‚       annotation-check.svg
+â”‚   â”‚   â”‚       â”‚       annotation-comment.svg
+â”‚   â”‚   â”‚       â”‚       annotation-help.svg
+â”‚   â”‚   â”‚       â”‚       annotation-insert.svg
+â”‚   â”‚   â”‚       â”‚       annotation-key.svg
+â”‚   â”‚   â”‚       â”‚       annotation-newparagraph.svg
+â”‚   â”‚   â”‚       â”‚       annotation-noicon.svg
+â”‚   â”‚   â”‚       â”‚       annotation-note.svg
+â”‚   â”‚   â”‚       â”‚       annotation-paragraph.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-next.svg
+â”‚   â”‚   â”‚       â”‚       findbarButton-previous.svg
+â”‚   â”‚   â”‚       â”‚       grab.cur
+â”‚   â”‚   â”‚       â”‚       grabbing.cur
+â”‚   â”‚   â”‚       â”‚       loading-dark.svg
+â”‚   â”‚   â”‚       â”‚       loading-icon.gif
+â”‚   â”‚   â”‚       â”‚       loading.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-documentProperties.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-firstPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-handTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-lastPage.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCcw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-rotateCw.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollHorizontal.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollVertical.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-scrollWrapped.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-selectTool.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadEven.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadNone.svg
+â”‚   â”‚   â”‚       â”‚       secondaryToolbarButton-spreadOdd.svg
+â”‚   â”‚   â”‚       â”‚       shadow.png
+â”‚   â”‚   â”‚       â”‚       toolbarButton-bookmark.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-currentOutlineItem.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-download.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-menuArrow.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-openFile.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageDown.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-pageUp.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-presentationMode.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-print.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-search.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-secondaryToolbarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-sidebarToggle.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewAttachments.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewLayers.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewOutline.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-viewThumbnail.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomIn.svg
+â”‚   â”‚   â”‚       â”‚       toolbarButton-zoomOut.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-collapsed.svg
+â”‚   â”‚   â”‚       â”‚       treeitem-expanded.svg
+â”‚   â”‚   â”‚       â”‚       
+â”‚   â”‚   â”‚       â””â”€â”€â”€locale
+â”‚   â”‚   â”‚           â”‚   locale.properties
+â”‚   â”‚   â”‚           â”‚   
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ach
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€af
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€an
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ar
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ast
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€az
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€be
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€bg
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€bn
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€bo
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€br
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€brx
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€bs
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ca
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€cak
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ckb
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€cs
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€cy
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€da
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€de
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€dsb
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€el
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€en-CA
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€en-GB
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€en-US
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€eo
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€es-AR
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€es-CL
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€es-ES
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€es-MX
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€et
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€eu
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€fa
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ff
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€fi
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€fr
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€fy-NL
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ga-IE
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€gd
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€gl
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€gn
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€gu-IN
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€he
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€hi-IN
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€hr
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€hsb
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€hu
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€hy-AM
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€hye
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ia
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€id
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€is
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€it
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ja
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ka
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€kab
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€kk
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€km
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€kn
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ko
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€lij
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€lo
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€lt
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ltg
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€lv
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€meh
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€mk
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€mr
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ms
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€my
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€nb-NO
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ne-NP
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€nl
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€nn-NO
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€oc
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€pa-IN
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€pl
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€pt-BR
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€pt-PT
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€rm
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ro
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ru
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€scn
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€sco
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€si
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€sk
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€sl
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€son
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€sq
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€sr
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€sv-SE
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€szl
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ta
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€te
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€tg
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€th
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€tl
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€tr
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€trs
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€uk
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€ur
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€uz
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€vi
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€wo
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€xh
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â”œâ”€â”€â”€zh-CN
+â”‚   â”‚   â”‚           â”‚       viewer.properties
+â”‚   â”‚   â”‚           â”‚       
+â”‚   â”‚   â”‚           â””â”€â”€â”€zh-TW
+â”‚   â”‚   â”‚                   viewer.properties
+â”‚   â”‚   â”‚                   
+â”‚   â”‚   â”œâ”€â”€â”€cmaps
+â”‚   â”‚   â”‚       78-EUC-H.bcmap
+â”‚   â”‚   â”‚       78-EUC-V.bcmap
+â”‚   â”‚   â”‚       78-H.bcmap
+â”‚   â”‚   â”‚       78-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       78-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       78-V.bcmap
+â”‚   â”‚   â”‚       78ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       78ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       83pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       90ms-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       90ms-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       90msp-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       90msp-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       90pv-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       90pv-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       Add-H.bcmap
+â”‚   â”‚   â”‚       Add-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       Add-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       Add-V.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-0.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-1.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-2.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-3.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-4.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-5.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-6.bcmap
+â”‚   â”‚   â”‚       Adobe-CNS1-UCS2.bcmap
+â”‚   â”‚   â”‚       Adobe-GB1-0.bcmap
+â”‚   â”‚   â”‚       Adobe-GB1-1.bcmap
+â”‚   â”‚   â”‚       Adobe-GB1-2.bcmap
+â”‚   â”‚   â”‚       Adobe-GB1-3.bcmap
+â”‚   â”‚   â”‚       Adobe-GB1-4.bcmap
+â”‚   â”‚   â”‚       Adobe-GB1-5.bcmap
+â”‚   â”‚   â”‚       Adobe-GB1-UCS2.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-0.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-1.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-2.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-3.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-4.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-5.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-6.bcmap
+â”‚   â”‚   â”‚       Adobe-Japan1-UCS2.bcmap
+â”‚   â”‚   â”‚       Adobe-Korea1-0.bcmap
+â”‚   â”‚   â”‚       Adobe-Korea1-1.bcmap
+â”‚   â”‚   â”‚       Adobe-Korea1-2.bcmap
+â”‚   â”‚   â”‚       Adobe-Korea1-UCS2.bcmap
+â”‚   â”‚   â”‚       B5-H.bcmap
+â”‚   â”‚   â”‚       B5-V.bcmap
+â”‚   â”‚   â”‚       B5pc-H.bcmap
+â”‚   â”‚   â”‚       B5pc-V.bcmap
+â”‚   â”‚   â”‚       CNS-EUC-H.bcmap
+â”‚   â”‚   â”‚       CNS-EUC-V.bcmap
+â”‚   â”‚   â”‚       CNS1-H.bcmap
+â”‚   â”‚   â”‚       CNS1-V.bcmap
+â”‚   â”‚   â”‚       CNS2-H.bcmap
+â”‚   â”‚   â”‚       CNS2-V.bcmap
+â”‚   â”‚   â”‚       ETen-B5-H.bcmap
+â”‚   â”‚   â”‚       ETen-B5-V.bcmap
+â”‚   â”‚   â”‚       ETenms-B5-H.bcmap
+â”‚   â”‚   â”‚       ETenms-B5-V.bcmap
+â”‚   â”‚   â”‚       ETHK-B5-H.bcmap
+â”‚   â”‚   â”‚       ETHK-B5-V.bcmap
+â”‚   â”‚   â”‚       EUC-H.bcmap
+â”‚   â”‚   â”‚       EUC-V.bcmap
+â”‚   â”‚   â”‚       Ext-H.bcmap
+â”‚   â”‚   â”‚       Ext-RKSJ-H.bcmap
+â”‚   â”‚   â”‚       Ext-RKSJ-V.bcmap
+â”‚   â”‚   â”‚       Ext-V.bcmap
+â”‚   â”‚   â”‚       GB-EUC-H.bcmap
+â”‚   â”‚   â”‚       GB-EUC-V.bcmap
+â”‚   â”‚   â”‚       GB-H.bcmap
+â”‚   â”‚   â”‚       GB-V.bcmap
+â”‚   â”‚   â”‚       GBK-EUC-H.bcmap
+â”‚   â”‚   â”‚       GBK-EUC-V.bcmap
+â”‚   â”‚   â”‚       GBK2K-H.bcmap
+â”‚   â”‚   â”‚       GBK2K-V.bcmap
+â”‚   â”‚   â”‚       GBKp-EUC-H.bcmap
+â”‚   â”‚   â”‚       GBKp-EUC-V.bcmap
+â”‚   â”‚   â”‚       GBpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       GBpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       GBT-EUC-H.bcmap
+â”‚   â”‚   â”‚       GBT-EUC-V.bcmap
+â”‚   â”‚   â”‚       GBT-H.bcmap
+â”‚   â”‚   â”‚       GBT-V.bcmap
+â”‚   â”‚   â”‚       GBTpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       GBTpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       H.bcmap
+â”‚   â”‚   â”‚       Hankaku.bcmap
+â”‚   â”‚   â”‚       Hiragana.bcmap
+â”‚   â”‚   â”‚       HKdla-B5-H.bcmap
+â”‚   â”‚   â”‚       HKdla-B5-V.bcmap
+â”‚   â”‚   â”‚       HKdlb-B5-H.bcmap
+â”‚   â”‚   â”‚       HKdlb-B5-V.bcmap
+â”‚   â”‚   â”‚       HKgccs-B5-H.bcmap
+â”‚   â”‚   â”‚       HKgccs-B5-V.bcmap
+â”‚   â”‚   â”‚       HKm314-B5-H.bcmap
+â”‚   â”‚   â”‚       HKm314-B5-V.bcmap
+â”‚   â”‚   â”‚       HKm471-B5-H.bcmap
+â”‚   â”‚   â”‚       HKm471-B5-V.bcmap
+â”‚   â”‚   â”‚       HKscs-B5-H.bcmap
+â”‚   â”‚   â”‚       HKscs-B5-V.bcmap
+â”‚   â”‚   â”‚       Katakana.bcmap
+â”‚   â”‚   â”‚       KSC-EUC-H.bcmap
+â”‚   â”‚   â”‚       KSC-EUC-V.bcmap
+â”‚   â”‚   â”‚       KSC-H.bcmap
+â”‚   â”‚   â”‚       KSC-Johab-H.bcmap
+â”‚   â”‚   â”‚       KSC-Johab-V.bcmap
+â”‚   â”‚   â”‚       KSC-V.bcmap
+â”‚   â”‚   â”‚       KSCms-UHC-H.bcmap
+â”‚   â”‚   â”‚       KSCms-UHC-HW-H.bcmap
+â”‚   â”‚   â”‚       KSCms-UHC-HW-V.bcmap
+â”‚   â”‚   â”‚       KSCms-UHC-V.bcmap
+â”‚   â”‚   â”‚       KSCpc-EUC-H.bcmap
+â”‚   â”‚   â”‚       KSCpc-EUC-V.bcmap
+â”‚   â”‚   â”‚       LICENSE
+â”‚   â”‚   â”‚       NWP-H.bcmap
+â”‚   â”‚   â”‚       NWP-V.bcmap
+â”‚   â”‚   â”‚       RKSJ-H.bcmap
+â”‚   â”‚   â”‚       RKSJ-V.bcmap
+â”‚   â”‚   â”‚       Roman.bcmap
+â”‚   â”‚   â”‚       UniCNS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       UniCNS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       UniCNS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       UniCNS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       UniCNS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       UniCNS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       UniCNS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       UniCNS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       UniGB-UCS2-H.bcmap
+â”‚   â”‚   â”‚       UniGB-UCS2-V.bcmap
+â”‚   â”‚   â”‚       UniGB-UTF16-H.bcmap
+â”‚   â”‚   â”‚       UniGB-UTF16-V.bcmap
+â”‚   â”‚   â”‚       UniGB-UTF32-H.bcmap
+â”‚   â”‚   â”‚       UniGB-UTF32-V.bcmap
+â”‚   â”‚   â”‚       UniGB-UTF8-H.bcmap
+â”‚   â”‚   â”‚       UniGB-UTF8-V.bcmap
+â”‚   â”‚   â”‚       UniJIS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       UniJIS-UCS2-HW-H.bcmap
+â”‚   â”‚   â”‚       UniJIS-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       UniJIS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       UniJIS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       UniJIS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       UniJIS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       UniJIS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       UniJIS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       UniJIS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       UniJIS2004-UTF16-H.bcmap
+â”‚   â”‚   â”‚       UniJIS2004-UTF16-V.bcmap
+â”‚   â”‚   â”‚       UniJIS2004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       UniJIS2004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       UniJIS2004-UTF8-H.bcmap
+â”‚   â”‚   â”‚       UniJIS2004-UTF8-V.bcmap
+â”‚   â”‚   â”‚       UniJISPro-UCS2-HW-V.bcmap
+â”‚   â”‚   â”‚       UniJISPro-UCS2-V.bcmap
+â”‚   â”‚   â”‚       UniJISPro-UTF8-V.bcmap
+â”‚   â”‚   â”‚       UniJISX0213-UTF32-H.bcmap
+â”‚   â”‚   â”‚       UniJISX0213-UTF32-V.bcmap
+â”‚   â”‚   â”‚       UniJISX02132004-UTF32-H.bcmap
+â”‚   â”‚   â”‚       UniJISX02132004-UTF32-V.bcmap
+â”‚   â”‚   â”‚       UniKS-UCS2-H.bcmap
+â”‚   â”‚   â”‚       UniKS-UCS2-V.bcmap
+â”‚   â”‚   â”‚       UniKS-UTF16-H.bcmap
+â”‚   â”‚   â”‚       UniKS-UTF16-V.bcmap
+â”‚   â”‚   â”‚       UniKS-UTF32-H.bcmap
+â”‚   â”‚   â”‚       UniKS-UTF32-V.bcmap
+â”‚   â”‚   â”‚       UniKS-UTF8-H.bcmap
+â”‚   â”‚   â”‚       UniKS-UTF8-V.bcmap
+â”‚   â”‚   â”‚       V.bcmap
+â”‚   â”‚   â”‚       WP-Symbol.bcmap
+â”‚   â”‚   â”‚       
+â”‚   â”‚   â”œâ”€â”€â”€images
+â”‚   â”‚   â”‚       annotation-check.svg
+â”‚   â”‚   â”‚       annotation-comment.svg
+â”‚   â”‚   â”‚       annotation-help.svg
+â”‚   â”‚   â”‚       annotation-insert.svg
+â”‚   â”‚   â”‚       annotation-key.svg
+â”‚   â”‚   â”‚       annotation-newparagraph.svg
+â”‚   â”‚   â”‚       annotation-noicon.svg
+â”‚   â”‚   â”‚       annotation-note.svg
+â”‚   â”‚   â”‚       annotation-paragraph.svg
+â”‚   â”‚   â”‚       findbarButton-next.png
+â”‚   â”‚   â”‚       findbarButton-next.svg
+â”‚   â”‚   â”‚       findbarButton-next@2x.png
+â”‚   â”‚   â”‚       findbarButton-previous.png
+â”‚   â”‚   â”‚       findbarButton-previous.svg
+â”‚   â”‚   â”‚       findbarButton-previous@2x.png
+â”‚   â”‚   â”‚       grab.cur
+â”‚   â”‚   â”‚       grabbing.cur
+â”‚   â”‚   â”‚       loading-dark.svg
+â”‚   â”‚   â”‚       loading-icon.gif
+â”‚   â”‚   â”‚       loading-small.png
+â”‚   â”‚   â”‚       loading-small@2x.png
+â”‚   â”‚   â”‚       loading.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-documentProperties.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-documentProperties.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-documentProperties@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-firstPage.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-firstPage.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-firstPage@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-handTool.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-handTool.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-handTool@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-lastPage.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-lastPage.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-lastPage@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-rotateCcw.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-rotateCcw.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-rotateCcw@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-rotateCw.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-rotateCw.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-rotateCw@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollHorizontal.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollHorizontal.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollHorizontal@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollVertical.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollVertical.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollVertical@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollWrapped.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollWrapped.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-scrollWrapped@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-selectTool.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-selectTool.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-selectTool@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadEven.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadEven.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadEven@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadNone.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadNone.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadNone@2x.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadOdd.png
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadOdd.svg
+â”‚   â”‚   â”‚       secondaryToolbarButton-spreadOdd@2x.png
+â”‚   â”‚   â”‚       shadow.png
+â”‚   â”‚   â”‚       texture.png
+â”‚   â”‚   â”‚       toolbarButton-bookmark.png
+â”‚   â”‚   â”‚       toolbarButton-bookmark.svg
+â”‚   â”‚   â”‚       toolbarButton-bookmark@2x.png
+â”‚   â”‚   â”‚       toolbarButton-currentOutlineItem.svg
+â”‚   â”‚   â”‚       toolbarButton-download.png
+â”‚   â”‚   â”‚       toolbarButton-download.svg
+â”‚   â”‚   â”‚       toolbarButton-download@2x.png
+â”‚   â”‚   â”‚       toolbarButton-menuArrow.svg
+â”‚   â”‚   â”‚       toolbarButton-menuArrows.png
+â”‚   â”‚   â”‚       toolbarButton-menuArrows@2x.png
+â”‚   â”‚   â”‚       toolbarButton-openFile.png
+â”‚   â”‚   â”‚       toolbarButton-openFile.svg
+â”‚   â”‚   â”‚       toolbarButton-openFile@2x.png
+â”‚   â”‚   â”‚       toolbarButton-pageDown.png
+â”‚   â”‚   â”‚       toolbarButton-pageDown.svg
+â”‚   â”‚   â”‚       toolbarButton-pageDown@2x.png
+â”‚   â”‚   â”‚       toolbarButton-pageUp.png
+â”‚   â”‚   â”‚       toolbarButton-pageUp.svg
+â”‚   â”‚   â”‚       toolbarButton-pageUp@2x.png
+â”‚   â”‚   â”‚       toolbarButton-presentationMode.png
+â”‚   â”‚   â”‚       toolbarButton-presentationMode.svg
+â”‚   â”‚   â”‚       toolbarButton-presentationMode@2x.png
+â”‚   â”‚   â”‚       toolbarButton-print.png
+â”‚   â”‚   â”‚       toolbarButton-print.svg
+â”‚   â”‚   â”‚       toolbarButton-print@2x.png
+â”‚   â”‚   â”‚       toolbarButton-search.png
+â”‚   â”‚   â”‚       toolbarButton-search.svg
+â”‚   â”‚   â”‚       toolbarButton-search@2x.png
+â”‚   â”‚   â”‚       toolbarButton-secondaryToolbarToggle.png
+â”‚   â”‚   â”‚       toolbarButton-secondaryToolbarToggle.svg
+â”‚   â”‚   â”‚       toolbarButton-secondaryToolbarToggle@2x.png
+â”‚   â”‚   â”‚       toolbarButton-sidebarToggle.png
+â”‚   â”‚   â”‚       toolbarButton-sidebarToggle.svg
+â”‚   â”‚   â”‚       toolbarButton-sidebarToggle@2x.png
+â”‚   â”‚   â”‚       toolbarButton-viewAttachments.png
+â”‚   â”‚   â”‚       toolbarButton-viewAttachments.svg
+â”‚   â”‚   â”‚       toolbarButton-viewAttachments@2x.png
+â”‚   â”‚   â”‚       toolbarButton-viewLayers.svg
+â”‚   â”‚   â”‚       toolbarButton-viewOutline.png
+â”‚   â”‚   â”‚       toolbarButton-viewOutline.svg
+â”‚   â”‚   â”‚       toolbarButton-viewOutline@2x.png
+â”‚   â”‚   â”‚       toolbarButton-viewThumbnail.png
+â”‚   â”‚   â”‚       toolbarButton-viewThumbnail.svg
+â”‚   â”‚   â”‚       toolbarButton-viewThumbnail@2x.png
+â”‚   â”‚   â”‚       toolbarButton-zoomIn.png
+â”‚   â”‚   â”‚       toolbarButton-zoomIn.svg
+â”‚   â”‚   â”‚       toolbarButton-zoomIn@2x.png
+â”‚   â”‚   â”‚       toolbarButton-zoomOut.png
+â”‚   â”‚   â”‚       toolbarButton-zoomOut.svg
+â”‚   â”‚   â”‚       toolbarButton-zoomOut@2x.png
+â”‚   â”‚   â”‚       treeitem-collapsed.png
+â”‚   â”‚   â”‚       treeitem-collapsed.svg
+â”‚   â”‚   â”‚       treeitem-collapsed@2x.png
+â”‚   â”‚   â”‚       treeitem-expanded.png
+â”‚   â”‚   â”‚       treeitem-expanded.svg
+â”‚   â”‚   â”‚       treeitem-expanded@2x.png
+â”‚   â”‚   â”‚       
+â”‚   â”‚   â””â”€â”€â”€locale
+â”‚   â”‚       â”‚   locale.properties
+â”‚   â”‚       â”‚   
+â”‚   â”‚       â”œâ”€â”€â”€en-US
+â”‚   â”‚       â”‚       viewer.properties
+â”‚   â”‚       â”‚       
+â”‚   â”‚       â””â”€â”€â”€zh-CN
+â”‚   â”‚               viewer.properties
+â”‚   â”‚               
+â”‚   â”œâ”€â”€â”€sd
+â”‚   â”‚       unibodymachine.js
+â”‚   â”‚       
+â”‚   â””â”€â”€â”€tampermonkey
+â”‚           netdiskLinkChecker.user.js
+â”‚           ç½‘ç›˜é“¾æ¥æµ‹è¯•.md
+â”‚           
+â”œâ”€â”€â”€software
+â”‚       Android App.md
+â”‚       PC.md
+â”‚       
+â””â”€â”€â”€subscribe
         gfwlist.txt
         mysub.txt
         pac.txt

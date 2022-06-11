@@ -1,4 +1,4 @@
-2022年5月29日 10:28:12
+2022年6月11日 10:50:30
 
 ## 下载
 
@@ -6,7 +6,7 @@
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.4.8 | 下载工具  自动升级 |
 | [PanDownload]() |  2.7.9  | 百度网盘工具       |
-| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.4.3  | 云盘分享           |
+| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.5.1  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.2 | 下载工具           |
 | [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.14 |                    |
@@ -36,7 +36,7 @@
 | 软件                                                         |   版本   | 说明       |
 | ------------------------------------------------------------ | :------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.3.9 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.5.1 | 渗透       |
 
 ## 科学
 
@@ -44,7 +44,7 @@
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.6 | 科学上网      |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 3.7.5 | 聊天          |
-| [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.1 | hosts切换工具 |
+| [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.25  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.44 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
@@ -62,14 +62,14 @@
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.2  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  1.9.0  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
-| [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.5  | redis工具                             |
+| [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.6  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.13 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.67.2 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.68 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  6.1.5  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.7.1  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.8  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.0  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.17 | 接口测试                              |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.1  | github 桌面端                         |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.22 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -86,17 +86,17 @@
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.0.8       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.53          | 注册表查找工具  |
-| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.58         | ftp工具         |
+| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.60.1         | ftp工具         |
 | [Listary](https://www.listary.com/)                          |       5.00.2843        | 启动器          |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) |         202204         | 脑图            |
 | [冰点文库下载器]()           |         3.2.16         | 文档下载        |
-| [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0           | 文件重命名      |
+| [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.6.9          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      101.0.1210.39      | 浏览器          |
-| [Chrome 增强版]()  [插件](https://github.com/shuax/chrome_plus) |      101.0.4951.41      | 浏览器          |
-| [索鸟快传](http://www.suoniao.com/kuaichuan)                 |         2.1.6         | 局域网分享      |
+| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      102.0.1245.39      | 浏览器          |
+| [Chrome 增强版]()  [插件](https://github.com/shuax/chrome_plus) |      102.0.5005.115      | 浏览器          |
+| [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.19 |  |
 |  |  |  |
@@ -152,8 +152,8 @@
 | [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github [无损音源](https://www.6yit.com/8498.html) | 1.21.0  | 音乐助手             |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) |  3E0E   | 翻译                 |
-| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.1.0  | RSS阅读              |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) |  3E0E   | 翻译                 |
+| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.1.1  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |  2.0.3  | 屏幕共享             |
 | [MusicTools](https://www.yijingying.com/html/musictools/)    | 1.9.6.1 | 付费无损音乐下载工具 |
 |                                                              |         |                      |
