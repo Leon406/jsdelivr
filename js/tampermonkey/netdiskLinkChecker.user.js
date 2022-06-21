@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.5
+// @version      1.2.6
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
+// @note         22-06-21 1.2.6 修复文叔叔新链接无法识别
 // @note         22-03-19 1.2.0 支持自动输入提取码并确认,修复部分旧网盘无法识别
 // @note         22-03-08 1.0.2 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码,支持百度长分享链接
 // @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
@@ -28,8 +29,8 @@
 // @connect      cowtransfer.com
 // @connect      wenshushu.cn
 // @connect      115.com
-// @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
-// @require      https://cdn.staticfile.org/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
+// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/1.12.4/jquery.min.js
+// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y//findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
 // @run-at       document-start
 // @grant        GM_getValue
 // @grant        GM_setValue
@@ -41,7 +42,6 @@
 // @license      GPL-3.0 License
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @noframes
-// @downloadURL none
 // ==/UserScript==
 (function () {
     'use strict';
@@ -500,9 +500,9 @@
                 }
             },
             wenshushu: {
-                reg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})/gi,
+                reg: /(?:https?:\/\/)?t.wss.ink\/f\/([\w\-]{5,22})/gi,
                 replaceReg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})\b/gi,
-                prefix: "https://wss1.cn/f/",
+                prefix: "https://t.wss.ink/f/",
                 checkFun: (shareId, callback) => {
                     logger.info("wenshushu id", shareId);
                     http.ajax({
