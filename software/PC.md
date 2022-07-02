@@ -1,4 +1,4 @@
-2022年6月27日 08:34:14
+2022年7月2日 14:36:07
 
 ## 下载
 
@@ -24,9 +24,9 @@
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [010Editor](https://www.sweetscape.com/010editor/)           |     12.0.1     | 二进制查看编辑       |
 | PEiD                                                         |      0.95      | 查壳工具             |
-| [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived) [dnSpyEx](https://github.com/dnSpyEx/dnSpy) |     6.1.9      | .Net 逆向工具        |
+| [dnSpy](https://github.com/0xd4d/dnSpy)  github (archived) [dnSpyEx](https://github.com/dnSpyEx/dnSpy) |     6.2.0     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.6.6     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.7.1     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -36,7 +36,7 @@
 | 软件                                                         |   版本   | 说明       |
 | ------------------------------------------------------------ | :------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.5.2 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.6.1 | 渗透       |
 
 ## 科学
 
@@ -46,9 +46,9 @@
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.0.2 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.27  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.44 | v2ray工具     |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.45.2 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.22  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.23  |               |
 |  |  | |
 
 ## 开发
@@ -68,8 +68,8 @@
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  6.1.5  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.8.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.2  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.25 | 接口测试                              |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.3  | github 桌面端                         |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.27 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -80,7 +80,7 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.00         | 图片查看        |
-| [todesk](https://www.todesk.com/download.html)               | 4.3.1.1 | 远程控制 速度快 |
+| [ToDesk](https://www.todesk.com/download.html)               | 4.3.1.3 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.740        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.37         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.0.8       | 硬盘空间分析    |
