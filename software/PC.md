@@ -1,4 +1,4 @@
-2022年7月2日 14:36:07
+2022年7月11日 13:41:50
 
 ## 下载
 
@@ -33,10 +33,10 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本   | 说明       |
-| ------------------------------------------------------------ | :------: | ---------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.6.1 | 渗透       |
+| 软件                                                         |  版本  | 说明       |
+| ------------------------------------------------------------ | :----: | ---------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |  7.92  | ip端口扫描 |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.7 | 渗透       |
 
 ## 科学
 
@@ -45,7 +45,7 @@
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.6 | 科学上网      |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.0.2 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.27  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.29  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.45.2 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.23  |               |
@@ -58,13 +58,13 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)   [破解](https://github.com/nszy007/MobaXterm-keygen) |  22.1  | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.13  | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.4.2  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.4.3  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.2  | 文件比对同步工具                      |
-| [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.0.0  | Android 投屏电脑                      |
+| [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.0.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.6  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.13 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.68 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.69 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  6.1.5  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.8.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
@@ -94,8 +94,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      102.0.1245.39      | 浏览器          |
-| [Chrome 增强版]()  [插件](https://github.com/shuax/chrome_plus) |      102.0.5005.115      | 浏览器          |
+| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      103.0.1264.49      | 浏览器          |
+| [Chrome 增强版]()  [插件](https://github.com/shuax/chrome_plus) |      103.0.5060.114      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.19 |  |
@@ -149,7 +149,7 @@
 
 | 软件                                                         |  版本   | 说明                 |
 | :----------------------------------------------------------- | :-----: | -------------------- |
-| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github [无损音源](https://www.6yit.com/8498.html) | 1.22.0  | 音乐助手             |
+| [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github [无损音源](https://www.6yit.com/8498.html) | 1.22.1  | 音乐助手             |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
 | [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) |  3E0E   | 翻译                 |
