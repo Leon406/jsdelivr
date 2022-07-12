@@ -1,5 +1,5 @@
 #github分享
-https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/2022.-3-14.yaml
+https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/20222-7-1
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0314.txt
 https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml
 https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
@@ -21,6 +21,10 @@ https://raw.githubusercontent.com/git-yusteven/openit/main/long
 https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
 https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt
 https://config.v2cross.com/v2profiles/config/
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
+https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml
 #分享订阅
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
 https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
