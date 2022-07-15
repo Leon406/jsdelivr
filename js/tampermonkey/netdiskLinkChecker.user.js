@@ -1,22 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.6
+// @version      1.2.7
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-06-21 1.2.6 修复文叔叔新链接无法识别
-// @note         22-03-19 1.2.0 支持自动输入提取码并确认,修复部分旧网盘无法识别
-// @note         22-03-08 1.0.2 修复网盘状态缓存功能,失效链接不再进行重复检测,精简代码,支持百度长分享链接
-// @note         22-03-06 0.8.1 支持115网盘,优化天翼云识别,修复微云识别错误
-// @note         22-03-04 0.7.3 优化百度企业网盘识别,百度失效链接识别,蓝奏云链接替换lanzoub.com
-// @note         22-02-27 0.7.1 支持奶牛网盘,文叔叔
-// @note         22-02-19 0.6.2 支持迅雷网盘,支持失效蓝奏域名替换
-// @note         22-02-18 0.5.0 支持无密码夸克网盘，优化蓝奏网盘识别
-// @note         22-02-17 0.4.0 配置化改造,适配其他网盘
-// @note         22-02-16 0.3.3 支持123网盘,修复多个链接判断错误,精简代码
-// @note         22-01-27 0.2.9 支持阿里云盘,精简代码
+// @note         22-07-15 1.2.7 优化异步加载识别参数
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -49,8 +39,8 @@
     var manifest = {
         "name": "ljjc",
         "logger_level": 3,
-        "checkTimes": 3,
-        "checkInterval": 30,
+        "checkTimes": 4,
+        "checkInterval": 10,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
