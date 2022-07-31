@@ -1,4 +1,4 @@
-2022年7月11日 13:51:23
+2022年7月31日 11:08:43
 
 ## 系统管理
 
@@ -15,17 +15,17 @@
 
 | 软件名称                                                     | 版本     | 描述                       |
 | ------------------------------------------------------------ | -------- | -------------------------- |
-| [Ookla Speedtest](https://pan.lanzoux.com/b0f19i6af)         | 4.7.18   | 手机网速测试工具           |
+| [Ookla Speedtest](https://pan.lanzoux.com/b0f19i6af)         | 4.7.19   | 手机网速测试工具           |
 | [泰尔网测](https://www.coolapk.com/apk/com.knowyou.perception) | 1.2.42   | 手机网速测试工具           |
-| [一指禅](https://estar.lanzoux.com/11o#)                     | 3.3.55   | 闪屏跳过                   |
+| [一指禅](https://estar.lanzoux.com/11o#)                     | 3.3.706  | 闪屏跳过                   |
 | [QR](https://www.lanzoux.com/b06lnskqf?pwd=8qxr)  8qxr       | 2.7\.3-P | 扫码                       |
 | [讯飞语记](https://pan.lanzoux.com/b06llc0sj?pwd=e86t) e86t  | 6.0.1356 |                            |
-| [设备信息DevInfo](https://pan.lanzoux.com/b06mcp2le?pwd=e5gl)  e5gl | 2.8.5    |                            |
-| [AIDA](https://www.lanzoux.com/b06lo9kqh?pwd=6mif)  6mif     | 1.87     |                            |
+| [设备信息DevInfo](https://pan.lanzoux.com/b06mcp2le?pwd=e5gl)  e5gl | 2.8.6    |                            |
+| [AIDA](https://www.lanzoux.com/b06lo9kqh?pwd=6mif)  6mif     | 1.88     |                            |
 | [apkpure](https://www.lanzoux.com/b06ljuo9a?pwd=gjb2)  gjb2  | 3.17.32  |                            |
 | [隐秘参数](https://myqqjd.lanzoux.com/b06mhavbi?pwd=el5k)  el5k | 2.7.5    | 提供手机硬件检测和性能测试 |
 | [GPS status](https://myqqjd.lanzoux.com/b06ltxx5i?pwd=7dcw)  7dcw | 11.0.307 |                            |
-| [开发助手](https://pan.lanzoux.com/b06lmdxmd)                | 6.8.1    |                            |
+| [开发助手](https://pan.lanzoux.com/b06lmdxmd)                | 6.8.4    |                            |
 
 
 
@@ -33,9 +33,9 @@
 
 | 软件名称                                                   | 版本      | 描述 |
 | ---------------------------------------------------------- | --------- | ---- |
-| [xmind](https://pan.lanzoux.com/b06lkjpah?pwd=i592)   i592 | 1.9.6     |      |
-| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666)      | 1.46      |      |
-| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)         | 7.3       |      |
+| [xmind](https://pan.lanzoux.com/b06lkjpah?pwd=i592)   i592 | 1.9.7     |      |
+| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666)      | 1.48.6    |      |
+| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)         | 7.6       |      |
 | [阅读](https://www.coolapk.com/apk/256030)                 | 3.22      | 小说 |
 | [异次元](https://www.lanzoui.com/b595600)                  | 2.3.9     | 漫画 |
 | [PureTure](https://pan.lanzoui.com/b0f2lkrab)              | 3.3.8.104 | 油管 |
@@ -47,6 +47,6 @@
 | 软件名称                                                | 版本    | 描述   |
 | ------------------------------------------------------- | ------- | ------ |
 | [开发助手](https://pan.lanzoux.com/b06m5xvtc#g5pn) g5pn | 2.1.5   |        |
-| [谷歌套件]( https://pan.lanzoui.com/b0f195fyf)          | 31.1.19 |        |
+| [谷歌套件]( https://pan.lanzoui.com/b0f195fyf)          | 31.6.15 |        |
 | [adguard](https://pan.lanzoui.com/b0f19420h)            | 3.6.46  | 去广告 |
 

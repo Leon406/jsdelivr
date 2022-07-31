@@ -1,5 +1,4 @@
-文件夹 PATH 列表
-E:\GITREPO\JSDELIVR
+E:\GITHUB\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -18,42 +17,41 @@ E:\GITREPO\JSDELIVR
 ├─cdn
 │  │  新建 文本文档.txt
 │  │  
-│  ├─github
-│  │  └─assets
-│  │          app_assets_modules_github_behaviors_details_ts-app_assets_modules_github_behaviors_include-fr-34e1f7-81aaed33af9b.js
-│  │          app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-af52ef-da1b18076287.js
-│  │          app_assets_modules_github_behaviors_pjax_ts-8ab68dc18f9f.js
-│  │          behaviors-e98e782d99d4.js
-│  │          command-palette-b1397c8e82f8.js
-│  │          content.css
-│  │          dashboard-81d167456771.css
-│  │          dashboard-9cdb674e8292.js
-│  │          element-registry-4a67d654fd76.js
-│  │          environment-9693039383ed.js
-│  │          github-8171d524d5cb.css
-│  │          github-elements-97fffc8703a2.js
-│  │          global-f0ee04095ee5.css
-│  │          home-e7c62af55af3.css
-│  │          light-92c7d381038e.css
-│  │          notifications-global-e54b0c8c6ddc.js
-│  │          primer-856885a5a549.css
-│  │          runtime-fd29eeef43e0.js
-│  │          site-7b08dc8b1766.css
-│  │          vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-6e358f-a62225a208b7.js
-│  │          vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-12cdb93781b2.js
-│  │          vendors-node_modules_dompurify_dist_purify_js-0677fca37991.js
-│  │          vendors-node_modules_github_catalyst_lib_index_js-node_modules_github_time-elements_dist_index_js-7e71a35c960d.js
-│  │          vendors-node_modules_github_clipboard-copy-element_dist_index_esm_js-node_modules_delegated-e-e4591b-523269a764ea.js
-│  │          vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-52e104-e9e86b38ebb9.js
-│  │          vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-c7e9ed-96689e70e220.js
-│  │          vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_delegated-events_dist_in-2c6780-4d8999a098b2.js
-│  │          vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-d2bd677ffadf.js
-│  │          vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-df2537-54ae7a774375.js
-│  │          vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-87b1b3-eec2e761db24.js
-│  │          vendors-node_modules_lit-html_lit-html_js-ba8ef7c9465c.js
-│  │          vendors-node_modules_selector-observer_dist_index_esm_js-8a8fb532f817.js
-│  │          
-│  └─stackoverflow
+│  └─github
+│      └─assets
+│              app_assets_modules_github_behaviors_details_ts-app_assets_modules_github_behaviors_include-fr-34e1f7-81aaed33af9b.js
+│              app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-af52ef-da1b18076287.js
+│              app_assets_modules_github_behaviors_pjax_ts-8ab68dc18f9f.js
+│              behaviors-e98e782d99d4.js
+│              command-palette-b1397c8e82f8.js
+│              content.css
+│              dashboard-81d167456771.css
+│              dashboard-9cdb674e8292.js
+│              element-registry-4a67d654fd76.js
+│              environment-9693039383ed.js
+│              github-8171d524d5cb.css
+│              github-elements-97fffc8703a2.js
+│              global-f0ee04095ee5.css
+│              home-e7c62af55af3.css
+│              light-92c7d381038e.css
+│              notifications-global-e54b0c8c6ddc.js
+│              primer-856885a5a549.css
+│              runtime-fd29eeef43e0.js
+│              site-7b08dc8b1766.css
+│              vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-6e358f-a62225a208b7.js
+│              vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-12cdb93781b2.js
+│              vendors-node_modules_dompurify_dist_purify_js-0677fca37991.js
+│              vendors-node_modules_github_catalyst_lib_index_js-node_modules_github_time-elements_dist_index_js-7e71a35c960d.js
+│              vendors-node_modules_github_clipboard-copy-element_dist_index_esm_js-node_modules_delegated-e-e4591b-523269a764ea.js
+│              vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-52e104-e9e86b38ebb9.js
+│              vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-c7e9ed-96689e70e220.js
+│              vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_delegated-events_dist_in-2c6780-4d8999a098b2.js
+│              vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-d2bd677ffadf.js
+│              vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-df2537-54ae7a774375.js
+│              vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-87b1b3-eec2e761db24.js
+│              vendors-node_modules_lit-html_lit-html_js-ba8ef7c9465c.js
+│              vendors-node_modules_selector-observer_dist_index_esm_js-8a8fb532f817.js
+│              
 ├─extension
 │      gooreplacer.gson
 │      
