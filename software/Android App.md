@@ -37,7 +37,7 @@
 | [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666)      | 1.48.6    |      |
 | [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)         | 7.6       |      |
 | [阅读](https://www.coolapk.com/apk/256030)                 | 3.22      | 小说 |
-| [异次元](https://www.lanzoui.com/b595600)                  | 2.3.9     | 漫画 |
+| [异次元](https://www.lanzoui.com/b595600)                  | 2.4.0     | 漫画 |
 | [PureTure](https://pan.lanzoui.com/b0f2lkrab)              | 3.3.8.104 | 油管 |
 
 
@@ -48,5 +48,5 @@
 | ------------------------------------------------------- | ------- | ------ |
 | [开发助手](https://pan.lanzoux.com/b06m5xvtc#g5pn) g5pn | 2.1.5   |        |
 | [谷歌套件]( https://pan.lanzoui.com/b0f195fyf)          | 31.6.15 |        |
-| [adguard](https://pan.lanzoui.com/b0f19420h)            | 3.6.46  | 去广告 |
+| [adguard](https://pan.lanzoui.com/b0f19420h)            | 3.6.48  | 去广告 |
 

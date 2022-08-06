@@ -33,22 +33,22 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本   | 说明       |
-| ------------------------------------------------------------ | :------: | ---------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.7.1 | 渗透       |
+| 软件                                                         |  版本  | 说明       |
+| ------------------------------------------------------------ | :----: | ---------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |  7.92  | ip端口扫描 |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.8 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.6 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.0.3 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.0.4 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.30  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.32  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.45.2 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.25  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.26  |               |
 |  |  | |
 
 ## 开发
@@ -64,7 +64,7 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.6  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.13 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.69.2 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.70 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  6.1.5  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.8.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
@@ -80,8 +80,8 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.00         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)               | 4.3.2 | 远程控制 速度快 |
-| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.740        | 全文文本搜索    |
+| [ToDesk](https://www.todesk.com/download.html)               | 4.3.2.1 | 远程控制 速度快 |
+| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.901        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.37         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.0.8       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
@@ -94,8 +94,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.2 | 1.1 |
-| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      103.0.1264.49      | 浏览器          |
-| [Chrome 增强版]()  [插件](https://github.com/shuax/chrome_plus) |      103.0.5060.114      | 浏览器          |
+| [edge 增强版]()  [插件](https://github.com/shuax/edge_plus) |      104.0.1293.47      | 浏览器          |
+| [Chrome 增强版]()  [插件](https://github.com/shuax/chrome_plus) |      104.0.5112.81      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.19 |  |
@@ -117,7 +117,7 @@
 | 软件                                                         |  版本  | 说明                 |
 | ------------------------------------------------------------ | :----: | -------------------- |
 | [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  |  1.95  | 图片格式转换汉化工具 |
-| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e?pwd=ew3u) [2](https://www.lanzoui.com/b00z8kkti) | 5.11.0 | 音视频格式转换       |
+| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e?pwd=ew3u) [2](https://www.lanzoui.com/b00z8kkti) | 5.12.2 | 音视频格式转换       |
 | 小丸工具箱                                                   |  236   |                      |
 | [ShanaEncoder](https://shana.pe.kr/)                         | 5.3.1  |                      |
 
@@ -148,7 +148,7 @@
 ## 其他
 
 | 软件                                                         |  版本   | 说明                 |
-| :----------------------------------------------------------- | :-----: | -------------------- |
+| ------------------------------------------------------------ | :-----: | -------------------- |
 | [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github [无损音源](https://www.6yit.com/8498.html) | 1.22.1  | 音乐助手             |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
