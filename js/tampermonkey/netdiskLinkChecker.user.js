@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.7
+// @version      1.2.8
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
@@ -1052,7 +1052,7 @@
 
         obj.runAppList = function (appList) {
             var url = location.href;
-            var rrr = document.body.innerText.match(/([\w-]+)(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
+            var rrr = document.body.innerText.match(/([\w-]{4,})(?:&#\d+;)*(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
 
             for (var s in rrr) {
                 let r = /([\w-]+).*([a-z\d]{4,8})/ig.exec(rrr[s].replace(/\s/g,""));
