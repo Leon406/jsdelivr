@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.8
+// @version      1.2.9
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-07-15 1.2.7 优化异步加载识别参数
+// @note         22-08-16 1.2.9 优化密码识别,修复阿里云自动输入搜索问题
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -580,7 +580,7 @@
                 aliyun: {
                     reg: /((?:https?:\/\/)?(?:(?:www\.)?aliyundrive\.com\/s|alywp\.net)\/[A-Za-z0-9]+)/,
                     host: /www\.aliyundrive\.com|alywp\.net/,
-                    input: ['.ant-input', 'input[type="text"]'],
+                    input: ['.ant-input[placeholder="请输入提取码"]'],
                     button: ['.button--fep7l', 'button[type="submit"]'],
                     name: '阿里云盘'
                 },
@@ -1052,10 +1052,9 @@
 
         obj.runAppList = function (appList) {
             var url = location.href;
-            var rrr = document.body.innerText.match(/([\w-]{4,})(?:&#\d+;)*(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
-
-            for (var s in rrr) {
-                let r = /([\w-]+).*([a-z\d]{4,8})/ig.exec(rrr[s].replace(/\s/g,""));
+            var rrr = document.body.innerText.match(/\/([\w-]{4,})(?:.*)?(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
+			for (var s in rrr) {
+				let r = /([\w-]+).*?([a-z\d]{4,8})/ig.exec(rrr[s].replace(/\s/g,""));
                 passMap[r[1]] = r[2];
             }
             for (var i in appList) {
