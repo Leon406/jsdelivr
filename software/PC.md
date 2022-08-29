@@ -1,10 +1,10 @@
-2022年8月23日 17:42:27
+2022年8月29日20:21:27
 
 ## 下载
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [xdown](https://xdown.org) 自动更新                       | 2.0.4.9 | 下载工具  自动升级 |
+| [xdown](https://xdown.org) 自动更新                       | 2.0.5.1 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.0  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.5.2  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
@@ -48,7 +48,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.34  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 4.45.2 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.27  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.29  |               |
 |  |  | |
 
 ## 开发
@@ -65,10 +65,10 @@
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.8  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.13 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.70.2 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  6.1.5  | 接口测试                              |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.9.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.5  | github 桌面端                         |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.6  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.34 | 接口测试                              |
 |                                                              |         |                                       |
 
@@ -79,8 +79,8 @@
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.01         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)               | 4.3.3.0 | 远程控制 速度快 |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.02         | 图片查看        |
+| [ToDesk](https://www.todesk.com/download.html)               | 4.3.3.1 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.2.901        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.37.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.0.8       | 硬盘空间分析    |
@@ -105,7 +105,7 @@
 
 | 软件                                                  |    版本    | 说明     |
 | ----------------------------------------------------- | :--------: | -------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191026 | 文件恢复 |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191029 | 文件恢复 |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.75    | 系统检测 |
 |                                                       |            |          |
 |                                                       |            |          |
