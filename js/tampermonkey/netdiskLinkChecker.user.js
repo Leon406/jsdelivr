@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.2.9
+// @version      1.3.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-08-16 1.2.9 优化密码识别,修复阿里云自动输入搜索问题
+// @note         22-09-06 1.3.0 夸克网盘支持提取码，及自动输入提取码
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -362,7 +362,13 @@
                         success: (response) => {
                             logger.debug("Quark token response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
-                            let token = rsp.data ? rsp.data.stoken :
+                            if( rsp.message.includes("需要提取码")) {
+                                callback && callback({
+                                state: 2
+                                });
+                                return
+                            }
+                            let token = rsp.data ? rsp.data.stoken?rsp.data.stoken : "A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D" :
                                 "A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D";
                             http.ajax({
                                 type: "get",
@@ -634,6 +640,13 @@
                     button: ['.form-decode .button'],
                     name: '115'
                 },
+                quark: {
+                    reg: /((?:https?:\/\/)?pan\.quark\.cn\/s\/[\w-]{6,})/,
+                    host: /pan\.quark\.cn/,
+                    input: ['.ant-input[placeholder="请输入提取码，不区分大小写"]'],
+                    button: ['button[type="button"]'],
+                    name: 'quark'
+                },
             },
             //根据域名检测网盘类型
             panDetect() {
@@ -660,7 +673,7 @@
             //自动填写密码
             autoFillPassword() {
                 let query = getQuery('pwd');
-                let hash = location.hash.slice(1);
+                let hash = location.hash.slice(1).replace("/list/share","");
                 let pwd = query || hash;
                 let panType = this.panDetect();
                 let val = this.opt[panType];
@@ -1423,6 +1436,7 @@
                             /cloud\.189\.cn/,
                             /caiyun\.139\.com/,
                             /pan\.xunlei\.com/,
+                            /pan\.quark\.cn/,
                             /www\.123pan\.com/,
                             /115\.com/,
                         ]
