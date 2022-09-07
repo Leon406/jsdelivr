@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.3.0
+// @version      1.3.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-09-06 1.3.0 夸克网盘支持提取码，及自动输入提取码
+// @note         22-09-07 1.3.1 夸克网盘支持提取码，及自动输入提取码，天翼云新增未审核判断
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -328,7 +328,11 @@
                         success: (response) => {
                             logger.debug("Ty189 chec", shareId, response);
                             let state = 1;
-                            if (response.includes("ShareInfoNotFound") || response.includes("FileNotFound") || response.includes("ShareExpiredError")) {
+                            if (response.includes("ShareInfoNotFound")
+                                || response.includes("FileNotFound")
+                                || response.includes("ShareExpiredError")
+                                || response.includes("ShareAuditNotPass")
+                               ) {
                                 state = -1;
                             } else if (response.includes("needAccessCode")) {
                                 state = 2;
@@ -1410,6 +1414,11 @@
             logger.info("buildCode", code, appendCode);
             code = code ? (appendCode + code) : "";
             let shareUrl = constant[shareSource]["prefix"] + shareId + code;
+            // 修复https://pan.baidu.com/share/init?surl=xxxxxxx
+
+            if(shareUrl.includes("/share/init?surl=")){
+                shareUrl = shareUrl.replace("/share/init?surl=","/s/1")
+            }
             return shareUrl;
         };
         obj.buildShowText = function (shareId, shareSource) {
