@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -17,41 +18,53 @@ E:\GITHUB\JSDELIVR
 ├─cdn
 │  │  新建 文本文档.txt
 │  │  
-│  └─github
-│      └─assets
-│              app_assets_modules_github_behaviors_details_ts-app_assets_modules_github_behaviors_include-fr-34e1f7-81aaed33af9b.js
-│              app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-af52ef-da1b18076287.js
-│              app_assets_modules_github_behaviors_pjax_ts-8ab68dc18f9f.js
-│              behaviors-e98e782d99d4.js
-│              command-palette-b1397c8e82f8.js
-│              content.css
-│              dashboard-81d167456771.css
-│              dashboard-9cdb674e8292.js
-│              element-registry-4a67d654fd76.js
-│              environment-9693039383ed.js
-│              github-8171d524d5cb.css
-│              github-elements-97fffc8703a2.js
-│              global-f0ee04095ee5.css
-│              home-e7c62af55af3.css
-│              light-92c7d381038e.css
-│              notifications-global-e54b0c8c6ddc.js
-│              primer-856885a5a549.css
-│              runtime-fd29eeef43e0.js
-│              site-7b08dc8b1766.css
-│              vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-6e358f-a62225a208b7.js
-│              vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-12cdb93781b2.js
-│              vendors-node_modules_dompurify_dist_purify_js-0677fca37991.js
-│              vendors-node_modules_github_catalyst_lib_index_js-node_modules_github_time-elements_dist_index_js-7e71a35c960d.js
-│              vendors-node_modules_github_clipboard-copy-element_dist_index_esm_js-node_modules_delegated-e-e4591b-523269a764ea.js
-│              vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-52e104-e9e86b38ebb9.js
-│              vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-c7e9ed-96689e70e220.js
-│              vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_delegated-events_dist_in-2c6780-4d8999a098b2.js
-│              vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-d2bd677ffadf.js
-│              vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-df2537-54ae7a774375.js
-│              vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-87b1b3-eec2e761db24.js
-│              vendors-node_modules_lit-html_lit-html_js-ba8ef7c9465c.js
-│              vendors-node_modules_selector-observer_dist_index_esm_js-8a8fb532f817.js
-│              
+│  ├─github
+│  │  └─assets
+│  │          app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-91b396bb6bb5.js
+│  │          app_assets_modules_github_behaviors_details_ts-3d80bf687e9d.js
+│  │          app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_di-9b8a64-283dc3d9bdf7.js
+│  │          app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_has-interactions_t-0091d6-25db6ca89f1c.js
+│  │          app_assets_modules_github_ref-selector_ts-1f3809243ec3.js
+│  │          app_assets_modules_github_soft-nav_navigate_ts-cf81b7830d5e.js
+│  │          behaviors-ffce4cbf3798.js
+│  │          code-3d7b701fc6eb.css
+│  │          code-menu-34cd576ef5d4.js
+│  │          codespaces-10dec0b4f6ce.js
+│  │          command-palette-1e4ab68808c3.js
+│  │          element-registry-573497511f3f.js
+│  │          environment-28ac2e722441.js
+│  │          github-e3c3328ea8d4.css
+│  │          github-elements-0840a9cd380c.js
+│  │          global-06d66d91c548.css
+│  │          light-5178aee0ee76.css
+│  │          notifications-global-47ba35d34d1d.js
+│  │          optimizely-e8e95f3b95e6.js
+│  │          primer-ee6f94760023.css
+│  │          repositories-7d47cf27a717.js
+│  │          topic-suggestions-5fa4b287978f.js
+│  │          vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff533-b01316754e20.js
+│  │          vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-4a2f37f7419e.js
+│  │          vendors-node_modules_fzy_js_index_js-node_modules_github_combobox-nav_dist_index_js-node_modu-344bff-2d497eaa2bcd.js
+│  │          vendors-node_modules_github_clipboard-copy-element_dist_index_esm_js-node_modules_delegated-e-b37f7d-9bb64f68c9a2.js
+│  │          vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_filter--1a5034-4afde803c0f4.js
+│  │          vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_quote-sele-385414-cb162b883437.js
+│  │          vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_remote-form_-cf1889-3860aa04e8dc.js
+│  │          vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-dd8913ac65b0.js
+│  │          vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_koddsson_textarea-c-586f78-31ae170ef9e1.js
+│  │          vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-911b971-386457f8a637.js
+│  │          vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-bd1f73-6256737c3b34.js
+│  │          vendors-node_modules_github_tab-container-element_dist_index_js-node_modules_github_auto-comp-d0a479-59a6ec35bd52.js
+│  │          vendors-node_modules_github_time-elements_dist_index_js-74b4ec51ce20.js
+│  │          vendors-node_modules_lit-html_lit-html_js-e954e8c01c93.js
+│  │          vendors-node_modules_manuelpuyol_turbo_dist_turbo_es2017-esm_js-8af9baefab9e.js
+│  │          vendors-node_modules_optimizely_optimizely-sdk_dist_optimizely_browser_es_min_js-node_modules-4de5ed-a1d36fafc3a7.js
+│  │          vendors-node_modules_primer_view-components_app_components_primer_primer_js-node_modules_gith-e7a013-85c8b5701661.js
+│  │          vendors-node_modules_selector-observer_dist_index_esm_js-650337916dbd.js
+│  │          vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-d351f6-c1d63d230b29.js
+│  │          vendors-node_modules_virtualized-list_es_index_js-node_modules_github_template-parts_lib_index_js-17ccfc4926a4.js
+│  │          wp-runtime-808daa8e8148.js
+│  │          
+│  └─stackoverflow
 ├─extension
 │      gooreplacer.gson
 │      
