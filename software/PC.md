@@ -1,4 +1,4 @@
-2022年9月9日14:46:59
+2022年9月22日13:25:41
 
 ## 下载
 
@@ -22,11 +22,11 @@
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.6      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
-| [010Editor](https://www.sweetscape.com/010editor/)           |     12.0.1     | 二进制查看编辑       |
+| [010Editor](https://www.sweetscape.com/010editor/)           |     13     | 二进制查看编辑       |
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy) |     6.2.0     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     3.7.2     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     4.0.0rc2     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -35,20 +35,20 @@
 
 | 软件                                                         |   版本   | 说明       |
 | ------------------------------------------------------------ | :------: | ---------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.92   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.8.4 | 渗透       |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93   | ip端口扫描 |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.9.1 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.6 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.1.1 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.2.0 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.35  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.36  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.1.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.19.30  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.3  |               |
 |  |  | |
 
 ## 开发
@@ -65,11 +65,11 @@
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.8  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.13 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.70.2 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0  | 接口测试                              |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.4  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.9.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.7  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.34 | 接口测试                              |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.8  | github 桌面端                         |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.36 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -90,7 +90,7 @@
 | [Listary](https://www.listary.com/)                          |       5.00.2843        | 启动器          |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) |         22.08.2190         | 脑图            |
 | [冰点文库下载器]()           |         3.2.16         | 文档下载        |
-| [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.6.9          | 文件重命名      |
+| [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
@@ -105,7 +105,7 @@
 
 | 软件                                                  |    版本    | 说明     |
 | ----------------------------------------------------- | :--------: | -------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191039 | 文件恢复 |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191044 | 文件恢复 |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.75    | 系统检测 |
 |                                                       |            |          |
 |                                                       |            |          |
