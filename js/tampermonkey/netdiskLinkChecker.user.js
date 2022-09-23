@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.3.1
+// @version      1.3.2
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-09-07 1.3.1 夸克网盘支持提取码，及自动输入提取码，天翼云新增未审核判断
+// @note         22-09-23 1.3.2 优化密码识别
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -38,6 +38,7 @@
 
     var manifest = {
         "name": "ljjc",
+        "debugId": "IZ7N32Jv2URf",
         "logger_level": 3,
         "checkTimes": 8,
         "checkInterval": 5,
@@ -1069,9 +1070,9 @@
 
         obj.runAppList = function (appList) {
             var url = location.href;
-            var rrr = document.body.innerText.match(/\/([\w-]{4,})(?:.*)?(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
+            var rrr = document.body.innerText.match(/\/([\w-]{4,})(?:.*)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
 			for (var s in rrr) {
-				let r = /([\w-]+).*?([a-z\d]{4,8})/ig.exec(rrr[s].replace(/\s/g,""));
+				let r = /([\w-]+).*?([a-z\d]{4,8})/ig.exec(rrr[s]);
                 passMap[r[1]] = r[2];
             }
             for (var i in appList) {
@@ -1334,16 +1335,20 @@
                 let pwd = $this.attr("one-pwd");
 
                 let parentNode = this.parentNode;
+                let shareUrl = obj.buildShareUrl(shareId, shareSource, pwd);
+				
+                  if(shareId.includes(manifest["debugId"])) {
+                        logger.error(shareUrl+" shareUrl");
+                }
                 if (parentNode.nodeName != "A") {
-
                     // 转超链接
-                    $this.wrap('<a href="' + obj.buildShareUrl(shareId, shareSource, pwd) + '" target="_blank"></a>');
+                    $this.wrap('<a href="' + shareUrl + '" target="_blank"></a>');
                 } else if (constant[shareSource]["aTagRepalce"]) {
                     let replacePair = constant[shareSource]["aTagRepalce"];
                     // 失效域名替换
-                    parentNode.href = obj.buildShareUrl(shareId, shareSource, pwd).replace(replacePair[0], replacePair[1])
+                    parentNode.href = shareUrl.replace(replacePair[0], replacePair[1])
                 } else {
-                    parentNode.href = obj.buildShareUrl(shareId, shareSource, pwd);
+                    parentNode.href = shareUrl;
                 }
 
                 checkManage.checkLinkAsync(shareSource, shareId, 0, (response) => {
@@ -1400,14 +1405,20 @@
         obj.buildShareUrl = function (shareId, shareSource, pwd) {
             shareId = shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId
                 let code = pwd || passMap[shareId];
-            if (code == "undefined") {
-                var rrr = document.body.innerText.match(/([\w-]+)(\s*([\(（])?(?:(提取|访问|密)[码碼])\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-z\d]{4,8})/ig);
-
-                for (var s in rrr) {
-                    let r = /([\w-]+).*([a-z\d]{4,8})/ig.exec(rrr[s].replace(/\s/g,""));
-                    passMap[r[1]] = r[2];
+            if (code == "undefined"||code == "Code" || typeof(code) =="undefined") {
+                if(shareId.includes(manifest["debugId"])) {
+                    logger.error(shareId+" search");
                 }
-                code = passMap[shareId];
+
+                var reg = new RegExp( shareId+"(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
+                var mm =reg.exec(document.body.innerText)
+                if(mm) {
+                     passMap[shareId] = mm[1];
+                     code = mm[1];
+                     if(shareId.includes(manifest["debugId"])) {
+                     logger.error(code+" search");
+                }
+                }
             }
 
             let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
