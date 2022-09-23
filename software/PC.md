@@ -63,7 +63,7 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.0.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.8  | redis工具                             |
-| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat160_premium_cs_x64.exe)  [下载16](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe) | 15.0.28<br/>16.0.13 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.28<br/>16.1.2 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.70.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.4  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  21.9.1  | 编辑器 支持大文件                     |
@@ -152,7 +152,7 @@
 | [音乐助手](https://github.com/lyswhut/lx-music-desktop)  github [无损音源](https://www.6yit.com/8498.html) | 1.22.3  | 音乐助手             |
 | FolderPainter                                                |   1.2   | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2   | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) |  3E10   | 翻译                 |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) |  3E12   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.1.2  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |  2.0.3  | 屏幕共享             |
 | [MusicTools](https://www.yijingying.com/html/musictools/)    | 1.9.7.1 | 付费无损音乐下载工具 |
