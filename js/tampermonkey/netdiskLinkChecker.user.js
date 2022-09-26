@@ -6,7 +6,7 @@
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-09-23 1.3.2 优化密码识别
+// @note         22-09-26 1.3.3 优化密码识别，密码有效性检测
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -367,36 +367,19 @@
                         success: (response) => {
                             logger.debug("Quark token response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
-                            if( rsp.message.includes("需要提取码")) {
-                                callback && callback({
-                                state: 2
-                                });
-                                return
-                            }
-                            let token = rsp.data ? rsp.data.stoken?rsp.data.stoken : "A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D" :
-                                "A9hSYiVO4sHX6FIqD9imKJ9nukDfvMHhU48CpGbSYIs%3D";
-                            http.ajax({
-                                type: "get",
-                                url: "https://drive.quark.cn/1/clouddrive/share/sharepage/detail?pwd_id=" + shareId + "&force=0&stoken=" + encodeURIComponent(token),
-                                success: (response) => {
-                                    logger.debug("Quark detail response", response);
-                                    let rsp2 = typeof response == "string" ? JSON.parse(response) : response;
-                                    let state = 1;
-                                    if (rsp2.code != 0) {
-                                        state = -1;
-                                    }
-
-                                    callback && callback({
-                                        state: state
-                                    });
-                                },
-                                error: function () {
-                                    callback && callback({
-                                        state: 0
-                                    });
-                                }
-
-                            })
+							let state = 0;
+							if( rsp.message.includes("需要提取码")){
+								state = 2;
+							}else if (rsp.message.includes("ok")) {
+								state = 1;
+							}else {
+								state = -1;
+							}
+	
+							 callback && callback({
+								state: state
+							});
+                           
                         },
                         error: function () {
                             callback && callback({
@@ -477,14 +460,15 @@
                     logger.info("nainiu check id", shareId);
                     http.ajax({
                         type: "get",
-                        url: "https://cowtransfer.com/api/transfer/v2/transferdetail?url=" + shareId,
+                        url: "https://cowtransfer.com/core/api/transfer/share?uniqueUrl=" + shareId,
                         success: (response) => {
                             logger.debug("nainiu check response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             let state = 1;
-                            if (rsp.errorCode != 0) {
+							
+                            if (rsp.code != "0000") {
                                 state = -1;
-                            } else if (rsp.HasPwd) {
+                            } else if (rsp.data.needPassword&&rsp.data.needPassword) {
                                 state = 2;
                             }
 
