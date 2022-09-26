@@ -1404,10 +1404,15 @@
                 }
                 }
             }
+	
 
             let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
             logger.info("buildCode", code, appendCode);
-            code = code ? (appendCode + code) : "";
+			if(code=="undefined"){
+				code =""
+			}else  {
+				code = code ? (appendCode + code) : "";
+			}
             let shareUrl = constant[shareSource]["prefix"] + shareId + code;
             // 修复https://pan.baidu.com/share/init?surl=xxxxxxx
 
