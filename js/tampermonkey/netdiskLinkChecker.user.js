@@ -37,11 +37,9 @@
     'use strict';
 
     var manifest = {
-        "name": "ljjc",
         "debugId": "b06lnskqf",
-        "debugKey": "lanzou",
         "logger_level": 3,
-        "checkTimes": 8,
+        "checkTimes": 10,
         "checkInterval": 8,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
@@ -562,7 +560,7 @@
         };
     });
 
-   /** step 2 auto_fill **/
+    /** step 2 auto_fill **/
     container.define("auto_fill", [], function () {
 
         var obj = {
@@ -710,9 +708,8 @@
     });
 
     container.define("gm", [], function () {
-        var obj = {};
-
-        obj.ready = function (callback) {
+        return {
+			ready : function (callback) {
             if (typeof GM_getValue != "undefined") {
                 callback && callback();
             } else {
@@ -720,9 +717,8 @@
                     obj.ready(callback);
                 }, 100);
             }
-        };
-
-        return obj;
+        }
+		};
     });
 
     /** common **/
@@ -870,68 +866,10 @@
         };
     });
 
-    container.define("env", [], function () {
-        var obj = {
-            modes: {
-                ADDON: "addon",
-                SCRIPT: "script"
-            }
-        };
-
-        obj.getName = function () {
-            return manifest["name"];
-        };
-
-        obj.getMode = function () {
-            if (GM_info.mode) {
-                return GM_info.mode;
-            } else {
-                return obj.modes.SCRIPT;
-            }
-        };
-
-        obj.getAid = function () {
-            if (GM_info.scriptHandler) {
-                return GM_info.scriptHandler.toLowerCase();
-            } else {
-                return "unknown";
-            }
-        };
-
-        obj.getVersion = function () {
-            return GM_info.script.version;
-        };
-
-        obj.getEdition = function () {
-            return GM_info.version;
-        };
-
-        obj.getInfo = function () {
-            return {
-                mode: obj.getMode(),
-                aid: obj.getAid(),
-                version: obj.getVersion(),
-                edition: obj.getEdition()
-            };
-        };
-
-        obj.randString = function (length) {
-            var possible = "abcdefghijklmnopqrstuvwxyz0123456789";
-            var text = "";
-            for (var i = 0; i < length; i++) {
-                text += possible.charAt(Math.floor(Math.random() * possible.length));
-            }
-            return text;
-        };
-
-        return obj;
-    });
-
-    //网络请求库 GM_xmlhttpRequest
+    // 网络请求库 GM_xmlhttpRequest
     container.define("http", ["logger"], function (logger) {
-        var obj = {};
-
-        obj.ajax = function (option) {
+        return {
+			ajax: function (option) {
             var details = {
                 method: option.type,
                 url: option.url,
@@ -972,12 +910,11 @@
 
             logger.debug("xmlhttpRequest", details)
             GM_xmlhttpRequest(details);
-        };
-
-        return obj;
+        }
+		};
     });
     //日志库
-    container.define("logger", ["env"], function (env) {
+    container.define("logger", [], function () {
         var obj = {
             constant: {
                 DEBUG: 0,
@@ -998,7 +935,6 @@
                 return false;
             }
 
-            // console.group("[" + env.getName() + "]" + env.getMode());
             if (m5) {
                 console.log(message, m2, m3, m4, m5);
             } else if (m4) {
@@ -1016,46 +952,13 @@
         return obj;
     });
 
-    container.define("meta", ["env", "$"], function (env, $) {
-        var obj = {};
-
-        obj.existMeta = function (name) {
-            name = obj.processName(name);
-            if ($("meta[name='" + name + "']").length) {
-                return true;
-            } else {
-                return false;
-            }
-        };
-
-        obj.appendMeta = function (name, content) {
-            name = obj.processName(name);
-            content || (content = "on");
-            $('<meta name="' + name + '" content="on">').appendTo($("head"));
-        };
-
-        obj.processName = function (name) {
-            return env.getName() + "::" + name;
-        };
-
-        return obj;
-    });
-
-    container.define("appRunner", ["logger", "meta", "$"], function (logger, meta, $, require) {
+    container.define("appRunner", ["logger", "$"], function (logger, $, require) {
         var obj = {};
 
         obj.run = function (appList) {
-            var metaName = "status";
-            if (meta.existMeta(metaName)) {
-                logger.info("setup already");
-            } else {
-                // 添加meta
-                meta.appendMeta(metaName);
-                // 运行应用
-                $(function () {
-                    obj.runAppList(appList);
-                });
-            }
+            $(function () {
+                obj.runAppList(appList);
+            });
         };
 
         obj.runAppList = function (appList) {
@@ -1129,19 +1032,19 @@
 
     //检测网盘链接
     container.define("api", ["logger", "constant"], function (logger, constant) {
-        var obj = {};
-        obj.checkLinkLocal = function (shareSource, shareId, callback) {
-            logger.info("checkLinkLocal", shareSource, shareId);
-            var rule = constant[shareSource];
-            if (rule) {
-                rule["checkFun"](shareId, callback)
-            } else {
-                callback({
-                    state: 0
-                });
+        return {
+            checkLinkLocal: function (shareSource, shareId, callback) {
+                logger.info("checkLinkLocal", shareSource, shareId);
+                var rule = constant[shareSource];
+                if (rule) {
+                    rule["checkFun"](shareId, callback)
+                } else {
+                    callback({
+                        state: 0
+                    });
+                }
             }
         };
-        return obj;
     });
 
     container.define("checkManage", ["logger", "factory", "api"], function (logger, factory, api) {
@@ -1309,10 +1212,6 @@
                     for (var rule in constant) {
                         if (constant[rule]["reg"].exec(href) && $this.find(".one-pan-tip").length == 0) {
                             $this.attr("one-link-mark", "yes");
-                            if (href.includes(manifest["debugId"])) {
-                                logger.error("parse shareId " + href + "  " + rule);
-                            }
-
                             var node = obj.createOneSpanNode(href, rule);
                             if (href.includes(manifest["debugId"])) {
                                 logger.error("create node", node);
@@ -1368,117 +1267,114 @@
                 obj.index++;
                 setTimeout(obj.runMatch, 1000 * manifest["checkInterval"]);
             }
-            };
+        };
 
-            obj.replaceTextAsLink = function (shareMatch, shareSource, getShareId) {
-                findAndReplaceDOMText(document.body, {
-                    find: shareMatch,
-                    replace: function (portion, match) {
-                        let parentNode = portion.node.parentNode;
-                        if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
-                            return portion.text;
-                        } else {
-                            let shareId = getShareId(match);
-                            let node = obj.createOneSpanNode(shareId, shareSource);
-                            node.textContent = obj.buildShowText(shareId, shareSource);
-                            if (shareId.includes(manifest["debugId"])) {
-                                logger.error("replaceTextAsLink  " + shareId, node);
-                            }
-                            return node;
+        obj.replaceTextAsLink = function (shareMatch, shareSource, getShareId) {
+            findAndReplaceDOMText(document.body, {
+                find: shareMatch,
+                replace: function (portion, match) {
+                    let parentNode = portion.node.parentNode;
+                    if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
+                        return portion.text;
+                    } else {
+                        let shareId = getShareId(match);
+                        let node = obj.createOneSpanNode(shareId, shareSource);
+                        node.textContent = obj.buildShowText(shareId, shareSource);
+                        if (shareId.includes(manifest["debugId"])) {
+                            logger.error("replaceTextAsLink  " + shareId, node);
                         }
-                    },
-                    forceContext: function (el) {
-                        return true;
+                        return node;
                     }
-                });
-            };
-
-            obj.createOneSpanNode = function (shareId, shareSource) {
-                if (shareId.includes(manifest["debugId"])) {
-                    logger.error("createOneSpanNode ", shareId);
+                },
+                forceContext: function (el) {
+                    return true;
                 }
-
-                var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId);
-                shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId);
-                var code = m && m[2] || passMap[shareId];
-
-                var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
-                node.setAttribute("class", "one-pan-tip");
-                node.setAttribute("one-id", shareId);
-                node.setAttribute("one-pwd", code);
-                node.setAttribute("one-source", shareSource);
-                return node;
-            };
-
-            obj.buildShareUrl = function (shareId, shareSource, pwd) {
-                var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
-                    shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
-                    let code = m && m[2] || pwd || passMap[shareId];
-                if (code == "undefined" || code == "Code" || typeof(code) == "undefined") {
-                    if (shareId.includes(manifest["debugId"])) {
-                        logger.error(shareId + " search");
-                    }
-
-                    var reg = new RegExp(shareId + "(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
-                    var mm = reg.exec(document.body.innerText)
-                        if (mm) {
-                            passMap[shareId] = mm[1];
-                            code = mm[1];
-                            if (shareId.includes(manifest["debugId"])) {
-                                logger.error(code + " search");
-                            }
-                        }
-                }
-
-                let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
-                logger.info("buildCode", code, appendCode);
-                if (code == "undefined") {
-                    code = ""
-                } else {
-                    code = code ? (appendCode + code) : "";
-                }
-                let shareUrl = constant[shareSource]["prefix"] + shareId + code;
-                // 修复https://pan.baidu.com/share/init?surl=xxxxxxx
-
-                if (shareUrl.includes("/share/init?surl=")) {
-                    shareUrl = shareUrl.replace("/share/init?surl=", "/s/1")
-                }
-                return shareUrl;
-            };
-            obj.buildShowText = function (shareId, shareSource) {
-                return constant[shareSource]["prefix"] + shareId;
-            };
-
-            return obj;
             });
-    
-	// step 1 入口app 
-    container.define("app", ["appRunner"], function (appRunner) {
-        var obj = {};
+        };
 
-        obj.run = function () {
-            appRunner.run([{
-                        name: "app_check_url",
-                        matchs: ["*"]
-                    }, {
-                        name: "auto_fill",
-                        matchs: [
-                            /(pan|yun)\.baidu\.com/,
-                            /www\.aliyundrive\.com|alywp\.net/,
-                            /share\.weiyun\.com/,
-                            /(?:[A-Za-z0-9.]+)?lanzou[a-z]\.com/,
-                            /cloud\.189\.cn/,
-                            /caiyun\.139\.com/,
-                            /pan\.xunlei\.com/,
-                            /pan\.quark\.cn/,
-                            /www\.123pan\.com/,
-                            /115\.com/,
-                        ]
+        obj.createOneSpanNode = function (shareId, shareSource) {
+            if (shareId.includes(manifest["debugId"])) {
+                logger.error("createOneSpanNode ", shareId);
+            }
+
+            var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId);
+            shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId);
+            var code = m && m[2] || passMap[shareId];
+
+            var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
+            node.setAttribute("class", "one-pan-tip");
+            node.setAttribute("one-id", shareId);
+            node.setAttribute("one-pwd", code);
+            node.setAttribute("one-source", shareSource);
+            return node;
+        };
+
+        obj.buildShareUrl = function (shareId, shareSource, pwd) {
+            var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
+                shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
+                let code = m && m[2] || pwd || passMap[shareId];
+            if (code == "undefined" || code == "Code" || typeof(code) == "undefined") {
+                if (shareId.includes(manifest["debugId"])) {
+                    logger.error(shareId + " search");
+                }
+
+                var reg = new RegExp(shareId + "(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
+                var mm = reg.exec(document.body.innerText)
+                    if (mm) {
+                        passMap[shareId] = mm[1];
+                        code = mm[1];
+                        if (shareId.includes(manifest["debugId"])) {
+                            logger.error(code + " search");
+                        }
                     }
-                ]);
+            }
+
+            let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
+            logger.info("buildCode", code, appendCode);
+            if (code == "undefined") {
+                code = ""
+            } else {
+                code = code ? (appendCode + code) : "";
+            }
+            let shareUrl = constant[shareSource]["prefix"] + shareId + code;
+            // 修复https://pan.baidu.com/share/init?surl=xxxxxxx
+            if (shareUrl.includes("/share/init?surl=")) {
+                shareUrl = shareUrl.replace("/share/init?surl=", "/s/1")
+            }
+            return shareUrl;
+        };
+        obj.buildShowText = function (shareId, shareSource) {
+            return constant[shareSource]["prefix"] + shareId;
         };
 
         return obj;
+    });
+
+    // step 1 入口app
+    container.define("app", ["appRunner"], function (appRunner) {
+        return {
+            run: function () {
+                appRunner.run([{
+                            name: "app_check_url",
+                            matchs: ["*"]
+                        }, {
+                            name: "auto_fill",
+                            matchs: [
+                                /(pan|yun)\.baidu\.com/,
+                                /www\.aliyundrive\.com|alywp\.net/,
+                                /share\.weiyun\.com/,
+                                /(?:[A-Za-z0-9.]+)?lanzou[a-z]\.com/,
+                                /cloud\.189\.cn/,
+                                /caiyun\.139\.com/,
+                                /pan\.xunlei\.com/,
+                                /pan\.quark\.cn/,
+                                /www\.123pan\.com/,
+                                /115\.com/,
+                            ]
+                        }
+                    ]);
+            }
+        };
     });
 
     // lib
