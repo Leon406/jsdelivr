@@ -42,11 +42,11 @@
         "debugKey": "lanzou",
         "logger_level": 3,
         "checkTimes": 8,
-        "checkInterval": 5,
+        "checkInterval": 8,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
-	
+    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|123pan|189|quark|xunlei|cowtransfer|wss/gi;
 
     function getQuery(param) {
         return new URLSearchParams(location.search).get(param);
@@ -202,12 +202,11 @@
                         success: (response) => {
                             let state = 0;
                             logger.info(shareId, "weiyun", response);
-                            if (response.includes("已删除") 
-							|| response.includes("违反相关法规") 
-							|| response.includes("已过期") 
-							|| response.includes("已经删除")
-							|| response.includes("目录无效")
-							) {
+                            if (response.includes("已删除")
+                                 || response.includes("违反相关法规")
+                                 || response.includes("已过期")
+                                 || response.includes("已经删除")
+                                 || response.includes("目录无效")) {
                                 state = -1;
                             } else if (response.includes('"need_pwd":null') && response.includes('"pwd":""')) {
                                 state = 1;
@@ -337,10 +336,9 @@
                             logger.debug("Ty189 chec", shareId, response);
                             let state = 1;
                             if (response.includes("ShareInfoNotFound")
-                                || response.includes("FileNotFound")
-                                || response.includes("ShareExpiredError")
-                                || response.includes("ShareAuditNotPass")
-                               ) {
+                                 || response.includes("FileNotFound")
+                                 || response.includes("ShareExpiredError")
+                                 || response.includes("ShareAuditNotPass")) {
                                 state = -1;
                             } else if (response.includes("needAccessCode")) {
                                 state = 2;
@@ -374,19 +372,19 @@
                         success: (response) => {
                             logger.debug("Quark token response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
-							let state = 0;
-							if( rsp.message.includes("需要提取码")){
-								state = 2;
-							}else if (rsp.message.includes("ok")) {
-								state = 1;
-							}else {
-								state = -1;
-							}
-	
-							 callback && callback({
-								state: state
-							});
-                           
+                            let state = 0;
+                            if (rsp.message.includes("需要提取码")) {
+                                state = 2;
+                            } else if (rsp.message.includes("ok")) {
+                                state = 1;
+                            } else {
+                                state = -1;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+
                         },
                         error: function () {
                             callback && callback({
@@ -472,10 +470,10 @@
                             logger.debug("nainiu check response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             let state = 1;
-							
+
                             if (rsp.code != "0000") {
                                 state = -1;
-                            } else if (rsp.data.needPassword&&rsp.data.needPassword) {
+                            } else if (rsp.data.needPassword && rsp.data.needPassword) {
                                 state = 2;
                             }
 
@@ -564,6 +562,7 @@
         };
     });
 
+   /** step 2 auto_fill **/
     container.define("auto_fill", [], function () {
 
         var obj = {
@@ -669,7 +668,7 @@
             //自动填写密码
             autoFillPassword() {
                 let query = getQuery('pwd');
-                let hash = location.hash.slice(1).replace("/list/share","");
+                let hash = location.hash.slice(1).replace("/list/share", "");
                 let pwd = query || hash;
                 let panType = this.panDetect();
                 let val = this.opt[panType];
@@ -999,7 +998,7 @@
                 return false;
             }
 
-           // console.group("[" + env.getName() + "]" + env.getMode());
+            // console.group("[" + env.getName() + "]" + env.getMode());
             if (m5) {
                 console.log(message, m2, m3, m4, m5);
             } else if (m4) {
@@ -1062,8 +1061,8 @@
         obj.runAppList = function (appList) {
             var url = location.href;
             var rrr = document.body.innerText.match(/\/([\w-]{4,})(?:.*)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
-			for (var s in rrr) {
-				let r = /([\w-]+).*?([a-z\d]{4,8})/ig.exec(rrr[s]);
+            for (var s in rrr) {
+                let r = /([\w-]+).*?([a-z\d]{4,8})/ig.exec(rrr[s]);
                 passMap[r[1]] = r[2];
             }
             for (var i in appList) {
@@ -1272,7 +1271,7 @@
         return obj;
     });
 
-    /** app **/
+    /** step 2 app_check_url **/
     container.define("app_check_url", ["constant", "checkManage", "findAndReplaceDOMText", "$", "logger"], function (constant, checkManage, findAndReplaceDOMText, $, logger) {
         var obj = {
             index: 0
@@ -1295,40 +1294,33 @@
             // 补超链接ATTR
             $("a:not([one-link-mark])").each(function () {
                 var $this = $(this);
-                $this.attr("one-link-mark", "yes");
-
-                var match,
-                oneId,
-                oneSource;
                 var href = $this.attr("href");
+
+                if (panRule.exec(href) == null) {
+                    return;
+                }
+
                 if (href) {
                     // 匹配域名
-					if(href.includes(manifest["debugId"])) {
-						logger.error("补超链接ATTR " +href);
-					}
-					
+                    if (href.includes(manifest["debugId"])) {
+                        logger.error("补超链接  --" + href + "--");
+                    }
+
                     for (var rule in constant) {
-					    var match = constant[rule]["reg"].exec(href);
-						if(rule.includes(manifest["debugKey"]) && href.includes(manifest["debugId"])) {
-							logger.error("rule match ",constant[rule]["reg"],href);
-							logger.error(match);
-						}
-                        if (match) {
-                            oneId = href;
-                            oneSource = rule;
-							if(oneId.includes(manifest["debugId"])) {
-								logger.error("parse shareId " +oneId +"  " +oneSource);
-							}
+                        if (constant[rule]["reg"].exec(href) && $this.find(".one-pan-tip").length == 0) {
+                            $this.attr("one-link-mark", "yes");
+                            if (href.includes(manifest["debugId"])) {
+                                logger.error("parse shareId " + href + "  " + rule);
+                            }
+
+                            var node = obj.createOneSpanNode(href, rule);
+                            if (href.includes(manifest["debugId"])) {
+                                logger.error("create node", node);
+                            }
+                            $this.wrapInner(node);
                             break;
                         }
                     }
-                }
-                if (match && $this.find(".one-pan-tip").length == 0) {
-                    var node = obj.createOneSpanNode(oneId, oneSource);
-					if(oneId.includes(manifest["debugId"])) {
-						logger.error("create node", node);
-					}
-                    $this.wrapInner(node);
                 }
             });
 
@@ -1342,9 +1334,9 @@
 
                 let parentNode = this.parentNode;
                 let shareUrl = obj.buildShareUrl(shareId, shareSource, pwd);
-				
-                if(shareId.includes(manifest["debugId"])) {
-                    logger.error("check link " +shareUrl);
+
+                if (shareId.includes(manifest["debugId"])) {
+                    logger.error("check link " + shareUrl);
                 }
                 if (parentNode.nodeName != "A") {
                     // 转超链接
@@ -1376,91 +1368,91 @@
                 obj.index++;
                 setTimeout(obj.runMatch, 1000 * manifest["checkInterval"]);
             }
-        };
+            };
 
-        obj.replaceTextAsLink = function (shareMatch, shareSource, getShareId) {
-            findAndReplaceDOMText(document.body, {
-                find: shareMatch,
-                replace: function (portion, match) {
-                    let parentNode = portion.node.parentNode;
-                    if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
-                        return portion.text;
-                    } else {
-                        let shareId = getShareId(match);
-                        let node = obj.createOneSpanNode(shareId, shareSource);
-                        node.textContent = obj.buildShowText(shareId, shareSource);
-						if(shareId.includes(manifest["debugId"])) {
-							logger.error("replaceTextAsLink  " +shareId ,node);
-						}
-                        return node;
+            obj.replaceTextAsLink = function (shareMatch, shareSource, getShareId) {
+                findAndReplaceDOMText(document.body, {
+                    find: shareMatch,
+                    replace: function (portion, match) {
+                        let parentNode = portion.node.parentNode;
+                        if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
+                            return portion.text;
+                        } else {
+                            let shareId = getShareId(match);
+                            let node = obj.createOneSpanNode(shareId, shareSource);
+                            node.textContent = obj.buildShowText(shareId, shareSource);
+                            if (shareId.includes(manifest["debugId"])) {
+                                logger.error("replaceTextAsLink  " + shareId, node);
+                            }
+                            return node;
+                        }
+                    },
+                    forceContext: function (el) {
+                        return true;
                     }
-                },
-                forceContext: function (el) {
-                    return true;
+                });
+            };
+
+            obj.createOneSpanNode = function (shareId, shareSource) {
+                if (shareId.includes(manifest["debugId"])) {
+                    logger.error("createOneSpanNode ", shareId);
                 }
+
+                var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId);
+                shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId);
+                var code = m && m[2] || passMap[shareId];
+
+                var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
+                node.setAttribute("class", "one-pan-tip");
+                node.setAttribute("one-id", shareId);
+                node.setAttribute("one-pwd", code);
+                node.setAttribute("one-source", shareSource);
+                return node;
+            };
+
+            obj.buildShareUrl = function (shareId, shareSource, pwd) {
+                var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
+                    shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
+                    let code = m && m[2] || pwd || passMap[shareId];
+                if (code == "undefined" || code == "Code" || typeof(code) == "undefined") {
+                    if (shareId.includes(manifest["debugId"])) {
+                        logger.error(shareId + " search");
+                    }
+
+                    var reg = new RegExp(shareId + "(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
+                    var mm = reg.exec(document.body.innerText)
+                        if (mm) {
+                            passMap[shareId] = mm[1];
+                            code = mm[1];
+                            if (shareId.includes(manifest["debugId"])) {
+                                logger.error(code + " search");
+                            }
+                        }
+                }
+
+                let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
+                logger.info("buildCode", code, appendCode);
+                if (code == "undefined") {
+                    code = ""
+                } else {
+                    code = code ? (appendCode + code) : "";
+                }
+                let shareUrl = constant[shareSource]["prefix"] + shareId + code;
+                // 修复https://pan.baidu.com/share/init?surl=xxxxxxx
+
+                if (shareUrl.includes("/share/init?surl=")) {
+                    shareUrl = shareUrl.replace("/share/init?surl=", "/s/1")
+                }
+                return shareUrl;
+            };
+            obj.buildShowText = function (shareId, shareSource) {
+                return constant[shareSource]["prefix"] + shareId;
+            };
+
+            return obj;
             });
-        };
-
-        obj.createOneSpanNode = function (shareId, shareSource) {
-			if(shareId.includes(manifest["debugId"])){
-				logger.error("createOneSpanNode " ,shareId );
-			}
-			
-			var m  =/https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
-			shareId =m&&m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
-			var code = m&&m[2]|| passMap[shareId]
-			
-            var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
-            node.setAttribute("class", "one-pan-tip");
-            node.setAttribute("one-id", shareId);
-            node.setAttribute("one-pwd", code);
-            node.setAttribute("one-source", shareSource);
-            return node;
-        };
-
-        obj.buildShareUrl = function (shareId, shareSource, pwd) {
-		    var m  =/https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
-            shareId =m&&m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
-            let code = m&&m[2]|| pwd || passMap[shareId];
-            if (code == "undefined"||code == "Code" || typeof(code) =="undefined") {
-                if(shareId.includes(manifest["debugId"])) {
-                    logger.error(shareId+" search");
-                }
-
-                var reg = new RegExp( shareId+"(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
-                var mm =reg.exec(document.body.innerText)
-                if(mm) {
-                     passMap[shareId] = mm[1];
-                     code = mm[1];
-                     if(shareId.includes(manifest["debugId"])) {
-                     logger.error(code+" search");
-                }
-                }
-            }
-	
-
-            let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
-            logger.info("buildCode", code, appendCode);
-			if(code=="undefined"){
-				code =""
-			}else  {
-				code = code ? (appendCode + code) : "";
-			}
-            let shareUrl = constant[shareSource]["prefix"] + shareId + code;
-            // 修复https://pan.baidu.com/share/init?surl=xxxxxxx
-
-            if(shareUrl.includes("/share/init?surl=")){
-                shareUrl = shareUrl.replace("/share/init?surl=","/s/1")
-            }
-            return shareUrl;
-        };
-        obj.buildShowText = function (shareId, shareSource) {
-            return constant[shareSource]["prefix"] + shareId;
-        };
-
-        return obj;
-    });
-
+    
+	// step 1 入口app 
     container.define("app", ["appRunner"], function (appRunner) {
         var obj = {};
 
