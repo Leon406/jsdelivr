@@ -17,7 +17,7 @@
 | ------------------------------------------------------------ | -------- | -------------------------- |
 | [Ookla Speedtest](https://pan.lanzoux.com/b0f19i6af)         | 4.7.20   | 手机网速测试工具           |
 | [泰尔网测](https://www.coolapk.com/apk/com.knowyou.perception) | 1.3.26   | 手机网速测试工具           |
-| [一指禅](https://estar.lanzoux.com/11o#)                     | 3.3.81   | 闪屏跳过                   |
+| [一指禅](https://estar.lanzoux.com/11o)                     | 3.3.81   | 闪屏跳过                   |
 | [QR](https://www.lanzoux.com/b06lnskqf?pwd=8qxr)  8qxr       | 2.7\.3-P | 扫码                       |
 | [讯飞语记](https://pan.lanzoux.com/b06llc0sj?pwd=e86t) e86t  | 6.0.1356 |                            |
 | [设备信息DevInfo](https://pan.lanzoux.com/b06mcp2le?pwd=e5gl)  e5gl | 2.8.9    |                            |
@@ -34,11 +34,11 @@
 | 软件名称                                                   | 版本      | 描述 |
 | ---------------------------------------------------------- | --------- | ---- |
 | [xmind](https://pan.lanzoux.com/b06lkjpah?pwd=i592)   i592 | 1.9.7     |      |
-| [MX Player](https://pan.lanzoux.com/b0f19eo3c#666666)      | 1.48.12   |      |
-| [海阔世界](https://haikuo.lanzoui.com/u/GoldRiver)         | 7.10      |      |
+| [MX Player](https://pan.lanzoux.com/b0f19eo3c)      | 1.48.12   |      |
+| [海阔世界](https://haikuo.lanzoux.com/u/GoldRiver)         | 7.10      |      |
 | [阅读](https://www.coolapk.com/apk/256030)                 | 3.22      | 小说 |
-| [异次元](https://www.lanzoui.com/b595600)                  | 2.4.0     | 漫画 |
-| [PureTure](https://pan.lanzoui.com/b0f2lkrab)              | 3.3.8.104 | 油管 |
+| [异次元](https://www.lanzoux.com/b595600)                  | 2.4.0     | 漫画 |
+| [PureTure](https://pan.lanzoux.com/b0f2lkrab)              | 3.3.8.104 | 油管 |
 
 
 
@@ -46,7 +46,7 @@
 
 | 软件名称                                                | 版本    | 描述   |
 | ------------------------------------------------------- | ------- | ------ |
-| [开发助手](https://pan.lanzoux.com/b06m5xvtc#g5pn) g5pn | 2.1.5   |        |
-| [谷歌套件]( https://pan.lanzoui.com/b0f195fyf)          | 32.0.20 |        |
-| [adguard](https://pan.lanzoui.com/b0f19420h)            | 3.6.51  | 去广告 |
+| [开发助手](https://pan.lanzoux.com/b06m5xvtc?pwd=g5pn) g5pn | 2.1.5   |        |
+| [谷歌套件]( https://pan.lanzoux.com/b0f195fyf)          | 32.0.20 |        |
+| [adguard](https://pan.lanzoux.com/b0f19420h)            | 3.6.51  | 去广告 |
 

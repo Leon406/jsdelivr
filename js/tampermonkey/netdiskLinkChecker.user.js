@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.3.3
+// @version      1.3.4
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-09-26 1.3.3 优化密码识别，密码有效性检测
+// @note         22-09-27 1.3.4修复超链接识别错误
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -38,13 +38,15 @@
 
     var manifest = {
         "name": "ljjc",
-        "debugId": "IZ7N32Jv2URf",
+        "debugId": "b06lnskqf",
+        "debugKey": "lanzou",
         "logger_level": 3,
         "checkTimes": 8,
         "checkInterval": 5,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
+	
 
     function getQuery(param) {
         return new URLSearchParams(location.search).get(param);
@@ -200,7 +202,12 @@
                         success: (response) => {
                             let state = 0;
                             logger.info(shareId, "weiyun", response);
-                            if (response.includes("已删除") || response.includes("违反相关法规") || response.includes("已过期") || response.includes("已经删除")) {
+                            if (response.includes("已删除") 
+							|| response.includes("违反相关法规") 
+							|| response.includes("已过期") 
+							|| response.includes("已经删除")
+							|| response.includes("目录无效")
+							) {
                                 state = -1;
                             } else if (response.includes('"need_pwd":null') && response.includes('"pwd":""')) {
                                 state = 1;
@@ -220,8 +227,8 @@
                 }
             },
             lanzou: {
-                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})\b/gi,
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{3,22})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{3,22})\b/gi,
                 aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
                 checkFun: (shareId, callback) => {
@@ -992,7 +999,7 @@
                 return false;
             }
 
-            console.group("[" + env.getName() + "]" + env.getMode());
+           // console.group("[" + env.getName() + "]" + env.getMode());
             if (m5) {
                 console.log(message, m2, m3, m4, m5);
             } else if (m4) {
@@ -1278,7 +1285,7 @@
 
         obj.runMatch = function () {
 
-            //创建span
+            // 创建span
             for (var rule in constant) {
                 obj.replaceTextAsLink(constant[rule]["replaceReg"], rule, function (match) {
                     return match[1];
@@ -1295,17 +1302,32 @@
                 oneSource;
                 var href = $this.attr("href");
                 if (href) {
-                    //匹配域名
+                    // 匹配域名
+					if(href.includes(manifest["debugId"])) {
+						logger.error("补超链接ATTR " +href);
+					}
+					
                     for (var rule in constant) {
-                        if ((match = constant[rule]["reg"].exec(href))) {
+					    var match = constant[rule]["reg"].exec(href);
+						if(rule.includes(manifest["debugKey"]) && href.includes(manifest["debugId"])) {
+							logger.error("rule match ",constant[rule]["reg"],href);
+							logger.error(match);
+						}
+                        if (match) {
                             oneId = href;
                             oneSource = rule;
+							if(oneId.includes(manifest["debugId"])) {
+								logger.error("parse shareId " +oneId +"  " +oneSource);
+							}
                             break;
                         }
                     }
                 }
                 if (match && $this.find(".one-pan-tip").length == 0) {
                     var node = obj.createOneSpanNode(oneId, oneSource);
+					if(oneId.includes(manifest["debugId"])) {
+						logger.error("create node", node);
+					}
                     $this.wrapInner(node);
                 }
             });
@@ -1321,8 +1343,8 @@
                 let parentNode = this.parentNode;
                 let shareUrl = obj.buildShareUrl(shareId, shareSource, pwd);
 				
-                  if(shareId.includes(manifest["debugId"])) {
-                        logger.error(shareUrl+" shareUrl");
+                if(shareId.includes(manifest["debugId"])) {
+                    logger.error("check link " +shareUrl);
                 }
                 if (parentNode.nodeName != "A") {
                     // 转超链接
@@ -1367,6 +1389,9 @@
                         let shareId = getShareId(match);
                         let node = obj.createOneSpanNode(shareId, shareSource);
                         node.textContent = obj.buildShowText(shareId, shareSource);
+						if(shareId.includes(manifest["debugId"])) {
+							logger.error("replaceTextAsLink  " +shareId ,node);
+						}
                         return node;
                     }
                 },
@@ -1377,18 +1402,26 @@
         };
 
         obj.createOneSpanNode = function (shareId, shareSource) {
-            shareId = shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId
-                var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
+			if(shareId.includes(manifest["debugId"])){
+				logger.error("createOneSpanNode " ,shareId );
+			}
+			
+			var m  =/https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
+			shareId =m&&m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
+			var code = m&&m[2]|| passMap[shareId]
+			
+            var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
             node.setAttribute("class", "one-pan-tip");
             node.setAttribute("one-id", shareId);
-            node.setAttribute("one-pwd", passMap[shareId]);
+            node.setAttribute("one-pwd", code);
             node.setAttribute("one-source", shareSource);
             return node;
         };
 
         obj.buildShareUrl = function (shareId, shareSource, pwd) {
-            shareId = shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId
-                let code = pwd || passMap[shareId];
+		    var m  =/https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
+            shareId =m&&m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
+            let code = m&&m[2]|| pwd || passMap[shareId];
             if (code == "undefined"||code == "Code" || typeof(code) =="undefined") {
                 if(shareId.includes(manifest["debugId"])) {
                     logger.error(shareId+" search");
@@ -1458,8 +1491,8 @@
 
     // lib
     container.define("$", [], () => window.$);
-    //dom替换
+    // dom替换
     container.define("findAndReplaceDOMText", [], () => typeof findAndReplaceDOMText != "undefined" ? findAndReplaceDOMText : window.findAndReplaceDOMText);
-    //入口
+    // 入口
     container.use(["gm", "core", "app"], (gm, core, app) => gm.ready(() => core.ready(app.run)));
 })();
