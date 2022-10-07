@@ -1,4 +1,4 @@
-2022年10月2日13:31:23
+2022年10月7日13:09:01
 
 ## 下载
 
@@ -8,7 +8,7 @@
 | [PanDownload](https://pandownload.net/) |  v0.1.1  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.5.2  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.2 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.3 | 下载工具           |
 | [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.14 |                    |
 |                                                           |         |                    |
 
@@ -26,7 +26,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy) |     6.2.0     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     4.0.0rc2     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     4.0.0     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -36,7 +36,7 @@
 | 软件                                                         |   版本   | 说明       |
 | ------------------------------------------------------------ | :------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.9.1 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.9.2 | 渗透       |
 
 ## 科学
 
@@ -66,7 +66,7 @@
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.28<br/>16.1.2 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.70.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.4  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  21.9.1  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.0.0  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.0.8  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.1.38 | 接口测试                              |
@@ -86,7 +86,7 @@
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.10       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.53          | 注册表查找工具  |
-| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.60.1         | ftp工具         |
+| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.61.1         | ftp工具         |
 | [Listary](https://www.listary.com/)                          |       5.00.2843        | 启动器          |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) |         22.09.3168         | 脑图            |
 | [冰点文库下载器]()           |         3.2.16         | 文档下载        |
