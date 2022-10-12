@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -14,6 +15,8 @@ E:\GITHUB\JSDELIVR
 ├─apk
 │      adbwireless.apk
 │      
+├─cdn
+│  └─stackoverflow
 ├─extension
 │      gooreplacer.gson
 │      
@@ -3543,6 +3546,7 @@ E:\GITHUB\JSDELIVR
         pac.txt
         pac7890.txt
         quark.txt
+        subpool.txt
         subs03.txt
         tmp.txt
         
