@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.3.5
+// @version      1.3.6
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-09-27 1.3.5 修复超链接识别错误,优化性能
+// @note         22-10-19 1.3.6 优化大量链接请求阿里云网盘限流问题
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -37,7 +37,7 @@
     'use strict';
 
     var manifest = {
-        "debugId": "b06lnskqf",
+        "debugId": "Wa83Tv2yKEE",
         "logger_level": 3,
         "checkTimes": 10,
         "checkInterval": 8,
@@ -271,7 +271,9 @@
                         success: (response) => {
                             logger.debug("aliyun response ", response);
                             let state = 1;
-                            if (response['code'] || response['file_count'] && response['file_count'] == 0) {
+                            if(response['code'] &&response['code'] =="ParamFlowException" ) {
+                                state = 0;
+                            } else if (response['code'] || response['file_count'] && response['file_count'] == 0) {
                                 state = -1;
                             }
 
@@ -1102,8 +1104,8 @@
         obj.checkLink = function (shareSource, shareId, bearTime, callback) {
             let item = obj.getItem(shareSource, shareId);
             bearTime || (bearTime = 86400 * 1000);
-            //失效链接,不再进行请求,有效及带密码链接1天内更新
-            if (item && item.check_time && (item.check_state < 0 || (new Date()).getTime() - item.check_time < bearTime)) {
+            //失效链接,不再进行请求,有效及带密码链接(1 ,2 )1天内更新, 异常(0)链接重新请求
+            if (item && item.check_time && (item.check_state < 0 || ( item.check_state >= 1 && new Date()).getTime() - item.check_time < bearTime)) {
                 if (item.check_state < 0) {
                     logger.info("=====checkLink state from db=====  ", "无效链接,不再进行网络请求");
                 } else {
@@ -1261,6 +1263,26 @@
                 });
 
             });
+
+            // 异常信息重新请求
+            $(".one-pan-tip-other").each(function () {
+                let $this = $(this);
+                let shareSource = $this.attr("one-source");
+                let shareId = $this.attr("one-id");
+                let pwd = $this.attr("one-pwd");
+                checkManage.checkLinkAsync(shareSource, shareId, 0, (response) => {
+                    $this.removeClass("one-pan-tip-other")
+                    if (response.state == 2) {
+                        $this.addClass("one-pan-tip-lock");
+                    } else if (response.state == 1) {
+                        $this.addClass("one-pan-tip-success");
+                    } else if (response.state == -1) {
+                        $this.addClass("one-pan-tip-error");
+                    } else {
+                        $this.addClass("one-pan-tip-other");
+                    }
+                });
+            })
 
             let checkTimes = manifest["checkTimes"];
             if (checkTimes == 0 || obj.index < checkTimes) {
