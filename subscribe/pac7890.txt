@@ -1,6 +1,6 @@
 /**
- * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-08-16 07:23:31
+ * https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
+ * GFWList Last-Modified: 2022-09-26 07:23:31
  */
 
 var proxy = 'SOCKS5 127.0.0.1:7890';
@@ -646,6 +646,7 @@ var rules = [
             "blinkx.com",
             "blinw.com",
             "blip.tv",
+            "blockcast.it",
             "blockcn.com",
             "blockedbyhk.com",
             "blockless.com",
@@ -1128,6 +1129,7 @@ var rules = [
             "crossfire.co.kr",
             "crossthewall.net",
             "crossvpn.net",
+            "croxyproxy.com",
             "crrev.com",
             "crucial.com",
             "crunchyroll.com",
@@ -2733,6 +2735,7 @@ var rules = [
             "inoreader.com",
             "inote.tw",
             "insecam.org",
+            "inside.com.tw",
             "insidevoa.com",
             "instagram.com",
             "instanthq.com",
@@ -2858,6 +2861,7 @@ var rules = [
             "jgoodies.com",
             "jiangweiping.com",
             "jiaoyou8.com",
+            "jichangtj.com",
             "jiehua.cz",
             "jiepang.com",
             "jieshibaobao.com",
@@ -3084,7 +3088,7 @@ var rules = [
             "liberal.org.hk",
             "libertytimes.com.tw",
             "libraryinformationtechnology.com",
-            "lidecheng.com",
+            "libredd.it",
             "lifemiles.com",
             "lighten.org.tw",
             "lighti.me",
@@ -3727,6 +3731,7 @@ var rules = [
             "nzchinese.com",
             "nzchinese.net.nz",
             "oanda.com",
+            "oann.com",
             "oauth.net",
             "observechina.net",
             "obutu.com",
@@ -3922,12 +3927,11 @@ var rules = [
             "peoplenews.tw",
             "peopo.org",
             "percy.in",
+            "perfect-privacy.com",
             "perfectgirls.net",
-            "perfectvpn.net",
             "periscope.tv",
             "persecutionblog.com",
             "persiankitty.com",
-            "pfd.org.hk",
             "phapluan.org",
             "phayul.com",
             "philborges.com",
@@ -4699,6 +4703,7 @@ var rules = [
             "studentsforafreetibet.org",
             "stumbleupon.com",
             "stupidvideos.com",
+            "substack.com",
             "successfn.com",
             "sueddeutsche.de",
             "sugarsync.com",
@@ -5387,6 +5392,7 @@ var rules = [
             "venetianmacao.com",
             "ventureswell.com",
             "veoh.com",
+            "vercel.app",
             "verizon.net",
             "vermonttibet.org",
             "versavpn.com",
@@ -5422,6 +5428,7 @@ var rules = [
             "viu.com",
             "viu.tv",
             "vivahentai4u.net",
+            "vivaldi.com",
             "vivatube.com",
             "vivthomas.com",
             "vizvaz.com",
