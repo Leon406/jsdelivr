@@ -106,7 +106,7 @@
 | 软件                                                  |    版本    | 说明     |
 | ----------------------------------------------------- | :--------: | -------- |
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191060 | 文件恢复 |
-| [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.75    | 系统检测 |
+| [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.80.6200  | 系统检测 |
 |                                                       |            |          |
 |                                                       |            |          |
 
