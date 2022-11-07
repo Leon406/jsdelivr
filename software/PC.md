@@ -1,11 +1,11 @@
-2022年11月1日13:37:26
+2022年11月7日22:00:19
 
 ## 下载
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.5.1 | 下载工具  自动升级 |
-| [PanDownload](https://pandownload.net/) |  v0.1.3  | 百度网盘工具       |
+| [PanDownload](https://pandownload.net/) |  v0.1.4  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.5.3  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.3 | 下载工具           |
@@ -33,22 +33,22 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本   | 说明       |
-| ------------------------------------------------------------ | :------: | ---------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93   | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.9.5 | 渗透       |
+| 软件                                                         |  版本   | 说明       |
+| ------------------------------------------------------------ | :-----: | ---------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |  7.93   | ip端口扫描 |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.11 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [蚂蚁加速器](https://jsq2.laihuluwa.com/) | 1.3.6 | 科学上网      |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.2.4 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.3.0 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.37  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.38  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.1.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.6  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.7  |               |
 |  |  | |
 
 ## 开发
@@ -59,17 +59,17 @@
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.13  | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.4.6  | 文本编辑                              |
-| [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.3  | 文件比对同步工具                      |
+| [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.4  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0124 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.28<br/>16.1.3 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.72.2 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.4  | 接口测试                              |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.73 | 编辑器                                |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.5  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.0.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.2  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.4 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.7 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -155,7 +155,7 @@
 | [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) |  3E14   | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |  1.1.3  | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |  2.0.3  | 屏幕共享             |
-| [MusicTools](https://www.yijingying.com/html/musictools/)    | 1.9.7.1 | 付费无损音乐下载工具 |
+| [MusicTools](https://www.yijingying.com/html/musictools/) [222](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) | 1.9.7.6 | 付费无损音乐下载工具 |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github | 10.2.3  | 翻译                 |
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |  8.11   | 字体预览             |
 |                                                              |         |                      |
