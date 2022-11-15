@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.3.6
+// @version      1.3.7
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-10-19 1.3.6 优化大量链接请求阿里云网盘限流问题
+// @note         22-11-15 1.3.7 蓝奏云错误识别链接
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -37,8 +37,8 @@
     'use strict';
 
     var manifest = {
-        "debugId": "Wa83Tv2yKEE",
-        "logger_level": 3,
+        "debugId": "BGlVZ1M",
+        "logger_level": 2,
         "checkTimes": 10,
         "checkInterval": 8,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
@@ -224,8 +224,8 @@
                 }
             },
             lanzou: {
-                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{3,22})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{3,22})\b/gi,
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})\b/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})\b/gi,
                 aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
                 checkFun: (shareId, callback) => {
@@ -1214,6 +1214,7 @@
                     for (var rule in constant) {
                         if (constant[rule]["reg"].exec(href) && $this.find(".one-pan-tip").length == 0) {
                             $this.attr("one-link-mark", "yes");
+                             logger.error(constant[rule]["reg"],href,constant[rule]["reg"].exec(href))
                             var node = obj.createOneSpanNode(href, rule);
                             if (href.includes(manifest["debugId"])) {
                                 logger.error("create node", node);
