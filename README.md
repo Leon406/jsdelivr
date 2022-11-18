@@ -22,13 +22,13 @@ https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/apk/adbwireless.apk
 
 各个文件的路径前缀如下
 
-| github目录            | jsdelivr前缀                                                 |
-| --------------------- | ------------------------------------------------------------ |
-| apk                   | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/apk/         |
-| gradle                | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/gradle/      |
-| adp                   | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/adp/         |
-| subscribe             | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ |
-| [software](software/) |                                                              |
+| github目录             | jsdelivr前缀                                                 |
+| ---------------------- | ------------------------------------------------------------ |
+| [apk](apk)             | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/apk/         |
+| [gradle](gradle)       | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/gradle/      |
+| [adp](adb)             | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr/adp/         |
+| [subscribe](subscribe) | https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/subscribe/ |
+| [software](software/)  |                                                              |
 
 
 
