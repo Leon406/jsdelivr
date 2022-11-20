@@ -1,4 +1,4 @@
-2022年11月14日22:34:16
+2022年11月18日22:18:40
 
 ## 下载
 
@@ -55,7 +55,7 @@
 
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
-| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  22.1  | 终端工具                              |
+| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  22.2  | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.13  | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.4.7  | 文本编辑                              |
@@ -69,7 +69,7 @@
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.0.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.2  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.8 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.9 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -81,12 +81,12 @@
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.3.1         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)               | 4.6.0.1 | 远程控制 速度快 |
-| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1002        | 全文文本搜索    |
+| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1008        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.37.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.11       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.53          | 注册表查找工具  |
-| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.62         | ftp工具         |
+| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.62.1         | ftp工具         |
 | [Listary](https://www.listary.com/)                          |       5.00.2843        | 启动器          |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) |         22.10.0630         | 脑图            |
 | 冰点文库下载器           |         3.2.16         | 文档下载        |
@@ -94,8 +94,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1         | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge 增强版]() |      107.0.1418.26      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      107.0.5304.88      | 浏览器          |
+| [edge 增强版]() |      107.0.1418.52      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      107.0.5304.107      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.20 |  |
@@ -156,7 +156,7 @@
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3      | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4      | 屏幕共享             |
 | [MusicTools](https://www.yijingying.com/html/musictools/) [222](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) |     1.9.7.7     | 付费无损音乐下载工具 |
-| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |     10.2.3      | 翻译                 |
+| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |     10.2.4      | 翻译                 |
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |      8.11       | 字体预览             |
 |                                                              |                 |                      |
 
