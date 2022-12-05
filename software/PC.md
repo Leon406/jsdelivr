@@ -1,4 +1,4 @@
-2022年11月30日21:43:32
+2022年12月5日19:50:59
 
 ## 下载
 
@@ -8,7 +8,7 @@
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.5.3  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.3 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.6 | 下载工具           |
 | [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.14 |                    |
 |                                                           |         |                    |
 
@@ -36,7 +36,7 @@
 | 软件                                                         |   版本    | 说明       |
 | ------------------------------------------------------------ | :-------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93    | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.12 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.12.1 | 渗透       |
 
 ## 科学
 
@@ -47,7 +47,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.38  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.1.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.9  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.10  |               |
 |  |  | |
 
 ## 开发
@@ -62,13 +62,13 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0125 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
-| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.28<br/>16.1.3 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.28<br/>16.1.4 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.73.1 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.10  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.0.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.2  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.11 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.13 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -94,11 +94,11 @@
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
 | [edge 增强版]() |      107.0.1418.62      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      107.0.5304.107      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      108.0.5359.95      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.20 |  |
-|  |  |  |
+| [Everything](https://www.voidtools.com/zh-cn/) | 1.4.1.1022 |  |
 
 ## 系统
 
@@ -106,7 +106,7 @@
 | ----------------------------------------------------- | :--------: | -------- |
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191061 | 文件恢复 |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.80.6200  | 系统检测 |
-|                                                       |            |          |
+| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.84   |          |
 |                                                       |            |          |
 
 
