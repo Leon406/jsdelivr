@@ -25,6 +25,4 @@ https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
 https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml
-#分享订阅
-https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/quark.txt
-https://raw.githubusercontent.com/Leon406/jsdelivr/master/subscribe/tmp.txt
+
