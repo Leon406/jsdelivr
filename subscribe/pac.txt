@@ -1,7 +1,8 @@
 /**
  * https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
- * GFWList Last-Modified: 2022-09-26 07:23:31
+ * GFWList Last-Modified: 2022-12-18 07:23:31
  */
+
 
 var proxy = 'SOCKS5 127.0.0.1:1080';
 var rules = [
@@ -235,6 +236,7 @@ var rules = [
             "about.google",
             "aboutgfw.com",
             "abs.edu",
+            "acast.com",
             "accim.org",
             "accountkit.com",
             "aceros-de-hispania.com",
@@ -678,6 +680,7 @@ var rules = [
             "blueangellive.com",
             "bmfinn.com",
             "bnews.co",
+            "bnext.com.tw",
             "bnn.co",
             "bnrmetal.com",
             "boardreader.com",
@@ -741,6 +744,7 @@ var rules = [
             "btc98.com",
             "btcbank.bank",
             "btctrade.im",
+            "btdig.com",
             "btdigg.org",
             "btku.me",
             "btku.org",
@@ -748,7 +752,7 @@ var rules = [
             "btsynckeys.com",
             "budaedu.org",
             "buddhanet.com.tw",
-            "buddhistchannel.tv",
+								 
             "buffered.com",
             "bullguard.com",
             "bullog.org",
@@ -1721,6 +1725,7 @@ var rules = [
             "firetweet.io",
             "firstfivefollowers.com",
             "firstpost.com",
+            "firstrade.com",
             "fizzik.com",
             "flagsonline.it",
             "flecheinthepeche.fr",
@@ -2547,6 +2552,7 @@ var rules = [
             "hornygamer.com",
             "hornytrip.com",
             "horrorporn.com",
+            "hostloc.com",
             "hotair.com",
             "hotav.tv",
             "hotels.cn",
@@ -2918,6 +2924,7 @@ var rules = [
             "juoaa.com",
             "justdied.com",
             "justfreevpn.com",
+            "justhost.ru",
             "justicefortenzin.org",
             "justmysocks1.net",
             "justpaste.it",
@@ -3802,6 +3809,7 @@ var rules = [
             "openleaks.org",
             "opensea.io",
             "opensource.google",
+            "openstreetmap.org",
             "opentech.fund",
             "openvpn.net",
             "openvpn.org",
@@ -4272,6 +4280,7 @@ var rules = [
             "rixcloud.com",
             "rixcloud.us",
             "rlwlw.com",
+            "rmbl.ws",
             "rmjdw.com",
             "rmjdw132.info",
             "roadshow.hk",
@@ -4304,6 +4313,7 @@ var rules = [
             "ruanyifeng.com",
             "rukor.org",
             "rule34.xxx",
+            "rumble.com",
             "runbtx.com",
             "rushbee.com",
             "rusvpn.com",

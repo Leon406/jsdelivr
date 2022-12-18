@@ -3541,7 +3541,6 @@ E:\GITHUB\JSDELIVR
         gfwlist.txt
         pac.txt
         pac7890.txt
-        quark.txt
         sub.txt
         subpool
         
