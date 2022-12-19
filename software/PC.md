@@ -149,6 +149,7 @@
 | 软件                                                         |      版本       | 说明                 |
 | ------------------------------------------------------------ | :-------------: | -------------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |     1.22.3      | 音乐助手             |
+| [unlock music](https://git.unlock-music.dev/um/web)          |     1.10.3      | 音乐解锁             |
 | FolderPainter                                                |       1.2       | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2       | 最优dns解析          |
 | [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E14<br>22.9.23 | 翻译                 |
