@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.3.7
+// @version      1.3.8
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  自动识别并检查网盘的链接状态,同时生成超链接,自动输入密码并确认
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         22-11-15 1.3.7 蓝奏云错误识别链接
+// @note         22-12-22 1.3.8 修复部分网站识别百度分享链接错误
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -131,8 +131,8 @@
     container.define("constant", ["logger", "http"], function (logger, http) {
         return {
             baidu: {
-                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{4,25})\b/gi,
+                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{8,})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{8,})\b/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/s/" + shareId;
@@ -160,8 +160,8 @@
                 }
             },
             baidu2: {
-                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{4,25})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{4,25})\b/gi,
+                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{8,})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{8,})\b/gi,
                 prefix: "https://pan.baidu.com/share/init?surl=",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/share/init?surl=" + shareId;
@@ -189,8 +189,8 @@
                 }
             },
             weiyun: {
-                reg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{5,22})\b/gi,
+                reg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{7,})/gi,
+                replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{7,})\b/gi,
                 prefix: "https://share.weiyun.com/",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://share.weiyun.com/" + shareId;
@@ -224,8 +224,8 @@
                 }
             },
             lanzou: {
-                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})\b/gi,
-                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{5,22})\b/gi,
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})\b/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})\b/gi,
                 aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
                 checkFun: (shareId, callback) => {
@@ -253,8 +253,8 @@
                 }
             },
             aliyun: {
-                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{5,22})\b/gi,
+                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})/gi,
+                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})\b/gi,
                 prefix: "https://www.aliyundrive.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("aliyun id ", shareId);
@@ -290,8 +290,8 @@
                 }
             },
             pan123: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,14})/gi,
-                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{5,22})\b/gi,
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,})/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{8,})\b/gi,
                 prefix: "https://www.123pan.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("Pan123 check id " + shareId);
@@ -321,8 +321,8 @@
                 }
             },
             ty189: {
-                reg: /(?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)([\w\-]{8,14})/gi,
-                replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)([\w\-]{8,14})\b/gi,
+                reg: /(?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)([\w\-]{8,})/gi,
+                replaceReg: /(?:https?:\/\/)?cloud\.189\.cn\/(?:t\/|web\/share\?code=)([\w\-]{8,})\b/gi,
                 prefix: "https://cloud.189.cn/t/",
                 aTagRepalce: [/\/web\/share\?code=/, "/t/"],
                 checkFun: (shareId, callback) => {
@@ -357,8 +357,8 @@
                 }
             },
             quark: {
-                reg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,14})/gi,
-                replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,14})\b/gi,
+                reg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,})/gi,
+                replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,})\b/gi,
                 prefix: "https://pan.quark.cn/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("Quark check id " + shareId);
@@ -458,8 +458,8 @@
                 }
             },
             nainiu: {
-                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{25,})/gi,
-                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{5,22})\b/gi,
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{10,})/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{10,})\b/gi,
                 prefix: "https://cowtransfer.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("nainiu check id", shareId);
@@ -490,8 +490,8 @@
                 }
             },
             wenshushu: {
-                reg: /(?:https?:\/\/)?t.wss.ink\/f\/([\w\-]{5,22})/gi,
-                replaceReg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{5,22})\b/gi,
+                reg: /(?:https?:\/\/)?t.wss.ink\/f\/([\w\-]{8,})/gi,
+                replaceReg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{8,})\b/gi,
                 prefix: "https://t.wss.ink/f/",
                 checkFun: (shareId, callback) => {
                     logger.info("wenshushu id", shareId);
@@ -526,8 +526,8 @@
                 }
             },
             pan115: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,14})/gi,
-                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{5,22})\b/gi,
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,})/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,})\b/gi,
                 prefix: "https://115.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("Pan115 check id " + shareId);
