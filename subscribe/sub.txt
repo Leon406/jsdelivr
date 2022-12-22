@@ -15,7 +15,6 @@ https://raw.githubusercontent.com/Junely/clash/main/template3.yaml
 https://raw.githubusercontent.com/visiti/clash-node/main/clash-node.yaml
 https://raw.githubusercontent.com/shiran588/jiedian/main/6.11.yaml
 https://raw.githubusercontent.com/shiran588/jiedian/main/jd1.txt
-https://raw.githubusercontent.com/git-yusteven/openit/main/long
 https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
 https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt
 https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml
