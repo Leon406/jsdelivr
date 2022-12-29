@@ -1,4 +1,4 @@
-2022年12月18日13:47:16
+2022年12月29日22:25:39
 
 ## 下载
 
@@ -6,7 +6,7 @@
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.5.2 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
-| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [手动打包](https://github.com/Leon406/lanzou-gui) |  0.5.3  | 云盘分享           |
+| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.2  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.6 | 下载工具           |
 | [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.14 |                    |
@@ -36,16 +36,16 @@
 | 软件                                                         |   版本    | 说明       |
 | ------------------------------------------------------------ | :-------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93    | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.12.4 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.12.5 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.4.1 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.4.3 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.1.0 | v2ray工具     |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.2.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.11  |               |
 |  |  | |
@@ -57,18 +57,18 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  22.3  | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.13  | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.4.7  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.4.8  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.4  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0126 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
 | [Navicat Premium 15](http://www.navicat.com.cn/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.6 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.74.1 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.74.2 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.11  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.1.2  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.1.4  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.2  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.13 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.14 | 接口测试                              |
 |                                                              |         |                                       |
 
 
@@ -77,17 +77,17 @@
 
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
-| [FastStoneCapure](http://www.faststone.org/)                 |          9.7          | 截图编辑工具    |
+| [FastStoneCapure](http://www.faststone.org/)                 |          9.8          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.4.0         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)               | 4.6.0.2 | 远程控制 速度快 |
+| [ToDesk](https://www.todesk.com/download.html)               | 4.6.0.3 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1019        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.37.1         | gif 制作工具    |
-| [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.11       | 硬盘空间分析    |
+| [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.12       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.53          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.62.2         | ftp工具         |
 | [Listary](https://www.listary.com/)                          | 6.0.11.35 | 启动器          |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         22.10.0919         | 脑图            |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         22.11 (2677)         | 脑图            |
 | 冰点文库下载器           |         3.2.16         | 文档下载        |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
@@ -106,7 +106,7 @@
 | ----------------------------------------------------- | :--------: | -------- |
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191061 | 文件恢复 |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.80.6300  | 系统检测 |
-| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.84   |          |
+| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.86   |          |
 |                                                       |            |          |
 
 
@@ -146,19 +146,19 @@
 
 ## 其他
 
-| 软件                                                         |      版本       | 说明                 |
-| ------------------------------------------------------------ | :-------------: | -------------------- |
-| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |     1.22.3      | 音乐助手             |
-| [unlock music](https://git.unlock-music.dev/um/web)          |     1.10.3      | 音乐解锁             |
-| FolderPainter                                                |       1.2       | 文件夹图标修改       |
-| [DNS jumper](https://www.sordum.org/)                        |       2.2       | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E14<br>22.9.23 | 翻译                 |
-| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3      | RSS阅读              |
-| [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4      | 屏幕共享             |
-| [MusicTools](https://www.yijingying.com/html/musictools/) [222](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) |     1.9.8.0     | 付费无损音乐下载工具 |
-| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |     11.0.0      | 翻译                 |
-| [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |      8.12       | 字体预览             |
-| [softCnKiller](https://www.123pan.com/s/HQeA-Eb1Sh)          |      2.76       | 流氓软件检测         |
+| 软件                                                         |       版本       | 说明                 |
+| ------------------------------------------------------------ | :--------------: | -------------------- |
+| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |      1.22.3      | 音乐助手             |
+| [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁             |
+| FolderPainter                                                |       1.2        | 文件夹图标修改       |
+| [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析          |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E15<br>22.12.22 | 翻译                 |
+| [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3       | RSS阅读              |
+| [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4       | 屏幕共享             |
+| [MusicTools](https://www.yijingying.com/html/musictools/) [222](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) |     1.9.8.0      | 付费无损音乐下载工具 |
+| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |      11.0.0      | 翻译                 |
+| [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |       8.12       | 字体预览             |
+| [softCnKiller](https://www.123pan.com/s/HQeA-Eb1Sh)          |       2.76       | 流氓软件检测         |
 
 
 
