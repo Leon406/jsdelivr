@@ -158,7 +158,7 @@
 | [MusicTools](https://www.yijingying.com/html/musictools/) [222](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) |     1.9.8.0      | 付费无损音乐下载工具 |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |      11.0.0      | 翻译                 |
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |       8.12       | 字体预览             |
-| [softCnKiller](https://www.123pan.com/s/HQeA-Eb1Sh)          |       2.76       | 流氓软件检测         |
+| [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |       2.76       | 流氓软件检测         |
 
 
 
