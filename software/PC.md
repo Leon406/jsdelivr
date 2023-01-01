@@ -162,7 +162,14 @@
 
 
 
+## 环境配置
 
+| [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |             版本             | 说明        |
+| ------------------------------------------------------------ | :--------------------------: | ----------- |
+| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |       6.0.12<br/>7.0.1       |             |
+| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) | 8u351<br/>11.0.17<br/>17.0.5 |             |
+| [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9  3.11<br/>2022.10 (3.9)  | 建议3.9版本 |
+|                                                              |                              |             |
 
 
 
