@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.4.0
+// @version      1.4.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         23-01-01 1.4.0 优化链接误识别
+// @note         23-01-03 1.4.1 百度/share/ 链接最小位数修改为7
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -160,8 +160,8 @@
                 }
             },
             baidu2: {
-                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{8,})(?!\.)/gi,
-                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{8,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{7,})(?!\.)/gi,
+                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/share\/init\?surl=([\w\-]{7,})(?!\.)/gi,
                 prefix: "https://pan.baidu.com/share/init?surl=",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/share/init?surl=" + shareId;
