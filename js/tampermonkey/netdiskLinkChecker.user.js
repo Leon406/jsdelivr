@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.4.1
+// @version      1.5.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         23-01-03 1.4.1 百度/share/ 链接最小位数修改为7,加入百度手机网盘识别
+// @note         23-01-05 1.5.0 保存网盘密码到本地,打开无提取码链接可自动填写
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -271,7 +271,7 @@
                         success: (response) => {
                             logger.debug("aliyun response ", response);
                             let state = 1;
-                            if(response['code'] &&response['code'] =="ParamFlowException" ) {
+                            if (response['code'] && response['code'] == "ParamFlowException") {
                                 state = 0;
                             } else if (response['code'] || response['file_count'] && response['file_count'] == 0) {
                                 state = -1;
@@ -563,7 +563,7 @@
     });
 
     /** step 2 auto_fill **/
-    container.define("auto_fill", [], function () {
+    container.define("auto_fill", ["checkManage"], function (checkManage) {
 
         var obj = {
             run() {
@@ -620,7 +620,7 @@
                     button: ['.pass-input-wrap .td-button'],
                     name: '迅雷云盘'
                 },
-                '123pan': {
+                pan123: {
                     reg: /((?:https?:\/\/)?www\.123pan\.com\/s\/[\w-]{6,})/,
                     host: /www\.123pan\.com/,
                     input: ['.ca-fot input'],
@@ -628,7 +628,7 @@
                     name: '123云盘'
 
                 },
-                '115pan': {
+                pan115: {
                     reg: /((?:https?:\/\/)?115\.com\/s\/[\w-]{6,})/,
                     host: /115\.com/,
                     input: ['.form-decode input'],
@@ -672,6 +672,17 @@
                 let pwd = query || hash;
                 let panType = this.panDetect();
                 let val = this.opt[panType];
+                // 从本地数据库查找
+                if (!pwd) {
+                    let shareId = window.location.pathname.substring(window.location.pathname.lastIndexOf("/") + 1);
+                    console.warn(">>>>>>>", panType,val, shareId)
+                    let item = checkManage.getItem(panType, shareId);
+                    console.warn(">>>>item", item)
+                    if (item) {
+                        pwd = item.pwd;
+                    }
+                    console.warn(">>>>pwd", pwd)
+                }
                 pwd && this.doFillAction(val.input, val.button, pwd);
 
             },
@@ -711,16 +722,16 @@
 
     container.define("gm", [], function () {
         return {
-			ready : function (callback) {
-            if (typeof GM_getValue != "undefined") {
-                callback && callback();
-            } else {
-                setTimeout(function () {
-                    obj.ready(callback);
-                }, 100);
+            ready: function (callback) {
+                if (typeof GM_getValue != "undefined") {
+                    callback && callback();
+                } else {
+                    setTimeout(function () {
+                        obj.ready(callback);
+                    }, 100);
+                }
             }
-        }
-		};
+        };
     });
 
     /** common **/
@@ -871,49 +882,49 @@
     // 网络请求库 GM_xmlhttpRequest
     container.define("http", ["logger"], function (logger) {
         return {
-			ajax: function (option) {
-            var details = {
-                method: option.type,
-                url: option.url,
-                responseType: option.dataType,
-                onload: function (result) {
-                    option.success && option.success(result.response);
-                },
-                onerror: function (result) {
-                    option.error && option.error(result.error);
-                }
-            };
-
-            // 提交数据
-            if (option.data instanceof Object) {
-                if (option.data instanceof FormData) {
-                    details.data = option.data;
-                } else {
-                    var formData = new FormData();
-                    for (var i in option.data) {
-                        formData.append(i, option.data[i]);
+            ajax: function (option) {
+                var details = {
+                    method: option.type,
+                    url: option.url,
+                    responseType: option.dataType,
+                    onload: function (result) {
+                        option.success && option.success(result.response);
+                    },
+                    onerror: function (result) {
+                        option.error && option.error(result.error);
                     }
-                    details.data = formData;
+                };
+
+                // 提交数据
+                if (option.data instanceof Object) {
+                    if (option.data instanceof FormData) {
+                        details.data = option.data;
+                    } else {
+                        var formData = new FormData();
+                        for (var i in option.data) {
+                            formData.append(i, option.data[i]);
+                        }
+                        details.data = formData;
+                    }
+                } else {
+                    details.data = option.data;
+                    details.dataType = "json";
                 }
-            } else {
-                details.data = option.data;
-                details.dataType = "json";
-            }
 
-            // 自定义头
-            if (option.headers) {
-                details.headers = option.headers;
-            }
+                // 自定义头
+                if (option.headers) {
+                    details.headers = option.headers;
+                }
 
-            // 超时
-            if (option.timeout) {
-                details.timeout = option.timeout;
-            }
+                // 超时
+                if (option.timeout) {
+                    details.timeout = option.timeout;
+                }
 
-            logger.debug("xmlhttpRequest", details)
-            GM_xmlhttpRequest(details);
-        }
-		};
+                logger.debug("xmlhttpRequest", details)
+                GM_xmlhttpRequest(details);
+            }
+        };
     });
     //日志库
     container.define("logger", [], function () {
@@ -1078,12 +1089,13 @@
             }
         };
 
-        obj.checkLinkAsync = function (shareSource, shareId, bearTime, callback) {
+        obj.checkLinkAsync = function (shareSource, shareId, pwd, bearTime, callback) {
             obj.queues.push({
                 share_source: shareSource,
                 share_id: shareId,
                 bear_time: bearTime,
-                callback: callback
+                pwd,
+                callback
             });
             obj.activeQueue();
         };
@@ -1093,7 +1105,7 @@
                 callback();
                 items.forEach(function (item) {
                     try {
-                        obj.checkLink(item.share_source, item.share_id, item.bear_time, item.callback);
+                        obj.checkLink(item.share_source, item.share_id, item.pwd, item.bear_time, item.callback);
                     } catch (err) {
                         logger.error(err);
                     }
@@ -1101,11 +1113,11 @@
             });
         };
 
-        obj.checkLink = function (shareSource, shareId, bearTime, callback) {
+        obj.checkLink = function (shareSource, shareId, pwd, bearTime, callback) {
             let item = obj.getItem(shareSource, shareId);
             bearTime || (bearTime = 86400 * 1000);
             //失效链接,不再进行请求,有效及带密码链接(1 ,2 )1天内更新, 异常(0)链接重新请求
-            if (item && item.check_time && (item.check_state < 0 || ( item.check_state >= 1 && new Date()).getTime() - item.check_time < bearTime)) {
+            if (item && item.check_time && (item.check_state < 0 || (item.check_state >= 1 && new Date()).getTime() - item.check_time < bearTime)) {
                 if (item.check_state < 0) {
                     logger.info("=====checkLink state from db=====  ", "无效链接,不再进行网络请求");
                 } else {
@@ -1118,7 +1130,7 @@
                 logger.info("=====checkLink state from net=====")
                 api.checkLinkLocal(shareSource, shareId, function (item) {
                     if (item instanceof Object && item.state != 0) {
-                        obj.setItem(shareSource, shareId, item.state);
+                        obj.setItem(shareSource, shareId, item.state, pwd);
                     }
                     callback && callback(item);
                 });
@@ -1139,15 +1151,17 @@
             return conf && conf.hasOwnProperty(key) && conf[key];
         };
 
-        obj.setItem = function (shareSource, shareId, checkState) {
-            obj.getDao().set(obj.buildShareKey(shareSource, shareId), obj.buildItem(shareId, shareSource, checkState));
+        obj.setItem = function (shareSource, shareId, checkState, pwd) {
+            pwd = pwd == undefined || pwd === "undefined" ? "" : pwd
+                obj.getDao().set(obj.buildShareKey(shareSource, shareId), obj.buildItem(shareId, shareSource, checkState, pwd));
         };
 
-        obj.buildItem = function (shareId, shareSource, checkState) {
+        obj.buildItem = function (shareId, shareSource, checkState, pwd) {
             return {
                 share_id: shareId,
                 share_source: shareSource,
                 check_state: checkState,
+                pwd,
                 check_time: (new Date()).getTime()
             };
         };
@@ -1214,7 +1228,7 @@
                     for (var rule in constant) {
                         if (constant[rule]["reg"].exec(href) && $this.find(".one-pan-tip").length == 0) {
                             $this.attr("one-link-mark", "yes");
-                             logger.error(constant[rule]["reg"],href,constant[rule]["reg"].exec(href))
+                            logger.error(constant[rule]["reg"], href, constant[rule]["reg"].exec(href))
                             var node = obj.createOneSpanNode(href, rule);
                             if (href.includes(manifest["debugId"])) {
                                 logger.error("create node", node);
@@ -1251,7 +1265,7 @@
                     parentNode.href = shareUrl;
                 }
 
-                checkManage.checkLinkAsync(shareSource, shareId, 0, (response) => {
+                checkManage.checkLinkAsync(shareSource, shareId, pwd, 0, (response) => {
                     if (response.state == 2) {
                         $this.addClass("one-pan-tip-lock");
                     } else if (response.state == 1) {
@@ -1271,7 +1285,7 @@
                 let shareSource = $this.attr("one-source");
                 let shareId = $this.attr("one-id");
                 let pwd = $this.attr("one-pwd");
-                checkManage.checkLinkAsync(shareSource, shareId, 0, (response) => {
+                checkManage.checkLinkAsync(shareSource, shareId, pwd, 0, (response) => {
                     $this.removeClass("one-pan-tip-other")
                     if (response.state == 2) {
                         $this.addClass("one-pan-tip-lock");
