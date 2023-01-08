@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.5.0
+// @version      1.6.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
-// @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘
-// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         23-01-05 1.5.0 保存网盘密码到本地,打开无提取码链接可自动填写
+// @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
+// @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
+// @note         23-01-08 1.6.0 新增移动彩云,修复百度share链接无法获取本地密码
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -19,6 +19,7 @@
 // @connect      cowtransfer.com
 // @connect      wenshushu.cn
 // @connect      115.com
+// @connect      caiyun.139.com
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/1.12.4/jquery.min.js
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y//findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
 // @run-at       document-start
@@ -38,13 +39,13 @@
 
     var manifest = {
         "debugId": "BGlVZ1M",
-        "logger_level": 2,
+        "logger_level": 0,
         "checkTimes": 10,
         "checkInterval": 8,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
-    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|123pan|189|quark|xunlei|cowtransfer|wss/gi;
+    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|123pan|189|quark|caiyun|xunlei|cowtransfer|wss/gi;
 
     function getQuery(param) {
         return new URLSearchParams(location.search).get(param);
@@ -558,6 +559,42 @@
                         }
                     });
                 }
+            },
+            caiyun: {
+                reg: /(?:https?:\/\/)?caiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
+                replaceReg: /(?:https?:\/\/)?caiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
+                prefix: "https://caiyun.139.com/w/i/",
+                checkFun: (shareId, callback) => {
+					logger.debug("caiyun checkFun", shareId);
+                    http.ajax({
+                        type: "post",
+                        url: "https://caiyun.139.com/stapi/custom/outlink/brief",
+                        data: "linkId=" +shareId,
+						headers: {
+                            "Content-Type": "application/x-www-form-urlencoded"
+                        },
+                        success: (response) => {
+							let rsp = typeof response == "string" ? JSON.parse(response) : response;
+                            logger.debug("caiyun chec", shareId, rsp);
+							
+							let state = 0;
+							if (rsp.code == 0) {
+                                state = rsp.data.isPasswd ==="1" ? 2:1;
+                            }else {
+								state = -1;
+							}
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: () =>
+                        callback && callback({
+                            state: 0
+                        })
+
+                    });
+                }
             }
         };
     });
@@ -672,11 +709,18 @@
                 let pwd = query || hash;
                 let panType = this.panDetect();
                 let val = this.opt[panType];
+				console.warn(">>>>autoFillPassword", query,hash,panType);
                 // 从本地数据库查找
                 if (!pwd) {
                     let shareId = window.location.pathname.substring(window.location.pathname.lastIndexOf("/") + 1);
+					if(shareId==="init") shareId = getQuery('surl');
                     console.warn(">>>>>>>", panType,val, shareId)
                     let item = checkManage.getItem(panType, shareId);
+					// 百度有两种格式,默认没找到,查找baidu2
+					if(!item && panType === "baidu"){
+						item = checkManage.getItem("baidu2",shareId );
+						console.warn(">>>>baidu2", shareId)
+					}
                     console.warn(">>>>item", item)
                     if (item) {
                         pwd = item.pwd;
@@ -1250,6 +1294,7 @@
 
                 let parentNode = this.parentNode;
                 let shareUrl = obj.buildShareUrl(shareId, shareSource, pwd);
+				pwd = $this.attr("one-pwd");
 
                 if (shareId.includes(manifest["debugId"])) {
                     logger.error("check link " + shareUrl);
@@ -1350,6 +1395,7 @@
             var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
                 shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
                 let code = m && m[2] || pwd || passMap[shareId];
+			// 如果没有重新查找	
             if (code == "undefined" || code == "Code" || typeof(code) == "undefined") {
                 if (shareId.includes(manifest["debugId"])) {
                     logger.error(shareId + " search");
@@ -1357,13 +1403,17 @@
 
                 var reg = new RegExp(shareId + "(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
                 var mm = reg.exec(document.body.innerText)
-                    if (mm) {
-                        passMap[shareId] = mm[1];
-                        code = mm[1];
-                        if (shareId.includes(manifest["debugId"])) {
-                            logger.error(code + " search");
-                        }
+                if (mm) {
+                    passMap[shareId] = mm[1];
+                    code = mm[1];
+                    if (shareId.includes(manifest["debugId"])) {
+                        logger.error(code + " search");
                     }
+					document.querySelectorAll("span[one-id='" + shareId + "']")
+					.forEach(e => e.setAttribute("one-pwd", code));
+
+					logger.info("buildCode reset", code);
+                }
             }
 
             let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
