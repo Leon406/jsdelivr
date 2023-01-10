@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.0
+// @version      1.6.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-01-08 1.6.0 新增移动彩云,修复百度share链接无法获取本地密码
+// @note         23-01-10 1.6.1 优化百度网盘,蓝奏云识别
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -161,8 +161,8 @@
                 }
             },
             baidu2: {
-                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/(?:share|wap)\/init\?surl=([\w\-]{7,})(?!\.)/gi,
-                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/(?:share|wap)\/init\?surl=([\w\-]{7,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/(?:share|wap)\/init\?surl=([\w\-]{5,})(?!\.)/gi,
+                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/(?:share|wap)\/init\?surl=([\w\-]{5,})(?!\.)/gi,
                 prefix: "https://pan.baidu.com/share/init?surl=",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/share/init?surl=" + shareId;
@@ -225,8 +225,8 @@
                 }
             },
             lanzou: {
-                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})(?!\.)/gi,
-                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
                 checkFun: (shareId, callback) => {
