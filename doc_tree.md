@@ -3531,6 +3531,8 @@ E:\GITREPO\JSDELIVR
 ©¶  ©¶      unibodymachine.js
 ©¶  ©¶      
 ©¶  ©∏©§tampermonkey
+©¶          freeGo.user.js
+©¶          freeGo≤‚ ‘.md
 ©¶          netdiskLinkChecker.user.js
 ©¶          Õ¯≈Ã¡¥Ω”≤‚ ‘.md
 ©¶          
