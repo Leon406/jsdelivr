@@ -6,7 +6,7 @@
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.5.2 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
-| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.4  | 云盘分享           |
+| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.5  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.6 | 下载工具           |
 | [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.14 |                    |
@@ -36,13 +36,13 @@
 | 软件                                                         |   版本    | 说明       |
 | ------------------------------------------------------------ | :-------: | ---------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93    | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)          | 2022.12.5 | 渗透       |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2022.12.6 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.5.5 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.5.6 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39  6.6  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.2.0 | v2ray工具     |
@@ -87,13 +87,13 @@
 | [RegistryFinder64](https://registry-finder.com/)             |          2.53          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.62.2         | ftp工具         |
 | [Listary](https://www.listary.com/)                          | 6.0.11.35 | 启动器          |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         22.11 (2677)         | 脑图            |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         22.11 (3656)         | 脑图            |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge 增强版]() |      108.0.1462.76      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [chrome2](https://omahaproxy.appspot.com/) |      108.0.5359.125      | 浏览器          |
+| [edge 增强版]() |      109.0.1518.52      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [chrome2](https://omahaproxy.appspot.com/) |      109.0.5414.87      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
@@ -104,8 +104,8 @@
 | 软件                                                  |    版本    | 说明     |
 | ----------------------------------------------------- | :--------: | -------- |
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191115 | 文件恢复 |
-| [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.80.6300  | 系统检测 |
-| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.87   |          |
+| [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.85.6300  | 系统检测 |
+| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.88   |          |
 |                                                       |            |          |
 
 
@@ -147,7 +147,7 @@
 
 | 软件                                                         |       版本       | 说明                 |
 | ------------------------------------------------------------ | :--------------: | -------------------- |
-| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |      2.0.2       | 音乐助手             |
+| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |      2.0.3       | 音乐助手             |
 | [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁             |
 | FolderPainter                                                |       1.2        | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析          |
@@ -163,12 +163,12 @@
 
 ## 环境配置
 
-| [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |             版本             | 说明        |
-| ------------------------------------------------------------ | :--------------------------: | ----------- |
-| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |       6.0.13<br/>7.0.2       |             |
-| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) | 8u351<br/>11.0.17<br/>17.0.5 |             |
-| [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9  3.11<br/>2022.10 (3.9)  | 建议3.9版本 |
-|                                                              |                              |             |
+| [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |                版本                 | 说明        |
+| ------------------------------------------------------------ | :---------------------------------: | ----------- |
+| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.13<br/>7.0.2           |             |
+| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u351<br/>11.0.17<br/>17.0.5     |             |
+| [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.1<br/>2022.10 (3.9.13) | 建议3.9版本 |
+|                                                              |                                     |             |
 
 
 
