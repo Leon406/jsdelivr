@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      2023.01.14.3
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
+// @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
+// @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @grant        none
 // @license      GPL-3.0 License
 // ==/UserScript==
@@ -38,6 +40,11 @@ const REAL_GO = {
     "www.oschina.net": {
         prefix: "https://www.oschina.net/action/GoToLink?",
         query: "url",
+        action: urlDecode
+    },
+    "c.pc.qq.com": {
+        prefix: "https://c.pc.qq.com/middlem.html?",
+        query: "pfurl",
         action: urlDecode
     },
     "www.youtube.com": {
@@ -138,7 +145,6 @@ function findAllHref(rule = "http") {
                 });
                 rule.func && rule.func()
                 rule.intervalFunc && interval(rule.intervalFunc)
-
             }
 
         }, 3000)

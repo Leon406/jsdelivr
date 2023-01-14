@@ -11,6 +11,7 @@
 - [爱发电](https://afdian.net/p/1014bedc8b4d11edbb1252540025c377)
 - [开源中国](https://www.oschina.net/news/224971/unity-7-7-with-wayland-support)
 - YouTube
+- qq聊天跳转
 
 ### 移除点击事件
 
