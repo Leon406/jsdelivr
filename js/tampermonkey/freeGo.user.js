@@ -10,15 +10,15 @@
 // @license      GPL-3.0 License
 // ==/UserScript==
 
-const host = window.location.host
+const host = window.location.host;
 
-    const REAL_GO = {
+const REAL_GO = {
     "gitee.com": {
         prefix: "https://gitee.com/link?target=",
         query: "target",
         action: urlDecode
     },
-     "sspai.com": {
+    "sspai.com": {
         prefix: "https://sspai.com/link?",
         query: "target",
         action: urlDecode
@@ -34,11 +34,6 @@ const host = window.location.host
     "tieba.baidu.com": {
         fuc: () => get_elements("#container a").forEach(stopropagation)
     },
-}
-
-function findRule() {
-
-    for (key in REAL_GO) {}
 }
 
 function find_all_iframe(doc = document) {
@@ -67,8 +62,6 @@ function get_elements(selector, cond = el => el) {
 }
 
 const stopEvent = (e) => {
-    console.log("eeee", e)
-    // 阻止事件冒泡, 因为上层元素绑定的click事件会重定向
     if (e.stopPropagation) {
         e.stopPropagation();
     }
@@ -88,7 +81,6 @@ function urlDecode(aTag, query) {
     aTag.href = decodeURIComponent(new URL(aTag.href).searchParams.get(query))
 }
 
-// 查询所有a标签
 function findAllHref(rule = "http") {
     return get_elements("a", el => el.href.includes(rule))
 }
