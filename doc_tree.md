@@ -3530,8 +3530,8 @@ E:\GITHUB\JSDELIVR
 ©¶  ©¶      unibodymachine.js
 ©¶  ©¶      
 ©¶  ©∏©§tampermonkey
+©¶          freeGo.md
 ©¶          freeGo.user.js
-©¶          freeGo≤‚ ‘.md
 ©¶          netdiskLinkChecker.user.js
 ©¶          Õ¯≈Ã¡¥Ω”≤‚ ‘.md
 ©¶          
