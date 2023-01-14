@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         Free Go
+// @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  阅读全文,链接直接跳转
+// @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
 // @grant        none
+// @license      GPL-3.0 License
 // ==/UserScript==
 
 const host = window.location.host
