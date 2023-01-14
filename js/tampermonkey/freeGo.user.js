@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -11,6 +11,7 @@
 // ==/UserScript==
 
 const host = window.location.host;
+const rootHost = host.replaceAll(/.*\.(\w+\.\w+)$/g, "$1");
 
 const REAL_GO = {
     "gitee.com": {
@@ -18,9 +19,25 @@ const REAL_GO = {
         query: "target",
         action: urlDecode
     },
+    "xie.infoq.cn": {
+        prefix: "https://xie.infoq.cn/link?",
+        query: "target",
+        action: urlDecode,
+        intervalFunc: () => get_elements(".main a", filterThirdATag).forEach(stopropagation)
+    },
     "sspai.com": {
         prefix: "https://sspai.com/link?",
         query: "target",
+        action: urlDecode
+    },
+    "afdian.net": {
+        prefix: "https://afdian.net/link?",
+        query: "target",
+        action: urlDecode
+    },
+    "www.oschina.net": {
+        prefix: "https://www.oschina.net/action/GoToLink?",
+        query: "url",
         action: urlDecode
     },
     "www.youtube.com": {
@@ -29,11 +46,21 @@ const REAL_GO = {
         action: urlDecode
     },
     "mail.qq.com": {
-        fuc: () => get_elements("#contentDiv a").forEach(stopropagation)
+        intervalFunc: () => get_elements("#contentDiv a", filterThirdATag).forEach(stopropagation)
+    },
+    "bbs.nga.cn": {
+        func: () => get_elements("#m_posts a", filterThirdATag).forEach(removeOnClick)
+    },
+    "nga.178.com": {
+        func: () => get_elements("#m_posts a", filterThirdATag).forEach(removeOnClick)
     },
     "tieba.baidu.com": {
-        fuc: () => get_elements("#container a").forEach(stopropagation)
+        intervalFunc: () => get_elements("#container a").forEach(stopropagation)
     },
+}
+
+function filterThirdATag(aTag) {
+    return aTag.href.startsWith("http") && !aTag.href.includes(rootHost)
 }
 
 function find_all_iframe(doc = document) {
@@ -72,8 +99,17 @@ function stopropagation(aTag) {
         aTag.onclick = stopEvent
 }
 
-function interval(fuc, timeout = 500) {
-    setInterval(fuc, timeout)
+function removeOnClick(aTag) {
+    if (aTag.onclick)
+        aTag.onclick = null;
+    console.log("removeOnClick", aTag)
+    aTag.removeEventListener("click", function () {});
+
+}
+
+function interval(func, period = 500) {
+    console.log("interval", func)
+    setInterval(func, period)
 }
 
 function urlDecode(aTag, query) {
@@ -87,15 +123,22 @@ function findAllHref(rule = "http") {
 
 (function () {
     'use strict';
+    let rule = REAL_GO[host];
+    if (rule && rule.prefix && window.location.href.startsWith(rule.prefix)) {
+        window.location.href = decodeURIComponent(new URL(window.location.href).searchParams.get(rule.query));
+		console.log("redirect-------->")
+        return;
+    }
     window.onload = function () {
-        let rule = REAL_GO[host];
         setTimeout(() => {
-            console.log("rule", rule)
+            console.log("====rule", rule)
             if (rule) {
-                findAllHref(rule.prefix).forEach(el => {
+                rule.prefix && findAllHref(rule.prefix).forEach(el => {
                     rule.action && rule.action(el, rule.query)
-                    rule.fuc && interval(rule.fuc)
                 });
+                rule.func && rule.func()
+                rule.intervalFunc && interval(rule.intervalFunc)
+
             }
 
         }, 3000)
