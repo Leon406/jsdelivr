@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.01.14.3
+// @version      2023.01.15.1
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -53,6 +53,9 @@ const REAL_GO = {
         action: urlDecode
     },
     "mail.qq.com": {
+		prefix: "https://mail.qq.com/cgi-bin/readtemplate",
+        query: "gourl",
+        action: urlDecode,
         intervalFunc: () => get_elements("#contentDiv a", filterThirdATag).forEach(stopropagation)
     },
     "bbs.nga.cn": {
