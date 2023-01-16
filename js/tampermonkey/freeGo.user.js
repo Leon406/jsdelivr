@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.01.16.1
+// @version      2023.01.16.2
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -19,6 +19,14 @@ const REAL_GO = {
     "www.douban.com": {
         prefix: "https://www.douban.com/link2/",
         query: "url",
+        action: urlDecode
+    },
+    "feishu.cn": {
+        func: () => get_elements(".outer-u-container a", filterThirdATag).forEach(createNewTag)
+    },
+    "security.feishu.cn": {
+        prefix: "https://security.feishu.cn/link/safety?",
+        query: "target",
         action: urlDecode
     },
     "51.ruyo.net": {
@@ -95,10 +103,10 @@ const REAL_GO = {
     "blog.csdn.net": {
         func: () => get_elements(".blog-content-box a", filterThirdATag).forEach(createNewTag)
     },
-  /*  "blog.51cto.com": {
-        func: () => get_elements(".article-detail a", filterThirdATag).forEach(createNewTag)
+    /*  "blog.51cto.com": {
+    func: () => get_elements(".article-detail a", filterThirdATag).forEach(createNewTag)
     },
-	*/
+     */
 }
 
 function filterThirdATag(aTag) {
@@ -155,7 +163,7 @@ function createNewTag(aTag) {
             e.stopPropagation();
             e.preventDefault();
             e.stopImmediatePropagation();
-			console.log("stop__", aTag)
+            console.log("stop__", aTag)
             const tmpA = document.createElement("a");
             tmpA.href = aTag.href;
             tmpA.target = "_blank";
@@ -180,7 +188,7 @@ function findAllHref(rule = "http") {
 
 (function () {
     'use strict';
-    let rule = REAL_GO[host];
+    let rule = REAL_GO[host] || REAL_GO[rootHost];
     console.log("====rule 11", rule)
     if (rule && rule.prefix && window.location.href.startsWith(rule.prefix)) {
         window.location.href = decodeURIComponent(new URL(window.location.href).searchParams.get(rule.query));
