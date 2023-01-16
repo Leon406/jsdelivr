@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.01.15.1
+// @version      2023.01.16.1
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -16,6 +16,26 @@ const host = window.location.host;
 const rootHost = host.replaceAll(/.*\.(\w+\.\w+)$/g, "$1");
 
 const REAL_GO = {
+    "www.douban.com": {
+        prefix: "https://www.douban.com/link2/",
+        query: "url",
+        action: urlDecode
+    },
+    "51.ruyo.net": {
+        prefix: "https://51.ruyo.net/go/index.html?u=",
+        query: "u",
+        action: urlDecode
+    },
+    "zhuanlan.zhihu.com": {
+        prefix: "https://link.zhihu.com/?target",
+        query: "target",
+        action: urlDecode
+    },
+    "www.zhihu.com": {
+        prefix: "https://link.zhihu.com/?target",
+        query: "target",
+        action: urlDecode
+    },
     "gitee.com": {
         prefix: "https://gitee.com/link?target=",
         query: "target",
@@ -25,7 +45,7 @@ const REAL_GO = {
         prefix: "https://xie.infoq.cn/link?",
         query: "target",
         action: urlDecode,
-        intervalFunc: () => get_elements(".main a", filterThirdATag).forEach(stopropagation)
+        func: () => get_elements(".main a", filterThirdATag).forEach(createNewTag)
     },
     "sspai.com": {
         prefix: "https://sspai.com/link?",
@@ -47,13 +67,18 @@ const REAL_GO = {
         query: "pfurl",
         action: urlDecode
     },
+    "docs.google.com": {
+        prefix: "https://www.google.com/url?",
+        query: "q",
+        action: urlDecode
+    },
     "www.youtube.com": {
         prefix: "https://www.youtube.com/redirect?",
         query: "q",
         action: urlDecode
     },
     "mail.qq.com": {
-		prefix: "https://mail.qq.com/cgi-bin/readtemplate",
+        prefix: "https://mail.qq.com/cgi-bin/readtemplate",
         query: "gourl",
         action: urlDecode,
         intervalFunc: () => get_elements("#contentDiv a", filterThirdATag).forEach(stopropagation)
@@ -65,8 +90,15 @@ const REAL_GO = {
         func: () => get_elements("#m_posts a", filterThirdATag).forEach(removeOnClick)
     },
     "tieba.baidu.com": {
-        intervalFunc: () => get_elements("#container a").forEach(stopropagation)
+        intervalFunc: () => get_elements("#container a", filterThirdATag).forEach(stopropagation)
     },
+    "blog.csdn.net": {
+        func: () => get_elements(".blog-content-box a", filterThirdATag).forEach(createNewTag)
+    },
+  /*  "blog.51cto.com": {
+        func: () => get_elements(".article-detail a", filterThirdATag).forEach(createNewTag)
+    },
+	*/
 }
 
 function filterThirdATag(aTag) {
@@ -114,7 +146,22 @@ function removeOnClick(aTag) {
         aTag.onclick = null;
     console.log("removeOnClick", aTag)
     aTag.removeEventListener("click", function () {});
+}
 
+function createNewTag(aTag) {
+    console.log("rewriteOnClick", aTag)
+    if (!aTag.onclick && aTag.href) {
+        aTag.onclick = function antiRedirectOnClickFn(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            e.stopImmediatePropagation();
+			console.log("stop__", aTag)
+            const tmpA = document.createElement("a");
+            tmpA.href = aTag.href;
+            tmpA.target = "_blank";
+            tmpA.click();
+        };
+    }
 }
 
 function interval(func, period = 500) {
@@ -134,9 +181,10 @@ function findAllHref(rule = "http") {
 (function () {
     'use strict';
     let rule = REAL_GO[host];
+    console.log("====rule 11", rule)
     if (rule && rule.prefix && window.location.href.startsWith(rule.prefix)) {
         window.location.href = decodeURIComponent(new URL(window.location.href).searchParams.get(rule.query));
-		console.log("redirect-------->")
+        console.log("redirect-------->")
         return;
     }
     window.onload = function () {
