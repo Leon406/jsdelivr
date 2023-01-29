@@ -16,6 +16,7 @@
 - [如有分享](https://51.ruyo.net/15053.html)
 - [google文档](https://docs.google.com/spreadsheets/d/1TFcEXMcKrwoIAECIVyBU0GPoSmRqZ7A0VBvqeKYVSww/htmlview)
 - YouTube
+- [Telegram](https://t.me/iv?url=https://scorum.net/zh-cn/basketball/@zhang356/v-s&rhash=8f2e2fd224fd87)  [telegra.ph](https://telegra.ph/How-can-I-get-IV-for-my-domain-10-22)
 - qq聊天跳转
 
 ### 移除点击事件
@@ -26,6 +27,7 @@
 
 - [贴吧](https://tieba.baidu.com/p/7763083667) 
 - [qq邮箱](https://mail.qq.com/)
+- [微信开放社区](https://developers.weixin.qq.com/community/develop/doc/0004c270bec648cc4e3f26fe858400)
 
 ### 事件重写
 

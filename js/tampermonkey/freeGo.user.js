@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.01.16.2
+// @version      2023.01.29
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -16,7 +16,12 @@ const host = window.location.host;
 const rootHost = host.replaceAll(/.*\.(\w+\.\w+)$/g, "$1");
 
 const REAL_GO = {
-    "www.douban.com": {
+    "link.juejin.cn": {
+        prefix: "https://link.juejin.cn/?target=",
+        query: "target",
+        action: urlDecode
+    },
+     "www.douban.com": {
         prefix: "https://www.douban.com/link2/",
         query: "url",
         action: urlDecode
@@ -80,7 +85,17 @@ const REAL_GO = {
         query: "q",
         action: urlDecode
     },
-    "www.youtube.com": {
+    "t.me": {
+        prefix: "https://t.me/iv?url=",
+        query: "url",
+        action: urlDecode
+    },
+     "telegra.ph": {
+        prefix: "https://t.me/iv?url=",
+        query: "url",
+        action: urlDecode
+    },
+     "www.youtube.com": {
         prefix: "https://www.youtube.com/redirect?",
         query: "q",
         action: urlDecode
@@ -102,6 +117,12 @@ const REAL_GO = {
     },
     "blog.csdn.net": {
         func: () => get_elements(".blog-content-box a", filterThirdATag).forEach(createNewTag)
+    },
+    "developers.weixin.qq.com": {
+        prefix: "/community/middlepage/href?href=",
+        query: "href",
+        action: urlDecode,
+        func: () => get_elements("a", filterThirdATag).forEach(stopropagation)
     },
     /*  "blog.51cto.com": {
     func: () => get_elements(".article-detail a", filterThirdATag).forEach(createNewTag)
@@ -192,7 +213,7 @@ function findAllHref(rule = "http") {
     console.log("====rule 11", rule)
     if (rule && rule.prefix && window.location.href.startsWith(rule.prefix)) {
         window.location.href = decodeURIComponent(new URL(window.location.href).searchParams.get(rule.query));
-        console.log("redirect-------->")
+        console.log("redirect-------->",window.location.href)
         return;
     }
     window.onload = function () {
