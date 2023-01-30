@@ -17,7 +17,9 @@
 - [google文档](https://docs.google.com/spreadsheets/d/1TFcEXMcKrwoIAECIVyBU0GPoSmRqZ7A0VBvqeKYVSww/htmlview)
 - YouTube
 - [Telegram](https://t.me/iv?url=https://scorum.net/zh-cn/basketball/@zhang356/v-s&rhash=8f2e2fd224fd87)  [telegra.ph](https://telegra.ph/How-can-I-get-IV-for-my-domain-10-22)
+- [pixiv](https://www.pixiv.net/)
 - qq聊天跳转
+- [51blog](https://blog.51cto.com/u_15130867/6024786) 未删除中间链接
 
 ### 移除点击事件
 
@@ -34,4 +36,6 @@
 - [infoQ](https://xie.infoq.cn/article/8c57c88a86f3d696ba6bf79f7) 
 - [csdn](https://blog.csdn.net/xyisv/article/details/79095649?utm_medium=distribute.pc_relevant_bbs_down.none-task--2~all~sobaiduend~default-2.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task--2~all~sobaiduend~default-2.nonecase)
 - 飞书  (+链接替换)
+
+
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.01.29
+// @version      2023.01.30
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -21,7 +21,7 @@ const REAL_GO = {
         query: "target",
         action: urlDecode
     },
-     "www.douban.com": {
+    "www.douban.com": {
         prefix: "https://www.douban.com/link2/",
         query: "url",
         action: urlDecode
@@ -38,6 +38,11 @@ const REAL_GO = {
         prefix: "https://51.ruyo.net/go/index.html?u=",
         query: "u",
         action: urlDecode
+    },
+    "blog.51cto.com": {
+        prefix: "https://blog.51cto.com/transfer?",
+        action: urlDecode,
+        //func: () => get_elements(".article-content-wrap a", filterThirdATag).forEach(removeOnClick)
     },
     "zhuanlan.zhihu.com": {
         prefix: "https://link.zhihu.com/?target",
@@ -90,12 +95,17 @@ const REAL_GO = {
         query: "url",
         action: urlDecode
     },
-     "telegra.ph": {
+    "telegra.ph": {
         prefix: "https://t.me/iv?url=",
         query: "url",
         action: urlDecode
     },
-     "www.youtube.com": {
+    "www.pixiv.net": {
+        prefix: "https://www.pixiv.net/jump.php",
+        query: "url",
+        action: urlDecode
+    },
+    "www.youtube.com": {
         prefix: "https://www.youtube.com/redirect?",
         query: "q",
         action: urlDecode
@@ -113,6 +123,9 @@ const REAL_GO = {
         func: () => get_elements("#m_posts a", filterThirdATag).forEach(removeOnClick)
     },
     "tieba.baidu.com": {
+        prefix: "https://tieba.baidu.com/mo/q/checkurl?url=",
+        query: "url",
+        action: urlDecode,
         intervalFunc: () => get_elements("#container a", filterThirdATag).forEach(stopropagation)
     },
     "blog.csdn.net": {
@@ -123,11 +136,7 @@ const REAL_GO = {
         query: "href",
         action: urlDecode,
         func: () => get_elements("a", filterThirdATag).forEach(stopropagation)
-    },
-    /*  "blog.51cto.com": {
-    func: () => get_elements(".article-detail a", filterThirdATag).forEach(createNewTag)
-    },
-     */
+    }
 }
 
 function filterThirdATag(aTag) {
@@ -200,7 +209,28 @@ function interval(func, period = 500) {
 
 function urlDecode(aTag, query) {
     console.log("urlDecode", query, aTag)
-    aTag.href = decodeURIComponent(new URL(aTag.href).searchParams.get(query))
+    let url = new URL(aTag.href);
+    aTag.href = decodeURIComponent(query && url.searchParams.get(query) || url.search.replace("?", ""))
+        console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
+}
+
+function removeClick() {
+    document.body.addEventListener('click', function (event) {
+        var target = event.target || event.srcElement;
+        if (target.nodeName.toLocaleLowerCase() === 'a') {
+            if (event.preventDefault) {
+                event.preventDefault();
+            } else {
+                window.event.returnValue = true;
+            }
+            var url = target.getAttribute("href")
+                if (target.getAttribute("target") === '_blank') {
+                    window.open(url)
+                } else {
+                    window.location.href = url
+                }
+        }
+    });
 }
 
 function findAllHref(rule = "http") {
@@ -212,8 +242,9 @@ function findAllHref(rule = "http") {
     let rule = REAL_GO[host] || REAL_GO[rootHost];
     console.log("====rule 11", rule)
     if (rule && rule.prefix && window.location.href.startsWith(rule.prefix)) {
-        window.location.href = decodeURIComponent(new URL(window.location.href).searchParams.get(rule.query));
-        console.log("redirect-------->",window.location.href)
+        let url = new URL(window.location.href);
+        window.location.href = decodeURIComponent(rule.query && url.searchParams.get(rule.query) || url.search.replace("?", ""));
+        console.log("redirect-------->", window.location.href)
         return;
     }
     window.onload = function () {
