@@ -1,4 +1,4 @@
-2023年2月1日09:06:58
+2023年2月5日21:12:31
 
 ## 下载
 
@@ -6,7 +6,7 @@
 | --------------------------------------------------------- | :-----: | ------------------ |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.5.2 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
-| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.5  | 云盘分享           |
+| [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.6  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.6 | 下载工具           |
 | [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.14 |                    |
@@ -42,9 +42,9 @@
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.5.8 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.6.0 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39  6.7  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39  6.8  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.2.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.15  |               |
@@ -62,10 +62,10 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0126 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
-| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.6 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.7 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.74.3 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.15  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.0  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.5  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.19 | 接口测试                              |
@@ -77,7 +77,7 @@
 
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
-| [FastStoneCapure](http://www.faststone.org/)                 |          9.8          | 截图编辑工具    |
+| [FastStoneCapure](http://www.faststone.org/)                 |          9.9          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.4.2         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)               | 4.6.0.3 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1019        | 全文文本搜索    |
@@ -103,7 +103,7 @@
 
 | 软件                                                  |    版本    | 说明     |
 | ----------------------------------------------------- | :--------: | -------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191115 | 文件恢复 |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191126 | 文件恢复 |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.85.6300  | 系统检测 |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.88   |          |
 |                                                       |            |          |
@@ -151,7 +151,7 @@
 | [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁             |
 | FolderPainter                                                |       1.2        | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E15<br>22.12.22 | 翻译                 |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E16<br>22.12.22 | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3       | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4       | 屏幕共享             |
 | [MusicTools](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) 密码222 |     1.9.8.2      | 付费无损音乐下载工具 |
@@ -166,7 +166,7 @@
 | [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |                版本                 | 说明                                  |
 | ------------------------------------------------------------ | :---------------------------------: | ------------------------------------- |
 | [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.13<br/>7.0.2           |                                       |
-| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u361<br/>11.0.17<br/>17.0.6     | [whichjdk.com](https://whichjdk.com/) |
+| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u361<br/>11.0.18<br/>17.0.6     | [whichjdk.com](https://whichjdk.com/) |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.1<br/>2022.10 (3.9.13) | 建议3.9版本                           |
 |                                                              |                                     |                                       |
 
