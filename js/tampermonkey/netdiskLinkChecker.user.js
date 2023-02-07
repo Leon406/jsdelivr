@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.1
+// @version      1.6.2
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
@@ -565,24 +565,24 @@
                 replaceReg: /(?:https?:\/\/)?caiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
                 prefix: "https://caiyun.139.com/w/i/",
                 checkFun: (shareId, callback) => {
-					logger.debug("caiyun checkFun", shareId);
+                    logger.debug("caiyun checkFun", shareId);
                     http.ajax({
                         type: "post",
                         url: "https://caiyun.139.com/stapi/custom/outlink/brief",
-                        data: "linkId=" +shareId,
-						headers: {
+                        data: "linkId=" + shareId,
+                        headers: {
                             "Content-Type": "application/x-www-form-urlencoded"
                         },
                         success: (response) => {
-							let rsp = typeof response == "string" ? JSON.parse(response) : response;
+                            let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             logger.debug("caiyun chec", shareId, rsp);
-							
-							let state = 0;
-							if (rsp.code == 0) {
-                                state = rsp.data.isPasswd ==="1" ? 2:1;
-                            }else {
-								state = -1;
-							}
+
+                            let state = 0;
+                            if (rsp.code == 0) {
+                                state = rsp.data.isPasswd === "1" ? 2 : 1;
+                            } else {
+                                state = -1;
+                            }
 
                             callback && callback({
                                 state: state
@@ -709,18 +709,19 @@
                 let pwd = query || hash;
                 let panType = this.panDetect();
                 let val = this.opt[panType];
-				console.warn(">>>>autoFillPassword", query,hash,panType);
+                console.warn(">>>>autoFillPassword", query, hash, panType);
                 // 从本地数据库查找
                 if (!pwd) {
                     let shareId = window.location.pathname.substring(window.location.pathname.lastIndexOf("/") + 1);
-					if(shareId==="init") shareId = getQuery('surl');
-                    console.warn(">>>>>>>", panType,val, shareId)
+                    if (shareId === "init")
+                        shareId = getQuery('surl');
+                    console.warn(">>>>>>>", panType, val, shareId)
                     let item = checkManage.getItem(panType, shareId);
-					// 百度有两种格式,默认没找到,查找baidu2
-					if(!item && panType === "baidu"){
-						item = checkManage.getItem("baidu2",shareId );
-						console.warn(">>>>baidu2", shareId)
-					}
+                    // 百度有两种格式,默认没找到,查找baidu2
+                    if (!item && panType === "baidu") {
+                        item = checkManage.getItem("baidu2", shareId);
+                        console.warn(">>>>baidu2", shareId)
+                    }
                     console.warn(">>>>item", item)
                     if (item) {
                         pwd = item.pwd;
@@ -982,30 +983,30 @@
             }
         };
 
-        obj.debug = (message, m2, m3, m4, m5) => obj.log(obj.constant.DEBUG, message, m2, m3, m4, m5);
-        obj.info = (message, m2, m3, m4, m5) => obj.log(obj.constant.INFO, message, m2, m3, m4, m5);
-        obj.warn = (message, m2, m3, m4, m5) => obj.log(obj.constant.WARN, message, m2, m3, m4, m5);
-        obj.error = (message, m2, m3, m4, m5) => obj.log(obj.constant.ERROR, message, m2, m3, m4, m5);
-        obj.d = (message, m2, m3, m4, m5) => obj.log(obj.constant.NONE, message, m2, m3, m4, m5);
-        obj.log = (level, message, m2, m3, m4, m5) => {
-            if (level < manifest["logger_level"]) {
+        obj.debug = function () {
+            obj.log(obj.constant.DEBUG, ...arguments);
+;        }
+        obj.info = function () {
+            obj.log(obj.constant.INFO, ...arguments)
+        };
+        obj.warn = function () {
+            obj.log(obj.constant.WARN, ...arguments)
+        };
+        obj.error = function () {
+            obj.log(obj.constant.ERROR, ...arguments)
+        };
+        obj.d = function () {
+            obj.log(obj.constant.NONE, ...arguments)
+        };
+        obj.log = function () {
+            if (arguments[0] < manifest["logger_level"]) {
                 return false;
             }
 
-            if (m5) {
-                console.log(message, m2, m3, m4, m5);
-            } else if (m4) {
-                console.log(message, m2, m3, m4);
-            } else if (m3) {
-                console.log(message, m2, m3);
-            } else if (m2) {
-                console.log(message, m2);
-            } else {
-                console.log(message);
-            }
-
+            console.log(...Array.from(arguments).slice(1).filter(data => data))
+            console.groupEnd();
         };
-        console.groupEnd();
+
         return obj;
     });
 
@@ -1294,7 +1295,7 @@
 
                 let parentNode = this.parentNode;
                 let shareUrl = obj.buildShareUrl(shareId, shareSource, pwd);
-				pwd = $this.attr("one-pwd");
+                pwd = $this.attr("one-pwd");
 
                 if (shareId.includes(manifest["debugId"])) {
                     logger.error("check link " + shareUrl);
@@ -1395,7 +1396,7 @@
             var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
                 shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
                 let code = m && m[2] || pwd || passMap[shareId];
-			// 如果没有重新查找	
+            // 如果没有重新查找
             if (code == "undefined" || code == "Code" || typeof(code) == "undefined") {
                 if (shareId.includes(manifest["debugId"])) {
                     logger.error(shareId + " search");
@@ -1403,17 +1404,17 @@
 
                 var reg = new RegExp(shareId + "(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
                 var mm = reg.exec(document.body.innerText)
-                if (mm) {
-                    passMap[shareId] = mm[1];
-                    code = mm[1];
-                    if (shareId.includes(manifest["debugId"])) {
-                        logger.error(code + " search");
-                    }
-					document.querySelectorAll("span[one-id='" + shareId + "']")
-					.forEach(e => e.setAttribute("one-pwd", code));
+                    if (mm) {
+                        passMap[shareId] = mm[1];
+                        code = mm[1];
+                        if (shareId.includes(manifest["debugId"])) {
+                            logger.error(code + " search");
+                        }
+                        document.querySelectorAll("span[one-id='" + shareId + "']")
+                        .forEach(e => e.setAttribute("one-pwd", code));
 
-					logger.info("buildCode reset", code);
-                }
+                        logger.info("buildCode reset", code);
+                    }
             }
 
             let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
