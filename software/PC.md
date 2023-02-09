@@ -1,4 +1,4 @@
-2023年2月5日21:12:31
+2023年2月9日21:55:14
 
 ## 下载
 
@@ -42,10 +42,10 @@
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.6.0 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.6.2 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39  6.8  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.2.1 | v2ray工具     |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39  6.9  | v2ray ss工具  |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.3.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.15  |               |
 |  |  | |
@@ -58,17 +58,17 @@
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.14  | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.4.9  | 文本编辑                              |
-| [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.4  | 文件比对同步工具                      |
+| [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.5  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0126 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.7 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.74.3 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.75.0 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.15  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.1  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.5  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.19 | 接口测试                              |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.6  | github 桌面端                         |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.22 | 接口测试                              |
 | [He3](https://he3.app/) | 1.2.5(2023.1.16) | 开发工具 |
 
 
@@ -92,8 +92,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge 增强版]() |      109.0.1518.70      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [chrome2](https://omahaproxy.appspot.com/) |      109.0.5414.120      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      109.0.1518.78      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [chrome2](https://omahaproxy.appspot.com/) |      110.0.5481.78      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
