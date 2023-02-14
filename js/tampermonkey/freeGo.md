@@ -19,6 +19,7 @@
 - [Telegram](https://t.me/iv?url=https://scorum.net/zh-cn/basketball/@zhang356/v-s&rhash=8f2e2fd224fd87)  [telegra.ph](https://telegra.ph/How-can-I-get-IV-for-my-domain-10-22)
 - [pixiv](https://www.pixiv.net/)
 - qq聊天跳转
+- [微博](https://m.weibo.cn/status/4816906223880636)
 - [51blog](https://blog.51cto.com/u_15130867/6024786) 未删除中间链接
 
 ### 移除点击事件
