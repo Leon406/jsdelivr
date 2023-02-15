@@ -1,4 +1,4 @@
-2023年1月14日08:41:11
+2023年2月15日21:24:54
 
 ## 系统管理
 
@@ -25,7 +25,7 @@
 | [apkpure](https://www.lanzoub.com/b06ljuo9a?pwd=gjb2)  gjb2  | 3.18.61  |                            |
 | [隐秘参数](https://myqqjd.lanzoub.com/b06mhavbi?pwd=el5k)  el5k | 2.7.9    | 提供手机硬件检测和性能测试 |
 | [GPS status](https://myqqjd.lanzoub.com/b06ltxx5i?pwd=7dcw)  7dcw | 11.0.307 |                            |
-| [开发助手](https://pan.lanzoub.com/b06lmdxmd)                | 6.9.2    |                            |
+| [开发助手](https://pan.lanzoub.com/b06lmdxmd)                | 6.9.2 gp |                            |
 
 
 
@@ -35,8 +35,8 @@
 | ---------------------------------------------------------- | ----------- | --------- |
 | [xmind](https://pan.lanzoub.com/b06lkjpah?pwd=i592)   i592 | 22.11.163   |           |
 | [MX Player](https://pan.lanzoub.com/b0f19eo3c)             | 1.49.8      |           |
-| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)         | 7.29        |           |
-| [阅读](https://www.coolapk.com/apk/256030)                 | 3.22.121521 | 小说/漫画 |
+| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)         | 7.33        |           |
+| [阅读](https://www.coolapk.com/apk/256030)                 | 3.23.020921 | 小说/漫画 |
 | [异次元](https://www.lanzoub.com/b595600)                  | 2.4.0       | 漫画      |
 | [PureTure](https://pan.lanzoub.com/b0f2lkrab)              | 3.3.8.104   | 油管      |
 
@@ -47,6 +47,6 @@
 | 软件名称                                                    | 版本          | 描述   |
 | ----------------------------------------------------------- | ------------- | ------ |
 | [开发助手](https://pan.lanzoub.com/b06m5xvtc?pwd=g5pn) g5pn | 2.1.5         |        |
-| [谷歌套件]( https://pan.lanzoub.com/b0f195fyf)              | 34.0.12       |        |
-| [adguard](https://pan.lanzoub.com/b0f19420h)                | 3.6.51 4.0.81 | 去广告 |
+| [谷歌套件]( https://pan.lanzoub.com/b0f195fyf)              | 34.4.16       |        |
+| [adguard](https://pan.lanzoub.com/b0f19420h)                | 3.6.51 4.0.82 | 去广告 |
 
