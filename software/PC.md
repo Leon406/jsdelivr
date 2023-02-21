@@ -1,4 +1,4 @@
-2023年2月15日20:57:28
+2023年2月21日16:45:39
 
 ## 下载
 
@@ -9,7 +9,7 @@
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.6  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 | [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.6 | 下载工具           |
-| [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) | v2.12.14 |                    |
+| [阿里云盘 小白羊](https://wwe.lanzoui.com/b01nqc4gd) [github](https://github.com/liupan1890/aliyunpan) 停止维护 | v2.12.14 |                    |
 |                                                           |         |                    |
 
 
@@ -18,7 +18,7 @@
 
 | 软件                                                         |      版本      | 说明               |
 | ------------------------------------------------------------ | :------------: | -------------------- |
-| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.4.5     | Android反编译        |
+| [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.4.6     | Android反编译        |
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.7      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
@@ -33,19 +33,19 @@
 
 ## HackerTools
 
-| 软件                                                         |  版本  | 说明       |
-| ------------------------------------------------------------ | :----: | ---------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |  7.93  | ip端口扫描 |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.2 | 渗透       |
+| 软件                                                         |   版本   | 说明       |
+| ------------------------------------------------------------ | :------: | ---------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93   | ip端口扫描 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.2.1 | 渗透       |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.6.2 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.6.4 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.12  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.3.0 | v2ray工具     |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.13  | v2ray ss工具  |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.4.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.16  |               |
 |  |  | |
@@ -68,7 +68,7 @@
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.1.7  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.23 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.26 | 接口测试                              |
 | [He3](https://he3.app/) | 1.2.9 | 开发工具 |
 
 
@@ -92,8 +92,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      110.0.1587.46      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [chrome2](https://omahaproxy.appspot.com/) |      110.0.5481.100      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      110.0.1587.50      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [Chrome2](https://omahaproxy.appspot.com/) |      110.0.5481.104      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
@@ -151,7 +151,7 @@
 | [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁             |
 | FolderPainter                                                |       1.2        | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E16<br>23.02.06 | 翻译                 |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E17<br>23.02.06 | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3       | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4       | 屏幕共享             |
 | [MusicTools](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) 密码222 |     1.9.8.3      | 付费无损音乐下载工具 |
