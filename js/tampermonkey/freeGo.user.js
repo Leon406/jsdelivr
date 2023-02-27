@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.02.14
+// @version      2023.02.27
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -216,7 +216,7 @@ function urlDecode(aTag, query) {
     console.log("urlDecode", query, aTag)
     let url = new URL(aTag.href);
     aTag.href = decodeURIComponent(query && url.searchParams.get(query) || url.search.replace("?", ""))
-        console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
+    console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
 }
 
 function removeClick() {
@@ -248,7 +248,8 @@ function findAllHref(rule = "http") {
     console.log("====rule 11", rule)
     if (rule && rule.prefix && window.location.href.startsWith(rule.prefix)) {
         let url = new URL(window.location.href);
-        window.location.href = decodeURIComponent(rule.query && url.searchParams.get(rule.query) || url.search.replace("?", ""));
+		let targetUrl= decodeURIComponent(rule.query && url.searchParams.get(rule.query) || url.search.replace("?", ""))
+        window.location.href = targetUrl.includes("://")? targetUrl: ("https://"+targetUrl);
         console.log("redirect-------->", window.location.href)
         return;
     }
