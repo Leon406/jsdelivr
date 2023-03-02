@@ -1,8 +1,7 @@
 /**
  * https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
- * GFWList Last-Modified: 2022-01-14
+ * GFWList Last-Modified: 2022-03-01
  */
-
 
 var proxy = 'SOCKS5 127.0.0.1:7890';
 var rules = [
@@ -268,6 +267,7 @@ var rules = [
             "advertfan.com",
             "advertisercommunity.com",
             "ae.org",
+            "aei.org",
             "aenhancers.com",
             "aex.com",
             "af.mil",
@@ -2755,6 +2755,7 @@ var rules = [
             "instagram.com",
             "instanthq.com",
             "institut-tibetain.org",
+            "interactivebrokers.com",
             "internet.org",
             "internetdefenseleague.org",
             "internetfreedom.org",
@@ -3813,6 +3814,7 @@ var rules = [
             "ontrac.com",
             "oopsforum.com",
             "open.com.hk",
+            "openai.com",
             "openallweb.com",
             "opendemocracy.net",
             "opendn.xyz",
@@ -4654,6 +4656,7 @@ var rules = [
             "spreadshirt.es",
             "spring4u.info",
             "springboardplatform.com",
+            "springwood.me",
             "sprite.org",
             "sproutcore.com",
             "sproxy.info",
@@ -4942,6 +4945,7 @@ var rules = [
             "thlib.org",
             "thomasbernhard.org",
             "thongdreams.com",
+            "threadreaderapp.com",
             "threatchaos.com",
             "throughnightsfire.com",
             "thumbzilla.com",
@@ -5886,6 +5890,7 @@ var rules = [
             "yong.hu",
             "yorkbbs.ca",
             "you-get.org",
+            "you.com",
             "youdontcare.com",
             "youjizz.com",
             "youmaker.com",
