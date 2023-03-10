@@ -1,6 +1,5 @@
 #github分享
-https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/2022-10-2
-https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0113.txt
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
 https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml
 https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
 https://raw.githubusercontent.com/deepinor/v2ray_luck/master/sub.txt
