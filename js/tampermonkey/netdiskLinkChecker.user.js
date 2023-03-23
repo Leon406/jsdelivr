@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.2
+// @version      1.6.3
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-01-10 1.6.1 优化百度网盘,蓝奏云识别
+// @note         23-03-23 1.6.3 优化阿里云盘识别
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -254,8 +254,8 @@
                 }
             },
             aliyun: {
-                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})(?!\.)/gi,
-                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})(?![.\/])$/gi,
+                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})(?![.\/])/gi,
                 prefix: "https://www.aliyundrive.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("aliyun id ", shareId);
