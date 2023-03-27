@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.02.27
+// @version      2023.03.27
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -90,6 +90,12 @@ const REAL_GO = {
         query: "u",
         action: urlDecode
     },
+	"www.qcc.com": {
+        prefix: "https://www.qcc.com/web/transfer-link?",
+        query: "link",
+        action: urlDecode
+    },
+    
     "docs.google.com": {
         prefix: "https://www.google.com/url?",
         query: "q",
@@ -113,6 +119,11 @@ const REAL_GO = {
     "www.youtube.com": {
         prefix: "https://www.youtube.com/redirect?",
         query: "q",
+        action: urlDecode
+    },
+	"www.linkedin.com": {
+        prefix: "https://www.linkedin.com/redir/redirect?",
+        query: "url",
         action: urlDecode
     },
     "mail.qq.com": {

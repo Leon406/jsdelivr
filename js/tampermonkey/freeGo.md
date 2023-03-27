@@ -13,6 +13,7 @@
 - [知乎](https://www.zhihu.com/question/2525877)
 - [知乎专栏](https://zhuanlan.zhihu.com/p/20549978)
 - [豆瓣](https://www.douban.com/doulist/222008/)
+- [企查查](https://www.qcc.com/firm/3f603703d59a04cbe427e5825099a565.html)
 - [如有分享](https://51.ruyo.net/15053.html)
 - [google文档](https://docs.google.com/spreadsheets/d/1TFcEXMcKrwoIAECIVyBU0GPoSmRqZ7A0VBvqeKYVSww/htmlview)
 - YouTube
@@ -21,6 +22,7 @@
 - qq聊天跳转
 - [微博](https://m.weibo.cn/status/4816906223880636)
 - [51blog](https://blog.51cto.com/u_15130867/6024786) 未删除中间链接
+- [领英](https://www.linkedin.com/showcase/bosons-sytems/)
 
 ### 移除点击事件
 
