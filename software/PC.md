@@ -1,4 +1,4 @@
-2023年4月4日13:36:05
+2023年4月7日09:39:33
 
 ## 下载
 
@@ -36,7 +36,7 @@
 | 软件                                                         |   版本   | 说明                                          |
 | ------------------------------------------------------------ | :------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.3.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.3.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 
 ## 科学
 
@@ -57,7 +57,7 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  23.1  | 终端工具                              |
 | [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) |  4.14  | 正则工具                              |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.5.1  | 文本编辑                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.5.2  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.6  | 文件比对同步工具                      |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0126 | 源码阅读                              |
@@ -65,7 +65,7 @@
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.11 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.77 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.15  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.10  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.12  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.0  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.31 | 接口测试                              |
@@ -92,8 +92,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      111.0.1661.62      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [Chrome2](https://omahaproxy.appspot.com/) |      111.0.5563.147      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      112.0.1722.34      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [Chrome2](https://omahaproxy.appspot.com/) |      112.0.5615.50      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
@@ -105,7 +105,7 @@
 | ----------------------------------------------------- | :--------: | ---------- |
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191126 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.85.6300  | 系统检测   |
-| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.90   | 系统启动盘 |
+| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.91   | 系统启动盘 |
 |                                                       |            |            |
 
 
