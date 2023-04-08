@@ -8,7 +8,7 @@
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.6  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.10 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.11 | 下载工具           |
 |                                                              |         |                    |
 |                                                           |         |                    |
 
@@ -47,7 +47,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.20  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.4.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.19  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.20  |               |
 |  |  | |
 
 ## 开发
@@ -63,13 +63,13 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0126 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.11 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.77 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.77.1 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.15  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.2.12  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.0  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.31 | 接口测试                              |
-| [He3](https://he3.app/) | 1.2.9 | 开发工具 |
+| [He3](https://he3.app/) | 1.3.2 | 开发工具 |
 
 
 
@@ -79,7 +79,7 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.9          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.4.3         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)               | 4.6.2.1 | 远程控制 速度快 |
+| [ToDesk](https://www.todesk.com/download.html)               | 4.6.2.2 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1094        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.37.2         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.13       | 硬盘空间分析    |
@@ -147,16 +147,16 @@
 
 | 软件                                                         |       版本       | 说明                 |
 | ------------------------------------------------------------ | :--------------: | -------------------- |
-| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |      2.1.2       | 音乐助手             |
+| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |      2.2.0       | 音乐助手             |
 | [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁             |
 | FolderPainter                                                |       1.2        | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析          |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E18<br>23.02.06 | 翻译                 |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E19<br>23.04.02 | 翻译                 |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3       | RSS阅读              |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4       | 屏幕共享             |
 | [MusicTools](https://www.lanzoub.com/b00zshz0b?pwd=6r0e) 密码222 |     1.9.8.3      | 付费无损音乐下载工具 |
-| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |      11.0.0      | 翻译                 |
-| [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |       8.12       | 字体预览             |
+| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |      11.0.2      | 翻译                 |
+| [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |       8.18       | 字体预览             |
 | [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |       2.79       | 流氓软件检测         |
 
 
