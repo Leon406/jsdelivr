@@ -23,6 +23,7 @@
 - [微博](https://m.weibo.cn/status/4816906223880636)
 - [51blog](https://blog.51cto.com/u_15130867/6024786) 未删除中间链接
 - [领英](https://www.linkedin.com/showcase/bosons-sytems/)
+- [leetcode中国](https://leetcode.cn/link/?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F21923021)
 
 ### 移除点击事件
 

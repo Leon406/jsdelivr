@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.03.27
+// @version      2023.04.12
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -93,6 +93,12 @@ const REAL_GO = {
 	"www.qcc.com": {
         prefix: "https://www.qcc.com/web/transfer-link?",
         query: "link",
+        action: urlDecode
+    },
+    
+    "leetcode.cn": {
+        prefix: "https://leetcode.cn/link/?target=",
+        query: "target",
         action: urlDecode
     },
     
