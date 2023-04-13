@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.3
+// @version      1.6.4
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-03-23 1.6.3 优化阿里云盘识别
+// @note         23-04-13 1.6.4 123网盘支持带.html后缀的链接识别
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -291,8 +291,8 @@
                 }
             },
             pan123: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,})(?!\.)/gi,
-                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{8,})(?!\.)\b/gi,
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,})\b/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{8,})(\.html)?\b/gi,
                 prefix: "https://www.123pan.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("Pan123 check id " + shareId);
@@ -1021,9 +1021,9 @@
 
         obj.runAppList = function (appList) {
             var url = location.href;
-            var rrr = document.body.innerText.match(/\/([\w-]{4,})(?:.*)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
+            var rrr = document.body.innerText.match(/\/([\w-]{4,})(?:\.html)?(?:.*)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
             for (var s in rrr) {
-                let r = /([\w-]+).*?([a-z\d]{4,8})/ig.exec(rrr[s]);
+                let r = /([\w-]+)(?:\.html)?.*?([a-z\d]{4,8})/ig.exec(rrr[s]);
                 passMap[r[1]] = r[2];
             }
             for (var i in appList) {
