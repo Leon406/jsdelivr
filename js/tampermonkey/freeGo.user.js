@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.04.12
+// @version      2023.04.13
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -99,6 +99,14 @@ const REAL_GO = {
     "leetcode.cn": {
         prefix: "https://leetcode.cn/link/?target=",
         query: "target",
+        action: urlDecode
+    },
+    
+      "www.jianshu.com": {
+        prefix: "https://link.jianshu.com",
+        query: "t",
+		prefix2: "https://www.jianshu.com/go-wild",
+        query2: "url",
         action: urlDecode
     },
     
@@ -270,12 +278,23 @@ function findAllHref(rule = "http") {
         console.log("redirect-------->", window.location.href)
         return;
     }
+	
+	 if (rule && rule.prefix2 && window.location.href.startsWith(rule.prefix2)) {
+        let url = new URL(window.location.href);
+		let targetUrl= decodeURIComponent(rule.query2 && url.searchParams.get(rule.query2) || url.search.replace("?", ""))
+        window.location.href = targetUrl.includes("://")? targetUrl: ("https://"+targetUrl);
+        console.log("redirect2-------->", window.location.href)
+        return;
+    }
     window.onload = function () {
         setTimeout(() => {
             console.log("====rule", rule)
             if (rule) {
                 rule.prefix && findAllHref(rule.prefix).forEach(el => {
                     rule.action && rule.action(el, rule.query)
+                });
+				rule.prefix2 && findAllHref(rule.prefix2).forEach(el => {
+                    rule.action && rule.action(el, rule.query2)
                 });
                 rule.func && rule.func()
                 rule.intervalFunc && interval(rule.intervalFunc)
