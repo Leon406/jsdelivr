@@ -1,8 +1,10 @@
+# Free Go And Read
+
+
+
 # Free Go
 
 去除重定向或中间页面
-
-
 
 ### 链接替换
 
@@ -41,6 +43,19 @@
 - [infoQ](https://xie.infoq.cn/article/8c57c88a86f3d696ba6bf79f7) 
 - [csdn](https://blog.csdn.net/xyisv/article/details/79095649?utm_medium=distribute.pc_relevant_bbs_down.none-task--2~all~sobaiduend~default-2.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task--2~all~sobaiduend~default-2.nonecase)
 - 飞书  (+链接替换)
+
+
+
+
+
+# Free Read
+
+自动展开
+
+### a标签 包含 **查看更多** **查看全文** 展开剩余 (不限制域名)
+
+- [ngui](https://www.ngui.cc/el/3209744.html?action=onClick)
+- [搜狐手机版](https://m.sohu.com/limit/)
 
 
 

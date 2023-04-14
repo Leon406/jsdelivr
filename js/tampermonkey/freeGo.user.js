@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.04.13
+// @version      2023.04.14
 // @description  链接直接跳转,阅读全文(todo)
 // @author       Leon406
 // @match        *://**/*
@@ -102,7 +102,7 @@ const REAL_GO = {
         action: urlDecode
     },
     
-      "www.jianshu.com": {
+    "www.jianshu.com": {
         prefix: "https://link.jianshu.com",
         query: "t",
 		prefix2: "https://www.jianshu.com/go-wild",
@@ -198,6 +198,17 @@ function get_elements(selector, cond = el => el) {
     return elements;
 }
 
+function get_elements_simlpe(selector, cond = el => el) {
+    return Array.from(document.querySelectorAll(selector)).filter(cond);
+}
+
+function showMore() {
+    var mores = get_elements_simlpe("a", el =>  /(阅读|查看)(全文|全部|更多)$|^展开剩余/g.test(el.text));
+	console.log("showMore ", mores );
+    for (more of mores) {
+        more.click();
+    }
+}
 const stopEvent = (e) => {
     if (e.stopPropagation) {
         e.stopPropagation();
@@ -279,14 +290,20 @@ function findAllHref(rule = "http") {
         return;
     }
 	
-	 if (rule && rule.prefix2 && window.location.href.startsWith(rule.prefix2)) {
+	if (rule && rule.prefix2 && window.location.href.startsWith(rule.prefix2)) {
         let url = new URL(window.location.href);
 		let targetUrl= decodeURIComponent(rule.query2 && url.searchParams.get(rule.query2) || url.search.replace("?", ""))
         window.location.href = targetUrl.includes("://")? targetUrl: ("https://"+targetUrl);
         console.log("redirect2-------->", window.location.href)
         return;
     }
+	
+	// 有的页面不触发 onload
+	setTimeout(() => {
+	      showMore();
+	   }, 3000)
     window.onload = function () {
+		showMore();
         setTimeout(() => {
             console.log("====rule", rule)
             if (rule) {
@@ -299,7 +316,6 @@ function findAllHref(rule = "http") {
                 rule.func && rule.func()
                 rule.intervalFunc && interval(rule.intervalFunc)
             }
-
         }, 3000)
     }
 })();
