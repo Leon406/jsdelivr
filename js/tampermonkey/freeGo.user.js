@@ -9,6 +9,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @grant        none
+// @exclude 	 *://login.live.com/*
 // @license      GPL-3.0 License
 // ==/UserScript==
 
