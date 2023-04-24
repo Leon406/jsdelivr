@@ -1,4 +1,4 @@
-2023年4月13日09:35:23
+2023年4月24日09:07:41
 
 ## 下载
 
@@ -26,7 +26,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     v6.3.0     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) |     4.0.4     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) |     4.0.5     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -36,18 +36,18 @@
 | 软件                                                         |   版本   | 说明                                          |
 | ------------------------------------------------------------ | :------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.93   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.3.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.4.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.7.1 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.8.0 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.20  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.23  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.4.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.20  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.21  |               |
 |  |  | |
 
 ## 开发
@@ -64,11 +64,11 @@
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.11 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.77.3 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.0.15  | 接口测试                              |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.1.4  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.3.0  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.1  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.32 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.35 | 接口测试                              |
 | [He3](https://he3.app/) | 1.3.2 | 开发工具 |
 
 
@@ -78,10 +78,10 @@
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          9.9          | 截图编辑工具    |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.4.3         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)               | 4.6.2.2 | 远程控制 速度快 |
-| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1094        | 全文文本搜索    |
-| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.37.2         | gif 制作工具    |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)             |         1.4.4         | 图片查看        |
+| [ToDesk](https://www.todesk.com/download.html)               | 4.6.2.3 | 远程控制 速度快 |
+| [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
+| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.13       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.56          | 注册表查找工具  |
@@ -92,8 +92,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      112.0.1722.34      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)   [Chrome2](https://omahaproxy.appspot.com/) |      112.0.5615.50      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      112.0.1722.58      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      112.0.5615.138      | 浏览器          |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
@@ -103,8 +103,8 @@
 
 | 软件                                                  |    版本    | 说明       |
 | ----------------------------------------------------- | :--------: | ---------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191126 | 文件恢复   |
-| [AIDA](https://www.lanzoub.com/b06lweyad)             | 6.85.6300  | 系统检测   |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191140 | 文件恢复   |
+| [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.88    | 系统检测   |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.91   | 系统启动盘 |
 |                                                       |            |            |
 
@@ -114,7 +114,7 @@
 
 | 软件                                                         | 版本  | 说明                 |
 | ------------------------------------------------------------ | :---: | -------------------- |
-| [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  | 1.97  | 图片格式转换汉化工具 |
+| [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  | 1.98  | 图片格式转换汉化工具 |
 | [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e?pwd=ew3u) | 5.14  | 音视频格式转换       |
 | 小丸工具箱                                                   |  236  |                      |
 | [ShanaEncoder](https://shana.pe.kr/)                         | 5.3.1 |                      |
@@ -147,7 +147,7 @@
 
 | 软件                                                         |       版本       | 说明                 |
 | ------------------------------------------------------------ | :--------------: | -------------------- |
-| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源](https://www.6yit.com/8498.html) |      2.2.0       | 音乐助手             |
+| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno) [六音](https://www.sixyin.com/8498.html) |      2.2.0       | 音乐助手             |
 | [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁             |
 | FolderPainter                                                |       1.2        | 文件夹图标修改       |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析          |
@@ -166,7 +166,7 @@
 | [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |                版本                 | 说明                                  |
 | ------------------------------------------------------------ | :---------------------------------: | ------------------------------------- |
 | [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.16<br/>7.0.5           |                                       |
-| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u361<br/>11.0.18<br/>17.0.6     | [whichjdk.com](https://whichjdk.com/) |
+| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u371<br/>11.0.19<br/>17.0.7     | [whichjdk.com](https://whichjdk.com/) |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.3<br/>2022.10 (3.9.13) | 建议3.9版本                           |
 |                                                              |                                     |                                       |
 
