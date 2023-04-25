@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.4
+// @version      1.6.5
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-04-13 1.6.4 123网盘支持带.html后缀的链接识别
+// @note         23-04-25 1.6.5  支持百度知道网盘链接密码识别
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -1026,6 +1026,15 @@
                 let r = /([\w-]+)(?:\.html)?.*?([a-z\d]{4,8})/ig.exec(rrr[s]);
                 passMap[r[1]] = r[2];
             }
+			// 百度知道 网盘链接解析
+			var baiduZhidaos = document.querySelectorAll(".ikqb-reply-yun")
+			if(baiduZhidaos) {
+				for(let baiduZhidao of baiduZhidaos ) {
+					var bdcode =  baiduZhidao.attributes['data-code'].value
+					var bdlink =baiduZhidao.attributes['data-href'].value
+					passMap[bdlink.substring(bdlink.lastIndexOf("/")+1)] = bdcode;
+				}
+			}
             for (var i in appList) {
                 var app = appList[i];
 
