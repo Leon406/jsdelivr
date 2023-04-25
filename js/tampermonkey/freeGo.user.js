@@ -2,7 +2,7 @@
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
 // @version      2023.04.25
-// @description  链接直接跳转,阅读全文(todo)
+// @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
 // @run-at       document-start
