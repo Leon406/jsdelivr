@@ -10,6 +10,7 @@
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @grant        none
 // @exclude 	 *://login.live.com/*
+// @exclude 	 *://*.aliyun.com/*
 // @license      GPL-3.0 License
 // ==/UserScript==
 
