@@ -1,10 +1,10 @@
-2023年4月13日11:08:13
+2023年4月25日09:10:03
 
 ## 系统管理
 
 | 软件名称                                                     | 版本    | 描述                                            |
 | ------------------------------------------------------------ | ------- | ----------------------------------------------- |
-| ES文件浏览器 [下载](https://pan.lanzoub.com/b0f1d7s2h)       | 4.4.0.3 | 文件管理工具                                    |
+| ES文件浏览器 [下载](https://pan.lanzoub.com/b0f1d7s2h)       | 4.4.0.6 | 文件管理工具                                    |
 | [Solid Explorer](https://pan.lanzoub.com/b0f19gdfa)          | 2.8.29  | 本地文件管理器，云服务管理器                    |
 | [N.P管理器](https://pan.lanzoub.com/b06m0cevg?pwd=aji6)  aji6 | 3.0.65  | 与MT管理器类似,都提供了反编译等安卓上逆向的功能 |
 | [Root Explorer](https://pan.lanzoub.com/b06ll1dfi?pwd=4qga)  4qga | 4.11.5  | 文件管理                                        |
@@ -35,10 +35,11 @@
 | ---------------------------------------------------------- | ----------- | --------- |
 | [xmind](https://pan.lanzoub.com/b06lkjpah?pwd=i592)   i592 | 22.11.174   |           |
 | [MX Player](https://pan.lanzoub.com/b0f19eo3c)             | 1.49.8      |           |
-| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)         | 7.41        |           |
+| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)         | 7.43        |           |
 | [阅读](https://www.coolapk.com/apk/256030)                 | 3.23.040420 | 小说/漫画 |
 | [异次元](https://www.lanzoub.com/b595600)                  | 2.4.2       | 漫画      |
 | [PureTure](https://pan.lanzoub.com/b0f2lkrab)              | 3.3.8.104   | 油管      |
+| [五音助手](https://www.lanzoub.com/b00nbytqj)              | 2.10.3      | 音乐      |
 
 
 
@@ -47,6 +48,6 @@
 | 软件名称                                                    | 版本          | 描述   |
 | ----------------------------------------------------------- | ------------- | ------ |
 | [开发助手](https://pan.lanzoub.com/b06m5xvtc?pwd=g5pn) g5pn | 2.1.5         |        |
-| [谷歌套件]( https://pan.lanzoub.com/b0f195fyf)              | 35.2.19       |        |
+| [谷歌套件]( https://pan.lanzoub.com/b0f195fyf)              | 35.4.10       |        |
 | [adguard](https://pan.lanzoub.com/b0f19420h)                | 3.6.51 4.0.82 | 去广告 |
 
