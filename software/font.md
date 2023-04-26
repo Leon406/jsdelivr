@@ -44,3 +44,4 @@
 | [HarmonyOS Sans](https://communityfile-drcn.op.hicloud.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20221101115044.33201174322571893280998053929524:50531031060425:2800:6DA5B24196810B0861671524221560A081031A0859326AD524B15C316D0AB6F9.zip?needInitFileName=true) | 中文 |      | 华为和汉仪字库合作定制 |
 | [*MiSans*](https://web.vip.miui.com/page/info/mio/mio/detail?postId=33935854&app_version=dev.211223&ref=share) | 中文 |      |                        |
 | OppoSans                                                     | 中文 |      |                        |
+| [霞鹜文楷](https://github.com/lxgw/LxgwWenKai)               | CJK  |      |                        |
