@@ -208,7 +208,7 @@ function get_elements_simlpe(selector, cond = el => el) {
 function showMore() {
     var mores = get_elements_simlpe("a", el =>  /^\s*(阅读|查看)(全文|全部|更多)$|^展开剩余/g.test(el.text));
 	console.log("showMore ", mores );
-    for (more of mores) {
+    for (let more of mores) {
         if(!more.href.startsWith("http") ||  more.href.startsWith("http")&& more.href.includes(rootHost)) {
 			 more.click();
 		}
@@ -306,7 +306,7 @@ function findAllHref(rule = "http") {
 	// 有的页面不触发 onload
 	setTimeout(() => {
 	      showMore();
-	   }, 5000)
+	   }, 3000)
     window.onload = function () {
 		showMore();
         setTimeout(() => {
