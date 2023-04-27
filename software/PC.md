@@ -1,4 +1,4 @@
-2023年4月24日09:07:41
+2023年4月27日19:34:46
 
 ## 下载
 
@@ -19,7 +19,7 @@
 | 软件                                                         |      版本      | 说明               |
 | ------------------------------------------------------------ | :------------: | -------------------- |
 | [jadx-gui](https://github.com/skylot/jadx/releases)   github |     1.4.6     | Android反编译        |
-| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.7      | 二进制查看编辑       |
+| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.8      | 二进制查看编辑       |
 | AndroidKiller                                                |     1.3.1      | Android反编译        |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [010Editor](https://www.sweetscape.com/010editor/)           |     13.0.1     | 二进制查看编辑       |
@@ -42,7 +42,7 @@
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.8.0 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.8.1 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.23  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.4.1 | v2ray工具     |
@@ -85,7 +85,7 @@
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.13       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.56          | 注册表查找工具  |
-| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.62.2         | ftp工具         |
+| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.64         | ftp工具         |
 | [Listary](https://www.listary.com/)                          | 6.0.11.35 | 启动器          |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         22.11 (3656)         | 脑图            |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
