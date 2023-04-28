@@ -98,6 +98,8 @@
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
 | [Everything](https://www.voidtools.com/zh-cn/) | 1.4.1.1022 |  |
+| [espanso](https://github.com/espanso/espanso) | 2.1.8 | 文字替换 |
+| [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) | 3.3 | OCR powertoy内置 |
 
 ## 系统
 
@@ -168,7 +170,8 @@
 | [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.16<br/>7.0.5           |                                       |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u371<br/>11.0.19<br/>17.0.7     | [whichjdk.com](https://whichjdk.com/) |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.3<br/>2022.10 (3.9.13) | 建议3.9版本                           |
-|                                                              |                                     |                                       |
+| [git](https://git-scm.com/)                                  |               2.40.1                |                                       |
+| [nodejs](https://nodejs.org/zh-cn)                           |             18.16.0 LTS             |                                       |
 
 
 
