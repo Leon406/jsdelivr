@@ -1,4 +1,4 @@
-2023年4月25日09:10:03
+2023年5月3日13:26:38
 
 ## 系统管理
 
@@ -31,15 +31,16 @@
 
 ## 影音娱乐
 
-| 软件名称                                                   | 版本        | 描述      |
-| ---------------------------------------------------------- | ----------- | --------- |
-| [xmind](https://pan.lanzoub.com/b06lkjpah?pwd=i592)   i592 | 22.11.174   |           |
-| [MX Player](https://pan.lanzoub.com/b0f19eo3c)             | 1.49.8      |           |
-| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)         | 7.43        |           |
-| [阅读](https://www.coolapk.com/apk/256030)                 | 3.23.040420 | 小说/漫画 |
-| [异次元](https://www.lanzoub.com/b595600)                  | 2.4.2       | 漫画      |
-| [PureTure](https://pan.lanzoub.com/b0f2lkrab)              | 3.3.8.104   | 油管      |
-| [五音助手](https://www.lanzoub.com/b00nbytqj)              | 2.10.3      | 音乐      |
+| 软件名称                                                     | 版本        | 描述      |
+| ------------------------------------------------------------ | ----------- | --------- |
+| [xmind](https://pan.lanzoub.com/b06lkjpah?pwd=i592)   i592   | 22.11.174   |           |
+| [MX Player](https://pan.lanzoub.com/b0f19eo3c)               | 1.49.8      |           |
+| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 7.43        |           |
+| [阅读](https://www.coolapk.com/apk/256030)                   | 3.23.040420 | 小说/漫画 |
+| [异次元](https://www.lanzoub.com/b595600)                    | 2.4.2       | 漫画      |
+| [PureTure](https://pan.lanzoub.com/b0f2lkrab)                | 3.3.8.104   | 油管      |
+| [五音助手](https://www.lanzoub.com/b00nbytqj)                | 2.10.3      | 音乐      |
+| [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.14.1      | 油管      |
 
 
 
