@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.6
+// @version      1.6.7
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-05-20 1.6.6  支持百度网盘页面改版适配
+// @note         23-05-20 1.6.7  支持百度网盘页面改版适配,修复123pan密码填充无法识别
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -41,7 +41,7 @@
         "debugId": "BGlVZ1M",
         "logger_level": 2,
         "checkTimes": 10,
-        "checkInterval": 8,
+        "checkInterval": 6,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
@@ -1426,7 +1426,7 @@
                     }
             }
 
-            let appendCode = shareSource == "ty189" ? "#" : "?pwd=";
+            let appendCode = shareSource == "ty189"||shareSource == "pan123" ? "#" : "?pwd=";
             logger.info("buildCode", code, appendCode);
             if (code == "undefined") {
                 code = ""
