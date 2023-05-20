@@ -46,13 +46,11 @@
 
 
 
-
-
 # Free Read
 
-自动展开
+自动展开, target不是_blank
 
-### a标签 包含 **查看更多** **查看全文** 展开剩余 (不限制域名)
+### a标签包含 **查看更多** **查看全文** 展开剩余 (不限制域名)
 
 - [ngui](https://www.ngui.cc/el/3209744.html?action=onClick)
 - [搜狐手机版](https://m.sohu.com/limit/)

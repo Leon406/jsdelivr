@@ -12,7 +12,6 @@
 // @exclude 	 *://login.live.com/*
 // @exclude 	 *://*.aliyun.com/*
 // @exclude 	 *://*.google.*/*
-// @exclude 	 *://*.iqiyi.com/*
 // @exclude 	 *://pan.baidu.com/*
 // @exclude 	 *://tieba.baidu.com/*
 // @exclude 	 *://leetcode.*/*
@@ -213,6 +212,9 @@ function showMore() {
     var mores = get_elements_simlpe("a", el =>  /^\s*(阅读|查看)(全文|全部|更多)$|^展开剩余/g.test(el.text));
 	console.log("showMore ", mores );
     for (let more of mores) {
+		if(more.target=='_blank'){
+			continue;
+		}
         if(!more.href.startsWith("http") ||  more.href.startsWith("http")&& more.href.includes(rootHost)) {
 			 more.click();
 		}
