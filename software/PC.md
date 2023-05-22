@@ -70,6 +70,9 @@
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.3  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.40 | 接口测试                              |
 | [He3](https://he3.app/) | 1.3.7 | 开发工具 |
+| [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
+| [Recaf](https://github.com/Col-E/Recaf)<br> [jclasslib](https://github.com/ingokegel/jclasslib) | 2.21.13<br>6.0.4 | jar修改工具 |
+|  |  |  |
 
 
 
@@ -98,8 +101,12 @@
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
 | [Everything](https://www.voidtools.com/zh-cn/) | 1.4.1.1023 |  |
-| [espanso](https://github.com/espanso/espanso) | 2.1.8 | 文字替换 |
-| [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) | 4.0.1 | OCR powertoy内置 |
+| [espanso](https://github.com/espanso/espanso) github | 2.1.8 | 文字替换 |
+| [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) github | 4.0.1 | OCR powertoy内置 |
+| [keyviz](https://github.com/mulaRahul/keyviz) github | 1.0.6 | 快捷键显示 |
+| [WindowTabs](https://github.com/leafOfTree/WindowTabs) github | 2022.02.26 | 应用多窗口化 |
+| [CopyQ](https://github.com/hluk/CopyQ) github | 7.0.0 | 剪切板管理工具 |
+| [Qalcualte](https://github.com/Qalculate/qalculate-gtk) github | 4.6.1 | 科学计算器 |
 
 ## 系统
 

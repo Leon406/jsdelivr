@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.05.20
+// @version      2023.05.22
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -101,13 +101,13 @@ const REAL_GO = {
         query: "link",
         action: urlDecode
     },
-    
+
     "leetcode.cn": {
         prefix: "https://leetcode.cn/link/?target=",
         query: "target",
         action: urlDecode
     },
-    
+
     "www.jianshu.com": {
         prefix: "https://link.jianshu.com",
         query: "t",
@@ -115,7 +115,7 @@ const REAL_GO = {
         query2: "url",
         action: urlDecode
     },
-    
+
     "docs.google.com": {
         prefix: "https://www.google.com/url?",
         query: "q",
@@ -209,7 +209,7 @@ function get_elements_simlpe(selector, cond = el => el) {
 }
 
 function showMore() {
-    var mores = get_elements_simlpe("a", el =>  /^\s*(阅读|查看)(全文|全部|更多)$|^展开剩余/g.test(el.text));
+    var mores = get_elements_simlpe("a", el =>  /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开剩余/g.test(el.text));
 	console.log("showMore ", mores );
     for (let more of mores) {
 		if(more.target=='_blank'){
@@ -300,7 +300,7 @@ function findAllHref(rule = "http") {
         console.log("redirect-------->", window.location.href)
         return;
     }
-	
+
 	if (rule && rule.prefix2 && window.location.href.startsWith(rule.prefix2)) {
         let url = new URL(window.location.href);
 		let targetUrl= decodeURIComponent(rule.query2 && url.searchParams.get(rule.query2) || url.search.replace("?", ""))
@@ -308,7 +308,7 @@ function findAllHref(rule = "http") {
         console.log("redirect2-------->", window.location.href)
         return;
     }
-	
+
 	// 有的页面不触发 onload
 	setTimeout(() => {
 	      showMore();
