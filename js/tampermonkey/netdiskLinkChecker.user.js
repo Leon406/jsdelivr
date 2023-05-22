@@ -1,13 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.7
+// @version      1.6.8
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-05-20 1.6.7  支持百度网盘页面改版适配,修复123pan密码填充无法识别
-// @match        *://**/*
+// @note         23-05-22 1.6.8  修复已登录百度网盘个人分享链接状态识别错误
 // @connect      lanzoub.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -143,7 +142,7 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-                            if (response.includes("输入提取")) {
+                            if (response.includes("输入提取")||response.includes("过期时间：")) {
                                 state = 2;
                             } else if (response.includes("不存在")||response.includes("已失效")) {
                                 state = -1;
@@ -172,7 +171,7 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-                            if (response.includes("输入提取")) {
+                            if (response.includes("输入提取")||response.includes("过期时间：")) {
                                 state = 2;
                             } else if (response.includes("已失效")||response.includes("不存在")) {
                                 state = -1;
