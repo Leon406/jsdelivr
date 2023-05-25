@@ -27,6 +27,7 @@
 - [领英](https://www.linkedin.com/showcase/bosons-sytems/)
 - [leetcode中国](https://leetcode.cn/link/?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F21923021)
 - [简书](https://www.jianshu.com/p/fca56d635091) [简书2](https://www.jianshu.com/go-wild?ac=2&url=http%3A%2F%2Fasciiflow.com%2F)
+- [金山文档](https://www.kdocs.cn/l/ceyDlGlNa69p)
 
 ### 移除点击事件
 
