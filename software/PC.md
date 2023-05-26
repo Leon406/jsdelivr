@@ -1,4 +1,4 @@
-2023年5月18日20:07:11
+2023年5月24日10:31:42
 
 ## 下载
 
@@ -97,6 +97,7 @@
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
 | [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      113.0.1774.42      | 浏览器          |
 | [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      113.0.5672.127      | 浏览器          |
+| [brave](https://github.com/brave/brave-browser) github |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
@@ -107,6 +108,8 @@
 | [WindowTabs](https://github.com/leafOfTree/WindowTabs) github | 2022.02.26 | 应用多窗口化 |
 | [CopyQ](https://github.com/hluk/CopyQ) github | 7.0.0 | 剪切板管理工具 |
 | [Qalcualte](https://github.com/Qalculate/qalculate-gtk) github | 4.6.1 | 科学计算器 |
+| [free-chatgpt-client-pub](https://github.com/akl7777777/free-chatgpt-client-pub) | 3.4.0 | chatgpt免费客户端 |
+|  |  |  |
 
 ## 系统
 

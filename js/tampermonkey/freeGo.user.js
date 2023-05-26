@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.05.25
+// @version      2023.05.26
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -22,7 +22,7 @@ const host = window.location.host;
 const rootHost = host.replaceAll(/.*\.(\w+\.\w+)$/g, "$1");
 
 const REAL_GO = {
-    "link.juejin.cn": {
+    "juejin.cn": {
         prefix: "https://link.juejin.cn/?target=",
         query: "target",
         action: urlDecode
