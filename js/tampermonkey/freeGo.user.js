@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.05.26
+// @version      2023.05.29
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -101,18 +101,32 @@ const REAL_GO = {
         query: "link",
         action: urlDecode
     },
-
     "leetcode.cn": {
         prefix: "https://leetcode.cn/link/?target=",
         query: "target",
         action: urlDecode
     },
-
     "www.jianshu.com": {
         prefix: "https://link.jianshu.com",
         query: "t",
 		prefix2: "https://www.jianshu.com/go-wild",
         query2: "url",
+        action: urlDecode
+    },
+    "yuque.com": {
+        prefix: "https://www.yuque.com/r/goto?url=",
+        query: "url",
+        action: urlDecode
+    },
+     "nowcoder.com": {
+        prefix: "https://hd.nowcoder.com/link.html?target=",
+        query: "target",
+        action: urlDecode
+    },
+
+     "steamcommunity.com": {
+        prefix: "https://steamcommunity.com/linkfilter/?url=",
+        query: "url",
         action: urlDecode
     },
 
