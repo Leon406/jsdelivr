@@ -1,4 +1,4 @@
-2023年5月29日08:41:18
+2023年6月1日09:00:39
 
 ## 下载
 
@@ -45,7 +45,7 @@
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.8.1 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.25  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.6.0 | v2ray工具     |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.24  |               |
 |  |  | |
@@ -64,7 +64,7 @@
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.15 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.77.3 | 编辑器                                |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.1.5  | 接口测试                              |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.1.6  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.4.1  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.3  | github 桌面端                         |
@@ -90,25 +90,25 @@
 | [RegistryFinder64](https://registry-finder.com/)             |          2.56          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.64         | ftp工具         |
 | [Listary](https://www.listary.com/)                          | 6.0.11.35 | 启动器          |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         23.05 (2660)         | 脑图            |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         23.05 (3170)         | 脑图            |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      113.0.1774.5      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      113.0.1774.57      | 浏览器          |
 | [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      113.0.5672.127      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
-| [Everything](https://www.voidtools.com/zh-cn/) | 1.4.1.1023 |  |
+| [Everything](https://www.voidtools.com/zh-cn/) | 1.4.1.1024 |  |
 | [espanso](https://github.com/espanso/espanso) github | 2.1.8 | 文字替换 |
 | [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) github | 4.0.1 | OCR powertoy内置 |
 | [keyviz](https://github.com/mulaRahul/keyviz) github | 1.0.6 | 快捷键显示 |
 | [WindowTabs](https://github.com/leafOfTree/WindowTabs) github | 2022.02.26 | 应用多窗口化 |
 | [CopyQ](https://github.com/hluk/CopyQ) github | 7.0.0 | 剪切板管理工具 |
 | [Qalcualte](https://github.com/Qalculate/qalculate-gtk) github | 4.6.1 | 科学计算器 |
-| [free-chatgpt-client-pub](https://github.com/akl7777777/free-chatgpt-client-pub) | 3.4.0 | chatgpt免费客户端 |
+| [free-chatgpt-client-pub](https://github.com/akl7777777/free-chatgpt-client-pub) | 3.4.7 | chatgpt免费客户端 |
 |  |  |  |
 
 ## 系统
@@ -163,12 +163,12 @@
 | [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁       |
 | FolderPainter                                                |       1.2        | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析    |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E19<br>23.04.02 | 翻译           |
+| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E1B<br>23.06.01 | 翻译           |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3       | RSS阅读        |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4       | 屏幕共享       |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |      11.0.2      | 翻译           |
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |       8.18       | 字体预览       |
-| [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |       2.79       | 流氓软件检测   |
+| [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |       2.80       | 流氓软件检测   |
 
 
 

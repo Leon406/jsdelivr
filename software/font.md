@@ -27,21 +27,23 @@
 | 字体                                                         | 类型     | 版本    | 说明                                                         |
 | ------------------------------------------------------------ | -------- | ------- | ------------------------------------------------------------ |
 | [JetBrains Mono](https://www.jetbrains.com/lp/mono/) github  | 英文符号 | 2.304   | 支持ligature                                                 |
-| Maple Mono SC                                                | 中英     |         | 中英文严格2:1等宽字体,支持ligature                           |
 | [FiraCode](https://github.com/tonsky/FiraCode)               |          | 6.2     | ![FiraCode](https://github.com/tonsky/FiraCode/blob/master/extras/logo.svg),支持ligature |
 | [Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2111.01) |          | 2111.01 | 终端                                                         |
-| [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) |          | 2.038   |                                                              |
-| **[Maple-font](https://github.com/subframe7536/Maple-font)** |          | 6.1     |                                                              |
-|                                                              |          |         |                                                              |
-|                                                              |          |         |                                                              |
-|                                                              |          |         |                                                              |
-|                                                              |          |         |                                                              |
+| [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) |          | 2.042   | 无衬线字体,被Adobe 公司号称最佳的编程字体                    |
+| **[Maple-font](https://github.com/subframe7536/Maple-font)** | 中英     | 6.3     | 中英文严格2:1等宽字体,支持ligature                           |
+| [Hack](https://github.com/source-foundry/Hack)               |          |         | 源码,行间距比Consolas略高，字体圆滑，颜值还是很高            |
+| Courier New(CN)                                              |          |         | Windows 的缺省等宽字体                                       |
+| Consolas                                                     |          |         | CN的升级,Consolas更窄，能够在较少的空间显示更多的内容。同时Consolas也是VS系列默认字体 |
+| [Monaco](https://github.com/vjpr/monaco-bold)                |          |         | 号称苹果出品最好的编程字体                                   |
 
 
 
-| 字体                                                         | 类型 | 版本 | 说明                   |
-| ------------------------------------------------------------ | ---- | ---- | ---------------------- |
-| [HarmonyOS Sans](https://communityfile-drcn.op.hicloud.com/FileServer/getFile/cmtyPub/011/111/111/0000000000011111111.20221101115044.33201174322571893280998053929524:50531031060425:2800:6DA5B24196810B0861671524221560A081031A0859326AD524B15C316D0AB6F9.zip?needInitFileName=true) | 中文 |      | 华为和汉仪字库合作定制 |
-| [*MiSans*](https://web.vip.miui.com/page/info/mio/mio/detail?postId=33935854&app_version=dev.211223&ref=share) | 中文 |      |                        |
-| OppoSans                                                     | 中文 |      |                        |
-| [霞鹜文楷](https://github.com/lxgw/LxgwWenKai)               | CJK  |      |                        |
+| 字体                                                         | 类型 | 版本   | 说明                                                         |
+| ------------------------------------------------------------ | ---- | ------ | ------------------------------------------------------------ |
+| [HarmonyOS Sans](https://developer.harmonyos.com/cn/docs/design/font-0000001157868583) | 中文 |        | 华为和汉仪字库合作定制                                       |
+| [*MiSans*](https://web.vip.miui.com/page/info/mio/mio/detail?postId=33935854&app_version=dev.211223&ref=share) | 中文 |        |                                                              |
+| [OppoSans](https://www.shejidaren.com/oppo-sans-fonts-download.html) | 中文 |        | 与国内知名字体厂商「汉仪」合作开发出的富有现代感和科技感的全新中文字库 |
+| [霞鹜文楷](https://github.com/lxgw/LxgwWenKai)               | CJK  |        |                                                              |
+| [思源宋体](https://github.com/adobe-fonts/source-han-serif)  | CJK  | 2.001R |                                                              |
+| [未来荧黑](https://github.com/welai/glow-sans)               | CJ   |        | 基于思源黑体、Fira Sans 和 Raleway 的开源字体项目            |
+| [更纱黑体](https://github.com/be5invis/Sarasa-Gothic)        |      |        | 由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来          |
