@@ -49,13 +49,14 @@
 
 # Free Read
 
-自动展开, target不是_blank
+自动展开, a标签target不是_blank
 
-### a标签包含 **(阅读|查看|展开) (全文|全部|更多) (不限制域名)
+### a/span标签包含 **(阅读|查看|展开) (全文|全部|更多) (不限制域名)
 
 - [ngui](https://www.ngui.cc/el/3209744.html?action=onClick)
 - [搜狐手机版](https://m.sohu.com/a/677666593_116237?scm=1103.plate:198:0.0.1_1.0&spm=smwp.home.fd-important.4.1684723697649JmyEFI1_1467)
 - [360doc](http://www.360doc.com/content/12/0121/07/11604731_1055179610.shtml)
+- [百度文库](https://jingyan.baidu.com/article/d7130635cd987952fdf475c3.html)
 
 
 

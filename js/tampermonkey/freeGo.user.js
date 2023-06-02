@@ -238,6 +238,13 @@ function showMore() {
 			 more.click();
 		}
     }
+	if(mores.length === 0) {
+		mores = get_elements_simlpe("span", el =>  /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开[剩余|阅读]/g.test(el.text));
+		console.log("showMore ", mores );
+		for (let more of mores) {
+			 more.click();
+		}
+	}
 }
 const stopEvent = (e) => {
     if (e.stopPropagation) {
