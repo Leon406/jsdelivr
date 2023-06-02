@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.05.29
+// @version      2023.06.02
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -228,23 +228,19 @@ function get_elements_simlpe(selector, cond = el => el) {
 }
 
 function showMore() {
-    var mores = get_elements_simlpe("a", el =>  /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开剩余/g.test(el.text));
-	console.log("showMore ", mores );
+    var mores = get_elements_simlpe("a", el => /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开剩余/g.test(el.text) && el.target != '_blank');
+    console.log("showMore ", mores);
     for (let more of mores) {
-		if(more.target=='_blank'){
-			continue;
-		}
-        if(!more.href.startsWith("http") ||  more.href.startsWith("http")&& more.href.includes(rootHost)) {
-			 more.click();
-		}
+        if (!more.href.startsWith("http") || more.href.startsWith("http") && more.href.includes(rootHost)) {
+            more.click();
+        }
     }
-	if(mores.length === 0) {
-		mores = get_elements_simlpe("span", el =>  /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开[剩余|阅读]/g.test(el.text));
-		console.log("showMore ", mores );
-		for (let more of mores) {
-			 more.click();
-		}
-	}
+
+    mores = get_elements_simlpe("span", el => /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开(剩余|阅读)/g.test(el.textContent));
+    console.log("showMore span ", mores);
+    for (let more of mores) {
+        more.click();
+    }
 }
 const stopEvent = (e) => {
     if (e.stopPropagation) {
