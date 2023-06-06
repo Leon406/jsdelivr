@@ -1,4 +1,23 @@
-2023年6月1日09:00:39
+2023年6月6日14:36:56
+
+
+
+## 生产力工具
+
+| 软件                                                         |     版本     | 说明                   |
+| ------------------------------------------------------------ | :----------: | ---------------------- |
+| [FastGestures](https://fg.zhaokeli.com/#doc)                 |    2.1.13    | 全局鼠标手势,仅windows |
+| [CopyQ](https://github.com/hluk/CopyQ) github                |    7.0.0     | 剪切板管理工具         |
+| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |    1.3.21    |                        |
+| [Everything](https://www.voidtools.com/zh-cn/)               |  1.4.1.1024  |                        |
+| [espanso](https://github.com/espanso/espanso) github         |    2.1.8     | 文字替换               |
+| [free-chatgpt-client-pub](https://github.com/akl7777777/free-chatgpt-client-pub) |    3.4.7     | chatgpt免费客户端      |
+| [Listary](https://www.listary.com/)                          |  6.0.11.35   | 启动器                 |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) | 22.11 (3771) | 脑图                   |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |    0.70.1    | 微软官方工具集         |
+|                                                              |              |                        |
+
+
 
 ## 下载
 
@@ -69,7 +88,7 @@
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.3  | github 桌面端                         |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.43 | 接口测试                              |
-| [He3](https://he3.app/) | 1.3.7 | 开发工具 |
+| [He3](https://he3.app/) | 1.3.15 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
 | [Recaf](https://github.com/Col-E/Recaf)<br> [jclasslib](https://github.com/ingokegel/jclasslib) | 2.21.13<br>6.0.4 | jar修改工具 |
 |  |  |  |
@@ -89,8 +108,6 @@
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.56          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.64         | ftp工具         |
-| [Listary](https://www.listary.com/)                          | 6.0.11.35 | 启动器          |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         22.11 (3771)         | 脑图            |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
@@ -100,16 +117,14 @@
 | [brave](https://github.com/brave/brave-browser) github |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
-| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) | 1.3.21 |  |
-| [Everything](https://www.voidtools.com/zh-cn/) | 1.4.1.1024 |  |
-| [espanso](https://github.com/espanso/espanso) github | 2.1.8 | 文字替换 |
 | [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) github | 4.0.1 | OCR powertoy内置 |
 | [keyviz](https://github.com/mulaRahul/keyviz) github | 1.0.6 | 快捷键显示 |
 | [WindowTabs](https://github.com/leafOfTree/WindowTabs) github | 2022.02.26 | 应用多窗口化 |
-| [CopyQ](https://github.com/hluk/CopyQ) github | 7.0.0 | 剪切板管理工具 |
 | [Qalcualte](https://github.com/Qalculate/qalculate-gtk) github | 4.6.1 | 科学计算器 |
-| [free-chatgpt-client-pub](https://github.com/akl7777777/free-chatgpt-client-pub) | 3.4.7 | chatgpt免费客户端 |
+|                                                              |               |                  |
 |  |  |  |
+
+
 
 ## 系统
 
