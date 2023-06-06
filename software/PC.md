@@ -8,7 +8,7 @@
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.6  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://423down.lanzouo.com/b0f3ahu0b) | 6.41.11 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b0f50hoah) | 6.41.12 | 下载工具           |
 |                                                              |         |                    |
 |                                                           |         |                    |
 
@@ -36,15 +36,15 @@
 | 软件                                                         |   版本   | 说明                                          |
 | ------------------------------------------------------------ | :------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.94   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.4.5 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.5.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.8.1 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 | 4.8.3 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github   | 4.1.2 | hosts切换工具 |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.25  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.26  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.24  |               |
@@ -62,13 +62,13 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0126 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
-| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.1.15 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.2.1 | 数据库工具 <br>软件内更新后重新打补丁 |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.77.3 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.1.6  | 接口测试                              |
-| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.4.1  | 编辑器 支持大文件                     |
+| [EmEditor](https://support.emeditor.com/en/downloads)        |  22.4.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.3  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.42 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.43 | 接口测试                              |
 | [He3](https://he3.app/) | 1.3.7 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
 | [Recaf](https://github.com/Col-E/Recaf)<br> [jclasslib](https://github.com/ingokegel/jclasslib) | 2.21.13<br>6.0.4 | jar修改工具 |
@@ -90,13 +90,13 @@
 | [RegistryFinder64](https://registry-finder.com/)             |          2.56          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.64         | ftp工具         |
 | [Listary](https://www.listary.com/)                          | 6.0.11.35 | 启动器          |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         23.05 (3170)         | 脑图            |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) |         22.11 (3771)         | 脑图            |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      113.0.1774.57      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      113.0.5672.127      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      114.0.1823.37      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      114.0.5735.91      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
@@ -179,7 +179,7 @@
 | [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.16<br/>7.0.5           |                                       |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u371<br/>11.0.19<br/>17.0.7     | [whichjdk.com](https://whichjdk.com/) |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.3<br/>2022.10 (3.9.13) | 建议3.9版本                           |
-| [git](https://git-scm.com/)                                  |               2.40.1                |                                       |
+| [git](https://git-scm.com/)                                  |               2.41.0                |                                       |
 | [nodejs](https://nodejs.org/zh-cn)                           |             18.16.0 LTS             |                                       |
 
 
