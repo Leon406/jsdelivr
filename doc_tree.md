@@ -3231,9 +3231,9 @@ E:\GITREPO\JSDELIVR
 ©¦  ©¦  ©¦  ©¦  LICENSE
 ©¦  ©¦  ©¦  ©¦  
 ©¦  ©¦  ©¦  ©À©¤build
-©¦  ©¦  ©¦  ©¦      pdf.js
 ©¦  ©¦  ©¦  ©¦      pdf.sandbox.js
 ©¦  ©¦  ©¦  ©¦      pdf.worker.js
+©¦  ©¦  ©¦  ©¦      pdf2.js
 ©¦  ©¦  ©¦  ©¦      
 ©¦  ©¦  ©¦  ©¸©¤web
 ©¦  ©¦  ©¦      ©¦  debugger.css
