@@ -5219,7 +5219,7 @@ exports.PDFWorkerUtil = PDFWorkerUtil;
 {
   if (_is_node.isNodeJS && typeof require === "function") {
     PDFWorkerUtil.isWorkerDisabled = true;
-    PDFWorkerUtil.fallbackWorkerSrc = "./pdf.worker.js";
+    PDFWorkerUtil.fallbackWorkerSrc = "https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/3.7/build/pdf.worker.js";
   } else if (typeof document === "object") {
     var _document, _document$currentScri;
     const pdfjsFilePath = (_document = document) === null || _document === void 0 ? void 0 : (_document$currentScri = _document.currentScript) === null || _document$currentScri === void 0 ? void 0 : _document$currentScri.src;
