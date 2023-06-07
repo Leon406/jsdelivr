@@ -20,5 +20,10 @@
      引用路径../ 替换在线地址 https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)
 	 view.js/view.css/locale/locale.properties 加上 https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/(版本)/web/
 	 
+  pdf.js 
+  /pdf.worker.js
+  
+  https://fastly.jsdelivr.net/gh/Leon406/jsdelivr@master/js/pdfjs/3.7/build/
+	 
 	 
 	
