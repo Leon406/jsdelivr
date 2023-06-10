@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.8
+// @version      1.6.9
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-05-22 1.6.8  修复已登录百度网盘个人分享链接状态识别错误
+// @note         23-06-10 1.6.9  正确显示异常状态
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -143,9 +143,9 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-                            if (response.includes("输入提取")||response.includes("过期时间：")) {
+                            if (response.includes("输入提取") || response.includes("过期时间：")) {
                                 state = 2;
-                            } else if (response.includes("不存在")||response.includes("已失效")) {
+                            } else if (response.includes("不存在") || response.includes("已失效")) {
                                 state = -1;
                             }
                             callback && callback({
@@ -172,9 +172,9 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-                            if (response.includes("输入提取")||response.includes("过期时间：")) {
+                            if (response.includes("输入提取") || response.includes("过期时间：")) {
                                 state = 2;
-                            } else if (response.includes("已失效")||response.includes("不存在")) {
+                            } else if (response.includes("已失效") || response.includes("不存在")) {
                                 state = -1;
                             }
                             callback && callback({
@@ -201,7 +201,10 @@
                         success: (response) => {
                             let state = 0;
                             logger.info(shareId, "weiyun", response);
-                            if (response.includes("已删除")
+                            // 请求限制
+                            if (!response) {
+                                state = 0
+                            } else if (response.includes("已删除")
                                  || response.includes("违反相关法规")
                                  || response.includes("已过期")
                                  || response.includes("已经删除")
@@ -236,7 +239,10 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-                            if (response.includes("输入密码")) {
+                            // 请求限制
+                            if (!response) {
+                                state = 0
+                            } else if (response.includes("输入密码")) {
                                 state = 2;
                             } else if (response.includes("来晚啦") || response.includes("不存在")) {
                                 state = -1;
@@ -272,7 +278,10 @@
                         success: (response) => {
                             logger.debug("aliyun response ", response);
                             let state = 1;
-                            if (response['code'] && response['code'] == "ParamFlowException") {
+                            // 请求限制
+                            if (!response) {
+                                state = 0
+                            } else if (response['code'] && response['code'] == "ParamFlowException") {
                                 state = 0;
                             } else if (response['code'] || response['file_count'] && response['file_count'] == 0) {
                                 state = -1;
@@ -303,7 +312,10 @@
                             logger.debug("Pan123 check response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             let state = 1;
-                            if (response.includes("分享页面不存在") || rsp.code != 0) {
+                            // 请求限制
+                            if (!response) {
+                                state = 0
+                            } else if (response.includes("分享页面不存在") || rsp.code != 0) {
                                 state = -1;
                             } else if (rsp.data.HasPwd) {
                                 state = 2;
@@ -336,7 +348,10 @@
                         success: (response) => {
                             logger.debug("Ty189 chec", shareId, response);
                             let state = 1;
-                            if (response.includes("ShareInfoNotFound")
+                            // 请求限制
+                            if (!response) {
+                                state = 0
+                            } else if (response.includes("ShareInfoNotFound")
                                  || response.includes("FileNotFound")
                                  || response.includes("ShareExpiredError")
                                  || response.includes("ShareAuditNotPass")) {
@@ -374,7 +389,10 @@
                             logger.debug("Quark token response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             let state = 0;
-                            if (rsp.message.includes("需要提取码")) {
+                            // 请求限制
+                            if (!response) {
+                                state = 0
+                            } else if (rsp.message.includes("需要提取码")) {
                                 state = 2;
                             } else if (rsp.message.includes("ok")) {
                                 state = 1;
@@ -430,7 +448,10 @@
                                 success: (response) => {
                                     logger.debug("checkXunlei detail response", response);
                                     let state = 1;
-                                    if (response.includes("NOT_FOUND")
+                                    // 请求限制
+                                    if (!response) {
+                                        state = 0
+                                    } else if (response.includes("NOT_FOUND")
                                          || response.includes("SENSITIVE_RESOURCE")
                                          || response.includes("EXPIRED")) {
                                         state = -1;
@@ -472,7 +493,10 @@
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             let state = 1;
 
-                            if (rsp.code != "0000") {
+                            // 请求限制
+							if (!response){
+								state = 0
+							}else if (rsp.code != "0000") {
                                 state = -1;
                             } else if (rsp.data.needPassword && rsp.data.needPassword) {
                                 state = 2;
@@ -510,7 +534,10 @@
                         success: (response) => {
                             logger.debug("wenshushu response ", response);
                             let state = 1;
-                            if (response.code != 0) {
+                            // 请求限制
+							if (!response){
+								state = 0
+							}else if (response.code != 0) {
                                 state = -1;
                             }
 
@@ -540,7 +567,10 @@
                             logger.debug("115Pan check response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             let state = 0;
-                            if (rsp.state) {
+                            // 请求限制
+							if (!response){
+								state = 0
+							}else if (rsp.state) {
                                 state = 1;
                             } else if (rsp.error.includes("访问码")) {
                                 state = 2;
@@ -578,7 +608,10 @@
                             logger.debug("caiyun chec", shareId, rsp);
 
                             let state = 0;
-                            if (rsp.code == 0) {
+                            // 请求限制
+							if (!response){
+								state = 0
+							}else if (rsp.code == 0) {
                                 state = rsp.data.isPasswd === "1" ? 2 : 1;
                             } else {
                                 state = -1;
@@ -984,8 +1017,8 @@
         };
 
         obj.debug = function () {
-            obj.log(obj.constant.DEBUG, ...arguments);
-;        }
+            obj.log(obj.constant.DEBUG, ...arguments); ;
+        }
         obj.info = function () {
             obj.log(obj.constant.INFO, ...arguments)
         };
@@ -1026,27 +1059,27 @@
                 let r = /([\w-]+)(?:\.html)?.*?([a-z\d]{4,8})/ig.exec(rrr[s]);
                 passMap[r[1]] = r[2];
             }
-			// 百度知道 网盘链接解析
-			var baiduZhidaos = document.querySelectorAll(".ikqb-reply-yun")
-			if(baiduZhidaos) {
-				for(let baiduZhidao of baiduZhidaos ) {
-					var bdcode =  baiduZhidao.attributes['data-code'].value
-					var bdlink =baiduZhidao.attributes['data-href'].value
-					passMap[bdlink.substring(bdlink.lastIndexOf("/")+1)] = bdcode;
-				}
-			}
-            for (var i in appList) {
-                var app = appList[i];
-
-                var match = obj.matchApp(url, app);
-                if (match == false) {
-                    continue;
+            // 百度知道 网盘链接解析
+            var baiduZhidaos = document.querySelectorAll(".ikqb-reply-yun")
+                if (baiduZhidaos) {
+                    for (let baiduZhidao of baiduZhidaos) {
+                        var bdcode = baiduZhidao.attributes['data-code'].value
+                            var bdlink = baiduZhidao.attributes['data-href'].value
+                            passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
+                    }
                 }
+                for (var i in appList) {
+                    var app = appList[i];
 
-                if (require(app.name).run() == true) {
-                    break;
+                    var match = obj.matchApp(url, app);
+                    if (match == false) {
+                        continue;
+                    }
+
+                    if (require(app.name).run() == true) {
+                        break;
+                    }
                 }
-            }
         };
 
         obj.matchApp = function (url, app) {
@@ -1426,7 +1459,7 @@
                     }
             }
 
-            let appendCode = shareSource == "ty189"||shareSource == "pan123" ? "#" : "?pwd=";
+            let appendCode = shareSource == "ty189" || shareSource == "pan123" ? "#" : "?pwd=";
             logger.info("buildCode", code, appendCode);
             if (code == "undefined") {
                 code = ""
