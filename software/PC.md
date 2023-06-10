@@ -1,4 +1,4 @@
-2023年6月6日14:36:56
+2023年6月10日16:43:42
 
 
 
@@ -6,12 +6,12 @@
 
 | 软件                                                         |     版本     | 说明                   |
 | ------------------------------------------------------------ | :----------: | ---------------------- |
-| [FastGestures](https://fg.zhaokeli.com/#doc)                 |    2.1.13    | 全局鼠标手势,仅windows |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |    2.1.33    | 全局鼠标手势,仅windows |
 | [CopyQ](https://github.com/hluk/CopyQ) github                |    7.0.0     | 剪切板管理工具         |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |    1.3.21    |                        |
 | [Everything](https://www.voidtools.com/zh-cn/)               |  1.4.1.1024  |                        |
 | [espanso](https://github.com/espanso/espanso) github         |    2.1.8     | 文字替换               |
-| [free-chatgpt-client-pub](https://github.com/akl7777777/free-chatgpt-client-pub) |    3.4.7     | chatgpt免费客户端      |
+| [free-chatgpt-client-pub](https://github.com/akl7777777/free-chatgpt-client-pub) |    3.5.3     | chatgpt免费客户端      |
 | [Listary](https://www.listary.com/)                          |  6.0.11.35   | 启动器                 |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/index.php/archives/27/) | 22.11 (3771) | 脑图                   |
 | [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |    0.70.1    | 微软官方工具集         |
@@ -27,7 +27,7 @@
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.6  | 云盘分享           |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b0f50hoah) | 6.41.12 | 下载工具           |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b0f50hoah) | 6.41.14 | 下载工具           |
 |                                                              |         |                    |
 |                                                           |         |                    |
 
@@ -52,10 +52,10 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本   | 说明                                          |
-| ------------------------------------------------------------ | :------: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |   7.94   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.5.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| 软件                                                         |  版本  | 说明                                          |
+| ------------------------------------------------------------ | :----: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) |  7.94  | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) | 2023.6 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 
 ## 科学
 
@@ -66,7 +66,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  5.39<br>6.26  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.24  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) |  0.20.25  |               |
 |  |  | |
 
 ## 开发
@@ -82,12 +82,12 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0126 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github |  1.5.9  | redis工具                             |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc) | 15.0.29<br/>16.2.1 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.77.3 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.79.0 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) |  7.1.6  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.4.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.3  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.2.43 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) | 2.3.0 | 接口测试                              |
 | [He3](https://he3.app/) | 1.3.15 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
 | [Recaf](https://github.com/Col-E/Recaf)<br> [jclasslib](https://github.com/ingokegel/jclasslib) | 2.21.13<br>6.0.4 | jar修改工具 |
@@ -104,7 +104,7 @@
 | [ToDesk](https://www.todesk.com/download.html)               | 4.7.0.1 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38         | gif 制作工具    |
-| [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.13       | 硬盘空间分析    |
+| [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.14       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.56          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.64         | ftp工具         |
@@ -112,8 +112,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      114.0.1823.37      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      114.0.5735.91      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ) |      114.0.1823.43      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows) |      114.0.5735.110      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
@@ -130,7 +130,7 @@
 
 | 软件                                                  |    版本    | 说明       |
 | ----------------------------------------------------- | :--------: | ---------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.0.191140 | 文件恢复   |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191153 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.88    | 系统检测   |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.91   | 系统启动盘 |
 |                                                       |            |            |
@@ -175,10 +175,10 @@
 | 软件                                                         |       版本       | 说明           |
 | ------------------------------------------------------------ | :--------------: | -------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno) [六音](https://www.sixyin.com/8498.html) |      2.2.2       | 音乐助手       |
-| [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.3      | 音乐解锁       |
+| [unlock music](https://git.unlock-music.dev/um/web)          |      1.10.4      | 音乐解锁       |
 | FolderPainter                                                |       1.2        | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |       2.2        | 最优dns解析    |
-| [Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) [xiaoyifang](https://github.com/xiaoyifang/goldendict) | 3E1B<br>23.06.01 | 翻译           |
+| [Golden Dict](https://github.com/xiaoyifang/goldendict)<br/>[Golden Dict](https://www.autoptr.top/gdocr/GoldenDict-OCR-Deployment/)  [更新](https://autoptr.top/gdocr/GoldenDict-OCR-Changelog/)    [**gdocr3E0CA**](http://files.autoptr.top/d/31968491-43314173-bda923) | 23.06.01<br>3E1B | 词典翻译       |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github |      1.1.3       | RSS阅读        |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github |      2.0.4       | 屏幕共享       |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |      11.0.2      | 翻译           |
