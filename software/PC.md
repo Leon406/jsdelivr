@@ -1,4 +1,4 @@
-2023年6月20日08:31:42
+2023年6月27日23:14:25
 
 
 
@@ -52,10 +52,10 @@
 
 ## HackerTools
 
-| 软件                                                         |  版本  | 说明                                          |
-| ------------------------------------------------------------ | :----: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |  7.94  | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.6 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| 软件                                                         |   版本   | 说明                                          |
+| ------------------------------------------------------------ | :------: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.94   | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.6.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 
 ## 科学
 
@@ -66,7 +66,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.27  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** |  0.20.25  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** |  0.20.27  |               |
 |  |  | |
 
 ## 开发
@@ -87,7 +87,7 @@
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.4.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.3  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** | 2.3.1 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** | 2.3.2 | 接口测试                              |
 | [He3](https://he3.app/) **跨平台** | 1.3.15 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
 | [Recaf](https://github.com/Col-E/Recaf)<br>  [jclasslib](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.13<br>6.0.4 | jar修改工具 |
@@ -101,9 +101,9 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          10.0          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.4.5         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.0.1 | 远程控制 速度快 |
+| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.0.2 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
-| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38         | gif 制作工具    |
+| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.14       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.56          | 注册表查找工具  |
@@ -112,8 +112,8 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      114.0.1823.43      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      114.0.5735.134      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      114.0.1823.58      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      114.0.5735.199      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
@@ -132,7 +132,7 @@
 | ----------------------------------------------------- | :--------: | ---------- |
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191153 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.88    | 系统检测   |
-| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.91   | 系统启动盘 |
+| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.93   | 系统启动盘 |
 |                                                       |            |            |
 
 
@@ -183,7 +183,7 @@
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github **跨平台** |  1.1.3   | RSS阅读        |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github **跨平台** |  2.0.4   | 屏幕共享       |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |  11.0.2  | 翻译           |
-| [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |   8.18   | 字体预览       |
+| [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |   8.21   | 字体预览       |
 | [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |   2.80   | 流氓软件检测   |
 |                                                              |          |                |
 
@@ -193,11 +193,11 @@
 
 | [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |                版本                 | 说明                                  |
 | ------------------------------------------------------------ | :---------------------------------: | ------------------------------------- |
-| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.18<br/>7.0.7           |                                       |
+| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.19<br/>7.0.8           |                                       |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u371<br/>11.0.19<br/>17.0.7     | [whichjdk.com](https://whichjdk.com/) |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.3<br/>2022.10 (3.9.13) | 建议3.9版本                           |
 | [git](https://git-scm.com/)                                  |               2.41.0                |                                       |
-| [nodejs](https://nodejs.org/zh-cn)                           |             18.16.0 LTS             |                                       |
+| [nodejs](https://nodejs.org/zh-cn)                           |             18.16.1 LTS             |                                       |
 
 
 
