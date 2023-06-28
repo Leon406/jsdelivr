@@ -1,4 +1,5 @@
-E:\GITHUB\JSDELIVR
+文件夹 PATH 列表
+E:\GITREPO\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -3533,6 +3534,7 @@ E:\GITHUB\JSDELIVR
 │          freeGo.md
 │          freeGo.user.js
 │          netdiskLinkChecker.user.js
+│          忽略网站设置.png
 │          网盘链接测试.md
 │          
 ├─software
