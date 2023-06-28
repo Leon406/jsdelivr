@@ -18,6 +18,7 @@
 | [Ookla Speedtest](https://pan.lanzoub.com/b0f19i6af)         | 5.0.4    | 手机网速测试工具           |
 | [泰尔网测](https://www.coolapk.com/apk/com.knowyou.perception) | 1.3.27   | 手机网速测试工具           |
 | [一指禅](https://estar.lanzoub.com/11o)                      | 3.4.7    | 闪屏跳过                   |
+| [叮小跳](https://tiao.pro/)                                  |          | 闪屏跳过                   |
 | [QR](https://www.lanzoub.com/b06lnskqf?pwd=8qxr)  8qxr       | 2.7\.3-P | 扫码                       |
 | [讯飞语记](https://pan.lanzoub.com/b06llc0sj?pwd=e86t) e86t  | 7.5.1399 |                            |
 | [设备信息DevInfo](https://pan.lanzoub.com/b06mcp2le?pwd=e5gl)  e5gl | 2.9.4.2  |                            |
