@@ -1,21 +1,21 @@
-2023年7月2日09:10:20
+2023年7月7日08:39:25
 
 
 
 ## 生产力工具
 
-| 软件                                                         |     版本     | 说明                   |
-| ------------------------------------------------------------ | :----------: | ---------------------- |
-| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |    2.1.33    | 全局鼠标手势,仅windows |
-| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |    7.0.0     | 剪切板管理工具         |
-| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |    1.3.21    |                        |
-| [Everything](https://www.voidtools.com/zh-cn/)               |  1.4.1.1024  |                        |
-| [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.1.8     | 文字替换               |
-| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |    3.5.7     | chatgpt免费客户端      |
-| [Listary](https://www.listary.com/)                          |  6.0.11.35   | 启动器                 |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 22.11 (3771) | 脑图                   |
-| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |    0.70.1    | 微软官方工具集         |
-|                                                              |              |                        |
+| 软件                                                         |      版本      | 说明                   |
+| ------------------------------------------------------------ | :------------: | ---------------------- |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |     2.1.34     | 全局鼠标手势,仅windows |
+| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |     7.0.0      | 剪切板管理工具         |
+| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |     1.3.21     |                        |
+| [Everything](https://www.voidtools.com/zh-cn/)               |   1.4.1.1024   |                        |
+| [espanso](https://github.com/espanso/espanso) github **跨平台** |     2.1.8      | 文字扩展               |
+| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.5.8      | chatgpt免费客户端      |
+| [Listary](https://www.listary.com/)                          |   6.0.11.35    | 启动器                 |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.06 (301214) | 脑图                   |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |     0.71.0     | 微软官方工具集         |
+|                                                              |                |                        |
 
 
 
@@ -52,10 +52,10 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本   | 说明                                          |
-| ------------------------------------------------------------ | :------: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.94   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.6.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| 软件                                                         |  版本  | 说明                                          |
+| ------------------------------------------------------------ | :----: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |  7.94  | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.7 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 
 ## 科学
 
@@ -81,8 +81,8 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0128 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.0  | redis工具                             |
-| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 15.0.29<br/>16.2.2 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.79.2 | 编辑器                                |
+| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 15.0.29<br/>16.2.3 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.80.0 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.1.6  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.4.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
@@ -99,7 +99,7 @@
 
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
-| [FastStoneCapure](http://www.faststone.org/)                 |          10.1          | 截图编辑工具    |
+| [FastStoneCapure](http://www.faststone.org/)                 |          10.2          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.4.5         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.0.2 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
@@ -120,7 +120,7 @@
 | [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) github | 4.0.1 | OCR powertoy内置 |
 | [keyviz](https://github.com/mulaRahul/keyviz) github | 1.0.6 | 快捷键显示 |
 | [WindowTabs](https://github.com/leafOfTree/WindowTabs) github | 2022.02.26 | 应用多窗口化 |
-| [Qalcualte](https://github.com/Qalculate/qalculate-gtk) github | 4.6.1 | 科学计算器 |
+| [Qalcualte](https://github.com/Qalculate/qalculate-gtk) github | 4.7 | 科学计算器 |
 |                                                              |               |                  |
 |  |  |  |
 
@@ -130,7 +130,7 @@
 
 | 软件                                                  |    版本    | 说明       |
 | ----------------------------------------------------- | :--------: | ---------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191153 | 文件恢复   |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191161 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.88    | 系统检测   |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.93   | 系统启动盘 |
 |                                                       |            |            |
@@ -176,13 +176,13 @@
 | ------------------------------------------------------------ | :------: | -------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno) [六音](https://www.sixyin.com/8498.html) **跨平台** |  2.3.0   | 音乐助手       |
 | [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.4  | 音乐解锁       |
-| [魔音](http://morin.vin/)                                    |  2.7.5   |                |
+| [魔音](http://morin.vin/)                                    |  2.7.6   | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析    |
 | [Golden Dict ng](https://github.com/xiaoyifang/goldendict) **跨平台** | 23.06.01 | 词典翻译       |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github **跨平台** |  1.1.3   | RSS阅读        |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github **跨平台** |  2.0.4   | 屏幕共享       |
-| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github |  11.0.2  | 翻译           |
+| [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github <br>如果已使用Golden Dict可使用 [扩展程序](https://github.com/Leon406/pyutil/tree/master/translate) |  11.0.2  | 翻译           |
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |   8.21   | 字体预览       |
 | [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |   2.80   | 流氓软件检测   |
 |                                                              |          |                |
@@ -195,7 +195,7 @@
 | ------------------------------------------------------------ | :---------------------------------: | ------------------------------------- |
 | [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.19<br/>7.0.8           |                                       |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u371<br/>11.0.19<br/>17.0.7     | [whichjdk.com](https://whichjdk.com/) |
-| [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.3<br/>2022.10 (3.9.13) | 建议3.9版本                           |
+| [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.4<br/>2022.10 (3.9.13) | 建议3.9版本                           |
 | [git](https://git-scm.com/)                                  |               2.41.0                |                                       |
 | [nodejs](https://nodejs.org/zh-cn)                           |             18.16.1 LTS             |                                       |
 
