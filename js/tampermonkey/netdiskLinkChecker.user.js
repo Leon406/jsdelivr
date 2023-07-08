@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.9
+// @version      1.6.10
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-06-10 1.6.9  正确显示异常状态
+// @note         23-07-08 1.6.10  修复百度网盘2识别错误 
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -1422,7 +1422,7 @@
                 logger.error("createOneSpanNode ", shareId);
             }
 
-            var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId);
+            var m = /https:\/\/.*\/(?:init\?surl=)?([\w-]+)(?:(?:[\?&]pwd=|#)(\w+))?/g.exec(shareId);
             shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId);
             var code = m && m[2] || passMap[shareId];
 
