@@ -64,4 +64,6 @@
 
 **如有网站加载有问题,请手动排除**
 
-![忽略网站设置](忽略网站设置.png)
+![忽略网站设置](./忽略网站设置.png)
+
+![忽略网站设置(备用图片)](https://ghproxy.net/https://raw.githubusercontent.com/Leon406/jsdelivr/master/js/tampermonkey/%E5%BF%BD%E7%95%A5%E7%BD%91%E7%AB%99%E8%AE%BE%E7%BD%AE.png)
