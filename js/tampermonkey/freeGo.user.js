@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.07.11
+// @version      2023.07.11.1
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -12,9 +12,11 @@
 // @exclude 	 *://login.live.com/*
 // @exclude 	 *://*.aliyun.com/*
 // @exclude 	 *://*.google.*/*
-// @exclude 	 *://*.baidu.com/*
-// @exclude 	 *://*.qq.com/*
+// @exclude 	 *://pan.baidu.com/*
+// @exclude 	 *://tieba.baidu.com/*
 // @exclude 	 *://leetcode.*/*
+// @exclude 	 *://cloud.baidu.com/*
+// @exclude 	 *://*.bce.baidu.com/*
 // @license      GPL-3.0 License
 // ==/UserScript==
 
