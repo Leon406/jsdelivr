@@ -20,7 +20,7 @@
 // @connect      wenshushu.cn
 // @connect      115.com
 // @connect      caiyun.139.com
-// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/1.12.4/jquery.min.js
+// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
 // @run-at       document-start
 // @grant        GM_getValue
