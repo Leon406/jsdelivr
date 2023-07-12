@@ -175,7 +175,7 @@
 | 软件                                                         |   版本   | 说明           |
 | ------------------------------------------------------------ | :------: | -------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno) [六音](https://www.sixyin.com/8498.html) **跨平台** |  2.3.0   | 音乐助手       |
-| [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.4  | 音乐解锁       |
+| [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.5  | 音乐解锁       |
 | [魔音](http://morin.vin/)                                    |  2.7.6   | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析    |
@@ -193,7 +193,7 @@
 
 | [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |                版本                 | 说明                                  |
 | ------------------------------------------------------------ | :---------------------------------: | ------------------------------------- |
-| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.19<br/>7.0.8           |                                       |
+| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.20<br/>7.0.9           |                                       |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u371<br/>11.0.19<br/>17.0.7     | [whichjdk.com](https://whichjdk.com/) |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.16  3.11.4<br/>2022.10 (3.9.13) | 建议3.9版本                           |
 | [git](https://git-scm.com/)                                  |               2.41.0                |                                       |
