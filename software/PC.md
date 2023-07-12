@@ -1,4 +1,4 @@
-2023年7月7日08:39:25
+2023年7月12日09:43:41
 
 
 
@@ -11,7 +11,7 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |     1.3.21     |                        |
 | [Everything](https://www.voidtools.com/zh-cn/)               |   1.4.1.1024   |                        |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |     2.1.8      | 文字扩展               |
-| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.5.8      | chatgpt免费客户端      |
+| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.0      | chatgpt免费客户端      |
 | [Listary](https://www.listary.com/)                          |   6.0.11.35    | 启动器                 |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.06 (301214) | 脑图                   |
 | [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |     0.71.0     | 微软官方工具集         |
@@ -66,7 +66,7 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.27  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2  | 节点测速      |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** |  0.20.27  |               |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** |  0.20.28  |               |
 |  |  | |
 
 ## 开发
