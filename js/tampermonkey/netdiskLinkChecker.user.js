@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.10
+// @version      1.6.11
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
@@ -21,7 +21,7 @@
 // @connect      115.com
 // @connect      caiyun.139.com
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/1.12.4/jquery.min.js
-// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y//findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
+// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
 // @run-at       document-start
 // @grant        GM_getValue
 // @grant        GM_setValue
