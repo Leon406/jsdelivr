@@ -11,7 +11,7 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |     1.3.21     |                        |
 | [Everything](https://www.voidtools.com/zh-cn/)               |   1.4.1.1024   |                        |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |     2.1.8      | 文字扩展               |
-| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.0      | chatgpt免费客户端      |
+| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.1      | chatgpt免费客户端      |
 | [Listary](https://www.listary.com/)                          |   6.0.11.35    | 启动器                 |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.06 (301214) | 脑图                   |
 | [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |     0.71.0     | 微软官方工具集         |
@@ -45,7 +45,7 @@
 | PEiD                                                         |      0.95      | 查壳工具             |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     v6.4.0     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [WiresharkPortable](https://www.wireshark.org/download.html) **跨平台** |     4.0.6     | 抓包工具             |
+| [WiresharkPortable](https://www.wireshark.org/download.html) **跨平台** |     4.0.7     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 |  |  |  |
 |  |  |  |
@@ -81,13 +81,13 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0128 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.0  | redis工具                             |
-| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 15.0.29<br/>16.2.3 | 数据库工具 <br>软件内更新后重新打补丁 |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.80.0 | 编辑器                                |
+| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 16.2.5<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.80.1 | 编辑器                                |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.1.6  | 接口测试                              |
 | [EmEditor](https://support.emeditor.com/en/downloads)        |  22.4.2  | 编辑器 支持大文件                     |
 | [AnLink](https://cn.anlinksoft.com/changelog/) |  3.10  | Android 投屏电脑                      |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.6  | github 桌面端                         |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** | 2.3.3 | 接口测试                              |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** | 2.3.5 | 接口测试                              |
 | [He3](https://he3.app/) **跨平台** | 1.3.17 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
 | [Recaf](https://github.com/Col-E/Recaf)<br>  [jclasslib](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.13<br>6.0.4 | jar修改工具 |
@@ -130,7 +130,7 @@
 
 | 软件                                                  |    版本    | 说明       |
 | ----------------------------------------------------- | :--------: | ---------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191161 | 文件恢复   |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191166 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.88    | 系统检测   |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.93   | 系统启动盘 |
 |                                                       |            |            |
@@ -176,7 +176,7 @@
 | ------------------------------------------------------------ | :------: | -------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno) [六音](https://www.sixyin.com/8498.html) **跨平台** |  2.3.0   | 音乐助手       |
 | [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.5  | 音乐解锁       |
-| [魔音](http://morin.vin/)                                    |  2.7.6   | 音乐播放       |
+| [魔音](http://morin.vin/)                                    |  2.8.0   | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析    |
 | [Golden Dict ng](https://github.com/xiaoyifang/goldendict) **跨平台** | 23.06.01 | 词典翻译       |
