@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.6.11
+// @version      1.7.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-07-08 1.6.10  修复百度网盘2识别错误
+// @note         23-07-17 1.7.0  网盘超链接,查找子元素密码
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -133,7 +133,7 @@
         return {
             baidu: {
                 reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{8,})(?!\.)/gi,
-                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+                replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{5,})(?!\.)/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: (shareId, callback) => {
                     let url = shareId.includes("http") ? shareId : "https://pan.baidu.com/s/" + shareId;
