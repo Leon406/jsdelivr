@@ -6,7 +6,7 @@
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-07-17 1.7.0  网盘超链接,查找子元素密码
+// @note         23-07-17 1.7.0  网盘超链接,查找子元素密码, 修复部分百度网盘状态识别错误
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -143,7 +143,9 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-                            if (response.includes("输入提取") || response.includes("过期时间：")) {
+                            if (response.includes("过期时间：")) {
+                                state = 1;
+                            }else if (response.includes("输入提取")) {
                                 state = 2;
                             } else if (response.includes("不存在") || response.includes("已失效")) {
                                 state = -1;
@@ -172,7 +174,9 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-                            if (response.includes("输入提取") || response.includes("过期时间：")) {
+							 if (response.includes("过期时间：")) {
+                                state = 1;
+                            }else if (response.includes("输入提取")) {
                                 state = 2;
                             } else if (response.includes("已失效") || response.includes("不存在")) {
                                 state = -1;
@@ -1315,7 +1319,7 @@
                     for (var rule in constant) {
                         if (constant[rule]["reg"].exec(href) && $this.find(".one-pan-tip").length == 0) {
                             $this.attr("one-link-mark", "yes");
-                            logger.error(constant[rule]["reg"], href, constant[rule]["reg"].exec(href))
+                            //  logger.error(constant[rule]["reg"], href, constant[rule]["reg"].exec(href))
                             var node = obj.createOneSpanNode(href, rule);
                             if (href.includes(manifest["debugId"])) {
                                 logger.error("create node", node);
