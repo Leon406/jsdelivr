@@ -6,7 +6,7 @@
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-07-08 1.6.10  修复百度网盘2识别错误 
+// @note         23-07-08 1.6.10  修复百度网盘2识别错误
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -494,9 +494,9 @@
                             let state = 1;
 
                             // 请求限制
-							if (!response){
-								state = 0
-							}else if (rsp.code != "0000") {
+                            if (!response) {
+                                state = 0
+                            } else if (rsp.code != "0000") {
                                 state = -1;
                             } else if (rsp.data.needPassword && rsp.data.needPassword) {
                                 state = 2;
@@ -535,9 +535,9 @@
                             logger.debug("wenshushu response ", response);
                             let state = 1;
                             // 请求限制
-							if (!response){
-								state = 0
-							}else if (response.code != 0) {
+                            if (!response) {
+                                state = 0
+                            } else if (response.code != 0) {
                                 state = -1;
                             }
 
@@ -568,9 +568,9 @@
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
                             let state = 0;
                             // 请求限制
-							if (!response){
-								state = 0
-							}else if (rsp.state) {
+                            if (!response) {
+                                state = 0
+                            } else if (rsp.state) {
                                 state = 1;
                             } else if (rsp.error.includes("访问码")) {
                                 state = 2;
@@ -609,9 +609,9 @@
 
                             let state = 0;
                             // 请求限制
-							if (!response){
-								state = 0
-							}else if (rsp.code == 0) {
+                            if (!response) {
+                                state = 0
+                            } else if (rsp.code == 0) {
                                 state = rsp.data.isPasswd === "1" ? 2 : 1;
                             } else {
                                 state = -1;
@@ -1417,6 +1417,18 @@
             });
         };
 
+        obj.findATagCode = function (shareId,shareSource) {
+            var tag = document.querySelector("a[href*='" + shareId + "']");
+            if (tag) {
+                var reg = new RegExp("(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
+                var mm = reg.exec(tag.innerText);
+				if(mm && mm[1]){
+					//tag.href =obj.buildShareUrl(shareId,shareSource,mm[1]);
+					console.log("___ a href", tag.href);
+					return mm[1];
+				}
+            }
+        }
         obj.createOneSpanNode = function (shareId, shareSource) {
             if (shareId.includes(manifest["debugId"])) {
                 logger.error("createOneSpanNode ", shareId);
@@ -1424,7 +1436,7 @@
 
             var m = /https:\/\/.*\/(?:init\?surl=)?([\w-]+)(?:(?:[\?&]pwd=|#)(\w+))?/g.exec(shareId);
             shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId);
-            var code = m && m[2] || passMap[shareId];
+            var code = m && m[2] || passMap[shareId] || obj.findATagCode(shareId,shareSource);
 
             var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
             node.setAttribute("class", "one-pan-tip");
@@ -1435,9 +1447,9 @@
         };
 
         obj.buildShareUrl = function (shareId, shareSource, pwd) {
-            var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId)
-                shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId)
-                let code = m && m[2] || pwd || passMap[shareId];
+            var m = /https:\/\/.*\/([\w-]+)(?:(?:\?pwd=|#)(\w+))?/g.exec(shareId);
+            shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId);
+            let code = m && m[2] || pwd || passMap[shareId] || obj.findATagCode(shareId, shareSource);
             // 如果没有重新查找
             if (code == "undefined" || code == "Code" || typeof(code) == "undefined") {
                 if (shareId.includes(manifest["debugId"])) {
@@ -1445,18 +1457,18 @@
                 }
 
                 var reg = new RegExp(shareId + "(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
-                var mm = reg.exec(document.body.innerText)
-                    if (mm) {
-                        passMap[shareId] = mm[1];
-                        code = mm[1];
-                        if (shareId.includes(manifest["debugId"])) {
-                            logger.error(code + " search");
-                        }
-                        document.querySelectorAll("span[one-id='" + shareId + "']")
-                        .forEach(e => e.setAttribute("one-pwd", code));
-
-                        logger.info("buildCode reset", code);
+                var mm = reg.exec(document.body.innerText);
+                if (mm) {
+                    passMap[shareId] = mm[1];
+                    code = mm[1];
+                    if (shareId.includes(manifest["debugId"])) {
+                        logger.error(code + " search");
                     }
+                    document.querySelectorAll("span[one-id='" + shareId + "']")
+                    .forEach(e => e.setAttribute("one-pwd", code));
+
+                    logger.info("buildCode reset", code);
+                }
             }
 
             let appendCode = shareSource == "ty189" || shareSource == "pan123" ? "#" : "?pwd=";
