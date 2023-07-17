@@ -47,11 +47,11 @@
 
 
 
-| 软件名称                                                    | 版本    | 描述   |
-| ----------------------------------------------------------- | ------- | ------ |
-| [开发助手](https://pan.lanzoub.com/b06m5xvtc?pwd=g5pn) g5pn | 2.1.5   |        |
-| [谷歌套件]( https://pan.lanzoub.com/b0f195fyf)              | 36.1.15 |        |
-| [adguard](https://pan.lanzoub.com/b0f19420h)                | 4.0.912 | 去广告 |
+| 软件名称                                                     | 版本    | 描述 |
+| ------------------------------------------------------------ | ------- | ---- |
+| [开发助手](https://pan.lanzoub.com/b06m5xvtc?pwd=g5pn) g5pn  | 2.1.5   |      |
+| [谷歌套件]( https://pan.lanzoub.com/b0f195fyf)               | 36.1.15 |      |
+| [adguard](https://pan.lanzoub.com/b0f19420h) [国内规则](https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt)  [官方github规则](https://github.com/AdguardTeam/HostlistsRegistry) | 4.0.912 |      |
 
 
 
