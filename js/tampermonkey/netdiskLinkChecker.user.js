@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.7.0
+// @version      1.7.1
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-07-17 1.7.0  网盘超链接,查找子元素密码, 修复部分百度网盘状态识别错误
+// @note         23-07-17 1.7.1  网盘超链接,查找子元素密码, 修复部分百度网盘状态识别错误
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -39,9 +39,9 @@
 
     var manifest = {
         "debugId": "BGlVZ1M",
-        "logger_level": 2,
-        "checkTimes": 10,
-        "checkInterval": 6,
+        "logger_level": 3,
+        "checkTimes": 20,
+        "checkInterval": 4,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
@@ -132,7 +132,7 @@
     container.define("constant", ["logger", "http"], function (logger, http) {
         return {
             baidu: {
-                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{5,})(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{5,})(?!\.)/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: (shareId, callback) => {
@@ -145,7 +145,7 @@
                             let state = 1;
                             if (response.includes("过期时间：")) {
                                 state = 1;
-                            }else if (response.includes("输入提取")) {
+                            } else if (response.includes("输入提取")) {
                                 state = 2;
                             } else if (response.includes("不存在") || response.includes("已失效")) {
                                 state = -1;
@@ -174,9 +174,9 @@
                         url: url,
                         success: (response) => {
                             let state = 1;
-							 if (response.includes("过期时间：")) {
+                            if (response.includes("过期时间：")) {
                                 state = 1;
-                            }else if (response.includes("输入提取")) {
+                            } else if (response.includes("输入提取")) {
                                 state = 2;
                             } else if (response.includes("已失效") || response.includes("不存在")) {
                                 state = -1;
@@ -1064,26 +1064,26 @@
                 passMap[r[1]] = r[2];
             }
             // 百度知道 网盘链接解析
-            var baiduZhidaos = document.querySelectorAll(".ikqb-reply-yun")
-                if (baiduZhidaos) {
-                    for (let baiduZhidao of baiduZhidaos) {
-                        var bdcode = baiduZhidao.attributes['data-code'].value
-                            var bdlink = baiduZhidao.attributes['data-href'].value
-                            passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
-                    }
+            var baiduZhidaos = document.querySelectorAll(".ikqb-reply-yun");
+            if (baiduZhidaos) {
+                for (let baiduZhidao of baiduZhidaos) {
+                    var bdcode = baiduZhidao.attributes['data-code'].value
+                        var bdlink = baiduZhidao.attributes['data-href'].value
+                        passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
                 }
-                for (var i in appList) {
-                    var app = appList[i];
+            }
+            for (var i in appList) {
+                var app = appList[i];
 
-                    var match = obj.matchApp(url, app);
-                    if (match == false) {
-                        continue;
-                    }
-
-                    if (require(app.name).run() == true) {
-                        break;
-                    }
+                var match = obj.matchApp(url, app);
+                if (match == false) {
+                    continue;
                 }
+
+                if (require(app.name).run() == true) {
+                    break;
+                }
+            }
         };
 
         obj.matchApp = function (url, app) {
@@ -1304,7 +1304,7 @@
             // 补超链接ATTR
             $("a:not([one-link-mark])").each(function () {
                 var $this = $(this);
-                var href = $this.attr("href");
+                var href = $this.attr("href").replace("#list/path=%2F","");
 
                 if (panRule.exec(href) == null) {
                     return;
@@ -1421,16 +1421,16 @@
             });
         };
 
-        obj.findATagCode = function (shareId,shareSource) {
+        obj.findATagCode = function (shareId, shareSource) {
             var tag = document.querySelector("a[href*='" + shareId + "']");
             if (tag) {
                 var reg = new RegExp("(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
                 var mm = reg.exec(tag.innerText);
-				if(mm && mm[1]){
-					//tag.href =obj.buildShareUrl(shareId,shareSource,mm[1]);
-					console.log("___ a href", tag.href);
-					return mm[1];
-				}
+                if (mm && mm[1]) {
+                    //tag.href =obj.buildShareUrl(shareId,shareSource,mm[1]);
+                    //console.log("___ a href", tag.href);
+                    return mm[1];
+                }
             }
         }
         obj.createOneSpanNode = function (shareId, shareSource) {
@@ -1440,7 +1440,7 @@
 
             var m = /https:\/\/.*\/(?:init\?surl=)?([\w-]+)(?:(?:[\?&]pwd=|#)(\w+))?/g.exec(shareId);
             shareId = m && m[1] || (shareId.includes("http") ? shareId.replace(/^.*?([\w-]+$)/i, "$1") : shareId);
-            var code = m && m[2] || passMap[shareId] || obj.findATagCode(shareId,shareSource);
+            var code = m && m[2] || passMap[shareId] || obj.findATagCode(shareId, shareSource);
 
             var node = document.createElementNS(document.lookupNamespaceURI(null) || "http://www.w3.org/1999/xhtml", "span");
             node.setAttribute("class", "one-pan-tip");
