@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.7.1
+// @version      1.7.2
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
@@ -1304,13 +1304,12 @@
             // 补超链接ATTR
             $("a:not([one-link-mark])").each(function () {
                 var $this = $(this);
-                var href = $this.attr("href").replace("#list/path=%2F","");
-
+                var href = $this.attr("href");
                 if (panRule.exec(href) == null) {
                     return;
                 }
-
                 if (href) {
+					href = href.replace("#list/path=%2F","");
                     // 匹配域名
                     if (href.includes(manifest["debugId"])) {
                         logger.error("补超链接  --" + href + "--");
