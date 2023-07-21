@@ -1,15 +1,15 @@
 /**
  * https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
  * https://github.com/petronny/gfwlist2pac/blob/master/gfwlist.pac
- * GFWList Last-Modified: 2022-03-26
+ * GFWList Last-Modified: 2022-5-20
  */
 
 
-var proxy = 'SOCKS5 127.0.0.1:7890';
+var proxy = 'SOCKS5 127.0.0.1:7890; SOCKS 127.0.0.1:7890; DIRECT;';
 var rules = [
     [
-        [],
-        [ "www.phind.com" ]
+        ["claude.ai","anthropic.com"],
+        []
     ],
     [
         [
@@ -1329,6 +1329,7 @@ var rules = [
             "dnsrd.com",
             "dnssec.net",
             "dnvod.tv",
+            "docker.com",
             "doctorvoice.org",
             "documentingreality.com",
             "dogfartnetwork.com",
@@ -3885,6 +3886,7 @@ var rules = [
             "packetix.net",
             "pacopacomama.com",
             "padmanet.com",
+            "page.link",
             "page.tl",
             "page2rss.com",
             "pages.dev",
@@ -4030,6 +4032,7 @@ var rules = [
             "podbean.com",
             "podcast.co",
             "podictionary.com",
+            "poe.com",
             "pokerstars.com",
             "pokerstars.net",
             "pokerstrategy.com",
