@@ -1,4 +1,4 @@
-2023年7月16日14:14:42
+2023年7月22日08:45:30
 
 ## 系统管理
 
@@ -23,10 +23,10 @@
 | [讯飞语记](https://pan.lanzoub.com/b06llc0sj?pwd=e86t) e86t  | 7.5.1399 |                            |
 | [设备信息DevInfo](https://pan.lanzoub.com/b06mcp2le?pwd=e5gl)  e5gl | 2.9.4.2  |                            |
 | [AIDA](https://www.lanzoub.com/b06lo9kqh?pwd=6mif)  6mif     | 1.94     |                            |
-| [apkpure](https://www.lanzoub.com/b06ljuo9a?pwd=gjb2)  gjb2  | 3.18.61  |                            |
+| [apkpure](https://www.lanzoub.com/b06ljuo9a?pwd=gjb2)  gjb2  | 3.19.20  |                            |
 | [隐秘参数](https://myqqjd.lanzoub.com/b06mhavbi?pwd=el5k)  el5k | 2.8.4    | 提供手机硬件检测和性能测试 |
 | [GPS status](https://myqqjd.lanzoub.com/b06ltxx5i?pwd=7dcw)  7dcw | 11.0.307 |                            |
-| [开发助手](https://pan.lanzoub.com/b06lmdxmd)                | 6.9.2 gp |                            |
+| [开发助手](https://pan.lanzoub.com/b06lmdxmd)                | 6.9.9 gp |                            |
 
 
 
@@ -37,11 +37,12 @@
 | [xmind](https://pan.lanzoub.com/b06lkjpah?pwd=i592)   i592   | 23.05.25    |           |
 | [MX Player](https://pan.lanzoub.com/b0f19eo3c)               | 1.60.3      |           |
 | [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 7.56        |           |
-| [阅读](https://www.coolapk.com/apk/256030)                   | 3.23.070913 | 小说/漫画 |
+| [阅读](https://www.coolapk.com/apk/256030)                   | 3.23.072018 | 小说/漫画 |
 | [异次元](https://www.lanzoub.com/b595600)                    | 2.4.2       | 漫画      |
 | [PureTure](https://pan.lanzoub.com/b0f2lkrab)                | 3.3.8.104   | 油管      |
 | [五音助手](https://www.lanzoub.com/b00nbytqj)                | 2.10.6      | 音乐      |
 | [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.15.0      | 油管      |
+|                                                              |             |           |
 
 
 
@@ -50,18 +51,18 @@
 | 软件名称                                                     | 版本    | 描述 |
 | ------------------------------------------------------------ | ------- | ---- |
 | [开发助手](https://pan.lanzoub.com/b06m5xvtc?pwd=g5pn) g5pn  | 2.1.5   |      |
-| [谷歌套件]( https://pan.lanzoub.com/b0f195fyf)               | 36.1.15 |      |
-| [adguard](https://pan.lanzoub.com/b0f19420h) [国内规则](https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt)  [官方github规则](https://github.com/AdguardTeam/HostlistsRegistry) | 4.0.912 |      |
+| [adguard premium](https://pan.lanzoub.com/b0f19420h) [国内规则](https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt)  [官方github规则](https://github.com/AdguardTeam/HostlistsRegistry) | 4.0.912 |      |
+|                                                              |         |      |
 
 
 
 ## 科学
 
-| 软件名称                                                     | 版本  | 描述          |
-| ------------------------------------------------------------ | ----- | ------------- |
-| [Telegram](https://telegram.org/android)  [github](https://github.com/DrKLO/Telegram) | 9.6   | 电报,加密通信 |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) | 1.1.6 | 科学工具      |
-|                                                              |       |               |
+| 软件名称                                                     | 版本  | 描述           |
+| ------------------------------------------------------------ | ----- | -------------- |
+| [Telegram](https://telegram.org/android)  [github](https://github.com/DrKLO/Telegram) | 9.6   | 电报,加密通信  |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) | 1.1.6 | 科学工具       |
+| [Gbox](https://www.gboxlab.com/)                             |       | google框架安装 |
 
 ## crack更新合集
 
