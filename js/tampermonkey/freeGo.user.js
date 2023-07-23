@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.07.11.1
+// @version      2023.07.23
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -231,7 +231,7 @@ function get_elements_simlpe(selector, cond = el => el) {
 
 function showMore() {
     var mores = get_elements_simlpe("a", el => /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开剩余/g.test(el.text) && el.target != '_blank');
-    console.log("showMore ", mores);
+    //console.log("showMore ", mores);
     for (let more of mores) {
         if (!more.href.startsWith("http") || more.href.startsWith("http") && more.href.includes(rootHost)) {
             more.click();
@@ -239,7 +239,7 @@ function showMore() {
     }
 
     mores = get_elements_simlpe("span", el => /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开(剩余|阅读)/g.test(el.textContent));
-    console.log("showMore span ", mores);
+    //console.log("showMore span ", mores);
     for (let more of mores) {
         more.click();
     }
@@ -263,7 +263,7 @@ function removeOnClick(aTag) {
 }
 
 function createNewTag(aTag) {
-    console.log("rewriteOnClick", aTag)
+    //console.log("rewriteOnClick", aTag)
     if (!aTag.onclick && aTag.href) {
         aTag.onclick = function antiRedirectOnClickFn(e) {
             e.stopPropagation();
@@ -279,15 +279,15 @@ function createNewTag(aTag) {
 }
 
 function interval(func, period = 500) {
-    console.log("interval", func)
+    //console.log("interval", func)
     setInterval(func, period)
 }
 
 function urlDecode(aTag, query) {
-    console.log("urlDecode", query, aTag)
+    //console.log("urlDecode", query, aTag)
     let url = new URL(aTag.href);
     aTag.href = decodeURIComponent(query && url.searchParams.get(query) || url.search.replace("?", ""))
-    console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
+    // console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
 }
 
 function removeClick() {

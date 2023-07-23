@@ -11,7 +11,7 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |     1.3.21     |                          |
 | [Everything](https://www.voidtools.com/zh-cn/)               |   1.4.1.1024   |                          |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |     2.1.8      | 文字扩展                 |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |    1.37.53     |                          |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |    1.37.54     |                          |
 | [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.2      | chatgpt免费客户端,面登录 |
 | [Listary](https://www.listary.com/)                          |   6.0.11.35    | 启动器                   |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.07 (180256) | 脑图                     |
