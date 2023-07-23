@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.7.2
+// @version      1.7.3
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-07-17 1.7.1  网盘超链接,查找子元素密码, 修复部分百度网盘状态识别错误
+// @note         23-07-23 1.7.3  兼容缩略链接,自动查找完整链接
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -38,8 +38,8 @@
     'use strict';
 
     var manifest = {
-        "debugId": "BGlVZ1M",
-        "logger_level": 3,
+        "debugId": "1p4fyOm",
+        "logger_level": 0,
         "checkTimes": 20,
         "checkInterval": 4,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
@@ -1057,6 +1057,11 @@
         };
 
         obj.runAppList = function (appList) {
+            // 移除知乎错误的attr
+            $(document).ready(function () {
+                setTimeout(() => $("div").removeAttr("href"), 5000)
+            });
+
             var url = location.href;
             var rrr = document.body.innerText.match(/\/([\w-]{4,})(?:\.html)?(?:.*)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
             for (var s in rrr) {
@@ -1074,12 +1079,10 @@
             }
             for (var i in appList) {
                 var app = appList[i];
-
                 var match = obj.matchApp(url, app);
                 if (match == false) {
                     continue;
                 }
-
                 if (require(app.name).run() == true) {
                     break;
                 }
@@ -1294,7 +1297,7 @@
 
         obj.runMatch = function () {
 
-            // 创建span
+            // 创建链接span
             for (var rule in constant) {
                 obj.replaceTextAsLink(constant[rule]["replaceReg"], rule, function (match) {
                     return match[1];
@@ -1309,7 +1312,7 @@
                     return;
                 }
                 if (href) {
-					href = href.replace("#list/path=%2F","");
+                    href = href.replace("#list/path=%2F", "");
                     // 匹配域名
                     if (href.includes(manifest["debugId"])) {
                         logger.error("补超链接  --" + href + "--");
@@ -1330,15 +1333,22 @@
                 }
             });
 
-            // 检查链接状态
+            // 检查链接状态并加上超链接
             $(".one-pan-tip:not([one-tip-mark])").each(function () {
                 let $this = $(this);
                 $this.attr("one-tip-mark", "yes");
                 let shareSource = $this.attr("one-source");
                 let shareId = $this.attr("one-id");
+
+                var shareId2 = RegExp(shareId + "[\\w-]+").exec(document.body.innerHTML);
+                if (shareId2 && shareId != shareId2[0]) {
+                    logger.error("shareId 2 ", shareId, shareId2[0]);
+                    shareId = shareId2[0];
+                }
                 let pwd = $this.attr("one-pwd");
 
                 let parentNode = this.parentNode;
+                let pp = parentNode.parentNode;
                 let shareUrl = obj.buildShareUrl(shareId, shareSource, pwd);
                 pwd = $this.attr("one-pwd");
 
@@ -1402,14 +1412,31 @@
                 find: shareMatch,
                 replace: function (portion, match) {
                     let parentNode = portion.node.parentNode;
-                    if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")) {
+                    let pp = parentNode.parentNode;
+                    let ppp = pp.parentNode;
+                    if (parentNode.nodeName == "SPAN" && $(parentNode).hasClass("one-pan-tip")
+                         || $(portion.node).hasClass("one-pan-tip")
+                         || (pp.nodeName == "SPAN" && $(pp).hasClass("one-pan-tip"))
+                         || (ppp.nodeName == "SPAN" && $(ppp).hasClass("one-pan-tip"))
+                         || !portion.text.includes("/")) {
                         return portion.text;
                     } else {
                         let shareId = getShareId(match);
+                        if (shareId.includes(manifest["debugId"])) {
+                            logger.error("replaceTextAsLink 000  ", portion, pp);
+                            logger.error("replaceTextAsLink 001  ", pp.innerText);
+                        }
+
+                        var shareId2 = RegExp(shareId + "[\\w-]+").exec(document.body.inn);
+                        if (shareId2) {
+                            shareId = shareId2[0];
+                        }
+
                         let node = obj.createOneSpanNode(shareId, shareSource);
                         node.textContent = obj.buildShowText(shareId, shareSource);
                         if (shareId.includes(manifest["debugId"])) {
                             logger.error("replaceTextAsLink  " + shareId, node);
+                            logger.error("replaceTextAsLink shareId2  ", shareId2);
                         }
                         return node;
                     }
@@ -1424,11 +1451,20 @@
             var tag = document.querySelector("a[href*='" + shareId + "']");
             if (tag) {
                 var reg = new RegExp("(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
+                console.log("___ a href 0", tag.href);
                 var mm = reg.exec(tag.innerText);
                 if (mm && mm[1]) {
                     //tag.href =obj.buildShareUrl(shareId,shareSource,mm[1]);
-                    //console.log("___ a href", tag.href);
+                    console.log("___ a href 1", tag.href,mm[1]);
                     return mm[1];
+                } else {
+                    var regHref = /(?:pwd=|#)([a-zA-Z\d]{4,8})/g;
+                    mm = regHref.exec(decodeURIComponent(tag.href));
+                    if (mm && mm[1]) {
+                        //tag.href =obj.buildShareUrl(shareId,shareSource,mm[1]);
+                        console.log("___ a href 2", mm);
+                        return mm[1];
+                    }
                 }
             }
         }
