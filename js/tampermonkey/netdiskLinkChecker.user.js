@@ -39,7 +39,7 @@
 
     var manifest = {
         "debugId": "1p4fyOm",
-        "logger_level": 0,
+        "logger_level": 3,
         "checkTimes": 20,
         "checkInterval": 4,
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
