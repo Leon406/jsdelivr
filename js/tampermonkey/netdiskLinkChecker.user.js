@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.7.3
+// @version      1.8.0
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-07-23 1.7.3  兼容缩略链接,自动查找完整链接
+// @note         23-07-27 1.8.0  支持阿里云快传
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -288,6 +288,44 @@
                             } else if (response['code'] && response['code'] == "ParamFlowException") {
                                 state = 0;
                             } else if (response['code'] || response['file_count'] && response['file_count'] == 0) {
+                                state = -1;
+                            }
+
+                            callback && callback({
+                                state: state
+                            });
+                        },
+                        error: function () {
+                            callback && callback({
+                                state: 0
+                            });
+                        }
+                    });
+                }
+            },
+            aliyun2: {
+                reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/t\/([\w\-]{8,})(?![.\/])$/gi,
+                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/t\/([\w\-]{8,})(?![.\/])/gi,
+                prefix: "https://www.aliyundrive.com/t/",
+                checkFun: (shareId, callback) => {
+                    logger.info("aliyun2 id ", shareId);
+                    http.ajax({
+                        type: "post",
+                        url: "https://api.aliyundrive.com/adrive/v1/share/getByAnonymous?share_id=" + shareId,
+                        data: JSON.stringify({
+                            share_id: shareId
+                        }),
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        dataType: "json",
+                        success: (response) => {
+                            logger.debug("aliyun2 response ", response);
+                            let state = 1;
+                            // 请求限制
+                            if (!response) {
+                                state = 0
+                            } else if (response['code'] && (response['code'].includes("Exceed") || response['code'].includes("ShareNotFound"))) {
                                 state = -1;
                             }
 
@@ -1455,7 +1493,7 @@
                 var mm = reg.exec(tag.innerText);
                 if (mm && mm[1]) {
                     //tag.href =obj.buildShareUrl(shareId,shareSource,mm[1]);
-                    console.log("___ a href 1", tag.href,mm[1]);
+                    console.log("___ a href 1", tag.href, mm[1]);
                     return mm[1];
                 } else {
                     var regHref = /(?:pwd=|#)([a-zA-Z\d]{4,8})/g;
