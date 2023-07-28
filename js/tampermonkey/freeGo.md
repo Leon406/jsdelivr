@@ -16,6 +16,8 @@
 - [知乎专栏](https://zhuanlan.zhihu.com/p/20549978)
 - [豆瓣](https://www.douban.com/doulist/222008/)
 - [企查查](https://www.qcc.com/firm/3f603703d59a04cbe427e5825099a565.html)
+- [爱企差](https://aiqicha.baidu.com/company_detail_28667776528624)
+- [天眼查](https://www.tianyancha.com/company/6943764/jingzhuang)
 - [如有分享](https://51.ruyo.net/15053.html)
 - [google文档](https://docs.google.com/spreadsheets/d/1TFcEXMcKrwoIAECIVyBU0GPoSmRqZ7A0VBvqeKYVSww/htmlview)
 - YouTube

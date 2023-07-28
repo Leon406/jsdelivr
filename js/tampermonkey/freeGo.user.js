@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.07.23
+// @version      2023.07.28
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -93,14 +93,24 @@ const REAL_GO = {
         query: "pfurl",
         action: urlDecode
     },
-     "weibo.cn": {
+    "weibo.cn": {
         prefix: "https://weibo.cn/sinaurl?u=",
         query: "u",
         action: urlDecode
     },
-	"www.qcc.com": {
+    "aiqicha.baidu.com": {
+        prefix: "https://aiqicha.baidu.com/safetip?",
+        query: "target",
+        action: rawText
+    },
+    "www.qcc.com": {
         prefix: "https://www.qcc.com/web/transfer-link?",
-        query: "link",
+        query: "target",
+        action: urlDecode
+    },
+    "www.tianyancha.com": {
+        prefix: "https://www.tianyancha.com/security",
+        query: "target",
         action: urlDecode
     },
     "leetcode.cn": {
@@ -111,7 +121,7 @@ const REAL_GO = {
     "www.jianshu.com": {
         prefix: "https://link.jianshu.com",
         query: "t",
-		prefix2: "https://www.jianshu.com/go-wild",
+        prefix2: "https://www.jianshu.com/go-wild",
         query2: "url",
         action: urlDecode
     },
@@ -120,13 +130,13 @@ const REAL_GO = {
         query: "url",
         action: urlDecode
     },
-     "nowcoder.com": {
+    "nowcoder.com": {
         prefix: "https://hd.nowcoder.com/link.html?target=",
         query: "target",
         action: urlDecode
     },
 
-     "steamcommunity.com": {
+    "steamcommunity.com": {
         prefix: "https://steamcommunity.com/linkfilter/?url=",
         query: "url",
         action: urlDecode
@@ -157,7 +167,7 @@ const REAL_GO = {
         query: "q",
         action: urlDecode
     },
-	"www.linkedin.com": {
+    "www.linkedin.com": {
         prefix: "https://www.linkedin.com/redir/redirect?",
         query: "url",
         action: urlDecode
@@ -287,7 +297,12 @@ function urlDecode(aTag, query) {
     //console.log("urlDecode", query, aTag)
     let url = new URL(aTag.href);
     aTag.href = decodeURIComponent(query && url.searchParams.get(query) || url.search.replace("?", ""))
-    // console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
+        // console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
+}
+
+function rawText(aTag, query) {
+    console.log("rawText", query, aTag)
+    aTag.href = query
 }
 
 function removeClick() {
@@ -319,33 +334,33 @@ function findAllHref(rule = "http") {
     console.log("====rule 11", rule)
     if (rule && rule.prefix && window.location.href.startsWith(rule.prefix)) {
         let url = new URL(window.location.href);
-		let targetUrl= decodeURIComponent(rule.query && url.searchParams.get(rule.query) || url.search.replace("?", ""))
-        window.location.href = targetUrl.includes("://")? targetUrl: ("https://"+targetUrl);
+        let targetUrl = decodeURIComponent(rule.query && url.searchParams.get(rule.query) || url.search.replace("?", ""));
+        window.location.href = targetUrl.includes("://") ? targetUrl : ("https://" + targetUrl);
         console.log("redirect-------->", window.location.href)
         return;
     }
 
-	if (rule && rule.prefix2 && window.location.href.startsWith(rule.prefix2)) {
+    if (rule && rule.prefix2 && window.location.href.startsWith(rule.prefix2)) {
         let url = new URL(window.location.href);
-		let targetUrl= decodeURIComponent(rule.query2 && url.searchParams.get(rule.query2) || url.search.replace("?", ""))
-        window.location.href = targetUrl.includes("://")? targetUrl: ("https://"+targetUrl);
+        let targetUrl = decodeURIComponent(rule.query2 && url.searchParams.get(rule.query2) || url.search.replace("?", ""))
+            window.location.href = targetUrl.includes("://") ? targetUrl : ("https://" + targetUrl);
         console.log("redirect2-------->", window.location.href)
         return;
     }
 
-	// 有的页面不触发 onload
-	setTimeout(() => {
-	      showMore();
-	   }, 3000)
+    // 有的页面不触发 onload
+    setTimeout(() => {
+        showMore();
+    }, 3000)
     window.onload = function () {
-		showMore();
+        showMore();
         setTimeout(() => {
             console.log("====rule", rule)
             if (rule) {
                 rule.prefix && findAllHref(rule.prefix).forEach(el => {
                     rule.action && rule.action(el, rule.query)
                 });
-				rule.prefix2 && findAllHref(rule.prefix2).forEach(el => {
+                rule.prefix2 && findAllHref(rule.prefix2).forEach(el => {
                     rule.action && rule.action(el, rule.query2)
                 });
                 rule.func && rule.func()
