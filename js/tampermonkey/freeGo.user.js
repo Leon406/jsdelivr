@@ -62,6 +62,11 @@ const REAL_GO = {
         query: "target",
         action: urlDecode
     },
+    "cloud.tencent.com": {
+        prefix: "https://cloud.tencent.com/developer/tools/blog-entry?",
+        query: "target",
+        action: urlDecode
+    },
     "gitee.com": {
         prefix: "https://gitee.com/link?target=",
         query: "target",
