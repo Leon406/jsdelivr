@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2023.07.28
+// @version      2023.08.02
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
 // @run-at       document-start
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
-// @grant        none
+// @connect        *
+// @grant        GM_xmlhttpRequest
 // @exclude 	 *://login.live.com/*
 // @exclude 	 *://*.aliyun.com/*
 // @exclude 	 *://*.google.*/*
@@ -208,7 +209,12 @@ const REAL_GO = {
         query: "href",
         action: urlDecode,
         func: () => get_elements("a", filterThirdATag).forEach(stopropagation)
-    }
+    },
+    "www.bing.com": {
+        prefix: "https://www.bing.com/ck/a",
+		query: "href",
+        action: request
+    },
 }
 
 function filterThirdATag(aTag) {
@@ -308,6 +314,25 @@ function urlDecode(aTag, query) {
 function rawText(aTag, query) {
     console.log("rawText", query, aTag)
     aTag.href = query
+}
+
+function request(aTag, query) {
+    GM_xmlhttpRequest({
+        method: "get",
+        url: aTag.href,
+        onload: function (response) {
+            var myregexp = /u *= *"([^"]*)"/;
+            var match = myregexp.exec(response.responseText);
+            if (match != null) {
+                result = match[1];
+                aTag.href = result
+            } else {
+                result = "";
+            }
+            console.log("request", result)
+        }
+    });
+
 }
 
 function removeClick() {
