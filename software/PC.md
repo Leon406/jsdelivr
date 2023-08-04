@@ -1,4 +1,4 @@
-2023年7月30日20:03:44
+
 
 
 
@@ -15,8 +15,8 @@
 | [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.3      | chatgpt免费客户端,面登录 |
 | [Listary](https://www.listary.com/)                          |   6.0.11.35    | 启动器                   |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.07 (180256) | 脑图                     |
-| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |     0.71.0     | 微软官方工具集           |
-|                                                              |                | 自有ai账号+科学上网      |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |     0.72.0     | 微软官方工具集           |
+|                                                              |                |                          |
 |                                                              |                |                          |
 
 
@@ -25,7 +25,7 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoux.com/b0dpuinvg) | 6.41.15 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.41.15 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.6.1 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.6  | 蓝奏云客户端    |
@@ -41,7 +41,7 @@
 | [jadx-gui](https://github.com/skylot/jadx/releases)   github **跨平台** |     1.4.7     | Android反编译        |
 | AndroidKiller | 1.3.1 | Android反编译 |
 | [010Editor](https://www.sweetscape.com/010editor/) | 13.0.2 | 二进制查看编辑 |
-| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoux.com/b0f1bltdg) |      20.8      | 二进制查看编辑       |
+| [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoub.com/b0f1bltdg) |      20.8      | 二进制查看编辑       |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     v6.4.0     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
@@ -52,11 +52,11 @@
 
 ## HackerTools
 
-| 软件                                                         |  版本  | 说明                                          |
-| ------------------------------------------------------------ | :----: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |  7.94  | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.8 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |        |                                               |
+| 软件                                                         |   版本   | 说明                                          |
+| ------------------------------------------------------------ | :------: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.94   | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.8.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+|                                                              |          |                                               |
 
 ## 科学
 
@@ -64,7 +64,7 @@
 | ------------------------------------------------------------ | :----: | ------------- |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.8.10 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.30 |  |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.31 |  |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.28  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
@@ -82,17 +82,17 @@
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0128 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.0  | redis工具                             |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.80.1 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.81.0 | 编辑器                                |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.5.4 | 文本编辑 |
-| [EmEditor](https://support.emeditor.com/en/downloads) | 22.5.0 | 编辑器 支持大文件 |
+| [EmEditor](https://support.emeditor.com/en/downloads) | 22.5.1 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.3.9 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.1.8  | 接口测试                              |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoux.com/b06mtfjkh) |  3.2.7  | github 桌面端                         |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.2.7  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.16.0 | 个人开发的开发者工具 |
 | [He3](https://he3.app/) **跨平台** | 1.3.23 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
 | [Recaf](https://github.com/Col-E/Recaf)<br>  [jclasslib](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.13<br>6.0.4 | jar修改工具 |
-| [RegexBuddy 4](https://www.lanzoux.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) | 4.14 | 正则工具 |
+| [RegexBuddy 4](https://www.lanzoub.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) | 4.14 | 正则工具 |
 | [AnLink](https://cn.anlinksoft.com/changelog/) | 3.10 | Android 投屏电脑 |
 |  |  |  |
 
@@ -104,13 +104,13 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          10.2          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.5.0         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.0.2 | 远程控制 速度快 |
+| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.0.4 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.14       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.57          | 注册表查找工具  |
-| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzouX.com/b00z9jgni) |         3.64         | ftp工具         |
+| [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzoub.com/b00z9jgni) |         3.64         | ftp工具         |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
@@ -133,7 +133,7 @@
 
 | 软件                                                  |    版本    | 说明       |
 | ----------------------------------------------------- | :--------: | ---------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191166 | 文件恢复   |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191223 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.90    | 系统检测   |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.94   | 系统启动盘 |
 |                                                       |            |            |
@@ -145,7 +145,7 @@
 | 软件                                                         | 版本  | 说明                 |
 | ------------------------------------------------------------ | :---: | -------------------- |
 | [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  | 1.98  | 图片格式转换汉化工具 |
-| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoux.com/b06llfb9e?pwd=ew3u) | 5.14  | 音视频格式转换       |
+| [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoub.com/b06llfb9e?pwd=ew3u) | 5.15  | 音视频格式转换       |
 | 小丸工具箱                                                   |  236  |                      |
 | [ShanaEncoder](https://shana.pe.kr/)                         | 5.3.1 |                      |
 
