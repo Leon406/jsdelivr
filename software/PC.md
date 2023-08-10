@@ -1,6 +1,6 @@
 
 
-
+2023年8月10日08:46:17
 
 ## 生产力工具
 
@@ -12,7 +12,7 @@
 | [Everything](https://www.voidtools.com/zh-cn/)               |   1.4.1.1024   |                          |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |     2.1.8      | 文字扩展                 |
 | [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |    1.37.56     |                          |
-| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.3      | chatgpt免费客户端,面登录 |
+| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.4      | chatgpt免费客户端,面登录 |
 | [Listary](https://www.listary.com/)                          |   6.0.11.35    | 启动器                   |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.07 (180256) | 脑图                     |
 | [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |     0.72.0     | 微软官方工具集           |
@@ -25,7 +25,7 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.41.15 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.41.18 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.6.1 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
 | [蓝奏云盘](https://github.com/rachpt/lanzou-gui) [leon406优化版](https://github.com/Leon406/lanzou-gui) |  0.6.6  | 蓝奏云客户端    |
@@ -52,11 +52,11 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本   | 说明                                          |
-| ------------------------------------------------------------ | :------: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.94   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.8.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |          |                                               |
+| 软件                                                         |  版本  | 说明                                          |
+| ------------------------------------------------------------ | :----: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |  7.94  | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.9 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+|                                                              |        |                                               |
 
 ## 科学
 
@@ -77,16 +77,15 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  23.2  | 终端工具                              |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.1](http://download.navicat.com.cn/download/navicat161_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 16.2.5<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) |  8.5.4  | 文本编辑                              |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.6  | 文件比对同步工具,备份                   |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0128 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.0  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.81.0 | 编辑器                                |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.5.4 | 文本编辑 |
-| [EmEditor](https://support.emeditor.com/en/downloads) | 22.5.1 | 编辑器 支持大文件 |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.3.9 | 接口测试 |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.1.8  | 接口测试                              |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.5.5 | 文本编辑 |
+| [EmEditor](https://support.emeditor.com/en/downloads) | 22.5.2 | 编辑器 支持大文件 |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.3.10 | 接口测试 |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.1.9  | 接口测试                              |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.2.7  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.16.0 | 个人开发的开发者工具 |
 | [He3](https://he3.app/) **跨平台** | 1.3.23 | 开发工具 |
@@ -113,12 +112,12 @@
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzoub.com/b00z9jgni) |         3.64         | ftp工具         |
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
-| [Cute Http File Server ](http://iscute.cn/chfs)             |          2.0           | 文件服务器      |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      115.0.1901.188      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      115.0.5790.110      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      115.0.1901.200      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      116.0.5845.82      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
+| [Cute Http File Server ](http://iscute.cn/chfs) | 2.0 | 文件服务器 |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) github | 4.0.1 | OCR powertoy内置 |
 | [keyviz](https://github.com/mulaRahul/keyviz) github | 1.0.6 | 快捷键显示 |
@@ -133,7 +132,7 @@
 
 | 软件                                                  |    版本    | 说明       |
 | ----------------------------------------------------- | :--------: | ---------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191223 | 文件恢复   |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.2.191227 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    6.90    | 系统检测   |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.94   | 系统启动盘 |
 |                                                       |            |            |
@@ -194,11 +193,11 @@
 
 | [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |                版本                 | 说明                                  |
 | ------------------------------------------------------------ | :---------------------------------: | ------------------------------------- |
-| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.20<br/>7.0.9           |                                       |
+| [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET7](https://dotnet.microsoft.com/zh-cn/download/dotnet/7.0) |          6.0.21<br/>7.0.10          |                                       |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/>   [LTS 镜像](https://helpx.adobe.com/cn/coldfusion/kb/coldfusion-downloads.html#third_party) |    8u381<br/>11.0.20<br/>17.0.8     | [whichjdk.com](https://whichjdk.com/) |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.17  3.11.4<br/>2022.10 (3.9.13) | 建议3.9版本                           |
 | [git](https://git-scm.com/)                                  |               2.41.0                |                                       |
-| [nodejs](https://nodejs.org/zh-cn)                           |              18.17 LTS              |                                       |
+| [nodejs](https://nodejs.org/zh-cn)                           |             18.17.1 LTS             |                                       |
 
 
 
