@@ -17,4 +17,4 @@ https://raw.githubusercontent.com/shiran588/jiedian/main/jd1.txt
 https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
 https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt
 https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml
-
+https://raw.githubusercontent.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml
