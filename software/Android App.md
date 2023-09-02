@@ -1,13 +1,13 @@
-2023年7月22日08:45:30
+2023年9月2日22:06:13
 
 ## 系统管理
 
 | 软件名称                                                     | 版本    | 描述                                            |
 | ------------------------------------------------------------ | ------- | ----------------------------------------------- |
-| ES文件浏览器 [下载](https://pan.lanzoub.com/b0f1d7s2h)       | 4.4.0.9 | 文件管理工具                                    |
-| [Solid Explorer](https://pan.lanzoub.com/b0f19gdfa)          | 2.8.34  | 本地文件管理器，云服务管理器                    |
-| [N.P管理器](https://pan.lanzoub.com/b06m0cevg?pwd=aji6)  aji6 | 3.0.73  | 与MT管理器类似,都提供了反编译等安卓上逆向的功能 |
-| [Root Explorer](https://pan.lanzoub.com/b06ll1dfi?pwd=4qga)  4qga | 4.11.5  | 文件管理                                        |
+| ES文件浏览器 [下载](https://pan.lanzoub.com/b0f1d7s2h)       | 4.4.1.0 | 文件管理工具                                    |
+| [Solid Explorer](https://pan.lanzoub.com/b0f19gdfa)          | 2.8.35  | 本地文件管理器，云服务管理器                    |
+| [N.P管理器](https://pan.lanzoub.com/b06m0cevg?pwd=aji6)  aji6 | 3.0.76  | 与MT管理器类似,都提供了反编译等安卓上逆向的功能 |
+| [Root Explorer](https://pan.lanzoub.com/b06ll1dfi?pwd=4qga)  4qga | 4.12.1  | 文件管理                                        |
 
 
 
@@ -17,8 +17,10 @@
 | ------------------------------------------------------------ | -------- | -------------------------- |
 | [Ookla Speedtest](https://pan.lanzoub.com/b0f19i6af)         | 5.0.6    | 手机网速测试工具           |
 | [泰尔网测](https://www.coolapk.com/apk/com.knowyou.perception) | 1.3.27   | 手机网速测试工具           |
-| [一指禅](https://estar.lanzoub.com/11o)                      | 3.4.7    | 闪屏跳过                   |
-| [叮小跳](https://tiao.pro/)                                  |          | 闪屏跳过                   |
+| [一指禅](https://estar.lanzoub.com/11o) 已G                  | 3.4.7    | 闪屏广告跳过               |
+| [叮小跳](https://tiao.pro/) 已G  [第三方备份及规则](https://github.com/Snoopy1866/LiTiaotiao-Custom-Rules) |          | 闪屏广告跳过               |
+| [Android-Touch-Helper](https://github.com/zfdang/Android-Touch-Helper/tree/master) github |          | 闪屏广告跳过               |
+| [gkd ](https://github.com/gkd-kit/gkd) github                |          | 闪屏广告跳过               |
 | [QR](https://www.lanzoub.com/b06lnskqf?pwd=8qxr)  8qxr       | 2.7\.3-P | 扫码                       |
 | [讯飞语记](https://pan.lanzoub.com/b06llc0sj?pwd=e86t) e86t  | 7.5.1399 |                            |
 | [设备信息DevInfo](https://pan.lanzoub.com/b06mcp2le?pwd=e5gl)  e5gl | 2.9.4.2  |                            |
@@ -37,11 +39,11 @@
 | [xmind](https://pan.lanzoub.com/b06lkjpah?pwd=i592)   i592   | 23.05.25    |           |
 | [MX Player](https://pan.lanzoub.com/b0f19eo3c)               | 1.60.3      |           |
 | [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 7.56        |           |
-| [阅读](https://www.coolapk.com/apk/256030)                   | 3.23.072018 | 小说/漫画 |
+| [阅读](https://www.coolapk.com/apk/256030)                   | 3.23.073011 | 小说/漫画 |
 | [异次元](https://www.lanzoub.com/b595600)                    | 2.4.2       | 漫画      |
 | [PureTure](https://pan.lanzoub.com/b0f2lkrab)                | 3.3.8.104   | 油管      |
 | [五音助手](https://www.lanzoub.com/b00nbytqj)                | 2.10.6      | 音乐      |
-| [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.15.0      | 油管      |
+| [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.17.1      | 油管      |
 |                                                              |             |           |
 
 
@@ -58,11 +60,11 @@
 
 ## 科学
 
-| 软件名称                                                     | 版本  | 描述           |
-| ------------------------------------------------------------ | ----- | -------------- |
-| [Telegram](https://telegram.org/android)  [github](https://github.com/DrKLO/Telegram) | 9.6   | 电报,加密通信  |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) | 1.1.6 | 科学工具       |
-| [Gbox](https://www.gboxlab.com/)                             |       | google框架安装 |
+| 软件名称                                                     | 版本   | 描述           |
+| ------------------------------------------------------------ | ------ | -------------- |
+| [Telegram](https://telegram.org/android)  [github](https://github.com/DrKLO/Telegram) | 10.0.1 | 电报,加密通信  |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) | 1.2.3  | 科学工具       |
+| [Gbox](https://www.gboxlab.com/)                             |        | google框架安装 |
 
 ## crack更新合集
 

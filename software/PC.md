@@ -1,23 +1,23 @@
 
 
-2023年8月27日07:52:16
+s\2023年9月2日21:43:15
 
 ## 生产力工具
 
-| 软件                                                         |      版本      | 说明                     |
-| ------------------------------------------------------------ | :------------: | ------------------------ |
-| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |     2.1.37     | 全局鼠标手势,仅windows   |
-| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |     7.0.0      | 剪切板管理工具           |
-| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |     1.3.24     |                          |
-| [Everything](https://www.voidtools.com/zh-cn/)               |   1.4.1.1024   |                          |
-| [espanso](https://github.com/espanso/espanso) github **跨平台** |     2.1.8      | 文字扩展                 |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |    1.40.65     | 需要自有账号             |
-| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |     3.6.4      | chatgpt免费客户端,免登录 |
-| [Listary](https://www.listary.com/)                          |   6.0.11.35    | 启动器                   |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.07 (201366) | 脑图                     |
-| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |     0.72.0     | 微软官方工具集           |
-|                                                              |                |                          |
-|                                                              |                |                          |
+| 软件                                                         |    版本     | 说明                     |
+| ------------------------------------------------------------ | :---------: | ------------------------ |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |   2.1.37    | 全局鼠标手势,仅windows   |
+| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |    7.0.0    | 剪切板管理工具           |
+| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                          |
+| [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                          |
+| [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.1.8    | 文字扩展                 |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.40.67   | 需要自有账号             |
+| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |    3.6.4    | chatgpt免费客户端,免登录 |
+| [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                   |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.08.02122 | 脑图                     |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.72.0    | 微软官方工具集           |
+|                                                              |             |                          |
+|                                                              |             |                          |
 
 
 
@@ -52,11 +52,11 @@
 
 ## HackerTools
 
-| 软件                                                         |  版本   | 说明                                          |
-| ------------------------------------------------------------ | :-----: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |  7.94   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.10 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |         |                                               |
+| 软件                                                         |   版本    | 说明                                          |
+| ------------------------------------------------------------ | :-------: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.94    | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.10.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+|                                                              |           |                                               |
 
 ## 科学
 
@@ -64,7 +64,7 @@
 | ------------------------------------------------------------ | :----: | ------------- |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.9.3 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.32 |  |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.33 |  |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.28  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
@@ -113,8 +113,8 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      116.0.1938.62      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      116.0.5845.111      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      116.0.1938.69      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      116.0.5845.141      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) | 2.0 | 文件服务器 |
@@ -175,7 +175,7 @@
 | 软件                                                         |   版本   | 说明           |
 | ------------------------------------------------------------ | :------: | -------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno) [六音](https://www.sixyin.com/8498.html) **跨平台** |  2.3.0   | 音乐助手       |
-| [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.5  | 音乐解锁       |
+| [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.6  | 音乐解锁       |
 | [魔音](http://morin.vin/)                                    |  2.8.0   | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析    |
