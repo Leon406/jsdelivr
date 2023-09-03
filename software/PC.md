@@ -1,6 +1,6 @@
 
 
-s\2023年9月2日21:43:15
+2023年9月2日21:43:15
 
 ## 生产力工具
 
@@ -68,9 +68,9 @@ s\2023年9月2日21:43:15
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.28  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
-|  |  |  |
+| [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.8 | 反代steam, github等 |
 
-## 开发
+## 发
 
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
@@ -102,11 +102,11 @@ s\2023年9月2日21:43:15
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          10.2          | 截图编辑工具    |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.5.0         | 图片查看        |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.5.3         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.0.4 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38.1         | gif 制作工具    |
-| [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.14       | 硬盘空间分析    |
+| [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.15       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.57          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzoub.com/b00z9jgni) |         3.64         | ftp工具         |
@@ -179,7 +179,7 @@ s\2023年9月2日21:43:15
 | [魔音](http://morin.vin/)                                    |  2.8.0   | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析    |
-| [Golden Dict ng](https://github.com/xiaoyifang/goldendict) **跨平台** | 23.07.23 | 词典翻译       |
+| [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 23.07.23 | 词典翻译       |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github **跨平台** |  1.1.3   | RSS阅读        |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github **跨平台** |  2.0.4   | 屏幕共享       |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github <br>如果已使用Golden Dict可使用 [扩展程序](https://github.com/Leon406/pyutil/tree/master/translate) |  11.0.2  | 翻译           |
