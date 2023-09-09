@@ -1,6 +1,6 @@
 
 
-2023年9月2日21:43:15
+2023年9月9日13:23:53
 
 ## 生产力工具
 
@@ -25,10 +25,10 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.41.18 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.41.20 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.6.3 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
-| [leon406优化版](https://github.com/Leon406/lanzou-gui)<br>[蓝奏云盘(已停止维护)](https://github.com/rachpt/lanzou-gui) |  0.6.8  | 蓝奏云客户端    |
+| [leon406优化版](https://github.com/Leon406/lanzou-gui)<br>[蓝奏云盘(已停止维护)](https://github.com/rachpt/lanzou-gui) |  0.6.10  | 蓝奏云客户端    |
 | ducode                                                    |   N/A   | 度盘本地文件秒传码    |
 |                                                           |         |                    |
 
@@ -43,7 +43,7 @@
 | [010Editor](https://www.sweetscape.com/010editor/) | 14.0 | 二进制查看编辑 |
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoub.com/b0f1bltdg) |      20.8      | 二进制查看编辑       |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
-| [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     v6.4.0     | .Net 逆向工具        |
+| [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     v6.4.1     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
 | [WiresharkPortable](https://www.wireshark.org/download.html) **跨平台** |     4.0.8     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
@@ -62,31 +62,31 @@
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.9.3 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.9.5 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.33 |  |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.34 |  |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.28  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.8 | 反代steam, github等 |
 
-## 发
+## 开发
 
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  23.2  | 终端工具                              |
-| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.2](http://download.navicat.com.cn/download/navicat162_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 16.2.7<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.2](http://download.navicat.com.cn/download/navicat162_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 16.2.10<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.6  | 文件比对同步工具,备份                   |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.1.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0128 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.0  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.81.1 | 编辑器                                |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.5.6 | 文本编辑 |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.5.7 | 文本编辑 |
 | [EmEditor](https://support.emeditor.com/en/downloads) | 22.5.2 | 编辑器 支持大文件 |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.3.12 | 接口测试 |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.1.9  | 接口测试                              |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.2.9  | github 桌面端                         |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.3.15 | 接口测试 |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.2.1  | 接口测试                              |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.3.1  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.16.0 | 个人开发的开发者工具 |
 | [He3](https://he3.app/) **跨平台** | 1.3.23 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.6.1 | 开发文档查看 |
@@ -102,8 +102,8 @@
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          10.2          | 截图编辑工具    |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.5.3         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.0.4 | 远程控制 速度快 |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.5.5         | 图片查看        |
+| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.1.4 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.15       | 硬盘空间分析    |
@@ -113,7 +113,7 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      116.0.1938.69      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      116.0.1938.76      | 浏览器          |
 | [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      116.0.5845.141      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
@@ -176,10 +176,10 @@
 | ------------------------------------------------------------ | :------: | -------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) [无损音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno) [六音](https://www.sixyin.com/8498.html) **跨平台** |  2.3.0   | 音乐助手       |
 | [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.6  | 音乐解锁       |
-| [魔音](http://morin.vin/)                                    |  2.8.0   | 音乐播放       |
+| [方格](http://morin.vin/)                                    |   1.0    | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析    |
-| [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 23.07.23 | 词典翻译       |
+| [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 23.09.08 | 词典翻译       |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github **跨平台** |  1.1.3   | RSS阅读        |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github **跨平台** |  2.0.4   | 屏幕共享       |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github <br>如果已使用Golden Dict可使用 [扩展程序](https://github.com/Leon406/pyutil/tree/master/translate) |  11.0.2  | 翻译           |
