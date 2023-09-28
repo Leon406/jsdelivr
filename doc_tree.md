@@ -1,5 +1,4 @@
-文件夹 PATH 列表
-E:\GITREPO\JSDELIVR
+E:\GITHUB\JSDELIVR
 │  doc_tree.md
 │  pull.bat
 │  pull.sh
@@ -3540,6 +3539,7 @@ E:\GITREPO\JSDELIVR
 ├─software
 │      Android App.md
 │      font.md
+│      Mirrors.md
 │      PC.md
 │      
 └─subscribe
