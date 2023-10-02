@@ -1,6 +1,6 @@
 
 
-2023年9月29日12:49:09
+2023年10月2日17:52:54
 
 ## 生产力工具
 
@@ -11,7 +11,7 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                          |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                          |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.1.8    | 文字扩展                 |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.48.72   | 需要自有账号             |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.50.73   | 需要自有账号             |
 | [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |    3.6.5    | chatgpt免费客户端,免登录 |
 | [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                   |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.09.09172 | 脑图                     |
@@ -52,29 +52,29 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本    | 说明                                          |
-| ------------------------------------------------------------ | :-------: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.94    | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.10.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |           |                                               |
+| 软件                                                         |    版本     | 说明                                          |
+| ------------------------------------------------------------ | :---------: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |    7.94     | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.10.2.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+|                                                              |             |                                               |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.10.1 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.10.2 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
 | [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.36 |  |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.29  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.7.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
-| [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.28 | 反代steam, github等 |
+| [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.29 | 反代steam, github等 |
 
 ## 开发
 
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
-| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  23.2  | 终端工具                              |
+| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  23.3  | 终端工具                              |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.2](http://download.navicat.com.cn/download/navicat162_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 16.2.10<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.6  | 文件比对同步工具,备份                   |
@@ -105,7 +105,7 @@
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.5.5         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.1.5 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
-| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.38.1         | gif 制作工具    |
+| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.39         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.15       | 硬盘空间分析    |
 | [PcMaster软媒魔方](https://mofang.ruanmei.com/?f=pcmaster)   |        6.2.5.0         | 系统工具        |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.57          | 注册表查找工具  |
@@ -179,7 +179,7 @@
 | [方格](http://morin.vin/)                                    |   1.0    | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.2    | 最优dns解析    |
-| [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 23.09.08 | 词典翻译       |
+| [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 23.09.29 | 词典翻译       |
 | [Fluent Reader](https://github.com/yang991178/fluent-reader/releases/) github **跨平台** |  1.1.3   | RSS阅读        |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) github **跨平台** |  2.0.4   | 屏幕共享       |
 | [copytranslator](https://github.com/CopyTranslator/CopyTranslator) github <br>如果已使用Golden Dict可使用 [扩展程序](https://github.com/Leon406/pyutil/tree/master/translate) |  11.0.2  | 翻译           |
