@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.2
+// @version      1.8.3
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-10-05 1.8.2  优化密码提取规则
+// @note         23-10-05 1.8.3  优化密码提取时机
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -46,6 +46,7 @@
     };
     var passMap = {};
     var panRule = /lanzou|115|baidu|weiyun|aliyundrive|123pan|189|quark|caiyun|xunlei|cowtransfer|wss/gi;
+    var excludingPwdHosts = ["pan.baidu.com"];
 
     function getQuery(param) {
         return new URLSearchParams(location.search).get(param);
@@ -1095,33 +1096,36 @@
         };
 
         obj.runAppList = function (appList) {
-            // 移除知乎错误的attr
-            $(document).ready(function () {
-                setTimeout(() => $("div").removeAttr("href"), 5000)
-            });
 
-            var url = location.href;
-            var clone = $("body").clone(true);
-            clone.find(".clicks").remove();
-            var rrr = clone.text().match(/\/([\w-]+)\/([\w-]{4,})(?:\.html)?(?:[^>]*?)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
-            for (let s in rrr) {
-                console.log(s, "---", rrr[s])
-                let r = /([\w-]{4,})(?:\.html)?.*?([a-z\d]{4,8})\s*/ig.exec(rrr[s]);
-                if (r){
-					 passMap[r[1]] = r[2];
-					 console.log(r[1], "---", r[2])
-				}
-                   
-            }
-            // 百度知道 网盘链接解析
-            var baiduZhidaos = document.querySelectorAll(".ikqb-reply-yun");
-            if (baiduZhidaos) {
-                for (let baiduZhidao of baiduZhidaos) {
-                    var bdcode = baiduZhidao.attributes['data-code'].value
-                        var bdlink = baiduZhidao.attributes['data-href'].value
-                        passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
+			// 网盘页面不提取密码
+            if (excludingPwdHosts.indexOf(location.host) == -1) {
+                // 移除知乎错误的attr
+                $(document).ready(function () {
+                    setTimeout(() => $("div").removeAttr("href"), 5000)
+                });
+                var url = location.href;
+                var clone = $("body").clone(true);
+                clone.find(".clicks").remove();
+                var rrr = clone.text().match(/\/([\w-]+)\/([\w-]{4,})(?:\.html)?(?:[^>]*?)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
+                for (let s in rrr) {
+                    console.log(s, "---", rrr[s])
+                    let r = /([\w-]{4,})(?:\.html)?.*?([a-z\d]{4,8})\s*/ig.exec(rrr[s]);
+                    if (r) {
+                        passMap[r[1]] = r[2];
+                        console.log(r[1], "---", r[2])
+                    }
+                }
+                // 百度知道 网盘链接解析
+                var baiduZhidaos = document.querySelectorAll(".ikqb-reply-yun");
+                if (baiduZhidaos) {
+                    for (let baiduZhidao of baiduZhidaos) {
+                        var bdcode = baiduZhidao.attributes['data-code'].value
+                            var bdlink = baiduZhidao.attributes['data-href'].value
+                            passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
+                    }
                 }
             }
+
             for (var i in appList) {
                 var app = appList[i];
                 var match = obj.matchApp(url, app);
@@ -1136,8 +1140,10 @@
 
         obj.matchApp = function (url, app) {
             var match = false;
+
             app.matchs && app.matchs.forEach(function (item) {
-                if (item == "*" || url.match(item)) {
+				//console.error("matchApp",url,app)
+                if (item == "*" || (url && url.match(item))) {
                     match = true;
                 }
             });
