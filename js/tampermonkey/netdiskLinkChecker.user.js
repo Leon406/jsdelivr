@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.3
+// @version      1.8.4
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-10-05 1.8.3  优化密码提取时机
+// @note         23-10-07 1.8.4  排除百度百科
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
