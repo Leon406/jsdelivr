@@ -1,6 +1,6 @@
-字体格式
+## 字体格式
 
-- TTF（TrueType Font）
+- TTF（TrueType Font） **所有主流浏览器都支持**
 
   由美国苹果公司和微软公司共同开发的一种电脑轮廓字体（曲线描边字）类型标准
 
@@ -10,17 +10,27 @@
 
 ​	 Adobe 和 Microsoft 联合开发的跨平台字体文件格式，也叫 Type 2 字体，它的字体格式采用 Unicode 编码，是一种兼容各种语言的字体格式。
 
-- VAR （Variable Font）
+- [VAR （Variable Font）](https://caniuse.com/?search=var)
 
   通过程序可以任意调整字重、倾斜度，甚至拉伸程度，而字体文件体积却更小。
 
-- WOFF（Web Open Font Format）
+- *EOT (Embedded Open Type)* 
+
+  微软设计用来在 Web 上使用的字体。是一个在网页上试图绕过 TTF 和 OTF 版权的方案。你可以使用微软的工具从现有的 TTF/OTF 字体转成 EOT 字体使用，其中对字体进行压缩和裁剪使得文件体积更小。同时为了避免一些收版权保护的字体被随意复制，EOT 还集成了一些特性来阻止复制行为，以及对字体文件进行加密保护。可惜 EOT 格式只有 [IE 支持](https://caniuse.com/?search=eot)
+
+- SVG  (Scalable Vector Graphics font , **向下兼容 Safari**)
+
+  使用 SVG 的字体元素定义。这些字体包含作为标准 SVG 元素和属性的字形轮廓，就像它们是 SVG 映像中的单个矢量对象一样。SVG 字体最大的缺点是缺少字体提示（font-hinting）。字体提示是渲染小字体时为了质量和清晰度额外嵌入的信息。同时，SVG 对文本（body text）支持并不是特别好。因为 SVG 的文本选择（text selection）目前在 Safari、Safari Mobile 和 Chrome 的一些版本上完全崩坏，所以你不能选择单个字符、单词或任何自定义选项，你只能选择整行或段落文本。
+
+- [WOFF](https://caniuse.com/?search=woff)（Web Open Font Format, **主流兼容**）
 
   使用zlib压缩，文件大小一般比 TTF 小 40%。flate算法压缩
 
-- WOFF2
+- [WOFF2](https://caniuse.com/?search=woff2)
 
   在 WOFF1 的基础上，进一步优化了体积压缩，带宽需求更少，同时可以在移动设备上快速解压。 Brotli 算法压缩
+  
+  
 
 
 
@@ -95,3 +105,5 @@ div {
 参考
 
 [CSS Web 字体](https://www.w3school.com.cn/css/css3_fonts.asp)
+
+[The Designer’s Guide to Font Formats in 2023: TTF, OTF, WOFF, EOT & SVG](https://creativemarket.com/blog/the-missing-guide-to-font-formats)
