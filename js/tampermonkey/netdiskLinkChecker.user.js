@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.5
+// @version      1.8.6
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-10-09 1.8.5  优化部分网站加载阻塞
+// @note         23-10-09 1.8.6  改为页面加载完成执行脚本
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -1097,18 +1097,20 @@
         };
 
         obj.runAppList = function (appList) {
-			var url = location.href;
+            var url = location.href;
             // 网盘页面不提取密码
-            if (excludingPwdHosts.indexOf(location.host) == -1) {
-                // 移除知乎错误的attr
-                $(document).ready(function () {
+            $(document).ready(function () {
+                if (excludingPwdHosts.indexOf(location.host) == -1) {
+                    // 移除知乎错误的attr
                     setTimeout(() => $("div").removeAttr("href"), 5000);
-                    var clone = $("body").clone(true);
-                    clone.find(".clicks").remove();
-                    var rrr = clone.text().match(/\/([\w-]+)\/([\w-]{4,})(?:\.html)?(?:[^>]*?)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
+                    var hasClicks = !!document.querySelector(".clicks");
+                    var bodyEle = hasClicks ? $("body").clone(true) : $("body");
+                    if (hasClicks)
+                        bodyEle.find(".clicks").remove();
+                    var rrr = bodyEle.text().match(/\/([\w-]+)\/([\w-]{4,})(?:\.html)?(?:[^>]{0,100}?)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
                     for (let s in rrr) {
                         console.log(s, "---", rrr[s])
-                        let r = /([\w-]{4,})(?:\.html)?.*?([a-z\d]{4,8})\s*/ig.exec(rrr[s]);
+                        let r = /([\w-]{4,})(?:\.html)?[\W]*?([a-z\d]{4,8})\s*/ig.exec(rrr[s]);
                         if (r) {
                             passMap[r[1]] = r[2];
                             console.log(r[1], "---", r[2])
@@ -1123,19 +1125,19 @@
                                 passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
                         }
                     }
-                });
-            }
+                }
+                for (var i in appList) {
+                    var app = appList[i];
+                    var match = obj.matchApp(url, app);
+                    if (match == false) {
+                        continue;
+                    }
+                    if (require(app.name).run() == true) {
+                        break;
+                    }
+                }
+            });
 
-            for (var i in appList) {
-                var app = appList[i];
-                var match = obj.matchApp(url, app);
-                if (match == false) {
-                    continue;
-                }
-                if (require(app.name).run() == true) {
-                    break;
-                }
-            }
         };
 
         obj.matchApp = function (url, app) {
