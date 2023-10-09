@@ -36,7 +36,7 @@
 | ------------------------------------------------------------ | ----------- | --------- |
 | [MX Player](https://pan.lanzoub.com/b0f19eo3c)               | 1.60.3      |           |
 | [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 8.8         |           |
-| [阅读](https://www.coolapk.com/apk/256030)                   | 3.23.073011 | 小说/漫画 |
+| [阅读](https://www.coolapk.com/apk/256030) [beta](https://www.lanzoub.com/b01rgkhhe) | 3.23.073011 | 小说/漫画 |
 | [异次元](https://www.lanzoub.com/b595600)                    | 2.4.2       | 漫画      |
 | [PureTure](https://pan.lanzoub.com/b0f2lkrab)                | 3.3.8.104   | 油管      |
 | [五音助手](https://www.lanzoub.com/b00nbytqj)                | 2.10.7      | 音乐      |
