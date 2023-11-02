@@ -64,7 +64,8 @@
 | ------------------------------------------------------------ | :----: | ------------- |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.11.1 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
-| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台**  :star: | 0.20.39 |  |
+| [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库 | 0.20.39 |  |
+| [clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台:star: |  | |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.29  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.10.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
