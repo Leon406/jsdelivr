@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.6
+// @version      1.8.7
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-10-09 1.8.6  改为页面加载完成执行脚本
+// @note         23-11-05 1.8.7  修复密码匹配错误
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -1107,10 +1107,10 @@
                     var bodyEle = hasClicks ? $("body").clone(true) : $("body");
                     if (hasClicks)
                         bodyEle.find(".clicks").remove();
-                    var rrr = bodyEle.text().match(/\/([\w-]+)\/([\w-]{4,})(?:\.html)?(?:[^>]{0,100}?)?(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
+                    var rrr = bodyEle.text().match(/(?<=\.baidu\.com|lanzou.\.com|weiyun.com|189\.cn|139\.com|aliyundrive.com|123pan.com|quark.cn|xunlei.com)\/\S+\s+(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&]pwd=|#)([a-zA-Z\d]{4,8})/g);
                     for (let s in rrr) {
                         console.log(s, "---", rrr[s])
-                        let r = /([\w-]{4,})(?:\.html)?[\W]*?([a-z\d]{4,8})\s*/ig.exec(rrr[s]);
+                        let r = /([\w-]{4,})(?:\.html)?[\W]*?([a-z\d]{4,8})\s*/ig.exec(rrr[s].replace("/web/share?code=",""));
                         if (r) {
                             passMap[r[1]] = r[2];
                             console.log(r[1], "---", r[2])
