@@ -4,20 +4,20 @@
 
 ## 生产力工具
 
-| 软件                                                         |    版本     | 说明                     |
-| ------------------------------------------------------------ | :---------: | ------------------------ |
-| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |   2.1.40    | 全局鼠标手势,仅windows   |
-| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |    7.1.0    | 剪切板管理工具           |
-| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                          |
-| [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                          |
-| [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.1.8    | 文字扩展                 |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.50.78   | 需要自有账号             |
-| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |    3.6.5    | chatgpt免费客户端,免登录 |
-| [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                   |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.09.11172 | 脑图                     |
-| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.75.1    | 微软官方工具集           |
-|                                                              |             |                          |
-|                                                              |             |                          |
+| 软件                                                         |    版本     | 说明                        |
+| ------------------------------------------------------------ | :---------: | --------------------------- |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |   2.1.40    | 全局鼠标手势,仅windows      |
+| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |    7.1.0    | 剪切板管理工具              |
+| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                             |
+| [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                             |
+| [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.1.8    | 文字扩展                    |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.50.78   | 需要自有账号                |
+| [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |    3.6.5    | chatgpt免费客户端,免登录    |
+| [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                      |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.09.11172 | 脑图                        |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.75.1    | 微软官方工具集              |
+| [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases) |   1.4.16    | 笔记软件,需自行选用同步软件 |
+|                                                              |             |                             |
 
 
 
