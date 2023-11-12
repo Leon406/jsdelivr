@@ -76,7 +76,7 @@
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  23.4  | 终端工具                              |
-| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.2](http://download.navicat.com.cn/download/navicat162_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 16.2.10<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.2](http://download.navicat.com.cn/download/navicat162_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** [第三方](https://www.lanzoul.com/b01v7hmji) | 16.2.10<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.7  | 文件比对同步工具,备份                   |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.1.2  | Android 投屏电脑                      |
