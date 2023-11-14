@@ -69,7 +69,7 @@
 | **Consolas**                                                 |              |             | **CN的升级,Consolas更窄，能够在较少的空间显示更多的内容。同时Consolas也是VS系列默认字体** |
 | **[Monaco](https://github.com/vjpr/monaco-bold)**            |              |             | **号称苹果出品最好的编程字体**                               |
 | **[ntel-one-mono](https://github.com/intel/intel-one-mono)** |              | **1.2.1**   |                                                              |
-|                                                              |              |             |                                                              |
+| [monaspae](https://github.com/githubnext/monaspace)          |              | 1.0.0       | github 编程字体                                              |
 |                                                              |              |             |                                                              |
 |                                                              |              |             |                                                              |
 
