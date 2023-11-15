@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.10
+// @version      1.8.11
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         23-11-12 1.8.10  修复天翼云状态识别错误
+// @note         23-11-14 1.8.11  支持阿里云盘新域名alipan
 // @match        *://**/*
 // @connect      lanzoub.com
 // @connect      baidu.com
@@ -267,7 +267,7 @@
             },
             aliyun: {
                 reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})(?![.\/])$/gi,
-                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/s\/([\w\-]{8,})(?![.\/])/gi,
+                replaceReg: /(?:https?:\/\/)?www\.ali(?:pan|yundrive)\.com\/s\/([\w\-]{8,})(?![.\/])/gi,
                 prefix: "https://www.aliyundrive.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("aliyun id ", shareId);
@@ -307,7 +307,7 @@
             },
             aliyun2: {
                 reg: /(?:https?:\/\/)?www\.aliyundrive\.com\/t\/([\w\-]{8,})(?![.\/])$/gi,
-                replaceReg: /(?:https?:\/\/)?www\.aliyundrive\.com\/t\/([\w\-]{8,})(?![.\/])/gi,
+                replaceReg: /(?:https?:\/\/)?www\.ali(?:pan|yundrive)\.com\/t\/([\w\-]{8,})(?![.\/])/gi,
                 prefix: "https://www.aliyundrive.com/t/",
                 checkFun: (shareId, callback) => {
                     logger.info("aliyun2 id ", shareId);
