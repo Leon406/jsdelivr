@@ -1,4 +1,4 @@
-2023年11月21日08:44:15
+2023年11月26日11:42:13
 
 ## 生产力工具
 
@@ -9,7 +9,7 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                             |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                             |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.1.8    | 文字扩展                    |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.50.79   | 需要自有账号                |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.50.80   | 需要自有账号                |
 | [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |    3.6.5    | chatgpt免费客户端,免登录    |
 | [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                      |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 23.11.04336 | 脑图                        |
@@ -23,7 +23,7 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.41.22 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.42.1 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.6.4 | 下载工具  自动升级 |
 | [PanDownload](https://pandownload.net/) |  v0.1.6  | 百度网盘工具       |
 | [leon406优化版](https://github.com/Leon406/lanzou-gui)<br>[蓝奏云盘(已停止维护)](https://github.com/rachpt/lanzou-gui) |  0.6.11  | 蓝奏云客户端    |
@@ -53,7 +53,7 @@
 | 软件                                                         |    版本     | 说明                                          |
 | ------------------------------------------------------------ | :---------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |    7.94     | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.10.3.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2023.11.1.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 |                                                              |             |                                               |
 
 ## 科学
@@ -81,9 +81,9 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0130 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.1  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.84.2 | 编辑器                                |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.5.8 | 文本编辑 |
-| [EmEditor](https://support.emeditor.com/en/downloads) | 23.0.2 | 编辑器 支持大文件 |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.3.27 | 接口测试 |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.6 | 文本编辑 |
+| [EmEditor](https://support.emeditor.com/en/downloads) | 23.0.3 | 编辑器 支持大文件 |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.4.0 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.2.5  | 接口测试                              |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.3.5  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.17.0 | 个人开发的开发者工具 |
@@ -101,7 +101,7 @@
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          10.3          | 截图编辑工具    |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.6.1         | 图片查看        |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.6.2         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.2.0 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1112        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.39         | gif 制作工具    |
@@ -195,7 +195,7 @@
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/> | 8u391<br/>11.0.21<br/>17.0.9<br/>21.0.1 | [whichjdk.com](https://whichjdk.com/)     |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) |   3.9.18  3.12.0<br/>2022.10 (3.9.13)   | 建议3.9版本,3.10+第三方库可能存在兼容问题 |
 | [git](https://git-scm.com/)                                  |                 2.43.0                  |                                           |
-| [nodejs](https://nodejs.org/en)                              |               20.9.0 LTS                |                                           |
+| [nodejs](https://nodejs.org/en)                              |               20.10.0 LTS               |                                           |
 
 
 
