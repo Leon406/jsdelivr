@@ -134,7 +134,7 @@
     container.define("constant", ["logger", "http"], function (logger, http) {
         return {
             baidu: {
-                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/s\/([\w\-]{5,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?\b(e?yun|pan)\.baidu\.com\/s\/([\w\-]{5,})(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/s\/([\w\-]{5,})(?!\.)/gi,
                 prefix: "https://pan.baidu.com/s/",
                 checkFun: (shareId, callback) => {
@@ -165,7 +165,7 @@
                 }
             },
             baidu2: {
-                reg: /(?:https?:\/\/)?(e?yun|pan)\.baidu\.com\/(?:share|wap)\/init\?surl=([\w\-]{5,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?\b(e?yun|pan)\.baidu\.com\/(?:share|wap)\/init\?surl=([\w\-]{5,})(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?(?:e?yun|pan)\.baidu\.com\/(?:share|wap)\/init\?surl=([\w\-]{5,})(?!\.)/gi,
                 prefix: "https://pan.baidu.com/share/init?surl=",
                 checkFun: (shareId, callback) => {
@@ -196,7 +196,7 @@
                 }
             },
             weiyun: {
-                reg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{7,})(?!.)(?!\.)/gi,
+                reg: /(?:https?:\/\/)?\bshare\.weiyun\.com\/([\w\-]{7,})(?!.)(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?share\.weiyun\.com\/([\w\-]{7,})(?!\.)/gi,
                 prefix: "https://share.weiyun.com/",
                 checkFun: (shareId, callback) => {
@@ -234,7 +234,7 @@
                 }
             },
             lanzou: {
-                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?\blanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
@@ -344,7 +344,7 @@
                 }
             },
             pan123: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?pan123\.com\/s\/([\w\-]{8,})\b/gi,
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\bpan123\.com\/s\/([\w\-]{8,})\b/gi,
                 replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?123pan\.com\/s\/([\w\-]{8,})(\.html)?\b/gi,
                 prefix: "https://www.123pan.com/s/",
                 checkFun: (shareId, callback) => {
@@ -418,7 +418,7 @@
                 }
             },
             quark: {
-                reg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?\bpan.quark\.cn\/s\/([\w\-]{8,})(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?pan.quark\.cn\/s\/([\w\-]{8,})(?!\.)/gi,
                 prefix: "https://pan.quark.cn/s/",
                 checkFun: (shareId, callback) => {
@@ -459,7 +459,7 @@
                 }
             },
             xunlei: {
-                reg: /(?:https?:\/\/)?pan.xunlei\.com\/s\/([\w\-]{25,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?\bpan.xunlei\.com\/s\/([\w\-]{25,})(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?pan.xunlei\.com\/s\/([\w\-]{25,})(?!\.)/gi,
                 prefix: "https://pan.xunlei.com/s/",
                 checkFun: (shareId, callback) => {
@@ -525,7 +525,7 @@
                 }
             },
             nainiu: {
-                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{10,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?\bcowtransfer\.com\/s\/([\w\-]{10,})(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?cowtransfer\.com\/s\/([\w\-]{10,})(?!\.)/gi,
                 prefix: "https://cowtransfer.com/s/",
                 checkFun: (shareId, callback) => {
@@ -560,7 +560,7 @@
                 }
             },
             wenshushu: {
-                reg: /(?:https?:\/\/)?t.wss.ink\/f\/([\w\-]{8,})(?!\.)/gi,
+                reg: /(?:https?:\/\/)?\bt.wss.ink\/f\/([\w\-]{8,})(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?wss1.cn\/f\/([\w\-]{8,})(?!\.)/gi,
                 prefix: "https://t.wss.ink/f/",
                 checkFun: (shareId, callback) => {
@@ -599,7 +599,7 @@
                 }
             },
             pan115: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\b115\.com\/s\/([\w\-]{8,})(?!\.)/gi,
                 replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,})(?!\.)/gi,
                 prefix: "https://115.com/s/",
                 checkFun: (shareId, callback) => {
@@ -636,7 +636,7 @@
                 }
             },
             caiyun: {
-                reg: /(?:https?:\/\/)?caiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
+                reg: /(?:https?:\/\/)?\bcaiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
                 replaceReg: /(?:https?:\/\/)?caiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
                 prefix: "https://caiyun.139.com/w/i/",
                 checkFun: (shareId, callback) => {
@@ -1371,6 +1371,7 @@
                 if (panRule.exec(href) == null) {
                     return;
                 }
+				  logger.error("@@@@@@@@@@", href)
                 if (href) {
                     href = href.replace("#list/path=%2F", "");
                     // 匹配域名
@@ -1381,11 +1382,12 @@
                     for (var rule in constant) {
                         if (constant[rule]["reg"].exec(href) && $this.find(".one-pan-tip").length == 0) {
                             $this.attr("one-link-mark", "yes");
-                            //  logger.error(constant[rule]["reg"], href, constant[rule]["reg"].exec(href))
+                            logger.error(constant[rule]["reg"], href, constant[rule]["reg"].exec(href),"___")
                             var node = obj.createOneSpanNode(href, rule);
                             if (href.includes(manifest["debugId"])) {
                                 logger.error("create node", node);
                             }
+							logger.error("node", node)
                             $this.wrapInner(node);
                             break;
                         }
