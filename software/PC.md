@@ -1,4 +1,4 @@
-2024年1月19日17:27:13
+2024年2月2日21:00:46
 
 ## 生产力工具
 
@@ -12,7 +12,7 @@
 | [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.54.86   | 需要自有账号                |
 | [ShellGPT](https://github.com/akl7777777/ShellGPT) **[跨平台](https://www.lanzoub.com/b04e2d6wh?pwd=aojc)** |    4.0.5    | chatgpt免费客户端,免登录    |
 | [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                      |
-| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://www.fahai.org/jszt/15.html) **跨平台** | 24.01.13311 | 脑图                        |
+| [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://fahai.org/jszt/15.html) **跨平台** | 24.01.13311 | 脑图                        |
 | [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.78.0    | 微软官方工具集              |
 | [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases) |    1.5.3    | 笔记软件,需自行选用同步软件 |
 |                                                              |             |                             |
