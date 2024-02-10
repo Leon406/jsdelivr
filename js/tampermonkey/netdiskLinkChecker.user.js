@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.15
+// @version      1.8.16
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         24-01-02 1.8.15 优化freedict 密码识别
+// @note         24-02-10 1.8.16 蓝奏新分享链接适配
 // @connect      lanzoub.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -34,6 +34,8 @@
 // @grant        GM_xmlhttpRequest
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @noframes
+// @downloadURL https://update.greasyfork.org/scripts/439266/%E7%BD%91%E7%9B%98%E6%9C%89%E6%95%88%E6%80%A7%E6%A3%80%E6%9F%A5.user.js
+// @updateURL https://update.greasyfork.org/scripts/439266/%E7%BD%91%E7%9B%98%E6%9C%89%E6%95%88%E6%80%A7%E6%A3%80%E6%9F%A5.meta.js
 // ==/UserScript==
 (function () {
     'use strict';
@@ -235,7 +237,7 @@
             },
             lanzou: {
                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?\blanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
-                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lan(?:zou|.v).?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
                 checkFun: (shareId, callback) => {
