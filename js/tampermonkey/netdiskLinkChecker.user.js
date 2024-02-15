@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.16
+// @version      1.8.17
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         24-02-10 1.8.16 蓝奏新分享链接适配
+// @note         24-02-10 1.8.17 提取码获取优化
 // @connect      lanzoub.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -1110,7 +1110,9 @@
                     var bodyEle = hasClicks ? $("body").clone(true) : $("body");
                     if (hasClicks)
                         bodyEle.find(".clicks,.only-like").remove();
-                    var rrr = bodyEle.text().match(/(?<=\.baidu\.com|lanzou.\.com|weiyun.com|189\.cn|115\.com|139\.com|aliyundrive.com|123pan.com|quark.cn|xunlei.com)\/\S+(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&](?:pwd|password)=|#)([a-zA-Z\d]{4,8})/g);
+                    var rrr = bodyEle.text()
+					 .replaceAll("如遇到有带x的提取码请手打输入","提取码")
+					.match(/(?<=\.baidu\.com|lanzou.\.com|weiyun.com|189\.cn|115\.com|139\.com|aliyundrive.com|123pan.com|quark.cn|xunlei.com)\/\S+(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&](?:pwd|password)=|#)([a-zA-Z\d]{4,8})/g);
                     for (let s in rrr) {
                         console.log(typeof s, "---", typeof rrr[s])
 
