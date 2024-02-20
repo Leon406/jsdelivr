@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.17
+// @version      1.8.18
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         24-02-10 1.8.17 提取码获取优化
+// @note         24-02-20 1.8.18 支持蓝奏网盘新域名
 // @connect      lanzoub.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -237,7 +237,7 @@
             },
             lanzou: {
                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?\blanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
-                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lan(?:zou|.v).?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
+                replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lan(?:zou?|.v|z).?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoub"],
                 prefix: "https://www.lanzoub.com/",
                 checkFun: (shareId, callback) => {
