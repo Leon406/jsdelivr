@@ -1,4 +1,4 @@
-2024年2月25日12:46:15
+2024年3月3日16:58:46
 
 ## 生产力工具
 
@@ -22,7 +22,7 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://xiaodao.lanzoub.com/b0dpuinvg) | 6.42.3 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b02orsj7i#75ki) 75ki | 6.42.3 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.7.9 | 下载工具  自动升级 |
 | [leon406优化版](https://github.com/Leon406/lanzou-gui)<br>[蓝奏云盘(已停止维护)](https://github.com/rachpt/lanzou-gui) |  0.6.12  | 蓝奏云客户端    |
 |                                                           |         |                    |
@@ -47,11 +47,11 @@
 
 ## HackerTools
 
-| 软件                                                         |    版本    | 说明                                          |
-| ------------------------------------------------------------ | :--------: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |    7.94    | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.1.1.3 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |            |                                               |
+| 软件                                                         |   版本   | 说明                                          |
+| ------------------------------------------------------------ | :------: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.94   | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.2.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+|                                                              |          |                                               |
 
 ## 科学
 
@@ -61,7 +61,7 @@
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
 | <del>[Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库</del> | 0.20.39 |  |
 | <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.5.4 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.36  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.37  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.13.0 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.35 | 反代steam, github等 |
@@ -71,7 +71,7 @@
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  23.6  | 终端工具                              |
-| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.3](http://download.navicat.com.cn/download/navicat163_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** [第三方](https://www.lanzoul.com/b01v7hmji) | 16.3.7<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
+| [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.3](http://download.navicat.com.cn/download/navicat163_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** [第三方](https://www.lanzoul.com/b01v7hmji) | 16.3.8<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.7  | 文件比对同步工具,备份                   |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.1.2  | Android 投屏电脑                      |
@@ -79,7 +79,7 @@
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.3  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.86.2 | 编辑器                                |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.6.4 | 文本编辑 |
-| [EmEditor ](https://www.emeditor.com/download/) | 23.1.3 | 编辑器 支持大文件 |
+| [EmEditor ](https://www.emeditor.com/download/) | 24.0.0 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.5.9 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.2.6  | 接口测试                              |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.3.9  | github 桌面端                         |
@@ -108,11 +108,11 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.14.1        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3.0 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      121.0.2277.11      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      121.0.6167.161      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      122.0.2365.66      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      122.0.6261.95      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
-| [Cute Http File Server ](http://iscute.cn/chfs) | 3.1 | 文件服务器 |
+| [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
 | [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) github | 4.3.1 | OCR powertoy内置 |
 | [keyviz](https://github.com/mulaRahul/keyviz) github | 1.0.6 | 快捷键显示 |
