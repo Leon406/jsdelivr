@@ -9,10 +9,10 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                             |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                             |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.2.1    | 文字扩展                    |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.58.88   | 需要自有账号                |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |   1.58.89   | 需要自有账号                |
 | [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                      |
 | [Xmind2022](https://www.xmind.cn/desktop/release-notes/) [crack](https://fahai.org/jszt/15.html) **跨平台** | 24.01.13311 | 脑图                        |
-| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.78.0    | 微软官方工具集              |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.79.0    | 微软官方工具集              |
 | [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases) |    1.5.8    | 笔记软件,需自行选用同步软件 |
 |                                                              |             |                             |
 
@@ -62,7 +62,7 @@
 | <del>[Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库</del> | 0.20.39 |  |
 | <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.5.4 | |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.37  | v2ray ss工具  |
-| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.13.0 | v2ray工具     |
+| [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.14.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.35 | 反代steam, github等 |
 
