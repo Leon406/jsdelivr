@@ -22,7 +22,7 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b02orsj7i#75ki) 75ki | 6.42.3 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b02orsj7i#75ki) 75ki [IAS ](https://www.lanzoub.com/b048tg9gd) | 6.42.3 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.7.9 | 下载工具  自动升级 |
 | [leon406优化版](https://github.com/Leon406/lanzou-gui)<br>[蓝奏云盘(已停止维护)](https://github.com/rachpt/lanzou-gui) |  0.6.12  | 蓝奏云客户端    |
 |                                                           |         |                    |
