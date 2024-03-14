@@ -3530,6 +3530,7 @@ E:\GITHUB\JSDELIVR
 ©¦  ©¦      unibodymachine.js
 ©¦  ©¦      
 ©¦  ©¸©¤tampermonkey
+©¦          doubleClickOpenGoldenDict.js
 ©¦          freeGo.md
 ©¦          freeGo.user.js
 ©¦          netdiskLinkChecker.user.js
