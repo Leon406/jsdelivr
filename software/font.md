@@ -38,22 +38,24 @@
 
 
 
-| **字体**                       | 系统  | 类型       | **说明**                                                     |
-| ------------------------------ | ----- | ---------- | ------------------------------------------------------------ |
-| Arial                          | Win   |            | Helvetica的「克隆」，和Helvetica非常像，细节上比如R和G有小小差别。<br> Windows 系统默认字体 |
-| **Microsoft YaHei**            | Win   |            | 微软雅黑，Windows 系统默认的中文字体，也是最常见的中文字体   |
-| Helvetica                      | Mac   |            | 被评为设计师最爱的字体，Realist风格，简洁现代的线条，非常受到追捧。在Mac下面被认为是最佳的网页字体<br>Mac 系统的默认无衬线英文字体 |
-| **Helvetica Neue**             | Mac   |            | Mac 系统 Helvetica 字体改善版本，且增加了更多不同粗细与宽度的字形 |
-| **PingFang SC**                | Mac   |            | 苹果专为中国用户打造的中文字体，也是 UI 设计师做界面默认使用的字体 |
-| **WenQuanYi Micro Hei**        | Linux |            | 文泉驿微米黑，Linux 系统下默认中文字体，为了兼容 Linux 系统。 |
-| **Hiragino Sans GB、Heiti SC** | Mac   |            | 苹果丽黑和黑体-简，是 Mac 旧版本的中文字体，目前用的不多，主要目的是兼容旧 Mac 系统。 |
-| Lucida Family                  | Mac   |            | Mac OS UI的标准字体，属于humanist风格，稍微活泼一点          |
-| Georgia                        |       | 英文 Serif | 正文屏显的衬线字体                                           |
-| Times                          |       | 英文 Serif | 为了报纸而设计的                                             |
-| Open Sans                      |       |            | 可读性强、中性和极简主义的字体                               |
-| Roboto                         |       |            | 一种友好且专业的字体,是Android 和其他谷歌服务的默认字体      |
-| Verdana                        |       |            |                                                              |
-| **sans-serif**                 |       |            | 无衬线字族，当所有的字体都找不到时，可以使用字体族名称作为操作系统最后选择字体的方向。 |
+| **字体**                                         | 系统   | 类型       | **说明**                                                     |
+| ------------------------------------------------ | ------ | ---------- | ------------------------------------------------------------ |
+| Arial                                            | Win    |            | Helvetica的「克隆」，和Helvetica非常像，细节上比如R和G有小小差别。<br> Windows 系统默认字体 |
+| **Microsoft YaHei**                              | Win    |            | 微软雅黑，Windows 系统默认的中文字体，也是最常见的中文字体   |
+| Helvetica                                        | Mac    |            | 被评为设计师最爱的字体，Realist风格，简洁现代的线条，非常受到追捧。在Mac下面被认为是最佳的网页字体<br>Mac 系统的默认无衬线英文字体 |
+| **Helvetica Neue**                               | Mac    |            | Mac 系统 Helvetica 字体改善版本，且增加了更多不同粗细与宽度的字形 |
+| **PingFang SC**                                  | Mac    |            | 苹果专为中国用户打造的中文字体，也是 UI 设计师做界面默认使用的字体 |
+| **WenQuanYi Micro Hei**                          | Linux  |            | 文泉驿微米黑，Linux 系统下默认中文字体，为了兼容 Linux 系统。 |
+| **Hiragino Sans GB、Heiti SC**                   | Mac    |            | 苹果丽黑和黑体-简，是 Mac 旧版本的中文字体，目前用的不多，主要目的是兼容旧 Mac 系统。 |
+| Lucida Family                                    | Mac    |            | Mac OS UI的标准字体，属于humanist风格，稍微活泼一点          |
+| Georgia                                          |        | 英文 Serif | 正文屏显的衬线字体                                           |
+| Times                                            |        | 英文 Serif | 为了报纸而设计的                                             |
+| Open Sans                                        |        |            | 可读性强、中性和极简主义的字体                               |
+| Roboto                                           |        |            | 一种友好且专业的字体,是Android 和其他谷歌服务的默认字体      |
+| Verdana                                          |        |            |                                                              |
+| **sans-serif**                                   |        |            | 无衬线字族，当所有的字体都找不到时，可以使用字体族名称作为操作系统最后选择字体的方向。 |
+| [Bookerly](https://typedetail.com/bookerly.html) | Kindle | 英文 Serif | 亚马逊为Kindle设备专门设计的一种数字阅读字体。它有着清晰的字形和舒适的阅读体验，特别适合长时间阅读。这种字体的空间利用率非常高，能够在较小的字号下保持良好的可读性，为数字阅读体验带来了很大的提升。 |
+| Optima                                           |        | sans-serif | 所有字形都是按照黄金比例设计的，这使其具有高度的美感和和谐性。其笔画粗细对比强烈，但整体看起来却非常协调，字宽中等，易于识别 |
 
 
 
