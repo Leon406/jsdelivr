@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Double Click Open GoldenDict
 // @namespace    http://tampermonkey.net/
-// @version      2024-03-18
+// @version      2024-03-22
 // @description double click to query selected word in goldendict
 // @note  only support English 
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=goldendict.org
@@ -15,7 +15,7 @@
 
 (function () {
     'use strict';
-	// 支持权限，改为 true
+	// 支持全选，改为 true
 	const selectAll = false
     const getSelectionText = () => {
         let text = getSelection().toString().trim();
