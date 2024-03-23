@@ -87,6 +87,7 @@
 | **[未来荧黑](https://github.com/welai/glow-sans)**           | **CJ**   |            | **基于思源黑体、Fira Sans 和 Raleway 的开源字体项目**        |
 | **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    |          |            | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**      |
 | [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      |            | 无法商用，支持汉字最全,支持Unicode15.1                       |
+| [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |          |            | WFG, 无法商用，支持汉字最全,支持Unicode15.1                  |
 
 
 

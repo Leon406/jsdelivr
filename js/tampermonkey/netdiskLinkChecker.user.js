@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.18
+// @version      1.8.19
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         24-02-20 1.8.18 支持蓝奏网盘新域名
+// @note         24-03-23 1.8.19 支持forum.freemdict.com
 // @connect      lanzoub.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -1144,6 +1144,10 @@
                                 var bdcode = /提取码: *(\w+)\b/ig.exec( free.parentElement.textContent)[1];
                                 var bdlink = free.href;
                                 passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
+								if(bdcode && free.href.indexOf("pwd=") === -1) {
+									var linker = free.href.indexOf("?") > -1 ? "&" : "?"
+									free.href = free.href + linker +"pwd="+bdcode
+								}
                             }
                         }
                     }
