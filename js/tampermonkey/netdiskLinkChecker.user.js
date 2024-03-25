@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.19
+// @version      1.8.20
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         24-03-23 1.8.19 支持forum.freemdict.com
+// @note         24-03-24 1.8.20 修正阿里云盘 TooManyRequests状态错误,优化无效链接判断
 // @connect      lanzoub.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -289,10 +289,12 @@
                             // 请求限制
                             if (!response) {
                                 state = 0
-                            } else if (response['code'] && response['code'] == "ParamFlowException") {
-                                state = 0;
-                            } else if (response['code'] || response['file_count'] && response['file_count'] == 0) {
+                            }else if (response['code'] && (response['code'].indexOf("ShareLink") > -1)) {
+								// 网盘ShareLink异常
                                 state = -1;
+                            } else if (response['code'] || response['file_count'] && response['file_count'] == 0) {
+								// 其他状态未知，下次重新请求
+                                state = 0;
                             }
 
                             callback && callback({
