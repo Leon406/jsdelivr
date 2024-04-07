@@ -77,17 +77,17 @@
 
 
 
-| **字体**                                                     | **类型** | **版本**   | **说明**                                                     |
-| ------------------------------------------------------------ | -------- | ---------- | ------------------------------------------------------------ |
-| **[HarmonyOS Sans](https://developer.harmonyos.com/cn/docs/design/font-0000001157868583)** | **中文** |            | **华为和汉仪字库合作定制**                                   |
-| **[*MiSans*](https://web.vip.miui.com/page/info/mio/mio/detail?postId=33935854&app_version=dev.211223&ref=share)** | **中文** |            |                                                              |
-| **[OppoSans](https://www.shejidaren.com/oppo-sans-fonts-download.html)** | **中文** |            | **与国内知名字体厂商「汉仪」合作开发出的富有现代感和科技感的全新中文字库** |
-| **[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)**           | **CJK**  |            |                                                              |
-| **[思源宋体](https://github.com/adobe-fonts/source-han-serif)** | **CJK**  | **2.001R** |                                                              |
-| **[未来荧黑](https://github.com/welai/glow-sans)**           | **CJ**   |            | **基于思源黑体、Fira Sans 和 Raleway 的开源字体项目**        |
-| **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    |          |            | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**      |
-| [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      |            | 无法商用，支持汉字最全,支持Unicode15.1                       |
-| [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |          |            | WFG, 无法商用，支持汉字最全,支持Unicode15.1                  |
+| **字体**                                                     | **类型** | **版本** | **说明**                                                     |
+| ------------------------------------------------------------ | -------- | -------- | ------------------------------------------------------------ |
+| **[HarmonyOS Sans](https://developer.harmonyos.com/cn/docs/design/font-0000001157868583)** | **中文** |          | **华为和汉仪字库合作定制**                                   |
+| **[MiSans](https://hyperos.mi.com/font/zh/download/)**       | **中文** |          | 小米兰亭Pro的升级版、替换版                                  |
+| **[OppoSans](https://www.shejidaren.com/oppo-sans-fonts-download.html)** | **中文** |          | **与国内知名字体厂商「汉仪」合作开发出的富有现代感和科技感的全新中文字库** |
+| **[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)**           | **CJK**  | 1.320    |                                                              |
+| **[思源宋体](https://github.com/adobe-fonts/source-han-serif)** | **CJK**  | *2.002*  |                                                              |
+| **<del>[未来荧黑](https://github.com/welai/glow-sans)</del>** | **CJK**  |          | **基于思源黑体、Fira Sans 和 Raleway 的开源字体项目<br>2023.8 归档不更新 |
+| **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK      |          | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
+| [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      |          | 无法商用，支持汉字最全,支持Unicode15.1                       |
+| [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |          |          | WFG, 无法商用，支持汉字最全,支持Unicode15.1                  |
 
 
 
@@ -104,7 +104,16 @@ div {
 }
 ```
 
+## 字体族
 
+字体族即一类字体， 其值主要有6种：
+
+- `serif`：衬线字体，衬线的笔画有粗有细的变化，在每一笔画上都自有风格，笔画末端会有修饰，强调艺术感，适合用于博客，旅游，文化，艺术类网站
+- `sans-serif`: 无衬线字体 字体工整方正，给人正式的感觉，适合政务类，企业类网站使用。
+- `monospace`: 等宽字体
+- `cursive`: 手写字体
+- `fantasy`: 奇幻字体
+- `system-ui`: 系统UI字体
 
 参考
 
