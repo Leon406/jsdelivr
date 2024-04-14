@@ -88,6 +88,7 @@
 | **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK      |          | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
 | [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      |          | 无法商用，支持汉字最全,支持Unicode15.1                       |
 | [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |          |          | WFG, 无法商用，支持汉字最全,支持Unicode15.1                  |
+| [全字库](https://magiclen.org/zh-tw-font/)                   |          |          |                                                              |
 
 
 
@@ -114,6 +115,21 @@ div {
 - `cursive`: 手写字体
 - `fantasy`: 奇幻字体
 - `system-ui`: 系统UI字体
+
+
+
+# 字重
+
+- 100  淡体 Thin (Hairline)
+- 200 特细 Extra Light (Ultra Light)
+- 300 细体 Light
+- 400 标准 Normal (Regular)
+- 500 适中 Medium
+- 600 次粗 Semi Bold (Demi Bold)
+- 700 粗体 Bold
+- 800 特粗 Extra Bold (Ultra Bold)
+- 900 浓体 Black (Heavy)
+- 950 特浓 Extra Black (Ultra Black)
 
 参考
 
