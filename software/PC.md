@@ -1,4 +1,4 @@
-2024年4月21日21:13:26
+2024年4月27日18:39:14
 
 ## 生产力工具
 
@@ -9,9 +9,9 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                             |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                             |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.2.1    | 文字扩展                    |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.74.101   | 需要自有账号                |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.77.102   | 需要自有账号                |
 | [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                      |
-| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台** | 24.01.14362 | 脑图                        |
+| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台** | 24.04.05171 | 脑图                        |
 | [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.80.1    | 微软官方工具集              |
 | [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases) |   1.5.12    | 笔记软件,需自行选用同步软件 |
 |                                                              |             |                             |
@@ -22,7 +22,7 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b02orsj7i#75ki) 75ki [IAS ](https://www.lanzoub.com/b048tg9gd) | 6.42.7 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b02orsj7i#75ki) 75ki [IAS ](https://www.lanzoub.com/b048tg9gd) | 6.42.9 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.8.6 | 下载工具  自动升级 |
 | [leon406优化版](https://github.com/Leon406/lanzou-gui)<br>[蓝奏云盘(已停止维护)](https://github.com/rachpt/lanzou-gui) |  0.6.12  | 蓝奏云客户端    |
 |                                                           |         |                    |
@@ -57,20 +57,20 @@
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.16.8 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 4.16.10 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
 | <del>[Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库</del> | 0.20.39 |  |
-| <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.5.11 | |
+| <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.6.0 | |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.43  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.15.3 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
-| [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.38 | 反代steam, github等 |
+| [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.39 | 反代steam, github等 |
 
 ## 开发
 
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
-| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  24.0  | 终端工具                              |
+| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  24.1  | 终端工具                              |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.3](http://download.navicat.com.cn/download/navicat163_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** [第三方](https://www.lanzoul.com/b01v7hmji) | 16.3.8<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.7  | 文件比对同步工具,备份                   |
@@ -80,13 +80,13 @@
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.88.1 | 编辑器                                |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.65 | 文本编辑 |
 | [EmEditor ](https://www.emeditor.com/download/) | 24.1.1 | 编辑器 支持大文件 |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.5.21 | 接口测试 |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.5.22 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  7.2.6  | 接口测试                              |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.3.13  | github 桌面端                         |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.3.14  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.17.0 | 个人开发的开发者工具 |
 | [He3](https://he3.app/) **跨平台** | 2.0.20 | 开发工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.7.0 | 开发文档查看 |
-| [Recaf](https://github.com/Col-E/Recaf)<br>  [jclasslib](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.13<br>6.0.5 | jar修改工具 |
+| [Recaf](https://github.com/Col-E/Recaf)<br>  [jclasslib](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.4<br>6.0.5 | jar修改工具 |
 | [RegexBuddy 4](https://www.lanzoub.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) | 4.14.1 | 正则工具 |
 | [AnLink](https://cn.anlinksoft.com/changelog/) | 3.10 | Android 投屏电脑 |
 |  |  |  |
