@@ -1,7 +1,7 @@
 /**
  * https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
  * https://github.com/petronny/gfwlist2pac/blob/master/gfwlist.pac
- * GFWList Last-Modified: 2024-2-2
+ * GFWList Last-Modified: 2024-4-18
  */
 
 
@@ -9,9 +9,9 @@ var proxy = 'SOCKS5 127.0.0.1:7890; SOCKS 127.0.0.1:7890; DIRECT;';
 var rules = [
     [
         [],
-        ["claude.ai","anthropic.com"]
+        ["claude.ai","anthropic.com","www.lastpass.com","lastpass.com","support.lastpass.com","link.lastpass.com"]
     ],
-    [
+   [
         [
             "aftygh.gov.tw",
             "aide.gov.tw",
@@ -52,7 +52,6 @@ var rules = [
             "nmp.gov.tw",
             "nmvttc.gov.tw",
             "northguan-nsa.gov.tw",
-            "npm.gov.tw",
             "nstm.gov.tw",
             "ntdmh.gov.tw",
             "ntl.gov.tw",
@@ -197,7 +196,6 @@ var rules = [
             "6parkbbs.com",
             "6parker.com",
             "6parknews.com",
-						
             "7capture.com",
             "7cow.com",
             "8-d.com",
@@ -430,6 +428,7 @@ var rules = [
             "archive.fo",
             "archive.is",
             "archive.li",
+            "archive.md",
             "archive.org",
             "archive.ph",
             "archive.today",
@@ -793,6 +792,7 @@ var rules = [
             "c-spanvideo.org",
             "c100tibet.org",
             "c2cx.com",
+            "cableav.tv",
             "cablegatesearch.net",
             "cachinese.com",
             "cacnw.com",
@@ -1007,6 +1007,7 @@ var rules = [
             "chubun.com",
             "churchinhongkong.org",
             "chushigangdrug.ch",
+            "ciciai.com",
             "cienen.com",
             "cineastentreff.de",
             "cipfg.org",
@@ -1127,6 +1128,7 @@ var rules = [
             "cotweet.com",
             "counter.social",
             "coursehero.com",
+            "coze.com",
             "cpj.org",
             "cq99.us",
             "crackle.com",
@@ -1555,6 +1557,7 @@ var rules = [
             "etadult.com",
             "etaiwannews.com",
             "etherdelta.com",
+            "ethermine.org",
             "etherscan.io",
             "etizer.org",
             "etokki.com",
@@ -1594,6 +1597,7 @@ var rules = [
             "ezpc.tk",
             "ezpeer.com",
             "ezua.com",
+            "f2pool.com",
             "f8.com",
             "fa.gov.tw",
             "facebook.br",
@@ -2332,7 +2336,6 @@ var rules = [
             "graphis.ne.jp",
             "graphql.org",
             "gravatar.com",
-							 
             "great-firewall.com",
             "great-roc.org",
             "greatfire.org",
@@ -2596,6 +2599,7 @@ var rules = [
             "hrcir.com",
             "hrea.org",
             "hrichina.org",
+            "hrntt.org",
             "hrtsea.com",
             "hrw.org",
             "hrweb.org",
@@ -2635,6 +2639,7 @@ var rules = [
             "hulkshare.com",
             "hulu.com",
             "huluim.com",
+            "humanparty.me",
             "humanrightspressawards.org",
             "hung-ya.com",
             "hungerstrikeforaids.org",
@@ -2681,7 +2686,7 @@ var rules = [
             "ibtimes.com",
             "ibvpn.com",
             "icams.com",
-            "icerocket.com",
+            "icedrive.net",
             "icij.org",
             "icl-fi.org",
             "icoco.com",
@@ -2960,6 +2965,7 @@ var rules = [
             "juyuange.org",
             "juziyue.com",
             "jwmusic.org",
+            "jwplayer.com",
             "jyxf.net",
             "k-doujin.net",
             "ka-wai.com",
@@ -3708,6 +3714,7 @@ var rules = [
             "noypf.com",
             "npa.go.jp",
             "npa.gov.tw",
+            "npm.gov.tw",
             "npnt.me",
             "nps.gov",
             "npsboost.com",
@@ -3905,7 +3912,6 @@ var rules = [
             "page.link",
             "page.tl",
             "page2rss.com",
-						
             "pagodabox.com",
             "palacemoon.com",
             "paldengyal.com",
@@ -4093,6 +4099,7 @@ var rules = [
             "postimg.org",
             "potato.im",
             "potvpn.com",
+            "pourquoi.tw",
             "power.com",
             "powerapple.com",
             "powercx.com",
@@ -4340,6 +4347,7 @@ var rules = [
             "roodo.com",
             "rosechina.net",
             "rotten.com",
+            "rou.video",
             "rsdlmonitor.com",
             "rsf-chinese.org",
             "rsf.org",
@@ -4913,6 +4921,7 @@ var rules = [
             "telesco.pe",
             "tellme.pw",
             "tenacy.com",
+            "tenor.com",
             "tensorflow.org",
             "tenzinpalmo.com",
             "terabox.com",
@@ -5147,7 +5156,6 @@ var rules = [
             "tracfone.com",
             "tradingview.com",
             "translate.goog",
-							   
             "transparency.org",
             "treemall.com.tw",
             "trendsmap.com",
@@ -5726,7 +5734,6 @@ var rules = [
             "wnacg.org",
             "wo.tc",
             "woeser.com",
-								   
             "wokar.org",
             "wolfax.com",
             "wombo.ai",
@@ -5974,6 +5981,7 @@ var rules = [
             "z-lib.org",
             "zacebook.com",
             "zalmos.com",
+            "zamimg.com",
             "zannel.com",
             "zaobao.com",
             "zaobao.com.sg",
