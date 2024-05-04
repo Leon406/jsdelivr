@@ -9,7 +9,7 @@ var proxy = 'SOCKS5 127.0.0.1:7890; SOCKS 127.0.0.1:7890; DIRECT;';
 var rules = [
     [
         [],
-        ["claude.ai","anthropic.com","www.lastpass.com","lastpass.com","support.lastpass.com","link.lastpass.com"]
+        ["claude.ai","anthropic.com","www.lastpass.com","lastpass.com","support.lastpass.com","link.lastpass.com","www.perplexity.ai"]
     ],
    [
         [
