@@ -2,6 +2,7 @@
  * https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
  * https://github.com/petronny/gfwlist2pac/blob/master/gfwlist.pac
  * GFWList Last-Modified: 2024-4-18
+ * Leon Added: 2024-5-6
  */
 
 
@@ -9,9 +10,15 @@ var proxy = 'SOCKS5 127.0.0.1:7890; SOCKS 127.0.0.1:7890; DIRECT;';
 var rules = [
     [
         [],
-        ["claude.ai","anthropic.com","www.lastpass.com","lastpass.com","support.lastpass.com","link.lastpass.com","www.perplexity.ai"]
+        [
+            "claude.ai",
+            "anthropic.com",
+            "lastpass.com",
+            "mediawiki.org",
+            "perplexity.ai"
+        ]
     ],
-   [
+    [
         [
             "aftygh.gov.tw",
             "aide.gov.tw",
