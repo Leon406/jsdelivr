@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2024.05.05
+// @version      2024.05.08
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -21,6 +21,7 @@
 // @exclude 	 *://*.bce.baidu.com/*
 // @exclude 	 *://*.iconfont.cn/*
 // @exclude 	 *://*.sou.com/*
+// @exclude 	 *://*.jiguang.cn/*
 // @license      GPL-3.0 License
 // ==/UserScript==
 
