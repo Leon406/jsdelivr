@@ -34,9 +34,9 @@
 | 软件名称                                                     | 版本        | 描述      |
 | ------------------------------------------------------------ | ----------- | --------- |
 | [MX Player](https://pan.lanzoub.com/b0f19eo3c)               | 1.60.3      |           |
-| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 8.36        |           |
+| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 8.40        |           |
 | [阅读](https://www.coolapk.com/apk/256030) [beta](https://www.lanzoub.com/b01rgkhhe) [github](https://github.com/gedoor/legado) | 3.23.110211 | 小说/漫画 |
-| [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.22.2      | 油管      |
+| [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.23.2      | 油管      |
 |                                                              |             |           |
 
 
