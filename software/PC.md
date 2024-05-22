@@ -1,4 +1,4 @@
-2024年5月15日08:41:08
+2024年5月22日19:22:44
 
 ## 生产力工具
 
@@ -9,10 +9,10 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                             |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                             |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.2.1    | 文字扩展                    |
-| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.77.104   | 需要自有账号                |
+| [chatall](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.77.105   | 需要自有账号                |
 | [Listary](https://www.listary.com/)                          |  6.0.11.35  | 启动器                      |
 | [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台** | 24.04.10291 | 脑图                        |
-| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.80.1    | 微软官方工具集              |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.81.0    | 微软官方工具集              |
 | [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases) |   1.5.12    | 笔记软件,需自行选用同步软件 |
 |                                                              |             |                             |
 
@@ -61,7 +61,7 @@
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
 | <del>[Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库</del> | 0.20.39 |  |
 | <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.6.2 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.44  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.45  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.16.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.39 | 反代steam, github等 |
@@ -108,8 +108,8 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.16.0        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3.0 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      124.0.2478.97      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      124.0.6367.207      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      125.0.2535.51      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      125.0.6422.76      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
@@ -129,7 +129,7 @@
 | ----------------------------------------------------- | :--------: | ---------- |
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.3.191303 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)             |    7.20    | 系统检测   |
-| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.97   | 系统启动盘 |
+| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.0.98   | 系统启动盘 |
 |                                                       |            |            |
 
 
@@ -191,7 +191,7 @@
 | [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET8 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0) |                 6.0.30<br/>8.0.5                 |                                           |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/> |     8u411<br/>11.0.23<br/>17.0.11<br/>21.0.3     | [whichjdk.com](https://whichjdk.com/)     |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.19  3.12.3<br/>2022.10 (3.9.13)<br>2024.02-1 | 建议3.9版本,3.10+第三方库可能存在兼容问题 |
-| [git](https://git-scm.com/)                                  |                      2.45.0                      |                                           |
+| [git](https://git-scm.com/)                                  |                      2.45.1                      |                                           |
 | [nodejs](https://nodejs.org/en)                              |                   20.13.1 LTS                    |                                           |
 
 
