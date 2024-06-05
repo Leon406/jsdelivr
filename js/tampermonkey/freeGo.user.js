@@ -256,13 +256,13 @@ function get_elements_simlpe(selector, cond = el => el) {
     return Array.from(document.querySelectorAll(selector)).filter(cond);
 }
 
-const reg_more = /^\s*(阅读|查看|展开)(全文|全部|更多)$|^展开(剩余|阅读)?/g
+const reg_more = /^\s*(阅读|查看|展开)(全文|全部|更多)?$|^展开(剩余|阅读)/g
 
 function showMore() {
     var mores = get_elements_simlpe("a", el => reg_more.test(el.text) && el.target != '_blank');
     //console.log("showMore ", mores);
     for (let more of mores) {
-        if (!more.href.startsWith("http") || more.href.startsWith("http") && more.href.includes(rootHost)) {
+        if (!more.href.startsWith("http") ||  more.href.includes(rootHost)) {
             more.click();
         }
     }
