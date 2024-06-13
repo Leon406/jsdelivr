@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2024.06.05
+// @version      2024.06.13
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -22,6 +22,7 @@
 // @exclude 	 *://*.iconfont.cn/*
 // @exclude 	 *://*.sou.com/*
 // @exclude 	 *://*.jiguang.cn/*
+// @exclude 	 *://*.mozilla.org/*
 // @license      GPL-3.0 License
 // @downloadURL https://update.greasyfork.org/scripts/458225/Free%20Read%20And%20Go.user.js
 // @updateURL https://update.greasyfork.org/scripts/458225/Free%20Read%20And%20Go.meta.js
