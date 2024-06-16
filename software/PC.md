@@ -118,7 +118,7 @@
 | [keyviz](https://github.com/mulaRahul/keyviz) github | 1.0.6 | 快捷键显示 |
 | [WindowTabs](https://github.com/leafOfTree/WindowTabs) github | 2023.10.15 | 应用多窗口化 |
 | [Qalcualte](https://github.com/Qalculate/qalculate-gtk) github | 5.1 | 科学计算器 |
-|                                                              |               |                  |
+| [NETworkManager](https://github.com/BornToBeRoot/NETworkManager) github |  2024.5.24.0  | 网络工具 |
 |  |  |  |
 
 
