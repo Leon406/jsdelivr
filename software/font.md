@@ -6,6 +6,10 @@
 
   能给开发者提供关于字体显示、不同字体大小的像素级显示等的高级控制。
 
+- TTC （TrueType Collection）
+
+  TTC字体是TrueType字体集成文件(. TTC文件)，是在一单独文件结构中包含多种字体,以便更有效地共享轮廓数据,当多种字体共享同一笔画时,TTC技术可有效地减小字体文件的大小。
+
 - OTF（OpenType Font）
 
 ​	 Adobe 和 Microsoft 联合开发的跨平台字体文件格式，也叫 Type 2 字体，它的字体格式采用 Unicode 编码，是一种兼容各种语言的字体格式。
