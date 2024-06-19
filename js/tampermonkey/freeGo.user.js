@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2024.06.16
+// @version      2024.06.19
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -216,12 +216,7 @@ const REAL_GO = {
         query: "href",
         action: urlDecode,
         func: () => get_elements("a", filterThirdATag).forEach(stopropagation)
-    },
-    "www.bing.com": {
-        prefix: "https://www.bing.com/ck/a",
-		query: "href",
-        action: request
-    },
+    }
 }
 
 function filterThirdATag(aTag) {
