@@ -2,20 +2,20 @@
 
 ## 生产力工具
 
-| 软件                                                         |    版本     | 说明                        |
-| ------------------------------------------------------------ | :---------: | --------------------------- |
-| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |   2.2.15    | 全局鼠标手势,仅windows      |
-| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |    9.0.0    | 剪切板管理工具              |
-| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                             |
-| [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                             |
-| [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.2.1    | 文字扩展                    |
-| [ChatAll](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.80.106   | 需要自有账号                |
-| [Listary](https://www.listary.com/)                          |     6.3     | 启动器                      |
-| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台** | 24.04.10311 | 脑图                        |
-| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.81.0    | 微软官方工具集              |
-| [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases) |    1.6.5    | 笔记软件,需自行选用同步软件 |
-| [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.6    | 快速启动                    |
-|                                                              |             |                             |
+| 软件                                                         |    版本     | 说明                                                         |
+| ------------------------------------------------------------ | :---------: | ------------------------------------------------------------ |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures) |   2.2.15    | 全局鼠标手势,仅windows                                       |
+| [CopyQ](https://github.com/hluk/CopyQ) github **跨平台**     |    9.0.0    | 剪切板管理工具                                               |
+| [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                                                              |
+| [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                                                              |
+| [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.2.1    | 文字扩展                                                     |
+| [ChatAll](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.80.106   | 需要自有账号                                                 |
+| [Listary](https://www.listary.com/)                          |     6.3     | 启动器                                                       |
+| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台** | 24.04.10311 | 脑图                                                         |
+| [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.81.0    | 微软官方工具集                                               |
+| [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases) |    1.6.5    | 笔记软件,需自行选用同步软件                                  |
+| [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.6    | 快速启动                                                     |
+| [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) [github](https://github.com/hiroi-sora/Umi-OCR) |    2.1.2    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
 
 
 
