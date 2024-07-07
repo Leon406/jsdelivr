@@ -1,4 +1,4 @@
-2024年6月29日14:10:47
+2024年7月7日10:49:35
 
 ## 生产力工具
 
@@ -9,7 +9,7 @@
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.24    |                                                              |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1024  |                                                              |
 | [espanso](https://github.com/espanso/espanso) github **跨平台** |    2.2.1    | 文字扩展                                                     |
-| [ChatAll](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.80.106   | 需要自有账号                                                 |
+| [ChatAll](https://github.com/sunner/ChatALL/releases/latest)  github**跨平台** |  1.80.107   | 需要自有账号                                                 |
 | [Listary](https://www.listary.com/)                          |     6.3     | 启动器                                                       |
 | [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台** | 24.04.10311 | 脑图                                                         |
 | [PowerToys](https://github.com/microsoft/PowerToys) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.81.0    | 微软官方工具集                                               |
@@ -48,21 +48,21 @@
 
 ## HackerTools
 
-| 软件                                                         |  版本  | 说明                                          |
-| ------------------------------------------------------------ | :----: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |  7.95  | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.6 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |        |                                               |
+| 软件                                                         |   版本    | 说明                                          |
+| ------------------------------------------------------------ | :-------: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.95    | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.6。1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+|                                                              |           |                                               |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 5.1.8 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 5.2.2 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
 | <del>[Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库</del> | 0.20.39 |  |
 | <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.6.6 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.49  | v2ray ss工具  |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.50  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.16.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.40 | 反代steam, github等 |
@@ -71,18 +71,18 @@
 
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
-| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  24.1  | 终端工具                              |
+| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  24.2  | 终端工具                              |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)  [下载16.3](http://download.navicat.com.cn/download/navicat163_premium_cs_x64.exe) [下载15(不维护)](http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe)  [cracker](https://leon.lanzoub.com/ixrFq0c72ebc)  **跨平台** | 16.3.9<br>15.0.29 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare 4](http://www.scootersoftware.com)           |  4.4.7  | 文件比对同步工具,备份                   |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.2.1  | Android 投屏电脑                      |
-| [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0137 | 源码阅读                              |
+| [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.6  | redis工具                             |
-| [VSCode](https://github.com/microsoft/vscode) github         | 1.90.2 | 编辑器                                |
+| [VSCode](https://github.com/microsoft/vscode) github         | 1.91.0 | 编辑器                                |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.6.8 | 文本编辑 |
-| [EmEditor ](https://www.emeditor.com/download/) | 24.3 | 编辑器 支持大文件 |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.5.35 | 接口测试 |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.0.15  | 接口测试                              |
+| [EmEditor ](https://www.emeditor.com/download/) | 24.3.1 | 编辑器 支持大文件 |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.6.2 | 接口测试 |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.0.16  | 接口测试                              |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.4.2  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.18.0 | 个人开发的开发者工具 |
 | [He3](https://he3.app/) **跨平台** | 2.0.20 | 开发工具 |
@@ -100,7 +100,7 @@
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          10.5          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.7.2         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.2.1 | 远程控制 速度快 |
+| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.4.0 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1260        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.41         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.19       | 硬盘空间分析    |
@@ -172,7 +172,7 @@
 | ------------------------------------------------------------ | :------: | -------------- |
 | [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) <br> [6音音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno)  [洛雪音源](https://github.com/lyswhut/lx-music-source/tree/master/dist) **跨平台** |  2.8.0   | 音乐助手       |
 | [unlock music](https://git.unlock-music.dev/um/web)          |  1.10.6  | 音乐解锁       |
-| [方格](http://morin.vin/)                                    |  1.5.3   | 音乐播放       |
+| [方格](http://morin.vin/)                                    |  1.5.4   | 音乐播放       |
 | FolderPainter                                                |   1.2    | 文件夹图标修改 |
 | [DNS jumper](https://www.sordum.org/)                        |   2.3    | 最优dns解析    |
 | [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 24.05.05 | 词典翻译       |
