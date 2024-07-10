@@ -61,22 +61,22 @@
 | [Bookerly](https://typedetail.com/bookerly.html) | Kindle | 英文 Serif | 亚马逊为Kindle设备专门设计的一种数字阅读字体。它有着清晰的字形和舒适的阅读体验，特别适合长时间阅读。这种字体的空间利用率非常高，能够在较小的字号下保持良好的可读性，为数字阅读体验带来了很大的提升。 |
 | Optima                                           |        | sans-serif | 所有字形都是按照黄金比例设计的，这使其具有高度的美感和和谐性。其笔画粗细对比强烈，但整体看起来却非常协调，字宽中等，易于识别 |
 
-
+[programmingfont](https://www.programmingfonts.org/)
 
 | **字体**                                                     | **类型**     | **版本**    | **说明**                                                     |
 | ------------------------------------------------------------ | ------------ | ----------- | ------------------------------------------------------------ |
 | **[JetBrains Mono](https://www.jetbrains.com/lp/mono/) github** | **英文符号** | **2.304**   | **支持ligature**                                             |
 | **[FiraCode](https://github.com/tonsky/FiraCode)**           |              | **6.2**     | **支持ligature**                                             |
-| **[Cascadia Code](https://github.com/microsoft/cascadia-code/releases/tag/v2111.01)** |              | **2111.01** | **终端**                                                     |
+| **[Cascadia Code](https://github.com/microsoft/cascadia-code/releases)** |              | **2404.23** | **终端**                                                     |
 | **[Source Code Pro](https://github.com/adobe-fonts/source-code-pro)** |              | **2.042**   | **无衬线字体,被Adobe 公司号称最佳的编程字体**                |
-| **[Maple-font](https://github.com/subframe7536/Maple-font)** | **中英**     | **6.3**     | **中英文严格2:1等宽字体,支持ligature**                       |
-| **[Hack](https://github.com/source-foundry/Hack)**           |              |             | **源码,行间距比Consolas略高，字体圆滑，颜值还是很高**        |
+| **[Maple-font](https://github.com/subframe7536/Maple-font)** | **中英**     | **6.4**     | **中英文严格2:1等宽字体,支持ligature**                       |
+| **[Hack](https://github.com/source-foundry/Hack)**           |              | 3.003       | **源码,行间距比Consolas略高，字体圆滑，颜值还是很高**        |
 | **Courier New(CN)**                                          |              |             | **Windows 的缺省等宽字体**                                   |
 | **Consolas**                                                 |              |             | **CN的升级,Consolas更窄，能够在较少的空间显示更多的内容。同时Consolas也是VS系列默认字体** |
 | **[Monaco](https://github.com/vjpr/monaco-bold)**            |              |             | **号称苹果出品最好的编程字体**                               |
-| **[ntel-one-mono](https://github.com/intel/intel-one-mono)** |              | **1.2.1**   |                                                              |
-| [monaspae](https://github.com/githubnext/monaspace)          |              | 1.0.0       | github 编程字体                                              |
-|                                                              |              |             |                                                              |
+| **[intel-one-mono](https://github.com/intel/intel-one-mono)** |              | **1.3.0**   |                                                              |
+| [monaspae](https://github.com/githubnext/monaspace)          |              | 1.101       | github 编程字体                                              |
+| [losevka](https://github.com/be5invis/Iosevka)               |              | 30.3.2      | 编程字体                                                     |
 |                                                              |              |             |                                                              |
 
 
@@ -86,10 +86,10 @@
 | **[HarmonyOS Sans](https://developer.harmonyos.com/cn/docs/design/font-0000001157868583)** | **中文** |          | **华为和汉仪字库合作定制**                                   |
 | **[MiSans](https://hyperos.mi.com/font/zh/download/)**       | **中文** |          | 小米兰亭Pro的升级版、替换版                                  |
 | **[OppoSans](https://www.shejidaren.com/oppo-sans-fonts-download.html)** | **中文** |          | **与国内知名字体厂商「汉仪」合作开发出的富有现代感和科技感的全新中文字库** |
-| **[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)**           | **CJK**  | 1.320    |                                                              |
+| **[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)**           | **CJK**  | 1.330    |                                                              |
 | **[思源宋体](https://github.com/adobe-fonts/source-han-serif)** | **CJK**  | *2.002*  |                                                              |
-| **<del>[未来荧黑](https://github.com/welai/glow-sans)</del>** | **CJK**  |          | **基于思源黑体、Fira Sans 和 Raleway 的开源字体项目<br>2023.8 归档不更新 |
-| **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK      |          | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
+| **<del>[未来荧黑](https://github.com/welai/glow-sans)</del>** | **CJK**  |          | 基于思源黑体、Fira Sans 和 Raleway 的开源字体项目<br>2023.8 归档不更新 |
+| **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK      | 1.0.15   | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
 | [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      |          | 无法商用，支持汉字最全,支持Unicode15.1                       |
 | [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |          |          | WFG, 无法商用，支持汉字最全,支持Unicode15.1                  |
 | [全字库](https://magiclen.org/zh-tw-font/)                   |          |          |                                                              |
