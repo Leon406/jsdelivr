@@ -11,12 +11,12 @@ var rules = [
     [
         [],
         [
-		    "claude.ai",
+            "claude.ai",
             "anthropic.com",
             "lastpass.com",
             "mediawiki.org",
             "perplexity.ai"
-		]
+        ]
     ],
     [
         [
