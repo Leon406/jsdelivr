@@ -1,4 +1,4 @@
-2024年7月7日10:49:35
+2024年7月17日08:38:08
 
 ## 生产力工具
 
@@ -23,7 +23,7 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b02orsj7i#75ki) 75ki [IAS ](https://www.lanzoub.com/b048tg9gd) [cracker](https://leon.lanzoue.com/iy5Vl20zosza) | 6.42.12 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html) [破解版](https://www.lanzoub.com/b02orsj7i#75ki) 75ki [IAS ](https://www.lanzoub.com/b048tg9gd) [cracker](https://leon.lanzoue.com/iy5Vl20zosza) | 6.42.14 | 下载工具 |
 | [xdown](https://xdown.org) 自动更新                       | 2.0.8.7 | 下载工具  自动升级 |
 | [leon406优化版](https://github.com/Leon406/lanzou-gui)<br>[蓝奏云盘(已停止维护)](https://github.com/rachpt/lanzou-gui) |  0.6.12  | 蓝奏云客户端    |
 |                                                           |         |                    |
@@ -48,24 +48,25 @@
 
 ## HackerTools
 
-| 软件                                                         |   版本    | 说明                                          |
-| ------------------------------------------------------------ | :-------: | --------------------------------------------- |
-| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.95    | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.6。1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |           |                                               |
+| 软件                                                         |   版本   | 说明                                          |
+| ------------------------------------------------------------ | :------: | --------------------------------------------- |
+| [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.95   | ip端口扫描                                    |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.6.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+|                                                              |          |                                               |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 5.2.2 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 5.2.3 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts)  github **跨平台** | 4.1.2 | hosts切换工具 |
 | <del>[Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库</del> | 0.20.39 |  |
-| <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.6.6 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.50  | v2ray ss工具  |
+| <del>[clash-verge](https://github.com/zzzgydi/clash-verge) github 跨平台 已删库</del><br>[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) github | 1.7.5 | |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  6.51  | v2ray ss工具  |
 | [v2ray](https://github.com/v2fly/v2ray-core/releases) github | 5.16.1 | v2ray工具     |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
-| [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.40 | 反代steam, github等 |
+| [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.41 | 反代steam, github等 |
+|  |  |  |
 
 ## 开发
 
@@ -79,7 +80,7 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.6  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode) github         | 1.91.0 | 编辑器                                |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.6.8 | 文本编辑 |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus) | 8.6.9 | 文本编辑 |
 | [EmEditor ](https://www.emeditor.com/download/) | 24.3.1 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.6.2 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.0.16  | 接口测试                              |
@@ -98,9 +99,9 @@
 
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
-| [FastStoneCapure](http://www.faststone.org/)                 |          10.5          | 截图编辑工具    |
+| [FastStoneCapure](http://www.faststone.org/)                 |          10.6          | 截图编辑工具    |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.7.2         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.4.0 | 远程控制 速度快 |
+| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.4.2 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1260        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.41         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.19       | 硬盘空间分析    |
@@ -109,8 +110,8 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.16.0        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3.0 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      126.0.2592.81      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      126.0.6478.127      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      126.0.2592.102      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      126.0.6478.183      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
@@ -190,10 +191,10 @@
 | [软件](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) |                       版本                       | 说明                                      |
 | ------------------------------------------------------------ | :----------------------------------------------: | ----------------------------------------- |
 | [.NET6 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) <br>[.NET8 (LTS)](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0) |                 6.0.31<br/>8.0.6                 |                                           |
-| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/> |     8u411<br/>11.0.23<br/>17.0.11<br/>21.0.3     | [whichjdk.com](https://whichjdk.com/)     |
+| [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/> |     8u422<br/>11.0.24<br/>17.0.12<br/>21.0.4     | [whichjdk.com](https://whichjdk.com/)     |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/products/distribution) | 3.9.19  3.12.4<br/>2022.10 (3.9.13)<br>2024.02-1 | 建议3.9版本,3.10+第三方库可能存在兼容问题 |
 | [git](https://git-scm.com/)                                  |                      2.45.2                      |                                           |
-| [nodejs](https://nodejs.org/en)                              |                   20.15.0 LTS                    |                                           |
+| [nodejs](https://nodejs.org/en)                              |                   20.15.1 LTS                    |                                           |
 
 
 
