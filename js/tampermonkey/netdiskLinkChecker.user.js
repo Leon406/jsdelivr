@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.22
+// @version      1.8.23
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘、移动彩云
-// @note         24-07-06 1.8.22 修正蓝奏失效域名lanzoub
+// @note         24-07-23 1.8.23 移除移动彩云
 // @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -636,45 +636,6 @@
                                 state: 0
                             });
                         }
-                    });
-                }
-            },
-            caiyun: {
-                reg: /(?:https?:\/\/)?\bcaiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
-                replaceReg: /(?:https?:\/\/)?caiyun\.139\.com\/[mw]\/i[\?\/]([\w-]+)(?!\.)/gi,
-                prefix: "https://caiyun.139.com/w/i/",
-                checkFun: (shareId, callback) => {
-                    logger.debug("caiyun checkFun", shareId);
-                    http.ajax({
-                        type: "post",
-                        url: "https://caiyun.139.com/stapi/custom/outlink/brief",
-                        data: "linkId=" + shareId,
-                        headers: {
-                            "Content-Type": "application/x-www-form-urlencoded"
-                        },
-                        success: (response) => {
-                            let rsp = typeof response == "string" ? JSON.parse(response) : response;
-                            logger.debug("caiyun chec", shareId, rsp);
-
-                            let state = 0;
-                            // 请求限制
-                            if (!response) {
-                                state = 0
-                            } else if (rsp.code == 0) {
-                                state = rsp.data.isPasswd === "1" ? 2 : 1;
-                            } else {
-                                state = -1;
-                            }
-
-                            callback && callback({
-                                state: state
-                            });
-                        },
-                        error: () =>
-                        callback && callback({
-                            state: 0
-                        })
-
                     });
                 }
             }
