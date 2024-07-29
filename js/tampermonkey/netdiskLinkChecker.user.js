@@ -20,7 +20,6 @@
 // @connect      cowtransfer.com
 // @connect      wenshushu.cn
 // @connect      115.com
-// @connect      caiyun.139.com
 // @exclude 	 *://baike.baidu.com/*
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
@@ -686,13 +685,6 @@
                     button: ['.access-code-item .visit'],
 
                 },
-                caiyun: {
-                    reg: /((?:https?:\/\/)?caiyun\.139\.com\/m\/i\?[A-Za-z0-9]+)/,
-                    host: /caiyun\.139\.com/,
-                    input: ['.token-form input[type=text]'],
-                    button: ['.token-form .btn-token'],
-                    name: '和彩云',
-                },
                 xunlei: {
                     reg: /((?:https?:\/\/)?pan\.xunlei\.com\/s\/[\w-]{10,})/,
                     host: /pan\.xunlei\.com/,
@@ -1075,7 +1067,7 @@
                         bodyEle.find(".clicks,.only-like").remove();
                     var rrr = bodyEle.text()
 					 .replaceAll("如遇到有带x的提取码请手打输入","提取码")
-					.match(/(?<=\.baidu\.com|lanzou.\.com|weiyun.com|189\.cn|115\.com|139\.com|aliyundrive.com|123pan.com|quark.cn|xunlei.com)\/\S+(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&](?:pwd|password)=|#)([a-zA-Z\d]{4,8})/g);
+					.match(/(?<=\.baidu\.com|lanzou.\.com|weiyun.com|189\.cn|115\.com|aliyundrive.com|123pan.com|quark.cn|xunlei.com)\/\S+(\s*([\(（])?(?:(提取|访问|訪問|密)[码碼]|Code:)\s*[:：﹕ ]?\s*|[\?&](?:pwd|password)=|#)([a-zA-Z\d]{4,8})/g);
                     for (let s in rrr) {
                         console.log(typeof s, "---", typeof rrr[s])
 
@@ -1595,7 +1587,6 @@
                                 /share\.weiyun\.com/,
                                 /(?:[A-Za-z0-9.]+)?lanzou[a-z]\.com/,
                                 /cloud\.189\.cn/,
-                                /caiyun\.139\.com/,
                                 /pan\.xunlei\.com/,
                                 /pan\.quark\.cn/,
                                 /www\.123pan\.com/,
