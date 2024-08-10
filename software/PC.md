@@ -17,7 +17,7 @@
 | [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.6    | 快速启动                                                     |
 | [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) [github](https://github.com/hiroi-sora/Umi-OCR) |    2.1.3    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
 | [openall](https://github.com/godgodgame-admin/open-all)      |    1.0.4    | 多个大模型比对                                               |
-|                                                              |             |                                                              |
+| [eSearch](https://github.com/xushengfeng/eSearch) **跨平台** |    1.2.1    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
 
 
 
