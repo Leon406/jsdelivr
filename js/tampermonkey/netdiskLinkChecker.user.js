@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.23
+// @version      1.8.24
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         24-07-23 1.8.23 移除移动彩云
+// @note         24-08-17 1.8.24 优化夸克链接有效性判断
 // @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -443,15 +443,39 @@
                             } else if (rsp.message.includes("需要提取码")) {
                                 state = 2;
                             } else if (rsp.message.includes("ok")) {
-                                state = 1;
+								var token =  rsp.data.stoken.replace(/\+/g, '%2B').replace(/\"/g,'%22').replace(/\'/g, '%27').replace(/\//g,'%2F')
+                                http.ajax({
+                                    type: "get",
+                                    url: "https://drive-h.quark.cn/1/clouddrive/share/sharepage/detail?pwd_id=" + shareId + "&stoken=" + token + "&_fetch_share=1",
+                                    success: (response) => {
+                                        logger.debug("checkQuark detail response", response);
+										let rsp2 = typeof response == "string" ? JSON.parse(response) : response;
+                                        let state = 0;
+                                        // 请求限制
+                                        if (rsp2.data.share.status == 1) {
+                                            state = 1;
+                                        } else if (rsp2.data.share.status > 1) {
+                                            state = -1;
+                                        }
+
+                                        callback && callback({
+                                            state: state
+                                        });
+                                    },
+                                    error: function () {
+                                        callback && callback({
+                                            state: 0
+                                        });
+                                    }
+                                })
                             } else {
                                 state = -1;
                             }
-
-                            callback && callback({
+							if(!rsp.message.includes("ok")){
+								callback && callback({
                                 state: state
                             });
-
+							}
                         },
                         error: function () {
                             callback && callback({
