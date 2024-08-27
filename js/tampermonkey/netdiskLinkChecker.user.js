@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.24
+// @version      1.8.27
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         24-08-17 1.8.24 优化夸克链接有效性判断
+// @note         24-08-27  支持夸克链接部分违规显示
 // @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -453,7 +453,7 @@
                                         let state = 0;
                                         // 请求限制
                                         if (rsp2.data.share.status == 1) {
-                                            state = 1;
+                                            state =rsp2.data.share.partial_violation? 11 : 1;
                                         } else if (rsp2.data.share.status > 1) {
                                             state = -1;
                                         }
@@ -1185,11 +1185,13 @@
         obj.getSuccessIcon = () => "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAACrUlEQVR4Xt2Yu2sUQRzHV/BFxNzMXhEQkRAEJbd763+gnYIWVjYitrYBC8FaSzttFBs7LQQLMdnZ3SSKWFhoYWFvOl+IoImJ5283Znf2O7PPmz3QL3zIcff9PZidnUcs63/V4Nm07QTskhvaC8PAvuoIfu7Y0tQh9E1EjmD3qIn1YWiP6G8xESHsNYw3qtlodv9wmavFa+Kt9keu35vDvGNpGPAnWKgtruDrmL+V3IBvYfKxoSkwEPYZrFVPI2uXt6JJahAn4texbKW6bmoHJ+xdwNqFooBNTNAlWF8rmlMPMLBzoorm5h9ae5WgSSHYXewnFb3K5t/AuoQlo6aYTRLvEhU7BW1nt7EnGi32CI0GebVThz5/0fye4C1rRo1W9w00GkGw93KdOZ/3FI+E7E1UNcxtoDn7Dus4Pj+LvlyMzxYydwdvIzW1khXY1syidaDGAGSnEc+3T2sMKiG/QWvOYTrKqL9JUFNvpX5Soa+A71mAYJc1hhx0EPSlGhTDP6En8QX8jeyLlYyUxlvARhroBPyKxgDwO1KtRPR9rjk3YEvoqfn4ZDbTYFoqzmsMeQoWQGr487aHp0uCLCVPBW5g/0iD531+BA1FSDVT0ZwL8LuGjy+FpsLHXCI0FFK14VqtHl+Gz0QuWXJxQFMRFc0p/gaciqzdmOwDmkrRzLm2j08GcyZCUyXSyLnPe7z145OQ+0nlrarGOnhNpkEJg5fTNvaUKL73oXlSxIOC/eSEAZPi6FNrH/aiyMRcaYIn2GPsQSs3ZCcxuDOEvYX1S0Ur8DUliWHiuyvWrSU34hcxmUF+Y73GMj3n6BSS33bGEe3698dt8MSL/iheiDG3EVGDt+LbDBYtg+brz+PiYB9zdSa6B96kwmvEN+LX3xGN/+/xNTmfvbb2YMw/rz8ZKxg+Um5CmgAAAABJRU5ErkJggg==";
         obj.getLockIcon = () => "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAABwUlEQVR4Xu1XvUoDQRA+0EoMub+oJBpv9wQLFSzsbASfwc4nsLMwcffERPEJbH0BQXwG2zQWEmttRIuA2Ch2Ohs4vMzueUncjRDug6/Zmdnvy85m99aycuQYIzi0XnWr9RU8/i/wKLv3aPTlUY4IY4S94HzjcEK+KptR0yH8HNcbgVNlm1g8iy5hj3ge7cCiom1OwC5LwcGcHTTs4kK04YcNyZxDDs/wXNoAe+qzR5DwZ5wTA1q4i83hHD0o7U33CIVHmUIu4afJGmhpC+f8GSBykRQpl5tTOEcF8QOMrhr8/d/jycUewvE0uJRfGTUGAm3YYy1BWL07HE9Dkda24zowpr+VRuCFx93NaoIujTpYry/Asj8ke2yE8/sVrJsJ6O2HNJFmwgW+hnUzMZix7oX8ChygxrQxdATMED4r5aTQqLFChXlSLWE3OE9Fo8Ysa2dCruUM56lo1Jgd8HVc61L2hvNUNGpM0LK2JuM6OOmvcTyNxo1B7m1c5y81FXE1c2MCubH++PPk8sXFL8XVHIEx+PztvhX5Ex7/jSMxNgyHMgbnUQdPpJs2iRaxbib85VpB/YzXQz880f8dnyPHuOIbV69cHR4KWOMAAAAASUVORK5CYII=";
         obj.getOtherIcon = () => "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAD5UlEQVR4Xr2YT2jTUBzHMxR0wmDaNXndxIk6EA9TEPQo/rns5MHtJjK2JrHrhhcRBP/cRHYTFMXDQBAVdhVBBGEHDx48iHhQEQ8DFYS5Jenabd3i71eX9uXbpE3S6gce697vb977vT+JoiTAVZSOwlhPr2WIT+v5jLt8UbgONdsUboH+rk5k3JUJ4Vq6pv8a6+lC+7Zjm+nhNQrKCcRpnLxjimfor2VKo+kBJyBg3MY+LFN7i/4TUcrVB8BgPJW2ITbo/zX+zdOJemhTzHf3Y6xIcB1xraBTbpv9s4uGuh/tZGxTm+JpRPta0x6iTUPcEWVL0NQVc/y06mHUb8b8yO7OyqgG+LQN7T3qhxKUFDl4hXpxoQfuDJpmx1BfoG4dQUPv6OkjqNcKgaOXTZ1CvSo0KnUGPA2o1w7KE/DwlCzXNeopTlbVMKliTt2HemFY+b7UgpHZ40ykhTt1YBvKg1jJ+WdnjZJFnbq6sgxtBnUQ2tnH3Mn6qee2wf165hzaIBj3u9G7oypc1NUzsrBETyLZBkL71rxsw1sI12d9catzaCtjG+pdeKhCVYjOSk32Jzojr3i6/MQoXzZSx2V/KEdw1Lz+DrmTz0LZKAh55aLMgxbSm1ry6m2Uy1immJFzcAwxrfwe7+6XO6nNoiEi6a6jzIPq72otkPYU5TK8WOQcVnkRYK1YRuogGiaBpvub55OOLhPlSFmaBd7nfB1B9ZIEOgOveT65flEeBOl+lQfItwtHddIISuqDHID3R9QJgnTv+RILWxFJKMu3EboGobwRli4uhyZGv8toEBXfGUtXbpQ3g2xyvsTkqawUXUJa9WHr4oYvMfkymLT4HVO7VHWqa09QHgWyfe1LDK85aBAFKvDBJTNznlshmzmK8ihUzlY5D37FkjtorifR6H9QkHLgJBWX3vvkxHhfQ6N/jW3uOuQbHFP8PfhxOt3RvdvBtinuTWUrjfZJ7I8CXp2qpw+/rciCJBttzV77gbJG8HuAHLtuVeNG6w4pkW6hzPKFVF/VjusjBhiXVvgtnwJ1zskKcUeNjyK6viy4Qff2ECy6RDYcLQ/MPlSxDRSyqbNyLG6hNxs335VCZf5qg3qtUtTFCYxDF8ufqOeDFB6gEX+/QL2k0JQ/Rv+Ry4a/e6Fx5fuXod1B3TiQn3X0G7tc6PXtOTqpJGjypyTx6MtQtHdHJ7tzEPcpr0UeKcQZ1057XwqD2ubG/JGSneajzDK1cfp7nabrJZ8g+Pblb9pnjBcLXv7NvpHFaTx1S6PpAYyTmOERZQs5LmGgqI0TohKYRr9thQLdD6sbuVW+1xriHSV1DH004w9PygmOZFyzWwAAAABJRU5ErkJggg==";
+        obj.getPartialIcon = () => "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAADYAAAAAQAAANgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAADCgAwAEAAAAAQAAADAAAAAAVrtQ3wAAAAlwSFlzAAAhOAAAITgBRZYxYAAABb9JREFUaAXtWd9vG0UQ3t3z2aljN0nlNKVSlLaEuCEQUfIACIQET5UQBSRStS8IIfHGW976lH8g/wBIiCd+KEhAEVKfICCkgsBUBBwnURuIUpGmTohaO45j+27Z75xDe3t79jnEiIic5NzM7OzMN3t7ezMTQg6vwxX4f6+AsZ/hT05OskzmzjEWT/XFjFR/pCM1aMZS/TEz1W10puJHzJRx5cpbOzMzM3y//NJ/amhsbMz8ZbHwICE0TWySJpzHG9qktEQYWSCELzw6lLyVyWSqDfWbDO45AADPLm4/adu1ZwgnsSZ+9MOU7DAW+XZk6Mh3ew2k5QA457Sz8+FzFrWe45wk9chak1JKCgY3vtramrtBKW1pe7UUwMjISHRpufqKZZPh1iCG0zYYnTszEPk0m81Wws0QGzesYk/PWFepWrzMbX4iYA5nhK5Qg85zxldNmxf6+uwCdNfWWLLKaJLa9AFu8bM24f1CrPVNGb0TNxMfbG5m7gX48Yi1RjwagnHAV7be5NxOqGMCR41S9v3ROLuez2eL/nG/pLd3JHG/ZD8l7D0hXuaIqiHsFePRznfCBNH0GMW2Wfuz/JrY+8dURwYjuXg0+X7x/uxcqZQP/diha1XXl44mTv1s80q3eJd6vbZ5tMarp88+dGI2n89b3jEvx7ysl8MLiz2v2zaMGV9uFxc/Clql8fFxI5ZMp/ED7bVc5zAXNmBLHYfPpeXay8Cgjsl8w8F4fPjxGrEuyBNAR5nxcbGY+1WVuzwAf/7F7Ou7e10c+3TlxRdG35ueng5czURi+JGKbb3q2nDvEWJcLZVyP7m8eteuDJRwzq9tlC8J0nPGY7VKxdwPqiGZv7ViDYmVe9qViXOxa3Hp7h9WZWPDlan3SmX9rhk7bot5p+UxTvnJx0ZP/bi6umrLcpcO3EL4SKnnPPZ8uZj7xp0cdDcs//dBJ1PnwzZ8yHJgABZZJtPaALD6zhdW1hSnTYeZvOYRtYGp+6A12TSwAJMsc2ltAE5uo6QHOCqDXljX2H7c4QO+PLYElnq+5ZE6jDYAJzHz6nKc815R+7hdX0pKIZJFzeULACmxk1VKyjhFwn6kpGl7JuELPj0GRKbrYPMIiTjhlGtq6sMeNSVGeqCotZ31+RRpuoNN8ewLoGr4TxDkNsq8trM6nzpsvgCMqj8AJGZtR6w40PnUYfMFYDN/AG5WqfhoK6vzqcPmC6CtqNpg3BcAs4lvuyCfb8V3jRnbqr5OpurIvM6nDpsvAMv0B4BiRDbejD7e3bWEMtHVAw2Zy4e563zqsPmKCdMihR3FAyopIfpNEQeyt29f306l0m8Xy3QMSokOnoEscIJmgNrkpCoGtrIi9D2BiYlLmwStD+lCGSixocj19YVCuTg/gx/oUJMkJW6JFo18CUwONlkmaG09EE2mXyIWPyfp8q5Oc+rf+hqj5Ly3VZ3w4DPojUph4TMJk0P6nkBdgYvGk+eiqGE9kiZMmIosyMSuL2VxfZic6doA0DETz8bzKqAAR3Ef5FSWuxWZ2HqX8UN1FlRWyvNAw0e92JdGBBYHkyRySW1FhurH7OijwtAZV1HcGQrwWmUjK8m05F4qMtcQjSRFHUz6XB53ZkS+Xvl9VnuIaJ8AJqHdJx+FkKGh1ZEYfhZ0Oy7YVptmwAAsQf4CA0CvEu0+daJtW8+jAFflMn/h/OhNOR0GDZmso9KwCduqHBga9U2VF8U7HS2NeDJ9UV0VaKG4b1QfY89fvTY7CF2Ab9SRwMprwYtWY6kwP92oX9owADhHY+vmcu0NXW8IBThq2L2Wmnhhy9XCed0CocU4OBB5t1mftGkACOK/3FoMFcDfQRzU5i4CwNX+9jrJnRkwP2m2bepo6n9DPwF3El7sA/sPDjcI3A/sv5jkINxADuQ/+dRAwKNvg9YHugcowN0aFpUUihHk80iJhZ62UauzeSg7XIHDFWi8An8B0+Xbcz5Btc4AAAAASUVORK5CYII=";
         obj.getStyleText = () => ".one-pan-tip { cursor: pointer;}" +
         ".one-pan-tip::before {background-position: center;background-size: 100% 100%;background-repeat: no-repeat;box-sizing: border-box;width: 1em;height: 1em;margin: 0 1px .15em 1px;vertical-align: middle;display: inline-block;}" +
         ".one-pan-tip-success::before {content: '';background-image: url(" + obj.getSuccessIcon() + ")}" +
         ".one-pan-tip-error {text-decoration: line-through;}" +
         ".one-pan-tip-error::before {content: '';background-image: url(" + obj.getErrorIcon() + ")}" +
+        ".one-pan-tip-partial::before {content: '';background-image: url(" + obj.getPartialIcon() + ")}" +
         ".one-pan-tip-other::before {content: '';background-image: url(" + obj.getOtherIcon() + ")}" +
         ".one-pan-tip-lock::before{content: '';background-image: url(" + obj.getLockIcon() + ")}";
         return obj;
@@ -1436,6 +1438,8 @@
                         $this.addClass("one-pan-tip-lock");
                     } else if (response.state == 1) {
                         $this.addClass("one-pan-tip-success");
+                    } else if (response.state == 11) {
+                        $this.addClass("one-pan-tip-partial");
                     } else if (response.state == -1) {
                         $this.addClass("one-pan-tip-error");
                     } else {
