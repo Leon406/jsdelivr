@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      1.8.27
+// @version      2024.9.6
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         24-08-27  支持夸克链接部分违规显示
+// @note         2024.9.6  支持dicourse论坛网盘密码识别, Linux.do
 // @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -31,6 +31,7 @@
 // @grant        GM_openInTab
 // @grant        GM_notification
 // @grant        GM_xmlhttpRequest
+// @grant        unsafeWindow
 // @homepageURL  https://github.com/Leon406/jsdelivr/tree/master/js/tampermonkey
 // @noframes
 // @downloadURL https://update.greasyfork.org/scripts/439266/%E7%BD%91%E7%9B%98%E6%9C%89%E6%95%88%E6%80%A7%E6%A3%80%E6%9F%A5.user.js
@@ -47,7 +48,7 @@
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
-    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|123pan|189|quark|caiyun|xunlei|cowtransfer|wss/gi;
+    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|alipan|123pan|189|quark|caiyun|xunlei|cowtransfer|wss/gi;
     var excludingPwdHosts = ["pan.baidu.com", "baike.baidu.com"];
 
     function getQuery(param) {
@@ -1116,16 +1117,19 @@
                                 passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
                         }
                     }
-                    var freedict = document.querySelectorAll("a.inline-onebox");
-                    if (freedict) {
-                        for (let free of freedict) {
-                            if (free.textContent.includes("请输入提取码")) {
-                                var bdcode = /提取码: *(\w+)\b/ig.exec( free.parentElement.textContent)[1];
-                                var bdlink = free.href;
+                    var discourseLinks = document.querySelectorAll("a.inline-onebox,a.onebox");
+                    if (discourseLinks.length) {
+						console.log("discourse",discourseLinks)
+                        for (let link of discourseLinks) {
+							console.log("discourse1",link)
+							
+                            if (panRule.exec(link.href) || link.textContent.includes("请输入提取码")) {
+                                var bdcode = /提取码: *(\w+)\b/ig.exec( link.parentElement.textContent)[1];
+                                var bdlink = link.href;
                                 passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
-								if(bdcode && free.href.indexOf("pwd=") === -1) {
-									var linker = free.href.indexOf("?") > -1 ? "&" : "?"
-									free.href = free.href + linker +"pwd="+bdcode
+								if(bdcode && link.href.indexOf("pwd=") === -1) {
+									var linker = link.href.indexOf("?") > -1 ? "&" : "?"
+									link.href = link.href + linker +"pwd="+bdcode
 								}
                             }
                         }
@@ -1371,7 +1375,7 @@
                 if (panRule.exec(href) == null) {
                     return;
                 }
-                logger.error("@@@@@@@@@@", href)
+                // logger.error("@@@@@@@@@@", href)
                 if (href) {
                     href = href.replace("#list/path=%2F", "");
                     // 匹配域名
@@ -1520,7 +1524,7 @@
             var tag = document.querySelector("a[href*='" + shareId + "']");
             if (tag) {
                 var reg = new RegExp("(?:\\s*(?:[\\(（])?(?:(?:提取|访问|訪問|密)[码碼]| Code:)\\s*[:：﹕ ]?\\s*|[\\?&]pwd=|#)([a-zA-Z\\d]{4,8})", "g");
-                console.log("___ a href 0", tag.href);
+                // console.log("___ a href 0", tag.href);
                 var mm = reg.exec(tag.innerText);
                 if (mm && mm[1]) {
                     //tag.href =obj.buildShareUrl(shareId,shareSource,mm[1]);
