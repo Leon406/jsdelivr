@@ -91,7 +91,7 @@
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.4.4  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.18.0 | 个人开发的开发者工具 |
 | [He3](https://he3.app/) **跨平台** | 2.0.20 | 开发工具 |
-| [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.7.1 | 开发文档查看 |
+| [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.7.2 | 开发文档查看 |
 | [Recaf](https://github.com/Col-E/Recaf)<br>  [jclasslib](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.4<br>6.0.5 | jar修改工具 |
 | [RegexBuddy 4](https://www.lanzoub.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) | 4.14.2 | 正则工具 |
 | [AnLink](https://cn.anlinksoft.com/changelog/) | 3.10 | Android 投屏电脑 |
@@ -107,7 +107,7 @@
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.8.0         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.4.8 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1380        | 全文文本搜索    |
-| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.41         | gif 制作工具    |
+| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.41.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.19       | 硬盘空间分析    |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.59          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzoub.com/b00z9jgni) |         3.66.5         | ftp工具         |
