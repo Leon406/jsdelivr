@@ -80,6 +80,7 @@
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare](http://www.scootersoftware.com)           |  5.0.2  | 文件比对同步工具,备份                   |
 | [QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.2.1  | Android 投屏电脑                      |
+| [escrcpy](https://github.com/viarotel-org/escrcpy) | 1.24.3 | Android 投屏电脑 |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.7  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode/releases/latest) github | 1.94.2 | 编辑器                                |
