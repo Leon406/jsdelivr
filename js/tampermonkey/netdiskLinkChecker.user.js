@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      2024.10.24
+// @version      2024.10.30
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2024.10.24  更新夸克请求域名
-// @connect      lanzoue.com
+// @note         2024.10.30 蓝奏云 域名改为 lanzoum.com
+// @connect      lanzoum.com
 // @connect      baidu.com
 // @connect      weiyun.com
 // @connect      aliyundrive.com
@@ -238,10 +238,10 @@
             lanzou: {
                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?\blanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lan(?:zou?|.v|z).?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
-                aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoue"],
-                prefix: "https://www.lanzoue.com/",
+                aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoum"],
+                prefix: "https://www.lanzoum.com/",
                 checkFun: (shareId, callback) => {
-                    let url = shareId.includes("http") ? shareId : "https://www.lanzoue.com/" + shareId;
+                    let url = shareId.includes("http") ? shareId : "https://www.lanzoum.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
