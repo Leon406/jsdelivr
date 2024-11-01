@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2024.11.01
+// @version      2024.11.01.2
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -258,7 +258,7 @@ function showMore() {
     var mores = get_elements_simlpe("a", el => reg_more.test(el.text) && el.target != '_blank');
     //console.log("showMore ", mores);
     for (let more of mores) {
-        if (!more.href.startsWith("http") ||  more.href.includes(rootHost)) {
+        if (!more.href.startsWith("http") && more.href.includes(rootHost)) {
             more.click();
         }
     }
