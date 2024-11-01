@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2024.06.19
+// @version      2024.11.01
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -91,8 +91,8 @@ const REAL_GO = {
         query: "target",
         action: urlDecode
     },
-    "afdian.net": {
-        prefix: "https://afdian.net/link?",
+    "afdian.com": {
+        prefix: "https://afdian.com/link?",
         query: "target",
         action: urlDecode
     },
