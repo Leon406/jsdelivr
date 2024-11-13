@@ -43,6 +43,7 @@
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.12.2     | Sqlite数据库查看     |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     6.5.1     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
+| [reqable](https://github.com/reqable/reqable-app)  **跨平台** | 2.29 | 抓包工具，Android小黄鸟作者 |
 | [WiresharkPortable](https://www.wireshark.org/download.html) **跨平台** |     4.4.1     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 | PEiD | 0.95 | 查壳工具 |
