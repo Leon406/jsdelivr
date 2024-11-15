@@ -1,4 +1,3 @@
-// Cloudflare Worker script
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*', // You should restrict this to your domain in production
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
