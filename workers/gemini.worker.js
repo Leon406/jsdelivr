@@ -21,7 +21,8 @@ export default {
       return handleOptions(request);
     }
     const url = new URL(request.url);
-    url.host = 'generativelanguage.googleapis.com';
+	const targetHost = url.searchParams.get('host');
+    url.host = targetHost? targetHost: 'generativelanguage.googleapis.com';
     return fetch(new Request(url, request))
   }
 }
