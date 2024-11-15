@@ -4153,9 +4153,12 @@ E:\GITREPO\JSDELIVR
 ©¦      Mirrors.md
 ©¦      PC.md
 ©¦      
-©¸©¤subscribe
-        gfwlist.txt
-        pac7890.txt
-        sub.txt
-        subpool5
+©À©¤subscribe
+©¦      gfwlist.txt
+©¦      pac7890.txt
+©¦      sub.txt
+©¦      subpool5
+©¦      
+©¸©¤workers
+        gemini.worker.js
         
