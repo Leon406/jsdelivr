@@ -22,7 +22,7 @@ export default {
 	// 无法修改原始请求头，需要复制一份
     const headers = new Headers(request.headers);
     // 隐藏真实来源ip
-	headers.delete("x-real-ip");
+	headers.set("x-real-ip","45.159.217.254");
 	headers.delete("x-forwarded-for");
     const newRequest = new Request(request, {
         headers: headers
