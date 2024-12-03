@@ -1501,16 +1501,10 @@
                             logger.error("replaceTextAsLink 001  ", pp.innerText);
                         }
 
-                        var shareId2 = RegExp(shareId + "[\\w-]+").exec(document.body.inn);
-                        if (shareId2) {
-                            shareId = shareId2[0];
-                        }
-
                         let node = obj.createOneSpanNode(shareId, shareSource);
                         node.textContent = obj.buildShowText(shareId, shareSource);
                         if (shareId.includes(manifest["debugId"])) {
                             logger.error("replaceTextAsLink  " + shareId, node);
-                            logger.error("replaceTextAsLink shareId2  ", shareId2);
                         }
                         return node;
                     }
