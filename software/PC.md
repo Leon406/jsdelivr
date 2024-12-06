@@ -1,4 +1,4 @@
-2024年11月25日09:43:12
+2024年12月5日18:39:03
 
 ## 生产力工具
 
@@ -43,7 +43,7 @@
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.13.1     | Sqlite数据库查看     |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     6.5.1     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [reqable](https://github.com/reqable/reqable-app)  **跨平台** | 2.29.2 | 抓包工具，Android小黄鸟作者 |
+| [reqable](https://github.com/reqable/reqable-app)  **跨平台** | 2.30.2 | 抓包工具，Android小黄鸟作者 |
 | [WiresharkPortable](https://www.wireshark.org/download.html) **跨平台** |     4.4.2     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 | PEiD | 0.95 | 查壳工具 |
@@ -54,18 +54,18 @@
 | 软件                                                         |   版本    | 说明                                          |
 | ------------------------------------------------------------ | :-------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.95    | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.10.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2024.11.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 |                                                              |           |                                               |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 5.8.3 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  自动更新 **跨平台** | 5.9.0 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  github **跨平台** | 4.2.0 | hosts切换工具 |
 | <del>[Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases) github [汉化](https://github.com/BoyceLig/Clash_Chinese_Patch/releases) **跨平台** 已删库</del> | 0.20.39 |  |
-| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) github | 2.0.1 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  7.2.1  | v2ray ss工具  |
+| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) github | 2.0.2 | |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github    |  7.2.3  | v2ray ss工具  |
 | [v2ray-core](https://github.com/v2fly/v2ray-core/releases) github | 5.22.0 | v2ray core |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.46 | 反代steam, github等 |
@@ -78,16 +78,16 @@
 | [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  24.3  | 终端工具                              |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)   **跨平台**<br>[下载](https://www.navicat.com/en/download/navicat-premium)<br> [cracker](https://leon.lanzoue.com/ipUFk26mfggd) | **17.1.11** | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Beyond Compare](http://www.scootersoftware.com)           |  5.0.3  | 文件比对同步工具,备份                   |
-| [QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) github  [scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.2.1  | Android 投屏电脑                      |
-| [escrcpy](https://github.com/viarotel-org/escrcpy) | 1.27.0 | Android 投屏电脑 |
+| [Beyond Compare](http://www.scootersoftware.com)           |  5.0.4  | 文件比对同步工具,备份                   |
+| [QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) github  <br>[scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  2.2.1<br>3.0.2  | Android 投屏电脑                      |
+| [escrcpy](https://github.com/viarotel-org/escrcpy) | 1.27.6 | 基于scrcpy Android 投屏电脑 |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
-| [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.6.7  | redis工具                             |
+| [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.7.0  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode/releases/latest) github | 1.95.3 | 编辑器                                |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.7.1 | 文本编辑 |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.7.4 | 文本编辑 |
 | [EmEditor ](https://www.emeditor.com/download/) | 24.4.1 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.6.33 | 接口测试 |
-| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.1.6  | 接口测试                              |
+| [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.1.7  | 接口测试                              |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.4.9  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.18.0 | 个人开发的开发者工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.7.2 | 开发文档查看 |
@@ -114,7 +114,7 @@
 | [photofiltre](http://www.photofiltre.com/)                   |        10.16.0        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3.0 |                 |
 | [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      131.0.2903.63      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      131.0.6778.86      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      131.0.6778.87      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
