@@ -8,7 +8,7 @@ function h() {
 }
 
 function g(W, o) {
-    const W = h();
+    const n = h();
     return g = function(n, c) {
         let t = W[n - 253];
         return t;
@@ -16,7 +16,7 @@ function g(W, o) {
 }
 
 (function(o, n) {
-    const W = a1;
+    var n = a1;
     
     const cfg = {
         callback: function(o) {
