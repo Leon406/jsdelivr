@@ -1,5 +1,4 @@
-var _js = "LINUXDO";
-const a4 = g;
+var _js = 'LINUXDO', a1 = g;
 
 function h() {
     const o = [_js];
@@ -8,16 +7,16 @@ function h() {
     }, o;
 }
 
-function j(o, n) {
+function g(W, o) {
     const W = h();
-    return j = function(n, c) {
-        let t = W[n - 219];
+    return g = function(n, c) {
+        let t = W[n - 253];
         return t;
-    }, j(o, n);
+    }, g(W, o);
 }
 
 (function(o, n) {
-    const W = a4;
+    const W = a1;
     
     const cfg = {
         callback: function(o) {
