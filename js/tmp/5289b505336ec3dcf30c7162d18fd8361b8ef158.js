@@ -1,5 +1,5 @@
 var _js = "LINUXDO";
-const a4 = g;
+const a4 = j;
 
 function h() {
     const o = [_js];
