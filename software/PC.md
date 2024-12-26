@@ -144,6 +144,7 @@
 | [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoub.com/b06llfb9e?pwd=ew3u) | 5.20.0.0 | 音视频格式转换       |
 | 小丸工具箱                                                   |   236    |                      |
 | [ShanaEncoder](https://shana.pe.kr/)                         |  5.3.1   |                      |
+| [FFmpeg Batch AV Converter](https://sourceforge.net/projects/ffmpeg-batch/files/latest/download) |  3.2.0   | 音视频批量多线程转换 |
 
 
 
