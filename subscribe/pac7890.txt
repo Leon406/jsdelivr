@@ -2,7 +2,7 @@
  * https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
  * https://github.com/petronny/gfwlist2pac/blob/master/gfwlist.pac
  * GFWList Last-Modified: 2024-10-07
- * Leon Added: 2024-12-03
+ * Leon Added: 2024-12-29
  */
 
 
@@ -14,6 +14,7 @@ var rules = [
             "lastpass.com",
             "x.ai",
             "groq.com",
+            "mastodon.online",
             "mediawiki.org"
 		]
     ],
