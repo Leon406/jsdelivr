@@ -1,4 +1,4 @@
-2024年12月29日19:57:09
+2025年1月8日08:52:32
 
 ## 生产力工具
 
@@ -28,7 +28,10 @@
 | [IDM](http://www.internetdownloadmanager.com/news.html)  [cracker](https://leon.lanzoue.com/iy5Vl20zosza) 🔄 | 6.42.26 | 下载工具 |
 | [xdown](https://xdown.org)  [log](https://xdown.org/Updatelog/) 🔄 | 2.0.9.4 | 下载工具  自动升级 |
 | [蓝奏云盘](https://github.com/Leon406/lanzou-gui) |  0.6.12  | 蓝奏云客户端    |
-|                                                           |         |                    |
+| [FDM](https://www.freedownloadmanager.org/zh/download.htm) 跨平台 | 6.25 | 免费下载工具 |
+| [Neat Download Manager](https://www.neatdownloadmanager.com/index.php/en/) Win + Mac | 1.4 | 免费下载工具，文件小 |
+| [AB Download Manager](https://abdownloadmanager.com/) Win + Linux | 1.5.1 | 开源下载工具 |
+|  |  |  |
 
 
 
@@ -61,10 +64,10 @@
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  🔄 **跨平台** | 5.9.2 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  🔄 **跨平台** | 5.10.1 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  github **跨平台** | 4.2.0 | hosts切换工具 |
 | [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) github | 2.0.2 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) github |  7.4.1<br>5.23.0  | v2ray ss工具<br>v2ray core |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) github |  7.5.5<br>5.23.0  | v2ray ss工具<br>v2ray core |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [steamcommunity](https://www.dogfight360.com/blog/686/) | 12.1.46 | 反代steam, github等 |
 |  |  |  |
@@ -196,6 +199,7 @@
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/download/success)<br>minicoda (非 ai大数据方向推荐，＜70 pkgs, ＜500 M) | 3.9.21 3.12.8<br/>2022.10 (3.9.13)<br>2024.10-1 | 建议3.9版本,3.10+第三方库可能存在兼容问题 |
 | [git](https://git-scm.com/)                                  |                     2.47.1                      |                                           |
 | [nodejs](https://nodejs.org/en)                              |                   22.12.0 LTS                   |                                           |
+|                                                              |                                                 |                                           |
 
 
 
