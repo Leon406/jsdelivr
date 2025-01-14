@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      2025.01.12
+// @version      2025.01.14
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.01.12 支持123网盘最新域名 123865.com
+// @note         2025.01.14 支持115网盘新域名 anxia.com
 // @connect      lanzoum.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -19,7 +19,7 @@
 // @connect      xunlei.com
 // @connect      cowtransfer.com
 // @connect      wenshushu.cn
-// @connect      115.com
+// @connect      anxia.com
 // @exclude 	 *://baike.baidu.com/*
 // @exclude 	 *://github.com/marketplace/*
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js
@@ -49,7 +49,7 @@
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
-    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|alipan|123pan|189|quark|caiyun|xunlei|cowtransfer|wss/gi;
+    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|alipan|123pan|123865|189|quark|caiyun|xunlei|cowtransfer|wss|anxia|/gi;
     var excludingPwdHosts = ["pan.baidu.com", "baike.baidu.com"];
 
     function getQuery(param) {
@@ -629,15 +629,16 @@
                 }
             },
             pan115: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\b115\.com\/s\/([\w\-]{8,})(?!\.)/gi,
-                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?115\.com\/s\/([\w\-]{8,})(?!\.)/gi,
-                prefix: "https://115.com/s/",
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\b(?:115|anxia)\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?(?:115|anxia)\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+				aTagRepalce: [/115\.com/, "anxia.com"],
+                prefix: "https://anxia.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("Pan115 check id " + shareId);
-                    shareId = shareId.replace("https://115.com/s/", "");
+                    shareId = shareId.replace("https://anxia.com/s/", "");
                     http.ajax({
                         type: "get",
-                        url: "https://webapi.115.com/share/snap?share_code=" + shareId + "&receive_code=",
+                        url: "https://anxia.com/webapi/share/snap?share_code=" + shareId + "&receive_code=",
                         success: (response) => {
                             logger.debug("115Pan check response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
@@ -649,7 +650,7 @@
                                 state = 1;
                             } else if (rsp.error.includes("访问码")) {
                                 state = 2;
-                            } else if (rsp.error.includes("链接")) {
+                            } else if (rsp.error.includes("不存在或已被删除")) {
                                 state = -1;
                             }
 
@@ -728,8 +729,8 @@
 
                 },
                 pan115: {
-                    reg: /((?:https?:\/\/)?115\.com\/s\/[\w-]{6,})/,
-                    host: /115\.com/,
+                    reg: /((?:https?:\/\/)?(115|anxia)\.com\/s\/[\w-]{6,})/,
+                    host: /(115|anxia)\.com/,
                     input: ['.form-decode input'],
                     button: ['.form-decode .button'],
                     name: '115'
@@ -1619,6 +1620,7 @@
                                 /pan\.quark\.cn/,
                                 /www\.123pan\.com/,
                                 /115\.com/,
+                                /anxia\.com/,
                             ]
                         }
                     ]);
