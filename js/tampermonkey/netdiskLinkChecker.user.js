@@ -1129,20 +1129,22 @@
 						console.log("discourse",discourseLinks)
                         for (let link of discourseLinks) {
 							console.log("discourse1",link)
-							
+						
                             if (panRule.exec(link.href) || link.textContent.includes("请输入提取码")) {
-                                var bdcode = /提取码: *(\w+)\b/ig.exec( link.parentElement.textContent)[1];
-                                var bdlink = link.href;
+								let r = /提取码: *(\w+)\b/ig.exec(link.parentElement.textContent)
+								if(!r) return;
+                                let bdcode = /提取码: *(\w+)\b/ig.exec(link.parentElement.textContent)[1];
+                                let bdlink = link.href;
                                 passMap[bdlink.substring(bdlink.lastIndexOf("/") + 1)] = bdcode;
 								if(bdcode && link.href.indexOf("pwd=") === -1) {
-									var linker = link.href.indexOf("?") > -1 ? "&" : "?"
+									let linker = link.href.indexOf("?") > -1 ? "&" : "?"
 									link.href = link.href + linker +"pwd="+bdcode
 								}
                             }
                         }
                     }
                 }
-                for (var i in appList) {
+                for (let i in appList) {
                     var app = appList[i];
                     var match = obj.matchApp(url, app);
                     if (match == false) {
