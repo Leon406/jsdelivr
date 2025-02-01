@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      2025.01.15
+// @version      2025.01.29
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.01.15 夸克网盘部分链接状态识别错误
+// @note         2025.01.29 修复115网盘失效链接状态错误
 // @connect      lanzoum.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -654,7 +654,7 @@
                                 state = 1;
                             } else if (rsp.error.includes("访问码")) {
                                 state = 2;
-                            } else if (rsp.error.includes("不存在或已被删除")) {
+                            } else if (rsp.error.includes("不存在或已被删除")||rsp.error.includes("分享已取消")) {
                                 state = -1;
                             }
 

@@ -1,13 +1,13 @@
-2024年12月11日08:44:55
+2025年2月1日18:17:20
 
 ## 系统管理
 
 | 软件名称                                                     | 版本     | 描述                                            |
 | ------------------------------------------------------------ | -------- | ----------------------------------------------- |
 | ES文件浏览器 [下载](https://pan.lanzoub.com/b0f1d7s2h)       | 4.4.2.17 | 文件管理工具                                    |
-| [Solid Explorer](https://pan.lanzoub.com/b0f19gdfa)          | 2.8.56   | 本地文件管理器，云服务管理器                    |
-| [N.P管理器](https://pan.lanzoub.com/b06m0cevg?pwd=aji6)  aji6 | 3.1.14   | 与MT管理器类似,都提供了反编译等安卓上逆向的功能 |
-| [Root Explorer](https://pan.lanzoub.com/b06ll1dfi?pwd=4qga)  4qga | 4.12.6   | 文件管理                                        |
+| [Solid Explorer](https://pan.lanzoub.com/b0f19gdfa)          | 2.8.57   | 本地文件管理器，云服务管理器                    |
+| [N.P管理器](https://pan.lanzoub.com/b06m0cevg?pwd=aji6)  aji6 | 3.1.15   | 与MT管理器类似,都提供了反编译等安卓上逆向的功能 |
+| [Root Explorer](https://pan.lanzoub.com/b06ll1dfi?pwd=4qga)  4qga | 4.12.7   | 文件管理                                        |
 |                                                              |          |                                                 |
 
 
@@ -16,8 +16,7 @@
 
 | 软件名称                                                     | 版本     | 描述                                                         |
 | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
-| [Ookla Speedtest](https://pan.lanzoub.com/b0f19i6af)         | 5.5.0    | 手机网速测试工具                                             |
-| 泰尔网测                                                     | 1.3.41   | 手机网速测试工具                                             |
+| [Ookla Speedtest](https://pan.lanzoub.com/b0f19i6af)         | 5.5.2    | 手机网速测试工具                                             |
 | [gkd ](https://github.com/gkd-kit/gkd) github [推荐](https://github.com/AIsouler/GKD_subscription) [订阅搜索](https://github.com/search?q=GKD_subscription&type=repositories) [订阅汇总](https://github.com/Adpro-Team/GKD_THS_List) | 1.9.3    | 闪屏广告跳过                                                 |
 | [QR](https://www.lanzoub.com/b06lnskqf?pwd=8qxr)  8qxr       | 2.7\.3-P | 扫码                                                         |
 | [讯飞语记](https://pan.lanzoub.com/b06llc0sj?pwd=e86t) e86t  | 7.10.14  |                                                              |
@@ -36,10 +35,10 @@
 
 | 软件名称                                                     | 版本   | 描述      |
 | ------------------------------------------------------------ | ------ | --------- |
-| [MX Player](https://pan.lanzoub.com/b0f19eo3c)               | 1.60.3 |           |
-| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 8.70   |           |
+| [MX Player Pro](https://pan.lanzoub.com/b0f19eo3c)           | 1.78.6 |           |
+| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 8.75   |           |
 | 阅读 [beta](https://www.lanzoub.com/b01rgkhhe) [github](https://github.com/gedoor/legado) [书源](https://legado.aoaostar.com/) [书源2](https://shuyuan.yiove.com/) | 3.25   | 小说/漫画 |
-| [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.26.0 | 油管      |
+| [libretube](https://github.com/libre-tube/LibreTube/releases) | 0.27.0 | 油管      |
 |                                                              |        |           |
 
 
@@ -48,7 +47,7 @@
 
 | 软件名称                                                     | 版本    | 描述 |
 | ------------------------------------------------------------ | ------- | ---- |
-| [adguard premium](https://pan.lanzoub.com/b0f19420h) [国内规则](https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt)  [官方github规则](https://github.com/AdguardTeam/HostlistsRegistry) | 4.7.163 |      |
+| [adguard premium](https://pan.lanzoub.com/b0f19420h) [国内规则](https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt)  [官方github规则](https://github.com/AdguardTeam/HostlistsRegistry) | 4.7.179 |      |
 |                                                              |         |      |
 
 
@@ -57,9 +56,9 @@
 
 | 软件名称                                                     | 版本    | 描述           |
 | ------------------------------------------------------------ | ------- | -------------- |
-| [Telegram](https://telegram.org/android)  [github](https://github.com/DrKLO/Telegram) | 11.44.2 | 电报,加密通信  |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) | 1.3.2   | 科学工具       |
-| [Gbox](https://www.gboxlab.com/)                             | 1.6.3.1 | google框架安装 |
+| [Telegram](https://telegram.org/android)  [github](https://github.com/DrKLO/Telegram) | 11.7.0  | 电报,加密通信  |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) | 1.3.4   | 科学工具       |
+| [Gbox](https://www.gboxlab.com/)                             | 1.6.3.6 | google框架安装 |
 |                                                              |         |                |
 
 ## crack更新合集
