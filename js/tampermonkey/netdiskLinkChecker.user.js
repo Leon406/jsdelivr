@@ -8,7 +8,7 @@
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.01.29 修复115网盘失效链接状态错误
+// @note         2025.02.18 修复115网盘新域名变更
 // @connect      lanzoum.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -19,7 +19,7 @@
 // @connect      xunlei.com
 // @connect      cowtransfer.com
 // @connect      wenshushu.cn
-// @connect      anxia.com
+// @connect      115cdn.com
 // @exclude 	 *://baike.baidu.com/*
 // @exclude 	 *://github.com/marketplace/*
 // @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js
@@ -633,16 +633,16 @@
                 }
             },
             pan115: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\b(?:115|anxia)\.com\/s\/([\w\-]{8,})(?!\.)/gi,
-                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?(?:115|anxia)\.com\/s\/([\w\-]{8,})(?!\.)/gi,
-				aTagRepalce: [/115\.com/, "anxia.com"],
-                prefix: "https://anxia.com/s/",
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\b(?:115|anxia|115cdn)\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?(?:115|anxia|115cdn)\.com\/s\/([\w\-]{8,})(?!\.)/gi,
+				aTagRepalce: [/115\.com/, "115cdn.com"],
+                prefix: "https://115cdn.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("Pan115 check id " + shareId);
-                    shareId = shareId.replace("https://anxia.com/s/", "");
+                    shareId = shareId.replace("https://115cdn.com/s/", "");
                     http.ajax({
                         type: "get",
-                        url: "https://anxia.com/webapi/share/snap?share_code=" + shareId + "&receive_code=",
+                        url: "https://115cdn.com/webapi/share/snap?share_code=" + shareId + "&receive_code=",
                         success: (response) => {
                             logger.debug("115Pan check response", response);
                             let rsp = typeof response == "string" ? JSON.parse(response) : response;
@@ -733,8 +733,8 @@
 
                 },
                 pan115: {
-                    reg: /((?:https?:\/\/)?(115|anxia)\.com\/s\/[\w-]{6,})/,
-                    host: /(115|anxia)\.com/,
+                    reg: /((?:https?:\/\/)?(115|anxia|115cdn)\.com\/s\/[\w-]{6,})/,
+                    host: /(115|anxia|115cdn)\.com/,
                     input: ['.form-decode input'],
                     button: ['.form-decode .button'],
                     name: '115'
@@ -1627,6 +1627,7 @@
                                 /www\.123pan\.com/,
                                 /115\.com/,
                                 /anxia\.com/,
+                                /115cdn\.com/,
                             ]
                         }
                     ]);
