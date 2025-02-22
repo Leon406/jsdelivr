@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2024.11.02
+// @version      2025.02.22
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -318,8 +318,14 @@ function interval(func, period = 500) {
 function urlDecode(aTag, query) {
     //console.log("urlDecode", query, aTag)
     let url = new URL(aTag.href);
-    aTag.href = decodeURIComponent(query && url.searchParams.get(query) || url.search.replace("?", ""))
-        // console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
+    //  console.log("urlDecode", url.searchParams.get(query), url.search.replace("?", ""))
+    url = query && url.searchParams.get(query) || url.search.replace("?", "")
+    try {
+        url =decodeURIComponent(url)
+     }catch(err) {
+     }
+    aTag.href = url
+      
 }
 
 function rawText(aTag, query) {
