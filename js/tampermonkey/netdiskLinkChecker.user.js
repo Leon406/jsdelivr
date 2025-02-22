@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      2025.02.18
+// @version      2025.02.22
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.02.18 修复115网盘新域名变更
+// @note         2025.02.22 支持配置自动填充密码
 // @connect      lanzoum.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -42,6 +42,7 @@
     'use strict';
 
     var manifest = {
+        "autofill": true,
         "debugId": "1p4fyOm",
         "logger_level": 3,
         "checkTimes": 20,
@@ -1609,12 +1610,9 @@
 
     // step 1 入口app
     container.define("app", ["appRunner"], function (appRunner) {
-        return {
-            run: function () {
-                appRunner.run([{
-                            name: "app_check_url",
-                            matchs: ["*"]
-                        }, {
+		let funcs = [{name: "app_check_url", matchs: ["*"]}]
+		if(manifest["autofill"]){
+			funcs.push({
                             name: "auto_fill",
                             matchs: [
                                 /(pan|yun)\.baidu\.com/,
@@ -1629,8 +1627,11 @@
                                 /anxia\.com/,
                                 /115cdn\.com/,
                             ]
-                        }
-                    ]);
+                        })
+		}
+        return {
+            run: function () {
+                appRunner.run(funcs);
             }
         };
     });
