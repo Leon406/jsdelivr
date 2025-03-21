@@ -1,4 +1,4 @@
-2025年3月2日09:51:41
+2025年3月20日21:34:11
 
 ## 生产力工具
 
@@ -12,10 +12,10 @@
 | [Listary](https://www.listary.com/)                          |     6.3     | 启动器                                                       |
 | [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台📱** | 25.01.01061 | 脑图                                                         |
 | [PowerToys](https://github.com/microsoft/PowerToys/releases/latest) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) github |   0.88.0    | 微软官方工具集                                               |
-| [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases/releases/latest) |    1.8.4    | 笔记软件,需自行选用同步软件                                  |
-| [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.7    | 快速启动                                                     |
+| [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases/releases/latest) |    1.8.9    | 笔记软件,需自行选用同步软件                                  |
+| [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.6    | 快速启动                                                     |
 | [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) [github](https://github.com/hiroi-sora/Umi-OCR/releases/latest) |    2.1.4    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
-| [eSearch](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** github |   14.4.1    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
+| [eSearch](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** github |   14.6.0    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
 | [localsend](https://github.com/localsend/localsend/releases/latest)  **跨平台📱** github |   1.17.0    | 文件传输                                                     |
 |                                                              |             |                                                              |
 
@@ -66,20 +66,20 @@
 | ------------------------------------------------------------ | :----: | ------------- |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  🔄 **跨平台** | 5.11.1 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  github **跨平台** | 4.2.0 | hosts切换工具 |
-| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) github | 2.1.2 | |
+| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) github | 2.2.0 | |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) github<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) github |  7.10.0<br>5.29.2  | v2ray ss工具<br>v2ray core |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
-| [Steamcommunity 302 ](https://www.dogfight360.com/blog/18682/) **跨平台** | 13.0.01 | 反代steam, github等 |
+| [Steamcommunity 302 ](https://www.dogfight360.com/blog/18682/) **跨平台** | 13.0.02 | 反代steam, github等 |
 |  |  |  |
 
 ## 开发
 
 | 软件                                                         |  版本   | 说明                                |
 | ------------------------------------------------------------ | :-----: | ------------------------------------- |
-| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) |  25.0  | 终端工具                              |
+| [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) [汉化](https://github.com/Eilte/Mobaxterm-Chinese) |  25.1  | 终端工具                              |
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)   **跨平台**<br>[下载](https://www.navicat.com/en/download/navicat-premium)<br> [cracker](https://leon.lanzoue.com/ipUFk26mfggd) | **17.1.12** | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
-| [Beyond Compare](http://www.scootersoftware.com)           |  5.0.5  | 文件比对同步工具,备份                   |
+| [Beyond Compare](http://www.scootersoftware.com)           |  5.0.6  | 文件比对同步工具,备份                   |
 | [escrcpy](https://github.com/viarotel-org/escrcpy) 更新快<br/>[QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) github  <br>[scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  1.28.7<br/>3.1.2<br>3.1  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.7.1  | redis工具                             |
@@ -113,8 +113,8 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.16.0        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3.0 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      133.0.3065.92      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      134.0.6998.35      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      134.0.3124.72      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      134.0.6998.118      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
