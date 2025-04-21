@@ -80,11 +80,11 @@
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)   **跨平台**<br>[下载](https://www.navicat.com/en/download/navicat-premium)<br> [cracker](https://leon.lanzoue.com/ipUFk26mfggd) | **17.1.12** | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare](http://www.scootersoftware.com)           |  5.0.6  | 文件比对同步工具,备份                   |
-| [escrcpy](https://github.com/viarotel-org/escrcpy) 更新快<br/>[QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) github  <br>[scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  1.29.2<br/>3.1.3<br>3.2  | Android 投屏电脑                      |
+| [escrcpy](https://github.com/viarotel-org/escrcpy) 更新快<br/>[QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) github  <br>[scrcpy](https://github.com/Genymobile/scrcpy) **跨平台** |  1.29.3<br/>3.1.3<br>3.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases) github **跨平台** |  1.7.1  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode/releases/latest) github | 1.98.2 | 编辑器                                |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.7.8 | 文本编辑 |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.7.9 | 文本编辑 |
 | [EmEditor ](https://www.emeditor.com/download/) | 25.0.1 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.7.0 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.1.10  | 接口测试                              |
@@ -175,7 +175,7 @@
 
 | 软件                                                         |  版本   | 说明                              |
 | ------------------------------------------------------------ | :-----: | --------------------------------- |
-| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) <br> [6音音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno)  [洛雪音源](https://github.com/lyswhut/lx-music-source/tree/master/dist) **跨平台** | 2.10.0  | 音乐助手                          |
+| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) <br> [6音音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno)  [洛雪音源](https://github.com/lyswhut/lx-music-source/tree/master/dist)  [huibq](https://fastly.jsdelivr.net/gh/Huibq/keep-alive/render_api.js) **跨平台** | 2.10.0  | 音乐助手                          |
 | [unlock music](https://git.unlock-music.dev/um/web)          | 1.10.8  | 音乐解锁                          |
 | [方格](http://morin.vin/)                                    |  1.6.3  | 音乐播放                          |
 | FolderPainter                                                |   1.2   | 文件夹图标修改                    |
