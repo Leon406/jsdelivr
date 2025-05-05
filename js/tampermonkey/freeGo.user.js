@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Free Read And Go
 // @namespace    http://tampermonkey.net/
-// @version      2025.03.01
+// @version      2025.05.06
 // @description  链接直接跳转,阅读全文
 // @author       Leon406
 // @match        *://**/*
@@ -103,7 +103,12 @@ const REAL_GO = {
         query: "url",
         action: urlDecode
     },
-    "c.pc.qq.com": {
+    "wx.mail.qq.com": {
+        prefix: "https://wx.mail.qq.com/xmspamcheck/xmsafejump",
+        query: "url",
+        action: urlDecode
+    },
+      "c.pc.qq.com": {
         prefix: "https://c.pc.qq.com/middlem.html?",
         query: "pfurl",
         action: urlDecode
