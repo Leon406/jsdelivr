@@ -1,10 +1,10 @@
-2025年4月29日21:16:43
+2025年5月12日17:36:51
 
 ## 生产力工具
 
 | 软件                                                         |    版本     | 说明                                                         |
 | ------------------------------------------------------------ | :---------: | ------------------------------------------------------------ |
-| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures/releases/latest) |   2.2.47    | 全局鼠标手势,仅windows                                       |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures/releases/latest) |   2.2.48    | 全局鼠标手势,仅windows                                       |
 | [CopyQ](https://github.com/hluk/CopyQ/releases/latest) github **跨平台** |   10.0.0    | 剪切板管理工具                                               |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.25    |                                                              |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1026  |                                                              |
@@ -25,12 +25,12 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html)  [cracker](https://leon.lanzoue.com/iy5Vl20zosza) 🔄 | 6.42.35 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html)  [cracker](https://leon.lanzoue.com/iy5Vl20zosza) 🔄 | 6.42.36 | 下载工具 |
 | [xdown](https://xdown.org)  [log](https://xdown.org/Updatelog/) 🔄 | 2.0.9.4 | 下载工具  自动升级 |
 | [蓝奏云盘](https://github.com/Leon406/lanzou-gui) |  0.6.12  | 蓝奏云客户端    |
-| [FDM](https://www.freedownloadmanager.org/zh/download.htm) 跨平台 | 6.26.2 | 免费下载工具 |
+| [FDM](https://www.freedownloadmanager.org/zh/download.htm) 跨平台 | 6.27.0 | 免费下载工具 |
 | [Neat Download Manager](https://www.neatdownloadmanager.com/index.php/en/) Win + Mac | 1.4 | 免费下载工具，文件小 |
-| [AB Download Manager](https://abdownloadmanager.com/) Win + Linux [github](https://github.com/amir1376/ab-download-manager/releases) | 1.5.5 | 开源下载工具 kotlin compose |
+| [AB Download Manager](https://abdownloadmanager.com/) Win + Linux [github](https://github.com/amir1376/ab-download-manager/releases) | 1.5.8 | 开源下载工具 kotlin compose |
 |  |  |  |
 
 
@@ -57,17 +57,17 @@
 | 软件                                                         |   版本   | 说明                                          |
 | ------------------------------------------------------------ | :------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.95   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2025.4.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2025.4.2 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 |                                                              |          |                                               |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  🔄 **跨平台** | 5.13.1 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  🔄 **跨平台** | 5.14.2 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  github **跨平台** | 4.2.0 | hosts切换工具 |
 | [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) github | 2.2.3 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) github |  7.12.0<br>5.31.0  | v2ray ss工具<br>v2ray core |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) github<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) github |  7.12.3<br>5.31.0  | v2ray ss工具<br>v2ray core |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [Steamcommunity 302 ](https://www.dogfight360.com/blog/18682/) **跨平台** | 13.0.04 | 反代steam, github等 |
 |  |  |  |
@@ -84,7 +84,7 @@
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases/latest) github **跨平台** |  1.7.1  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode/releases/latest) github | 1.98.2 | 编辑器                                |
-| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.8 | 文本编辑 |
+| [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.8.1 | 文本编辑 |
 | [EmEditor ](https://www.emeditor.com/download/) | 25.0.1 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.7.8 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.1.12  | 接口测试                              |
