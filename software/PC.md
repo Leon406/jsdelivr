@@ -1,22 +1,22 @@
-2025年5月12日17:36:51
+2025年5月29日18:56:16
 
 ## 生产力工具
 
 | 软件                                                         |    版本     | 说明                                                         |
 | ------------------------------------------------------------ | :---------: | ------------------------------------------------------------ |
-| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures/releases/latest) |   2.2.48    | 全局鼠标手势,仅windows                                       |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures/releases/latest) |   2.2.50    | 全局鼠标手势,仅windows                                       |
 | [CopyQ](https://github.com/hluk/CopyQ/releases/latest) github **跨平台** |   10.0.0    | 剪切板管理工具                                               |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.25    |                                                              |
-| [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1026  |                                                              |
-| [espanso](https://github.com/espanso/espanso/releases/latest) github **跨平台** |    2.2.3    | 文字扩展                                                     |
+| [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1027  |                                                              |
+| [espanso](https://github.com/espanso/espanso/releases/latest) ![github](icon/github.png) **跨平台** |    2.2.3    | 文字扩展                                                     |
 | [Listary](https://www.listary.com/)                          |     6.3     | 启动器                                                       |
-| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台📱** | 25.01.01061 | 脑图                                                         |
-| [PowerToys](https://github.com/microsoft/PowerToys/releases/latest) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) github |   0.90.1    | 微软官方工具集                                               |
+| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台📱** | 25.04.03033 | 脑图                                                         |
+| [PowerToys](https://github.com/microsoft/PowerToys/releases/latest) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) github |   0.91.1    | 微软官方工具集                                               |
 | [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases/releases/latest) |   1.8.10    | 笔记软件,需自行选用同步软件                                  |
 | [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.6    | 快速启动                                                     |
 | [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) [github](https://github.com/hiroi-sora/Umi-OCR/releases/latest) |    2.1.5    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
-| [eSearch](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** github |   14.6.4    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
-| [localsend](https://github.com/localsend/localsend/releases/latest)  **跨平台📱** github |   1.17.0    | 文件传输                                                     |
+| [eSearch](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** ![github](icon/github.png) |   14.7.4    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
+| [localsend](https://github.com/localsend/localsend/releases/latest)  **跨平台📱**  ![github](icon/github.png) |   1.17.0    | 文件传输                                                     |
 |                                                              |             |                                                              |
 
 
@@ -39,11 +39,11 @@
 
 | 软件                                                         |      版本      | 说明               |
 | ------------------------------------------------------------ | :------------: | -------------------- |
-| [jadx-gui](https://github.com/skylot/jadx/releases)   github **跨平台** |     1.5.1     | Android反编译        |
+| [jadx-gui](https://github.com/skylot/jadx/releases)   ![github](icon/github.png) **跨平台** |     1.5.1     | Android反编译        |
 | AndroidKiller | 1.3.1 | Android反编译 |
 | [010Editor](https://www.sweetscape.com/010editor/) | 14.0.1 | 二进制查看编辑 |
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoub.com/b0f1bltdg) |      21.3      | 二进制查看编辑       |
-| [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  github |     3.13.1     | Sqlite数据库查看     |
+| [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  ![github](icon/github.png) |     3.13.1     | Sqlite数据库查看     |
 | [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     6.5.1     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
 | [reqable 发布](https://github.com/reqable/reqable-app)  **跨平台 📱** | 2.33.12 | 抓包工具，Android小黄鸟作者 |
@@ -65,9 +65,9 @@
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
 | [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  🔄 **跨平台** | 5.14.2 | 聊天          |
-| [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  github **跨平台** | 4.2.0 | hosts切换工具 |
-| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) github | 2.2.3 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) github<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) github |  7.12.3<br>5.31.0  | v2ray ss工具<br>v2ray core |
+| [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  ![github](icon/github.png) **跨平台** | 4.2.0 | hosts切换工具 |
+| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) ![github](icon/github.png) | 2.2.3 | |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) ![github](icon/github.png)<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) ![github](icon/github.png) |  7.12.3<br>5.31.0  | v2ray ss工具<br>v2ray core |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
 | [Steamcommunity 302 ](https://www.dogfight360.com/blog/18682/) **跨平台** | 13.0.04 | 反代steam, github等 |
 |  |  |  |
@@ -106,7 +106,7 @@
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.8.8         | 图片查看        |
 | [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.6.3 | 远程控制 速度快 |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1949        | 全文文本搜索    |
-| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) github |         2.41.1         | gif 制作工具    |
+| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) ![github](icon/github.png) |         2.41.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.25       | 硬盘空间分析    |
 | [RegistryFinder64](https://registry-finder.com/)             |          2.59          | 注册表查找工具  |
 | [FileZilla pro](https://www.filezilla.cn/)  [网盘](https://www.lanzoub.com/b00z9jgni) |         3.66.5         | ftp工具         |
@@ -118,12 +118,12 @@
 | [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
-| [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  github |          3.3.3.1          | 右键管理器      |
-| [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) github | 4.8.0 | OCR powertoy内置 |
-| [keyviz](https://github.com/mulaRahul/keyviz/releases/latest) github | 1.0.6 | 快捷键显示 |
-| [WindowTabs](https://github.com/leafOfTree/WindowTabs/releases) github | 2024.10.13 | 应用多窗口化 |
-| [Qalcualte](https://github.com/Qalculate/qalculate-gtk/releases) github | 5.5.1 | 科学计算器 |
-| [NETworkManager](https://github.com/BornToBeRoot/NETworkManager/releases) github |  2025.4.12.0  | 网络工具 |
+| [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  <img src="icon/github.png" alt="github"  /> |          3.3.3.1          | 右键管理器      |
+| [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) ![github](icon/github.png) | 4.8.0 | OCR powertoy内置 |
+| [keyviz](https://github.com/mulaRahul/keyviz/releases/latest) ![github](icon/github.png) | 1.0.6 | 快捷键显示 |
+| [WindowTabs](https://github.com/leafOfTree/WindowTabs/releases) ![github](icon/github.png) | 2024.10.13 | 应用多窗口化 |
+| [Qalcualte](https://github.com/Qalculate/qalculate-gtk/releases) ![github](icon/github.png) | 5.5.1 | 科学计算器 |
+| [NETworkManager](https://github.com/BornToBeRoot/NETworkManager/releases) ![github](icon/github.png) |  2025.4.12.0  | 网络工具 |
 |  |  |  |
 
 
@@ -179,7 +179,7 @@
 | FolderPainter                                                |   1.2   | 文件夹图标修改                    |
 | [DNS jumper](https://www.sordum.org/)                        |   2.3   | 最优dns解析                       |
 | [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 25.05.0 | 词典翻译                          |
-| [Deskreen](https://github.com/pavlobu/deskreen/releases/) github **跨平台** |  2.0.4  | 屏幕共享                          |
+| [Deskreen](https://github.com/pavlobu/deskreen/releases/) ![github](icon/github.png) **跨平台** |  2.0.4  | 屏幕共享                          |
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |  8.68   | 字体预览                          |
 | [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |  2.82   | 流氓软件检测                      |
 | [直播Simple Live](https://github.com/xiaoyaocz/dart_simple_live/releases)  **跨平台**📱Flutter |  1.8.3  | 斗鱼、虎牙、b站、抖音直播平台聚合 |
