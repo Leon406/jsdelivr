@@ -4,7 +4,7 @@
 
 | 软件                                                         |    版本     | 说明                                                         |
 | ------------------------------------------------------------ | :---------: | ------------------------------------------------------------ |
-| [FastGestures](https://fg.zhaokeli.com/#doc) [github](https://github.com/zhaokeli/FastGestures/releases/latest) |   2.2.50    | 全局鼠标手势,仅windows                                       |
+| [FastGestures](https://fg.zhaokeli.com/#doc) [github![github](icon/github.png)](https://github.com/zhaokeli/FastGestures/releases/latest) |   2.2.50    | 全局鼠标手势,仅windows                                       |
 | [CopyQ](https://github.com/hluk/CopyQ/releases/latest) github **跨平台** |   10.0.0    | 剪切板管理工具                                               |
 | [cmder](https://github.com/cmderdev/cmder/releases)  [ConEmu](https://github.com/Maximus5/ConEmu) [clink](https://github.com/chrisant996/clink/releases) |   1.3.25    |                                                              |
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1027  |                                                              |
@@ -113,10 +113,9 @@
 | [FFRename Pro](http://www.ffhome.com/works/1406.html)        |          5.0.9.21          | 文件重命名      |
 | [photofiltre](http://www.photofiltre.com/)                   |        10.16.0        | 图片编辑工具    |
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3.0 |                 |
-| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      135.0.3179.85      | 浏览器          |
-| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      136.0.7103.48      | 浏览器          |
+| [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      136.0.3240.92      | 浏览器          |
+| [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      137.0.7151.56      | 浏览器          |
 | [brave](https://github.com/brave/brave-browser) ![github](icon/github.png)  **跨平台** |  | 浏览器 |
-| [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  <img src="icon/github.png" alt="github"  /> |          3.3.3.1          | 右键管理器      |
 | [Text-Grab](https://github.com/TheJoeFin/Text-Grab/releases) ![github](icon/github.png) | 4.8.0 | OCR powertoy内置 |
@@ -174,7 +173,7 @@
 
 | 软件                                                         |  版本   | 说明                              |
 | ------------------------------------------------------------ | :-----: | --------------------------------- |
-| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) <br> [6音音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno)  [洛雪音源](https://github.com/lyswhut/lx-music-source/tree/master/dist)  [huibq](https://fastly.jsdelivr.net/gh/Huibq/keep-alive/render_api.js) **跨平台** | 2.11.0  | 音乐助手                          |
+| [音乐助手![github](icon/github.png)](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) <br> [6音音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno)  [洛雪音源 ![github](icon/github.png)](https://github.com/lyswhut/lx-music-source/tree/master/dist)  [huibq](https://fastly.jsdelivr.net/gh/Huibq/keep-alive/render_api.js) **跨平台** | 2.11.0  | 音乐助手                          |
 | [unlock music](https://git.unlock-music.dev/um/web)          | 1.10.8  | 音乐解锁                          |
 | FolderPainter                                                |   1.2   | 文件夹图标修改                    |
 | [DNS jumper](https://www.sordum.org/)                        |   2.3   | 最优dns解析                       |
@@ -200,4 +199,4 @@
 
 
 
-[awesome-mac](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
+[awesome-mac![github](icon/github.png)](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
