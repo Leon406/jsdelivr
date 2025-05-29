@@ -12,9 +12,9 @@
 | [Listary](https://www.listary.com/)                          |     6.3     | 启动器                                                       |
 | [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台📱** | 25.04.03033 | 脑图                                                         |
 | [PowerToys](https://github.com/microsoft/PowerToys/releases/latest) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) github |   0.91.1    | 微软官方工具集                                               |
-| [obsidian](https://obsidian.md/) [github](https://github.com/obsidianmd/obsidian-releases/releases/latest) |   1.8.10    | 笔记软件,需自行选用同步软件                                  |
+| [obsidian](https://obsidian.md/) ![github](icon/github.png)[github](https://github.com/obsidianmd/obsidian-releases/releases/latest) |   1.8.10    | 笔记软件,需自行选用同步软件                                  |
 | [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.6    | 快速启动                                                     |
-| [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) [github](https://github.com/hiroi-sora/Umi-OCR/releases/latest) |    2.1.5    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
+| [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) ![github](icon/github.png)[github](https://github.com/hiroi-sora/Umi-OCR/releases/latest) |    2.1.5    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
 | [eSearch](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** ![github](icon/github.png) |   14.7.4    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
 | [localsend](https://github.com/localsend/localsend/releases/latest)  **跨平台📱**  ![github](icon/github.png) |   1.17.0    | 文件传输                                                     |
 |                                                              |             |                                                              |
@@ -30,7 +30,7 @@
 | [蓝奏云盘](https://github.com/Leon406/lanzou-gui) |  0.6.12  | 蓝奏云客户端    |
 | [FDM](https://www.freedownloadmanager.org/zh/download.htm) 跨平台 | 6.27.0 | 免费下载工具 |
 | [Neat Download Manager](https://www.neatdownloadmanager.com/index.php/en/) Win + Mac | 1.4 | 免费下载工具，文件小 |
-| [AB Download Manager](https://abdownloadmanager.com/) Win + Linux [github](https://github.com/amir1376/ab-download-manager/releases) | 1.5.8 | 开源下载工具 kotlin compose |
+| [AB Download Manager](https://abdownloadmanager.com/)  Win + Linux ![github](icon/github.png)[github](https://github.com/amir1376/ab-download-manager/releases) | 1.5.8 | 开源下载工具 kotlin compose |
 |  |  |  |
 
 
@@ -44,9 +44,9 @@
 | [010Editor](https://www.sweetscape.com/010editor/) | 14.0.1 | 二进制查看编辑 |
 | [WinHex](http://www.x-ways.net/winhex/) [crack](https://pan.lanzoub.com/b0f1bltdg) |      21.3      | 二进制查看编辑       |
 | [Sqlitebowser](https://github.com/sqlitebrowser/sqlitebrowser/releases)  ![github](icon/github.png) |     3.13.1     | Sqlite数据库查看     |
-| [dnSpyEx](https://github.com/dnSpyEx/dnSpy)  [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     6.5.1     | .Net 逆向工具        |
+| [dnSpyEx](https://github.com/dnSpyEx/dnSpy) ![github](icon/github.png) [ci](https://github.com/dnSpyEx/dnSpy/actions/workflows/build.yml) |     6.5.1     | .Net 逆向工具        |
 | [Fiddler](https://www.telerik.com/fiddler) [汉化](https://github.com/gabrielxvx/zh-fiddler) | 5.0.20202.1817 | 抓包工具(http/https) |
-| [reqable 发布](https://github.com/reqable/reqable-app)  **跨平台 📱** | 2.33.12 | 抓包工具，Android小黄鸟作者 |
+| [reqable 发布](https://github.com/reqable/reqable-app)  **![github](icon/github.png)跨平台 📱** | 2.33.12 | 抓包工具，Android小黄鸟作者 |
 | [WiresharkPortable](https://www.wireshark.org/download.html) **跨平台** |     4.4.6     | 抓包工具             |
 | ExeinfoPe | 0.0.6.9 | 查壳工具 |
 | PEiD | 0.95 | 查壳工具 |
@@ -64,11 +64,11 @@
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases)  🔄 **跨平台** | 5.14.2 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases) ![github](icon/github.png) 🔄 **跨平台** | 5.14.3 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  ![github](icon/github.png) **跨平台** | 4.2.0 | hosts切换工具 |
 | [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) ![github](icon/github.png) | 2.2.3 | |
-| [v2rayN](https://github.com/2dust/v2rayN/releases) ![github](icon/github.png)<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) ![github](icon/github.png) |  7.12.3<br>5.31.0  | v2ray ss工具<br>v2ray core |
-| **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** github | 0.7.2 | 节点测速 |
+| [v2rayN](https://github.com/2dust/v2rayN/releases) ![github](icon/github.png)<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) ![github](icon/github.png) |  7.12.5<br>5.33.0  | v2ray ss工具<br>v2ray core |
+| **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** ![github](icon/github.png) | 0.7.2 | 节点测速 |
 | [Steamcommunity 302 ](https://www.dogfight360.com/blog/18682/) **跨平台** | 13.0.04 | 反代steam, github等 |
 |  |  |  |
 
@@ -80,18 +80,18 @@
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)   **跨平台**<br>[下载](https://www.navicat.com/en/download/navicat-premium)<br> [cracker](https://leon.lanzoue.com/ipUFk26mfggd) | **17.2**.5 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare](http://www.scootersoftware.com)           |  5.0.7  | 文件比对同步工具,备份                   |
-| [escrcpy](https://github.com/viarotel-org/escrcpy/releases/latest) 更新快<br/>[QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) github  <br>[scrcpy](https://github.com/Genymobile/scrcpy/releases/latest) **跨平台** |  1.29.6<br/>3.1.3<br>3.2  | Android 投屏电脑                      |
+| [escrcpy](https://github.com/viarotel-org/escrcpy/releases/latest)  ![github](icon/github.png)更新快<br/>[QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) ![github](icon/github.png)  <br>[scrcpy](https://github.com/Genymobile/scrcpy/releases/latest)  ![github](icon/github.png)**跨平台** |  1.29.6<br/>3.1.3<br>3.2  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
-| [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases/latest) github **跨平台** |  1.7.1  | redis工具                             |
+| [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases/latest) ![github](icon/github.png) **跨平台** |  1.7.1  | redis工具                             |
 | [VSCode](https://github.com/microsoft/vscode/releases/latest) github | 1.98.2 | 编辑器                                |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.8.1 | 文本编辑 |
 | [EmEditor ](https://www.emeditor.com/download/) | 25.0.1 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.7.8 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.1.12  | 接口测试                              |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.4.19  | github 桌面端                         |
-| [ToolsFx](https://github.com/Leon406/ToolsFx) github **跨平台** | 1.18.0 | 个人开发的开发者工具 |
-| [Zeal](https://github.com/zealdocs/zeal)  github [action](https://github.com/zealdocs/zeal/actions) | 0.7.2 | 开发文档查看 |
-| [Recaf](https://github.com/Col-E/Recaf)<br>  [jclasslib](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.4<br>6.1 | jar修改工具 |
+| [ToolsFx](https://github.com/Leon406/ToolsFx) ![github](icon/github.png) **跨平台** | 1.18.0 | 个人开发的开发者工具 |
+| [Zeal](https://github.com/zealdocs/zeal)  ![github](icon/github.png) [action](https://github.com/zealdocs/zeal/actions) | 0.7.2 | 开发文档查看 |
+| [Recaf![github](icon/github.png)](https://github.com/Col-E/Recaf)<br>  [jclasslib![github](icon/github.png)](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.4<br>6.1 | jar修改工具 |
 | [RegexBuddy 4](https://www.lanzoub.com/i3e43nc)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) | 4.14.2 | 正则工具 |
 |  |  |  |
 | | | |
@@ -115,7 +115,7 @@
 | [IObit Unlocker]( https://www.iobit.com/en/iobit-unlocker.php) | 1.3.0 |                 |
 | [edge ](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-relnote-stable-channel)  [下载](https://www.microsoft.com/zh-cn/edge/business/download?ch&form=MA13FJ)  **跨平台** |      135.0.3179.85      | 浏览器          |
 | [Chrome ](https://chromiumdash.appspot.com/releases?platform=Windows)  **跨平台** |      136.0.7103.48      | 浏览器          |
-| [brave](https://github.com/brave/brave-browser) github  **跨平台** |  | 浏览器 |
+| [brave](https://github.com/brave/brave-browser) ![github](icon/github.png)  **跨平台** |  | 浏览器 |
 | [索鸟快传](http://www.suoniao.com/kuaichuan) [网盘](https://pan.baidu.com/s/1LBjThdEk5ESXBYDgZ9Em4A?pwd=facy) |         2.1.6         | 局域网分享      |
 | [Cute Http File Server ](http://iscute.cn/chfs) **跨平台** | 3.1 | 文件服务器 支持webdav协议 |
 | [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager/releases)  <img src="icon/github.png" alt="github"  /> |          3.3.3.1          | 右键管理器      |
@@ -130,12 +130,12 @@
 
 ## 系统
 
-| 软件                                                  |    版本    | 说明       |
-| ----------------------------------------------------- | :--------: | ---------- |
-| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg) | 9.3.191460 | 文件恢复   |
-| [AIDA](https://www.lanzoub.com/b06lweyad)             | 7.60.7300  | 系统检测   |
-| [ventoy](https://github.com/ventoy/Ventoy/releases)   |   1.1.05   | 系统启动盘 |
-|                                                       |            |            |
+| 软件                                                         |    版本    | 说明       |
+| ------------------------------------------------------------ | :--------: | ---------- |
+| [R-Studio Network](https://www.lanzoub.com/b06lrnsfg)        | 9.3.191460 | 文件恢复   |
+| [AIDA](https://www.lanzoub.com/b06lweyad)                    | 7.60.7300  | 系统检测   |
+| [ventoy](https://github.com/ventoy/Ventoy/releases)![github](icon/github.png) |   1.1.05   | 系统启动盘 |
+|                                                              |            |            |
 
 
 
@@ -165,7 +165,7 @@
 | 软件                                                         | 版本  | 说明            |
 | ------------------------------------------------------------ | :---: | --------------- |
 | GearNT                                                       | 0.4.6 | 变速齿轮        |
-| [CheatEngine ](https://github.com/cheat-engine/cheat-engine/releases)  github |  7.5  | 内存修改 + 变速 |
+| [CheatEngine ](https://github.com/cheat-engine/cheat-engine/releases)  ![github](icon/github.png) |  7.5  | 内存修改 + 变速 |
 |                                                              |       |                 |
 
 
@@ -174,15 +174,15 @@
 
 | 软件                                                         |  版本   | 说明                              |
 | ------------------------------------------------------------ | :-----: | --------------------------------- |
-| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) <br> [6音音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno)  [洛雪音源](https://github.com/lyswhut/lx-music-source/tree/master/dist)  [huibq](https://fastly.jsdelivr.net/gh/Huibq/keep-alive/render_api.js) **跨平台** | 2.10.0  | 音乐助手                          |
+| [音乐助手github](https://github.com/lyswhut/lx-music-desktop)  [beta](https://github.com/lyswhut/lx-music-desktop/actions/workflows/beta-pack.yml) <br> [6音音源 8mno](https://www.lanzoub.com/b00p9c94f?pwd=8mno)  [洛雪音源](https://github.com/lyswhut/lx-music-source/tree/master/dist)  [huibq](https://fastly.jsdelivr.net/gh/Huibq/keep-alive/render_api.js) **跨平台** | 2.11.0  | 音乐助手                          |
 | [unlock music](https://git.unlock-music.dev/um/web)          | 1.10.8  | 音乐解锁                          |
 | FolderPainter                                                |   1.2   | 文件夹图标修改                    |
 | [DNS jumper](https://www.sordum.org/)                        |   2.3   | 最优dns解析                       |
-| [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 25.05.0 | 词典翻译                          |
+| [Golden Dict ng](https://github.com/xiaoyifang/goldendict-ng) **跨平台** | 25.06.0 | 词典翻译                          |
 | [Deskreen](https://github.com/pavlobu/deskreen/releases/) ![github](icon/github.png) **跨平台** |  2.0.4  | 屏幕共享                          |
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |  8.68   | 字体预览                          |
 | [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |  2.82   | 流氓软件检测                      |
-| [直播Simple Live](https://github.com/xiaoyaocz/dart_simple_live/releases)  **跨平台**📱Flutter |  1.8.3  | 斗鱼、虎牙、b站、抖音直播平台聚合 |
+| [直播Simple Live](https://github.com/xiaoyaocz/dart_simple_live/releases)  **跨平台**📱Flutter |  1.8.6  | 斗鱼、虎牙、b站、抖音直播平台聚合 |
 |                                                              |         |                                   |
 
 
@@ -191,11 +191,11 @@
 
 | 软件                                                         |                      版本                       | 说明                                      |
 | ------------------------------------------------------------ | :---------------------------------------------: | ----------------------------------------- |
-| .[NET 10](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)<br/>[.NET8 (LTS 2026/11)](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0) <br><del>[.NET6 (LTS 2024/11)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)</del> |                8.0.15<br/>6.0.36                |                                           |
+| .[NET 10](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)<br/>[.NET8 (LTS 2026/11)](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0) <br><del>[.NET6 (LTS 2024/11)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)</del> |                8.0.16<br/>6.0.36                |                                           |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/> |    8u451<br/>11.0.27<br/>17.0.15<br/>21.0.7     | [whichjdk.com](https://whichjdk.com/)     |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/download/success)<br>minicoda (非 ai大数据方向推荐，＜70 pkgs, ＜500 M) | 3.9.22 3.13.3<br/>2022.10 (3.9.13)<br>2024.10-1 | 建议3.9版本,3.10+第三方库可能存在兼容问题 |
 | [git](https://git-scm.com/)                                  |                     2.49.0                      |                                           |
-| [nodejs](https://nodejs.org/en)                              |                   22.15.0 LTS                   |                                           |
+| [nodejs](https://nodejs.org/en)                              |                   22.16.0 LTS                   |                                           |
 |                                                              |                                                 |                                           |
 
 
