@@ -56,7 +56,6 @@
 | ------------------------------------------------------------ | :------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.97   | ip端口扫描                                    |
 | [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2025.5.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
-|                                                              |          |                                               |
 
 ## 科学
 
@@ -68,7 +67,6 @@
 | [v2rayN](https://github.com/2dust/v2rayN/releases) ![github](icon/github.png)<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) ![github](icon/github.png) |  7.12.5<br>5.33.0  | v2ray ss工具<br>v2ray core |
 | **[stairspeedtest-reborn](https://github.com/tindy2013/stairspeedtest-reborn/actions)** ![github](icon/github.png) | 0.7.2 | 节点测速 |
 | [Steamcommunity 302 ](https://www.dogfight360.com/blog/18682/) **跨平台** | 13.0.04 | 反代steam, github等 |
-|  |  |  |
 
 ## 开发
 
@@ -86,13 +84,11 @@
 | [EmEditor ](https://www.emeditor.com/download/) | 25.1.3 | 编辑器 支持大文件 |
 | [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.7.8 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.1.15  | 接口测试                              |
-| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.4.19  | github 桌面端                         |
+| [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.4.20  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) ![github](icon/github.png) **跨平台** | 1.18.0 | 个人开发的开发者工具 |
 | [Zeal](https://github.com/zealdocs/zeal)  ![github](icon/github.png) [action](https://github.com/zealdocs/zeal/actions) | 0.7.2 | 开发文档查看 |
 | [Recaf![github](icon/github.png)](https://github.com/Col-E/Recaf)<br>  [jclasslib![github](icon/github.png)](https://github.com/ingokegel/jclasslib)   **跨平台** | 2.21.4<br>6.1 | jar修改工具 |
 | [RegexBuddy 4 crack](https://leon.lanzoue.com/ih6KR2xjqtqb)   [试用](http://download.jgsoft.com/buddy/SetupRegexBuddyDemo.exe)  [官网](https://www.regexbuddy.com/download.html) | 4.14.3 | 正则工具 |
-|  |  |  |
-| | | |
 
 
 
@@ -121,7 +117,6 @@
 | [WindowTabs](https://github.com/leafOfTree/WindowTabs/releases) ![github](icon/github.png) | 2024.10.13 | 应用多窗口化 |
 | [Qalcualte](https://github.com/Qalculate/qalculate-gtk/releases) ![github](icon/github.png) | 5.5.1 | 科学计算器 |
 | [NETworkManager](https://github.com/BornToBeRoot/NETworkManager/releases) ![github](icon/github.png) |  2025.4.12.0  | 网络工具 |
-|  |  |  |
 
 
 
@@ -132,7 +127,6 @@
 | [R-Studio Network](https://www.lanzoub.com/b06lrnsfg)        | 9.3.191460 | 文件恢复   |
 | [AIDA](https://www.lanzoub.com/b06lweyad)                    | 7.60.7300  | 系统检测   |
 | [ventoy](https://github.com/ventoy/Ventoy/releases)![github](icon/github.png) |   1.1.05   | 系统启动盘 |
-|                                                              |            |            |
 
 
 
@@ -143,7 +137,6 @@
 | [xnconvert](https://www.xnview.com/en/xnconvert/#downloads)  | 1.105.0  | 图片格式转换汉化工具 |
 | [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html) [ew3u](https://pan.lanzoub.com/b06llfb9e?pwd=ew3u) | 5.21.0.0 | 音视频格式转换       |
 | [FFmpeg Batch AV Converter](https://sourceforge.net/projects/ffmpeg-batch/files/latest/download) |  3.2.3   | 音视频批量多线程转换 |
-|                                                              |          |                      |
 
 
 
@@ -153,7 +146,6 @@
 | ---------------- | :-----------: | -------- |
 | Sisulizer 4      | 4.0(build374) | 汉化工具 |
 | SDL Passolo 2018 |    18.0.97    | 汉化工具 |
-|                  |               |          |
 
 
 
@@ -163,7 +155,6 @@
 | ------------------------------------------------------------ | :---: | --------------- |
 | GearNT                                                       | 0.4.6 | 变速齿轮        |
 | [CheatEngine ![github](icon/github.png)](https://github.com/cheat-engine/cheat-engine/releases) |  7.6  | 内存修改 + 变速 |
-|                                                              |       |                 |
 
 
 
@@ -180,7 +171,6 @@
 | [FontViewOk](http://www.softwareok.com/?seite=Freeware/FontViewOK/Autoupdate) |  8.68   | 字体预览                          |
 | [softCnKiller](https://www.lanzoub.com/b0cpu1guf)            |  2.82   | 流氓软件检测                      |
 | [直播Simple Live](https://github.com/xiaoyaocz/dart_simple_live/releases)  **跨平台**📱Flutter |  1.8.6  | 斗鱼、虎牙、b站、抖音直播平台聚合 |
-|                                                              |         |                                   |
 
 
 
@@ -193,7 +183,6 @@
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/download/success)<br>minicoda (非 ai大数据方向推荐，＜70 pkgs, ＜500 M) | 3.9.22 3.13.3<br/>2022.10 (3.9.13)<br>2024.10-1 | 建议3.9版本,3.10+第三方库可能存在兼容问题 |
 | [git](https://git-scm.com/)                                  |                     2.49.0                      |                                           |
 | [nodejs](https://nodejs.org/en)                              |                   22.16.0 LTS                   |                                           |
-|                                                              |                                                 |                                           |
 
 
 
