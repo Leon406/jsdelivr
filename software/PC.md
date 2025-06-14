@@ -1,4 +1,4 @@
-2025年6月6日09:49:43
+2025年6月14日12:28:55
 
 ## 生产力工具
 
@@ -10,12 +10,12 @@
 | [Everything](https://www.voidtools.com/zh-cn/)               | 1.4.1.1027  |                                                              |
 | [espanso](https://github.com/espanso/espanso/releases/latest) ![github](icon/github.png) **跨平台** |    2.2.3    | 文字扩展                                                     |
 | [Listary](https://www.listary.com/)                          |     6.3     | 启动器                                                       |
-| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台📱** | 25.04.03033 | 脑图                                                         |
+| [Xmind](https://www.xmind.cn/desktop/release-notes/) **跨平台📱** | 25.04.03523 | 脑图                                                         |
 | [PowerToys![github](icon/github.png)](https://github.com/microsoft/PowerToys/releases/latest) [功能介绍](https://learn.microsoft.com/zh-cn/windows/powertoys/video-conference-mute) |   0.91.1    | 微软官方工具集                                               |
 | [obsidian](https://obsidian.md/) [github![github](icon/github.png)](https://github.com/obsidianmd/obsidian-releases/releases/latest) |   1.8.10    | 笔记软件,需自行选用同步软件                                  |
 | [Lucy](https://www.yuque.com/lucy/lucy/record)  [lanzou](https://lucy.lanzouw.com/b015ebrti) |    1.8.6    | 快速启动                                                     |
 | [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) [github![github](icon/github.png)](https://github.com/hiroi-sora/Umi-OCR/releases/latest) |    2.1.5    | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
-| [eSearch![github](icon/github.png)](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** |   14.7.4    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
+| [eSearch![github](icon/github.png)](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** |   14.9.0    | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
 | [localsend ![github](icon/github.png)](https://github.com/localsend/localsend/releases/latest)  **跨平台📱** |   1.17.0    | 文件传输                                                     |
 
 
@@ -24,11 +24,11 @@
 
 | 软件                                                      |  版本   | 说明             |
 | --------------------------------------------------------- | :-----: | ------------------ |
-| [IDM](http://www.internetdownloadmanager.com/news.html)  [cracker](https://leon.lanzoue.com/iy5Vl20zosza) 🔄 | 6.42.40 | 下载工具 |
+| [IDM](http://www.internetdownloadmanager.com/news.html)  [cracker](https://leon.lanzoue.com/iy5Vl20zosza) 🔄 | 6.42.41 | 下载工具 |
 | [xdown](https://xdown.org)  [log](https://xdown.org/Updatelog/) 🔄 | 2.0.9.4 | 下载工具  自动升级 |
 | [蓝奏云盘](https://github.com/Leon406/lanzou-gui) |  0.6.13  | 蓝奏云客户端    |
 | [FDM](https://www.freedownloadmanager.org/zh/download.htm) 跨平台 | 6.28.0 | 免费下载工具 |
-| [AB Download Manager](https://abdownloadmanager.com/)  Win + Linux [github![github](icon/github.png)](https://github.com/amir1376/ab-download-manager/releases) | 1.6.3 | 开源下载工具 kotlin compose |
+| [AB Download Manager](https://abdownloadmanager.com/)  Win + Linux [github![github](icon/github.png)](https://github.com/amir1376/ab-download-manager/releases) | 1.6.4 | 开源下载工具 kotlin compose |
 | [Neat Download Manager](https://www.neatdownloadmanager.com/index.php/en/) Win + Mac | 1.4 | 免费下载工具，文件小 |
 
 
@@ -55,13 +55,13 @@
 | 软件                                                         |   版本   | 说明                                          |
 | ------------------------------------------------------------ | :------: | --------------------------------------------- |
 | [NMAP](https://nmap.org/dist/?C=M&O=D) [release notes](https://nmap.org/changelog.html) **跨平台** |   7.97   | ip端口扫描                                    |
-| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2025.5.1 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
+| [Burp Suite](https://portswigger.net/burp/releases)  [汉化](https://github.com/Leon406/BurpSuiteCN-Release) **跨平台** | 2025.5.3 | 渗透 2023.1.2/2023.2.2版本开始不支持win10以下 |
 
 ## 科学
 
 | 软件                                                         |  版本  | 说明        |
 | ------------------------------------------------------------ | :----: | ------------- |
-| [Telegram](https://github.com/telegramdesktop/tdesktop/releases) ![github](icon/github.png) 🔄 **跨平台** | 5.15.2 | 聊天          |
+| [Telegram](https://github.com/telegramdesktop/tdesktop/releases) ![github](icon/github.png) 🔄 **跨平台** | 5.15.4 | 聊天          |
 | [SwitchHosts](https://github.com/oldj/SwitchHosts/releases/latest)  ![github](icon/github.png) **跨平台** | 4.2.0 | hosts切换工具 |
 | [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) ![github](icon/github.png) | 2.3.0 | |
 | [v2rayN](https://github.com/2dust/v2rayN/releases) ![github](icon/github.png)<br>[v2ray-core](https://github.com/v2fly/v2ray-core/releases) ![github](icon/github.png) |  7.12.5<br>5.33.0  | v2ray ss工具<br>v2ray core |
@@ -76,13 +76,13 @@
 | [Navicat Premium](https://navicat.com/en/products/navicat-premium-release-note)   **跨平台**<br>[下载](https://www.navicat.com/en/download/navicat-premium)<br> [cracker](https://leon.lanzoue.com/ipUFk26mfggd) | **17.2**.7 | 数据库工具 <br>软件内更新后重新打补丁 |
 | SQLyog12.5                                                   |  12.5   | Mysql终端                             |
 | [Beyond Compare](http://www.scootersoftware.com)           |  5.0.7  | 文件比对同步工具,备份                   |
-| [escrcpy](https://github.com/viarotel-org/escrcpy/releases/latest)  ![github](icon/github.png)更新快<br/>[QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) ![github](icon/github.png)  <br>[scrcpy](https://github.com/Genymobile/scrcpy/releases/latest)  ![github](icon/github.png)**跨平台** |  1.29.6<br/>3.1.3<br>3.2  | Android 投屏电脑                      |
+| [escrcpy](https://github.com/viarotel-org/escrcpy/releases/latest)  ![github](icon/github.png)<br/>[QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases/latest) ![github](icon/github.png)  <br>[scrcpy](https://github.com/Genymobile/scrcpy/releases/latest)  ![github](icon/github.png)**跨平台** |  1.29.6<br/>3.2.0<br>3.3  | Android 投屏电脑                      |
 | [Source Insight](https://www.sourceinsight.com/trial/)    [crack](https://www.52pojie.cn/thread-1138545-1-1.html) | 4.0.0139 | 源码阅读                              |
 | [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/releases/latest) ![github](icon/github.png) **跨平台** |  1.7.1  | redis工具                             |
 | [VSCode ![github](icon/github.png)](https://github.com/microsoft/vscode/releases/latest) | 1.98.2 | 编辑器                                |
 | [Notepad++](https://notepad-plus-plus.org/downloads/)  [github ![github](icon/github.png)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) | 8.8.1 | 文本编辑 |
 | [EmEditor ](https://www.emeditor.com/download/) | 25.1.3 | 编辑器 支持大文件 |
-| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.7.8 | 接口测试 |
+| [ApiFox](https://www.apifox.cn/help/app/changelog/)  [在线版](https://www.apifox.cn/web) **跨平台** :star: | 2.7.17 | 接口测试 |
 | [ApiPost](https://www.apipost.cn/download.html) [在线版](https://console.apipost.cn/apis/project) **跨平台** |  8.1.15  | 接口测试                              |
 | [GithubDesktop](https://desktop.github.com/release-notes/)  [汉化](https://pan.lanzoub.com/b06mtfjkh) |  3.4.20  | github 桌面端                         |
 | [ToolsFx](https://github.com/Leon406/ToolsFx) ![github](icon/github.png) **跨平台** | 1.18.0 | 个人开发的开发者工具 |
@@ -97,8 +97,7 @@
 | 软件                                                         |          版本          | 说明          |
 | ------------------------------------------------------------ | :--------------------: | --------------- |
 | [FastStoneCapure](http://www.faststone.org/)                 |          11.0          | 截图编辑工具    |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.8.8         | 图片查看        |
-| [ToDesk](https://www.todesk.com/download.html)  **跨平台**      | 4.7.6.3 | 远程控制 速度快 |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)  **跨平台**    |         1.9.2         | 图片查看        |
 | [AnyTXT Searcher](https://anytxt.net/download/)              |        1.3.1949        | 全文文本搜索    |
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases) ![github](icon/github.png) |         2.41.1         | gif 制作工具    |
 | [WizTree](http://diskanalyzer.com/?ref=wiztree) |       4.25       | 硬盘空间分析    |
@@ -178,7 +177,7 @@
 
 | 软件                                                         |                      版本                       | 说明                                      |
 | ------------------------------------------------------------ | :---------------------------------------------: | ----------------------------------------- |
-| .[NET 10](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)<br/>[.NET8 (LTS 2026/11)](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0) <br><del>[.NET6 (LTS 2024/11)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)</del> |                8.0.16<br/>6.0.36                |                                           |
+| .[NET 10](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)<br/>[.NET8 (LTS 2026/11)](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0) <br> |                   8.0.17<br/>                   |                                           |
 | [java](https://www.oracle.com/java/technologies/downloads/#java17)<br>[旧版归档](https://www.oracle.com/java/technologies/downloads/archive/)<br/> |    8u451<br/>11.0.27<br/>17.0.15<br/>21.0.7     | [whichjdk.com](https://whichjdk.com/)     |
 | [python](https://www.python.org/downloads/)<br/>[anaconda](https://www.anaconda.com/download/success)<br>minicoda (非 ai大数据方向推荐，＜70 pkgs, ＜500 M) | 3.9.22 3.13.3<br/>2022.10 (3.9.13)<br>2024.10-1 | 建议3.9版本,3.10+第三方库可能存在兼容问题 |
 | [git](https://git-scm.com/)                                  |                     2.49.0                      |                                           |
