@@ -8,8 +8,8 @@
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.04.30 支持123pan 最新域名123684.com
-// @connect      lanzoum.com
+// @note         2025.06.19 lanzoum异常
+// @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
 // @connect      aliyundrive.com
@@ -240,10 +240,10 @@
             lanzou: {
                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?\blanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lan(?:zou?|.v|z).?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
-                aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoum"],
-                prefix: "https://www.lanzoum.com/",
+                aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoue"],
+                prefix: "https://www.lanzoue.com/",
                 checkFun: (shareId, callback) => {
-                    let url = shareId.includes("http") ? shareId : "https://www.lanzoum.com/" + shareId;
+                    let url = shareId.includes("http") ? shareId : "https://www.lanzoue.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
