@@ -57,6 +57,7 @@
 - 800 特粗 Extra Bold (Ultra Bold)
 - 900 浓体 Black (Heavy)
 - 950 特浓 Extra Black (Ultra Black)
+- 1000 Fat
 
 ## css3引入字体
 
@@ -96,20 +97,20 @@ div {
 
 ## 中文字体
 
-| **字体**                                                     | **类型**     | **版本** | **说明**                                                     |
-| ------------------------------------------------------------ | ------------ | -------- | ------------------------------------------------------------ |
-| [**HarmonyOS Sans**](https://developer.huawei.com/consumer/cn/design/resource-V1/) | 中文         |          | **华为和汉仪字库合作定制**                                   |
-| [Honor Sans](https://developer.honor.com/cn/doc/guides/100681) | ****中文**** |          | 荣耀联合方正字库共同开发，是 MagicOS 系统字体                |
-| **[MiSans](https://hyperos.mi.com/font/zh/download/)**       | 中文         |          | 小米兰亭Pro的升级版、替换版                                  |
-| [**Oppo Sans**](https://www.coloros.com/article/A00000074/)  | 中文         | 4.0      | **与国内知名字体厂商「汉仪」合作开发出的富有现代感和科技感的全新中文字库** |
-| [Vivo Sans](https://developers.vivo.com/doc/d/314fa33cbaec4a93be351cd44757d9d9) | 中文         |          | vivo与方正字库携手设计                                       |
-| **[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)**           | CJK          | 1.520    |                                                              |
-| **[思源宋体](https://github.com/adobe-fonts/source-han-serif)** | CJK          | *2.003*  |                                                              |
-| <del>[未来荧黑](https://github.com/welai/glow-sans)</del>    | CJK          |          | 基于思源黑体、Fira Sans 和 Raleway 的开源字体项目<br>**2023.8 归档不更新** |
-| **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK          | 1.0.31   | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
-| [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK          |          | **无法商用**，支持汉字最全,支持Unicode15.1                   |
-| [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |              |          | WFG, **无法商用**，支持汉字最全,支持Unicode15.1              |
-| [全字库](https://magiclen.org/zh-tw-font/)                   |              |          |                                                              |
+| **字体**                                                     | **类型** | **版本** | **说明**                                                     |
+| ------------------------------------------------------------ | -------- | -------- | ------------------------------------------------------------ |
+| [**HarmonyOS Sans**](https://developer.huawei.com/consumer/cn/design/resource-V1/) | 中文     |          | **华为和汉仪字库合作定制**                                   |
+| [Honor Sans](https://developer.honor.com/cn/doc/guides/100681) | 中文     |          | 荣耀联合方正字库共同开发，是 MagicOS 系统字体                |
+| **[MiSans](https://hyperos.mi.com/font/zh/download/)**       | 中文     |          | [与汉仪字库联合开发](https://hyperos.mi.com/font/zh/about/)，是小米兰亭Pro （与方正字库共同开发）的升级版、替换版 |
+| [**Oppo Sans**](https://www.coloros.com/article/A00000074/)  | 中文     | 4.0      | **与国内知名字体厂商「汉仪」合作开发出的富有现代感和科技感的全新中文字库** |
+| [Vivo Sans](https://developers.vivo.com/doc/d/314fa33cbaec4a93be351cd44757d9d9) | 中文     |          | vivo与方正字库携手设计                                       |
+| **[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)**           | CJK      | 1.520    |                                                              |
+| **[思源宋体](https://github.com/adobe-fonts/source-han-serif)** | CJK      | *2.003*  |                                                              |
+| <del>[未来荧黑](https://github.com/welai/glow-sans)</del>    | CJK      |          | 基于思源黑体、Fira Sans 和 Raleway 的开源字体项目<br>**2023.8 归档不更新** |
+| **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK      | 1.0.31   | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
+| [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      |          | **无法商用**，支持汉字最全,支持Unicode15.1                   |
+| [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |          |          | WFG, **无法商用**，支持汉字最全,支持Unicode15.1              |
+| [全字库](https://magiclen.org/zh-tw-font/)                   |          |          |                                                              |
 
 ## [编程字体选择](https://www.programmingfonts.org/)
 
