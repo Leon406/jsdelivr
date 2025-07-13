@@ -77,7 +77,7 @@ div {
 | **字体**                                         | 系统   | 类型       | **说明**                                                     |
 | ------------------------------------------------ | ------ | ---------- | ------------------------------------------------------------ |
 | Arial                                            | Win    |            | Helvetica的「克隆」，和Helvetica非常像，细节上比如R和G有小小差别。<br> **Windows 系统默认字体** |
-| **Microsoft YaHei**                              | Win    |            | 微软雅黑，**Windows 系统默认的中文字体**，也是最常见的中文字体 |
+| **Microsoft YaHei**                              | Win    |            | 微软雅黑，**Windows 系统默认的中文字体**，也是最常见的中文字体，委托方正开发 |
 | Helvetica                                        | Mac    |            | 被评为设计师最爱的字体，Realist风格，简洁现代的线条，非常受到追捧。在Mac下面被认为是最佳的网页字体<br>**Mac 系统的默认无衬线英文字体** |
 | **Helvetica Neue**                               | Mac    |            | **Mac 系统 Helvetica 字体改善版本**，且增加了更多不同粗细与宽度的字形 |
 | **PingFang SC**                                  | Mac    |            | **苹果专为中国用户打造的中文字体**，也是 UI 设计师做界面默认使用的字体 |
@@ -114,21 +114,21 @@ div {
 
 ## [编程字体选择](https://www.programmingfonts.org/)
 
-| **字体**                                                     | **类型** | **版本** | **说明**                                                     |
-| ------------------------------------------------------------ | -------- | -------- | ------------------------------------------------------------ |
-| **[JetBrains Mono](https://www.jetbrains.com/lp/mono/) github** | 英文     | 2.304    | **支持ligature**                                             |
-| **[FiraCode](https://github.com/tonsky/FiraCode)**           |          | 6.2      | **支持ligature**                                             |
-| **[Cascadia Code](https://github.com/microsoft/cascadia-code/releases)** |          | 2407.24  | **终端**                                                     |
-| **[Source Code Pro](https://github.com/adobe-fonts/source-code-pro)** |          | 2.042    | **无衬线字体,被Adobe 公司号称最佳的编程字体**                |
-| **[Maple-font](https://github.com/subframe7536/Maple-font)** | 中英     | 7.4      | **中英文严格2:1等宽字体,支持ligature**                       |
-| **[Hack](https://github.com/source-foundry/Hack)**           |          | 3.003    | **源码,行间距比Consolas略高，字体圆滑，颜值还是很高**        |
-| **Courier New(CN)**                                          |          |          | **Windows 的缺省等宽字体**                                   |
-| **Consolas**                                                 |          |          | **CN的升级**,Consolas更窄，能够在较少的空间显示更多的内容。<br>同时Consolas也是**VS系列默认字体** |
-| **[Monaco](https://github.com/vjpr/monaco-bold)**            |          |          | **号称苹果出品最好的编程字体**                               |
-| **[intel-one-mono](https://github.com/intel/intel-one-mono)** |          | 1.4.0    |                                                              |
-| [monaspae](https://github.com/githubnext/monaspace)          |          | 1.200    | github 编程字体                                              |
-| [losevka](https://github.com/be5invis/Iosevka)               |          | 33.2.6   | 编程字体                                                     |
-|                                                              |          |          |                                                              |
+| **字体**                                                     | **类型** | **版本**                                                     | **说明**                                                     |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[JetBrains Mono](https://www.jetbrains.com/lp/mono/) github** | 英文     | <a href="https://github.com/JetBrains/JetBrainsMono/releases/latest"><img src="https://img.shields.io/github/release/JetBrains/JetBrainsMono.svg"/></a> | **支持ligature**                                             |
+| **[FiraCode](https://github.com/tonsky/FiraCode)**           |          | 6.2                                                          | **支持ligature**                                             |
+| **[Cascadia Code](https://github.com/microsoft/cascadia-code/releases)** |          | <a href="https://github.com/microsoft/cascadia-code/releases/latest"><img src="https://img.shields.io/github/release/microsoft/cascadia-code.svg"/></a> | **终端**                                                     |
+| **[Source Code Pro](https://github.com/adobe-fonts/source-code-pro)** |          | <a href="https://github.com/adobe-fonts/source-code-pro/releases/latest"><img src="https://img.shields.io/github/release/adobe-fonts/source-code-pro.svg"/></a> | **无衬线字体,被Adobe 公司号称最佳的编程字体**                |
+| **[Maple-font](https://github.com/subframe7536/Maple-font)** | 中英     | <a href="https://github.com/subframe7536/Maple-font/releases/latest"><img src="https://img.shields.io/github/release/subframe7536/Maple-font.svg"/></a> | **中英文严格2:1等宽字体,支持ligature**                       |
+| **[Hack](https://github.com/source-foundry/Hack)**           |          | 3.003                                                        | **源码,行间距比Consolas略高，字体圆滑，颜值还是很高**        |
+| **Courier New(CN)**                                          |          |                                                              | **Windows 的缺省等宽字体**                                   |
+| **Consolas**                                                 |          |                                                              | **CN的升级**,Consolas更窄，能够在较少的空间显示更多的内容。<br>同时Consolas也是**VS系列默认字体** |
+| **[Monaco](https://github.com/vjpr/monaco-bold)**            |          |                                                              |                                                              |
+| **[intel-one-mono](https://github.com/intel/intel-one-mono)** |          | <a href="https://github.com/intel/intel-one-mono/releases/latest"><img src="https://img.shields.io/github/release/intel/intel-one-mono.svg"/></a> |                                                              |
+| [monaspae](https://github.com/githubnext/monaspace)          |          | <a href="https://github.com/githubnext/monaspace/releases/latest"><img src="https://img.shields.io/github/release/githubnext/monaspace.svg"/></a> | github 编程字体                                              |
+| [losevka](https://github.com/be5invis/Iosevka)               |          | <a href="https://github.com/be5invis/Iosevka/releases/latest"><img src="https://img.shields.io/github/release/be5invis/Iosevka.svg"/></a> | 编程字体                                                     |
+|                                                              |          |                                                              |                                                              |
 
 
 
