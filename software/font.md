@@ -16,7 +16,7 @@
 
   > 通过程序可以任意调整字重、倾斜度，甚至拉伸程度，而字体文件体积却更小。
 
-- *EOT (Embedded Open Type)* 
+- *EOT (Embedded Open Type)*  **IE浏览器专用**
 
   > 微软设计用来在 Web 上使用的字体。是一个在网页上试图绕过 TTF 和 OTF 版权的方案。你可以使用微软的工具从现有的 TTF/OTF 字体转成 EOT 字体使用，其中对字体进行压缩和裁剪使得文件体积更小。同时为了避免一些收版权保护的字体被随意复制，EOT 还集成了一些特性来阻止复制行为，以及对字体文件进行加密保护。可惜 EOT 格式只有 [IE 支持](https://caniuse.com/?search=eot)
 
@@ -24,11 +24,11 @@
 
   > 使用 SVG 的字体元素定义。这些字体包含作为标准 SVG 元素和属性的字形轮廓，就像它们是 SVG 映像中的单个矢量对象一样。SVG 字体最大的缺点是缺少字体提示（font-hinting）。字体提示是渲染小字体时为了质量和清晰度额外嵌入的信息。同时，SVG 对文本（body text）支持并不是特别好。因为 SVG 的文本选择（text selection）目前在 Safari、Safari Mobile 和 Chrome 的一些版本上完全崩坏，所以你不能选择单个字符、单词或任何自定义选项，你只能选择整行或段落文本。
 
-- [WOFF](https://caniuse.com/?search=woff)（Web Open Font Format, **主流兼容**）
+- [WOFF](https://caniuse.com/?search=woff)（Web Open Font Format, **主流兼容**）**网页字体**
 
   > 使用zlib压缩，文件大小一般比 TTF 小 40%。flate算法压缩
 
-- [WOFF2](https://caniuse.com/?search=woff2)
+- [WOFF2](https://caniuse.com/?search=woff2)  **网页字体**
 
   > 在 WOFF1 的基础上，进一步优化了体积压缩，带宽需求更少，同时可以在移动设备上快速解压。 Brotli 算法压缩
 
@@ -43,6 +43,17 @@
 - `fantasy`: 奇幻字体
 - `system-ui`: 系统UI字体
 
+|          **操作系统**           |   **默认 Sans-serif**<br> **(无衬线体)**   |          默认 Serif <br>(衬线体)          |                           **备注**                           |
+| :-----------------------------: | :----------------------------------------: | :---------------------------------------: | :----------------------------------------------------------: |
+|           **Windows**           | Segoe UI   <br>微软雅黑（Microsoft YaHei） |        Georgia<br/> 宋体 (SimSun)         | `Segoe UI` 是从 Vista 开始的现代UI字体。<br/>`微软雅黑` 也是。<br/>更早的系统会用 `Arial` 和 `Times New Roman`。 |
+| **macOS<br/>iOS (iPhone/iPad)** |   San Francisco <br/>苹方 (PingFang SC)    |    New York <br/> 宋体-简 (Songti SC)     | `San Francisco` 是 Apple 的新宠，非常漂亮。<br/>之前是 `Helvetica Neue`。<br/>`苹方` 也是现代 macOS 和 iOS 的标配中文字体。 |
+|            **Linux**            |                  *不统一*                  |                 *不统一*                  | Linux 世界比较多样，但很多发行版会使用 `Noto` 字体作为后备。 |
+|           **Android**           |    Roboto<br/> 思源黑体 (Noto Sans CJK)    | Noto Serif<br/> 思源宋体 (Noto Serif CJK) | Roboto 是 Google 设计的，非常现代化。<br/>Noto (No Tofu) 系列是 Google 为了<br/>覆盖全球所有语言而设计的，非常强大。 |
+|      **HarmonyOS / EMUI**       |        HarmonyOS Sans<br>Honor Sans        |                     /                     | 华为自研，设计感现代，覆盖多语言。是目前华为/荣耀设备的主力字体。 |
+|   **小米** **MIUI / HyperOS**   |                   MiSans                   |                     /                     | **开源免费商用！**设计圆润，可读性高。很多开发者和设计师都喜欢它。 |
+|   **OriginOS / Funtouch OS**    |                 vivo sans                  |                     /                     |     vivo 自家的定制字体，与系统 UI 结合紧密，风格柔和。      |
+|        OPPO **ColorOS**         |                 OPPO Sans                  |                     /                     | **开源免费商用！** 非常优雅现代，字形偏瘦长，具有很高的品牌辨识度。 |
+
 
 
 ## 字重
@@ -50,10 +61,10 @@
 - 100  淡体 Thin (Hairline)
 - 200 特细 Extra Light (Ultra Light)
 - 300 细体 Light
-- 400 标准 Normal (Regular)
+- **400** **标准 Normal** (**Regular**)
 - 500 适中 Medium
 - 600 次粗 Semi Bold (Demi Bold)
-- 700 粗体 Bold
+- **700 粗体 Bold**
 - 800 特粗 Extra Bold (Ultra Bold)
 - 900 浓体 Black (Heavy)
 - 950 特浓 Extra Black (Ultra Black)
@@ -89,7 +100,6 @@ div {
 | Open Sans                                        |        |            | 可读性强、中性和极简主义的字体                               |
 | Roboto                                           |        |            | 一种友好且专业的字体,是Android 和其他谷歌服务的默认字体      |
 | Verdana                                          |        |            |                                                              |
-| **sans-serif**                                   |        |            | 无衬线字族，当所有的字体都找不到时，可以使用字体族名称作为操作系统最后选择字体的方向。 |
 | [Bookerly](https://typedetail.com/bookerly.html) | Kindle | 英文 Serif | 亚马逊为Kindle设备专门设计的一种**数字阅读字体**。它有着清晰的字形和舒适的阅读体验，特别适合长时间阅读。这种字体的空间利用率非常高，能够在较小的字号下保持良好的可读性，为数字阅读体验带来了很大的提升。 |
 | Optima                                           |        | sans-serif | 所有字形都是按照**黄金比例设计**的，这使其具有高度的美感和和谐性。其笔画粗细对比强烈，但整体看起来却非常协调，字宽中等，易于识别 |
 
@@ -106,11 +116,13 @@ div {
 | [Vivo Sans](https://developers.vivo.com/doc/d/314fa33cbaec4a93be351cd44757d9d9) | 中文     |                                                              | vivo与方正字库携手设计                                       |
 | **[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)**           | CJK      | <a href="https://github.com/lxgw/LxgwWenKai/releases/latest"><img src="https://img.shields.io/github/release/lxgw/LxgwWenKai.svg"/></a> |                                                              |
 | **[思源宋体](https://github.com/adobe-fonts/source-han-serif)** | CJK      | <a href="https://github.com/adobe-fonts/source-han-serif/releases/latest"><img src="https://img.shields.io/github/release/adobe-fonts/source-han-serif.svg"/></a> |                                                              |
+| [思源黑体](https://github.com/adobe-fonts/source-han-sans)   | CJK      | <a href="https://github.com/adobe-fonts/source-han-sans/releases/latest"><img src="https://img.shields.io/github/release/adobe-fonts/source-han-sans.svg"/></a> |                                                              |
 | <del>[未来荧黑](https://github.com/welai/glow-sans)</del>    | CJK      |                                                              | 基于思源黑体、Fira Sans 和 Raleway 的开源字体项目<br>**2023.8 归档不更新** |
 | **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK      | <a href="https://github.com/be5invis/Sarasa-Gothic/releases/latest"><img src="https://img.shields.io/github/release/be5invis/Sarasa-Gothic.svg"/></a> | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
 | [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      |                                                              | **无法商用**，支持汉字最全,支持Unicode15.1                   |
 | [全宋体](https://fgwang.blogspot.com/2018/02/blog-post.html) |          |                                                              | WFG, **无法商用**，支持汉字最全,支持Unicode15.1              |
 | [全字库](https://magiclen.org/zh-tw-font/)                   |          |                                                              |                                                              |
+| [文津宋体](https://github.com/takushun-wu/WenJinMincho)      | CJK      | <a href="https://github.com/takushun-wu/WenJinMincho/releases/latest"><img src="https://img.shields.io/github/release/takushun-wu/WenJinMincho.svg"/></a> | 支持Unicode15.1 和 Unicode 17                                |
 
 ## [编程字体选择](https://www.programmingfonts.org/)
 
