@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      2025.04.30
+// @version      2025.08.05
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.06.19 lanzoum异常
+// @note         2025.08.05 修复lanzou部分页面状态错误
 // @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -240,10 +240,10 @@
             lanzou: {
                 reg: /(?:https?:\/\/)?(?:[\w\-]+\.)?\blanzou.?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
                 replaceReg: /(?:https?:\/\/)?(?:[\w\-]+\.)?lan(?:zou?|.v|z).?\.com\/([\w\-]{7,})(?!\.)(?:\/)?/gi,
-                aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "www.lanzoue"],
-                prefix: "https://www.lanzoue.com/",
+                aTagRepalce: [/(?:[\w\-]+\.)?lanzou.?/, "leon.lanzoue"],
+                prefix: "https://leon.lanzoue.com/",
                 checkFun: (shareId, callback) => {
-                    let url = shareId.includes("http") ? shareId : "https://www.lanzoue.com/" + shareId;
+                    let url = shareId.includes("http") ? shareId : "https://leon.lanzoue.com/" + shareId;
                     http.ajax({
                         type: "get",
                         url: url,
@@ -254,7 +254,7 @@
                                 state = 0
                             } else if (response.includes("输入密码")) {
                                 state = 2;
-                            } else if (response.includes("来晚啦") || response.includes("不存在")) {
+                            } else if (response.includes("来晚啦") || response.includes("不存在") || response.includes("链接失效")) {
                                 state = -1;
                             }
                             callback && callback({
