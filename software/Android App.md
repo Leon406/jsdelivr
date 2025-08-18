@@ -1,4 +1,4 @@
-2025年7月10日15:34:20
+2025年8月18日18:34:01
 
 ## 系统管理
 
@@ -35,7 +35,7 @@
 | 软件名称                                                     | 版本                                                         | 描述       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | [MX Player Pro](https://pan.lanzoub.com/b0f19eo3c)           | 1.86                                                         | 视频播放   |
-| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 8.80                                                         | 网页壳应用 |
+| [海阔世界](https://haikuo.lanzoub.com/u/GoldRiver)           | 8.81                                                         | 网页壳应用 |
 | 阅读 [beta](https://www.lanzoub.com/b01rgkhhe) [github![github](icon/github.png)](https://github.com/gedoor/legado) [书源](https://legado.aoaostar.com/) [书源2](https://shuyuan.yiove.com/) | 3.25                                                         | 小说/漫画  |
 | [libretube![github](icon/github.png)](https://github.com/libre-tube/LibreTube/releases) | <a href="https://github.com/libre-tube/LibreTube/releases/latest"><img src="https://img.shields.io/github/release/libre-tube/LibreTube.svg"/></a> | 油管       |
 |                                                              |                                                              |            |
@@ -58,6 +58,15 @@
 | [Telegram](https://telegram.org/android)  [github![github](icon/github.png)](https://github.com/DrKLO/Telegram) | 11.13.0                                                      | 电报,加密通信  |
 | [NekoBoxForAndroid![github](icon/github.png)](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/) | <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest"><img src="https://img.shields.io/github/release/MatsuriDayo/NekoBoxForAndroid.svg"/></a> | 科学工具       |
 | [Gbox](https://www.gboxlab.com/)                             | 1.6.3.9                                                      | google框架安装 |
+|                                                              |                                                              |                |
+
+## Xposed
+
+| 软件名称                                                     | 版本                                                         | 描述           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
+| [FPA](https://t.me/QToolCI)                                  | 2.7                                                          | xposed模块加载 |
+| [hookvip![github](icon/github.png)](https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases/) | <a href="https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases/latest"><img src="https://img.shields.io/github/release/Xposed-Modules-Repo/top.hookvip.pro.svg"/></a> | VIP 解锁       |
+|                                                              |                                                              |                |
 |                                                              |                                                              |                |
 
 ## crack更新合集
