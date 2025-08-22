@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      2025.08.05
+// @version      2025.08.22
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.08.05 修复lanzou部分页面状态错误
+// @note         2025.08.22 更新依赖CDN
 // @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -22,8 +22,8 @@
 // @connect      115cdn.com
 // @exclude 	 *://baike.baidu.com/*
 // @exclude 	 *://github.com/marketplace/*
-// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js
-// @require      https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
+// @require      https://cdnjs.loli.net/ajax/libs/jquery/3.7.1/jquery.min.js
+// @require      https://cdnjs.loli.net/ajax/libs/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js
 // @run-at       document-start
 // @grant        GM_getValue
 // @grant        GM_setValue
