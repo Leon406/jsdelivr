@@ -1,13 +1,13 @@
-2025年8月18日18:34:01
+2025年8月27日15:47:56
 
 ## 系统管理
 
 | 软件名称                                                     | 版本    | 描述                                            |
 | ------------------------------------------------------------ | ------- | ----------------------------------------------- |
-| ES文件浏览器 [下载](https://pan.lanzoub.com/b0f1d7s2h)       | 4.4.3.1 | 文件管理工具                                    |
+| ES文件浏览器 [下载](https://pan.lanzoub.com/b0f1d7s2h)       | 4.4.3.2 | 文件管理工具                                    |
 | [Solid Explorer](https://pan.lanzoub.com/b0f19gdfa)          | 2.8.63  | 本地文件管理器，云服务管理器                    |
-| [N.P管理器](https://pan.lanzoub.com/b06m0cevg?pwd=aji6)  aji6 | 3.1.25  | 与MT管理器类似,都提供了反编译等安卓上逆向的功能 |
-| [Root Explorer](https://pan.lanzoub.com/b06ll1dfi?pwd=4qga)  4qga | 4.12.7  | 文件管理                                        |
+| [N.P管理器](https://pan.lanzoub.com/b06m0cevg?pwd=aji6)  aji6 | 3.1.31  | 与MT管理器类似,都提供了反编译等安卓上逆向的功能 |
+| [Root Explorer](https://pan.lanzoub.com/b06ll1dfi?pwd=4qga)  4qga | 4.12.8  | 文件管理                                        |
 |                                                              |         |                                                 |
 
 
@@ -25,7 +25,7 @@
 | [apkpure](https://www.lanzoub.com/b06ljuo9a?pwd=gjb2)  gjb2  | 3.20.20                                                      |                                                              |
 | [隐秘参数](https://myqqjd.lanzoub.com/b06mhavbi?pwd=el5k)  el5k | 2.8.7                                                        | 提供手机硬件检测和性能测试                                   |
 | [开发助手](https://pan.lanzoub.com/b06lmdxmd)                | 8.7.0                                                        |                                                              |
-| [WPS企业版](https://mo.wps.cn/pc-app/office-pro.html)        | 13.37.6                                                      | YA63N-2KPNK-FETLY-MKR89-TPJRE<br>2MEFP-YXMW9-W7AX9-KJG43-GVTFE<br>9PF3J-2RK3E-T9QWE-MC3QU-WEBKG |
+| [WPS企业版](https://mo.wps.cn/pc-app/office-pro.html)        | ![](https://img.shields.io/badge/dynamic/regex?label=version&search=Android\/moffice_(.*?)_.*?.apk&url=https://mo.wps.cn/pc-app/office-pro.html&replace=$1) | YA63N-2KPNK-FETLY-MKR89-TPJRE<br>2MEFP-YXMW9-W7AX9-KJG43-GVTFE<br>9PF3J-2RK3E-T9QWE-MC3QU-WEBKG |
 |                                                              |                                                              |                                                              |
 
 
@@ -55,9 +55,9 @@
 
 | 软件名称                                                     | 版本                                                         | 描述           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- |
-| [Telegram](https://telegram.org/android)  [github![github](icon/github.png)](https://github.com/DrKLO/Telegram) | 11.13.0                                                      | 电报,加密通信  |
+| [Telegram](https://telegram.org/android)  [github![github](icon/github.png)](https://github.com/DrKLO/Telegram) | ![Dynamic Regex Badge](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.telegram.messenger&search=%22(%5Cd%2B%5C.%5Cd%2B%5C.%5Cd%2B)%22&replace=%241&label=latest&color=0f0) | 电报,加密通信  |
 | [NekoBoxForAndroid![github](icon/github.png)](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/) | <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest"><img src="https://img.shields.io/github/release/MatsuriDayo/NekoBoxForAndroid.svg"/></a> | 科学工具       |
-| [Gbox](https://www.gboxlab.com/)                             | 1.6.3.9                                                      | google框架安装 |
+| [Gbox](https://www.gboxlab.com/)                             | ![](https://img.shields.io/badge/dynamic/regex?label=version&search=GBox-(.*?)-.*?website.apk&url=https://www.gboxlab.com/i18n/zh-Hant/&replace=$1) | google框架安装 |
 |                                                              |                                                              |                |
 
 ## Xposed
