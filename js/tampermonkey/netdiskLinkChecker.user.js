@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         网盘有效性检查
 // @namespace    https://github.com/Leon406/netdiskChecker
-// @version      2025.08.22
+// @version      2025.09.15
 // @icon         https://pan.baidu.com/ppres/static/images/favicon.ico
 // @author       Leon406
 // @license      AGPL-3.0-or-later
 // @match        *://*/*
 // @description  网盘助手,自动识别并检查链接状态,自动填写密码并跳转。现已支持 ✅百度网盘 ✅蓝奏云 ✅腾讯微云 ✅阿里云盘 ✅天翼云盘 ✅123网盘 ✅迅雷云盘 ✅夸克网盘 ✅奶牛网盘 ✅文叔叔 ✅115网盘 ✅移动彩云
 // @note         支持百度云、蓝奏云、腾讯微云、阿里云盘、天翼云盘、123网盘、夸克网盘、迅雷网盘、奶牛网盘、文叔叔、115网盘
-// @note         2025.08.22 更新依赖CDN
+// @note         2025.09.15 123网盘新域名 123912
 // @connect      lanzoue.com
 // @connect      baidu.com
 // @connect      weiyun.com
@@ -50,7 +50,7 @@
         "options_page": "https://github.com/Leon406/jsdelivr/blob/master/js/tampermonkey/%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E6%B5%8B%E8%AF%95.md"
     };
     var passMap = {};
-    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|alipan|123pan|123865|123684|189|quark|caiyun|xunlei|cowtransfer|wss|anxia|/gi;
+    var panRule = /lanzou|115|baidu|weiyun|aliyundrive|alipan|123pan|123865|123684|123912|189|quark|caiyun|xunlei|cowtransfer|wss|anxia|/gi;
     var excludingPwdHosts = ["pan.baidu.com", "baike.baidu.com"];
 
     function getQuery(param) {
@@ -350,9 +350,9 @@
                 }
             },
             pan123: {
-                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\b(?:pan123|123865)\.com\/s\/([\w\-]{8,})\b/gi,
-                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?(?:123pan|123865|123684)\.com\/s\/([\w\-]{8,})(\.html)?\b/gi,
-				aTagRepalce: [/www\.(123865|123684)\.com/, "www.123pan.com"],
+                reg: /(?:h?ttps?:\/\/)?(?:www\.)?\b(?:pan123|123865|123912)\.com\/s\/([\w\-]{8,})\b/gi,
+                replaceReg: /(?:h?ttps?:\/\/)?(?:www\.)?(?:123pan|123865|123684|123912)\.com\/s\/([\w\-]{8,})(\.html)?\b/gi,
+				aTagRepalce: [/www\.(123865|123684|123912)\.com/, "www.123pan.com"],
                 prefix: "https://www.123pan.com/s/",
                 checkFun: (shareId, callback) => {
                     logger.info("Pan123 check id " + shareId);
