@@ -143,7 +143,13 @@ div {
 | [losevka](https://github.com/be5invis/Iosevka)               |          | <a href="https://github.com/be5invis/Iosevka/releases/latest"><img src="https://img.shields.io/github/release/be5invis/Iosevka.svg"/></a> | 编程字体                                                     |
 |                                                              |          |                                                              |                                                              |
 
+## Emoji字体
 
+| **字体**                                                | **类型** | **版本**                                                     | **说明**           |
+| ------------------------------------------------------- | -------- | ------------------------------------------------------------ | ------------------ |
+| [Noto-emoji](https://github.com/googlefonts/noto-emoji) | emoji    | <a href="https://github.com/googlefonts/noto-emoji/releases/latest"><img src="https://img.shields.io/github/release/googlefonts/noto-emoji.svg"/></a> | **支持unicode 17** |
+|                                                         |          |                                                              |                    |
+|                                                         |          |                                                              |                    |
 
 # 参考
 
