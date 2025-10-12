@@ -1,5 +1,3 @@
-2025年8月27日13:42:04
-
 ## 生产力工具
 
 | 软件                                                         |                             版本                             | 说明                                                         |
@@ -17,6 +15,8 @@
 | [Umi-OCR](https://hiroi-sora.lanzoul.com/s/umi-ocr) [github![github](icon/github.png)](https://github.com/hiroi-sora/Umi-OCR/releases/latest) | <a href="https://github.com/hiroi-sora/Umi-OCR/releases/latest"><img src="https://img.shields.io/github/release/hiroi-sora/Umi-OCR.svg"/></a> | 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
 | [eSearch![github](icon/github.png)](https://github.com/xushengfeng/eSearch/releases/latest) **跨平台** | <a href="https://github.com/xushengfeng/eSearch/releases/latest"><img src="https://img.shields.io/github/release/xushengfeng/eSearch.svg"/></a> | 屏幕搜索功能，当然也是一款方便的截屏软件                     |
 | [localsend ![github](icon/github.png)](https://github.com/localsend/localsend/releases/latest)  **跨平台📱** | <a href="https://github.com/localsend/localsend/releases/latest"><img src="https://img.shields.io/github/release/localsend/localsend.svg"/></a> | 文件传输                                                     |
+| [UniGetUI ![github](icon/github.png)](https://github.com/marticliment/UniGetUI) | <a href="https://github.com/marticliment/UniGetUI/releases/latest"><img src="https://img.shields.io/github/release/marticliment/UniGetUI.svg"/></a> | 包管理器 图形化界面                                          |
+| [网易UU远程 ](https://uuyc.163.com/download/?source_channel=gwpf)**跨平台** |                                                              | 远程控制Windows                                              |
 
 
 
