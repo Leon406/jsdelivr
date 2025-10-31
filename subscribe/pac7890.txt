@@ -11,6 +11,7 @@ var rules = [
     [
         ["bing.com","microsoft.com","live.com"],
          [
+            "cloudflare.com",
             "lastpass.com",
             "groq.com"
          ]
