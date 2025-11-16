@@ -120,10 +120,11 @@ div {
 | [思源黑体](https://github.com/adobe-fonts/source-han-sans)   | CJK      | <a href="https://github.com/adobe-fonts/source-han-sans/releases/latest"><img src="https://img.shields.io/github/release/adobe-fonts/source-han-sans.svg"/></a> |                                                              |
 | <del>[未来荧黑](https://github.com/welai/glow-sans)</del>    | CJK      |                                                              | 基于思源黑体、Fira Sans 和 Raleway 的开源字体项目<br>**2023.8 归档不更新** |
 | **[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)**    | CJK      | <a href="https://github.com/be5invis/Sarasa-Gothic/releases/latest"><img src="https://img.shields.io/github/release/be5invis/Sarasa-Gothic.svg"/></a> | **由 Noto Sans / Iosevka 和思源黑体的汉字部分合并而来**<br>适合操作系统页面和编程字体 |
-| [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      | ![Dynamic Regex Badge](https://img.shields.io/badge/dynamic/regex?url=http%3A%2F%2Fcheonhyeong.com%2FSimplified%2Fdownload.html&search=%E7%9B%AE%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC%E4%B8%BA(%5Cd%2B%5C.%5Cd%2B)&replace=%241&label=ver&color=0f0) | **无法商用**，支持汉字最全,支持Unicode15.1                   |
-| [全宋体](https://fgwang.blogspot.com/2023/10/unicode-151.html) |          |                                                              | WFG, **无法商用**，支持汉字最全,支持Unicode15.1              |
-| [全字库](https://magiclen.org/zh-tw-font/)                   |          |                                                              |                                                              |
-| [文津宋体](https://github.com/takushun-wu/WenJinMincho)      | CJK      | <a href="https://github.com/takushun-wu/WenJinMincho/releases/latest"><img src="https://img.shields.io/github/release/takushun-wu/WenJinMincho.svg"/></a> | 支持Unicode15.1 和 Unicode 17                                |
+| [天珩字库](http://cheonhyeong.com/Simplified/download.html)  | CJK      | ![Dynamic Regex Badge](https://img.shields.io/badge/dynamic/regex?url=http%3A%2F%2Fcheonhyeong.com%2FSimplified%2Fdownload.html&search=%E7%9B%AE%E5%89%8D%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC%E4%B8%BA(%5Cd%2B%5C.%5Cd%2B)&replace=%241&label=ver&color=0f0) | [字海(叶典)](http://yedict.com/) **无法商用**，支持汉字最全,支持**Unicode 17** |
+| [全宋体](https://fgwang.blogspot.com/2023/10/unicode-151.html) |          |                                                              | WFG, **无法商用**，支持汉字最全,支持**Unicode 17**           |
+| [开心宋体](https://www.39017.com/zidian/bujian/KaiXinSong.php) | CJK      | 4.1                                                          | [国学大师](https://www.guoxuedashi.com/)  支持 Unicode 15.1  |
+| [全字库](https://www.cns11643.gov.tw/downloadList.jsp?ID=2)  |          |                                                              | 台湾                                                         |
+| [文津宋体](https://github.com/takushun-wu/WenJinMincho)      | CJK      | <a href="https://github.com/takushun-wu/WenJinMincho/releases/latest"><img src="https://img.shields.io/github/release/takushun-wu/WenJinMincho.svg"/></a> | **免费商用**， 支持 **Unicode 17**                           |
 
 ## [编程字体选择](https://www.programmingfonts.org/)
 
