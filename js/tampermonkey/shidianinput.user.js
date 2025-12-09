@@ -2,7 +2,7 @@
 // @name         识典古籍辅助输入
 // @namespace    http://tampermonkey.net/
 // @version      2025-12-07
-// @description  try to take over the world!
+// @description  辅助输入
 // @author       Leon406
 // @match        https://edit.shidianguji.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=shidianguji.com
