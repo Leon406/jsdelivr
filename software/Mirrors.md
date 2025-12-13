@@ -28,3 +28,5 @@
 ## 参考
 
 [chinese-opensource-mirror-site](https://github.com/SUSTech-CRA/chinese-opensource-mirror-site)
+
+[cmirror/assets/mirrors.json at master · ox01024/cmirror](https://github.com/ox01024/cmirror/blob/master/assets/mirrors.json)
